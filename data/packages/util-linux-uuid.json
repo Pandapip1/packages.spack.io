@@ -40,7 +40,7 @@
     ],
     "description": "Util-linux is a suite of essential utilities for any Linux system.\n",
     "homepage": "https://github.com/util-linux/util-linux",
-    "latest_version": "2.40.2",
+    "latest_version": "2.38.1",
     "maintainers": [],
     "name": "util-linux-uuid",
     "patches": [],
@@ -53,14 +53,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.40.2",
-            "sha256": "7bec316b713a14c6be1a5721aa0e56a3b6170277329e6e1f1a56013cc91eece0"
-        },
-        {
-            "name": "2.40.1",
-            "sha256": "8e396eececae2b3b68db232c33b8810faa7c31f6df19f98f512739293d5829b7"
-        },
         {
             "name": "2.38.1",
             "sha256": "0820eb8eea90408047e3715424bc6be771417047f683950fecb4bdd2e2cbbc6e"

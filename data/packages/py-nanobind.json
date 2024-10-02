@@ -24,10 +24,6 @@
             "name": "py-setuptools"
         },
         {
-            "description": "The typing_extensions module contains both backports of these changes as\nwell as experimental types that will eventually be added to the typing\nmodule, such as Protocol (see PEP 544 for details about protocols and\nstatic duck typing).",
-            "name": "py-typing-extensions"
-        },
-        {
             "description": "A built-package format for Python.",
             "name": "py-wheel"
         },
@@ -48,15 +44,11 @@
         {
             "description": "Python interface to the next generation FEniCS problem solving\nenvironment",
             "name": "py-fenics-dolfinx"
-        },
-        {
-            "description": "XLA library for Jax",
-            "name": "py-jaxlib"
         }
     ],
     "description": "nanobind is a small binding library that exposes C++ types in Python and\nvice versa. It is reminiscent of Boost.Python and pybind11 and uses\nnear-identical syntax. In contrast to these existing tools, nanobind is\nmore efficient: bindings compile in a shorter amount of time, produce\nsmaller binaries, and have better runtime performance.\n",
     "homepage": "https://nanobind.readthedocs.io",
-    "latest_version": "2.0.0",
+    "latest_version": "1.9.2",
     "maintainers": [
         "chrisrichardson",
         "garth-wells",
@@ -76,11 +68,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "commit": "8d7f1ee0621c17fa370b704b2100ffa0243d5bfb",
-            "name": "2.0.0",
-            "tag": "v2.0.0"
         },
         {
             "commit": "80a30c8efb093b14f0e744bc7f6a9ef34beb3f7f",

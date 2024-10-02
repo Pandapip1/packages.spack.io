@@ -18,10 +18,6 @@
             "name": "ascent"
         },
         {
-            "description": "A presentable text document format for writing articles, UNIX man pages\nand other small to medium sized documents.",
-            "name": "asciidoc"
-        },
-        {
             "description": "AWS ParallelCluster is an AWS supported Open Source cluster management\ntool to deploy and manage HPC clusters in the AWS cloud.",
             "name": "aws-parallelcluster"
         },
@@ -130,10 +126,6 @@
             "name": "emblmygff3"
         },
         {
-            "description": "The Earth System Modeling Framework (ESMF) is high-performance, flexible\nsoftware infrastructure for building and coupling weather, climate, and\nrelated Earth science applications. The ESMF defines an architecture for\ncomposing complex, coupled modeling systems and includes data structures\nand utilities for developing individual models. The National Unified\nOperational Prediction Capability (NUOPC) Layer defines a common model\narchitecture to support interoperable ESMF components. The NUOPC Layer\nis included with the ESMF package.",
-            "name": "esmf"
-        },
-        {
             "description": "Faiss is a library for efficient similarity search and clustering of\ndense vectors. Faiss contains algorithms that search in sets of vectors\nof any size, up to ones that possibly do not fit in RAM. It also\ncontains supporting code for evaluation and parameter tuning. Faiss is\nwritten in C++ with complete wrappers for Python/numpy. Some of the most\nuseful algorithms are implemented on the GPU. It is developed by\nFacebook AI Research.",
             "name": "faiss"
         },
@@ -158,20 +150,8 @@
             "name": "getorganelle"
         },
         {
-            "description": "CLI for gfal2.",
-            "name": "gfal2-util"
-        },
-        {
-            "description": "hipSPARSELt is a SPARSE marshalling library, with multiple supported\nbackends. It sits between the application and a 'worker' SPARSE library,\nmarshalling inputs into the backend library and marshalling results back\nto the application. hipSPARSELt exports an interface that does not\nrequire the client to change, regardless of the chosen backend.\nCurrently, hipSPARSELt supports rocSPARSELt and cuSPARSELt v0.4 as\nbackends.",
-            "name": "hipsparselt"
-        },
-        {
             "description": "Modern, user-friendly command-line HTTP client for the API era.",
             "name": "httpie"
-        },
-        {
-            "description": "HybPiper was designed for targeted sequence capture, in which DNA\nsequencing libraries are enriched for gene regions of interest,\nespecially for phylogenetics. HybPiper is a suite of Python scripts that\nwrap and connect bioinformatics tools in order to extract target\nsequences from high-throughput DNA sequencing reads",
-            "name": "hybpiper"
         },
         {
             "description": "A data templating language for app and tool developers based on JSON",
@@ -194,20 +174,8 @@
             "name": "ldsc"
         },
         {
-            "description": "Legion is a data-centric parallel programming system for writing\nportable high performance programs targeted at distributed heterogeneous\narchitectures. Legion presents abstractions which allow programmers to\ndescribe properties of program data (e.g. independence, locality). By\nmaking the Legion programming system aware of the structure of program\ndata, it can automate many of the tedious tasks programmers currently\nface, including correctly extracting task- and data-level parallelism\nand moving data around complex memory hierarchies. A novel mapping\ninterface provides explicit programmer controlled placement of data in\nthe memory hierarchy and assignment of tasks to processors in a way that\nis orthogonal to correctness, thereby enabling easy porting and tuning\nof Legion applications to new architectures.",
-            "name": "legion"
-        },
-        {
-            "description": "Liftoff is a tool that accurately maps annotations in GFF or GTF between\nassemblies of the same, or closely-related species.",
-            "name": "liftoff"
-        },
-        {
             "description": "MemSurfer is a tool to compute and analyze membrane surfaces found in a\nwide variety of large-scale molecular simulations.",
             "name": "memsurfer"
-        },
-        {
-            "description": "Tool to manage (m)ultiple git r(epo)sitories",
-            "name": "mepo"
         },
         {
             "description": "Mercurial is a free, distributed source control management tool.",
@@ -220,6 +188,10 @@
         {
             "description": "Minimap2 is a versatile sequence alignment program that aligns DNA or\nmRNA sequences against a large reference database. Mappy provides a\nconvenient interface to minimap2.",
             "name": "minimap2"
+        },
+        {
+            "description": "MIOpenTensile provides host-callable interfaces to Tensile library.\nMIOpenTensile supports one programming model: HIP",
+            "name": "miopen-tensile"
         },
         {
             "description": "mlpack is an intuitive, fast, and flexible header-only C++ machine\nlearning library with bindings to other languages. It is meant to be a\nmachine learning analog to LAPACK, and aims to implement a wide array of\nmachine learning methods and functions as a \"swiss army knife\" for\nmachine learning researchers.",
@@ -252,10 +224,6 @@
         {
             "description": "Python code annotation library",
             "name": "nvtx"
-        },
-        {
-            "description": "Advanced Profiling and Analytics for AMD Hardware",
-            "name": "omniperf"
         },
         {
             "description": "Open3D: A Modern Library for 3D Data Processing.",
@@ -514,14 +482,6 @@
             "name": "py-anuga"
         },
         {
-            "description": "Anvi\u2019o is a comprehensive platform that brings together many aspects of\ntoday\u2019s cutting-edge computational strategies of data-enabled\nmicrobiology, including genomics, metagenomics, metatranscriptomics,\npangenomics, metapangenomics, phylogenomics, and microbial population\ngenetics in an integrated and easy-to-use fashion through extensive\ninteractive visualization capabilities.",
-            "name": "py-anvio"
-        },
-        {
-            "description": "Python project for generating badges for your projects",
-            "name": "py-anybadge"
-        },
-        {
             "description": "High level compatibility layer for multiple asynchronous event loop\nimplementations.",
             "name": "py-anyio"
         },
@@ -580,10 +540,6 @@
         {
             "description": "ArcGIS API for Python.",
             "name": "py-arcgis"
-        },
-        {
-            "description": "Autoregressive Conditional Heteroskedasticity (ARCH) and other tools for\nfinancial econometrics, written in Python (with Cython and/or Numba used\nto improve performance)",
-            "name": "py-arch"
         },
         {
             "description": "A library for detecting, labeling and reasoning about\nmicroarchitectures.",
@@ -704,10 +660,6 @@
         {
             "description": "The astropy-helpers package includes many build, installation, and\ndocumentation-related tools used by the Astropy project, but packaged\nseparately for use by other projects that wish to leverage this work.",
             "name": "py-astropy-helpers"
-        },
-        {
-            "description": "IERS Earth rotation and leap second table Note: This package is not\nmeant for standalone purposes but is needed by AstroPy.",
-            "name": "py-astropy-iers-data"
         },
         {
             "description": "Annotate AST trees with source code positions.",
@@ -1570,10 +1522,6 @@
             "name": "py-bottleneck"
         },
         {
-            "description": "Spatial indexer for geometries and morphologies",
-            "name": "py-brain-indexer"
-        },
-        {
             "description": "Generate complex HTML+JS pages with Python.",
             "name": "py-branca"
         },
@@ -1700,18 +1648,6 @@
         {
             "description": "Celery - Distributed Task Queue.",
             "name": "py-celery"
-        },
-        {
-            "description": "CellProfiler cell image analysis software. CellProfiler is a free open-\nsource software designed to enable biologists without training in\ncomputer vision or programming to quantitatively measure phenotypes from\nthousands of images automatically.",
-            "name": "py-cellprofiler"
-        },
-        {
-            "description": "Core classes and components used by CellProfiler.",
-            "name": "py-cellprofiler-core"
-        },
-        {
-            "description": "An open source image processing library.",
-            "name": "py-centrosome"
         },
         {
             "description": "Lightweight, extensible schema and data validation tool for Python\ndictionaries",
@@ -1926,7 +1862,7 @@
             "name": "py-cmaes"
         },
         {
-            "description": "CMake is an open-source, cross-platform family of tools designed to\nbuild, test and package software. Deprecated: use cmake instead.",
+            "description": "CMake is an open-source, cross-platform family of tools designed to\nbuild, test and package software",
             "name": "py-cmake"
         },
         {
@@ -2338,18 +2274,6 @@
             "name": "py-dasbus"
         },
         {
-            "description": "Dash is the most downloaded, trusted Python framework for building ML &\ndata science web apps.",
-            "name": "py-dash"
-        },
-        {
-            "description": "Bootstrap themed components for use in Plotly Dash",
-            "name": "py-dash-bootstrap-components"
-        },
-        {
-            "description": "SVG support library for Plotly/Dash",
-            "name": "py-dash-svg"
-        },
-        {
             "description": "Dask is a flexible parallel computing library for analytics.",
             "name": "py-dask"
         },
@@ -2562,10 +2486,6 @@
             "name": "py-dipy"
         },
         {
-            "description": "JSON decoder for Python that can extract data from the muck",
-            "name": "py-dirtyjson"
-        },
-        {
             "description": "Test discovery for unittest.",
             "name": "py-discover"
         },
@@ -2632,10 +2552,6 @@
         {
             "description": "Command-line interface description language.",
             "name": "py-docopt"
-        },
-        {
-            "description": "Command-line interface description language.",
-            "name": "py-docopt-ng"
         },
         {
             "description": "Parse Python docstrings in reST, Google and Numpydoc format.",
@@ -2782,14 +2698,6 @@
             "name": "py-edffile"
         },
         {
-            "description": "Read and write EDF/EDF+ files.",
-            "name": "py-edfio"
-        },
-        {
-            "description": "Library to read/write EDF+/BDF+ files written in pure Python by the same\nauthor as the original EDFlib.",
-            "name": "py-edflib-python"
-        },
-        {
             "description": "A Python library for creating \"editable wheels\".",
             "name": "py-editables"
         },
@@ -2800,10 +2708,6 @@
         {
             "description": "Lightweight, super fast library for sequence alignment using edit\n(Levenshtein) distance.",
             "name": "py-edlib"
-        },
-        {
-            "description": "I/O support for EEGLAB files in Python.",
-            "name": "py-eeglabio"
         },
         {
             "description": "The Electrophys Feature Extract Library (eFEL) allows neuroscientists to\nautomatically extract features from time series data recorded from\nneurons (both in vitro and in silico). Examples are the action potential\nwidth and amplitude in voltage traces recorded during whole-cell patch\nclamp experiments. The user of the library provides a set of traces and\nselects the features to be calculated. The library will then extract the\nrequested features and return the values to the user.",
@@ -3254,46 +3158,6 @@
             "name": "py-flufl-lock"
         },
         {
-            "description": "Framework for studying fluid dynamics.",
-            "name": "py-fluiddyn"
-        },
-        {
-            "description": "Efficient and easy Fast Fourier Transform (FFT) for Python.",
-            "name": "py-fluidfft"
-        },
-        {
-            "description": "Fluidfft plugin dependencies",
-            "name": "py-fluidfft-builder"
-        },
-        {
-            "description": "Fluidfft plugin using fftw.",
-            "name": "py-fluidfft-fftw"
-        },
-        {
-            "description": "Fluidfft plugin using fftwmpi.",
-            "name": "py-fluidfft-fftwmpi"
-        },
-        {
-            "description": "Fluidfft MPI plugin using fftw.",
-            "name": "py-fluidfft-mpi-with-fftw"
-        },
-        {
-            "description": "Fluidfft MPI plugin using p3dfft.",
-            "name": "py-fluidfft-p3dfft"
-        },
-        {
-            "description": "Fluidfft MPI plugin using pfft.",
-            "name": "py-fluidfft-pfft"
-        },
-        {
-            "description": "Framework for studying fluid dynamics with simulations.",
-            "name": "py-fluidsim"
-        },
-        {
-            "description": "Pure-Python core library for FluidSim framework.",
-            "name": "py-fluidsim-core"
-        },
-        {
             "description": "Fast and accurate de novo assembler for single molecule sequencing reads",
             "name": "py-flye"
         },
@@ -3462,10 +3326,6 @@
             "name": "py-gdc-client"
         },
         {
-            "description": "Google Drive Public File/Folder Downloader.",
-            "name": "py-gdown"
-        },
-        {
             "description": "Google Earth Engine Batch Asset Manager.",
             "name": "py-gee-asset-manager"
         },
@@ -3522,10 +3382,6 @@
             "name": "py-geopmdpy"
         },
         {
-            "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely.",
-            "name": "py-geopmpy"
-        },
-        {
             "description": "geopy is a Python client for several popular geocoding web services.",
             "name": "py-geopy"
         },
@@ -3574,20 +3430,8 @@
             "name": "py-gitpython"
         },
         {
-            "description": "Parser tools for Mozilla's Glean telemetry.",
-            "name": "py-glean-parser"
-        },
-        {
-            "description": "Mozilla's Glean Telemetry SDK",
-            "name": "py-glean-sdk"
-        },
-        {
             "description": "This is a Python wrapper for the fortran library used in the R package\nglmnet.",
             "name": "py-glmnet"
-        },
-        {
-            "description": "This is a python version of the popular glmnet library (beta release).\nGlmnet fits the entire lasso or elastic-net regularization path for\nlinear regression, logistic and multinomial regression models, poisson\nregression and the cox model.",
-            "name": "py-glmnet-python"
         },
         {
             "description": "A toolbox for accurate single-trial estimates in fMRI time-series data.",
@@ -3596,10 +3440,6 @@
         {
             "description": "Version of the glob module that can capture patterns and supports\nrecursive wildcards.",
             "name": "py-glob2"
-        },
-        {
-            "description": "Globus CLI is a standalone application that can be installed on the\nuser's machine and is used to access the Globus service. The CLI\nprovides an interface to Globus services from the shell, and is suited\nto both interactive and simple scripting use cases.",
-            "name": "py-globus-cli"
         },
         {
             "description": "Globus SDK for Python",
@@ -3612,10 +3452,6 @@
         {
             "description": "glymur contains a Python interface to the OpenJPEG library which allows\none to read and write JPEG 2000 files. glymur works on Python 3.7, 3.8,\n3.9, and 3.10.",
             "name": "py-glymur"
-        },
-        {
-            "description": "Pythonic interface to GMSH.",
-            "name": "py-gmsh"
         },
         {
             "description": "Interoperability between Python and Gmsh",
@@ -3888,10 +3724,6 @@
         {
             "description": "OpenStack Hacking Guideline Enforcement.",
             "name": "py-hacking"
-        },
-        {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
         },
         {
             "description": "Some handy archive helpers for Python.",
@@ -4254,10 +4086,6 @@
             "name": "py-interface-meta"
         },
         {
-            "description": "interlap: fast, simple interval overlap",
-            "name": "py-interlap"
-        },
-        {
             "description": "Editable interval tree data structure for Python 2 and 3.",
             "name": "py-intervaltree"
         },
@@ -4390,10 +4218,6 @@
             "name": "py-jamo"
         },
         {
-            "description": "Thread-safe asyncio-aware queue for Python",
-            "name": "py-janus"
-        },
-        {
             "description": "Utility functions for Python class constructs",
             "name": "py-jaraco-classes"
         },
@@ -4420,14 +4244,6 @@
         {
             "description": "XLA library for Jax",
             "name": "py-jaxlib"
-        },
-        {
-            "description": "Type annotations and runtime checking for shape and dtype of JAX arrays,\nand PyTrees.",
-            "name": "py-jaxtyping"
-        },
-        {
-            "description": "JEDI Configuration Builder",
-            "name": "py-jcb"
         },
         {
             "description": "jdatetime is Jalali implementation of Python's datetime module",
@@ -4462,10 +4278,6 @@
             "name": "py-jinja2-time"
         },
         {
-            "description": "Fast iterable JSON parser.",
-            "name": "py-jiter"
-        },
-        {
             "description": "JSON Matching Expressions.",
             "name": "py-jmespath"
         },
@@ -4480,10 +4292,6 @@
         {
             "description": "This package can load and use a Jet Propulsion Laboratory (JPL)\nephemeris for predicting the position and velocity of a planet or other\nSolar System body.",
             "name": "py-jplephem"
-        },
-        {
-            "description": "Java Property file parser and writer for Python",
-            "name": "py-jproperties"
         },
         {
             "description": "Java properties file parser for Python",
@@ -4522,10 +4330,6 @@
             "name": "py-jsondiff"
         },
         {
-            "description": "Library with helpers for the jsonlines file format",
-            "name": "py-jsonlines"
-        },
-        {
             "description": "Library to apply JSON Patches according to RFC 6902",
             "name": "py-jsonpatch"
         },
@@ -4552,10 +4356,6 @@
         {
             "description": "Creates JUnit XML test result documents that can be read by tools such\nas Jenkins",
             "name": "py-junit-xml"
-        },
-        {
-            "description": "Simple self-contained python tool to produce a single html file from a\nsingle junit xml file.",
-            "name": "py-junit2html"
         },
         {
             "description": "Jupyter metapackage. Install all the Jupyter components in one go.",
@@ -4902,10 +4702,6 @@
             "name": "py-lineenhancer"
         },
         {
-            "description": "Check for broken links in web sites.",
-            "name": "py-linkchecker"
-        },
-        {
             "description": "Links recognition library with FULL unicode support.",
             "name": "py-linkify-it-py"
         },
@@ -4976,10 +4772,6 @@
         {
             "description": "Louie provides Python programmers with a straightforward way to dispatch\nsignals between objects in a wide variety of contexts. It is based on\nPyDispatcher, which in turn was based on a highly-rated recipe in the\nPython Cookbook.",
             "name": "py-louie"
-        },
-        {
-            "description": "LPIPS Similarity metric",
-            "name": "py-lpips"
         },
         {
             "description": "A fast LRU cache",
@@ -5242,10 +5034,6 @@
             "name": "py-mg-rast-tools"
         },
         {
-            "description": "METIS partitioner for mesh and graphMETIS partitioner for mesh and graph",
-            "name": "py-mgmetis"
-        },
-        {
             "description": "Mido is a library for working with MIDI messages and ports. It's\ndesigned to be as straight forward and Pythonic as possible.",
             "name": "py-mido"
         },
@@ -5272,10 +5060,6 @@
         {
             "description": "Minimalistic RPC utility (only used within cpymad and pytao).",
             "name": "py-minrpc"
-        },
-        {
-            "description": "Miscellaneous useful bits for Python 3.",
-            "name": "py-misk"
         },
         {
             "description": "MISO (Mixture of Isoforms) is a probabilistic framework that quantitates\nthe expression level of alternatively spliced genes from RNA-Seq data,\nand identifies differentially regulated isoforms or exons across\nsamples.",
@@ -5354,10 +5138,6 @@
             "name": "py-mne"
         },
         {
-            "description": "MNE-BIDS: Organizing MEG, EEG, and iEEG data according to the BIDS\nspecification and facilitating their analysis with MNE-Python.",
-            "name": "py-mne-bids"
-        },
-        {
             "description": "Packing methods used to encode and decode the data payloads of Met\nOffice Unified Model 'fields'",
             "name": "py-mo-pack"
         },
@@ -5392,10 +5172,6 @@
         {
             "description": "Moltemplate is a general cross-platform text-based molecule builder for\nLAMMPS.",
             "name": "py-moltemplate"
-        },
-        {
-            "description": "AI Toolkit for Healthcare Imaging",
-            "name": "py-monai"
         },
         {
             "description": "Generating type annotations from sampled production types.",
@@ -5610,10 +5386,6 @@
             "name": "py-nara-wpe"
         },
         {
-            "description": "Extremely lightweight compatibility layer between dataframe libraries",
-            "name": "py-narwhals"
-        },
-        {
             "description": "Simple yet flexible natural sorting in Python.",
             "name": "py-natsort"
         },
@@ -5782,7 +5554,7 @@
             "name": "py-nilearn"
         },
         {
-            "description": "Ninja is a small build system with a focus on speed. Deprecated: use\nninja instead.",
+            "description": "Ninja is a small build system with a focus on speed.",
             "name": "py-ninja"
         },
         {
@@ -5812,10 +5584,6 @@
         {
             "description": "Node.js virtual environment",
             "name": "py-nodeenv"
-        },
-        {
-            "description": "non regression test tools.",
-            "name": "py-non-regression-test-tools"
         },
         {
             "description": "nose extends the test loading and running features of unittest, making\nit easier to write, find and run tests.",
@@ -5858,20 +5626,12 @@
             "name": "py-ntplib"
         },
         {
-            "description": "Nuitka is the Python compiler. It is written in Python. It is a seamless\nreplacement or extension to the Python interpreter and compiles every\nconstruct that Python has, when itself run with that Python version.",
-            "name": "py-nuitka"
-        },
-        {
             "description": "Modules to convert numbers to words. Easily extensible.",
             "name": "py-num2words"
         },
         {
             "description": "NumPy aware dynamic Python compiler using LLVM",
             "name": "py-numba"
-        },
-        {
-            "description": "Use numba-compiled kernels from within Jax",
-            "name": "py-numba4jax"
         },
         {
             "description": "Numcodecs is a Python package providing buffer compression and\ntransformation codecs for use in data storage and communication\napplications.",
@@ -6066,10 +5826,6 @@
             "name": "py-opppy"
         },
         {
-            "description": "The Python library behind great charms",
-            "name": "py-ops"
-        },
-        {
             "description": "Optimized Einsum: A tensor contraction order optimizer.",
             "name": "py-opt-einsum"
         },
@@ -6192,10 +5948,6 @@
         {
             "description": "pandas is a fast, powerful, flexible and easy to use open source data\nanalysis and manipulation tool, built on top of the Python programming\nlanguage.",
             "name": "py-pandas"
-        },
-        {
-            "description": "Up-to-date remote data access for pandas. Works for multiple versions of\npandas",
-            "name": "py-pandas-datareader"
         },
         {
             "description": "These are public type stubs for pandas, following the convention of\nproviding stubs in a separate package, as specified in PEP 561. The\nstubs cover the most typical use cases of pandas. In general, these\nstubs are narrower than what is possibly allowed by pandas, but follow a\nconvention of suggesting best recommended practices for using pandas.",
@@ -6356,10 +6108,6 @@
         {
             "description": "A python module that wraps the pdftoppm utility to convert PDF to PIL\nImage object",
             "name": "py-pdf2image"
-        },
-        {
-            "description": "The build backend used by PDM that supports latest packaging standards",
-            "name": "py-pdm-backend"
         },
         {
             "description": "A PEP 517 backend for PDM that supports PEP 621 metadata.",
@@ -6558,10 +6306,6 @@
             "name": "py-plotext"
         },
         {
-            "description": "Plot in the terminal using braille dots.",
-            "name": "py-plotille"
-        },
-        {
             "description": "An interactive, browser-based graphing library for Python",
             "name": "py-plotly"
         },
@@ -6654,10 +6398,6 @@
             "name": "py-pox"
         },
         {
-            "description": "Documentation generator for C++",
-            "name": "py-poxy"
-        },
-        {
             "description": "A lightweight YAML Parser for Python",
             "name": "py-poyo"
         },
@@ -6716,10 +6456,6 @@
         {
             "description": "ProjectQ is an open-source software framework for quantum computing\nstarted at ETH Zurich. It allows users to implement their quantum\nprograms in Python using a powerful and intuitive syntax. ProjectQ can\nthen translate these programs to any type of back-end, be it a simulator\nrun on a classical computer of an actual quantum chip.",
             "name": "py-projectq"
-        },
-        {
-            "description": "CellProfiler's Java dependencies.",
-            "name": "py-prokaryote"
         },
         {
             "description": "Prometheus instrumentation library for Python applications.",
@@ -6870,10 +6606,6 @@
             "name": "py-pyaml"
         },
         {
-            "description": "Provides yaml file parsing with environment variable resolution",
-            "name": "py-pyaml-env"
-        },
-        {
             "description": "pyani is a Python3 module that provides support for calculating average\nnucleotide identity (ANI) and related measures for whole genome\ncomparisons, and rendering relevant graphical summary output. Where\navailable, it takes advantage of multicore systems, and can integrate\nwith SGE/OGE-type job schedulers for the sequence comparisons.",
             "name": "py-pyani"
         },
@@ -6936,10 +6668,6 @@
         {
             "description": "A docutils backend for pybtex.",
             "name": "py-pybtex-docutils"
-        },
-        {
-            "description": "A lightweight I/O utility for the BrainVision data format.",
-            "name": "py-pybv"
         },
         {
             "description": "Pycairo is a set of Python bindings for the cairo graphics library.",
@@ -7026,10 +6754,6 @@
             "name": "py-pydantic"
         },
         {
-            "description": "Core functionality for Pydantic validation and serialization",
-            "name": "py-pydantic-core"
-        },
-        {
             "description": "Pydantic Models for the GA4GH Task Execution Service",
             "name": "py-pydantic-tes"
         },
@@ -7060,10 +6784,6 @@
         {
             "description": "CLI dev tools powered by pydoit.",
             "name": "py-pydevtool"
-        },
-        {
-            "description": "A low-level profiler for capture I/O calls from deep learning\napplications.",
-            "name": "py-pydftracer"
         },
         {
             "description": "Pure python package for DICOM medical file reading and writing pydicom\nis a pure Python package for working with DICOM files. It lets you read,\nmodify and write DICOM data in an easy \"pythonic\" way.",
@@ -7124,10 +6844,6 @@
         {
             "description": "Project-level Python virtual environment management tool. PyEM manages\nmultiple virtual environments local to projects. It provides shortcuts\nto create, remove, switch between, and run commands against virtual\nenvironments created against various Python interpreters.",
             "name": "py-pyem"
-        },
-        {
-            "description": "Sphinx Documentation Generator.",
-            "name": "py-pyenchant"
         },
         {
             "description": "Provides simple access to https://epsg.io/.",
@@ -7222,10 +6938,6 @@
             "name": "py-pygments-pytest"
         },
         {
-            "description": "Easier Pythonic interface to GMSH.",
-            "name": "py-pygmsh"
-        },
-        {
             "description": "A Python interface for the Generic Mapping Tools.",
             "name": "py-pygmt"
         },
@@ -7256,10 +6968,6 @@
         {
             "description": "Read and write H5MD files.",
             "name": "py-pyh5md"
-        },
-        {
-            "description": "pyhdf is a python wrapper around the NCSA HDF version 4 library. The SD\n(Scientific Dataset), VS (Vdata) and V (Vgroup) APIs are currently\nimplemented. NetCDF files can also be read and modified.",
-            "name": "py-pyhdf"
         },
         {
             "description": "CERN PyHEADTAIL numerical n-body simulation code for simulating macro-\nparticle beam dynamics with collective effects.",
@@ -7332,10 +7040,6 @@
         {
             "description": "python code static checker",
             "name": "py-pylint"
-        },
-        {
-            "description": "This project provides pylint formatters for a nice integration with\nGitLab CI.",
-            "name": "py-pylint-gitlab"
         },
         {
             "description": "Many useful operators, however, do not lend themselves to an explicit\nmatrix representation when used to solve large-scale problems. PyLops\noperators, on the other hand, still represent a matrix and can be\ntreated in a similar way, but do not rely on the explicit creation of a\ndense (or sparse) matrix itself. Conversely, the forward and adjoint\noperators are represented by small pieces of codes that mimic the effect\nof the matrix on a vector or another matrix.",
@@ -7454,20 +7158,12 @@
             "name": "py-pyodbc"
         },
         {
-            "description": "Vectorized spatial vector file format I/O using GDAL/OGR",
-            "name": "py-pyogrio"
-        },
-        {
             "description": "Pyomo is a Python-based open-source software package that supports a\ndiverse set of optimization capabilities for formulating and analyzing\noptimization models.",
             "name": "py-pyomo"
         },
         {
             "description": "Python wrapper for OpenCL.",
             "name": "py-pyopencl"
-        },
-        {
-            "description": "PyOpenGL is the most common cross platform Python binding to OpenGL and\nrelated APIs.",
-            "name": "py-pyopengl"
         },
         {
             "description": "High-level wrapper around a subset of the OpenSSL library. Note: The\nPython Cryptographic Authority strongly suggests the use of\npyca/cryptography where possible. If you are using pyOpenSSL for\nanything other than making a TLS connection you should move to\ncryptography and drop your pyOpenSSL dependency.",
@@ -7480,10 +7176,6 @@
         {
             "description": "A Python Parsing Module.",
             "name": "py-pyparsing"
-        },
-        {
-            "description": "A pure-python PDF library capable of splitting, merging, cropping, and\ntransforming PDF files",
-            "name": "py-pypdf"
         },
         {
             "description": "PyPDF2 is a free and open source pure-python PDF library capable of\nsplitting, merging, cropping, and transforming the pages of PDF files.\nIt can also add custom data, viewing options, and passwords to PDF\nfiles. PyPDF2 can retrieve text and metadata from PDFs as well.",
@@ -7626,10 +7318,6 @@
             "name": "py-pyscreeze"
         },
         {
-            "description": "Sequence Elements Enrichment Analysis (SEER), python implementation",
-            "name": "py-pyseer"
-        },
-        {
             "description": "Python Serial Port Extension",
             "name": "py-pyserial"
         },
@@ -7728,10 +7416,6 @@
         {
             "description": "Pytest plugin for aiohttp support.",
             "name": "py-pytest-aiohttp"
-        },
-        {
-            "description": "Pytest fixture extending Numpy's allclose function.",
-            "name": "py-pytest-allclose"
         },
         {
             "description": "pytest plugin to help with comparing array output from tests",
@@ -8434,10 +8118,6 @@
             "name": "py-regex"
         },
         {
-            "description": "Create masks of geospatial regions for arbitrary grids",
-            "name": "py-regionmask"
-        },
-        {
             "description": "Change Python (.py) files to use 4-space indents and no hard tab\ncharacters. Also trim excess spaces and tabs from ends of lines, and\nremove empty lines at the end of files. Also ensure the last line ends\nwith a newline.",
             "name": "py-reindent"
         },
@@ -8552,10 +8232,6 @@
         {
             "description": "Rich is a Python library for rich text and beautiful formatting in the\nterminal.",
             "name": "py-rich"
-        },
-        {
-            "description": "rich-argparse improves the look and readability of argparse's help while\nrequiring minimal changes to the code.",
-            "name": "py-rich-argparse"
         },
         {
             "description": "The intention of rich-click is to provide attractive help output from\nclick, formatted with rich, with minimal customisation required.",
@@ -9306,10 +8982,6 @@
             "name": "py-sphinx-design"
         },
         {
-            "description": "Fortran domain and autodoc extensions to Sphinx",
-            "name": "py-sphinx-fortran"
-        },
-        {
             "description": "A `Sphinx` extension that builds an HTML version of any Python script\nand puts it into an examples gallery.",
             "name": "py-sphinx-gallery"
         },
@@ -9534,10 +9206,6 @@
             "name": "py-streamlit"
         },
         {
-            "description": "A simple library to convert rtf to text",
-            "name": "py-striprtf"
-        },
-        {
             "description": "This package contains utilities used to package some of STScI's Python\nprojects.",
             "name": "py-stsci-distutils"
         },
@@ -9670,7 +9338,7 @@
             "name": "py-tensorflow-datasets"
         },
         {
-            "description": "TensorFlow Estimator is a high-level API that encapsulates model\ntraining, evaluation, prediction, and exporting.",
+            "description": "TensorFlow Estimator is a high-level TensorFlow API that greatly\nsimplifies machine learning programming.",
             "name": "py-tensorflow-estimator"
         },
         {
@@ -9870,10 +9538,6 @@
             "name": "py-torch-cluster"
         },
         {
-            "description": "High-fidelity performance metrics for generative models in PyTorch",
-            "name": "py-torch-fidelity"
-        },
-        {
             "description": "Graph Neural Network Library for PyTorch.",
             "name": "py-torch-geometric"
         },
@@ -9978,20 +9642,12 @@
             "name": "py-traitsui"
         },
         {
-            "description": "A library for accelerating Transformer models on NVIDIA GPUs, including\nfp8 precision on Hopper GPUs.",
-            "name": "py-transformer-engine"
-        },
-        {
             "description": "State-of-the-art Natural Language Processing for TensorFlow 2.0 and\nPyTorch",
             "name": "py-transformers"
         },
         {
             "description": "Functions for 3D coordinate transformations.",
             "name": "py-transforms3d"
-        },
-        {
-            "description": "Make your Python code fly at transonic speeds!",
-            "name": "py-transonic"
         },
         {
             "description": "A package for creating and drawing trees.",
@@ -10012,10 +9668,6 @@
         {
             "description": "Python bindings to the triangle library",
             "name": "py-triangle"
-        },
-        {
-            "description": "Build efficient trie-based regular expressions from large word lists",
-            "name": "py-trieregex"
         },
         {
             "description": "Import, export, process, analyze and view triangular meshes",
@@ -10390,7 +10042,7 @@
             "name": "py-warlock"
         },
         {
-            "description": "This package is deprecated. Please use `warpx +python`. WarpX is an\nadvanced electromagnetic Particle-In-Cell code. It supports many\nfeatures including Perfectly-Matched Layers (PML) and mesh refinement.\nIn addition, WarpX is a highly-parallel and highly-optimized code and\nfeatures hybrid OpenMP/MPI parallelization, advanced vectorization\ntechniques and load balancing capabilities. These are the Python\nbindings of WarpX with PICMI input support. See the C++ 'warpx' package\nfor the WarpX application and library.",
+            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid OpenMP/MPI parallelization, advanced\nvectorization techniques and load balancing capabilities. These are the\nPython bindings of WarpX with PICMI input support. See the C++ 'warpx'\npackage for the WarpX application and library.",
             "name": "py-warpx"
         },
         {
@@ -10534,10 +10186,6 @@
             "name": "py-ww"
         },
         {
-            "description": "Common set of tools used in weather workflows. See\nhttps://wxflow.readthedocs.io/en/latest/ for documentation.",
-            "name": "py-wxflow"
-        },
-        {
             "description": "wxPython plotting widgets using matplotlib.",
             "name": "py-wxmplot"
         },
@@ -10678,10 +10326,6 @@
             "name": "py-yolk3k"
         },
         {
-            "description": "Python library to read and process pulsar data in several different\nformats",
-            "name": "py-your"
-        },
-        {
             "description": "Command-line program to download videos from YouTube.com and other video\nsites.",
             "name": "py-youtube-dl"
         },
@@ -10752,10 +10396,6 @@
         {
             "description": "This package provides an implementation of \"object interfaces\" for\nPython. Interfaces are a mechanism for labeling objects as conforming to\na given API or contract. So, this package can be considered as\nimplementation of the Design By Contract methodology support in Python.",
             "name": "py-zope-interface"
-        },
-        {
-            "description": "Python bindings to the Zstandard (zstd) compression library.",
-            "name": "py-zstandard"
         },
         {
             "description": "A realistic password strength estimator. This is a Python implementation\nof the library created by the team at Dropbox.",
@@ -10842,10 +10482,6 @@
             "name": "survey"
         },
         {
-            "description": "Tamaas is a C++ library with a Python interface that efficiently solves\ncontact mechanics problems with periodic rough surfaces, plasticity,\nadhesion and friction.",
-            "name": "tamaas"
-        },
-        {
             "description": "A package for quantifying transposable elements at a locus level for\nRNAseq datasets",
             "name": "telocal"
         },
@@ -10864,10 +10500,6 @@
         {
             "description": "The tskit library provides the underlying functionality used to load,\nexamine, and manipulate tree sequences",
             "name": "tskit"
-        },
-        {
-            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid GPU/OpenMP/MPI parallelization and load\nbalancing capabilities.",
-            "name": "warpx"
         },
         {
             "description": "The XROOTD project aims at giving high performance, scalable fault\ntolerant access to data repositories of many kinds.",
@@ -10894,15 +10526,7 @@
             "placement": {
                 "pip-22.3.1.pyz": "pip.pyz"
             },
-            "version": "arch=windows-None-None ^python@:3.11"
-        },
-        {
-            "destination": "",
-            "name": "pip-bootstrap",
-            "placement": {
-                "pip-23.1.pyz": "pip.pyz"
-            },
-            "version": "arch=windows-None-None ^python@3.12:"
+            "version": "arch=windows-None-None"
         }
     ],
     "variants": [

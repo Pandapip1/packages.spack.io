@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -386,11 +346,6 @@
             "description": null,
             "name": "amdgpu_target=none",
             "spec": "+rocm"
-        },
-        {
-            "description": null,
-            "name": "@:2.0",
-            "spec": "+waves2amr"
         }
     ],
     "dependencies": [
@@ -407,10 +362,6 @@
             "name": "cuda"
         },
         {
-            "description": "FFTW is a C subroutine library for computing the discrete Fourier\ntransform (DFT) in one or more dimensions, of arbitrary input size, and\nof both real and complex data (as well as of even/odd data, i.e. the\ndiscrete cosine/sine transforms or DCT/DST). We believe that FFTW, which\nis free software, should become the FFT library of choice for most\napplications.",
-            "name": "fftw"
-        },
-        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
         },
@@ -421,10 +372,6 @@
         {
             "description": "HDF5 is a data model, library, and file format for storing and managing\ndata. It supports an unlimited variety of datatypes, and is designed for\nflexible and efficient I/O and for high volume and complex data.",
             "name": "hdf5"
-        },
-        {
-            "description": "HELICS is a general-purpose, modular, highly-scalable co-simulation\nframework that runs cross-platform (Linux, Windows, and Mac OS X) and\nsupports both event driven and time series simulation.",
-            "name": "helics"
         },
         {
             "description": "HIP is a C++ Runtime API and Kernel Language that allows developers to\ncreate portable applications for AMD and NVIDIA GPUs from single source\ncode.",
@@ -483,7 +430,7 @@
     ],
     "description": "AMR-Wind is a massively parallel, block-structured adaptive-mesh,\nincompressible flow sover for wind turbine and wind farm simulations.\n",
     "homepage": "https://github.com/Exawind/amr-wind",
-    "latest_version": "2.1.0",
+    "latest_version": "1.4.0",
     "maintainers": [
         "jrood-nrel",
         "psakievich"
@@ -536,11 +483,6 @@
             "default": false,
             "description": "Enable HDF5 plots with ZFP compression",
             "name": "hdf5"
-        },
-        {
-            "default": false,
-            "description": "Enable HELICS support for control interface",
-            "name": "helics"
         },
         {
             "default": false,
@@ -606,27 +548,12 @@
             "default": false,
             "description": "Enable UMPIRE memory pooling",
             "name": "umpire"
-        },
-        {
-            "default": false,
-            "description": "Enable Waves2AMR support for ocean wave input",
-            "name": "waves2amr"
         }
     ],
     "versions": [
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "commit": "bc787f21deca9239928182e27400133934c62658",
-            "name": "2.1.0",
-            "tag": "v2.1.0"
-        },
-        {
-            "commit": "ea448365033fc6bc9ee0febeb369b377f4fd8240",
-            "name": "2.0.0",
-            "tag": "v2.0.0"
         },
         {
             "commit": "bdddf133e41a9b7b4c8ce28f1ea1bebec47678f5",

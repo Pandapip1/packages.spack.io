@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -376,23 +336,9 @@
             "description": null,
             "name": "%gcc@:7",
             "spec": "@0.23:"
-        },
-        {
-            "description": null,
-            "name": "^boost@1.85.0",
-            "spec": ""
-        },
-        {
-            "description": null,
-            "name": "%gcc@:9",
-            "spec": "cxxstd=20"
         }
     ],
     "dependencies": [
-        {
-            "description": "A portable linear algebra library with multiple backends that is part of\nthe Acts ecosystem.",
-            "name": "acts-algebra-plugins"
-        },
         {
             "description": "Glue library to connect Acts to DD4hep",
             "name": "acts-dd4hep"
@@ -414,20 +360,12 @@
             "name": "cmake"
         },
         {
-            "description": "Covfie is a library for compositional descriptions of storage methods\nfor vector fields and other structured multi-dimensional data.",
-            "name": "covfie"
-        },
-        {
             "description": "CUDA is a parallel computing platform and programming model invented by\nNVIDIA. It enables dramatic increases in computing performance by\nharnessing the power of the graphics processing unit (GPU). Note: This\npackage does not currently install the drivers necessary to run CUDA.\nThese will need to be installed manually. See:\nhttps://docs.nvidia.com/cuda/ for details.",
             "name": "cuda"
         },
         {
             "description": "DD4hep is a software framework for providing a complete solution for\nfull detector description (geometry, materials, visualization, readout,\nalignment, calibration, etc.) for the full experiment life cycle\n(detector concept development, detector optimization, construction,\noperation). It offers a consistent description through a single source\nof detector information for simulation, reconstruction, analysis, etc.\nIt distributed under the LGPLv3 License.",
             "name": "dd4hep"
-        },
-        {
-            "description": "Detray is a description library for high energy physics experiments that\nworks entirely without polymorphism, making it exceptionally suitable\nfor use on GPU platforms.",
-            "name": "detray"
         },
         {
             "description": "Event data model of Key4hep.",
@@ -440,10 +378,6 @@
         {
             "description": "Geant4 is a toolkit for the simulation of the passage of particles\nthrough matter. Its areas of application include high energy, nuclear\nand accelerator physics, as well as studies in medical and space\nscience.",
             "name": "geant4"
-        },
-        {
-            "description": "GeoModel is a user-friendly C++ Toolkit and Suite for HEP Detector\nDescription with minimal dependencies.",
-            "name": "geomodel"
         },
         {
             "description": "Git LFS is a system for managing and versioning large files in\nassociation with a Git repository. Instead of storing the large files\nwithin the Git repository as blobs, Git LFS stores special \"pointer\nfiles\" in the repository, while storing the actual file contents on a\nGit LFS server.",
@@ -521,10 +455,9 @@
     "dependent_to": [],
     "description": " A Common Tracking Software (Acts) This project contains an experiment-\nindependent set of track reconstruction tools. The main philosophy is to\nprovide high-level track reconstruction modules that can be used for any\ntracking detector. The description of the tracking detector's geometry\nis optimized for efficient navigation and quick extrapolation of tracks.\nConverters for several common geometry description languages exist.\nHaving a highly performant, yet largely customizable implementation of\ntrack reconstruction algorithms was a primary objective for the design\nof this toolset. Additionally, the applicability to real-life HEP\nexperiments plays major role in the development process. Apart from\nalgorithmic code, this project also provides an event data model for the\ndescription of track parameters and measurements. Key features of this\nproject include: tracking geometry description which can be constructed\nfrom TGeo, DD4Hep, or GDML input, simple and efficient event data model,\nperformant and highly flexible algorithms for track propagation and\nfitting, basic seed finding algorithms.\n",
     "homepage": "https://acts.web.cern.ch/ACTS/",
-    "latest_version": "36.3.2",
+    "latest_version": "34.0.0",
     "maintainers": [
-        "stephenswat",
-        "wdconinc"
+        "HadrienG2"
     ],
     "name": "acts",
     "patches": [],
@@ -592,7 +525,7 @@
         },
         {
             "default": false,
-            "description": "Build EDM4hep plugin",
+            "description": "Build the EDM4hep examples",
             "name": "edm4hep"
         },
         {
@@ -701,11 +634,6 @@
             "name": "python"
         },
         {
-            "default": "double",
-            "description": "Scalar type to use throughout Acts.",
-            "name": "scalar"
-        },
-        {
             "default": false,
             "description": "Build ActSVG display plugin",
             "name": "svg"
@@ -727,11 +655,6 @@
         },
         {
             "default": false,
-            "description": "Build the Traccc plugin",
-            "name": "traccc"
-        },
-        {
-            "default": false,
             "description": "Build the unit tests",
             "name": "unit_tests"
         }
@@ -740,46 +663,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "commit": "01e124d253a3c9c9b9f5d2fde16682ce9d4599cd",
-            "name": "36.3.2"
-        },
-        {
-            "commit": "b58e5b0c33fb8423ce60a6a45f333edd0d178acd",
-            "name": "36.3.1"
-        },
-        {
-            "commit": "3b875cebabdd10462e224279558429f49ed75945",
-            "name": "36.3.0"
-        },
-        {
-            "commit": "e2fb53da911dc481969e56d635898a46b8d78df9",
-            "name": "36.2.0"
-        },
-        {
-            "commit": "3f19d1a0eec1d11937d66d0ef603f0b25b9b4e96",
-            "name": "36.1.0"
-        },
-        {
-            "commit": "6eca77c45b136861272694edbb61bb77200948a5",
-            "name": "36.0.0"
-        },
-        {
-            "commit": "b3b09f46d064c43050dd3d21cdf51d7a412134fc",
-            "name": "35.2.0"
-        },
-        {
-            "commit": "9dfb47b8edeb8b9c75115462079bcb003dd3f031",
-            "name": "35.1.0"
-        },
-        {
-            "commit": "352b423ec31934f825deb9897780246d60ffc44e",
-            "name": "35.0.0"
-        },
-        {
-            "commit": "8e1b7a659d912cd98db9d700906ff59e708da574",
-            "name": "34.1.0"
         },
         {
             "commit": "daafd83adf0ce50f9667f3c9d4791a459e39fd1b",

@@ -18,6 +18,10 @@
             "name": "gnuconfig"
         },
         {
+            "description": "libtool -- library building part of autotools.",
+            "name": "libtool"
+        },
+        {
             "description": "libXext - library for common extensions to the X11 protocol.",
             "name": "libxext"
         },
@@ -38,12 +42,7 @@
             "name": "motif"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "CERN Library",
-            "name": "cernlib"
-        }
-    ],
+    "dependent_to": [],
     "description": "The Xbae widget set consists of the well known XbaeMatrix widget, and\nCaption and XbaeInput widgets.\n",
     "homepage": "https://sourceforge.net/projects/xbae/",
     "latest_version": "4.60.4",

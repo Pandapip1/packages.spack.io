@@ -26,8 +26,8 @@
     ],
     "dependent_to": [],
     "description": "NIMROD infrastructure for FEM evaluation, integration and linear algebra\nsolves with device accelerated computing through OpenACC and abstract\ntypes enabled by modern Fortran.\n",
-    "homepage": "https://gitlab.com/NIMRODteam/open/nimrod-abstract",
-    "latest_version": "24.2",
+    "homepage": "https://gitlab.com/NIMRODteam/nimrod-abstract",
+    "latest_version": "23.9",
     "maintainers": [
         "jacobrking"
     ],
@@ -112,16 +112,12 @@
             "name": "main"
         },
         {
-            "name": "24.2",
-            "sha256": "1dd4d51426f141c058e25cb29870eaf15e0edfb44d80df94e7c65c850ca78eda"
-        },
-        {
             "name": "23.9",
-            "sha256": "34f7ee00bbbe9a6d08304473e8893af9bd94af8dbd0bbd50b8b441057023e179"
+            "sha256": "212d591c5a5e7a394b56a5cf2f92cc69feafc49dd5f042fa95eeb6441649390b"
         },
         {
             "name": "23.6",
-            "sha256": "de7e5c5cc2ad97dc0e66628d29c8153fa807821a316eb9aa8ee21a39c69df800"
+            "sha256": "1794b89a5a64ff2b3c548818b90d17eef85d819ba4f63a76c41a682d5b76c14f"
         }
     ],
     "versions_deprecated": []

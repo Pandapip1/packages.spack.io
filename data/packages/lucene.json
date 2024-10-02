@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": " Apache Lucene is a high-performance, full featured text search engine\nlibrary written in Java.\n",
     "homepage": "https://lucene.apache.org/",
-    "latest_version": "9.10.0",
+    "latest_version": "9.5.0",
     "maintainers": [],
     "name": "lucene",
     "patches": [],
@@ -24,10 +24,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "9.10.0",
-            "sha256": "c57b75ee0ea12b54337967b7854ebd12af3d7bad27245c1dc12a167ce2b1f8a7"
-        },
         {
             "name": "9.5.0",
             "sha256": "547277a2b6ce283422eccd14e9ee7ffb28b1af3975936959716c9b4d85843555"

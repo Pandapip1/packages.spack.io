@@ -44,7 +44,7 @@
     ],
     "dependent_to": [],
     "description": "xmag displays a magnified snapshot of a portion of an X11 screen.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xmag",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xmag",
     "latest_version": "1.0.7",
     "maintainers": [],
     "name": "xmag",

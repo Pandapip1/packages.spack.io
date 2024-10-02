@@ -21,7 +21,7 @@
     "dependent_to": [],
     "description": "A tool set for short variant discovery in genetic sequence data.\n",
     "homepage": "https://genome.sph.umich.edu/wiki/vt",
-    "latest_version": "0.57721",
+    "latest_version": "0.5772",
     "maintainers": [],
     "name": "vt",
     "patches": [],
@@ -34,10 +34,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.57721",
-            "sha256": "8f06d464ec5458539cfa30f81a034f47fe7f801146fe8ca80c14a3816b704e17"
-        },
         {
             "name": "0.5772",
             "sha256": "b147520478a2f7c536524511e48133d0360e88282c7159821813738ccbda97e7"

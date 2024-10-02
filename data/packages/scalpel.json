@@ -20,7 +20,7 @@
     ],
     "dependent_to": [],
     "description": "Scalpel is a software package for detecting INDELs (INsertions and\nDELetions) mutations in a reference genome which has been sequenced with\nnext-generation sequencing technology.\n",
-    "homepage": "https://scalpel.sourceforge.net/index.html",
+    "homepage": "http://scalpel.sourceforge.net/index.html",
     "latest_version": "0.5.4",
     "maintainers": [],
     "name": "scalpel",

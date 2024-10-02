@@ -107,10 +107,6 @@
         {
             "description": "NetCDF (network Common Data Form) is a set of software libraries and\nmachine-independent data formats that support the creation, access, and\nsharing of array-oriented scientific data. This is the C distribution.",
             "name": "netcdf-c"
-        },
-        {
-            "description": "pyhdf is a python wrapper around the NCSA HDF version 4 library. The SD\n(Scientific Dataset), VS (Vdata) and V (Vgroup) APIs are currently\nimplemented. NetCDF files can also be read and modified.",
-            "name": "py-pyhdf"
         }
     ],
     "description": "HDF4 (also known as HDF) is a library and multi-object file format for\nstoring and managing data between machines.\n",

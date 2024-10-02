@@ -42,7 +42,7 @@
     ],
     "description": "CLI tool for spawning containers on Linux according to the OCI\nspecification\n",
     "homepage": "https://github.com/opencontainers/runc",
-    "latest_version": "1.1.13",
+    "latest_version": "1.1.6",
     "maintainers": [
         "bernhardkaindl"
     ],
@@ -57,10 +57,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.1.13",
-            "sha256": "d20e76688ce0681dc687369e18b47aeffcfdac5184c978befa7ce5da35e797fe"
-        },
         {
             "name": "1.1.6",
             "sha256": "548506fc1de8f0a4790d8e937eeede17db4beb79c53d66acb4f7ec3edbc31668"

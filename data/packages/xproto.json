@@ -56,10 +56,6 @@
             "name": "glew"
         },
         {
-            "description": "HIP is a C++ Runtime API and Kernel Language that allows developers to\ncreate portable applications for AMD and NVIDIA GPUs from single source\ncode.",
-            "name": "hip"
-        },
-        {
             "description": "The iceauth program is used to edit and display the authorization\ninformation used in connecting with ICE. It operates very much like the\nxauth program for X11 connection authentication records.",
             "name": "iceauth"
         },
@@ -106,10 +102,6 @@
         {
             "description": "Xaw is the X Athena Widget Set. Xaw is a widget set based on the X\nToolkit Intrinsics (Xt) Library.",
             "name": "libxaw"
-        },
-        {
-            "description": "Xaw3d is the X 3D Athena Widget Set. Xaw3d is a widget set based on the\nX Toolkit Intrinsics (Xt) Library.",
-            "name": "libxaw3d"
         },
         {
             "description": "libXcomposite - client library for the Composite extension to the X11\nprotocol.",
@@ -206,10 +198,6 @@
         {
             "description": "X color name database. This package includes both the list mapping X\ncolor names to RGB values (rgb.txt) and, if configured to use a database\nfor color lookup, the rgb program to convert the text file into the\nbinary database format. The \"others\" subdirectory contains some\nalternate color databases.",
             "name": "rgb"
-        },
-        {
-            "description": "OpenCL: Open Computing Language on ROCclr",
-            "name": "rocm-opencl"
         },
         {
             "description": "ROOT is a data analysis framework.",
@@ -397,7 +385,7 @@
         }
     ],
     "description": "X Window System Core Protocol. This package provides the headers and\nspecification documents defining the X Window System Core Protocol,\nVersion 11. It also includes a number of headers that aren't purely\nprotocol related, but are depended upon by many other X Window System\npackages to provide common definitions and porting layer.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/proto/x11proto",
+    "homepage": "https://cgit.freedesktop.org/xorg/proto/x11proto",
     "latest_version": "7.0.31",
     "maintainers": [],
     "name": "xproto",

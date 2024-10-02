@@ -25,7 +25,7 @@
     "dependent_to": [],
     "description": "GNU Stow: a symlink farm manager GNU Stow is a symlink farm manager\nwhich takes distinct packages of software and/or data located in\nseparate directories on the filesystem, and makes them appear to be\ninstalled in the same place.\n",
     "homepage": "https://www.gnu.org/software/stow/",
-    "latest_version": "2.4.0",
+    "latest_version": "2.3.1",
     "maintainers": [],
     "name": "stow",
     "patches": [],
@@ -38,10 +38,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.4.0",
-            "sha256": "a7bac673daa246cf54ffb48a113eadd204a615630e76b53b5f64d81a275b77b3"
-        },
         {
             "name": "2.3.1",
             "sha256": "26a6cfdfdaca0eea742db5487798c15fcd01889dc86bc5aa62614ec9415a422f"

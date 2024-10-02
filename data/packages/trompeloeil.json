@@ -19,7 +19,7 @@
     "dependent_to": [],
     "description": "Trompeloeil is a thread-safe header-only mocking framework for C++11/14\nusing the Boost Software License 1.0\n",
     "homepage": "https://github.com/rollbear/trompeloeil",
-    "latest_version": "47",
+    "latest_version": "45",
     "maintainers": [],
     "name": "trompeloeil",
     "patches": [],
@@ -50,10 +50,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "47",
-            "sha256": "4a1d79260c1e49e065efe0817c8b9646098ba27eed1802b0c3ba7d959e4e5e84"
         },
         {
             "name": "45",

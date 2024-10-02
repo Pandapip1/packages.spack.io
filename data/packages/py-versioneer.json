@@ -54,16 +54,8 @@
             "name": "py-pandas"
         },
         {
-            "description": "Key-value byte store with appendable values.",
-            "name": "py-partd"
-        },
-        {
             "description": "bids: interface with datasets conforming to BIDS",
             "name": "py-pybids"
-        },
-        {
-            "description": "Vectorized spatial vector file format I/O using GDAL/OGR",
-            "name": "py-pyogrio"
         },
         {
             "description": "PyRevolve. Python wrapper for Revolve:\nhttps://dl.acm.org/doi/10.1145/347837.347846",

@@ -33,7 +33,7 @@
         }
     ],
     "description": "Distributed Multihead X (DMX) Extension. This extension defines a\nprotocol for clients to access a front-end proxy X server that controls\nmultiple back-end X servers making up a large display.\n",
-    "homepage": "https://dmx.sourceforge.net/",
+    "homepage": "http://dmx.sourceforge.net/",
     "latest_version": "2.3.1",
     "maintainers": [],
     "name": "dmxproto",

@@ -10,7 +10,7 @@
     ],
     "dependencies": [
         {
-            "description": "The bacio library performs binary I/O for the NCEP models, processing\nunformatted byte-addressable data records, and transforming the little\nendian files and big endian files.",
+            "description": "The bacio ibrary performs binary I/O for the NCEP models, processing\nunformatted byte-addressable data records, and transforming the little\nendian files and big endian files.",
             "name": "bacio"
         },
         {
@@ -70,7 +70,7 @@
     ],
     "description": "This library contains Fortran 90 decoder/encoder routines for GRIB\nedition 1 with EMC changes. This is part of the NCEPLIBS project.\n",
     "homepage": "https://noaa-emc.github.io/NCEPLIBS-w3emc/",
-    "latest_version": "2.12.0",
+    "latest_version": "2.11.0",
     "maintainers": [
         "AlexanderRichert-NOAA",
         "Hang-Lei-NOAA",
@@ -84,11 +84,6 @@
             "default": false,
             "description": "Build with BUFR routines",
             "name": "bufr"
-        },
-        {
-            "default": false,
-            "description": "Build deprecated subroutines",
-            "name": "build_deprecated"
         },
         {
             "default": "cmake",
@@ -138,10 +133,6 @@
         {
             "branch": "develop",
             "name": "develop"
-        },
-        {
-            "name": "2.12.0",
-            "sha256": "77c0732541ade1deb381f5a208547ccc36e65efa91c8f7021b299b20a6ae0d27"
         },
         {
             "name": "2.11.0",

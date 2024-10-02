@@ -43,7 +43,7 @@
     "dependent_to": [],
     "description": "BigDFT-suite: the complete suite of BigDFT for electronic structure\ncalculation based on Daubechies wavelets.\n",
     "homepage": "https://bigdft.org/",
-    "latest_version": "1.9.5",
+    "latest_version": "1.9.2",
     "maintainers": [],
     "name": "bigdft-suite",
     "patches": [],
@@ -59,12 +59,6 @@
         {
             "branch": "devel",
             "name": "develop"
-        },
-        {
-            "name": "1.9.5"
-        },
-        {
-            "name": "1.9.4"
         },
         {
             "name": "1.9.2"

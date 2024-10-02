@@ -20,10 +20,6 @@
             "name": "mpi"
         },
         {
-            "description": "The GNU Readline library provides a set of functions for use by\napplications that allow users to edit command lines as they are typed\nin. Both Emacs and vi editing modes are available. The Readline library\nincludes additional functions to maintain a list of previously-entered\ncommand lines, to recall and perhaps reedit those lines, and perform\ncsh-like history expansion on previous commands.",
-            "name": "readline"
-        },
-        {
             "description": "Scotch is a software package for graph and mesh/hypergraph partitioning,\ngraph clustering, and sparse matrix ordering.",
             "name": "scotch"
         },
@@ -44,7 +40,7 @@
     ],
     "description": "OpenFOAM is a GPL-opensource C++ CFD-toolbox. The openfoam.org release\nis managed by the OpenFOAM Foundation Ltd as a licensee of the OPENFOAM\ntrademark. This offering is not approved or endorsed by OpenCFD Ltd,\nproducer and distributor of the OpenFOAM software via www.openfoam.com,\nand owner of the OPENFOAM trademark.\n",
     "homepage": "https://www.openfoam.org/",
-    "latest_version": "11",
+    "latest_version": "10",
     "maintainers": [
         "kjrstory"
     ],
@@ -156,10 +152,6 @@
         {
             "branch": "master",
             "name": "develop"
-        },
-        {
-            "name": "11",
-            "sha256": "ebc0f86ead699abba61290ba8aac5b730aa93256e675d1d93a5d5f116d51e0c0"
         },
         {
             "name": "10",

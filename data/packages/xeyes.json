@@ -56,7 +56,7 @@
     ],
     "dependent_to": [],
     "description": "xeyes - a follow the mouse X demo, using the X SHAPE extension\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xeyes",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xeyes",
     "latest_version": "1.2.0",
     "maintainers": [],
     "name": "xeyes",

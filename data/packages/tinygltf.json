@@ -19,7 +19,7 @@
     "dependent_to": [],
     "description": "Header only C++11 tiny glTF 2.0 library.\n",
     "homepage": "https://github.com/syoyo/tinygltf",
-    "latest_version": "2.8.21",
+    "latest_version": "2.8.14",
     "maintainers": [],
     "name": "tinygltf",
     "patches": [],
@@ -47,10 +47,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.8.21",
-            "sha256": "e567257d7addde58b0a483832cbaa5dd8f15e5bcaee6f023831e215d1a2c0502"
-        },
         {
             "name": "2.8.14",
             "sha256": "63cd43746c9ddfe5777494500422e831a312299e386fbf80922839dc1a5575f8"

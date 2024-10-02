@@ -393,10 +393,6 @@
             "name": "likwid"
         },
         {
-            "description": "The Linux perf tool.",
-            "name": "linux-perf"
-        },
-        {
             "description": "The OpenMP subproject provides an OpenMP runtime for use with the OpenMP\nimplementation in Clang. This branch includes experimental changes for\nOMPT, the OpenMP Tools interface",
             "name": "llvm-openmp-ompt"
         },
@@ -637,28 +633,12 @@
             "name": "perl-bio-asn1-entrezgene"
         },
         {
-            "description": "Bio::DB::BigFile -- Low-level interface to BigWig & BigBed files for\nperl",
-            "name": "perl-bio-bigfile"
-        },
-        {
             "description": "BioPerl cluster modules",
             "name": "perl-bio-cluster"
         },
         {
             "description": "Bio::DB::HTS - This is a Perl interface to the HTS Library.",
             "name": "perl-bio-db-hts"
-        },
-        {
-            "description": "The Ensembl Core Perl API and SQL schema",
-            "name": "perl-bio-ensembl"
-        },
-        {
-            "description": "Ensembl Funcgen Perl API and SQL schema.",
-            "name": "perl-bio-ensembl-funcgen"
-        },
-        {
-            "description": "File parsing and writing code for Ensembl.",
-            "name": "perl-bio-ensembl-io"
         },
         {
             "description": "BioPerl low-level API for retrieving and storing data from NCBI eUtils",
@@ -843,10 +823,6 @@
         {
             "description": "Save a tree AND a kitten, use common::sense!",
             "name": "perl-common-sense"
-        },
-        {
-            "description": "Interface to Bzip2 compression library",
-            "name": "perl-compress-bzip2"
         },
         {
             "description": "Interface to the LZO compression library",
@@ -1379,10 +1355,6 @@
         {
             "description": "Lightweight HTTP server",
             "name": "perl-http-server-simple"
-        },
-        {
-            "description": "HTTP::Tiny: A small, simple, correct HTTP/1.1 client perl module",
-            "name": "perl-http-tiny"
         },
         {
             "description": "Import packages into other packages",
@@ -2649,10 +2621,6 @@
             "name": "roary"
         },
         {
-            "description": "RocksDB: A Persistent Key-Value Store for Flash and RAM Storage",
-            "name": "rocksdb"
-        },
-        {
             "description": "RSEM is a software package for estimating gene and isoform expression\nlevels from RNA-Seq data.",
             "name": "rsem"
         },
@@ -2827,7 +2795,7 @@
     ],
     "description": "Perl 5 is a highly capable, feature-rich programming language with over\n27 years of development.\n",
     "homepage": "https://www.perl.org",
-    "latest_version": "5.40.0",
+    "latest_version": "5.38.0",
     "maintainers": [
         "LydDeb"
     ],
@@ -2948,24 +2916,12 @@
     ],
     "versions": [
         {
-            "name": "5.40.0",
-            "sha256": "c740348f357396327a9795d3e8323bafd0fe8a5c7835fc1cbaba0cc8dfe7161f"
-        },
-        {
-            "name": "5.39.10",
-            "sha256": "4b7ffb3e068583fa5c8413390c998b2c15214f205ce737acc485b40932b9f419"
-        },
-        {
-            "name": "5.38.2",
-            "sha256": "a0a31534451eb7b83c7d6594a497543a54d488bc90ca00f5e34762577f40655e"
-        },
-        {
             "name": "5.38.0",
             "sha256": "213ef58089d2f2c972ea353517dc60ec3656f050dcc027666e118b508423e517"
         },
         {
-            "name": "5.36.3",
-            "sha256": "f2a1ad88116391a176262dd42dfc52ef22afb40f4c0e9810f15d561e6f1c726a"
+            "name": "5.37.9",
+            "sha256": "9884fa8a4958bf9434b50f01cbfd187f9e2738f38fe1ae37f844e9950c5117c1"
         },
         {
             "name": "5.36.1",
@@ -2974,12 +2930,6 @@
         {
             "name": "5.36.0",
             "sha256": "e26085af8ac396f62add8a533c3a0ea8c8497d836f0689347ac5abd7b7a4e00a"
-        }
-    ],
-    "versions_deprecated": [
-        {
-            "name": "5.37.9",
-            "sha256": "9884fa8a4958bf9434b50f01cbfd187f9e2738f38fe1ae37f844e9950c5117c1"
         },
         {
             "name": "5.35.0",
@@ -3073,5 +3023,6 @@
             "name": "5.16.3",
             "sha256": "69cf08dca0565cec2c5c6c2f24b87f986220462556376275e5431cc2204dedb6"
         }
-    ]
+    ],
+    "versions_deprecated": []
 }

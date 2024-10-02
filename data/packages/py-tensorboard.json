@@ -1,13 +1,7 @@
 {
     "aliases": [],
     "build_system": "PythonPackage",
-    "conflicts": [
-        {
-            "description": null,
-            "name": "^py-protobuf@4.24.0",
-            "spec": ""
-        }
-    ],
+    "conflicts": [],
     "dependencies": [
         {
             "description": "This repository is a collection of Python library code for building\nPython applications. The code is collected from Google's own Python code\nbase, and has been extensively tested and used in production.",
@@ -112,10 +106,6 @@
             "name": "py-tensorflow"
         },
         {
-            "description": "TensorFlow Estimator is a high-level API that encapsulates model\ntraining, evaluation, prediction, and exporting.",
-            "name": "py-tensorflow-estimator"
-        },
-        {
             "description": "TorchGeo: datasets, samplers, transforms, and pre-trained models for\ngeospatial data.",
             "name": "py-torchgeo"
         },
@@ -126,7 +116,7 @@
     ],
     "description": "TensorBoard is a suite of web applications for inspecting and\nunderstanding your TensorFlow runs and graphs.\n",
     "homepage": "https://github.com/tensorflow/tensorboard",
-    "latest_version": "2.17.0",
+    "latest_version": "2.16.2",
     "maintainers": [
         "aweits"
     ],
@@ -141,10 +131,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.17.0",
-            "sha256": "859a499a9b1fb68a058858964486627100b71fcb21646861c61d31846a6478fb"
-        },
         {
             "name": "2.16.2",
             "sha256": "9f2b4e7dad86667615c0e5cd072f1ea8403fc032a299f0072d6f74855775cc45"

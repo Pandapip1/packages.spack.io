@@ -53,7 +53,7 @@
         }
     ],
     "description": "libXxf86dga - Client library for the XFree86-DGA extension.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXxf86dga",
+    "homepage": "https://cgit.freedesktop.org/xorg/lib/libXxf86dga",
     "latest_version": "1.1.6",
     "maintainers": [
         "wdconinc"

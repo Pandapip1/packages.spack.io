@@ -9,6 +9,11 @@
         },
         {
             "description": null,
+            "name": "arch=cray-None-None",
+            "spec": "build_system=msbuild"
+        },
+        {
+            "description": null,
             "name": "arch=darwin-None-None",
             "spec": "build_system=msbuild"
         },

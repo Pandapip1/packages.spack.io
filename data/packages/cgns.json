@@ -96,15 +96,6 @@
             "sha256": "d7eec8aee92455edbd396a7a3f03144a67881573fdcae563da2ec3ba9ceb9a66",
             "version": "@:3.3.1+tools",
             "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.cgns",
-            "relative_path": "gcc14.patch",
-            "reverse": false,
-            "sha256": "3e60c32953703b6e875a8289e2f41f820cb0d73936d8b5ce9c6708a36d58af64",
-            "version": "@:4.4.0%gcc@14:",
-            "working_dir": "."
         }
     ],
     "resources": [],

@@ -33,16 +33,12 @@
             "name": "hpctoolkit"
         },
         {
-            "description": "The Linux perf tool.",
-            "name": "linux-perf"
-        },
-        {
             "description": "Numap is a Linux library dedicated to memory profiling based on hardware\nperformance monitoring unit (PMU).",
             "name": "numap"
         }
     ],
     "description": "libpfm4 is a userspace library to help setup performance events for use\nwith the perf_events Linux kernel interface.\n",
-    "homepage": "https://perfmon2.sourceforge.net",
+    "homepage": "http://perfmon2.sourceforge.net",
     "latest_version": "4.13.0",
     "maintainers": [
         "mwkrentel"

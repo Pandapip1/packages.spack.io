@@ -12,12 +12,7 @@
             "name": "perl-io-stringy"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "The Ensembl Core Perl API and SQL schema",
-            "name": "perl-bio-ensembl"
-        }
-    ],
+    "dependent_to": [],
     "description": "A module for reading .ini-style configuration files.\n",
     "homepage": "https://metacpan.org/pod/Config::IniFiles",
     "latest_version": "3.000003",

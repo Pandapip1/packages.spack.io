@@ -19,7 +19,7 @@
     "dependent_to": [],
     "description": "Umap is a library that provides an mmap()-like interface to a simple,\nuser-space page fault handler based on the userfaultfd Linux feature\n(starting with 4.3 linux kernel).\n",
     "homepage": "https://github.com/LLNL/umap",
-    "latest_version": "2.1.1",
+    "latest_version": "2.1.0",
     "maintainers": [],
     "name": "umap",
     "patches": [],
@@ -60,10 +60,6 @@
         {
             "branch": "develop",
             "name": "develop"
-        },
-        {
-            "name": "2.1.1",
-            "sha256": "6257e1ffd667a7d14e2061671328ccf7ecda27bc98fafb10f45502f967b1a115"
         },
         {
             "name": "2.1.0",

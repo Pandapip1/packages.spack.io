@@ -35,10 +35,6 @@
         {
             "description": "Hydrogen: Distributed-memory dense and sparse-direct linear algebra and\noptimization library. Based on the Elemental library.",
             "name": "hydrogen"
-        },
-        {
-            "description": "SIESTA performs electronic structure calculations and ab initio\nmolecular dynamics simulations of molecules and solids.",
-            "name": "siesta"
         }
     ],
     "description": "The Cray Scientific Libraries package, LibSci, is a collection of\nnumerical routines optimized for best performance on Cray systems.\n",

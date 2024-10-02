@@ -22,10 +22,6 @@
             "name": "gnuconfig"
         },
         {
-            "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
-            "name": "pkgconfig"
-        },
-        {
             "description": "The popt library parses command line options.",
             "name": "popt"
         },
@@ -36,17 +32,13 @@
     ],
     "dependent_to": [
         {
-            "description": "The Linux perf tool.",
-            "name": "linux-perf"
-        },
-        {
             "description": "This is ROCmgdb, the ROCm source-level debugger for Linux, based on GDB,\nthe GNU source-level debugger.",
             "name": "rocm-gdb"
         }
     ],
     "description": "Babeltrace is a trace viewer and converter reading and writing the\nCommon Trace Format (CTF). Its main use is to pretty-print CTF traces\ninto a human-readable text output ordered by time.\n",
     "homepage": "https://www.efficios.com/babeltrace",
-    "latest_version": "1.5.11",
+    "latest_version": "1.2.4",
     "maintainers": [],
     "name": "babeltrace",
     "patches": [],
@@ -59,10 +51,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.5.11",
-            "sha256": "67b43aaaef5c951fa7af1a557cf7201a11fe89876b7c22ba0a03cbc316db5a9c"
-        },
         {
             "name": "1.2.4",
             "sha256": "666e3a1ad2dc7d5703059963056e7800f0eab59c8eeb6be2efe4f3acc5209eb1"

@@ -58,25 +58,17 @@
     ],
     "dependent_to": [
         {
-            "description": "The GFSIO library provides an API to convert GFS Gaussian output into\ngrib output. This is part of the NOAA NCEPLIBS project.",
-            "name": "gfsio"
-        },
-        {
-            "description": "Utility routines useful for initializing land-surface states in NCEP\nmodels. This is part of NOAA's NCEPLIBS project.",
-            "name": "landsfcutil"
+            "description": "FleCSI is a compile-time configurable framework designed to support\nmulti-physics application development. As such, FleCSI attempts to\nprovide a very general set of infrastructure design patterns that can be\nspecialized and extended to suit the needs of a broad variety of solver\nand data requirements. Current support includes multi-dimensional mesh\ntopology, mesh geometry, and mesh adjacency information.",
+            "name": "flecsi"
         },
         {
             "description": "MAPL is a foundation layer of the GEOS architecture, whose original\npurpose is to supplement the Earth System Modeling Framework (ESMF).\nMAPL fills in missing capabilities of ESMF, provides higher-level\ninterfaces for common boiler-plate logic, and enforces various\ncomponentization conventions across ESMF gridded components within GEOS.",
             "name": "mapl"
-        },
-        {
-            "description": "The SFCIO library provides an API to read the NCEP Spectral model\nsurface files. This is part of the NCEPLIBS project.",
-            "name": "sfcio"
         }
     ],
     "description": "pFUnit is a unit testing framework enabling JUnit-like testing of serial\nand MPI-parallel software written in Fortran.\n",
     "homepage": "https://github.com/Goddard-Fortran-Ecosystem/pFUnit",
-    "latest_version": "4.10.0",
+    "latest_version": "4.9.0",
     "maintainers": [
         "mathomp4",
         "tclune"
@@ -152,10 +144,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "4.10.0",
-            "sha256": "ee5e899dfb786bac46e3629b272d120920bafdb7f6a677980fc345f6acda0f99"
-        },
         {
             "name": "4.9.0",
             "sha256": "caea019f623d4e02dd3e8442cee88e6087b4c431a2628e9ec2de55b527b51ab6"

@@ -17,7 +17,7 @@
     "dependent_to": [],
     "description": "Hardware Probe Tool (hw-probe).\n",
     "homepage": "https://github.com/linuxhw/hw-probe",
-    "latest_version": "1.6",
+    "latest_version": "1.5",
     "maintainers": [],
     "name": "hw-probe",
     "patches": [],
@@ -30,10 +30,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.6",
-            "sha256": "de048be6aef357d3142c9e2327d6f79d205a42aa3396ad381ed319115d1c9a22"
-        },
         {
             "name": "1.5",
             "sha256": "8bb7d6ff272c1412e26fcfd86e9df5c3e34e1584552404b930c281b8498b25ea"

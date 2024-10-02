@@ -76,7 +76,7 @@
     ],
     "description": "Python bindings for Qt.\n",
     "homepage": "https://www.pyside.org/",
-    "latest_version": "5.15.14",
+    "latest_version": "5.15.2.1",
     "maintainers": [],
     "name": "py-pyside2",
     "patches": [],
@@ -97,10 +97,6 @@
         {
             "name": "develop",
             "tag": "dev"
-        },
-        {
-            "name": "5.15.14",
-            "sha256": "32651194f6a6b7bce42f04e68b1401ad2087e4789a4c8f3fb8649e86189c6372"
         },
         {
             "commit": "9282e03de471bb3772c8d3997159e49c113d7678",

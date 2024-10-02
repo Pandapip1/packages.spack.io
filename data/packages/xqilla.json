@@ -24,7 +24,7 @@
     ],
     "dependent_to": [],
     "description": "XQilla is an XQuery and XPath 2 library and command line utility written\nin C++, implemented on top of the Xerces-C library.\n",
-    "homepage": "https://xqilla.sourceforge.net/HomePage",
+    "homepage": "http://xqilla.sourceforge.net/HomePage",
     "latest_version": "2.3.3",
     "maintainers": [],
     "name": "xqilla",

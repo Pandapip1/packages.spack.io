@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -468,7 +428,7 @@
     "dependent_to": [],
     "description": "The PennyLane-Lightning-Kokkos plugin provides a fast state-vector\nsimulator with Kokkos kernels.\n",
     "homepage": "https://docs.pennylane.ai/projects/lightning-kokkos",
-    "latest_version": "0.37.0",
+    "latest_version": "0.35.1",
     "maintainers": [
         "AmintorDusko",
         "vincentmr"
@@ -566,14 +526,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "0.37.0",
-            "sha256": "3f70e3e3b7e4d0f6a679919c0c83e451e129666b021bb529dd02eb915d0666a0"
-        },
-        {
-            "name": "0.36.0",
-            "sha256": "c5fb24bdaf2ebdeaf614bfb3a8bcc07ee83c2c7251a3893399bb0c189d2d1d01"
         },
         {
             "name": "0.35.1",

@@ -88,10 +88,6 @@
             "name": "busco"
         },
         {
-            "description": "DIAMOND is a sequence aligner for protein and translated DNA searches,\ndesigned for high performance analysis of big sequence data.",
-            "name": "diamond"
-        },
-        {
             "description": "Organelle Genome Assembly Toolkit (Chloroplast/Mitocondrial/ITS)",
             "name": "getorganelle"
         },
@@ -206,7 +202,7 @@
     ],
     "description": "Basic Local Alignment Search Tool.\n",
     "homepage": "https://blast.ncbi.nlm.nih.gov/",
-    "latest_version": "2.16.0",
+    "latest_version": "2.14.1",
     "maintainers": [
         "weijianwen"
     ],
@@ -291,14 +287,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.16.0",
-            "sha256": "17c93cf009721023e5aecf5753f9c6a255d157561638b91b3ad7276fd6950c2b"
-        },
-        {
-            "name": "2.15.0",
-            "sha256": "6918c370524c8d44e028bf491e8f245a895e07c66c77b261ce3b38d6058216e0"
-        },
         {
             "name": "2.14.1",
             "sha256": "712c2dbdf0fb13cc1c2d4f4ef5dd1ce4b06c3b57e96dfea8f23e6e99f5b1650e"

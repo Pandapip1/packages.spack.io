@@ -28,7 +28,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "MultiQC is a tool to aggregate bioinformatics results across many\nsamples into a single report. It is written in Python and contains\nmodules for a large number of common bioinformatics tools.",
+            "name": "py-multiqc"
+        }
+    ],
     "description": "lz-string for python.\n",
     "homepage": "https://github.com/gkovacs/lz-string-python",
     "latest_version": "1.0.3",

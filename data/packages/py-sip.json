@@ -28,10 +28,6 @@
             "name": "py-setuptools"
         },
         {
-            "description": "The blessed package to manage your versions by scm tags.",
-            "name": "py-setuptools-scm"
-        },
-        {
             "description": "A Python library for parsing and creating TOML configuration files. For\nmore information on the TOML standard, see https://github.com/toml-\nlang/toml.git",
             "name": "py-toml"
         },
@@ -88,7 +84,7 @@
     ],
     "description": "A Python bindings generator for C/C++ libraries.\n",
     "homepage": "https://www.riverbankcomputing.com/software/sip",
-    "latest_version": "6.8.5",
+    "latest_version": "6.7.9",
     "maintainers": [],
     "name": "py-sip",
     "patches": [],
@@ -106,10 +102,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "6.8.5",
-            "sha256": "5dddd5966e9875d89ecde9d3e6ac63225f9972e4d25c09e20fa22f1819409c70"
-        },
         {
             "name": "6.7.9",
             "sha256": "35d51fc10f599d3696abb50f29d068ad04763df7b77808c76b74597660f99b17"

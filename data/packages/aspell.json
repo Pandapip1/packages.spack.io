@@ -42,7 +42,7 @@
     ],
     "description": "GNU Aspell is a Free and Open Source spell checker designed to\neventually replace Ispell.\n",
     "homepage": "http://aspell.net/",
-    "latest_version": "0.60.8.1",
+    "latest_version": "0.60.8",
     "maintainers": [],
     "name": "aspell",
     "patches": [
@@ -74,10 +74,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.60.8.1",
-            "sha256": "d6da12b34d42d457fa604e435ad484a74b2effcd120ff40acd6bb3fb2887d21b"
-        },
         {
             "name": "0.60.8",
             "sha256": "f9b77e515334a751b2e60daab5db23499e26c9209f5e7b7443b05235ad0226f2"

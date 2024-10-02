@@ -70,10 +70,6 @@
             "name": "gmake"
         },
         {
-            "description": "ISA-L is a collection of optimized low-level functions targeting storage\napplications. ISA-L includes: - Erasure codes - Fast block Reed-Solomon\ntype erasure codes for any encode/decode matrix in GF(2^8). - CRC - Fast\nimplementations of cyclic redundancy check. Six different polynomials\nsupported. iscsi32, ieee32, t10dif, ecma64, iso64, jones64. - Raid -\ncalculate and operate on XOR and P+Q parity found in common RAID\nimplementations. - Compression - Fast deflate-compatible data\ncompression. - De-compression - Fast inflate-compatible data\ncompression.",
-            "name": "isa-l"
-        },
-        {
             "description": "A JSON implementation in C.",
             "name": "json-c"
         },
@@ -136,10 +132,6 @@
     ],
     "dependent_to": [
         {
-            "description": "Multi-protocol data management library.",
-            "name": "gfal2"
-        },
-        {
             "description": "Connector between Hadoop and XRootD protocols (EOS compatible).",
             "name": "hadoop-xrootd"
         },
@@ -161,8 +153,8 @@
         }
     ],
     "description": "The XROOTD project aims at giving high performance, scalable fault\ntolerant access to data repositories of many kinds.\n",
-    "homepage": "https://xrootd.web.cern.ch",
-    "latest_version": "5.7.1",
+    "homepage": "https://xrootd.slac.stanford.edu",
+    "latest_version": "5.6.9",
     "maintainers": [
         "gartung",
         "greenc-FNAL",
@@ -254,7 +246,7 @@
             "name": "client_only"
         },
         {
-            "default": "98",
+            "default": "14",
             "description": "Use the specified C++ standard when building",
             "name": "cxxstd"
         },
@@ -262,11 +254,6 @@
             "default": true,
             "description": "Build with Davix",
             "name": "davix"
-        },
-        {
-            "default": true,
-            "description": "Build with erasure coding component support",
-            "name": "ec"
         },
         {
             "default": "make",
@@ -305,14 +292,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "5.7.1",
-            "sha256": "c28c9dc0a2f5d0134e803981be8b1e8b1c9a6ec13b49f5fa3040889b439f4041"
-        },
-        {
-            "name": "5.7.0",
-            "sha256": "214599bba98bc69875b82ac74f2d4b9ac8a554a1024119d8a9802b3d8b9986f8"
-        },
         {
             "name": "5.6.9",
             "sha256": "44196167fbcf030d113e3749dfdecab934c43ec15e38e77481e29aac191ca3a8"

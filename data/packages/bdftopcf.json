@@ -49,8 +49,8 @@
         }
     ],
     "description": "bdftopcf is a font compiler for the X server and font server. Fonts in\nPortable Compiled Format can be read by any architecture, although the\nfile is structured to allow one particular architecture to read them\ndirectly without reformatting. This allows fast reading on the\nappropriate machine, but the files are still portable (but read more\nslowly) on other machines.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/util/bdftopcf",
-    "latest_version": "1.1.1",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/bdftopcf",
+    "latest_version": "1.1",
     "maintainers": [],
     "name": "bdftopcf",
     "patches": [],
@@ -63,10 +63,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.1.1",
-            "sha256": "3291df9910c006a0345f3eac485e2a5734bbb79a0d97bf1f2b4cddad48fb1bc4"
-        },
         {
             "name": "1.1",
             "sha256": "699d1a62012035b1461c7f8e3f05a51c8bd6f28f348983249fb89bbff7309b47"

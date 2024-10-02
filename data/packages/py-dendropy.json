@@ -54,10 +54,6 @@
             "name": "py-phylophlan"
         },
         {
-            "description": "Sequence Elements Enrichment Analysis (SEER), python implementation",
-            "name": "py-pyseer"
-        },
-        {
             "description": "Python framework for doing ancestral sequence reconstruction.",
             "name": "py-topiary-asr"
         },

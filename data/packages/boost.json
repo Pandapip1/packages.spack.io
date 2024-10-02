@@ -368,10 +368,6 @@
             "name": "denovogear"
         },
         {
-            "description": "Acts fork of dfelibs, a header-only utility library for C++.",
-            "name": "dfelibs"
-        },
-        {
             "description": "High-abstracted network simulator for message-passing programs.",
             "name": "dimemas"
         },
@@ -454,6 +450,10 @@
         {
             "description": "FLANN is a library for performing fast approximate nearest neighbor\nsearches in high dimensional spaces. It contains a collection of\nalgorithms we found to work best for nearest neighbor search and a\nsystem for automatically choosing the best algorithm and optimum\nparameters depending on the dataset. FLANN is written in C++ and\ncontains bindings for the following languages: C, MATLAB and Python.",
             "name": "flann"
+        },
+        {
+            "description": "Flecsale is an ALE code based on FleCSI",
+            "name": "flecsale"
         },
         {
             "description": "FleCSI is a compile-time configurable framework designed to support\nmulti-physics application development. As such, FleCSI attempts to\nprovide a very general set of infrastructure design patterns that can be\nspecialized and extended to suit the needs of a broad variety of solver\nand data requirements. Current support includes multi-dimensional mesh\ntopology, mesh geometry, and mesh adjacency information.",
@@ -540,10 +540,6 @@
             "name": "henson"
         },
         {
-            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
-            "name": "hermes-shm"
-        },
-        {
             "description": "Herwig is a multi-purpose particle physics event generator.",
             "name": "herwig3"
         },
@@ -610,6 +606,10 @@
         {
             "description": "IQ-TREE Efficient software for phylogenomic inference",
             "name": "iq-tree"
+        },
+        {
+            "description": "Efficient and versatile phylogenomic software by maximum likelihood",
+            "name": "iqtree2"
         },
         {
             "description": "In Situ Animation of Accelerated Computations: Header-Only Library",
@@ -744,10 +744,6 @@
             "name": "metabat"
         },
         {
-            "description": "METACARPA is designed for meta-analysing genetic association studies\nwith overlapping or related samples, when details of the overlap or\nrelatedness are unknown. It implements and expands a method first\ndescribed by Province and Borecki.",
-            "name": "metacarpa"
-        },
-        {
             "description": "A Persistent Memory Allocator For Data-Centric Analytics",
             "name": "metall"
         },
@@ -786,10 +782,6 @@
         {
             "description": "The MRNet Multi-Cast Reduction Network.",
             "name": "mrnet"
-        },
-        {
-            "description": "A small, fast binary interchange format convertible to/from JSON",
-            "name": "msgpack-c"
         },
         {
             "description": "Multiverso is a parameter server based framework for training machine\nlearning models on big data with numbers of machines.",
@@ -864,7 +856,7 @@
             "name": "openfoam"
         },
         {
-            "description": "Reading, writing, and processing images in a wide variety of file\nformats, using a format-agnostic API, aimed at VFX applications.",
+            "description": "OpenImageIO is a library for reading and writing images, and a bunch of\nrelated classes, utilities, and applications.",
             "name": "openimageio"
         },
         {
@@ -960,10 +952,6 @@
             "name": "polymake"
         },
         {
-            "description": "A poorman's JIT library",
-            "name": "poorjit"
-        },
-        {
             "description": "Poppler is a PDF rendering library based on the xpdf-3.0 code base.",
             "name": "poppler"
         },
@@ -986,10 +974,6 @@
         {
             "description": "Advanced Multilanguage Interface for CVODES and IDAS",
             "name": "py-amici"
-        },
-        {
-            "description": "Spatial indexer for geometries and morphologies",
-            "name": "py-brain-indexer"
         },
         {
             "description": "ESPResSo is a highly versatile software package for performing and\nanalyzing scientific Molecular Dynamics many-particle simulations of\ncoarse-grained atomistic or bead-spring models as they are used in soft\nmatter research in physics, chemistry and molecular biology. It can be\nused to simulate systems such as polymers, liquid crystals, colloids,\npolyelectrolytes, ferrofluids and biological systems, for example DNA\nand lipid membranes. It also has a DPD and lattice Boltzmann solver for\nhydrodynamic interactions, and allows several particle couplings to the\nLB fluid.",
@@ -1138,10 +1122,6 @@
         {
             "description": "Wrapper around xtb to export it into the Scine tool chain.",
             "name": "scine-xtb"
-        },
-        {
-            "description": "scanf for modern C++",
-            "name": "scnlib"
         },
         {
             "description": "SeqAn is an open source C++ library of efficient algorithms and data\nstructures for the analysis of sequences with the focus on biological\ndata. Our library applies a unique generic design that guarantees high\nperformance, generality, extensibility, and integration with other\nlibraries. SeqAn is easy to use and simplifies the development of new\nsoftware tools with a minimal loss of performance",
@@ -1296,7 +1276,7 @@
             "name": "vtk"
         },
         {
-            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid GPU/OpenMP/MPI parallelization and load\nbalancing capabilities.",
+            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid OpenMP/MPI parallelization, advanced\nvectorization techniques and load balancing capabilities. For WarpX'\nPython bindings and PICMI input support, see the 'py-warpx' package.",
             "name": "warpx"
         },
         {
@@ -1338,7 +1318,7 @@
     ],
     "description": "Boost provides free peer-reviewed portable C++ source libraries,\nemphasizing libraries that work well with the C++ Standard Library.\nBoost libraries are intended to be widely useful, and usable across a\nbroad spectrum of applications. The Boost license encourages both\ncommercial and non-commercial use.\n",
     "homepage": "https://www.boost.org",
-    "latest_version": "1.86.0",
+    "latest_version": "1.85.0",
     "maintainers": [
         "hainest"
     ],
@@ -1495,6 +1475,15 @@
             "reverse": false,
             "sha256": "e13cca1cfad7dcce9ed3d4ef989c14e464c4ea00caaf335f762e3677b35cab61",
             "version": "@1.72.0",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.boost",
+            "relative_path": "bootstrap-path.patch",
+            "reverse": false,
+            "sha256": "57a8401dee8f52b0342e0c8147a5b2db834e8d8f3fbcbbc5950016bd3e9e1ef0",
+            "version": "@1.39.0: arch=cray-None-None",
             "working_dir": "."
         },
         {
@@ -1683,11 +1672,6 @@
         },
         {
             "default": false,
-            "description": "Compile with charconv library",
-            "name": "charconv"
-        },
-        {
-            "default": false,
             "description": "Compile with chrono library",
             "name": "chrono"
         },
@@ -1695,11 +1679,6 @@
             "default": false,
             "description": "Compile with clang libc++ instead of libstdc++",
             "name": "clanglibcpp"
-        },
-        {
-            "default": false,
-            "description": "Compile with cobalt library",
-            "name": "cobalt"
         },
         {
             "default": false,
@@ -1898,11 +1877,6 @@
         },
         {
             "default": false,
-            "description": "Compile with url library",
-            "name": "url"
-        },
-        {
-            "default": false,
             "description": "Augment library layout with versioned subdirs",
             "name": "versionedlayout"
         },
@@ -1921,10 +1895,6 @@
         {
             "branch": "develop",
             "name": "develop"
-        },
-        {
-            "name": "1.86.0",
-            "sha256": "1bed88e40401b2cb7a1f76d4bab499e352fa4d0c5f31c0dbae64e24d34d7513b"
         },
         {
             "name": "1.85.0",

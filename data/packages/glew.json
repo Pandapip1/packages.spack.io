@@ -95,7 +95,7 @@
         }
     ],
     "description": "The OpenGL Extension Wrangler Library.\n",
-    "homepage": "https://glew.sourceforge.net/",
+    "homepage": "http://glew.sourceforge.net/",
     "latest_version": "2.2.0",
     "maintainers": [
         "biddisco"

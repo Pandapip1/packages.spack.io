@@ -128,10 +128,6 @@
         {
             "description": "TeXstudio is a fully featured LaTeX editor, whose goal is to make\nwriting LaTeX documents as easy and comfortable as possible.",
             "name": "texstudio"
-        },
-        {
-            "description": "Tumbler is a D-Bus service for applications to request thumbnails for\nXFCE4",
-            "name": "tumbler"
         }
     ],
     "description": "Poppler is a PDF rendering library based on the xpdf-3.0 code base.\n",

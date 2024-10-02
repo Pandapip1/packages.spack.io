@@ -19,12 +19,17 @@
         },
         {
             "description": "intel-oneapi-dnn: This package in only available for x86_64 and Linux",
-            "name": "arch=darwin-None-None",
+            "name": "arch=cray:-None-None",
             "spec": ""
         },
         {
             "description": "intel-oneapi-dnn: This package in only available for x86_64 and Linux",
-            "name": "arch=windows-None-None",
+            "name": "arch=darwin:-None-None",
+            "spec": ""
+        },
+        {
+            "description": "intel-oneapi-dnn: This package in only available for x86_64 and Linux",
+            "name": "arch=windows:-None-None",
             "spec": ""
         }
     ],
@@ -37,7 +42,7 @@
     "dependent_to": [],
     "description": "The Intel oneAPI Deep Neural Network Library (oneDNN) helps developers\nimprove productivity and enhance the performance of their deep learning\nframeworks. It supports key data type formats, including 16 and 32-bit\nfloating point, bfloat16, and 8-bit integers and implements rich\noperators, including convolution, matrix multiplication, pooling, batch\nnormalization, activation functions, recurrent neural network (RNN)\ncells, and long short-term memory (LSTM) cells. LICENSE INFORMATION: By\ndownloading and using this software, you agree to the terms and\nconditions of the software license agreements at\nhttps://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onednn.html",
-    "latest_version": "2024.2.1",
+    "latest_version": "2024.1.1",
     "maintainers": [
         "rscohn2"
     ],
@@ -57,16 +62,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2024.2.1",
-            "sha256": "86f143568529465d6e8b87763e645774f40ac3c38d7713088a597a3f941978bb",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/7c850be0-b17d-4b7f-898d-3bc5fc36aa8d/l_onednn_p_2024.2.1.76_offline.sh"
-        },
-        {
-            "name": "2024.2.0",
-            "sha256": "9bc74f8e48758c0ce7dda4c9f8f961a26f48c25e5ad5335c6e7ecbd7ece38c97",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/6f830f51-56cd-4ea6-ade7-0f066c9b1939/l_onednn_p_2024.2.0.571_offline.sh"
-        },
         {
             "name": "2024.1.1",
             "sha256": "a67a387bc0d30a5ca1bd0ed3d551ed13df7dba7939b208fd0c81a24425e6e90a",

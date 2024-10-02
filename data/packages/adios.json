@@ -112,10 +112,6 @@
             "name": "conduit"
         },
         {
-            "description": "LibPressio file reader for legacy ADIOS1 files not supported by ADIOS2",
-            "name": "libpressio-adios1"
-        },
-        {
             "description": "C++ & Python API for Scientific I/O",
             "name": "openpmd-api"
         },

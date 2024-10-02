@@ -39,7 +39,7 @@
     "dependent_to": [],
     "description": "EnTT is a header-only, tiny and easy to use library for game programming\nand much more written in modern C++, mainly known for its innovative\nentity-component-system (ECS) model.\n",
     "homepage": "https://entt.docsforge.com",
-    "latest_version": "3.13.2",
+    "latest_version": "3.13.1",
     "maintainers": [],
     "name": "entt",
     "patches": [],
@@ -67,10 +67,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "3.13.2",
-            "sha256": "cb556aa543d01177b62de41321759e02d96078948dda72705b3d7fe68af88489"
-        },
         {
             "name": "3.13.1",
             "sha256": "a4f290b601a70333126abd2cec7b0c232c74a4f85dcf1e04d969e8122dae8652"

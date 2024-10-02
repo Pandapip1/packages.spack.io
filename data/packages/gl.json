@@ -9,6 +9,11 @@
     "conflicts": [
         {
             "description": null,
+            "name": "arch=cray-None-None",
+            "spec": ""
+        },
+        {
+            "description": null,
             "name": "arch=darwin-None-None",
             "spec": ""
         },
@@ -182,10 +187,6 @@
             "name": "py-pymol"
         },
         {
-            "description": "PyOpenGL is the most common cross platform Python binding to OpenGL and\nrelated APIs.",
-            "name": "py-pyopengl"
-        },
-        {
             "description": "Qt is a comprehensive cross-platform C++ application framework.",
             "name": "qt"
         },
@@ -232,10 +233,6 @@
         {
             "description": "xdriinfo - query configuration information of X11 DRI drivers.",
             "name": "xdriinfo"
-        },
-        {
-            "description": "X.Org Server is the free and open source implementation of the display\nserver for the X Window System stewarded by the X.Org Foundation.",
-            "name": "xorg-server"
         }
     ],
     "description": "External WGl and Windows OpenGL emulation representation in Spack\n",

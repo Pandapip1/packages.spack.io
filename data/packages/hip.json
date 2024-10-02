@@ -3,29 +3,9 @@
     "build_system": "CMakePackage",
     "conflicts": [
         {
-            "description": "hip: ROCm must be enabled for asan",
-            "name": "+asan~rocm",
-            "spec": ""
-        },
-        {
             "description": "hip: CUDA and ROCm support are mutually exclusive",
             "name": "+cuda+rocm",
             "spec": ""
-        },
-        {
-            "description": null,
-            "name": "+asan",
-            "spec": "arch=None-centos7-None"
-        },
-        {
-            "description": null,
-            "name": "+asan",
-            "spec": "arch=None-centos8-None"
-        },
-        {
-            "description": null,
-            "name": "+asan",
-            "spec": "arch=None-rhel9-None"
         },
         {
             "description": "hip: CUDA or ROCm support is required",
@@ -71,14 +51,6 @@
             "name": "hsakmt-roct"
         },
         {
-            "description": "An autotools compatible port of the NetBSD editline library",
-            "name": "libedit"
-        },
-        {
-            "description": "libX11 - Core X11 protocol client library.",
-            "name": "libx11"
-        },
-        {
             "description": "Toolkit for the construction of highly optimized compilers, optimizers,\nand run-time environments.",
             "name": "llvm-amdgpu"
         },
@@ -115,16 +87,8 @@
             "name": "rocminfo"
         },
         {
-            "description": "The rocprofiler-register library is a helper library that coordinates\nthe modification of the intercept API table(s) of the HSA/HIP/ROCTx\nruntime libraries by the ROCprofiler (v2) library",
-            "name": "rocprofiler-register"
-        },
-        {
             "description": "ROC-tracer API. Installs the API header files of the roctracer-dev\npackage, mainly to avoid circular dependencies in the ROCm ecosystem.\nFor the ROC-tracer library, please check out roctracer-dev.",
             "name": "roctracer-dev-api"
-        },
-        {
-            "description": "X Window System Core Protocol. This package provides the headers and\nspecification documents defining the X Window System Core Protocol,\nVersion 11. It also includes a number of headers that aren't purely\nprotocol related, but are depended upon by many other X Window System\npackages to provide common definitions and porting layer.",
-            "name": "xproto"
         }
     ],
     "dependent_to": [
@@ -193,7 +157,7 @@
             "name": "camp"
         },
         {
-            "description": "CHAI and RAJA extensions (includes data structures and algorithms).",
+            "description": "Algorithms for chai managed arrays.",
             "name": "care"
         },
         {
@@ -221,10 +185,6 @@
             "name": "cp2k"
         },
         {
-            "description": "Data & Vis SDK ** This package is a post-ECP port from the ECP Data &\nVis SDK **",
-            "name": "dav-sdk"
-        },
-        {
             "description": "Distributed Block Compressed Sparse Row matrix library.",
             "name": "dbcsr"
         },
@@ -243,10 +203,6 @@
         {
             "description": "Eigenvalue solvers for Petaflop-Applications (ELPA)",
             "name": "elpa"
-        },
-        {
-            "description": "ExaCA: an exascale cellular automata application for alloy\nsolidification modeling",
-            "name": "exaca"
         },
         {
             "description": "ExaGO is a package for solving large-scale power grid optimization\nproblems on parallel and distributed architectures, particularly\ntargeted for exascale machines.",
@@ -321,14 +277,6 @@
             "name": "hipsparse"
         },
         {
-            "description": "hipSPARSELt is a SPARSE marshalling library, with multiple supported\nbackends. It sits between the application and a 'worker' SPARSE library,\nmarshalling inputs into the backend library and marshalling results back\nto the application. hipSPARSELt exports an interface that does not\nrequire the client to change, regardless of the chosen backend.\nCurrently, hipSPARSELt supports rocSPARSELt and cuSPARSELt v0.4 as\nbackends.",
-            "name": "hipsparselt"
-        },
-        {
-            "description": "hipSYCL is an implementation of the SYCL standard programming model over\nNVIDIA CUDA/AMD HIP",
-            "name": "hipsycl"
-        },
-        {
             "description": "hipTT - Fast GPU Tensor Transpose for NVIDIA and AMD GPU.",
             "name": "hiptt"
         },
@@ -401,6 +349,10 @@
             "name": "miopen-hip"
         },
         {
+            "description": "MIOpenTensile provides host-callable interfaces to Tensile library.\nMIOpenTensile supports one programming model: HIP",
+            "name": "miopen-tensile"
+        },
+        {
             "description": "MIVisionX toolkit is a set of comprehensive computer vision and machine\nintelligence libraries, utilities, and applications bundled into a\nsingle toolkit.",
             "name": "mivisionx"
         },
@@ -419,10 +371,6 @@
         {
             "description": "Nalu-Wind: Wind energy focused variant of Nalu.",
             "name": "nalu-wind"
-        },
-        {
-            "description": "NAMD is a parallel molecular dynamics code designed for high-performance\nsimulation of large biomolecular systems.",
-            "name": "namd"
         },
         {
             "description": "Neko: A modern, portable, and scalable framework for high-fidelity\ncomputational fluid dynamics",
@@ -469,14 +417,6 @@
             "name": "py-cupy"
         },
         {
-            "description": "XLA library for Jax",
-            "name": "py-jaxlib"
-        },
-        {
-            "description": "ONNX Runtime is a performance-focused complete scoring engine for Open\nNeural Network Exchange (ONNX) models, with an open extensible\narchitecture to continually address the latest developments in AI and\nDeep Learning. ONNX Runtime stays up to date with the ONNX standard with\ncomplete implementation of all ONNX operators, and supports all ONNX\nreleases (1.2+) with both future and backwards compatibility.",
-            "name": "py-onnxruntime"
-        },
-        {
             "description": "The PennyLane-Lightning-Kokkos plugin provides a fast state-vector\nsimulator with Kokkos kernels.",
             "name": "py-pennylane-lightning-kokkos"
         },
@@ -495,10 +435,6 @@
         {
             "description": "RAJA Parallel Framework.",
             "name": "raja"
-        },
-        {
-            "description": "RAJA Performance Suite.",
-            "name": "raja-perf"
         },
         {
             "description": "Extensible, performance-portable solid mechanics with libCEED and PETSc",
@@ -527,10 +463,6 @@
         {
             "description": "Radeon Open Compute BLAS library",
             "name": "rocblas"
-        },
-        {
-            "description": "rocDecode is a high performance video decode SDK for AMD hardware",
-            "name": "rocdecode"
         },
         {
             "description": "Radeon Open Compute FFT library",
@@ -679,15 +611,11 @@
         {
             "description": "Yaksa is a high-performance datatype engine for expressing, managing and\nmanipulating data present in noncontiguous memory regions. It provides\nportable abstractions for structured noncontiguous data layouts that are\nmuch more comprehensive compared with traditional I/O vectors. Yaksa\nimitates parts of the MPI Datatype system, but adds additional\nfunctionality that would allow it to be used independent of MPI. It\nprovides routines for packing/unpacking, creating I/O vectors (array of\ncontiguous segments) and flattening/unflattening datatypes into process-\nportable formats. Yaksa's backend includes support for CPUs as well as\ndifferent GPUs.",
             "name": "yaksa"
-        },
-        {
-            "description": "Utility for monitoring process, thread, OS and HW resources, including\nGPU utilization.",
-            "name": "zerosum"
         }
     ],
     "description": "HIP is a C++ Runtime API and Kernel Language that allows developers to\ncreate portable applications for AMD and NVIDIA GPUs from single source\ncode.\n",
     "homepage": "https://github.com/ROCm/HIP",
-    "latest_version": "6.2.1",
+    "latest_version": "6.0.2",
     "maintainers": [
         "haampie",
         "renjithravindrankannath",
@@ -701,7 +629,7 @@
             "reverse": false,
             "sha256": "5bb9b0e08888830ccf3a0a658529fe25f4ee62b5b8890f349bf2cc914236eb2f",
             "url": "https://github.com/ROCm/clr/commit/c4f773db0b4ccbbeed4e3d6c0f6bff299c2aa3f0.patch?full_index=1",
-            "version": "@5.7:6.0",
+            "version": "@5.7:",
             "working_dir": "clr"
         },
         {
@@ -710,7 +638,7 @@
             "reverse": false,
             "sha256": "7668b2a710baf4cb063e6b00280fb75c4c3e0511575e8298a9c7ae5143f60b33",
             "url": "https://github.com/ROCm/clr/commit/7868876db742fb4d44483892856a66d2993add03.patch?full_index=1",
-            "version": "@5.7:6.0",
+            "version": "@5.7:",
             "working_dir": "clr"
         },
         {
@@ -719,7 +647,7 @@
             "reverse": false,
             "sha256": "5bb9b0e08888830ccf3a0a658529fe25f4ee62b5b8890f349bf2cc914236eb2f",
             "url": "https://github.com/ROCm/clr/commit/c4f773db0b4ccbbeed4e3d6c0f6bff299c2aa3f0.patch?full_index=1",
-            "version": "@5.7:6.0",
+            "version": "@5.7:",
             "working_dir": "clr"
         },
         {
@@ -728,7 +656,7 @@
             "reverse": false,
             "sha256": "7668b2a710baf4cb063e6b00280fb75c4c3e0511575e8298a9c7ae5143f60b33",
             "url": "https://github.com/ROCm/clr/commit/7868876db742fb4d44483892856a66d2993add03.patch?full_index=1",
-            "version": "@5.7:6.0",
+            "version": "@5.7:",
             "working_dir": "clr"
         },
         {
@@ -737,7 +665,7 @@
             "reverse": false,
             "sha256": "5bb9b0e08888830ccf3a0a658529fe25f4ee62b5b8890f349bf2cc914236eb2f",
             "url": "https://github.com/ROCm/clr/commit/c4f773db0b4ccbbeed4e3d6c0f6bff299c2aa3f0.patch?full_index=1",
-            "version": "@5.7:6.0",
+            "version": "@5.7:",
             "working_dir": "clr"
         },
         {
@@ -746,7 +674,7 @@
             "reverse": false,
             "sha256": "7668b2a710baf4cb063e6b00280fb75c4c3e0511575e8298a9c7ae5143f60b33",
             "url": "https://github.com/ROCm/clr/commit/7868876db742fb4d44483892856a66d2993add03.patch?full_index=1",
-            "version": "@5.7:6.0",
+            "version": "@5.7:",
             "working_dir": "clr"
         },
         {
@@ -755,7 +683,7 @@
             "reverse": false,
             "sha256": "5bb9b0e08888830ccf3a0a658529fe25f4ee62b5b8890f349bf2cc914236eb2f",
             "url": "https://github.com/ROCm/clr/commit/c4f773db0b4ccbbeed4e3d6c0f6bff299c2aa3f0.patch?full_index=1",
-            "version": "@5.7:6.0",
+            "version": "@5.7:",
             "working_dir": "clr"
         },
         {
@@ -764,7 +692,7 @@
             "reverse": false,
             "sha256": "7668b2a710baf4cb063e6b00280fb75c4c3e0511575e8298a9c7ae5143f60b33",
             "url": "https://github.com/ROCm/clr/commit/7868876db742fb4d44483892856a66d2993add03.patch?full_index=1",
-            "version": "@5.7:6.0",
+            "version": "@5.7:",
             "working_dir": "clr"
         },
         {
@@ -773,7 +701,7 @@
             "reverse": false,
             "sha256": "5bb9b0e08888830ccf3a0a658529fe25f4ee62b5b8890f349bf2cc914236eb2f",
             "url": "https://github.com/ROCm/clr/commit/c4f773db0b4ccbbeed4e3d6c0f6bff299c2aa3f0.patch?full_index=1",
-            "version": "@5.7:6.0",
+            "version": "@5.7:",
             "working_dir": "clr"
         },
         {
@@ -782,7 +710,7 @@
             "reverse": false,
             "sha256": "7668b2a710baf4cb063e6b00280fb75c4c3e0511575e8298a9c7ae5143f60b33",
             "url": "https://github.com/ROCm/clr/commit/7868876db742fb4d44483892856a66d2993add03.patch?full_index=1",
-            "version": "@5.7:6.0",
+            "version": "@5.7:",
             "working_dir": "clr"
         },
         {
@@ -791,7 +719,7 @@
             "reverse": false,
             "sha256": "5bb9b0e08888830ccf3a0a658529fe25f4ee62b5b8890f349bf2cc914236eb2f",
             "url": "https://github.com/ROCm/clr/commit/c4f773db0b4ccbbeed4e3d6c0f6bff299c2aa3f0.patch?full_index=1",
-            "version": "@5.7:6.0",
+            "version": "@5.7:",
             "working_dir": "clr"
         },
         {
@@ -800,98 +728,35 @@
             "reverse": false,
             "sha256": "7668b2a710baf4cb063e6b00280fb75c4c3e0511575e8298a9c7ae5143f60b33",
             "url": "https://github.com/ROCm/clr/commit/7868876db742fb4d44483892856a66d2993add03.patch?full_index=1",
-            "version": "@5.7:6.0",
+            "version": "@5.7:",
             "working_dir": "clr"
         },
         {
             "level": 1,
             "owner": "builtin.hip",
+            "relative_path": "0011-Improve-compilation-without-git-repo-and-remove-compiler-rt-linkage-for-host.5.0.2.patch",
             "reverse": false,
-            "sha256": "5bb9b0e08888830ccf3a0a658529fe25f4ee62b5b8890f349bf2cc914236eb2f",
-            "url": "https://github.com/ROCm/clr/commit/c4f773db0b4ccbbeed4e3d6c0f6bff299c2aa3f0.patch?full_index=1",
-            "version": "@5.7:6.0",
-            "working_dir": "clr"
+            "sha256": "3b25db857a3cb89cf451b48bb1752fa6491ef3d449c9244bd6fc5f9c019ffb37",
+            "version": "@5.0.2:5.1.3",
+            "working_dir": "."
         },
         {
             "level": 1,
             "owner": "builtin.hip",
+            "relative_path": "0012-Improve-compilation-without-git-repo-and-remove-compiler-rt-linkage-for-host.5.2.0.patch",
             "reverse": false,
-            "sha256": "7668b2a710baf4cb063e6b00280fb75c4c3e0511575e8298a9c7ae5143f60b33",
-            "url": "https://github.com/ROCm/clr/commit/7868876db742fb4d44483892856a66d2993add03.patch?full_index=1",
-            "version": "@5.7:6.0",
-            "working_dir": "clr"
+            "sha256": "959d1fe20e412dbdd75663d4e72687c3b746430626a68efd945c1431131d65c3",
+            "version": "@5.2.0",
+            "working_dir": "."
         },
         {
             "level": 1,
             "owner": "builtin.hip",
+            "relative_path": "0012-Improve-compilation-without-git-repo-and-remove-compiler-rt-linkage-for-host.5.2.1.patch",
             "reverse": false,
-            "sha256": "5bb9b0e08888830ccf3a0a658529fe25f4ee62b5b8890f349bf2cc914236eb2f",
-            "url": "https://github.com/ROCm/clr/commit/c4f773db0b4ccbbeed4e3d6c0f6bff299c2aa3f0.patch?full_index=1",
-            "version": "@5.7:6.0",
-            "working_dir": "clr"
-        },
-        {
-            "level": 1,
-            "owner": "builtin.hip",
-            "reverse": false,
-            "sha256": "7668b2a710baf4cb063e6b00280fb75c4c3e0511575e8298a9c7ae5143f60b33",
-            "url": "https://github.com/ROCm/clr/commit/7868876db742fb4d44483892856a66d2993add03.patch?full_index=1",
-            "version": "@5.7:6.0",
-            "working_dir": "clr"
-        },
-        {
-            "level": 1,
-            "owner": "builtin.hip",
-            "reverse": false,
-            "sha256": "5bb9b0e08888830ccf3a0a658529fe25f4ee62b5b8890f349bf2cc914236eb2f",
-            "url": "https://github.com/ROCm/clr/commit/c4f773db0b4ccbbeed4e3d6c0f6bff299c2aa3f0.patch?full_index=1",
-            "version": "@5.7:6.0",
-            "working_dir": "clr"
-        },
-        {
-            "level": 1,
-            "owner": "builtin.hip",
-            "reverse": false,
-            "sha256": "7668b2a710baf4cb063e6b00280fb75c4c3e0511575e8298a9c7ae5143f60b33",
-            "url": "https://github.com/ROCm/clr/commit/7868876db742fb4d44483892856a66d2993add03.patch?full_index=1",
-            "version": "@5.7:6.0",
-            "working_dir": "clr"
-        },
-        {
-            "level": 1,
-            "owner": "builtin.hip",
-            "reverse": false,
-            "sha256": "5bb9b0e08888830ccf3a0a658529fe25f4ee62b5b8890f349bf2cc914236eb2f",
-            "url": "https://github.com/ROCm/clr/commit/c4f773db0b4ccbbeed4e3d6c0f6bff299c2aa3f0.patch?full_index=1",
-            "version": "@5.7:6.0",
-            "working_dir": "clr"
-        },
-        {
-            "level": 1,
-            "owner": "builtin.hip",
-            "reverse": false,
-            "sha256": "7668b2a710baf4cb063e6b00280fb75c4c3e0511575e8298a9c7ae5143f60b33",
-            "url": "https://github.com/ROCm/clr/commit/7868876db742fb4d44483892856a66d2993add03.patch?full_index=1",
-            "version": "@5.7:6.0",
-            "working_dir": "clr"
-        },
-        {
-            "level": 1,
-            "owner": "builtin.hip",
-            "reverse": false,
-            "sha256": "5bb9b0e08888830ccf3a0a658529fe25f4ee62b5b8890f349bf2cc914236eb2f",
-            "url": "https://github.com/ROCm/clr/commit/c4f773db0b4ccbbeed4e3d6c0f6bff299c2aa3f0.patch?full_index=1",
-            "version": "@5.7:6.0",
-            "working_dir": "clr"
-        },
-        {
-            "level": 1,
-            "owner": "builtin.hip",
-            "reverse": false,
-            "sha256": "7668b2a710baf4cb063e6b00280fb75c4c3e0511575e8298a9c7ae5143f60b33",
-            "url": "https://github.com/ROCm/clr/commit/7868876db742fb4d44483892856a66d2993add03.patch?full_index=1",
-            "version": "@5.7:6.0",
-            "working_dir": "clr"
+            "sha256": "7ed123275d93e93a9f0508e0829ed83d4a9a862e126d9e7dc95e06c1b9ac5123",
+            "version": "@5.2.1:5.2.3",
+            "working_dir": "."
         },
         {
             "level": 1,
@@ -953,16 +818,7 @@
             "relative_path": "0014-remove-compiler-rt-linkage-for-host.6.0.patch",
             "reverse": false,
             "sha256": "916515427547c73f200454ee75e32d1cdddb281818946e2922db066469d27712",
-            "version": "@6.0",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.hip",
-            "relative_path": "0014-remove-compiler-rt-linkage-for-host.6.1.patch",
-            "reverse": false,
-            "sha256": "6bbe83b031bcf007bc426441f54cc9173b735c9fac8a72e4304d65f2d9793574",
-            "version": "@6.1",
+            "version": "@6.0:",
             "working_dir": "."
         },
         {
@@ -980,7 +836,7 @@
             "relative_path": "0018-reverting-hipMemoryType-with-memoryType.patch",
             "reverse": false,
             "sha256": "1f65dfec6bf03c7a509243bc4d804291565c199d696f2b8bce33b3023772fbf6",
-            "version": "@6.0:",
+            "version": "@6.0",
             "working_dir": "."
         },
         {
@@ -1104,63 +960,93 @@
         },
         {
             "destination": "",
-            "name": "clr",
-            "placement": "clr",
-            "version": "@6.2.1"
+            "name": "hipamd",
+            "placement": "hipamd",
+            "version": "@5.2.3"
         },
         {
             "destination": "",
-            "name": "hip-tests",
-            "placement": "hip-tests",
-            "version": "@6.2.1"
+            "name": "opencl",
+            "placement": "opencl",
+            "version": "@5.2.3"
         },
         {
             "destination": "",
-            "name": "clr",
-            "placement": "clr",
-            "version": "@6.2.0"
+            "name": "rocclr",
+            "placement": "rocclr",
+            "version": "@5.2.3"
         },
         {
             "destination": "",
-            "name": "hip-tests",
-            "placement": "hip-tests",
-            "version": "@6.2.0"
+            "name": "hipamd",
+            "placement": "hipamd",
+            "version": "@5.2.1"
         },
         {
             "destination": "",
-            "name": "clr",
-            "placement": "clr",
-            "version": "@6.1.2"
+            "name": "opencl",
+            "placement": "opencl",
+            "version": "@5.2.1"
         },
         {
             "destination": "",
-            "name": "hip-tests",
-            "placement": "hip-tests",
-            "version": "@6.1.2"
+            "name": "rocclr",
+            "placement": "rocclr",
+            "version": "@5.2.1"
         },
         {
             "destination": "",
-            "name": "clr",
-            "placement": "clr",
-            "version": "@6.1.1"
+            "name": "hipamd",
+            "placement": "hipamd",
+            "version": "@5.2.0"
         },
         {
             "destination": "",
-            "name": "hip-tests",
-            "placement": "hip-tests",
-            "version": "@6.1.1"
+            "name": "opencl",
+            "placement": "opencl",
+            "version": "@5.2.0"
         },
         {
             "destination": "",
-            "name": "clr",
-            "placement": "clr",
-            "version": "@6.1.0"
+            "name": "rocclr",
+            "placement": "rocclr",
+            "version": "@5.2.0"
         },
         {
             "destination": "",
-            "name": "hip-tests",
-            "placement": "hip-tests",
-            "version": "@6.1.0"
+            "name": "hipamd",
+            "placement": "hipamd",
+            "version": "@5.1.3"
+        },
+        {
+            "destination": "",
+            "name": "opencl",
+            "placement": "opencl",
+            "version": "@5.1.3"
+        },
+        {
+            "destination": "",
+            "name": "rocclr",
+            "placement": "rocclr",
+            "version": "@5.1.3"
+        },
+        {
+            "destination": "",
+            "name": "hipamd",
+            "placement": "hipamd",
+            "version": "@5.1.0"
+        },
+        {
+            "destination": "",
+            "name": "opencl",
+            "placement": "opencl",
+            "version": "@5.1.0"
+        },
+        {
+            "destination": "",
+            "name": "rocclr",
+            "placement": "rocclr",
+            "version": "@5.1.0"
         },
         {
             "destination": "",
@@ -1257,56 +1143,9 @@
             "name": "hip-tests",
             "placement": "hip-tests",
             "version": "@5.6.0"
-        },
-        {
-            "destination": "",
-            "name": "hipother",
-            "placement": "hipother",
-            "version": "@6.2.1+cuda"
-        },
-        {
-            "destination": "",
-            "name": "hipother",
-            "placement": "hipother",
-            "version": "@6.2.0+cuda"
-        },
-        {
-            "destination": "",
-            "name": "hipother",
-            "placement": "hipother",
-            "version": "@6.1.2+cuda"
-        },
-        {
-            "destination": "",
-            "name": "hipother",
-            "placement": "hipother",
-            "version": "@6.1.1+cuda"
-        },
-        {
-            "destination": "",
-            "name": "hipother",
-            "placement": "hipother",
-            "version": "@6.1.0+cuda"
-        },
-        {
-            "destination": "",
-            "name": "hipother",
-            "placement": "hipother",
-            "version": "@6.0.2+cuda"
-        },
-        {
-            "destination": "",
-            "name": "hipother",
-            "placement": "hipother",
-            "version": "@6.0.0+cuda"
         }
     ],
     "variants": [
-        {
-            "default": false,
-            "description": "Build with address-sanitizer enabled or disabled",
-            "name": "asan"
-        },
         {
             "default": "cmake",
             "description": "Build systems supported by the package",
@@ -1344,26 +1183,6 @@
             "name": "master"
         },
         {
-            "name": "6.2.1",
-            "sha256": "a8b86666a59867cae67409c4a45e0b8f29a6328c9739e6512c2b5612376f30cf"
-        },
-        {
-            "name": "6.2.0",
-            "sha256": "7ca261eba79793427674bf2372c92ac5483cc0fac5278f8ad611de396fad8bee"
-        },
-        {
-            "name": "6.1.2",
-            "sha256": "9ba5f70a553b48b2cea25c7e16b97ad49320750c0152763b173b63b9f151e783"
-        },
-        {
-            "name": "6.1.1",
-            "sha256": "09e8013b8071fca2cf914758001bbd1dccaa237e798e945970e4356cb9b90050"
-        },
-        {
-            "name": "6.1.0",
-            "sha256": "6fd57910a16d0b54df822807e67b6207146233a2de5a46c6a05b940a21e2c4d7"
-        },
-        {
             "name": "6.0.2",
             "sha256": "b47178db94f2acc106e1a88ceb029844805266ebaba11ef63744e90d224b11be"
         },
@@ -1394,9 +1213,7 @@
         {
             "name": "5.5.0",
             "sha256": "5b0d0253e62f85cc21d043513f7c11c64e4a4ec416159668f0b160d732d09a3c"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "5.4.3",
             "sha256": "23e51d3af517cd63019f8d199e46b84d5a18251d148e727f3985e8d99ccb0e58"
@@ -1412,6 +1229,28 @@
         {
             "name": "5.3.0",
             "sha256": "05225832fb5a4d24f49a773ac27e315239943a6f24291a50d184e2913f2cdbe0"
+        }
+    ],
+    "versions_deprecated": [
+        {
+            "name": "5.2.3",
+            "sha256": "5b83d1513ea4003bfad5fe8fa741434104e3e49a87e1d7fad49e5a8c1d06e57b"
+        },
+        {
+            "name": "5.2.1",
+            "sha256": "7d4686a2f8a9124bb21f7f3958e451c57019f48a0cbb42ffdc56ed02860a46c3"
+        },
+        {
+            "name": "5.2.0",
+            "sha256": "a6e0515d4d25865c037b546035df9c51f0882cd2700e759c266ff7e199f37c3a"
+        },
+        {
+            "name": "5.1.3",
+            "sha256": "ce755ee6e407904eba3f6b3c9efcdd48eb4f58a26b06e1892166d05f19a75973"
+        },
+        {
+            "name": "5.1.0",
+            "sha256": "47e542183699f4005c48631d96f6a1fbdf27e07ad3402ccd7b5f707c2c602266"
         }
     ]
 }

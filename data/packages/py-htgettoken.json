@@ -39,7 +39,7 @@
     "dependent_to": [],
     "description": "htgettoken gets OIDC authentication tokens for High Throughput Computing\nvia a Hashicorp vault server.\n",
     "homepage": "https://github.com/fermitools/htgettoken",
-    "latest_version": "2.0-2",
+    "latest_version": "1.16-33-g3788bb4",
     "maintainers": [
         "wdconinc"
     ],
@@ -54,10 +54,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.0-2",
-            "sha256": "80b1b15cc4957f9d1cb5e71a1fbdc5d0ac82de46a888aeb7fa503b1465978b13"
-        },
         {
             "commit": "3788bb4733e5e8f856cee51566df9a36cbfe097d",
             "name": "1.16-33-g3788bb4"

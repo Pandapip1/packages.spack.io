@@ -36,6 +36,10 @@
         {
             "description": "Pyomo is a Python-based open-source software package that supports a\ndiverse set of optimization capabilities for formulating and analyzing\noptimization models.",
             "name": "py-pyomo"
+        },
+        {
+            "description": "Graph Neural Network Library for PyTorch.",
+            "name": "py-torch-geometric"
         }
     ],
     "description": "This module implements community detection. It uses the louvain method\ndescribed in Fast unfolding of communities in large networks, Vincent D\nBlondel, Jean-Loup Guillaume, Renaud Lambiotte, Renaud Lefebvre, Journal\nof Statistical Mechanics: Theory and Experiment 2008(10), P10008 (12pp)\n",

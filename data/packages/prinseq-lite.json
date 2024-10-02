@@ -22,7 +22,7 @@
     ],
     "dependent_to": [],
     "description": "PRINSEQ will help you to preprocess your genomic or metagenomic sequence\ndata in FASTA or FASTQ format.\n",
-    "homepage": "https://prinseq.sourceforge.net",
+    "homepage": "http://prinseq.sourceforge.net",
     "latest_version": "0.20.4",
     "maintainers": [],
     "name": "prinseq-lite",

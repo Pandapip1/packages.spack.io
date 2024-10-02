@@ -13,11 +13,6 @@
             "spec": "arch=darwin-None-None"
         },
         {
-            "description": "fio: libaio does not support Windows",
-            "name": "+libaio",
-            "spec": "arch=windows-None-None"
-        },
-        {
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
@@ -45,16 +40,8 @@
             "name": "libaio"
         },
         {
-            "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
-            "name": "pkgconfig"
-        },
-        {
             "description": "Sphinx Documentation Generator.",
             "name": "py-sphinx"
-        },
-        {
-            "description": "zlib replacement with optimizations for next generation systems.",
-            "name": "zlib-api"
         }
     ],
     "dependent_to": [
@@ -65,7 +52,7 @@
     ],
     "description": "Flexible I/O Tester. Fio spawns a number of threads or processes doing a\nparticular type of I/O action as specified by the user. fio takes a\nnumber of global parameters, each inherited by the thread unless\notherwise parameters given to them overriding that setting is given.\n",
     "homepage": "https://github.com/axboe/fio",
-    "latest_version": "3.37",
+    "latest_version": "3.36",
     "maintainers": [],
     "name": "fio",
     "patches": [],
@@ -93,10 +80,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "3.37",
-            "sha256": "b59099d42d5c62a8171974e54466a688c8da6720bf74a7f16bf24fb0e51ff92d"
-        },
         {
             "name": "3.36",
             "sha256": "b34b8f3c5cd074c09ea487ffe3f444e95565c214b34a73042f35b00cbaab0e17"

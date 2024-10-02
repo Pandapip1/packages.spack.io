@@ -58,7 +58,7 @@
         }
     ],
     "description": "Linux native Asynchronous I/O interface library. AIO enables even a\nsingle application thread to overlap I/O operations with other\nprocessing, by providing an interface for submitting one or more I/O\nrequests in one system call (io_submit()) without waiting for\ncompletion, and a separate interface (io_getevents()) to reap completed\nI/O operations associated with a given completion group.\n",
-    "homepage": "https://lse.sourceforge.net/io/aio.html",
+    "homepage": "http://lse.sourceforge.net/io/aio.html",
     "latest_version": "0.3.113",
     "maintainers": [],
     "name": "libaio",

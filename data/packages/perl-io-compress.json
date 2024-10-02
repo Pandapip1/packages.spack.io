@@ -20,10 +20,6 @@
         {
             "description": "Kaiju is a program for the taxonomic classification of high-throughput\nsequencing reads.",
             "name": "kaiju"
-        },
-        {
-            "description": "The Ensembl Core Perl API and SQL schema",
-            "name": "perl-bio-ensembl"
         }
     ],
     "description": "A perl library for uncompressing gzip, zip, bzip2 or lzop file/buffer.\n",

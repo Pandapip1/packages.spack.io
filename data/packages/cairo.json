@@ -57,6 +57,10 @@
             "name": "libpng"
         },
         {
+            "description": "Library to render SVG files using Cairo",
+            "name": "librsvg"
+        },
+        {
             "description": "libtool -- library building part of autotools.",
             "name": "libtool"
         },
@@ -165,10 +169,6 @@
         {
             "description": "Library to render SVG files using Cairo",
             "name": "librsvg"
-        },
-        {
-            "description": "Window Navigator Construction Kit",
-            "name": "libwnck"
         },
         {
             "description": "mapnik combines pixel-perfect image output with lightning-fast\ncartographic algorithms, and exposes interfaces in C++, Python, and Node",
@@ -305,7 +305,7 @@
         },
         {
             "default": false,
-            "description": "Enable cairo's SVG functions feature",
+            "description": "Enable cairo's SVN functions feature",
             "name": "svg"
         }
     ],

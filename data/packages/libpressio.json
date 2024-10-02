@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -373,7 +333,7 @@
             "spec": "+cuda ^cuda@:9~allow-unsupported-compilers arch=None-None-ppc64le:"
         },
         {
-            "description": "libpressio: SZ auto and MGARDx cause symbol conflicts with each other",
+            "description": null,
             "name": "+mgardx",
             "spec": "+szauto"
         },
@@ -386,26 +346,6 @@
             "description": "libpressio: mgard@2022-11-18 is not supported before 0.89.0",
             "name": "^mgard@2022-11-18",
             "spec": "@:0.88.3+mgard"
-        },
-        {
-            "description": "libpressio: compiling a CUDA compressor without a CUDA support makes no sense",
-            "name": "~cuda+cusz ^cusz+cuda",
-            "spec": ""
-        },
-        {
-            "description": "libpressio: compiling a CUDA compressor without a CUDA support makes no sense",
-            "name": "~cuda+mgard ^mgard+cuda",
-            "spec": ""
-        },
-        {
-            "description": "libpressio: compiling a CUDA compressor without a CUDA support makes no sense",
-            "name": "~cuda+ndzip ^ndzip+cuda",
-            "spec": ""
-        },
-        {
-            "description": "libpressio: compiling a CUDA compressor without a CUDA support makes no sense",
-            "name": "~cuda+zfp ^zfp+cuda",
-            "spec": ""
         }
     ],
     "dependencies": [
@@ -486,16 +426,8 @@
             "name": "libstdcompat"
         },
         {
-            "description": "The LLVM Project is a collection of modular and reusable compiler and\ntoolchain technologies. Despite its name, LLVM has little to do with\ntraditional virtual machines, though it does provide helpful libraries\nthat can be used to build them. The name \"LLVM\" itself is not an\nacronym; it is the full name of the project.",
-            "name": "llvm"
-        },
-        {
             "description": "sol2 is a C++ library binding to Lua.",
             "name": "lua-sol2"
-        },
-        {
-            "description": "matio is an C library for reading and writing Matlab MAT files",
-            "name": "matio"
         },
         {
             "description": "MGARD error bounded lossy compressor forked from\nhttps://github.com/CODARcode/MGARD with patches to support Spack",
@@ -526,10 +458,6 @@
             "name": "nlohmann-json"
         },
         {
-            "description": "OpenSSL is an open source project that provides a robust, commercial-\ngrade, and full-featured toolkit for the Transport Layer Security (TLS)\nand Secure Sockets Layer (SSL) protocols. It is also a general-purpose\ncryptography library.",
-            "name": "openssl"
-        },
-        {
             "description": "PETSc is a suite of data structures and routines for the scalable\n(parallel) solution of scientific applications modeled by partial\ndifferential equations.",
             "name": "petsc"
         },
@@ -548,10 +476,6 @@
         {
             "description": "Fundamental package for array computing in Python.",
             "name": "py-numpy"
-        },
-        {
-            "description": "pybind11 -- Seamless operability between C++11 and Python. pybind11 is a\nlightweight header-only library that exposes C++ types in Python and\nvice versa, mainly to create Python bindings of existing C++ code. Its\ngoals and syntax are similar to the excellent Boost.Python library by\nDavid Abrahams: to minimize boilerplate code in traditional extension\nmodules by inferring type information using compile-time introspection.",
-            "name": "py-pybind11"
         },
         {
             "description": "The Python programming language.",
@@ -582,10 +506,6 @@
             "name": "szauto"
         },
         {
-            "description": "An ultra fast error bounded compressor for scientific datasets",
-            "name": "szx"
-        },
-        {
             "description": "zfp is a compressed number format for multidimensional floating-point\nand integer arrays. zfp provides compressed-array classes that support\nhigh throughput read and write random access to individual array\nelements. zfp also supports serial and parallel (OpenMP and CUDA)\ncompression of whole arrays.",
             "name": "zfp"
         }
@@ -600,32 +520,12 @@
             "name": "arc"
         },
         {
-            "description": "DCTZ is a compressor based on FFTs",
-            "name": "dctz"
-        },
-        {
-            "description": "a framework for automatically creating high-speed lossless and error-\nbounded lossy data compression and decompression algorithms.",
-            "name": "lc-framework"
-        },
-        {
-            "description": "LibPressio file reader for legacy ADIOS1 files not supported by ADIOS2",
-            "name": "libpressio-adios1"
-        },
-        {
             "description": "An IO plugin to read/write ADIOS2 files for LibPressio",
             "name": "libpressio-adios2"
         },
         {
-            "description": "A set of libraries for LibPressio to easily load datasets",
-            "name": "libpressio-dataset"
-        },
-        {
             "description": "LibPressioErrorInjector injects errors into data for sensitivity studies",
             "name": "libpressio-errorinjector"
-        },
-        {
-            "description": "the FZ module compiler",
-            "name": "libpressio-jit"
         },
         {
             "description": "LibPressio Bindings for NVCOMP",
@@ -634,10 +534,6 @@
         {
             "description": "Metacompressor which preforms optimization of compressor settings for\nLibPressio",
             "name": "libpressio-opt"
-        },
-        {
-            "description": "High Fidelity Proxy Models for Compression",
-            "name": "libpressio-predict"
         },
         {
             "description": "LibPressio metric that runs R code",
@@ -662,7 +558,7 @@
     ],
     "description": "A generic abstraction for the compression of dense tensors\n",
     "homepage": "https://github.com/codarcode/libpressio",
-    "latest_version": "0.99.4",
+    "latest_version": "0.95.1",
     "maintainers": [
         "robertu94"
     ],
@@ -687,11 +583,6 @@
         },
         {
             "default": false,
-            "description": "build support for blosc2",
-            "name": "blosc2"
-        },
-        {
-            "default": false,
             "description": "support older compilers using boost",
             "name": "boost"
         },
@@ -709,11 +600,6 @@
             "default": false,
             "description": "build support for the bzip2 compressor",
             "name": "bzip2"
-        },
-        {
-            "default": false,
-            "description": "build migration tools",
-            "name": "clang"
         },
         {
             "default": true,
@@ -792,11 +678,6 @@
         },
         {
             "default": false,
-            "description": "build support for matio",
-            "name": "matio"
-        },
-        {
-            "default": false,
             "description": "support for the MAGARD error bounded lossy compressor",
             "name": "mgard"
         },
@@ -827,18 +708,8 @@
         },
         {
             "default": false,
-            "description": "build support for hashing options",
-            "name": "openssl"
-        },
-        {
-            "default": false,
             "description": "support IO using petsc format",
             "name": "petsc"
-        },
-        {
-            "default": false,
-            "description": "build support for pybind metrics",
-            "name": "pybind"
         },
         {
             "default": false,
@@ -872,11 +743,6 @@
         },
         {
             "default": false,
-            "description": "build support for SZx",
-            "name": "szx"
-        },
-        {
-            "default": false,
             "description": "build support for unixisms like mmap and rusage",
             "name": "unix"
         },
@@ -894,66 +760,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "0.99.4",
-            "sha256": "091e4bac2cedca5fb9495a22eee7be718c2d04d899d56c65fc088936884eac0e"
-        },
-        {
-            "name": "0.99.2",
-            "sha256": "556d157097b2168fefde1fe3b5e2da06a952346357d46c55548d92c77d1da878"
-        },
-        {
-            "name": "0.99.1",
-            "sha256": "c9b19deaac4df5eaeecd938fea4c1752d86474f453880c0ba984ceee6bf15d35"
-        },
-        {
-            "name": "0.99.0",
-            "sha256": "b95916c4851a7ec952e5f29284e4f7477eaeff0e52a2e5b593481c72edf733d6"
-        },
-        {
-            "name": "0.98.1",
-            "sha256": "5246271fdf2e4ba99eeadfccd6224b75bf3af278a812ded74ec9adc11f6cabba"
-        },
-        {
-            "name": "0.98.0",
-            "sha256": "6b6507bf1489ff2cbeaf4c507d34e1015495c811730aa809e778f111213062db"
-        },
-        {
-            "name": "0.97.3",
-            "sha256": "631111253ec4cfd3138773eaf8280921e220b0d260985da762f0a0152e5b1b17"
-        },
-        {
-            "name": "0.97.2",
-            "sha256": "70d549ef457d5192c084fbf6304cb362d367786afe88d7b8db4eea263f9c7d43"
-        },
-        {
-            "name": "0.96.6",
-            "sha256": "a8d3269f0f5289d46471a5b85e5cd32e370edb8df45d04f5e707e0a1f64eccd8"
-        },
-        {
-            "name": "0.96.5",
-            "sha256": "7cca6f3f98dde2dbd1c9ff7462d09975f6a3630704bd01b6bef6163418a0521b"
-        },
-        {
-            "name": "0.96.4",
-            "sha256": "7f012b01ce1a6c9f5897487089266de5b60659ed6b220eadba51d63613620404"
-        },
-        {
-            "name": "0.96.3",
-            "sha256": "e8f4af028d34df2f3c8eb61cfc2f93fadab7a2e2d072a30ee6a085fb344a3be4"
-        },
-        {
-            "name": "0.96.2",
-            "sha256": "2c904ec16900b67ab0188ea96d27fa4efca2c9efc1b214119451becaaeaa2d18"
-        },
-        {
-            "name": "0.96.1",
-            "sha256": "2305d04b57c1b49ecd5a4bda117f1252a57529c98e6bd260bfe5166a4f4d4043"
-        },
-        {
-            "name": "0.96.0",
-            "sha256": "42f563b70c4f77abffb430284f0c5bc9adba2666412ee4072d6f97da88f0c1a0"
         },
         {
             "name": "0.95.1",

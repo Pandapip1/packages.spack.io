@@ -198,10 +198,6 @@
             "name": "bigdft-libabinit"
         },
         {
-            "description": "BigDFT-liborbs: a library for orbital treatments in DFT.",
-            "name": "bigdft-liborbs"
-        },
-        {
             "description": "BigDFT-Psolver: a flexible real-space Poisson Solver based on\nInterpolating Scaling Functions. It constitutes a fundamental building\nblock of BigDFT code, and it can also be used separately and linked to\nother codes.",
             "name": "bigdft-psolver"
         },
@@ -236,10 +232,6 @@
         {
             "description": "Bricks is a data layout and code generation framework, enabling\nperformance-portable stencil computations across a multitude of\narchitectures.",
             "name": "bricks"
-        },
-        {
-            "description": "The NOAA bufr-query Library can be used to read NCEP and WMO formated\nBUFR files using a simple interface that does not require the user to\nknow the details of the BUFR format. Detailed documentation for the BUFR\nLibrary can be found at https://bufr-\nquery.readthedocs.io/en/latest/index.html",
-            "name": "bufr-query"
         },
         {
             "description": "ButterflyPACK is a mathematical software for rapidly solving large-scale\ndense linear systems that exhibit off-diagonal rank-deficiency. These\nsystems arise frequently from boundary element methods, or factorization\nphases in finite-difference/finite-element methods. ButterflyPACK relies\non low-rank or butterfly formats under Hierarchical matrix, HODLR or\nother hierarchically nested frameworks to compress, factor and solve the\nlinear system in quasi-linear time. The computationally most intensive\nphase, factorization, is accelerated via randomized linear algebras. The\nbutterfly format, originally inspired by the butterfly data flow in fast\nFourier Transform, is a linear algebra tool well-suited for compressing\nmatrices arising from high-frequency wave equations or highly\noscillatory integral operators.",
@@ -370,10 +362,6 @@
             "name": "compadre"
         },
         {
-            "description": "a Massively Parallel Hybrid Solver in C++",
-            "name": "composyx"
-        },
-        {
             "description": "Conduit is an open source project from Lawrence Livermore National\nLaboratory that provides an intuitive model for describing hierarchical\nscientific data in C++, C, Fortran, and Python. It is used for data\ncoupling between packages in-core, serialization, and I/O tasks.",
             "name": "conduit"
         },
@@ -480,10 +468,6 @@
         {
             "description": "DLA-Future library: Distributed Linear Algebra with Future",
             "name": "dla-future"
-        },
-        {
-            "description": "Fortran interface to the DLA-Future library.",
-            "name": "dla-future-fortran"
         },
         {
             "description": "DLB is a dynamic library designed to speed up HPC hybrid applications\n(i.e., two levels of parallelism) by improving the load balance of the\nouter level of parallelism (e.g., MPI) by dynamically redistributing the\ncomputational resources at the inner level of parallelism (e.g.,\nOpenMP). at run time.",
@@ -612,10 +596,6 @@
         {
             "description": "ExaSP2 is a reference implementation of typical linear algebra\nalgorithms and workloads for a quantum molecular dynamics (QMD)\nelectronic structure code. The algorithm is based on a recursive second-\norder Fermi-Operator expansion method (SP2) and is tailored for density\nfunctional based tight-binding calculations of material systems. The SP2\nalgorithm variants are part of the Los Alamos Transferable Tight-binding\nfor Energetics (LATTE) code, based on a matrix expansion of the Fermi\noperator in a recursive series of generalized matrix-matrix\nmultiplications. It is created and maintained by Co-Design Center for\nParticle Applications (CoPA). The code is intended to serve as a vehicle\nfor co-design by allowing others to extend and/or reimplement as needed\nto test performance of new architectures, programming models, etc.",
             "name": "exasp2"
-        },
-        {
-            "description": "Multi-application driver for Exawind project.",
-            "name": "exawind"
         },
         {
             "description": "exciting is a full-potential all-electron density-functional-theory\npackage implementing the families of linearized augmented planewave\nmethods. It can be applied to all kinds of materials, irrespective of\nthe atomic species in volved, and also allows for exploring the physics\nof core electrons. A particular focus are excited states within many-\nbody perturbation theory.",
@@ -774,6 +754,10 @@
             "name": "genesis"
         },
         {
+            "description": "GEOPM is an extensible power management framework targeting HPC. The\nGEOPM package provides libgeopm, libgeopmpolicy and applications\ngeopmctl and geopmpolicy, as well as tools for postprocessing. GEOPM is\ndesigned to be extended for new control algorithms and new hardware\npower management features via its plugin infrastructure. Note: GEOPM\ninterfaces with hardware using Model Specific Registers (MSRs). For\npropper usage make sure MSRs are made available directly or via the msr-\nsafe kernel module by your administrator.",
+            "name": "geopm"
+        },
+        {
             "description": "The Global Extensible Open Power Manager (GEOPM) Runtime is designed to\nenhance energy efficiency of applications through active hardware\nconfiguration.",
             "name": "geopm-runtime"
         },
@@ -896,10 +880,6 @@
         {
             "description": "Hermes is a heterogeneous-aware, multi-tiered, dynamic, and distributed\nI/O buffering system that aims to significantly accelerate I/O\nperformance.",
             "name": "hermes"
-        },
-        {
-            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
-            "name": "hermes-shm"
         },
         {
             "description": "HH-suite is a widely used open source software suite for sensitive\nsequence similarity searches and protein fold recognition. It is based\non pairwise alignment of profile Hidden Markov models (HMMs), which\nrepresent multiple sequence alignments of homologous proteins.",
@@ -1034,10 +1014,6 @@
             "name": "kassiopeia"
         },
         {
-            "description": "Kokkos Profiling and Debugging Tools",
-            "name": "kokkos-tools"
-        },
-        {
             "description": "Kripke is a simple, scalable, 3D Sn deterministic particle transport\nproxy/mini app.",
             "name": "kripke"
         },
@@ -1056,10 +1032,6 @@
         {
             "description": "LBANN: Livermore Big Artificial Neural Network Toolkit. A distributed\nmemory, HPC-optimized, model and data parallel training toolkit for deep\nneural networks.",
             "name": "lbann"
-        },
-        {
-            "description": "LCI: the Lightweight Communication Interface",
-            "name": "lci"
         },
         {
             "description": "Legion is a data-centric parallel programming system for writing\nportable high performance programs targeted at distributed heterogeneous\narchitectures. Legion presents abstractions which allow programmers to\ndescribe properties of program data (e.g. independence, locality). By\nmaking the Legion programming system aware of the structure of program\ndata, it can automate many of the tedious tasks programmers currently\nface, including correctly extracting task- and data-level parallelism\nand moving data around complex memory hierarchies. A novel mapping\ninterface provides explicit programmer controlled placement of data in\nthe memory hierarchy and assignment of tasks to processors in a way that\nis orthogonal to correctness, thereby enabling easy porting and tuning\nof Legion applications to new architectures.",
@@ -1100,10 +1072,6 @@
         {
             "description": "A generic abstraction for the compression of dense tensors",
             "name": "libpressio"
-        },
-        {
-            "description": "High Fidelity Proxy Models for Compression",
-            "name": "libpressio-predict"
         },
         {
             "description": "General Utilities for LibPressio",
@@ -1170,12 +1138,12 @@
             "name": "maker"
         },
         {
-            "description": "MAPL is a foundation layer of the GEOS architecture, whose original\npurpose is to supplement the Earth System Modeling Framework (ESMF).\nMAPL fills in missing capabilities of ESMF, provides higher-level\ninterfaces for common boiler-plate logic, and enforces various\ncomponentization conventions across ESMF gridded components within GEOS.",
-            "name": "mapl"
+            "description": "a Massively Parallel Hybrid Solver in C++",
+            "name": "maphyspp"
         },
         {
-            "description": "Intermediary interface between high-level routines for physics-related\nalgorithms and low-level routines dealing with matrix storage and\nmanipulation.",
-            "name": "matrix-switch"
+            "description": "MAPL is a foundation layer of the GEOS architecture, whose original\npurpose is to supplement the Earth System Modeling Framework (ESMF).\nMAPL fills in missing capabilities of ESMF, provides higher-level\ninterfaces for common boiler-plate logic, and enforces various\ncomponentization conventions across ESMF gridded components within GEOS.",
+            "name": "mapl"
         },
         {
             "description": "Model Coupling Toolkit (MCT): toolkit to support the construction of\nhighly portable and extensible high-performance couplers for distributed\nmemory parallel coupled models.",
@@ -1308,10 +1276,6 @@
         {
             "description": "mpiFileUtils is a suite of MPI-based tools to manage large datasets,\nwhich may vary from large directory trees to large files. High-\nperformance computing users often generate large datasets with parallel\napplications that run with many processes (millions in some cases).\nHowever those users are then stuck with single-process tools like cp and\nrm to manage their datasets. This suite provides MPI-based tools to\nhandle typical jobs like copy, remove, and compare for such datasets,\nproviding speedups of up to 20-30x.",
             "name": "mpifileutils"
-        },
-        {
-            "description": "LLNL mpigraph",
-            "name": "mpigraph"
         },
         {
             "description": "Tool to detect and report MPI objects like MPI_Requests and\nMPI_Datatypes.",
@@ -1490,10 +1454,6 @@
             "name": "omega-h"
         },
         {
-            "description": "Solution of Kohn-Sham equations using the Orbital Minimization Method\n(OMM).",
-            "name": "omm"
-        },
-        {
             "description": "Omm-bundle is a library implementing the orbital minimization method for\nsolving the Kohn-Sham equation as a generalized eigenvalue problem and a\nbundle of four separate libraries: pspBLAS, MatrixSwitch, libOMM,\ntomato.",
             "name": "omm-bundle"
         },
@@ -1512,10 +1472,6 @@
         {
             "description": "OpenCoarrays is an open-source software project that produces an\napplication binary interface (ABI) supporting coarray Fortran (CAF)\ncompilers, an application programming interface (API) that supports\nusers of non-CAF compilers, and an associated compiler wrapper and\nprogram launcher.",
             "name": "opencoarrays"
-        },
-        {
-            "description": "OpenCV (Open Source Computer Vision Library) is an open source computer\nvision and machine learning software library.",
-            "name": "opencv"
         },
         {
             "description": "Wind turbine simulation package from NREL",
@@ -1802,10 +1758,6 @@
             "name": "py-anuga"
         },
         {
-            "description": "Spatial indexer for geometries and morphologies",
-            "name": "py-brain-indexer"
-        },
-        {
             "description": "Chainer is a Python-based deep learning framework aiming at\nflexibility. It provides automatic differentiation APIs based on the\ndefine-by-run approach (a.k.a. dynamic computational graphs) as well as\nobject-oriented high-level APIs to build and train neural networks. It\nalso supports CUDA/cuDNN using CuPy for high performance training and\ninference.",
             "name": "py-chainer"
         },
@@ -1882,10 +1834,6 @@
             "name": "py-torch"
         },
         {
-            "description": "A library for accelerating Transformer models on NVIDIA GPUs, including\nfp8 precision on Hopper GPUs.",
-            "name": "py-transformer-engine"
-        },
-        {
             "description": "SIRIUS enabled fork of QuantumESPRESSO.",
             "name": "q-e-sirius"
         },
@@ -1918,10 +1866,6 @@
             "name": "raft"
         },
         {
-            "description": "RAJA Performance Suite.",
-            "name": "raja-perf"
-        },
-        {
             "description": "Assign one-to-one mapping of MPI ranks to strings",
             "name": "rankstr"
         },
@@ -1936,10 +1880,6 @@
         {
             "description": "Parallel genome assemblies for parallel DNA sequencing",
             "name": "ray"
-        },
-        {
-            "description": "Rayleigh is a 3-D convection code designed for the study of dynamo\nbehavior in spherical geometry.",
-            "name": "rayleigh"
         },
         {
             "description": "These tests check both the performance and the correctness of RCCL\noperations. They can be compiled against RCCL.",
@@ -2338,7 +2278,7 @@
             "name": "wannier90"
         },
         {
-            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid GPU/OpenMP/MPI parallelization and load\nbalancing capabilities.",
+            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid OpenMP/MPI parallelization, advanced\nvectorization techniques and load balancing capabilities. For WarpX'\nPython bindings and PICMI input support, see the 'py-warpx' package.",
             "name": "warpx"
         },
         {
@@ -2388,10 +2328,6 @@
         {
             "description": "a library to perform the compression assessment for lossy compressors",
             "name": "z-checker"
-        },
-        {
-            "description": "Utility for monitoring process, thread, OS and HW resources, including\nGPU utilization.",
-            "name": "zerosum"
         },
         {
             "description": "The Zoltan library is a toolkit of parallel combinatorial algorithms for\nparallel, unstructured, and/or adaptive scientific applications.\nZoltan's largest component is a suite of dynamic load-balancing and\npartitioning algorithms that increase applications' parallel performance\nby reducing idle time. Zoltan also has graph coloring and graph ordering\nalgorithms, which are useful in task schedulers and parallel\npreconditioners.",

@@ -112,10 +112,6 @@
             "name": "py-cekit"
         },
         {
-            "description": "CellProfiler cell image analysis software. CellProfiler is a free open-\nsource software designed to enable biologists without training in\ncomputer vision or programming to quantitatively measure phenotypes from\nthousands of images automatically.",
-            "name": "py-cellprofiler"
-        },
-        {
             "description": "cmake-format project provides Quality Assurance (QA) tools for cmake.\nTools include cmake-annotate, cmake-format, cmake-lint, and ctest-to.",
             "name": "py-cmake-format"
         },
@@ -184,10 +180,6 @@
             "name": "py-gcovr"
         },
         {
-            "description": "Parser tools for Mozilla's Glean telemetry.",
-            "name": "py-glean-parser"
-        },
-        {
             "description": "Python library for easily interacting with trained machine learning\nmodels",
             "name": "py-gradio"
         },
@@ -196,20 +188,12 @@
             "name": "py-graphene-tornado"
         },
         {
-            "description": "JEDI Configuration Builder",
-            "name": "py-jcb"
-        },
-        {
             "description": "A CLI interface to Jinja2",
             "name": "py-jinja2-cli"
         },
         {
             "description": "Jinja2 Extension for Dates and Times",
             "name": "py-jinja2-time"
-        },
-        {
-            "description": "Simple self-contained python tool to produce a single html file from a\nsingle junit xml file.",
-            "name": "py-junit2html"
         },
         {
             "description": "The Jupyter Server provides the backend (i.e. the core services, APIs,\nand REST endpoints) for Jupyter web applications like Jupyter notebook,\nJupyterLab, and Voila.",
@@ -320,10 +304,6 @@
             "name": "py-poetry-dynamic-versioning"
         },
         {
-            "description": "Documentation generator for C++",
-            "name": "py-poxy"
-        },
-        {
             "description": "PyCBC is a software package used to explore astrophysical sources of\ngravitational waves. It contains algorithms to analyze gravitational-\nwave data from the LIGO and Virgo detectors, detect coalescing compact\nbinaries, and measure the astrophysical parameters of detected sources.\nPyCBC was used in the first direct detection of gravitational waves and\nis used in the flagship analysis of LIGO and Virgo data.",
             "name": "py-pycbc"
         },
@@ -334,10 +314,6 @@
         {
             "description": "PyERFA is the Python wrapper for the ERFA library (Essential Routines\nfor Fundamental Astronomy), a C library containing key algorithms for\nastronomy, which is based on the SOFA library published by the\nInternational Astronomical Union (IAU). All C routines are wrapped as\nNumpy universal functions, so that they can be called with scalar or\narray inputs.",
             "name": "py-pyerfa"
-        },
-        {
-            "description": "This project provides pylint formatters for a nice integration with\nGitLab CI.",
-            "name": "py-pylint-gitlab"
         },
         {
             "description": "A Python package for simulator-independent specification of neuronal\nnetwork models",
@@ -390,10 +366,6 @@
         {
             "description": "VCF-kit is a command-line based collection of utilities for performing\nanalysis on Variant Call Format (VCF) files.",
             "name": "py-vcf-kit"
-        },
-        {
-            "description": "Common set of tools used in weather workflows. See\nhttps://wxflow.readthedocs.io/en/latest/ for documentation.",
-            "name": "py-wxflow"
         },
         {
             "description": "QGIS is a free and open-source cross-platform desktop geographic\ninformation system application that supports viewing, editing, and\nanalysis of geospatial data.",

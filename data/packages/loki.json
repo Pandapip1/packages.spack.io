@@ -16,7 +16,7 @@
     ],
     "dependent_to": [],
     "description": "Loki is a C++ library of designs, containing flexible implementations of\ncommon design patterns and idioms.\n",
-    "homepage": "https://loki-lib.sourceforge.net",
+    "homepage": "http://loki-lib.sourceforge.net",
     "latest_version": "0.1.7",
     "maintainers": [],
     "name": "loki",

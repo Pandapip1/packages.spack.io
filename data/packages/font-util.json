@@ -5,6 +5,186 @@
         {
             "description": null,
             "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": null,
+            "name": "fonts=font-bh-ttf",
             "spec": "arch=linux-rhel7-broadwell"
         },
         {
@@ -242,7 +422,7 @@
     ],
     "description": "X.Org font package creation/installation utilities and fonts.\n",
     "homepage": "https://cgit.freedesktop.org/xorg/font/util",
-    "latest_version": "1.4.1",
+    "latest_version": "1.4.0",
     "maintainers": [],
     "name": "font-util",
     "patches": [],
@@ -477,10 +657,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.4.1",
-            "sha256": "f029ae80cdd75d89bee7f7af61c21e07982adfb9f72344a158b99f91f77ef5ed"
-        },
         {
             "name": "1.4.0",
             "sha256": "30b90fe52347916be9b08f95f717f17c9c1f58bef8cabb49014d0fdd2b0df643"

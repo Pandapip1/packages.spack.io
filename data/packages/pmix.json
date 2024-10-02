@@ -22,10 +22,6 @@
             "name": "curl"
         },
         {
-            "description": "Flex is a tool for generating scanners.",
-            "name": "flex"
-        },
-        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
         },
@@ -54,8 +50,8 @@
             "name": "m4"
         },
         {
-            "description": "MUNGE Uid 'N' Gid Emporium",
-            "name": "munge"
+            "description": "If you need to convert files from one markup format into another, pandoc\nis your swiss-army knife.",
+            "name": "pandoc"
         },
         {
             "description": "Perl 5 is a highly capable, feature-rich programming language with over\n27 years of development.",
@@ -70,32 +66,8 @@
             "name": "py-cython"
         },
         {
-            "description": "Docutils is an open-source text processing system for processing\nplaintext documentation into useful formats, such as HTML, LaTeX, man-\npages, open-document or XML. It includes reStructuredText, the easy to\nread, easy to use, what-you-see-is-what-you-get plaintext markup\nlanguage.",
-            "name": "py-docutils"
-        },
-        {
-            "description": "A docutils-compatibility bridge to CommonMark. This allows you to write\nCommonMark inside of Docutils & Sphinx projects. Documentation is\navailable on Read the Docs: http://recommonmark.readthedocs.org",
-            "name": "py-recommonmark"
-        },
-        {
-            "description": "A Python utility that aids in the process of downloading, building,\nupgrading, installing, and uninstalling Python packages.",
-            "name": "py-setuptools"
-        },
-        {
-            "description": "Sphinx Documentation Generator.",
-            "name": "py-sphinx"
-        },
-        {
-            "description": "ReadTheDocs.org theme for Sphinx.",
-            "name": "py-sphinx-rtd-theme"
-        },
-        {
             "description": "The Python programming language.",
             "name": "python"
-        },
-        {
-            "description": "zlib replacement with optimizations for next generation systems.",
-            "name": "zlib-api"
         }
     ],
     "dependent_to": [
@@ -106,10 +78,6 @@
         {
             "description": "MPICH is a high performance and widely portable implementation of the\nMessage Passing Interface (MPI) standard.",
             "name": "mpich"
-        },
-        {
-            "description": "Mvapich is a High-Performance MPI Library for clusters with diverse\nnetworks (InfiniBand, Omni-Path, Ethernet/iWARP, and RoCE) and computing\nplatforms (x86 (Intel and AMD), ARM and OpenPOWER)",
-            "name": "mvapich"
         },
         {
             "description": "Mvapich2 is a High-Performance MPI Library for clusters with diverse\nnetworks (InfiniBand, Omni-Path, Ethernet/iWARP, and RoCE) and computing\nplatforms (x86 (Intel and AMD), ARM and OpenPOWER)",
@@ -137,8 +105,8 @@
         }
     ],
     "description": "The Process Management Interface (PMI) has been used for quite some time\nas a means of exchanging wireup information needed for interprocess\ncommunication. However, meeting the significant orchestration challenges\npresented by exascale systems requires that the process-to-system\ninterface evolve to permit a tighter integration between the different\ncomponents of the parallel application and existing and future SMS\nsolutions. PMI Exascale (PMIx) addresses these needs by providing an\nextended version of the PMI definitions specifically designed to support\nexascale and beyond environments by: (a) adding flexibility to the\nfunctionality expressed in the existing APIs, (b) augmenting the\ninterfaces with new APIs that provide extended capabilities, (c) forging\na collaboration between subsystem providers including resource manager,\nfabric, file system, and programming library developers, (d)\nestablishing a standards-like body for maintaining the definitions, and\n(e) providing a reference implementation of the PMIx standard that\ndemonstrates the desired level of scalability while maintaining strict\nseparation between it and the standard itself.\n",
-    "homepage": "https://openpmix.github.io/",
-    "latest_version": "5.0.3",
+    "homepage": "https://pmix.org",
+    "latest_version": "5.0.1",
     "maintainers": [
         "rhc54"
     ],
@@ -153,27 +121,22 @@
         },
         {
             "default": false,
-            "description": "Build documentation",
+            "description": "Build manpages",
             "name": "docs"
         },
         {
-            "default": false,
-            "description": "Enable MUNGE support",
-            "name": "munge"
-        },
-        {
             "default": true,
-            "description": "Enable PMI backwards compatibility",
+            "description": "Toggle pmi backwards compatibility",
             "name": "pmi_backwards_compatibility"
         },
         {
             "default": false,
-            "description": "Enable Python bindings",
+            "description": "Enable python bindigs",
             "name": "python"
         },
         {
             "default": false,
-            "description": "Allow a PMIx server to request services from a system-level REST server",
+            "description": "allow a PMIx server to request services from a system-level REST server",
             "name": "restful"
         }
     ],
@@ -183,32 +146,12 @@
             "name": "master"
         },
         {
-            "name": "5.0.3",
-            "sha256": "3f779434ed59fc3d63e4f77f170605ac3a80cd40b1f324112214b0efbdc34f13"
-        },
-        {
-            "name": "5.0.2",
-            "sha256": "28227ff2ba925da2c3fece44502f23a91446017de0f5a58f5cea9370c514b83c"
-        },
-        {
             "name": "5.0.1",
             "sha256": "d4371792d4ba4c791e1010100b4bf9a65500ababaf5ff25d681f938527a67d4a"
         },
         {
             "name": "5.0.0",
             "sha256": "92a85c4946346816c297ac244fbaf4f723bba87fb7e4424a057c2dabd569928d"
-        },
-        {
-            "name": "4.2.9",
-            "sha256": "6b11f4fd5c9d7f8e55fc6ebdee9af04b839f44d06044e58cea38c87c168784b3"
-        },
-        {
-            "name": "4.2.8",
-            "sha256": "09b442878e233f3d7f11168e129b32e5c8573c3ab6aaa9f86cf2d59c31a43dc9"
-        },
-        {
-            "name": "4.2.7",
-            "sha256": "ac9cf58a0bf01bfacd51d342100234f04c740ec14257e4492d1dd0207ff2a917"
         },
         {
             "name": "4.2.6",
@@ -233,9 +176,7 @@
         {
             "name": "4.2.1",
             "sha256": "3c992fa0d653b56e0e409bbaec9de8fc1b82c948364dbb28545442315ed2a179"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "4.1.2",
             "sha256": "670d3a02b39fb2126fe8084174cf03c484e027b5921b5c98a851108134e2597a"
@@ -316,5 +257,6 @@
             "name": "1.2.5",
             "sha256": "a2b02d489ee730c06ee40e7f9ffcebb6c35bcb4f95153fab7c4276a3add6ae31"
         }
-    ]
+    ],
+    "versions_deprecated": []
 }

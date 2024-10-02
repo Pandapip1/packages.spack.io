@@ -16,7 +16,7 @@
     ],
     "description": "The Intel X86 Encoder Decoder library for encoding and decoding x86\nmachine instructions (64- and 32-bit). Also includes libxed-ild, a\nlightweight library for decoding the length of an instruction.\n",
     "homepage": "https://intelxed.github.io/",
-    "latest_version": "2024.05.20",
+    "latest_version": "2023.10.11",
     "maintainers": [
         "mwkrentel"
     ],
@@ -83,21 +83,6 @@
         },
         {
             "default": false,
-            "description": "Add compatibility headers for software written on the old include layout",
-            "name": "deprecated-includes"
-        },
-        {
-            "default": false,
-            "description": "Build and install the examples",
-            "name": "examples"
-        },
-        {
-            "default": true,
-            "description": "Build with -O2",
-            "name": "optimize"
-        },
-        {
-            "default": false,
             "description": "Compile with position independent code.",
             "name": "pic"
         }
@@ -106,21 +91,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "commit": "7e88c3e00274a10daa6b9d053decc057f65aa0ec",
-            "name": "2024.05.20",
-            "tag": "v2024.05.20"
-        },
-        {
-            "commit": "6d87b5481aa53b5ab1fc2b5a5622759c46746bf9",
-            "name": "2024.04.01",
-            "tag": "v2024.04.01"
-        },
-        {
-            "commit": "d08a6f66f780a685f26322960cd3ae297dbad931",
-            "name": "2024.02.22",
-            "tag": "v2024.02.22"
         },
         {
             "commit": "d7d46c73fb04a1742e99c9382a4acb4ed07ae272",

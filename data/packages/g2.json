@@ -4,7 +4,7 @@
     "conflicts": [],
     "dependencies": [
         {
-            "description": "The bacio library performs binary I/O for the NCEP models, processing\nunformatted byte-addressable data records, and transforming the little\nendian files and big endian files.",
+            "description": "The bacio ibrary performs binary I/O for the NCEP models, processing\nunformatted byte-addressable data records, and transforming the little\nendian files and big endian files.",
             "name": "bacio"
         },
         {
@@ -12,16 +12,8 @@
             "name": "cmake"
         },
         {
-            "description": "This library contains C decoder/encoder routines for GRIB edition 2.\nThis is part of NOAA's NCEPLIBS project.",
-            "name": "g2c"
-        },
-        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
-        },
-        {
-            "description": "The NCEP general interpolation library (iplib) contains Fortran 90\nsubprograms to be used for interpolating between nearly all grids used\nat NCEP. This is part of the NCEPLIBS project.",
-            "name": "ip"
         },
         {
             "description": "Library for manipulating JPEG-2000 images",
@@ -36,16 +28,8 @@
             "name": "ninja"
         },
         {
-            "description": "The spectral transform library splib contains FORTRAN subprograms to be\nused for a variety of spectral transform functions. This is part of the\nNCEPLIBS project.",
-            "name": "sp"
-        },
-        {
             "description": "This library contains Fortran 90 decoder/encoder routines for GRIB\nedition 1 with EMC changes. This is part of the NCEPLIBS project.",
             "name": "w3emc"
-        },
-        {
-            "description": "zlib replacement with optimizations for next generation systems.",
-            "name": "zlib-api"
         }
     ],
     "dependent_to": [
@@ -58,17 +42,13 @@
             "name": "ufs-utils"
         },
         {
-            "description": "The Unified Forecast System (UFS) Weather Model (WM) is a prognostic\nmodel that can be used for short- and medium-range research and\noperational forecasts, as exemplified by its use in the operational\nGlobal Forecast System (GFS) of the National Oceanic and Atmospheric\nAdministration (NOAA).",
-            "name": "ufs-weather-model"
-        },
-        {
             "description": "The Unified Post Processor (UPP) software package is a software package\ndesigned to generate useful products from raw model output.",
             "name": "upp"
         }
     ],
     "description": "Utilities for coding/decoding GRIB2 messages. This library contains\nFortran 90 decoder/encoder routines for GRIB edition 2, as well as\nindexing/searching utility routines. This is part of the NCEPLIBS\nproject.\n",
     "homepage": "https://noaa-emc.github.io/NCEPLIBS-g2",
-    "latest_version": "3.5.1",
+    "latest_version": "3.4.9",
     "maintainers": [
         "AlexanderRichert-NOAA",
         "Hang-Lei-NOAA",
@@ -89,11 +69,6 @@
             "name": "build_type"
         },
         {
-            "default": false,
-            "description": "Enable copygb2 tests using g2c_compare",
-            "name": "g2c_compare"
-        },
-        {
             "default": "make",
             "description": "the build system generator to use",
             "name": "generator"
@@ -102,11 +77,6 @@
             "default": false,
             "description": "CMake interprocedural optimization",
             "name": "ipo"
-        },
-        {
-            "default": false,
-            "description": "Use OpenMP multithreading",
-            "name": "openmp"
         },
         {
             "default": true,
@@ -122,16 +92,6 @@
             "name": "precision"
         },
         {
-            "default": "False",
-            "description": "Build shared library",
-            "name": "shared"
-        },
-        {
-            "default": false,
-            "description": "Build grib utilities",
-            "name": "utils"
-        },
-        {
             "default": true,
             "description": "Enable GRIB1 through w3emc",
             "name": "w3emc"
@@ -141,14 +101,6 @@
         {
             "branch": "develop",
             "name": "develop"
-        },
-        {
-            "name": "3.5.1",
-            "sha256": "a9acdb5d23eca532838f21c4a917727ac85851fc9e1f100d65a6f27c1a563998"
-        },
-        {
-            "name": "3.5.0",
-            "sha256": "3ff59a705bedf56061bba2d667a04391d82701847f93ea5fa1c1d3bd335d07da"
         },
         {
             "name": "3.4.9",

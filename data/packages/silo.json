@@ -267,11 +267,6 @@
         },
         {
             "default": true,
-            "description": "Enable Python support",
-            "name": "python"
-        },
-        {
-            "default": true,
             "description": "Build shared libraries",
             "name": "shared"
         },

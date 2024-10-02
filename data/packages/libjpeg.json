@@ -29,10 +29,6 @@
             "name": "boinc-client"
         },
         {
-            "description": "ChaNGa (Charm N-body GrAvity solver) is a code to perform collisionless\nN-body simulations.",
-            "name": "changa"
-        },
-        {
             "description": "toolkit containing machine learning algorithms and tools for creating\ncomplex software in C++ to solve real world problems",
             "name": "dlib"
         },
@@ -79,14 +75,6 @@
         {
             "description": "SWI-Prolog is a versatile implementation of the Prolog language.\nAlthough SWI-Prolog gained its popularity primarily in education, its\ndevelopment is mostly driven by the needs for application development.\nThis is facilitated by a rich interface to other IT components by\nsupporting many document types and (network) protocols as well as a\ncomprehensive low-level interface to C that is the basis for high-level\ninterfaces to C++, Java (bundled), C#, Python, etc (externally\navailable). Data type extensions such as dicts and strings as well as\nfull support for Unicode and unbounded integers simplify smooth exchange\nof data with other components.",
             "name": "swipl"
-        },
-        {
-            "description": "Thunar File Manager",
-            "name": "thunar"
-        },
-        {
-            "description": "Tumbler is a D-Bus service for applications to request thumbnails for\nXFCE4",
-            "name": "tumbler"
         },
         {
             "description": "XV image viewer. The XV software was originally written by John\nBradley. John Bradley's web site for the XV software can be found at:\nhttp://www.trilon.com/xv",

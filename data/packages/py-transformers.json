@@ -84,15 +84,11 @@
         {
             "description": "A collection of open source benchmarks used to evaluate PyTorch\nperformance.",
             "name": "py-torchbenchmark"
-        },
-        {
-            "description": "A library for accelerating Transformer models on NVIDIA GPUs, including\nfp8 precision on Hopper GPUs.",
-            "name": "py-transformer-engine"
         }
     ],
     "description": "State-of-the-art Natural Language Processing for TensorFlow 2.0 and\nPyTorch\n",
     "homepage": "https://github.com/huggingface/transformers",
-    "latest_version": "4.42.3",
+    "latest_version": "4.35.2",
     "maintainers": [
         "adamjstewart"
     ],
@@ -107,14 +103,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "4.42.3",
-            "sha256": "7539873ff45809145265cbc94ea4619d2713c41ceaa277b692d8b0be3430f7eb"
-        },
-        {
-            "name": "4.38.1",
-            "sha256": "86dc84ccbe36123647e84cbd50fc31618c109a41e6be92514b064ab55bf1304c"
-        },
         {
             "name": "4.35.2",
             "sha256": "2d125e197d77b0cdb6c9201df9fa7e2101493272e448b9fba9341c695bee2f52"

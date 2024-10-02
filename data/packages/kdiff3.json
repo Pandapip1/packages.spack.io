@@ -10,7 +10,7 @@
     ],
     "dependent_to": [],
     "description": "Compare and merge 2 or 3 files or directories.\n",
-    "homepage": "https://kdiff3.sourceforge.net/",
+    "homepage": "http://kdiff3.sourceforge.net/",
     "latest_version": "0.9.98",
     "maintainers": [],
     "name": "kdiff3",

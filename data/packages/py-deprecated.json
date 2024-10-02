@@ -30,10 +30,6 @@
     ],
     "dependent_to": [
         {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
-        },
-        {
             "description": "Reader and Writer for Philips' MFF file format.",
             "name": "py-mffpy"
         },

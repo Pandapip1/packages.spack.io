@@ -47,7 +47,7 @@
     "dependent_to": [],
     "description": "The tskit library provides the underlying functionality used to load,\nexamine, and manipulate tree sequences\n",
     "homepage": "https://tskit.readthedocs.io/en/latest/",
-    "latest_version": "0.5.6",
+    "latest_version": "0.3.1",
     "maintainers": [],
     "name": "tskit",
     "patches": [],
@@ -60,10 +60,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.5.6",
-            "sha256": "ddfe213f1cb063cdb6982177230a2805ecd7dfc7ccd73026e13878abffd2ce46"
-        },
         {
             "name": "0.3.1",
             "sha256": "b9c5a9b2fb62a615e389036946345ef8a35b09f1ffee541995b16f97fedb3d36"

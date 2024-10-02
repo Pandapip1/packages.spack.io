@@ -91,17 +91,13 @@
     ],
     "dependent_to": [
         {
-            "description": "AMR-Wind is a massively parallel, block-structured adaptive-mesh,\nincompressible flow sover for wind turbine and wind farm simulations.",
-            "name": "amr-wind"
-        },
-        {
             "description": "Autotools package for Gridlab-D, a new power distribution system\nsimulation and analysis tool that provides valuable information to users\nwho design and operate distribution systems, and to utilities that wish\nto take advantage of the latest energy technologies. Gridlab-D is a\nflexible simulation environment that can be integrated with a variety of\nthird-party data management and analysis tools.",
             "name": "gridlab-d"
         }
     ],
     "description": "HELICS is a general-purpose, modular, highly-scalable co-simulation\nframework that runs cross-platform (Linux, Windows, and Mac OS X) and\nsupports both event driven and time series simulation.\n",
     "homepage": "https://github.com/GMLC-TDC/HELICS",
-    "latest_version": "3.5.3",
+    "latest_version": "3.5.2",
     "maintainers": [
         "nightlark"
     ],
@@ -227,10 +223,6 @@
         {
             "branch": "main",
             "name": "master"
-        },
-        {
-            "name": "3.5.3",
-            "sha256": "f9ace240510b18caf642f55d08f9009a9babb203fbc032ec7d7d8aa6fd5e1553"
         },
         {
             "name": "3.5.2",

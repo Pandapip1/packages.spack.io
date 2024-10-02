@@ -58,10 +58,6 @@
             "name": "cryodrgn"
         },
         {
-            "description": "HybPiper was designed for targeted sequence capture, in which DNA\nsequencing libraries are enriched for gene regions of interest,\nespecially for phylogenetics. HybPiper is a suite of Python scripts that\nwrap and connect bioinformatics tools in order to extract target\nsequences from high-throughput DNA sequencing reads",
-            "name": "hybpiper"
-        },
-        {
             "description": "Python package to automate ABINIT calculations and analyze the results.",
             "name": "py-abipy"
         },
@@ -132,10 +128,6 @@
         {
             "description": "Bioinformatics tools and a software library developed by the Oxford\nNanopore Technologies Applications group.",
             "name": "py-wub"
-        },
-        {
-            "description": "N-D labeled arrays and datasets in Python",
-            "name": "py-xarray"
         },
         {
             "description": "Rapid large-scale prokaryote pan genome analysis",

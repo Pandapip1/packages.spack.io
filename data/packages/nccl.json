@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -456,10 +416,6 @@
             "name": "py-horovod"
         },
         {
-            "description": "XLA library for Jax",
-            "name": "py-jaxlib"
-        },
-        {
             "description": "TensorFlow is an open source machine learning framework for everyone.",
             "name": "py-tensorflow"
         },
@@ -476,17 +432,13 @@
             "name": "ucc"
         },
         {
-            "description": "The Vienna Ab initio Simulation Package (VASP) is a computer program\nfor atomic scale materials modelling, e.g. electronic structure\ncalculations and quantum-mechanical molecular dynamics, from first\nprinciples.",
-            "name": "vasp"
-        },
-        {
             "description": "XGBoost is an optimized distributed gradient boosting library designed\nto be highly efficient, flexible and portable. It implements machine\nlearning algorithms under the Gradient Boosting framework. XGBoost\nprovides a parallel tree boosting (also known as GBDT, GBM) that solve\nmany data science problems in a fast and accurate way. The same code\nruns on major distributed environment (Hadoop, SGE, MPI) and can solve\nproblems beyond billions of examples.",
             "name": "xgboost"
         }
     ],
     "description": "Optimized primitives for collective multi-GPU communication.\n",
     "homepage": "https://github.com/NVIDIA/nccl",
-    "latest_version": "2.22.3-1",
+    "latest_version": "2.20.3-1",
     "maintainers": [
         "adamjstewart"
     ],
@@ -521,14 +473,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.22.3-1",
-            "sha256": "45151629a9494460e73375281e8b0fe379141528879301899ece9b776faca024"
-        },
-        {
-            "name": "2.21.5-1",
-            "sha256": "1923596984d85e310b5b6c52b2c72a1b93da57218f2bc5a5c7ac3d59297a3303"
-        },
         {
             "name": "2.20.3-1",
             "sha256": "19456bd63ca7d23a8319cbbdbaaf6c25949dd51161a9f8809f6b7453282983dd"

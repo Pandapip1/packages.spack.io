@@ -8,6 +8,11 @@
     "build_system": "Package",
     "conflicts": [
         {
+            "description": "macfuse: macfuse does not support cray, use libfuse instead",
+            "name": "arch=cray-None-None",
+            "spec": ""
+        },
+        {
             "description": "macfuse: macfuse does not support linux, use libfuse instead",
             "name": "arch=linux-None-None",
             "spec": ""
@@ -15,10 +20,6 @@
     ],
     "dependencies": [],
     "dependent_to": [
-        {
-            "description": "It provides the filesystem utilities for use with the ext2 filesystem.\nIt also supports the ext3 and ext4 filesystems.",
-            "name": "e2fsprogs"
-        },
         {
             "description": "An implementation of overlay+shiftfs in FUSE for rootless containers.",
             "name": "fuse-overlayfs"

@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -373,29 +333,14 @@
             "spec": "+cuda ^cuda@:9~allow-unsupported-compilers arch=None-None-ppc64le:"
         },
         {
-            "description": "namd: NAMD supports only one GPU backend at a time",
-            "name": "+rocm",
-            "spec": "+cuda"
-        },
-        {
-            "description": null,
-            "name": "amdgpu_target=none",
-            "spec": "+rocm"
-        },
-        {
-            "description": "namd: memopt mode is not compatible with GPU-resident builds",
-            "name": "+memopt",
-            "spec": "+single_node_gpu"
+            "description": "namd: AVXTiles algorithm requires NAMD 2.15",
+            "name": "+avxtiles",
+            "spec": "@:2.14,3:"
         },
         {
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=makefile"
-        },
-        {
-            "description": null,
-            "name": "+single_node_gpu",
-            "spec": "~cuda~rocm"
         }
     ],
     "dependencies": [
@@ -420,18 +365,6 @@
             "name": "gmake"
         },
         {
-            "description": "HIP is a C++ Runtime API and Kernel Language that allows developers to\ncreate portable applications for AMD and NVIDIA GPUs from single source\ncode.",
-            "name": "hip"
-        },
-        {
-            "description": "This repository includes the user mode API nterfaces and libraries\nnecessary for host applications to launch computer kernels to available\nHSA ROCm kernel agents.AMD Heterogeneous System Architecture HSA - Linux\nHSA Runtime for Boltzmann (ROCm) platforms.",
-            "name": "hsa-rocr-dev"
-        },
-        {
-            "description": "Toolkit for the construction of highly optimized compilers, optimizers,\nand run-time environments.",
-            "name": "llvm-amdgpu"
-        },
-        {
             "description": "This is an earlier version of Intel parallel software development tools\nand has now been replaced by the Intel oneAPI Toolkits. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.",
             "name": "mkl"
         },
@@ -447,7 +380,7 @@
     "dependent_to": [],
     "description": "NAMD is a parallel molecular dynamics code designed for high-performance\nsimulation of large biomolecular systems.\n",
     "homepage": "https://www.ks.uiuc.edu/Research/namd/",
-    "latest_version": "3.0b7",
+    "latest_version": "3.0b6",
     "maintainers": [
         "jcphill"
     ],
@@ -484,13 +417,8 @@
     "resources": [],
     "variants": [
         {
-            "default": "none",
-            "description": "AMD GPU architecture",
-            "name": "amdgpu_target"
-        },
-        {
             "default": false,
-            "description": "Enable avxtiles supported with NAMD 2.15+",
+            "description": "Enable avxtiles",
             "name": "avxtiles"
         },
         {
@@ -520,16 +448,6 @@
         },
         {
             "default": false,
-            "description": "Enable memory-optimized build supported with NAMD 2.8+",
-            "name": "memopt"
-        },
-        {
-            "default": false,
-            "description": "Enable ROCm support",
-            "name": "rocm"
-        },
-        {
-            "default": false,
             "description": "Single node GPU",
             "name": "single_node_gpu"
         }
@@ -538,28 +456,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "3.0",
-            "sha256": "301c64f0f1db860f7336efdb26223ccf66b5ab42bfc9141df8d81ec1e20bf472"
-        },
-        {
-            "name": "2.14",
-            "sha256": "34044d85d9b4ae61650ccdba5cda4794088c3a9075932392dd0752ef8c049235"
-        },
-        {
-            "md5": "9e3323ed856e36e34d5c17a7b0341e38",
-            "name": "2.13"
-        },
-        {
-            "md5": "2a1191909b1ab03bf0205971ad4d8ee9",
-            "name": "2.12"
-        }
-    ],
-    "versions_deprecated": [
-        {
-            "name": "3.0b7",
-            "sha256": "b18ff43b0f55ec59e137c62eba1812589dd88b2122c3a05ea652781667f438b4"
         },
         {
             "name": "3.0b6",
@@ -581,6 +477,19 @@
             "branch": "master",
             "name": "2.15a1",
             "tag": "release-2-15-alpha-1"
+        },
+        {
+            "name": "2.14",
+            "sha256": "34044d85d9b4ae61650ccdba5cda4794088c3a9075932392dd0752ef8c049235"
+        },
+        {
+            "md5": "9e3323ed856e36e34d5c17a7b0341e38",
+            "name": "2.13"
+        },
+        {
+            "md5": "2a1191909b1ab03bf0205971ad4d8ee9",
+            "name": "2.12"
         }
-    ]
+    ],
+    "versions_deprecated": []
 }

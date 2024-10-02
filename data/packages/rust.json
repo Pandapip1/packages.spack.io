@@ -6,11 +6,6 @@
             "description": "rust: Host GCC version must be at least 7.4",
             "name": "%gcc@:7.3",
             "spec": "@1.73:"
-        },
-        {
-            "description": "rust: Rust<1.64 not compatible with GCC>=13",
-            "name": "%gcc@13:",
-            "spec": "@:1.63"
         }
     ],
     "dependencies": [
@@ -61,10 +56,6 @@
             "name": "bat"
         },
         {
-            "description": "A project for generating C bindings from Rust code.",
-            "name": "cbindgen"
-        },
-        {
             "description": "du + rust = dust. Like du but more intuitive.",
             "name": "dust"
         },
@@ -87,10 +78,6 @@
         {
             "description": "fq is a library to generate and validate FASTQ file pairs. fq provides\nsubcommands for filtering, generating, subsampling, and validating FASTQ\nfiles.",
             "name": "fq"
-        },
-        {
-            "description": "A chr/pos/feature GTF sorter that uses a lexicographically-based index\nordering algorithm",
-            "name": "gtfsort"
         },
         {
             "description": "A command-line benchmarking tool.",
@@ -117,16 +104,8 @@
             "name": "lsd"
         },
         {
-            "description": "MLC LLM is a machine learning compiler and high-performance deployment\nengine for large language models. The mission of this project is to\nenable everyone to develop, optimize, and deploy AI models natively on\neveryone's platforms.",
-            "name": "mlc-llm"
-        },
-        {
             "description": "An interactive cheatsheet tool for the command-line",
             "name": "navi"
-        },
-        {
-            "description": "Another cmake lsp",
-            "name": "neocmakelsp"
         },
         {
             "description": "Polypolish is a tool for polishing genome assemblies with short reads.\nUnlike other tools in this category, Polypolish uses SAM files where\neach read has been aligned to all possible locations (not just a single\nbest location). This allows it to repair errors in repeat regions that\nother alignment-based polishers cannot fix.",
@@ -137,10 +116,6 @@
             "name": "py-cryptography"
         },
         {
-            "description": "Fast iterable JSON parser.",
-            "name": "py-jiter"
-        },
-        {
             "description": "Low level implementations for computer vision in Rust.",
             "name": "py-kornia-rs"
         },
@@ -149,20 +124,12 @@
             "name": "py-maturin"
         },
         {
-            "description": "Fast, correct Python JSON library supporting dataclasses, datetimes, and\nnumpy.",
-            "name": "py-orjson"
-        },
-        {
             "description": "Blazingly fast DataFrame library.",
             "name": "py-polars"
         },
         {
             "description": "A Sampling Profiler for Python.",
             "name": "py-py-spy"
-        },
-        {
-            "description": "Core functionality for Pydantic validation and serialization",
-            "name": "py-pydantic-core"
         },
         {
             "description": "A better TOML library for python implemented in rust.",
@@ -197,10 +164,6 @@
             "name": "rust-bindgen"
         },
         {
-            "description": "A full featured, fast Command Line Argument Parser for Rust",
-            "name": "rust-clap"
-        },
-        {
             "description": "Sourmash: Quickly search, compare, and analyze genomic and metagenomic\ndata sets with k-mer sketches.",
             "name": "sourmash"
         },
@@ -215,7 +178,7 @@
     ],
     "description": "The Rust programming language toolchain.\n",
     "homepage": "https://www.rust-lang.org",
-    "latest_version": "1.81.0",
+    "latest_version": "1.78.0",
     "maintainers": [
         "alecbcs"
     ],
@@ -248,10 +211,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "1.81.0",
-            "sha256": "872448febdff32e50c3c90a7e15f9bb2db131d13c588fe9071b0ed88837ccfa7"
         },
         {
             "name": "1.78.0",

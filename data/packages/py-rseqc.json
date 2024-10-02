@@ -59,7 +59,7 @@
         }
     ],
     "description": "RSeQC package provides a number of useful modules that can\ncomprehensively evaluate high throughput sequence data especially RNA-\nseq data.\n",
-    "homepage": "https://rseqc.sourceforge.net",
+    "homepage": "http://rseqc.sourceforge.net",
     "latest_version": "5.0.1",
     "maintainers": [],
     "name": "py-rseqc",

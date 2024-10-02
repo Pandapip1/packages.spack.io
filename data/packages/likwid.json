@@ -24,6 +24,10 @@
             "name": "rocm-core"
         },
         {
+            "description": "This tool exposes functionality for clock and temperature management of\nyour ROCm enabled system Note: After ROCm 3.9, this project moved to\nhttps://github.com/ROCm/rocm_smi_lib/tree/master/python_smi_tools The\nspack package is called: rocm-smi-lib",
+            "name": "rocm-smi"
+        },
+        {
             "description": "It is a C library for Linux that provides a user space interface for\napplications to monitor and control GPU applications.",
             "name": "rocm-smi-lib"
         },

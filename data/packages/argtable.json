@@ -29,7 +29,7 @@
         }
     ],
     "description": "Argtable is an ANSI C library for parsing GNU style command line options\nwith a minimum of fuss.\n",
-    "homepage": "https://argtable.sourceforge.net/",
+    "homepage": "http://argtable.sourceforge.net/",
     "latest_version": "2-13",
     "maintainers": [],
     "name": "argtable",

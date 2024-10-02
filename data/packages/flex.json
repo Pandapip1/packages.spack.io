@@ -112,6 +112,10 @@
             "name": "cscope"
         },
         {
+            "description": "CutLang is a domain specific language that aims to provide a clear,\nhuman readable way to define analyses in high energy particle physics\n(HEP) along with an interpretation framework of that language.",
+            "name": "cutlang"
+        },
+        {
             "description": "C-Vise is a super-parallel Python port of the C-Reduce. The port is\nfully compatible to the C-Reduce and uses the same efficient LLVM-based\nC/C++ reduction tool named clang_delta.",
             "name": "cvise"
         },
@@ -236,24 +240,8 @@
             "name": "libpcap"
         },
         {
-            "description": "The Linux kernel provides services to start and stop programs, handles\nthe file system and other common \"low-level\" tasks that most programs\nshare, and schedules access to avoid conflicts when programs try to\naccess the same resource or device simultaneously. The kernel has a\nmodular design such that modules can be integrated as software\ncomponents. In this package, Linux has been configured to build out-of-\ntree kernel modules.",
-            "name": "linux-external-modules"
-        },
-        {
-            "description": "Linux PAM (Pluggable Authentication Modules for Linux) project.",
-            "name": "linux-pam"
-        },
-        {
-            "description": "The Linux perf tool.",
-            "name": "linux-perf"
-        },
-        {
             "description": "The lm-sensors package provides user-space support for the hardware\nmonitoring drivers in Linux.",
             "name": "lm-sensors"
-        },
-        {
-            "description": "Makedepf90 is a program for automatic creation of Makefile-style\ndependency lists for Fortran source code.",
-            "name": "makedepf90"
         },
         {
             "description": "man-db is an implementation of the standard Unix documentation system\naccessed using the man command. It uses a Berkeley DB database in place\nof the traditional flat-text whatis databases.",
@@ -368,10 +356,6 @@
             "name": "pixman"
         },
         {
-            "description": "The Process Management Interface (PMI) has been used for quite some time\nas a means of exchanging wireup information needed for interprocess\ncommunication. However, meeting the significant orchestration challenges\npresented by exascale systems requires that the process-to-system\ninterface evolve to permit a tighter integration between the different\ncomponents of the parallel application and existing and future SMS\nsolutions. PMI Exascale (PMIx) addresses these needs by providing an\nextended version of the PMI definitions specifically designed to support\nexascale and beyond environments by: (a) adding flexibility to the\nfunctionality expressed in the existing APIs, (b) augmenting the\ninterfaces with new APIs that provide extended capabilities, (c) forging\na collaboration between subsystem providers including resource manager,\nfabric, file system, and programming library developers, (d)\nestablishing a standards-like body for maintaining the definitions, and\n(e) providing a reference implementation of the PMIx standard that\ndemonstrates the desired level of scalability while maintaining strict\nseparation between it and the standard itself.",
-            "name": "pmix"
-        },
-        {
             "description": "PRRTE is the Reference RunTime Environment implementation for PMIx. It\nis capable of operating within a host SMS. The reference RTE therefore\nprovides an easy way of exploring PMIx capabilities and testing PMIx-\nbased applications outside of a PMIx-enabled environment.",
             "name": "prrte"
         },
@@ -474,10 +458,6 @@
         {
             "description": "xgc is an X11 graphics demo that shows various features of the X11 core\nprotocol graphics primitives.",
             "name": "xgc"
-        },
-        {
-            "description": "Utility xmlto is a simple shell script for converting XML files to\nvarious formats. It serves as easy to use command line frontend to make\nfine output without remembering many long options and searching for the\nsyntax of the backends.",
-            "name": "xmlto"
         },
         {
             "description": "X.Org Server is the free and open source implementation of the display\nserver for the X Window System stewarded by the X.Org Foundation.",

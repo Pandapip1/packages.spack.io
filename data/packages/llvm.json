@@ -33,14 +33,6 @@
             "name": "libllvm"
         },
         {
-            "alias_for": "llvm@18.0.0:18",
-            "name": "libllvm"
-        },
-        {
-            "alias_for": "llvm@19.0.0:19",
-            "name": "libllvm"
-        },
-        {
             "alias_for": "llvm@3.0.0:3",
             "name": "libllvm"
         },
@@ -130,21 +122,6 @@
             "description": null,
             "name": "%gcc@:5",
             "spec": "+cuda ^cuda@11.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -303,11 +280,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -334,32 +306,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -883,11 +835,6 @@
         },
         {
             "description": null,
-            "name": "+libomptarget",
-            "spec": "@19:~offload"
-        },
-        {
-            "description": null,
             "name": "^cmake@3.19.0",
             "spec": "@6:11.0.0"
         },
@@ -1068,46 +1015,6 @@
         },
         {
             "description": null,
-            "name": "cuda_arch=75",
-            "spec": "@:13"
-        },
-        {
-            "description": null,
-            "name": "cuda_arch=80",
-            "spec": "@:13"
-        },
-        {
-            "description": null,
-            "name": "cuda_arch=86",
-            "spec": "@:13"
-        },
-        {
-            "description": null,
-            "name": "^python@3.12:",
-            "spec": "@:14"
-        },
-        {
-            "description": null,
-            "name": "cuda_arch=87",
-            "spec": "@:15"
-        },
-        {
-            "description": null,
-            "name": "cuda_arch=89",
-            "spec": "@:15"
-        },
-        {
-            "description": null,
-            "name": "cuda_arch=90",
-            "spec": "@:15"
-        },
-        {
-            "description": null,
-            "name": "cuda_arch=90a",
-            "spec": "@:17"
-        },
-        {
-            "description": null,
             "name": "%gcc@8:",
             "spec": "@:5"
         },
@@ -1128,26 +1035,6 @@
         },
         {
             "description": null,
-            "name": "cuda_arch=10",
-            "spec": ""
-        },
-        {
-            "description": null,
-            "name": "cuda_arch=11",
-            "spec": ""
-        },
-        {
-            "description": null,
-            "name": "cuda_arch=12",
-            "spec": ""
-        },
-        {
-            "description": null,
-            "name": "cuda_arch=13",
-            "spec": ""
-        },
-        {
-            "description": null,
             "name": "generator=make",
             "spec": ""
         },
@@ -1164,11 +1051,6 @@
         {
             "description": null,
             "name": "+lldb",
-            "spec": "~clang"
-        },
-        {
-            "description": null,
-            "name": "+offload",
             "spec": "~clang"
         },
         {
@@ -1279,8 +1161,8 @@
     ],
     "dependent_to": [
         {
-            "description": "Apache TVM is an open source machine learning compiler framework for\nCPUs, GPUs, and machine learning accelerators. It aims to enable machine\nlearning engineers to optimize and run computations efficiently on any\nhardware backend.",
-            "name": "apache-tvm"
+            "description": "The AMD System Management Interface Library, or AMD SMI library, is a C\nlibrary for Linux that provides a user space interface for applications\nto monitor and control AMD device.",
+            "name": "amdsmi"
         },
         {
             "description": "ARCHER, a data race detection tool for large OpenMP applications.",
@@ -1331,12 +1213,12 @@
             "name": "enzyme"
         },
         {
-            "description": "FPChecker (Floating-Point Checker) is a dynamic analysis tool to detect\nfloating-point errors in HPC applications.",
-            "name": "fpchecker"
+            "description": "FleCSI is a compile-time configurable framework designed to support\nmulti-physics application development. As such, FleCSI attempts to\nprovide a very general set of infrastructure design patterns that can be\nspecialized and extended to suit the needs of a broad variety of solver\nand data requirements. Current support includes multi-dimensional mesh\ntopology, mesh geometry, and mesh adjacency information.",
+            "name": "flecsi"
         },
         {
-            "description": "A meta-build system that generates build files for Ninja. This is a\nfork of the Google GN package with some minor features and bug fixes",
-            "name": "generate-ninja"
+            "description": "FPChecker (Floating-Point Checker) is a dynamic analysis tool to detect\nfloating-point errors in HPC applications.",
+            "name": "fpchecker"
         },
         {
             "description": "Halide is a programming language designed to make it easier to write\nhigh-performance image and array processing code on modern machines.",
@@ -1377,10 +1259,6 @@
         {
             "description": "Modern interactive LLVM-based Fortran compiler",
             "name": "lfortran"
-        },
-        {
-            "description": "A generic abstraction for the compression of dense tensors",
-            "name": "libpressio"
         },
         {
             "description": "The OpenMP subproject provides an OpenMP runtime for use with the OpenMP\nimplementation in Clang. This branch includes experimental changes for\nOMPT, the OpenMP Tools interface",
@@ -1443,12 +1321,20 @@
             "name": "rtags"
         },
         {
+            "description": "The rust programming language toolchain",
+            "name": "rust-bindgen"
+        },
+        {
             "description": "The Score-P measurement infrastructure is a highly scalable and easy-to-\nuse tool suite for profiling, event tracing, and online analysis of HPC\napplications.",
             "name": "scorep"
         },
         {
             "description": "The Structural Simulation Toolkit Macroscale Element Library simulates\nlarge-scale parallel computer architectures for the coarse-grained study\nof distributed-memory applications. The simulator is driven from either\na trace file or skeleton application. SST/macro's modular architecture\ncan be extended with additional network models, trace file formats,\nsoftware services, and processor models.",
             "name": "sst-macro"
+        },
+        {
+            "description": "SAS (Static Analysis Suite) is a powerful tool for running static\nanalysis on C++ code.",
+            "name": "static-analysis-suite"
         },
         {
             "description": "SymEngine is a fast symbolic manipulation library, written in C++.",
@@ -1465,7 +1351,7 @@
     ],
     "description": "The LLVM Project is a collection of modular and reusable compiler and\ntoolchain technologies. Despite its name, LLVM has little to do with\ntraditional virtual machines, though it does provide helpful libraries\nthat can be used to build them. The name \"LLVM\" itself is not an\nacronym; it is the full name of the project.\n",
     "homepage": "https://llvm.org/",
-    "latest_version": "19.1.0",
+    "latest_version": "18.1.3",
     "maintainers": [
         "haampie",
         "skosukhin",
@@ -1893,11 +1779,6 @@
             "name": "mlir"
         },
         {
-            "default": true,
-            "description": "Build the Offload subproject",
-            "name": "offload"
-        },
-        {
             "default": "runtime",
             "description": "Build OpenMP either as a runtime (with just-build Clang) or as a project (with the compiler in use)",
             "name": "openmp"
@@ -1947,30 +1828,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "19.1.0",
-            "sha256": "0a08341036ca99a106786f50f9c5cb3fbe458b3b74cab6089fd368d0edb2edfe"
-        },
-        {
-            "name": "18.1.8",
-            "sha256": "09c08693a9afd6236f27a2ebae62cda656eba19021ef3f94d59e931d662d4856"
-        },
-        {
-            "name": "18.1.7",
-            "sha256": "b60df7cbe02cef2523f7357120fb0d46cbb443791cde3a5fb36b82c335c0afc9"
-        },
-        {
-            "name": "18.1.6",
-            "sha256": "01390edfae5b809e982b530ff9088e674c62b13aa92cb9dc1e067fa2cf501083"
-        },
-        {
-            "name": "18.1.5",
-            "sha256": "d543309f55ae3f9b422108302b45c40f5696c96862f4bda8f5526955daa54284"
-        },
-        {
-            "name": "18.1.4",
-            "sha256": "deca5a29e8b1d103ecc4badb3c304aca50d5cac6453364d88ee415dc55699dfb"
         },
         {
             "name": "18.1.3",

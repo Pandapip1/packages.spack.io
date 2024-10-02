@@ -46,7 +46,7 @@
     ],
     "description": "libpsl - C library to handle the Public Suffix List.\n",
     "homepage": "https://github.com/rockdaboot/libpsl",
-    "latest_version": "0.21.5",
+    "latest_version": "0.21.2",
     "maintainers": [],
     "name": "libpsl",
     "patches": [],
@@ -59,10 +59,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.21.5",
-            "sha256": "1dcc9ceae8b128f3c0b3f654decd0e1e891afc6ff81098f227ef260449dae208"
-        },
         {
             "name": "0.21.2",
             "sha256": "e35991b6e17001afa2c0ca3b10c357650602b92596209b7492802f3768a6285f"

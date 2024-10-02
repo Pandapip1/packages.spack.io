@@ -86,10 +86,6 @@
             "sha256": "387cf04078dc7dfe4a708033baad54ab61d82ab06c4ee3d4922b1e45d5626067"
         },
         {
-            "name": "0.19.2",
-            "sha256": "e1d4989ff510b378dad64f91711e7bdabe5ca78d75b06a18569ac454678c4baf"
-        },
-        {
             "name": "0.18",
             "sha256": "8c4bce884c269051feb7abc69dbfd18403c0c764abc83da132e8a7222f8ba801"
         },

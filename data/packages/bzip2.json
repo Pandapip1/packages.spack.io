@@ -132,10 +132,6 @@
             "name": "hapcut2"
         },
         {
-            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
-            "name": "hermes-shm"
-        },
-        {
             "description": "HPCToolkit is an integrated suite of tools for measurement and analysis\nof program performance on computers ranging from multicore desktop\nsystems to the nation's largest supercomputers. By using statistical\nsampling of timers and hardware performance counters, HPCToolkit\ncollects accurate measurements of a program's work, resource\nconsumption, and inefficiency and attributes them to the full calling\ncontext in which they occur.",
             "name": "hpctoolkit"
         },
@@ -232,10 +228,6 @@
             "name": "perl"
         },
         {
-            "description": "Interface to Bzip2 compression library",
-            "name": "perl-compress-bzip2"
-        },
-        {
             "description": "A low-Level Interface to bzip2 compression library.",
             "name": "perl-compress-raw-bzip2"
         },
@@ -246,10 +238,6 @@
         {
             "description": "Imagecodecs is a Python library that provides block-oriented, in-memory\nbuffer transformation, compression, and decompression functions for use\nin the tifffile, czifile, zarr, and other scientific image input/output\nmodules..",
             "name": "py-imagecodecs"
-        },
-        {
-            "description": "Build and publish crates with pyo3, rust-cpython and cffi bindings as\nwell as rust binaries as python packages.",
-            "name": "py-maturin"
         },
         {
             "description": "PyTables is a package for managing hierarchical datasets and designed to\nefficiently and easily cope with extremely large amounts of data.",
@@ -334,10 +322,6 @@
         {
             "description": "SPAdes - St. Petersburg genome assembler - is intended for both standard\nisolates and single-cell MDA bacteria assemblies.",
             "name": "spades"
-        },
-        {
-            "description": "Io_lib is a library for reading/writing various bioinformatics file\nformats.",
-            "name": "staden-io-lib"
         },
         {
             "description": "GNU Tar provides the ability to create tar archives, as well as various\nother kinds of manipulation.",

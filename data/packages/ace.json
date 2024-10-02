@@ -17,7 +17,7 @@
     "dependent_to": [],
     "description": "ACE is an open-source framework that provides many components and\npatterns for developing high-performance, distributed real-time and\nembedded systems. ACE provides powerful, yet efficient abstractions for\nsockets, demultiplexing loops, threads, synchronization primitives.\n",
     "homepage": "https://www.dre.vanderbilt.edu/~schmidt/ACE.html",
-    "latest_version": "7.1.4",
+    "latest_version": "7.1.3",
     "maintainers": [],
     "name": "ace",
     "patches": [],
@@ -30,10 +30,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "7.1.4",
-            "sha256": "a2bc358401178dd8175f4d826e60d23d901bfe38bc2fa0ac9275d01d7fda34bc"
-        },
         {
             "name": "7.1.3",
             "sha256": "4cb82d8daf83f3abe50ac460b4fac9a8da2512f08d8efb4d327dcacd0b3929b3"

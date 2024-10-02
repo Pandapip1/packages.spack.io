@@ -3,7 +3,7 @@
     "build_system": "CMakePackage",
     "conflicts": [
         {
-            "description": "libpressio-tools: opt support requires MPI",
+            "description": null,
             "name": "+opt",
             "spec": "~mpi"
         }
@@ -18,40 +18,20 @@
             "name": "cmake"
         },
         {
-            "description": "DCTZ is a compressor based on FFTs",
-            "name": "dctz"
-        },
-        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
-        },
-        {
-            "description": "a framework for automatically creating high-speed lossless and error-\nbounded lossy data compression and decompression algorithms.",
-            "name": "lc-framework"
         },
         {
             "description": "A generic abstraction for the compression of dense tensors",
             "name": "libpressio"
         },
         {
-            "description": "LibPressio file reader for legacy ADIOS1 files not supported by ADIOS2",
-            "name": "libpressio-adios1"
-        },
-        {
             "description": "An IO plugin to read/write ADIOS2 files for LibPressio",
             "name": "libpressio-adios2"
         },
         {
-            "description": "A set of libraries for LibPressio to easily load datasets",
-            "name": "libpressio-dataset"
-        },
-        {
             "description": "LibPressioErrorInjector injects errors into data for sensitivity studies",
             "name": "libpressio-errorinjector"
-        },
-        {
-            "description": "the FZ module compiler",
-            "name": "libpressio-jit"
         },
         {
             "description": "LibPressio Bindings for NVCOMP",
@@ -60,10 +40,6 @@
         {
             "description": "Metacompressor which preforms optimization of compressor settings for\nLibPressio",
             "name": "libpressio-opt"
-        },
-        {
-            "description": "High Fidelity Proxy Models for Compression",
-            "name": "libpressio-predict"
         },
         {
             "description": "LibPressio metric that runs R code",
@@ -88,17 +64,13 @@
     ],
     "dependent_to": [
         {
-            "description": "High Fidelity Proxy Models for Compression",
-            "name": "libpressio-predict"
-        },
-        {
             "description": "R package for libpressio",
             "name": "r-libpressio"
         }
     ],
     "description": "General Utilities for LibPressio\n",
     "homepage": "https://github.com/robertu94/pressio-tools",
-    "latest_version": "0.4.7",
+    "latest_version": "0.3.0",
     "maintainers": [
         "robertu94"
     ],
@@ -106,11 +78,6 @@
     "patches": [],
     "resources": [],
     "variants": [
-        {
-            "default": false,
-            "description": "depend on adios1",
-            "name": "adios1"
-        },
         {
             "default": false,
             "description": "depend on ADIOS2 for IO modules",
@@ -125,16 +92,6 @@
             "default": "Release",
             "description": "CMake build type",
             "name": "build_type"
-        },
-        {
-            "default": false,
-            "description": "depend on libpressio-dataset",
-            "name": "dataset"
-        },
-        {
-            "default": false,
-            "description": "depend on dctz",
-            "name": "dctz"
         },
         {
             "default": false,
@@ -158,16 +115,6 @@
         },
         {
             "default": false,
-            "description": "depend on libpressio-jit",
-            "name": "jit"
-        },
-        {
-            "default": false,
-            "description": "depend on lc",
-            "name": "lc"
-        },
-        {
-            "default": false,
             "description": "depend on MPI for distributed parallelism",
             "name": "mpi"
         },
@@ -180,11 +127,6 @@
             "default": false,
             "description": "support the libpressio-opt package",
             "name": "opt"
-        },
-        {
-            "default": false,
-            "description": "depend on libpressio-predict",
-            "name": "predict"
         },
         {
             "default": false,
@@ -204,24 +146,8 @@
     ],
     "versions": [
         {
-            "name": "0.4.7",
-            "sha256": "02052025529bcae6125bbcb6c1513776f06164324379d936175fc574188d4d7c"
-        },
-        {
-            "name": "0.4.6",
-            "sha256": "b1253d49bd16669c41332146e3c441f5a6363cad73262e91a945831ec2bc76e0"
-        },
-        {
-            "name": "0.4.5",
-            "sha256": "4f296e4b31f6880f388cb95823864f2c76244e40bb6a94d7918234d189f799ed"
-        },
-        {
-            "name": "0.4.4",
-            "sha256": "edbff72b0dba11b145b4d61d507b869ef976c5a8941afb817a533b923a9d7a41"
-        },
-        {
-            "name": "0.4.3",
-            "sha256": "2122e2c5212325a54bb6a80f4b7fb56060a1d2d0fa5733ac5757109ea892c9f9"
+            "branch": "master",
+            "name": "master"
         },
         {
             "name": "0.3.0",

@@ -95,7 +95,7 @@
     ],
     "description": "xkbcommon is a library to handle keyboard descriptions, including\nloading them from disk, parsing them and handling their state. It's\nmainly meant for client toolkits, window systems, and other system\napplications.\n",
     "homepage": "https://xkbcommon.org/",
-    "latest_version": "1.7.0",
+    "latest_version": "1.5.0",
     "maintainers": [],
     "name": "libxkbcommon",
     "patches": [],
@@ -128,14 +128,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.7.0",
-            "sha256": "65782f0a10a4b455af9c6baab7040e2f537520caa2ec2092805cdfd36863b247"
-        },
-        {
-            "name": "1.6.0",
-            "sha256": "0edc14eccdd391514458bc5f5a4b99863ed2d651e4dd761a90abf4f46ef99c2b"
-        },
         {
             "name": "1.5.0",
             "sha256": "560f11c4bbbca10f495f3ef7d3a6aa4ca62b4f8fb0b52e7d459d18a26e46e017"

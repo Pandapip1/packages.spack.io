@@ -10,7 +10,7 @@
     ],
     "dependent_to": [],
     "description": "SnpEff is a variant annotation and effect prediction tool. It annotates\nand predicts the effects of genetic variants (such as amino acid\nchanges).\n",
-    "homepage": "https://snpeff.sourceforge.net/",
+    "homepage": "http://snpeff.sourceforge.net/",
     "latest_version": "2017-11-24",
     "maintainers": [],
     "name": "snpeff",

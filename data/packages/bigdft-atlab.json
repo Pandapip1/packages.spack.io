@@ -48,10 +48,6 @@
             "name": "bigdft-chess"
         },
         {
-            "description": "BigDFT-liborbs: a library for orbital treatments in DFT.",
-            "name": "bigdft-liborbs"
-        },
-        {
             "description": "BigDFT-Psolver: a flexible real-space Poisson Solver based on\nInterpolating Scaling Functions. It constitutes a fundamental building\nblock of BigDFT code, and it can also be used separately and linked to\nother codes.",
             "name": "bigdft-psolver"
         },
@@ -62,7 +58,7 @@
     ],
     "description": "BigDFT-atlab: library for ATomic related operations.\n",
     "homepage": "https://bigdft.org/",
-    "latest_version": "1.9.5",
+    "latest_version": "1.9.4",
     "maintainers": [],
     "name": "bigdft-atlab",
     "patches": [],
@@ -98,10 +94,6 @@
         {
             "branch": "devel",
             "name": "develop"
-        },
-        {
-            "name": "1.9.5",
-            "sha256": "5fe51e92bb746569207295feebbcd154ce4f1b364a3981bace75c45e983b2741"
         },
         {
             "name": "1.9.4",

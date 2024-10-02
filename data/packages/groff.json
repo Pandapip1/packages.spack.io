@@ -51,10 +51,6 @@
             "name": "libxmu"
         },
         {
-            "description": "GNU M4 is an implementation of the traditional Unix macro processor.",
-            "name": "m4"
-        },
-        {
             "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
             "name": "pkgconfig"
         },
@@ -77,10 +73,6 @@
             "name": "cyrus-sasl"
         },
         {
-            "description": "Enchant is a library (and command-line program) that wraps a number of\ndifferent spelling libraries and programs with a consistent interface.",
-            "name": "enchant"
-        },
-        {
             "description": "Graph Visualization Software",
             "name": "graphviz"
         },
@@ -95,7 +87,7 @@
     ],
     "description": "Groff (GNU troff) is a typesetting system that reads plain text mixed\nwith formatting commands and produces formatted output. Output may be\nPostScript or PDF, html, or ASCII/UTF8 for display at the terminal.\n",
     "homepage": "https://www.gnu.org/software/groff/",
-    "latest_version": "1.23.0",
+    "latest_version": "1.22.4",
     "maintainers": [],
     "name": "groff",
     "patches": [
@@ -142,10 +134,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.23.0",
-            "sha256": "6b9757f592b7518b4902eb6af7e54570bdccba37a871fddb2d30ae3863511c13"
-        },
         {
             "name": "1.22.4",
             "sha256": "e78e7b4cb7dec310849004fa88847c44701e8d133b5d4c13057d876c1bad0293"

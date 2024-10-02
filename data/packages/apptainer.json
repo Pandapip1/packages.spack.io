@@ -31,14 +31,6 @@
             "name": "cryptsetup"
         },
         {
-            "description": "It provides the filesystem utilities for use with the ext2 filesystem.\nIt also supports the ext3 and ext4 filesystems.",
-            "name": "e2fsprogs"
-        },
-        {
-            "description": "An implementation of overlay+shiftfs in FUSE for rootless containers.",
-            "name": "fuse-overlayfs"
-        },
-        {
             "description": "Git is a free and open source distributed version control system\ndesigned to handle everything from small to very large projects with\nspeed and efficiency.",
             "name": "git"
         },
@@ -49,10 +41,6 @@
         {
             "description": "The golang compiler and build environment",
             "name": "go"
-        },
-        {
-            "description": "Encrypted overlay filesystem written in Go",
-            "name": "gocryptfs"
         },
         {
             "description": "The reference implementation of the Linux FUSE (Filesystem in Userspace)\ninterface",
@@ -94,7 +82,7 @@
     "dependent_to": [],
     "description": "Apptainer is an open source container platform designed to be simple,\nfast, and secure. Many container platforms are available, but Apptainer\nis designed for ease-of-use on shared systems and in high performance\ncomputing (HPC) environments. Needs post-install chmod/chown steps to\nenable full functionality. See package definition or `spack-build-\nout.txt` build log for details, e.g.: tail -15 $(spack location -i\napptainer)/.spack/spack-build-out.txt\n",
     "homepage": "https://apptainer.org",
-    "latest_version": "1.3.3",
+    "latest_version": "1.1.9",
     "maintainers": [],
     "name": "apptainer",
     "patches": [],
@@ -120,18 +108,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "1.3.3",
-            "sha256": "94a274ab4898cdb131f4e3867c4e15f7e16bc2823303d2afcbafee0242f0838d"
-        },
-        {
-            "name": "1.3.2",
-            "sha256": "483910727e1a15843b93d9f2db1fc87e27804de9c74da13cc32cd4bd0d35e079"
-        },
-        {
-            "name": "1.2.5",
-            "sha256": "606b67ef97683e1420401718687d258b1034fdf2edae72eeacd0828dffbfc2c2"
         },
         {
             "name": "1.1.9",

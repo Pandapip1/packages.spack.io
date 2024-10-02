@@ -28,7 +28,7 @@
     ],
     "dependent_to": [],
     "description": "The Extended Randomized Numerical alignEr using BWT\n",
-    "homepage": "https://erne.sourceforge.net/",
+    "homepage": "http://erne.sourceforge.net/",
     "latest_version": "2.1.1",
     "maintainers": [],
     "name": "erne",

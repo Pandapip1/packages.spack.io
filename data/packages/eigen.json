@@ -26,16 +26,8 @@
             "name": "acts"
         },
         {
-            "description": "A portable linear algebra library with multiple backends that is part of\nthe Acts ecosystem.",
-            "name": "acts-algebra-plugins"
-        },
-        {
             "description": "autodiff is automatic differentiation made easier for C++.",
             "name": "autodiff"
-        },
-        {
-            "description": "The NOAA bufr-query Library can be used to read NCEP and WMO formated\nBUFR files using a simple interface that does not require the user to\nknow the details of the BUFR format. Detailed documentation for the BUFR\nLibrary can be found at https://bufr-\nquery.readthedocs.io/en/latest/index.html",
-            "name": "bufr-query"
         },
         {
             "description": "Cantera is a suite of object-oriented software tools for problems\ninvolving chemical kinetics, thermodynamics, and/or transport processes.",
@@ -54,20 +46,12 @@
             "name": "channelflow"
         },
         {
-            "description": "a Massively Parallel Hybrid Solver in C++",
-            "name": "composyx"
-        },
-        {
             "description": "DBoW2 is an improved version of the DBow library, an open source C++\nlibrary for indexing and converting images into a bag-of-word\nrepresentation.",
             "name": "dbow2"
         },
         {
             "description": "DeNovoGear is a software package to detect de novo mutations using next-\ngeneration sequencing data. It supports the analysis of many\ndifferential experimental designs and uses advanced statistical models\nto reduce the false positve rate.",
             "name": "denovogear"
-        },
-        {
-            "description": "DIAMOND is a sequence aligner for protein and translated DNA searches,\ndesigned for high performance analysis of big sequence data.",
-            "name": "diamond"
         },
         {
             "description": "ecKit is a cross-platform c++ toolkit that supports development of tools\nand applications at ECMWF.",
@@ -122,6 +106,10 @@
             "name": "iq-tree"
         },
         {
+            "description": "Efficient and versatile phylogenomic software by maximum likelihood",
+            "name": "iqtree2"
+        },
+        {
             "description": "The Insight Toolkit (ITK) is an open-source, cross-platform toolkit for\nN-dimensional scientific image processing, segmentation, and\nregistration. The Insight Toolkit (ITK) is an open-source, cross-\nplatform toolkit for N-dimensional scientific image processing,\nsegmentation, and registration. Segmentation is the process of\nidentifying and classifying data found in a digitally sampled\nrepresentation. Typically the sampled representation is an image\nacquired from such medical instrumentation as CT or MRI scanners.\nRegistration is the task of aligning or developing correspondences\nbetween data. For example, in the medical environment, a CT scan may be\naligned with a MRI scan in order to combine the information contained in\nboth.",
             "name": "itk"
         },
@@ -138,10 +126,6 @@
             "name": "libfive"
         },
         {
-            "description": "Libint is a high-performance library for computing Gaussian integrals in\nquantum mechanics.",
-            "name": "libint"
-        },
-        {
             "description": "The libMesh library provides a framework for the numerical simulation of\npartial differential equations using arbitrary unstructured\ndiscretizations on serial and parallel platforms.",
             "name": "libmesh"
         },
@@ -156,6 +140,10 @@
         {
             "description": "Lightweight Trained Neural Network.",
             "name": "lwtnn"
+        },
+        {
+            "description": "a Massively Parallel Hybrid Solver in C++",
+            "name": "maphyspp"
         },
         {
             "description": "MemSurfer is a tool to compute and analyze membrane surfaces found in a\nwide variety of large-scale molecular simulations.",

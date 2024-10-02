@@ -77,7 +77,7 @@
         }
     ],
     "description": "This package contains the library for the X Damage extension.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXdamage",
+    "homepage": "https://cgit.freedesktop.org/xorg/lib/libXdamage",
     "latest_version": "1.1.6",
     "maintainers": [
         "wdconinc"

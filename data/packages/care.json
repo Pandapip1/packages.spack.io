@@ -4,11 +4,6 @@
     "conflicts": [
         {
             "description": null,
-            "name": "~tests",
-            "spec": "+benchmarks"
-        },
-        {
-            "description": null,
             "name": "%clang@7:",
             "spec": "+cuda ^cuda@10.0.130~allow-unsupported-compilers arch=None-None-ppc64le:"
         },
@@ -66,21 +61,6 @@
             "description": null,
             "name": "%gcc@:5",
             "spec": "+cuda ^cuda@11.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -239,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -270,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -453,13 +408,10 @@
         }
     ],
     "dependent_to": [],
-    "description": " CHAI and RAJA extensions (includes data structures and algorithms).\n",
+    "description": " Algorithms for chai managed arrays.\n",
     "homepage": "https://github.com/LLNL/CARE",
-    "latest_version": "0.13.3",
-    "maintainers": [
-        "adayton1",
-        "adrienbernede"
-    ],
+    "latest_version": "0.3.0",
+    "maintainers": [],
     "name": "care",
     "patches": [],
     "resources": [],
@@ -470,7 +422,7 @@
             "name": "amdgpu_target"
         },
         {
-            "default": false,
+            "default": true,
             "description": "Build benchmarks.",
             "name": "benchmarks"
         },
@@ -500,7 +452,7 @@
             "name": "docs"
         },
         {
-            "default": false,
+            "default": true,
             "description": "Build examples.",
             "name": "examples"
         },
@@ -510,7 +462,7 @@
             "name": "generator"
         },
         {
-            "default": false,
+            "default": true,
             "description": "Enable implicitconversions to/from raw pointers",
             "name": "implicit_conversions"
         },
@@ -526,12 +478,7 @@
         },
         {
             "default": false,
-            "description": "Enable MPI support",
-            "name": "mpi"
-        },
-        {
-            "default": false,
-            "description": "Build with OpenMP support",
+            "description": "Build Shared Libs",
             "name": "openmp"
         },
         {
@@ -548,41 +495,13 @@
     "versions": [
         {
             "branch": "develop",
-            "name": "develop"
+            "name": "develop",
+            "submodules": "True"
         },
         {
-            "branch": "master",
-            "name": "master"
-        },
-        {
-            "commit": "93853696b452647278eae9311b835ad206236522",
-            "name": "0.13.3",
-            "tag": "v0.13.3"
-        },
-        {
-            "commit": "b25dcd2a35683a68db1c25173e849be69833ed4f",
-            "name": "0.13.2",
-            "tag": "v0.13.2"
-        },
-        {
-            "commit": "0fd0d47aaaa57076f26caad88e667fbc01ff7214",
-            "name": "0.13.1",
-            "tag": "v0.13.1"
-        },
-        {
-            "commit": "2b288e2c557c3b14befeebc8e14a7d48348bd857",
-            "name": "0.13.0",
-            "tag": "v0.13.0"
-        },
-        {
-            "commit": "a9978083035eb00a090451bd36d7987bc935204d",
-            "name": "0.12.0",
-            "tag": "v0.12.0"
-        },
-        {
-            "name": "0.10.0",
-            "submodules": "True",
-            "tag": "v0.10.0"
+            "branch": "main",
+            "name": "master",
+            "submodules": "True"
         },
         {
             "commit": "5e2b69b2836c9f2215207ca9a36a690cb77eea33",

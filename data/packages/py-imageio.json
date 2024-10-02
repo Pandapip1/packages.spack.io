@@ -46,10 +46,6 @@
             "name": "py-accimage"
         },
         {
-            "description": "CellProfiler cell image analysis software. CellProfiler is a free open-\nsource software designed to enable biologists without training in\ncomputer vision or programming to quantitatively measure phenotypes from\nthousands of images automatically.",
-            "name": "py-cellprofiler"
-        },
-        {
             "description": "A toolbox for accurate single-trial estimates in fMRI time-series data.",
             "name": "py-glmsingle"
         },
@@ -84,7 +80,7 @@
     ],
     "description": "Python library for reading and writing image data. Imageio is a Python\nlibrary that provides an easy interface to read and write a wide range\nof image data, including animated images, video, volumetric data, and\nscientific formats. It is cross-platform, runs on Python 2.7 and 3.4+,\nand is easy to install.\n",
     "homepage": "https://github.com/imageio/imageio",
-    "latest_version": "2.35.1",
+    "latest_version": "2.34.0",
     "maintainers": [],
     "name": "py-imageio",
     "patches": [],
@@ -97,10 +93,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.35.1",
-            "sha256": "4952dfeef3c3947957f6d5dedb1f4ca31c6e509a476891062396834048aeed2a"
-        },
         {
             "name": "2.34.0",
             "sha256": "ae9732e10acf807a22c389aef193f42215718e16bd06eed0c5bb57e1034a4d53"

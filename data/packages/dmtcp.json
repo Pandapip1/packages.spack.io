@@ -20,7 +20,7 @@
     ],
     "dependent_to": [],
     "description": "DMTCP (Distributed MultiThreaded Checkpointing) transparently\ncheckpoints a single-host or distributed computation in user-space --\nwith no modifications to user code or to the O/S.\n",
-    "homepage": "https://dmtcp.sourceforge.net/",
+    "homepage": "http://dmtcp.sourceforge.net/",
     "latest_version": "3.0.0",
     "maintainers": [
         "karya0"

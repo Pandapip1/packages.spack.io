@@ -14,6 +14,11 @@
         },
         {
             "description": null,
+            "name": "arch=cray-None-None",
+            "spec": "build_system=nmake"
+        },
+        {
+            "description": null,
             "name": "arch=darwin-None-None",
             "spec": "build_system=nmake"
         },
@@ -79,14 +84,6 @@
             "name": "coral"
         },
         {
-            "description": "toolkit containing machine learning algorithms and tools for creating\ncomplex software in C++ to solve real world problems",
-            "name": "dlib"
-        },
-        {
-            "description": "Doxygen is the de facto standard tool for generating documentation from\nannotated C++ sources, but it also supports other popular programming\nlanguages such as C, Objective-C, C#, PHP, Java, Python, IDL (Corba,\nMicrosoft, and UNO/OpenOffice flavors), Fortran, VHDL, Tcl, and to some\nextent D..",
-            "name": "doxygen"
-        },
-        {
             "description": "Duperemove is a simple tool for finding duplicated extents and\nsubmitting them for deduplication.",
             "name": "duperemove"
         },
@@ -121,10 +118,6 @@
         {
             "description": "JULEA is a flexible storage framework that allows offering arbitrary I/O\ninterfaces to applications. To be able to rapidly prototype new\napproaches, it offers object, key-value and database backends. Support\nfor popular storage technologies such as POSIX, LevelDB and MongoDB is\nalready included.",
             "name": "julea"
-        },
-        {
-            "description": "High Fidelity Proxy Models for Compression",
-            "name": "libpressio-predict"
         },
         {
             "description": "Libsndfile is a C library for reading and writing files containing\nsampled sound (such as MS Windows WAV and the Apple/SGI AIFF format)\nthrough one standard library interface. It is released in source code\nformat under the Gnu Lesser General Public License.",
@@ -333,7 +326,7 @@
     ],
     "description": "SQLite is a C-language library that implements a small, fast, self-\ncontained, high-reliability, full-featured, SQL database engine.\n",
     "homepage": "https://www.sqlite.org",
-    "latest_version": "3.46.0",
+    "latest_version": "3.43.2",
     "maintainers": [],
     "name": "sqlite",
     "patches": [
@@ -408,22 +401,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "3.46.0",
-            "sha256": "6f8e6a7b335273748816f9b3b62bbdc372a889de8782d7f048c653a447417a7d"
-        },
-        {
-            "name": "3.45.3",
-            "sha256": "b2809ca53124c19c60f42bf627736eae011afdcc205bb48270a5ee9a38191531"
-        },
-        {
-            "name": "3.45.1",
-            "sha256": "cd9c27841b7a5932c9897651e20b86c701dd740556989b01ca596fcfa3d49a0a"
-        },
-        {
-            "name": "3.44.2",
-            "sha256": "1c6719a148bc41cf0f2bbbe3926d7ce3f5ca09d878f1246fcc20767b175bb407"
-        },
         {
             "name": "3.43.2",
             "sha256": "6d422b6f62c4de2ca80d61860e3a3fb693554d2f75bb1aaca743ccc4d6f609f0"

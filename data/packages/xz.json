@@ -24,6 +24,11 @@
         },
         {
             "description": null,
+            "name": "arch=cray-None-None",
+            "spec": "build_system=msbuild"
+        },
+        {
+            "description": null,
             "name": "arch=darwin-None-None",
             "spec": "build_system=msbuild"
         },
@@ -101,10 +106,6 @@
             "name": "hapcut2"
         },
         {
-            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
-            "name": "hermes-shm"
-        },
-        {
             "description": "HPCToolkit is an integrated suite of tools for measurement and analysis\nof program performance on computers ranging from multicore desktop\nsystems to the nation's largest supercomputers. By using statistical\nsampling of timers and hardware performance counters, HPCToolkit\ncollects accurate measurements of a program's work, resource\nconsumption, and inefficiency and attributes them to the full calling\ncontext in which they occur.",
             "name": "hpctoolkit"
         },
@@ -143,10 +144,6 @@
         {
             "description": "Libxslt is the XSLT C library developed for the GNOME project. XSLT\nitself is a an XML language to define transformation for XML. Libxslt is\nbased on libxml2 the XML C library developed for the GNOME project. It\nalso implements most of the EXSLT set of processor-portable extensions\nfunctions and some of Saxon's evaluate and expressions extensions.",
             "name": "libxslt"
-        },
-        {
-            "description": "The Linux perf tool.",
-            "name": "linux-perf"
         },
         {
             "description": "The LLVM Project is a collection of modular and reusable compiler and\ntoolchain technologies. Despite its name, LLVM has little to do with\ntraditional virtual machines, though it does provide helpful libraries\nthat can be used to build them. The name \"LLVM\" itself is not an\nacronym; it is the full name of the project.",
@@ -239,10 +236,6 @@
         {
             "description": "squashfuse - Mount SquashFS archives using FUSE",
             "name": "squashfuse"
-        },
-        {
-            "description": "Io_lib is a library for reading/writing various bioinformatics file\nformats.",
-            "name": "staden-io-lib"
         },
         {
             "description": "GNU Tar provides the ability to create tar archives, as well as various\nother kinds of manipulation.",

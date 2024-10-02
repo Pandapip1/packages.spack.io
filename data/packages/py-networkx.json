@@ -74,20 +74,12 @@
             "name": "gaudi"
         },
         {
-            "description": "Liftoff is a tool that accurately maps annotations in GFF or GTF between\nassemblies of the same, or closely-related species.",
-            "name": "liftoff"
-        },
-        {
             "description": "Parallel Global Multiobjective Optimizer (and its Python alter ego\nPyGMO) is a C++ / Python platform to perform parallel computations of\noptimisation tasks (global and local) via the asynchronous generalized\nisland model.",
             "name": "pagmo"
         },
         {
             "description": "Possvm (Phylogenetic Ortholog Sorting with Species oVerlap and MCL) is a\npython tool to analyse pre-computed gene trees and identify pairs and\nclusters of orthologous genes. It takes advantage of the species overlap\nalgorithm implemented in the ETE toolkit to parse the phylogeny and\nidentify orthologous gene pairs, and MCL clustering for orthogroup\nidentification.",
             "name": "possvm"
-        },
-        {
-            "description": "Anvi\u2019o is a comprehensive platform that brings together many aspects of\ntoday\u2019s cutting-edge computational strategies of data-enabled\nmicrobiology, including genomics, metagenomics, metatranscriptomics,\npangenomics, metapangenomics, phylogenomics, and microbial population\ngenetics in an integrated and easy-to-use fashion through extensive\ninteractive visualization capabilities.",
-            "name": "py-anvio"
         },
         {
             "description": "Color math and conversion library.",
@@ -140,6 +132,10 @@
         {
             "description": "Mikado is a lightweight Python3 pipeline whose purpose is to facilitate\nthe identification of expressed loci from RNA-Seq data * and to select\nthe best models in each locus.",
             "name": "py-mikado"
+        },
+        {
+            "description": "MultiQC is a tool to aggregate bioinformatics results across many\nsamples into a single report. It is written in Python and contains\nmodules for a large number of common bioinformatics tools.",
+            "name": "py-multiqc"
         },
         {
             "description": "Neuroimaging in Python: Pipelines and Interfaces.",
@@ -220,6 +216,10 @@
         {
             "description": "Tensors and Dynamic neural networks in Python with strong GPU\nacceleration.",
             "name": "py-torch"
+        },
+        {
+            "description": "Graph Neural Network Library for PyTorch.",
+            "name": "py-torch-geometric"
         },
         {
             "description": "Import, export, process, analyze and view triangular meshes",

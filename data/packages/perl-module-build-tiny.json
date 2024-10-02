@@ -84,7 +84,7 @@
     ],
     "description": "Module::Build::Tiny - A tiny replacement for Module::Build\n",
     "homepage": "https://metacpan.org/pod/Module::Build::Tiny",
-    "latest_version": "0.048",
+    "latest_version": "0.044",
     "maintainers": [],
     "name": "perl-module-build-tiny",
     "patches": [],
@@ -97,10 +97,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.048",
-            "sha256": "79a73e506fb7badabdf79137a45c6c5027daaf6f9ac3dcfb9d4ffcce92eb36bd"
-        },
         {
             "name": "0.044",
             "sha256": "cb053a3049cb717dbf4fd7f3c7ab7c0cb1015b22e2d93f38b1ffc47c078322fd"

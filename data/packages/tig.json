@@ -25,7 +25,7 @@
     "dependent_to": [],
     "description": "Text-mode interface for git\n",
     "homepage": "https://jonas.github.io/tig/",
-    "latest_version": "2.5.10",
+    "latest_version": "2.5.8",
     "maintainers": [],
     "name": "tig",
     "patches": [],
@@ -38,10 +38,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.5.10",
-            "sha256": "f655cc1366fc10058a2bd505bb88ca78e653ff7526c1b81774c44b9d841210e3"
-        },
         {
             "name": "2.5.8",
             "sha256": "b70e0a42aed74a4a3990ccfe35262305917175e3164330c0889bd70580406391"

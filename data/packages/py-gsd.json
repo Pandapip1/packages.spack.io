@@ -39,8 +39,8 @@
         }
     ],
     "description": "The GSD file format is the native file format for HOOMD-blue. GSD files\nstore trajectories of the HOOMD-blue system state in a binary file with\nefficient random access to frames. GSD allows all particle and topology\nproperties to vary from one frame to the next. Use the GSD Python API to\nspecify the initial condition for a HOOMD-blue simulation or analyze\ntrajectory output with a script. Read a GSD trajectory with a\nvisualization tool to explore the behavior of the simulation.\n",
-    "homepage": "https://gsd.readthedocs.io/en/stable/",
-    "latest_version": "3.2.1",
+    "homepage": "https://gsd.readthedocs.io/en/stable/#",
+    "latest_version": "3.2.0",
     "maintainers": [
         "RMeli"
     ],
@@ -55,10 +55,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "3.2.1",
-            "sha256": "cf05148e23f169a00c073eb7d8151e8b521e0f962ce460b55d812cae5be326aa"
-        },
         {
             "name": "3.2.0",
             "sha256": "cf3c8419ec66085b2b9853577058861d9e738bfe397b0170ead821b866ab49b9"

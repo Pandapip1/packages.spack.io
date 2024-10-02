@@ -28,7 +28,7 @@
     ],
     "description": "IgProf (the Ignominous Profiler) is a simple nice tool for measuring and\nanalysing application memory and performance characteristics. IgProf\nrequires no changes to the application or the build process. It\ncurrently works on Linux (ia32, x86_64).\n",
     "homepage": "https://igprof.org/",
-    "latest_version": "5.9.18",
+    "latest_version": "5.9.16",
     "maintainers": [],
     "name": "igprof",
     "patches": [
@@ -66,10 +66,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "5.9.18",
-            "sha256": "f3e378a358469cd269aa5cb3312adc4f5ca89b90c0de89dc070d803c6b68f7b5"
-        },
         {
             "name": "5.9.16",
             "sha256": "cc977466b310f47bbc2967a0bb6ecd49d7437089598346e3f1d8aaf9a7555d96"

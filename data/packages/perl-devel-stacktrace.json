@@ -40,7 +40,7 @@
     ],
     "description": "An object representing a stack trace.\n",
     "homepage": "https://metacpan.org/pod/Devel::StackTrace",
-    "latest_version": "2.05",
+    "latest_version": "2.04",
     "maintainers": [],
     "name": "perl-devel-stacktrace",
     "patches": [],
@@ -53,10 +53,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.05",
-            "sha256": "63cb6196e986a7e578c4d28b3c780e7194835bfc78b68eeb8f00599d4444888c"
-        },
         {
             "name": "2.04",
             "sha256": "cd3c03ed547d3d42c61fa5814c98296139392e7971c092e09a431f2c9f5d6855"

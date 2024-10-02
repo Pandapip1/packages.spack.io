@@ -23,16 +23,6 @@
             "spec": "%nvhpc+cuda"
         },
         {
-            "description": "quantum-espresso: Support for ifx has been added to configure in release 7.3.1",
-            "name": "@:7.3.0",
-            "spec": "%oneapi build_system=generic"
-        },
-        {
-            "description": "quantum-espresso: ifx added f_c_string in the ISO_C_BINDING module since version 2024.1 which conflictswith the libmbd provided one.",
-            "name": "@7.3.1",
-            "spec": "%oneapi@2024.1:"
-        },
-        {
             "description": "quantum-espresso: +elpa requires QE >= 6.0",
             "name": "@:5.4.0",
             "spec": "+elpa"
@@ -176,7 +166,7 @@
             "name": "fftw"
         },
         {
-            "description": "NVPL FFT (NVIDIA Performance Libraries FFT) is part of NVIDIA\nPerformance Libraries and provides Fast Fourier Transform (FFT)\ncalculations on ARM CPUs.",
+            "description": "This is an earlier version of Intel parallel software development tools\nand has now been replaced by the Intel oneAPI Toolkits. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.",
             "name": "fftw-api"
         },
         {
@@ -287,15 +277,6 @@
             "sha256": "72564c168231dd4a1279a74e76919af701d47cee9a851db6e205753004fe9bb5",
             "url": "https://raw.githubusercontent.com/QMCPACK/qmcpack/v3.13.0/external_codes/quantum_espresso/add_pw2qmcpack_to_qe-6.7.0.diff",
             "version": "@6.7+qmcpack",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.quantum-espresso",
-            "reverse": false,
-            "sha256": "f43b7411e535629d9ef564a2e1695359df2651ecbdbca563f7265412afc2228a",
-            "url": "https://gitlab.com/QEF/q-e/-/commit/081409ea90cba0ddc07bea5ac29e3cd422c67d3d.diff",
-            "version": "@6.6:7.3.1",
             "working_dir": "."
         },
         {

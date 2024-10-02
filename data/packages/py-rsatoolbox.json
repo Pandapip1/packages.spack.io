@@ -16,10 +16,6 @@
             "name": "py-h5py"
         },
         {
-            "description": "Read resources from Python packages",
-            "name": "py-importlib-resources"
-        },
-        {
             "description": "Lightweight pipelining with Python functions.",
             "name": "py-joblib"
         },
@@ -87,7 +83,7 @@
     "dependent_to": [],
     "description": "Representational Similarity Analysis (RSA) in Python.\n",
     "homepage": "https://github.com/rsagroup/rsatoolbox",
-    "latest_version": "0.1.5",
+    "latest_version": "0.1.2",
     "maintainers": [],
     "name": "py-rsatoolbox",
     "patches": [],
@@ -103,10 +99,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "0.1.5",
-            "sha256": "439839fb20e2efa0c7c975ad305df8995a509ed3426ad0384ebfff20663fd58b"
         },
         {
             "name": "0.1.2",

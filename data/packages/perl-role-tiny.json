@@ -18,10 +18,6 @@
             "name": "lcov"
         },
         {
-            "description": "Ensembl Funcgen Perl API and SQL schema.",
-            "name": "perl-bio-ensembl-funcgen"
-        },
-        {
             "description": "Moo - Minimalist Object Orientation (with Moose compatibility)",
             "name": "perl-moo"
         },

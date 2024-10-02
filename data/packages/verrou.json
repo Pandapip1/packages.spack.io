@@ -46,7 +46,9 @@
     "description": "A floating-point error checker. Verrou helps you look for floating-point\nround-off errors in programs. It implements a stochastic floating-point\narithmetic based on random rounding: all floating-point operations are\nperturbed by randomly switching rounding modes. This can be seen as an\nasynchronous variant of the CESTAC method, or a subset of Monte Carlo\nArithmetic, performing only output randomization through random\nrounding.\n",
     "homepage": "https://github.com/edf-hpc/verrou",
     "latest_version": "2.2.0",
-    "maintainers": [],
+    "maintainers": [
+        "HadrienG2"
+    ],
     "name": "verrou",
     "patches": [],
     "resources": [

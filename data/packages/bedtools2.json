@@ -52,10 +52,6 @@
         {
             "description": "Rapid large-scale prokaryote pan genome analysis",
             "name": "roary"
-        },
-        {
-            "description": "SEACR (Sparse Enrichment Analysis for CUT&RUN) is intended to call peaks\nand enriched regions from sparse CUT&RUN or chromatin profiling data in\nwhich the background is dominated by zeros",
-            "name": "seacr"
         }
     ],
     "description": "Collectively, the bedtools utilities are a swiss-army knife of tools for\na wide-range of genomics analysis tasks. The most widely-used tools\nenable genome arithmetic: that is, set theory on the genome.\n",

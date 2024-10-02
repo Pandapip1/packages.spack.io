@@ -50,14 +50,6 @@
             "name": "py-datalad"
         },
         {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
-        },
-        {
-            "description": "MultiQC is a tool to aggregate bioinformatics results across many\nsamples into a single report. It is written in Python and contains\nmodules for a large number of common bioinformatics tools.",
-            "name": "py-multiqc"
-        },
-        {
             "description": "The SpECTRE numerical relativity code. SpECTRE is an open-source code\nfor multi-scale, multi-physics problems in astrophysics and\ngravitational physics. In the future, we hope that it can be applied to\nproblems across discipline boundaries in fluid dynamics, geoscience,\nplasma physics, nuclear physics, and engineering. It runs at petascale\nand is designed for future exascale computers. SpECTRE is being\ndeveloped in support of our collaborative Simulating eXtreme Spacetimes\n(SXS) research program into the multi-messenger astrophysics of neutron\nstar mergers, core-collapse supernovae, and gamma-ray bursts.",
             "name": "spectre"
         },
@@ -68,7 +60,7 @@
     ],
     "description": "This modest package contains various common humanization utilities, like\nturning a number into a fuzzy human readable duration ('3 minutes ago')\nor into a human readable size or throughput. It works with python 2.7\nand 3.3 and is localized to Russian, French, Korean and Slovak.\n",
     "homepage": "https://github.com/python-humanize/humanize",
-    "latest_version": "4.9.0",
+    "latest_version": "4.6.0",
     "maintainers": [],
     "name": "py-humanize",
     "patches": [],
@@ -82,14 +74,6 @@
     ],
     "versions": [
         {
-            "name": "4.9.0",
-            "sha256": "582a265c931c683a7e9b8ed9559089dea7edcf6cc95be39a3cbc2c5d5ac2bcfa"
-        },
-        {
-            "name": "4.8.0",
-            "sha256": "9783373bf1eec713a770ecaa7c2d7a7902c98398009dfa3d8a2df91eec9311e8"
-        },
-        {
             "name": "4.6.0",
             "sha256": "5f1f22bc65911eb1a6ffe7659bd6598e33dcfeeb904eb16ee1e705a09bf75916"
         },
@@ -102,24 +86,8 @@
             "sha256": "ee1f872fdfc7d2ef4a28d4f80ddde9f96d36955b5d6b0dac4bdeb99502bddb00"
         },
         {
-            "name": "3.14.0",
-            "sha256": "60dd8c952b1df1ad83f0903844dec50a34ba7a04eea22a6b14204ffb62dbb0a4"
-        },
-        {
             "name": "3.12.0",
             "sha256": "5ec1a66e230a3e31fb3f184aab9436ea13d4e37c168e0ffc345ae5bb57e58be6"
-        },
-        {
-            "name": "2.6.0",
-            "sha256": "8ee358ea6c23de896b9d1925ebe6a8504bb2ba7e98d5ccf4d07ab7f3b28f3819"
-        },
-        {
-            "name": "1.1.0",
-            "sha256": "ad83016fae2453a7486f5be5dba8e19883020c77f6c12c63702f3b6c15ae3c5e"
-        },
-        {
-            "name": "1.0.0",
-            "sha256": "38ace9b66bcaeb7f8186b9dbf0b3448e00148e5b4fbaf726f96c789e52c3e741"
         },
         {
             "name": "0.5.1",

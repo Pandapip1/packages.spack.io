@@ -29,11 +29,6 @@
         },
         {
             "description": null,
-            "name": "%gcc@14:",
-            "spec": "@:2.13.1"
-        },
-        {
-            "description": null,
             "name": "generator=make",
             "spec": "build_system=cmake"
         }
@@ -94,10 +89,6 @@
             "name": "autodiff"
         },
         {
-            "description": "The NOAA bufr-query Library can be used to read NCEP and WMO formated\nBUFR files using a simple interface that does not require the user to\nknow the details of the BUFR format. Detailed documentation for the BUFR\nLibrary can be found at https://bufr-\nquery.readthedocs.io/en/latest/index.html",
-            "name": "bufr-query"
-        },
-        {
             "description": "easi is a library for the Easy Initialization of models in three (or\nless or more) dimensional domains.",
             "name": "easi"
         },
@@ -112,10 +103,6 @@
         {
             "description": "Halide is a programming language designed to make it easier to write\nhigh-performance image and array processing code on modern machines.",
             "name": "halide"
-        },
-        {
-            "description": "A generic abstraction for the compression of dense tensors",
-            "name": "libpressio"
         },
         {
             "description": "AMD's graph optimization engine.",
@@ -134,7 +121,7 @@
             "name": "open3d"
         },
         {
-            "description": "Reading, writing, and processing images in a wide variety of file\nformats, using a format-agnostic API, aimed at VFX applications.",
+            "description": "OpenImageIO is a library for reading and writing images, and a bunch of\nrelated classes, utilities, and applications.",
             "name": "openimageio"
         },
         {
@@ -164,10 +151,6 @@
         {
             "description": "A low-level profiler for capture I/O calls from deep learning\napplications.",
             "name": "py-dlio-profiler-py"
-        },
-        {
-            "description": "tree is a library for working with nested data structures. In a way,\ntree generalizes the builtin map() function which only supports flat\nsequences, and allows to apply a function to each leaf preserving the\noverall structure.",
-            "name": "py-dm-tree"
         },
         {
             "description": "Python interface to Basix, a finite element definition and tabulation\nruntime library",
@@ -244,10 +227,6 @@
         {
             "description": "PyAMG is a library of Algebraic Multigrid (AMG) solvers with a\nconvenient Python interface.",
             "name": "py-pyamg"
-        },
-        {
-            "description": "A low-level profiler for capture I/O calls from deep learning\napplications.",
-            "name": "py-pydftracer"
         },
         {
             "description": "Minimal set of bindings for Kokkos interoperability with Python\n(initialize, finalize, View, DynRankView, Kokkos-tools)",
@@ -330,10 +309,6 @@
             "name": "reprimand"
         },
         {
-            "description": "rocPyDecode is a set of Python bindings to rocDecode C++ library which\nprovides full HW acceleration for video decoding on AMD GPUs.",
-            "name": "rocpydecode"
-        },
-        {
             "description": "The SCINE database module is a database wrapper for a MongoDB encoding\nreaction networks.",
             "name": "scine-database"
         },
@@ -386,10 +361,6 @@
             "name": "trilinos"
         },
         {
-            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid GPU/OpenMP/MPI parallelization and load\nbalancing capabilities.",
-            "name": "warpx"
-        },
-        {
             "description": "Binary data format designed to store data fields with user-specified\naccuracy.",
             "name": "xcdf"
         },
@@ -408,7 +379,7 @@
     ],
     "description": "pybind11 -- Seamless operability between C++11 and Python. pybind11 is a\nlightweight header-only library that exposes C++ types in Python and\nvice versa, mainly to create Python bindings of existing C++ code. Its\ngoals and syntax are similar to the excellent Boost.Python library by\nDavid Abrahams: to minimize boilerplate code in traditional extension\nmodules by inferring type information using compile-time introspection.\n",
     "homepage": "https://pybind11.readthedocs.io",
-    "latest_version": "2.13.5",
+    "latest_version": "2.12.0",
     "maintainers": [
         "ax3l"
     ],
@@ -432,7 +403,7 @@
             "name": "generator"
         },
         {
-            "default": true,
+            "default": false,
             "description": "CMake interprocedural optimization",
             "name": "ipo"
         }
@@ -441,30 +412,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "2.13.5",
-            "sha256": "b1e209c42b3a9ed74da3e0b25a4f4cd478d89d5efbb48f04b277df427faf6252"
-        },
-        {
-            "name": "2.13.4",
-            "sha256": "efc901aa0aab439a3fea6efeaf930b5a349fb06394bf845c64ce15a9cf8f0240"
-        },
-        {
-            "name": "2.13.3",
-            "sha256": "6e7a84ec241544f2f5e30c7a82c09c81f0541dd14e9d9ef61051e07105f9c445"
-        },
-        {
-            "name": "2.13.2",
-            "sha256": "50eebef369d28f07ce1fe1797f38149e5928817be8e539239f2aadfd95b227f3"
-        },
-        {
-            "name": "2.13.1",
-            "sha256": "51631e88960a8856f9c497027f55c9f2f9115cafb08c0005439838a05ba17bfc"
-        },
-        {
-            "name": "2.13.0",
-            "sha256": "8ac2bd138ea3c12683d3496361af6bee0f7754f86bf050e6c61e3966de688215"
         },
         {
             "name": "2.12.0",

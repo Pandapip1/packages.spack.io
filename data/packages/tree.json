@@ -3,12 +3,7 @@
     "build_system": "Package",
     "conflicts": [],
     "dependencies": [],
-    "dependent_to": [
-        {
-            "description": "A minimal password manager following the UNIX philosphy.",
-            "name": "pass"
-        }
-    ],
+    "dependent_to": [],
     "description": "Tree is a recursive directory listing command that produces a depth\nindented listing of files, which is colorized ala dircolors if the\nLS_COLORS environment variable is set and output is to tty. Tree has\nbeen ported and reported to work under the following operating systems:\nLinux, FreeBSD, OS X, Solaris, HP/UX, Cygwin, HP Nonstop and OS/2.\n",
     "homepage": "http://mama.indstate.edu/users/ice/tree/",
     "latest_version": "2.1.0",

@@ -23,6 +23,10 @@
             "name": "automake"
         },
         {
+            "description": "Doxygen is the de facto standard tool for generating documentation from\nannotated C++ sources, but it also supports other popular programming\nlanguages such as C, Objective-C, C#, PHP, Java, Python, IDL (Corba,\nMicrosoft, and UNO/OpenOffice flavors), Fortran, VHDL, Tcl, and to some\nextent D..",
+            "name": "doxygen"
+        },
+        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
         },
@@ -33,6 +37,10 @@
         {
             "description": "libtool -- library building part of autotools.",
             "name": "libtool"
+        },
+        {
+            "description": "Libxslt is the XSLT C library developed for the GNOME project. XSLT\nitself is a an XML language to define transformation for XML. Libxslt is\nbased on libxml2 the XML C library developed for the GNOME project. It\nalso implements most of the EXSLT set of processor-portable extensions\nfunctions and some of Saxon's evaluate and expressions extensions.",
+            "name": "libxslt"
         },
         {
             "description": "GNU M4 is an implementation of the traditional Unix macro processor.",
@@ -53,6 +61,10 @@
         {
             "description": "Wayland is a project to define a protocol for a compositor to talk to\nits clients as well as a library implementation of the protocol. The\ncompositor can be a standalone display server running on Linux kernel\nmodesetting and evdev input devices, an X application, or a wayland\nclient itself. The clients can be traditional applications, X\nservers(rootless or fullscreen) or other display servers.",
             "name": "wayland"
+        },
+        {
+            "description": "Utility xmlto is a simple shell script for converting XML files to\nvarious formats. It serves as easy to use command line frontend to make\nfine output without remembering many long options and searching for the\nsyntax of the backends.",
+            "name": "xmlto"
         }
     ],
     "dependent_to": [
@@ -63,7 +75,7 @@
     ],
     "description": "wayland-protocols contains Wayland protocols that add functionality not\navailable in the Wayland core protocol. Such protocols either add\ncompletely new functionality, or extend the functionality of some other\nprotocol either in Wayland core, or some other protocol i n wayland-\nprotocols.\n",
     "homepage": "https://wayland.freedesktop.org/",
-    "latest_version": "1.37",
+    "latest_version": "1.34",
     "maintainers": [
         "wdconinc"
     ],
@@ -93,18 +105,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.37",
-            "sha256": "c3b215084eb4cf318415533554c2c2714e58ed75847d7c3a8e50923215ffbbf3"
-        },
-        {
-            "name": "1.36",
-            "sha256": "c839dd4325565fd59a93d6cde17335357328f66983c2e1fb03c33e92d6918b17"
-        },
-        {
-            "name": "1.35",
-            "sha256": "6e62dfa92ce82487d107b76064cfe2d7ca107c87c239ea9036a763d79c09105a"
-        },
         {
             "name": "1.34",
             "sha256": "cd3cc9dedb838e6fc8f55bbeb688e8569ffac7df53bc59dbfac8acbb39267f05"

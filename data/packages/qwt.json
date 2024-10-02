@@ -49,7 +49,7 @@
         }
     ],
     "description": "The Qwt library contains GUI Components and utility classes which are\nprimarily useful for programs with a technical background. Beside a\nframework for 2D plots it provides scales, sliders, dials, compasses,\nthermometers, wheels and knobs to control or display values, arrays, or\nranges of type double.\n",
-    "homepage": "https://qwt.sourceforge.net/",
+    "homepage": "http://qwt.sourceforge.net/",
     "latest_version": "6.1.6",
     "maintainers": [],
     "name": "qwt",

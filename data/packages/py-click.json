@@ -174,14 +174,6 @@
             "name": "py-geocube"
         },
         {
-            "description": "Parser tools for Mozilla's Glean telemetry.",
-            "name": "py-glean-parser"
-        },
-        {
-            "description": "Globus CLI is a standalone application that can be installed on the\nuser's machine and is used to access the Globus service. The CLI\nprovides an interface to Globus services from the shell, and is suited\nto both interactive and simple scripting use cases.",
-            "name": "py-globus-cli"
-        },
-        {
             "description": "Command-line utilities to assist in managing Galaxy servers",
             "name": "py-gravity"
         },
@@ -192,10 +184,6 @@
         {
             "description": "Pretty print of NumPy (and other) histograms to the console",
             "name": "py-histoprint"
-        },
-        {
-            "description": "JEDI Configuration Builder",
-            "name": "py-jcb"
         },
         {
             "description": "The deep learning framework to pretrain, finetune and deploy AI models.",

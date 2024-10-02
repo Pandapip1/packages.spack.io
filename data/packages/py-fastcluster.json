@@ -35,7 +35,7 @@
         }
     ],
     "description": "Fast hierarchical clustering routines for R and Python.\n",
-    "homepage": "https://danifold.net/",
+    "homepage": "http://danifold.net/",
     "latest_version": "1.1.26",
     "maintainers": [],
     "name": "py-fastcluster",

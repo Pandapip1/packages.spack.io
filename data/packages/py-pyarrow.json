@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -470,8 +430,8 @@
             "name": "py-petastorm"
         },
         {
-            "description": "Python bindings for Apache Spark",
-            "name": "py-pyspark"
+            "description": "A set of python modules for machine learning and data mining.",
+            "name": "py-scikit-learn"
         },
         {
             "description": "The fastest way to build data apps in Python.",
@@ -480,7 +440,7 @@
     ],
     "description": "A cross-language development platform for in-memory data. This package\ncontains the Python bindings.\n",
     "homepage": "https://arrow.apache.org",
-    "latest_version": "16.1.0",
+    "latest_version": "14.0.2",
     "maintainers": [
         "thomas-bouvier"
     ],
@@ -530,14 +490,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "16.1.0",
-            "sha256": "15fbb22ea96d11f0b5768504a3f961edab25eaf4197c341720c4a387f6c60315"
-        },
-        {
-            "name": "15.0.2",
-            "sha256": "9c9bc803cb3b7bfacc1e96ffbfd923601065d9d3f911179d81e72d99fd74a3d9"
-        },
         {
             "name": "14.0.2",
             "sha256": "36cef6ba12b499d864d1def3e990f97949e0b79400d08b7cf74504ffbd3eb025"

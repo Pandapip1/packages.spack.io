@@ -1,18 +1,7 @@
 {
     "aliases": [],
     "build_system": "PythonPackage",
-    "conflicts": [
-        {
-            "description": null,
-            "name": "py-protobuf@3.20:3.20.1",
-            "spec": ""
-        },
-        {
-            "description": null,
-            "name": "py-protobuf@4.21.1:4.21.5",
-            "spec": ""
-        }
-    ],
+    "conflicts": [],
     "dependencies": [
         {
             "description": "HTTP/2-based RPC framework.",
@@ -61,17 +50,13 @@
             "name": "py-grpcio-status"
         },
         {
-            "description": "Python bindings for Apache Spark",
-            "name": "py-pyspark"
-        },
-        {
             "description": "Library and standards for schema and statistics. TensorFlow Metadata\nprovides standard representations for metadata that are useful when\ntraining machine learning models with TensorFlow.",
             "name": "py-tensorflow-metadata"
         }
     ],
     "description": "Common protobufs used in Google APIs.\n",
     "homepage": "https://github.com/googleapis/python-api-common-protos",
-    "latest_version": "1.63.0",
+    "latest_version": "1.58.0",
     "maintainers": [],
     "name": "py-googleapis-common-protos",
     "patches": [],
@@ -90,16 +75,8 @@
     ],
     "versions": [
         {
-            "name": "1.63.0",
-            "sha256": "17ad01b11d5f1d0171c06d3ba5c04c54474e883b66b949722b4938ee2694ef4e"
-        },
-        {
             "name": "1.58.0",
             "sha256": "c727251ec025947d545184ba17e3578840fc3a24a0516a020479edab660457df"
-        },
-        {
-            "name": "1.56.4",
-            "sha256": "c25873c47279387cfdcbdafa36149887901d36202cb645a0e4f29686bf6e4417"
         },
         {
             "name": "1.55.0",

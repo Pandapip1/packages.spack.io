@@ -49,8 +49,8 @@
         }
     ],
     "description": "libdmx - X Window System DMX (Distributed Multihead X) extension\nlibrary.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libdmx",
-    "latest_version": "1.1.5",
+    "homepage": "https://cgit.freedesktop.org/xorg/lib/libdmx",
+    "latest_version": "1.1.4",
     "maintainers": [],
     "name": "libdmx",
     "patches": [],
@@ -63,10 +63,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.1.5",
-            "sha256": "070e82cc1daa1b21ee1339aef56a909eab04cbe7d430fabfbb01ecd21b2dd9f3"
-        },
         {
             "name": "1.1.4",
             "sha256": "4d05bd5b248c1f46729fa1536b7a5e4d692567327ad41564c36742fb327af925"

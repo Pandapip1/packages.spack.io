@@ -90,10 +90,6 @@
             "name": "py-dask"
         },
         {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
-        },
-        {
             "description": "Netpyne: A python package to facilitate the development, parallel\nsimulation, optimization and analysis of multiscale biological neuronal\nnetworks in NEURON.",
             "name": "py-netpyne"
         },

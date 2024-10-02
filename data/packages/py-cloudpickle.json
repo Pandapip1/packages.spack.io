@@ -4,10 +4,6 @@
     "conflicts": [],
     "dependencies": [
         {
-            "description": "Distribution-building parts of Flit.",
-            "name": "py-flit-core"
-        },
-        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
@@ -108,7 +104,7 @@
     ],
     "description": "Extended pickling support for Python objects.\n",
     "homepage": "https://github.com/cloudpipe/cloudpickle",
-    "latest_version": "3.0.0",
+    "latest_version": "2.2.0",
     "maintainers": [],
     "name": "py-cloudpickle",
     "patches": [],
@@ -121,14 +117,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "3.0.0",
-            "sha256": "996d9a482c6fb4f33c1a35335cf8afd065d2a56e973270364840712d9131a882"
-        },
-        {
-            "name": "2.2.1",
-            "sha256": "d89684b8de9e34a2a43b3460fbca07d09d6e25ce858df4d5a44240403b6178f5"
-        },
         {
             "name": "2.2.0",
             "sha256": "3f4219469c55453cfe4737e564b67c2a149109dabf7f242478948b895f61106f"

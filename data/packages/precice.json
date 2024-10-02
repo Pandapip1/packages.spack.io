@@ -90,7 +90,7 @@
     ],
     "description": "preCICE (Precise Code Interaction Coupling Environment) is a coupling\nlibrary for partitioned multi-physics simulations. Partitioned means\nthat preCICE couples existing programs (solvers) capable of simulating a\nsubpart of the complete physics involved in a simulation.\n",
     "homepage": "https://precice.org/",
-    "latest_version": "3.1.2",
+    "latest_version": "3.1.1",
     "maintainers": [
         "MakisH",
         "fsimonis"
@@ -154,10 +154,6 @@
         {
             "branch": "develop",
             "name": "develop"
-        },
-        {
-            "name": "3.1.2",
-            "sha256": "e06d5e183f584c51812dcddf958210d1195bea38fa2df13be72303dcb06c869b"
         },
         {
             "name": "3.1.1",

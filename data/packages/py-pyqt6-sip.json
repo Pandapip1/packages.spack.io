@@ -36,7 +36,7 @@
     ],
     "description": "The sip module support for PyQt6.\n",
     "homepage": "https://www.riverbankcomputing.com/software/sip/",
-    "latest_version": "13.6.0",
+    "latest_version": "13.5.1",
     "maintainers": [],
     "name": "py-pyqt6-sip",
     "patches": [],
@@ -49,10 +49,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "13.6.0",
-            "sha256": "2486e1588071943d4f6657ba09096dc9fffd2322ad2c30041e78ea3f037b5778"
-        },
         {
             "name": "13.5.1",
             "sha256": "d1e9141752966669576d04b37ba0b122abbc41cc9c35493751028d7d91c4dd49"

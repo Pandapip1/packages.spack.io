@@ -27,7 +27,7 @@
         }
     ],
     "description": "Parallel genome assemblies for parallel DNA sequencing\n",
-    "homepage": "https://denovoassembler.sourceforge.net/",
+    "homepage": "http://denovoassembler.sourceforge.net/",
     "latest_version": "2.3.1",
     "maintainers": [],
     "name": "ray",

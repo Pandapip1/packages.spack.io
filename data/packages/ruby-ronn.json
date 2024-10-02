@@ -20,7 +20,12 @@
             "name": "ruby-rdiscount"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "GEOPM is an extensible power management framework targeting HPC. The\nGEOPM package provides libgeopm, libgeopmpolicy and applications\ngeopmctl and geopmpolicy, as well as tools for postprocessing. GEOPM is\ndesigned to be extended for new control algorithms and new hardware\npower management features via its plugin infrastructure. Note: GEOPM\ninterfaces with hardware using Model Specific Registers (MSRs). For\npropper usage make sure MSRs are made available directly or via the msr-\nsafe kernel module by your administrator.",
+            "name": "geopm"
+        }
+    ],
     "description": "Ronn builds manuals. It converts simple, human readable textfiles to\nroff for terminal display, and also to HTML for the web.\n",
     "homepage": "https://rtomayko.github.io/ronn/",
     "latest_version": "0.7.3",

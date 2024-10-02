@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -439,7 +399,7 @@
     ],
     "description": "A high performance toolkit for molecular simulation. Use it as a\nlibrary, or as an application. We include extensive language bindings\nfor Python, C, C++, and even Fortran. The code is open source and\nactively maintained on Github, licensed under MIT and LGPL. Part of the\nOmnia suite of tools for predictive biomolecular simulation.\n",
     "homepage": "https://openmm.org/",
-    "latest_version": "8.1.1",
+    "latest_version": "8.0.0",
     "maintainers": [],
     "name": "openmm",
     "patches": [
@@ -487,10 +447,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "8.1.1",
-            "sha256": "347ad9f04dd88a673f7871127d9f23a75caf2c1a460a3f21f3328a24dc6547d0"
-        },
         {
             "name": "8.0.0",
             "sha256": "dc63d7b47c8bb7b169c409cfd63d909ed0ce1ae114d37c627bf7a4231acf488e"

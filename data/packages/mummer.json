@@ -39,7 +39,7 @@
         }
     ],
     "description": "MUMmer is a system for rapidly aligning entire genomes.\n",
-    "homepage": "https://mummer.sourceforge.net/",
+    "homepage": "http://mummer.sourceforge.net/",
     "latest_version": "3.23",
     "maintainers": [],
     "name": "mummer",

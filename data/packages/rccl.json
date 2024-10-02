@@ -70,14 +70,6 @@
             "name": "py-cupy"
         },
         {
-            "description": "XLA library for Jax",
-            "name": "py-jaxlib"
-        },
-        {
-            "description": "ONNX Runtime is a performance-focused complete scoring engine for Open\nNeural Network Exchange (ONNX) models, with an open extensible\narchitecture to continually address the latest developments in AI and\nDeep Learning. ONNX Runtime stays up to date with the ONNX standard with\ncomplete implementation of all ONNX operators, and supports all ONNX\nreleases (1.2+) with both future and backwards compatibility.",
-            "name": "py-onnxruntime"
-        },
-        {
             "description": "TensorFlow is an open source machine learning framework for everyone.",
             "name": "py-tensorflow"
         },
@@ -92,13 +84,22 @@
     ],
     "description": "RCCL (pronounced \"Rickle\") is a stand-alone library of standard\ncollective communication routines for GPUs, implementing all-reduce,\nall-gather, reduce, broadcast, and reduce-scatter.\n",
     "homepage": "https://github.com/ROCm/rccl",
-    "latest_version": "6.2.1",
+    "latest_version": "6.0.2",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
     ],
     "name": "rccl",
     "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.rccl",
+            "relative_path": "0002-Fix-numactl-rocm-smi-path-issue.patch",
+            "reverse": false,
+            "sha256": "386a4c1e094269429665b9760cc694aff51f1c927747dffb4f8c8a7e51acdd56",
+            "version": "@:5.2.1",
+            "working_dir": "."
+        },
         {
             "level": 1,
             "owner": "builtin.rccl",
@@ -148,26 +149,6 @@
     ],
     "versions": [
         {
-            "name": "6.2.1",
-            "sha256": "0f5e35c7afbb21c1d49ff201b7d1ddf163d853c27c75c3eaf7b449f4dc1e2188"
-        },
-        {
-            "name": "6.2.0",
-            "sha256": "a29c94ea3b9c1a0121d7b1450cb01a697f9f9132169632312b9b0bf744d3c0e3"
-        },
-        {
-            "name": "6.1.2",
-            "sha256": "98af99c12d800f5439c7740d797162c35810a25e08e3b11b397d3300d3c0148e"
-        },
-        {
-            "name": "6.1.1",
-            "sha256": "6368275059ba190d554535d5aeaa5c2510d944b56efd85c90a1701d0292a14c5"
-        },
-        {
-            "name": "6.1.0",
-            "sha256": "c6308f6883cbd63dceadbe4ee154cc6fa9e6bdccbd2f0fda295b564b0cf01e9a"
-        },
-        {
             "name": "6.0.2",
             "sha256": "5c8495acba3d620b751e729d1157e7b4eea8f5e5692c50ce47c5204d3dfd443c"
         },
@@ -198,9 +179,7 @@
         {
             "name": "5.5.0",
             "sha256": "be2964b408741d046bcd606d339a233d1d1deac7b841647ec53d6d62d71452ba"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "5.4.3",
             "sha256": "a2524f602bd7b3b6afeb8ba9aff660216ee807fa836e46442d068b5ed5f51a4d"
@@ -216,6 +195,28 @@
         {
             "name": "5.3.0",
             "sha256": "51da5099fa58c2be882319cebe9ceabe2062feebcc0c5849e8c109030882c10a"
+        }
+    ],
+    "versions_deprecated": [
+        {
+            "name": "5.2.3",
+            "sha256": "ecba09f4c95b4b2dae81b88231a972ac956d29909b5e712e21cf2a74bd251ff4"
+        },
+        {
+            "name": "5.2.1",
+            "sha256": "cfd17dc003f19900e44928d81111570d3720d4905321f2a18c909909c4bee822"
+        },
+        {
+            "name": "5.2.0",
+            "sha256": "6ee3a04da0d16eb53f768a088633a7d8ecc4416a2d0c07f7ba8426ab7892b060"
+        },
+        {
+            "name": "5.1.3",
+            "sha256": "56491257f27b48bf85f4b91434a2a6e49a448337c889db181b02c8a4a260a4bc"
+        },
+        {
+            "name": "5.1.0",
+            "sha256": "02b0180857e615326f9cab775573436b9162899ad8e526830f54392b8a51b1f5"
         }
     ]
 }

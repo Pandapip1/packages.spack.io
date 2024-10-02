@@ -110,10 +110,6 @@
             "name": "libzmq"
         },
         {
-            "description": "The Linux perf tool.",
-            "name": "linux-perf"
-        },
-        {
             "description": "MALT is a memory profile tool to track mallocs in a C/C++ application\nand report allocation information (lifetime, sizes...) in a friendly web\ngraphical interface by annotating the source code and proving charts.",
             "name": "malt"
         },

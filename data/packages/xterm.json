@@ -98,7 +98,7 @@
     ],
     "description": "The xterm program is a terminal emulator for the X Window System. It\nprovides DEC VT102 and Tektronix 4014 compatible terminals for programs\nthat can't use the window system directly.\n",
     "homepage": "https://invisible-island.net/xterm/",
-    "latest_version": "393",
+    "latest_version": "353",
     "maintainers": [],
     "name": "xterm",
     "patches": [],
@@ -111,10 +111,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "393",
-            "sha256": "dc3abf533d66ae3db49e6783b0e1e29f0e4d045b4b3dac797a5e93be2735ec7b"
-        },
         {
             "name": "353",
             "sha256": "e521d3ee9def61f5d5c911afc74dd5c3a56ce147c7071c74023ea24cac9bb768"

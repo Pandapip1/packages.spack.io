@@ -35,7 +35,7 @@
         }
     ],
     "description": "Python module for generating objects that compute the Cyclic Redundancy\nCheck (CRC)\n",
-    "homepage": "https://crcmod.sourceforge.net/",
+    "homepage": "http://crcmod.sourceforge.net/",
     "latest_version": "1.7",
     "maintainers": [],
     "name": "py-crcmod",

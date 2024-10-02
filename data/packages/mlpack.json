@@ -1,18 +1,7 @@
 {
     "aliases": [],
     "build_system": "CMakePackage",
-    "conflicts": [
-        {
-            "description": "mlpack: mlpack 4.0+ requires at least gcc-5 with C++14",
-            "name": "%gcc@:4",
-            "spec": "@4.0:"
-        },
-        {
-            "description": "mlpack: mlpack 4.4+ requires at least gcc-8 with C++17",
-            "name": "%gcc@:7",
-            "spec": "@4.4:"
-        }
-    ],
+    "conflicts": [],
     "dependencies": [
         {
             "description": "Armadillo is a high quality linear algebra library (matrix maths) for\nthe C++ language, aiming towards a good balance between speed and ease\nof use.",
@@ -99,7 +88,7 @@
     ],
     "description": "mlpack is an intuitive, fast, and flexible header-only C++ machine\nlearning library with bindings to other languages. It is meant to be a\nmachine learning analog to LAPACK, and aims to implement a wide array of\nmachine learning methods and functions as a \"swiss army knife\" for\nmachine learning researchers.\n",
     "homepage": "https://www.mlpack.org/",
-    "latest_version": "4.5.0",
+    "latest_version": "4.2.0",
     "maintainers": [
         "wdconinc"
     ],
@@ -109,8 +98,8 @@
             "level": 1,
             "owner": "builtin.mlpack",
             "reverse": false,
-            "sha256": "bd726818a8932888f8d38548cab7f8dde15bacfbd8c58a36ce6a3be8d459578d",
-            "url": "https://github.com/mlpack/mlpack/commit/183396e51a6771d5d2b43f22b0d2a9a91785e533.patch?full_index=1",
+            "sha256": "eaa1791ca874201cca5fb661f44e0038f9996b2d02dac6c71d42935eac56a2b4",
+            "url": "https://github.com/mlpack/mlpack/pull/3502/commits/183396e51a6771d5d2b43f22b0d2a9a91785e533.patch?full_index=1",
             "version": "@4:4.2.0",
             "working_dir": "."
         }
@@ -159,22 +148,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "4.5.0",
-            "sha256": "aab70aee10c134ef3fe568843fe4b3bb5e8901af30ea666f57462ad950682317"
-        },
-        {
-            "name": "4.4.0",
-            "sha256": "61c604026d05af26c244b0e47024698bbf150dfcc9d77b64057941d7d64d6cf6"
-        },
-        {
-            "name": "4.3.0",
-            "sha256": "08cd54f711fde66fc3b6c9db89dc26776f9abf1a6256c77cfa3556e2a56f1a3d"
-        },
-        {
-            "name": "4.2.1",
-            "sha256": "2d2b8d61dc2e3179e0b6fefd5c217c57aa168c4d0b9c6868ddb94f6395a80dd5"
-        },
         {
             "name": "4.2.0",
             "sha256": "f780df984a71029e62eeecdd145fb95deb71b133cefc7840de0ec706d116dd60"

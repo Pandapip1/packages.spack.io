@@ -33,7 +33,7 @@
         }
     ],
     "description": "GTS stands for the GNU Triangulated Surface Library. It is an Open\nSource Free Software Library intended to provide a set of useful\nfunctions to deal with 3D surfaces meshed with interconnected triangles.\nThe source code is available free of charge under the Free Software LGPL\nlicense. The code is written entirely in C with an object-oriented\napproach based mostly on the design of GTK+. Careful attention is paid\nto performance related issues as the initial goal of GTS is to provide a\nsimple and efficient library to scientists dealing with 3D computational\nsurface meshes.\n",
-    "homepage": "https://gts.sourceforge.net/index.html",
+    "homepage": "http://gts.sourceforge.net/index.html",
     "latest_version": "121130",
     "maintainers": [],
     "name": "gts",

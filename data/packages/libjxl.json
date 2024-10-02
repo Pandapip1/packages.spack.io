@@ -41,10 +41,6 @@
     ],
     "dependent_to": [
         {
-            "description": "toolkit containing machine learning algorithms and tools for creating\ncomplex software in C++ to solve real world problems",
-            "name": "dlib"
-        },
-        {
             "description": "GDAL: Geospatial Data Abstraction Library. GDAL is a translator library\nfor raster and vector geospatial data formats that is released under an\nMIT style Open Source License by the Open Source Geospatial Foundation.\nAs a library, it presents a single raster abstract data model and single\nvector abstract data model to the calling application for all supported\nformats. It also comes with a variety of useful command line utilities\nfor data translation and processing.",
             "name": "gdal"
         },
@@ -55,7 +51,7 @@
     ],
     "description": "JPEG XL image format reference implementation.\n",
     "homepage": "https://github.com/libjxl/libjxl",
-    "latest_version": "0.10.2",
+    "latest_version": "0.7.0",
     "maintainers": [],
     "name": "libjxl",
     "patches": [],
@@ -86,11 +82,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "commit": "e1489592a770b989303b0edc5cc1dc447bbe0515",
-            "name": "0.10.2",
-            "tag": "v0.10.2"
         },
         {
             "commit": "f95da131cf7c7ccd4da256356fde2fec1fa23bb5",

@@ -56,7 +56,7 @@
     ],
     "description": "Fast and Customizable Tokenizers.\n",
     "homepage": "https://github.com/huggingface/tokenizers",
-    "latest_version": "0.19.1",
+    "latest_version": "0.15.0",
     "maintainers": [],
     "name": "py-tokenizers",
     "patches": [],
@@ -69,10 +69,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.19.1",
-            "sha256": "ee59e6680ed0fdbe6b724cf38bd70400a0c1dd623b07ac729087270caeac88e3"
-        },
         {
             "name": "0.15.0",
             "sha256": "10c7e6e7b4cabd757da59e93f5f8d1126291d16f8b54f28510825ef56a3e5d0e"

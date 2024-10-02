@@ -70,10 +70,6 @@
             "name": "ccache"
         },
         {
-            "description": "DIAMOND is a sequence aligner for protein and translated DNA searches,\ndesigned for high performance analysis of big sequence data.",
-            "name": "diamond"
-        },
-        {
             "description": "Dorado is a high-performance, easy-to-use, open source basecaller for\nOxford Nanopore reads.",
             "name": "dorado"
         },
@@ -118,16 +114,8 @@
             "name": "heaptrack"
         },
         {
-            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
-            "name": "hermes-shm"
-        },
-        {
             "description": "libarchive: C library and command-line tools for reading and writing\ntar, cpio, zip, ISO, and other archive formats.",
             "name": "libarchive"
-        },
-        {
-            "description": "The DWARF Debugging Information Format is of interest to programmers\nworking on compilers and debuggers (and any one interested in reading or\nwriting DWARF information). It was developed by a committee (known as\nthe PLSIG at the time) starting around 1991. Starting around 1991 SGI\ndeveloped the libdwarf and dwarfdump tools for internal use and as part\nof SGI IRIX developer tools. Since that time dwarfdump and libdwarf have\nbeen shipped (as an executable and archive respectively, not source)\nwith every release of the SGI MIPS/IRIX C compiler.",
-            "name": "libdwarf"
         },
         {
             "description": "libpulsar is a C/C++ client library implementation of the Apache Pulsar\nprotocol.",
@@ -140,10 +128,6 @@
         {
             "description": "LibTIFF - Tag Image File Format (TIFF) Library and Utilities.",
             "name": "libtiff"
-        },
-        {
-            "description": "The Linux perf tool.",
-            "name": "linux-perf"
         },
         {
             "description": "The LLVM Project is a collection of modular and reusable compiler and\ntoolchain technologies. Despite its name, LLVM has little to do with\ntraditional virtual machines, though it does provide helpful libraries\nthat can be used to build them. The name \"LLVM\" itself is not an\nacronym; it is the full name of the project.",
@@ -164,10 +148,6 @@
         {
             "description": "MMseqs2 (Many-against-Many sequence searching) is a software suite to\nsearch and cluster huge protein and nucleotide sequence sets",
             "name": "mmseqs2"
-        },
-        {
-            "description": "mold: A Modern Linker",
-            "name": "mold"
         },
         {
             "description": "libmongoc is a client library written in C for MongoDB.",
@@ -194,6 +174,10 @@
             "name": "orc"
         },
         {
+            "description": "An ab initio, DFT and semiempirical SCF-MO package Note: Orca is\nlicensed software. You will need to create an account on the Orca\nhomepage and download Orca yourself. Spack will search your current\ndirectory for the download file. Alternatively, add this file to a\nmirror so that Spack can find it. For instructions on how to set up a\nmirror, see https://spack.readthedocs.io/en/latest/mirrors.html",
+            "name": "orca"
+        },
+        {
             "description": "Fast, compact, powerful binary deserialization",
             "name": "perl-sereal-decoder"
         },
@@ -216,10 +200,6 @@
         {
             "description": "ROOT I/O in pure Python and NumPy. Uproot is a reader and a writer of\nthe ROOT file format using only Python and Numpy. Unlike the standard\nC++ ROOT implementation, Uproot is only an I/O library, primarily\nintended to stream data into machine learning libraries in Python.\nUnlike PyROOT and root_numpy, Uproot does not depend on C++ ROOT.\nInstead, it uses Numpy to cast blocks of data from the ROOT file as\nNumpy arrays.",
             "name": "py-uproot"
-        },
-        {
-            "description": "Python bindings to the Zstandard (zstd) compression library.",
-            "name": "py-zstandard"
         },
         {
             "description": "Quick data compression quality analysis tool",
@@ -264,10 +244,6 @@
         {
             "description": "An open source utility that provides fast incremental file transfer.",
             "name": "rsync"
-        },
-        {
-            "description": "Steel Bank Common Lisp (SBCL) is a high performance Common Lisp\ncompiler. It is open source / free software, with a permissive license.\nIn addition to the compiler and runtime system for ANSI Common Lisp, it\nprovides an interactive environment including a debugger, a statistical\nprofiler, a code coverage tool, and many other extensions.",
-            "name": "sbcl"
         },
         {
             "description": "Spack is a multi-platform package manager that builds and installs\nmultiple versions and configurations of software. It works on Linux,\nmacOS, and many supercomputers. Spack is non-destructive: installing a\nnew version of a package does not break existing installations, so many\nconfigurations of the same package can coexist.",

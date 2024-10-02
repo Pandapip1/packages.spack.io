@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -644,10 +604,6 @@
             "name": "rocblas"
         },
         {
-            "description": "rocm-core is a utility which can be used to get ROCm release version. It\nalso provides the Lmod modules files for the ROCm release.\ngetROCmVersion function provides the ROCm version.",
-            "name": "rocm-core"
-        },
-        {
             "description": "Radeon Open Compute Parallel Primitives Library",
             "name": "rocprim"
         },
@@ -846,10 +802,6 @@
             "name": "t8code"
         },
         {
-            "description": "Tamaas is a C++ library with a Python interface that efficiently solves\ncontact mechanics problems with periodic rough surfaces, plasticity,\nadhesion and friction.",
-            "name": "tamaas"
-        },
-        {
             "description": "Tandem is a scientific software for SEAS modelling and for solving\nPoisson and linear elasticity problems. It implements the Symmetric\nInterior Penalty Galerkin (SIPG) method using unstructured simplicial\nmeshes (triangle meshes in 2D, tetrahedral meshes in 3D).",
             "name": "tandem"
         },
@@ -860,7 +812,7 @@
     ],
     "description": "PETSc is a suite of data structures and routines for the scalable\n(parallel) solution of scientific applications modeled by partial\ndifferential equations.\n",
     "homepage": "https://petsc.org",
-    "latest_version": "3.22.0",
+    "latest_version": "3.21.1",
     "maintainers": [
         "balay",
         "barrysmith",
@@ -875,24 +827,6 @@
             "sha256": "ba327f8b2a0fa45209dfb7a4278f3e9a323965b5a668be204c1c77c17a963a7f",
             "url": "https://gitlab.com/petsc/petsc/-/commit/ef7140cce45367033b48bbd2624dfd2b6aa4b997.diff",
             "version": "@3.20.0+rocm",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.petsc",
-            "reverse": false,
-            "sha256": "2904ea20c71e2f21b8475513c3e5de7465e328e2485ae706b003aa79314e3e7c",
-            "url": "https://gitlab.com/petsc/petsc/-/commit/20d5ecbf88175ced320006c488dcefa2efb1e67f.diff",
-            "version": "@3.21+rocm ^hip@6:",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.petsc",
-            "reverse": false,
-            "sha256": "89cf2c9a01d4a3233c889dd98496a29bf43db1bc69195892f9e5405c537b87e3",
-            "url": "https://gitlab.com/petsc/petsc/-/commit/bdb83d9f3e3c55b3bd4c8732bfe2066c23f10f61.diff",
-            "version": "@3.21+rocm ^hip@6:",
             "working_dir": "."
         },
         {
@@ -1239,30 +1173,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "3.22.0",
-            "sha256": "2c03f7c0f7ad2649240d4989355cf7fb7f211b75156cd7d424e1d9dd7dfb290b"
-        },
-        {
-            "name": "3.21.6",
-            "sha256": "cb2dc00742a89cf8acf9ff8aae189e6864e8b90f4997f087be6e54ff39c30d74"
-        },
-        {
-            "name": "3.21.5",
-            "sha256": "4eb1ec04c1a8988bd524f71f8d7d980dc1853d5be8791c0f19f3c09eef71fdd2"
-        },
-        {
-            "name": "3.21.4",
-            "sha256": "a9ae076d4617c7d84ce2bed37194022319c19f19b3930edf148b2bc8ecf2248d"
-        },
-        {
-            "name": "3.21.3",
-            "sha256": "6d9ceb99d84d275250c614192dad45955d4a7610e12d8292a07dc49403556d26"
-        },
-        {
-            "name": "3.21.2",
-            "sha256": "a1ac62b6204bdf2f7f9b637abf45e6cff24d372d4d3d3702c50e157bdb56eb21"
         },
         {
             "name": "3.21.1",

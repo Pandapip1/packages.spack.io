@@ -29,7 +29,7 @@
         }
     ],
     "description": "This is a release of an API for finding nearest neighbors among points\nin spaces of arbitrary dimensions.\n",
-    "homepage": "https://neartree.sourceforge.net/",
+    "homepage": "http://neartree.sourceforge.net/",
     "latest_version": "3.1",
     "maintainers": [],
     "name": "neartree",

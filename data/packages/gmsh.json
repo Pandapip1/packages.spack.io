@@ -86,14 +86,6 @@
             "name": "lapack"
         },
         {
-            "description": "libjpeg-turbo is a fork of the original IJG libjpeg which uses SIMD to\naccelerate baseline JPEG compression and decompression. libjpeg is a\nlibrary that implements JPEG image encoding, decoding and transcoding.",
-            "name": "libjpeg-turbo"
-        },
-        {
-            "description": "libpng is the official PNG reference library.",
-            "name": "libpng"
-        },
-        {
             "description": "The MED file format is a specialization of the HDF5 standard.",
             "name": "med"
         },
@@ -152,20 +144,14 @@
             "name": "omega-h"
         },
         {
-            "description": "Pythonic interface to GMSH.",
-            "name": "py-gmsh"
-        },
-        {
             "description": "STochastic Engine for Pathway Simulation",
             "name": "steps"
         }
     ],
     "description": "Gmsh is a free 3D finite element grid generator with a built-in CAD\nengine and post-processor. Its design goal is to provide a fast, light\nand user-friendly meshing tool with parametric input and advanced\nvisualization capabilities. Gmsh is built around four modules: geometry,\nmesh, solver and post-processing. The specification of any input to\nthese modules is done either interactively using the graphical user\ninterface or in ASCII text files using Gmsh's own scripting language.\n",
     "homepage": "https://gmsh.info",
-    "latest_version": "4.13.1",
-    "maintainers": [
-        "fspiga"
-    ],
+    "latest_version": "4.12.2",
+    "maintainers": [],
     "name": "gmsh",
     "patches": [],
     "resources": [],
@@ -312,24 +298,12 @@
             "name": "master"
         },
         {
-            "name": "4.13.1",
-            "sha256": "77972145f431726026d50596a6a44fb3c1c95c21255218d66955806b86edbe8d"
-        },
-        {
-            "name": "4.13.0",
-            "sha256": "c85f056ee549a433e814a61c385c97952bbfe514b442b999f6149fffb1e54f64"
-        },
-        {
             "name": "4.12.2",
             "sha256": "13e09d9ca8102e5c40171d6ee150c668742b98c3a6ca57f837f7b64e1e2af48f"
         },
         {
             "name": "4.12.0",
             "sha256": "2a6007872ba85abd9901914826f6986a2437ab7104f564ccefa1b7a3de742c17"
-        },
-        {
-            "name": "4.11.1",
-            "sha256": "c5fe1b7cbd403888a814929f2fd0f5d69e27600222a18c786db5b76e8005b365"
         },
         {
             "name": "4.10.3",

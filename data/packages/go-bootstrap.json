@@ -11,7 +11,12 @@
     ],
     "build_system": "Package",
     "conflicts": [],
-    "dependencies": [],
+    "dependencies": [
+        {
+            "description": "Git is a free and open source distributed version control system\ndesigned to handle everything from small to very large projects with\nspeed and efficiency.",
+            "name": "git"
+        }
+    ],
     "dependent_to": [],
     "description": "Old C-bootstrapped go to bootstrap real go\n",
     "homepage": "https://golang.org",

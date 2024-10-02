@@ -67,7 +67,7 @@
     ],
     "description": "The libMesh library provides a framework for the numerical simulation of\npartial differential equations using arbitrary unstructured\ndiscretizations on serial and parallel platforms.\n",
     "homepage": "https://libmesh.github.io/",
-    "latest_version": "1.7.1",
+    "latest_version": "1.4.1",
     "maintainers": [],
     "name": "libmesh",
     "patches": [],
@@ -184,11 +184,6 @@
             "name": "sfc"
         },
         {
-            "default": true,
-            "description": "Enables the build of shared libraries",
-            "name": "shared"
-        },
-        {
             "default": false,
             "description": "Compile with support for the SLEPc eigensolver",
             "name": "slepc"
@@ -218,10 +213,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "1.7.1",
-            "sha256": "0387d62773cf92356eb128ba92f767e56c298d78f4b97446e68bf288da1eb6b4"
         },
         {
             "name": "1.4.1",

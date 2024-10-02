@@ -98,7 +98,7 @@
     ],
     "description": "Open CASCADE Technology is a software development kit (SDK) intended for\ndevelopment of applications dealing with 3D CAD data, freely available\nin open source. It includes a set of C++ class libraries providing\nservices for 3D surface and solid modeling, visualization, data exchange\nand rapid application development.\n",
     "homepage": "https://www.opencascade.com",
-    "latest_version": "7.8.1",
+    "latest_version": "7.8.0",
     "maintainers": [
         "wdconinc"
     ],
@@ -203,11 +203,6 @@
         }
     ],
     "versions": [
-        {
-            "extension": "tar.gz",
-            "name": "7.8.1",
-            "sha256": "33f2bdb67e3f6ae469f3fa816cfba34529a23a9cb736bf98a32b203d8531c523"
-        },
         {
             "extension": "tar.gz",
             "name": "7.8.0",

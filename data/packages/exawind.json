@@ -4,11 +4,6 @@
     "conflicts": [
         {
             "description": null,
-            "name": "^amr-wind+hypre",
-            "spec": "+amr_wind_gpu~nalu_wind_gpu"
-        },
-        {
-            "description": null,
             "name": "%clang@7:",
             "spec": "+cuda ^cuda@10.0.130~allow-unsupported-compilers arch=None-None-ppc64le:"
         },
@@ -66,21 +61,6 @@
             "description": null,
             "name": "%gcc@:5",
             "spec": "+cuda ^cuda@11.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -239,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -270,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -379,83 +334,13 @@
         },
         {
             "description": null,
-            "name": "+rocm",
-            "spec": "+cuda"
-        },
-        {
-            "description": null,
-            "name": "+sycl",
-            "spec": "+cuda"
-        },
-        {
-            "description": null,
-            "name": "+sycl",
-            "spec": "+rocm"
-        },
-        {
-            "description": null,
             "name": "amdgpu_target=none",
             "spec": "+rocm"
         },
         {
             "description": null,
-            "name": "+nalu_wind_gpu",
+            "name": "amr-wind+hypre",
             "spec": "+sycl"
-        },
-        {
-            "description": null,
-            "name": "^amr-wind+hypre",
-            "spec": "~amr_wind_gpu+nalu_wind_gpu"
-        },
-        {
-            "description": null,
-            "name": "^amr-wind+cuda",
-            "spec": "~amr_wind_gpu"
-        },
-        {
-            "description": null,
-            "name": "^amr-wind+rocm",
-            "spec": "~amr_wind_gpu"
-        },
-        {
-            "description": null,
-            "name": "^amr-wind+sycl",
-            "spec": "~amr_wind_gpu"
-        },
-        {
-            "description": null,
-            "name": "+cuda",
-            "spec": "~amr_wind_gpu~nalu_wind_gpu"
-        },
-        {
-            "description": null,
-            "name": "+rocm",
-            "spec": "~amr_wind_gpu~nalu_wind_gpu"
-        },
-        {
-            "description": null,
-            "name": "+sycl",
-            "spec": "~amr_wind_gpu~nalu_wind_gpu"
-        },
-        {
-            "description": null,
-            "name": "+nalu_wind_gpu",
-            "spec": "~cuda~rocm"
-        },
-        {
-            "description": null,
-            "name": "+amr_wind_gpu",
-            "spec": "~cuda~rocm~sycl"
-        },
-        {
-            "description": null,
-            "name": "^nalu-wind+cuda",
-            "spec": "~nalu_wind_gpu"
-        },
-        {
-            "description": null,
-            "name": "^nalu-wind+rocm",
-            "spec": "~nalu_wind_gpu"
         }
     ],
     "dependencies": [
@@ -484,16 +369,8 @@
             "name": "hsa-rocr-dev"
         },
         {
-            "description": "The NVCC wrapper provides a wrapper around NVCC to make it a 'full' C++\ncompiler that accepts all flags",
-            "name": "kokkos-nvcc-wrapper"
-        },
-        {
             "description": "Toolkit for the construction of highly optimized compilers, optimizers,\nand run-time environments.",
             "name": "llvm-amdgpu"
-        },
-        {
-            "description": "IBM MPI implementation from Spectrum MPI.",
-            "name": "mpi"
         },
         {
             "description": "Nalu-Wind: Wind energy focused variant of Nalu.",
@@ -504,16 +381,8 @@
             "name": "ninja"
         },
         {
-            "description": "Wind turbine simulation package from NREL",
-            "name": "openfast"
-        },
-        {
             "description": "Topology Independent Overset Grid Assembly (TIOGA)",
             "name": "tioga"
-        },
-        {
-            "description": "The Trilinos Project is an effort to develop algorithms and enabling\ntechnologies within an object-oriented software framework for the\nsolution of large-scale, complex multi-physics engineering and\nscientific problems. A unique design feature of Trilinos is its focus on\npackages.",
-            "name": "trilinos"
         },
         {
             "description": "A YAML parser and emitter in C++",
@@ -535,11 +404,6 @@
             "default": "none",
             "description": "AMD GPU architecture",
             "name": "amdgpu_target"
-        },
-        {
-            "default": false,
-            "description": "Enable AMR-Wind on the GPU",
-            "name": "amr_wind_gpu"
         },
         {
             "default": "cmake",
@@ -572,14 +436,19 @@
             "name": "gpu-aware-mpi"
         },
         {
+            "default": true,
+            "description": "Enable hypre solver",
+            "name": "hypre"
+        },
+        {
             "default": false,
             "description": "CMake interprocedural optimization",
             "name": "ipo"
         },
         {
             "default": false,
-            "description": "Enable Nalu-Wind on the GPU",
-            "name": "nalu_wind_gpu"
+            "description": "Enable OpenFAST integration",
+            "name": "openfast"
         },
         {
             "default": false,
@@ -588,8 +457,23 @@
         },
         {
             "default": false,
+            "description": "Enable SIMD in STK",
+            "name": "stk_simd"
+        },
+        {
+            "default": false,
             "description": "Enable SYCL backend for AMR-Wind",
             "name": "sycl"
+        },
+        {
+            "default": false,
+            "description": "Turn on AMR-wind with tiny profile",
+            "name": "tiny_profile"
+        },
+        {
+            "default": false,
+            "description": "Enable Umpire",
+            "name": "umpire"
         }
     ],
     "versions": [

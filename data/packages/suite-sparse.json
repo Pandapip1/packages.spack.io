@@ -93,10 +93,6 @@
             "name": "hiop"
         },
         {
-            "description": "hipSOLVER is a LAPACK marshalling library, with multiple supported\nbackends. It sits between the application and a 'worker' LAPACK library,\nmarshalling inputs into the backend library and marshalling results back\nto the application. hipSOLVER exports an interface that does not require\nthe client to change, regardless of the chosen backend. Currently,\nhipSOLVER supports rocSOLVER and cuSOLVER as backends.",
-            "name": "hipsolver"
-        },
-        {
             "description": "The Julia Language: A fresh approach to technical computing",
             "name": "julia"
         },
@@ -143,7 +139,7 @@
     ],
     "description": " SuiteSparse is a suite of sparse matrix algorithms\n",
     "homepage": "https://people.engr.tamu.edu/davis/suitesparse.html",
-    "latest_version": "7.7.0",
+    "latest_version": "7.3.1",
     "maintainers": [],
     "name": "suite-sparse",
     "patches": [
@@ -227,10 +223,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "7.7.0",
-            "sha256": "529b067f5d80981f45ddf6766627b8fc5af619822f068f342aab776e683df4f3"
-        },
         {
             "name": "7.3.1",
             "sha256": "b512484396a80750acf3082adc1807ba0aabb103c2e09be5691f46f14d0a9718"

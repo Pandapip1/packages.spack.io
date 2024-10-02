@@ -62,10 +62,6 @@
             "name": "py-flit-scm"
         },
         {
-            "description": "Gcovr provides a utility for managing the use of the GNU gcov utility\nand generating summarized code coverage results. This command is\ninspired by the Python coverage.py package, which provides a similar\nutility for Python.",
-            "name": "py-gcovr"
-        },
-        {
             "description": "Project to generate recipes for conda packages.",
             "name": "py-grayskull"
         },
@@ -122,20 +118,12 @@
             "name": "py-poetry"
         },
         {
-            "description": "Documentation generator for C++",
-            "name": "py-poxy"
-        },
-        {
             "description": "Python docstring style checker.",
             "name": "py-pydocstyle"
         },
         {
             "description": "python code static checker",
             "name": "py-pylint"
-        },
-        {
-            "description": "This project provides pylint formatters for a nice integration with\nGitLab CI.",
-            "name": "py-pylint-gitlab"
         },
         {
             "description": "Wrappers to call pyproject.toml-based build backend hooks.",
@@ -164,10 +152,6 @@
         {
             "description": "scikit-build-core is a doubly improved build system generator for\nCPython C/C++/Fortran/Cython extensions. It features several\nimprovements over the classic scikit-build build system generator.",
             "name": "py-scikit-build-core"
-        },
-        {
-            "description": "Setuptools rust extension plugin.",
-            "name": "py-setuptools-rust"
         },
         {
             "description": "The blessed package to manage your versions by scm tags.",

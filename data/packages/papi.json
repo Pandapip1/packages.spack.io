@@ -106,10 +106,6 @@
             "name": "darshan-runtime"
         },
         {
-            "description": "DLB is a dynamic library designed to speed up HPC hybrid applications\n(i.e., two levels of parallelism) by improving the load balance of the\nouter level of parallelism (e.g., MPI) by dynamically redistributing the\ncomputational resources at the inner level of parallelism (e.g.,\nOpenMP). at run time.",
-            "name": "dlb"
-        },
-        {
             "description": "Extrae is the package devoted to generate tracefiles which can be\nanalyzed later by Paraver. Extrae is a tool that uses different\ninterposition mechanisms to inject probes into the target application so\nas to gather information regarding the application performance. The\nExtrae instrumentation package can instrument the MPI programin model,\nand the following parallel programming models either alone or in\nconjunction with MPI : OpenMP, CUDA, OpenCL, pthread, OmpSs",
             "name": "extrae"
         },
@@ -128,14 +124,6 @@
         {
             "description": "IPM is a portable profiling infrastructure for parallel codes. It\nprovides a low-overhead profile of application performance and resource\nutilization in a parallel program. Communication, computation, and IO\nare the primary focus.",
             "name": "ipm"
-        },
-        {
-            "description": "Kokkos Profiling and Debugging Tools",
-            "name": "kokkos-tools"
-        },
-        {
-            "description": "LCI: the Lightweight Communication Interface",
-            "name": "lci"
         },
         {
             "description": "Legion is a data-centric parallel programming system for writing\nportable high performance programs targeted at distributed heterogeneous\narchitectures. Legion presents abstractions which allow programmers to\ndescribe properties of program data (e.g. independence, locality). By\nmaking the Legion programming system aware of the structure of program\ndata, it can automate many of the tedious tasks programmers currently\nface, including correctly extracting task- and data-level parallelism\nand moving data around complex memory hierarchies. A novel mapping\ninterface provides explicit programmer controlled placement of data in\nthe memory hierarchy and assignment of tasks to processors in a way that\nis orthogonal to correctness, thereby enabling easy porting and tuning\nof Legion applications to new architectures.",

@@ -46,10 +46,6 @@
             "name": "meme"
         },
         {
-            "description": "BioPerl is the product of a community effort to produce Perl code which\nis useful in biology. Examples include Sequence objects, Alignment\nobjects and database searching objects. These objects not only do what\nthey are advertised to do in the documentation, but they also interact -\nAlignment objects are made from the Sequence objects, Sequence objects\nhave access to Annotation and SeqFeature objects and databases, Blast\nobjects can be converted to Alignment objects, and so on. This means\nthat the objects provide a coordinated and extensible framework to do\ncomputational biology. BioPerl development focuses on Perl classes, or\ncode that is used to create objects representing biological entities.\nThere are scripts provided in the scripts/ and examples/ directories but\nscripts are not the main focus of the BioPerl developers. Of course, as\nthe objects do most of the hard work for you, all you have to do is\ncombine a number of objects together sensibly to make useful scripts.\nThe intent of the BioPerl development effort is to make reusable tools\nthat aid people in creating their own sites or job-specific\napplications. The BioPerl website at https://bioperl.org/ also attempts\nto maintain links and archives of standalone bio-related Perl tools that\nare not affiliated or related to the core BioPerl effort. Check the site\nfor useful code ideas and contribute your own if possible.",
-            "name": "perl-bioperl"
-        },
-        {
             "description": "Perl's Web Services Toolkit",
             "name": "perl-soap-lite"
         },
@@ -84,15 +80,11 @@
         {
             "description": "Rapid large-scale prokaryote pan genome analysis",
             "name": "roary"
-        },
-        {
-            "description": "Session manager for Xfce4",
-            "name": "xfce4-session"
         }
     ],
     "description": "XML::Parser - A perl module for parsing XML documents\n",
     "homepage": "https://metacpan.org/pod/XML::Parser",
-    "latest_version": "2.47",
+    "latest_version": "2.46",
     "maintainers": [],
     "name": "perl-xml-parser",
     "patches": [],
@@ -105,10 +97,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.47",
-            "sha256": "ad4aae643ec784f489b956abe952432871a622d4e2b5c619e8855accbfc4d1d8"
-        },
         {
             "name": "2.46",
             "sha256": "d331332491c51cccfb4cb94ffc44f9cd73378e618498d4a37df9e043661c515d"

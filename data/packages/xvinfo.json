@@ -40,7 +40,7 @@
     ],
     "dependent_to": [],
     "description": "xvinfo prints out the capabilities of any video adaptors associated with\nthe display that are accessible through the X-Video extension.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xvinfo",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xvinfo",
     "latest_version": "1.1.5",
     "maintainers": [],
     "name": "xvinfo",

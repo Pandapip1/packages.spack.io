@@ -36,10 +36,6 @@
         {
             "description": "Converts and organises raw MRI data-sets according to the Brain Imaging\nData Structure (BIDS).",
             "name": "py-bidscoin"
-        },
-        {
-            "description": "Combine multi-echoes from a multi-echo fMRI acquisition.",
-            "name": "py-multiecho"
         }
     ],
     "description": "Build manual page from python's ArgumentParser object.\n",

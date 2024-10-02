@@ -68,7 +68,7 @@
     ],
     "dependent_to": [],
     "description": "QUCS - Quite Universal Circuit Simulator Qucs is an integrated circuit\nsimulator which means you are able to setup a circuit with a graphical\nuser interface (GUI) and simulate the large-signal, small-signal and\nnoise behaviour of the circuit. After that simulation has finished you\ncan view the simulation results on a presentation page or window.\n",
-    "homepage": "https://qucs.sourceforge.net/",
+    "homepage": "http://qucs.sourceforge.net/",
     "latest_version": "0.0.19",
     "maintainers": [],
     "name": "qucs",

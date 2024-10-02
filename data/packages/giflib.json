@@ -32,10 +32,6 @@
     ],
     "dependent_to": [
         {
-            "description": "toolkit containing machine learning algorithms and tools for creating\ncomplex software in C++ to solve real world problems",
-            "name": "dlib"
-        },
-        {
             "description": "The Emacs programmable text editor.",
             "name": "emacs"
         },
@@ -81,8 +77,8 @@
         }
     ],
     "description": "The GIFLIB project maintains the giflib service library, which has been\npulling images out of GIFs since 1989.\n",
-    "homepage": "https://giflib.sourceforge.net/",
-    "latest_version": "5.2.2",
+    "homepage": "http://giflib.sourceforge.net/",
+    "latest_version": "5.2.1",
     "maintainers": [],
     "name": "giflib",
     "patches": [
@@ -92,7 +88,7 @@
             "reverse": false,
             "sha256": "a94e7bdd8840a31cecacc301684dfdbf7b98773ad824aeaab611fabfdc513036",
             "url": "https://sourceforge.net/p/giflib/bugs/_discuss/thread/4e811ad29b/c323/attachment/Makefile.patch",
-            "version": "@5.2.0:5.2.1 arch=darwin-None-None",
+            "version": "@5.2: arch=darwin-None-None",
             "working_dir": "."
         },
         {
@@ -114,10 +110,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "5.2.2",
-            "sha256": "be7ffbd057cadebe2aa144542fd90c6838c6a083b5e8a9048b8ee3b66b29d5fb"
-        },
         {
             "name": "5.2.1",
             "sha256": "31da5562f44c5f15d63340a09a4fd62b48c45620cd302f77a6d9acf0077879bd"

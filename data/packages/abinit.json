@@ -88,7 +88,7 @@
             "name": "blas"
         },
         {
-            "description": "NVPL FFT (NVIDIA Performance Libraries FFT) is part of NVIDIA\nPerformance Libraries and provides Fast Fourier Transform (FFT)\ncalculations on ARM CPUs.",
+            "description": "This is an earlier version of Intel parallel software development tools\nand has now been replaced by the Intel oneAPI Toolkits. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.",
             "name": "fftw-api"
         },
         {
@@ -139,7 +139,7 @@
     "dependent_to": [],
     "description": "ABINIT is a package whose main program allows one to find the total\nenergy, charge density and electronic structure of systems made of\nelectrons and nuclei (molecules and periodic solids) within Density\nFunctional Theory (DFT), using pseudopotentials and a planewave or\nwavelet basis. ABINIT also includes options to optimize the geometry\naccording to the DFT forces and stresses, or to perform molecular\ndynamics simulations using these forces, or to generate dynamical\nmatrices, Born effective charges, and dielectric tensors, based on\nDensity-Functional Perturbation Theory, and many more properties.\nExcited states can be computed within the Many-Body Perturbation Theory\n(the GW approximation and the Bethe-Salpeter equation), and Time-\nDependent Density Functional Theory (for molecules). In addition to the\nmain ABINIT code, different utility programs are provided.\n",
     "homepage": "https://www.abinit.org/",
-    "latest_version": "10.0.7",
+    "latest_version": "9.10.5",
     "maintainers": [
         "downloadico"
     ],
@@ -160,7 +160,7 @@
             "relative_path": "rm_march_settings_v9.patch",
             "reverse": false,
             "sha256": "6c7e501a4d957c8506c6bf9d6db2f201bc3ac156ba3e998ef5fcc3cf1b581ad1",
-            "version": "@9",
+            "version": "@9:",
             "working_dir": "."
         },
         {
@@ -226,10 +226,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "10.0.7",
-            "sha256": "a9fc044b33861b7defd50fafd19a73eb6f225e18ae30b23bc731d9c8009c881c"
-        },
         {
             "name": "9.10.5",
             "sha256": "a9e0f0e058baa6088ea93d26ada369ccf0fe52dc9d4a865b1c38c20620148cd5"

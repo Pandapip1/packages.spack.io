@@ -81,10 +81,6 @@
             "name": "ams"
         },
         {
-            "description": "Apache TVM is an open source machine learning compiler framework for\nCPUs, GPUs, and machine learning accelerators. It aims to enable machine\nlearning engineers to optimize and run computations efficiently on any\nhardware backend.",
-            "name": "apache-tvm"
-        },
-        {
             "description": "Autonomic Performance Environment for eXascale (APEX).",
             "name": "apex"
         },
@@ -107,10 +103,6 @@
         {
             "description": "Ascent is an open source many-core capable lightweight in situ\nvisualization and analysis infrastructure for multi-physics HPC\nsimulations.",
             "name": "ascent"
-        },
-        {
-            "description": "autodiff is automatic differentiation made easier for C++.",
-            "name": "autodiff"
         },
         {
             "description": "AutoDock-GPU: AutoDock for GPUs and other accelerators. OpenCL and Cuda\naccelerated version of AutoDock 4.2.6. It leverages its embarrasingly\nparallelizable LGA by processing ligand-receptor poses in parallel over\nmultiple compute units.",
@@ -149,10 +141,6 @@
             "name": "bigdft-futile"
         },
         {
-            "description": "BigDFT-liborbs: a library for orbital treatments in DFT.",
-            "name": "bigdft-liborbs"
-        },
-        {
             "description": "BigDFT-Psolver: a flexible real-space Poisson Solver based on\nInterpolating Scaling Functions. It constitutes a fundamental building\nblock of BigDFT code, and it can also be used separately and linked to\nother codes.",
             "name": "bigdft-psolver"
         },
@@ -189,7 +177,7 @@
             "name": "cardioid"
         },
         {
-            "description": "CHAI and RAJA extensions (includes data structures and algorithms).",
+            "description": "Algorithms for chai managed arrays.",
             "name": "care"
         },
         {
@@ -215,10 +203,6 @@
         {
             "description": "Dense Linear Algebra for Scalable Multi-core Architectures and GPGPUs",
             "name": "chameleon"
-        },
-        {
-            "description": "ChaNGa (Charm N-body GrAvity solver) is a code to perform collisionless\nN-body simulations.",
-            "name": "changa"
         },
         {
             "description": "Chapel is a modern programming language that is parallel, productive,\nportable, scalable and open-source. The Chapel package comes with many\noptions in the form of variants, most of which can be left unset to\nallow Chapel's built-in scripts to determine the proper values based on\nthe environment.",
@@ -253,10 +237,6 @@
             "name": "countdown"
         },
         {
-            "description": "Covfie is a library for compositional descriptions of storage methods\nfor vector fields and other structured multi-dimensional data.",
-            "name": "covfie"
-        },
-        {
             "description": "CP2K is a quantum chemistry and solid state physics software package\nthat can perform atomistic simulations of solid state, liquid,\nmolecular, periodic, material, crystal, and biological systems",
             "name": "cp2k"
         },
@@ -281,10 +261,6 @@
             "name": "cutlass"
         },
         {
-            "description": "Data & Vis SDK ** This package is a post-ECP port from the ECP Data &\nVis SDK **",
-            "name": "dav-sdk"
-        },
-        {
             "description": "Distributed Block Compressed Sparse Row matrix library.",
             "name": "dbcsr"
         },
@@ -293,20 +269,12 @@
             "name": "dealii"
         },
         {
-            "description": "GPU-based dedispersion package.",
-            "name": "dedisp"
-        },
-        {
             "description": "DiHydrogen is the second version of the Hydrogen fork of the well-known\ndistributed linear algebra library, Elemental. DiHydrogen aims to be a\nbasic distributed multilinear algebra interface with a particular\nemphasis on the needs of the distributed machine learning effort, LBANN.",
             "name": "dihydrogen"
         },
         {
             "description": "DLA-Future library: Distributed Linear Algebra with Future",
             "name": "dla-future"
-        },
-        {
-            "description": "toolkit containing machine learning algorithms and tools for creating\ncomplex software in C++ to solve real world problems",
-            "name": "dlib"
         },
         {
             "description": "Dorado is a high-performance, easy-to-use, open source basecaller for\nOxford Nanopore reads.",
@@ -333,16 +301,8 @@
             "name": "elpa"
         },
         {
-            "description": "ELSI provides a unified interface for electronic structure codes to a\nvariety of eigenvalue solvers.",
-            "name": "elsi"
-        },
-        {
             "description": "The ethminer is an Ethereum GPU mining worker.",
             "name": "ethminer"
-        },
-        {
-            "description": "ExaCA: an exascale cellular automata application for alloy\nsolidification modeling",
-            "name": "exaca"
         },
         {
             "description": "ExaGO is a package for solving large-scale power grid optimization\nproblems on parallel and distributed architectures, particularly\ntargeted for exascale machines.",
@@ -463,10 +423,6 @@
         {
             "description": "Highly Efficient FFT for Exascale",
             "name": "heffte"
-        },
-        {
-            "description": "GPU accelerated transient detection pipeline",
-            "name": "heimdall"
         },
         {
             "description": "HiOp is an optimization solver for solving certain mathematical\noptimization problems expressed as nonlinear programming problems. HiOp\nis a lightweight HPC solver that leverages application\"s existing data\nparallelism to parallelize the optimization iterations by using\nspecialized linear algebra kernels.",
@@ -597,10 +553,6 @@
             "name": "lbann"
         },
         {
-            "description": "a framework for automatically creating high-speed lossless and error-\nbounded lossy data compression and decompression algorithms.",
-            "name": "lc-framework"
-        },
-        {
             "description": "Legion is a data-centric parallel programming system for writing\nportable high performance programs targeted at distributed heterogeneous\narchitectures. Legion presents abstractions which allow programmers to\ndescribe properties of program data (e.g. independence, locality). By\nmaking the Legion programming system aware of the structure of program\ndata, it can automate many of the tedious tasks programmers currently\nface, including correctly extracting task- and data-level parallelism\nand moving data around complex memory hierarchies. A novel mapping\ninterface provides explicit programmer controlled placement of data in\nthe memory hierarchy and assignment of tasks to processors in a way that\nis orthogonal to correctness, thereby enabling easy porting and tuning\nof Legion applications to new architectures.",
             "name": "legion"
         },
@@ -623,10 +575,6 @@
         {
             "description": "libcuMLPrims library",
             "name": "libcumlprims"
-        },
-        {
-            "description": "The Open Fabrics Interfaces (OFI) is a framework focused on exporting\nfabric communication services to applications.",
-            "name": "libfabric"
         },
         {
             "description": "Make a common GPU ndarray(n dimensions array) that can be reused by all\nprojects that is as future proof as possible, while keeping it easy to\nuse for simple need/quick test.",
@@ -687,10 +635,6 @@
         {
             "description": "MGARD error bounded lossy compressor forked from\nhttps://github.com/CODARcode/MGARD with patches to support Spack",
             "name": "mgard"
-        },
-        {
-            "description": "MLC LLM is a machine learning compiler and high-performance deployment\nengine for large language models. The mission of this project is to\nenable everyone to develop, optimize, and deploy AI models natively on\neveryone's platforms.",
-            "name": "mlc-llm"
         },
         {
             "description": "PyTorch implementation for the climate segmentation benchmark, based on\nthe Exascale Deep Learning for Climate Analytics",
@@ -789,10 +733,6 @@
             "name": "octopus"
         },
         {
-            "description": "Run Llama 2, Code Llama, and other models. Customize and create your\nown.",
-            "name": "ollama"
-        },
-        {
             "description": "Omega_h is a C++11 library providing data structures and algorithms for\nadaptive discretizations. Its specialty is anisotropic triangle and\ntetrahedral mesh adaptation. It runs efficiently on most modern HPC\nhardware including GPUs.",
             "name": "omega-h"
         },
@@ -859,10 +799,6 @@
         {
             "description": "ProfugusMC is a Monte Carlo radiation transport mini-app. It is designed\nto be a minimal, self-contained version of the Profugus application.",
             "name": "profugusmc"
-        },
-        {
-            "description": "Open source software to process some types of astronomy data.",
-            "name": "psrdada"
         },
         {
             "description": "AlphaFold is an AI system developed by DeepMind that predicts a\nprotein's 3D structure from its amino acid sequence. It regularly\nachieves accuracy competitive with experiment.",
@@ -977,10 +913,6 @@
             "name": "py-torch-nvidia-apex"
         },
         {
-            "description": "An audio package for PyTorch.",
-            "name": "py-torchaudio"
-        },
-        {
             "description": "Image and video datasets and models for torch deep learning.",
             "name": "py-torchvision"
         },
@@ -1007,10 +939,6 @@
         {
             "description": "RAJA Parallel Framework.",
             "name": "raja"
-        },
-        {
-            "description": "RAJA Performance Suite.",
-            "name": "raja-perf"
         },
         {
             "description": "Extensible, performance-portable solid mechanics with libCEED and PETSc",
@@ -1117,10 +1045,6 @@
             "name": "sys-sage"
         },
         {
-            "description": "An ultra fast error bounded compressor for scientific datasets",
-            "name": "szx"
-        },
-        {
             "description": "Tandem is a scientific software for SEAS modelling and for solving\nPoisson and linear elasticity problems. It implements the Symmetric\nInterior Penalty Galerkin (SIPG) method using unstructured simplicial\nmeshes (triangle meshes in 2D, tetrahedral meshes in 3D).",
             "name": "tandem"
         },
@@ -1189,7 +1113,7 @@
             "name": "vtk-m"
         },
         {
-            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid GPU/OpenMP/MPI parallelization and load\nbalancing capabilities.",
+            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid OpenMP/MPI parallelization, advanced\nvectorization techniques and load balancing capabilities. For WarpX'\nPython bindings and PICMI input support, see the 'py-warpx' package.",
             "name": "warpx"
         },
         {
@@ -1221,21 +1145,16 @@
             "name": "yaksa"
         },
         {
-            "description": "Utility for monitoring process, thread, OS and HW resources, including\nGPU utilization.",
-            "name": "zerosum"
-        },
-        {
             "description": "zfp is a compressed number format for multidimensional floating-point\nand integer arrays. zfp provides compressed-array classes that support\nhigh throughput read and write random access to individual array\nelements. zfp also supports serial and parallel (OpenMP and CUDA)\ncompression of whole arrays.",
             "name": "zfp"
         }
     ],
     "description": "CUDA is a parallel computing platform and programming model invented by\nNVIDIA. It enables dramatic increases in computing performance by\nharnessing the power of the graphics processing unit (GPU). Note: This\npackage does not currently install the drivers necessary to run CUDA.\nThese will need to be installed manually. See:\nhttps://docs.nvidia.com/cuda/ for details.\n",
     "homepage": "https://developer.nvidia.com/cuda-zone",
-    "latest_version": "12.6.1",
+    "latest_version": "12.4.0",
     "maintainers": [
         "Rombur",
-        "ax3l",
-        "pauleonix"
+        "ax3l"
     ],
     "name": "cuda",
     "patches": [],
@@ -1258,31 +1177,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "12.6.1",
-            "sha256": "73acce7243519625f259509f5dcff6dc8fbd23dca53b852aa9ce382009e92e9d",
-            "url": "https://developer.download.nvidia.com/compute/cuda/12.6.1/local_installers/cuda_12.6.1_560.35.03_linux.run"
-        },
-        {
-            "name": "12.6.0",
-            "sha256": "31ab04394e69b14dd8656e2b44c2877db1a0e898dff8a7546a4c628438101b94",
-            "url": "https://developer.download.nvidia.com/compute/cuda/12.6.0/local_installers/cuda_12.6.0_560.28.03_linux.run"
-        },
-        {
-            "name": "12.5.1",
-            "sha256": "b5e0a779e089c86610051141c4cf498beef431858ec63398107391727ecbdb04",
-            "url": "https://developer.download.nvidia.com/compute/cuda/12.5.1/local_installers/cuda_12.5.1_555.42.06_linux.run"
-        },
-        {
-            "name": "12.5.0",
-            "sha256": "90fcc7df48226434065ff12a4372136b40b9a4cbf0c8602bb763b745f22b7a99",
-            "url": "https://developer.download.nvidia.com/compute/cuda/12.5.0/local_installers/cuda_12.5.0_555.42.02_linux.run"
-        },
-        {
-            "name": "12.4.1",
-            "sha256": "367d2299b3a4588ab487a6d27276ca5d9ead6e394904f18bccb9e12433b9c4fb",
-            "url": "https://developer.download.nvidia.com/compute/cuda/12.4.1/local_installers/cuda_12.4.1_550.54.15_linux.run"
-        },
         {
             "name": "12.4.0",
             "sha256": "e6a842f4eca9490575cdb68b6b1bb78d47b95a897de48dee292c431892e57d17",

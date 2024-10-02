@@ -138,15 +138,6 @@
             "sha256": "255b5ae328c6b2b293a59d7eb8934f861f265eba770c6a37411222d161e84171",
             "version": "",
             "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.py-netcdf4",
-            "reverse": false,
-            "sha256": "71eefe1d3065ad050fb72eb61d916ae1374a3fafd96ddaee6499cda952d992c4",
-            "url": "https://github.com/Unidata/netcdf4-python/commit/49dcd0b5bd25824c254770c0d41445133fc13a46.patch?full_index=1",
-            "version": "@1.6:%gcc@14:",
-            "working_dir": "."
         }
     ],
     "resources": [],

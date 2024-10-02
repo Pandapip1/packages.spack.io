@@ -20,7 +20,7 @@
     ],
     "description": "MCE - Many-Core Engine for Perl providing parallel processing\ncapabilities. MCE spawns a pool of workers and therefore does not fork a\nnew process per each element of data. Instead, MCE follows a bank\nqueuing model. Imagine the line being the data and bank-tellers the\nparallel workers. MCE enhances that model by adding the ability to chunk\nthe next n elements from the input stream to the next available worker.\n",
     "homepage": "https://github.com/marioroy/mce-perl",
-    "latest_version": "1.889",
+    "latest_version": "1.884",
     "maintainers": [],
     "name": "perl-mce",
     "patches": [],
@@ -33,10 +33,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.889",
-            "sha256": "db6153e474d046fc253050bf53c54002d84cd4ca77d21c2b9df56feeb809bbed"
-        },
         {
             "name": "1.884",
             "sha256": "c830c0e548094f19c620049e744258be2c121d4a86cf7c94a37599ad016daf33"

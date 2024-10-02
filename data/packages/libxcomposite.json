@@ -77,7 +77,7 @@
         }
     ],
     "description": "libXcomposite - client library for the Composite extension to the X11\nprotocol.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXcomposite",
+    "homepage": "https://cgit.freedesktop.org/xorg/lib/libXcomposite",
     "latest_version": "0.4.6",
     "maintainers": [
         "wdconinc"

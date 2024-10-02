@@ -9,6 +9,11 @@
         },
         {
             "description": null,
+            "name": "arch=cray-None-None",
+            "spec": "build_system=nmake"
+        },
+        {
+            "description": null,
             "name": "arch=darwin-None-None",
             "spec": "build_system=nmake"
         },

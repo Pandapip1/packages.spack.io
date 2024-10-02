@@ -50,10 +50,6 @@
             "name": "py-deepsig"
         },
         {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
-        },
-        {
             "description": "A general purpose workflow conductor for running multi-step simulation\nstudies.",
             "name": "py-maestrowf"
         },
@@ -80,10 +76,6 @@
         {
             "description": "python code static checker",
             "name": "py-pylint"
-        },
-        {
-            "description": "This project provides pylint formatters for a nice integration with\nGitLab CI.",
-            "name": "py-pylint-gitlab"
         },
         {
             "description": "Pyomo is a Python-based open-source software package that supports a\ndiverse set of optimization capabilities for formulating and analyzing\noptimization models.",

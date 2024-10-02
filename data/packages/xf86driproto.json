@@ -33,7 +33,7 @@
         }
     ],
     "description": "XFree86 Direct Rendering Infrastructure Extension. This extension\ndefines a protocol to allow user applications to access the video\nhardware without requiring data to be passed through the X server.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/proto/xf86driproto",
+    "homepage": "https://cgit.freedesktop.org/xorg/proto/xf86driproto",
     "latest_version": "2.1.1",
     "maintainers": [],
     "name": "xf86driproto",

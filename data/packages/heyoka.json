@@ -55,7 +55,7 @@
     "dependent_to": [],
     "description": "heyoka is a C++ library for integration of ODEs via Taylor\u2019s method\n",
     "homepage": "https://bluescarni.github.io/heyoka",
-    "latest_version": "5.1.0",
+    "latest_version": "3.2.0",
     "maintainers": [
         "agseaton",
         "bluescarni"
@@ -116,30 +116,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "5.1.0",
-            "sha256": "dd405328ace718865ae2690384fbf5f7ee4d03ab6821b908e7d0ca0a02c35e14"
-        },
-        {
-            "name": "5.0.0",
-            "sha256": "e9a4b5683a08706addc1b448e232f1e269d78586859fe3f4d93d4c5eee3bc8ae"
-        },
-        {
-            "name": "4.0.3",
-            "sha256": "47608e785607782d896ae2347a29a143cdb7e5c602f48f5ea795cf682051dbee"
-        },
-        {
-            "name": "4.0.2",
-            "sha256": "8eba8fe0626c3d48affad3055e490e5d21430a420af867d7d52c18ed6b602ae0"
-        },
-        {
-            "name": "4.0.1",
-            "sha256": "25ad39a716c5d548260d505225a13b7fa86534761b6e3d3de991d9d097ec615f"
-        },
-        {
-            "name": "4.0.0",
-            "sha256": "bc375271773993bd89d604a269c4931e54fb8508c8235397d47f0b60b78f3cdf"
-        },
         {
             "name": "3.2.0",
             "sha256": "37db24fbaf0e65d740ffb20f76ac1c8ab9fbd6893dc87dfd483c965b71dbf465"

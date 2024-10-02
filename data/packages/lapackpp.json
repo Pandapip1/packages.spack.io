@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -454,25 +414,25 @@
     ],
     "dependent_to": [
         {
-            "description": "a Massively Parallel Hybrid Solver in C++",
-            "name": "composyx"
-        },
-        {
             "description": "DLA-Future library: Distributed Linear Algebra with Future",
             "name": "dla-future"
+        },
+        {
+            "description": "a Massively Parallel Hybrid Solver in C++",
+            "name": "maphyspp"
         },
         {
             "description": "The Software for Linear Algebra Targeting Exascale (SLATE) project is to\nprovide fundamental dense linear algebra capabilities to the US\nDepartment of Energy and to the high-performance computing (HPC)\ncommunity at large. To this end, SLATE will provide basic dense matrix\noperations (e.g., matrix multiplication, rank-k update, triangular\nsolve), linear systems solvers, least square solvers, singular value and\neigenvalue solvers.",
             "name": "slate"
         },
         {
-            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid GPU/OpenMP/MPI parallelization and load\nbalancing capabilities.",
+            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid OpenMP/MPI parallelization, advanced\nvectorization techniques and load balancing capabilities. For WarpX'\nPython bindings and PICMI input support, see the 'py-warpx' package.",
             "name": "warpx"
         }
     ],
     "description": "LAPACK++: C++ API for the LAPACK Linear Algebra Package. Developed by\nthe Innovative Computing Laboratory at the University of Tennessee,\nKnoxville.\n",
     "homepage": "https://github.com/icl-utk-edu/lapackpp",
-    "latest_version": "2024.05.31",
+    "latest_version": "2023.11.05",
     "maintainers": [
         "G-Ragghianti",
         "Sely85",
@@ -538,10 +498,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "2024.05.31",
-            "sha256": "093646d492a4c2c6b4d7001effb559c80da7fa31fd5ba517a6d686ca8c78cd99"
         },
         {
             "name": "2023.11.05",

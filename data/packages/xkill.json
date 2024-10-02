@@ -40,7 +40,7 @@
     ],
     "dependent_to": [],
     "description": "xkill is a utility for forcing the X server to close connections to\nclients. This program is very dangerous, but is useful for aborting\nprograms that have displayed undesired windows on a user's screen.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xkill",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xkill",
     "latest_version": "1.0.6",
     "maintainers": [],
     "name": "xkill",

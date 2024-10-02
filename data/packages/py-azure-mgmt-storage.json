@@ -44,15 +44,11 @@
         {
             "description": "The azureml-core contains functionality for creating and managing: *\nAzure Machine Learning workspaces, experiments and runs; * Machine\nlearning compute respources; * Models, images and web services.",
             "name": "py-azureml-core"
-        },
-        {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
         }
     ],
     "description": "Microsoft Azure Storage Management Client Library for Python.\n",
     "homepage": "https://github.com/Azure/azure-sdk-for-python",
-    "latest_version": "21.0.0",
+    "latest_version": "11.1.0",
     "maintainers": [],
     "name": "py-azure-mgmt-storage",
     "patches": [],
@@ -65,14 +61,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "21.0.0",
-            "sha256": "6eb13eeecf89195b2b5f47be0679e3f27888efd7bd2132eec7ebcbce75cb1377"
-        },
-        {
-            "name": "20.1.0",
-            "sha256": "214f3fde8c91e27d53f2e654a28d15003ad3f6f15c8438a8205f0c88a48d9451"
-        },
         {
             "name": "11.1.0",
             "sha256": "ef23587c1b6dc0866ebf0e91e83ba05d7f7e4fea7951b704781b9cd9f5f27f1c"

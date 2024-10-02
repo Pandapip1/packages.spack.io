@@ -109,7 +109,7 @@
         }
     ],
     "description": "X FreeType library. Xft version 2.1 was the first stand alone release of\nXft, a library that connects X applications with the FreeType font\nrasterization library. Xft uses fontconfig to locate fonts so it has no\nconfiguration files.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXft",
+    "homepage": "https://cgit.freedesktop.org/xorg/lib/libXft",
     "latest_version": "2.3.8",
     "maintainers": [
         "wdconinc"

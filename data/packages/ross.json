@@ -28,7 +28,7 @@
     ],
     "description": "Rensselaer Optimistic Simulation System\n",
     "homepage": "https://ross-org.github.io",
-    "latest_version": "8.0.0",
+    "latest_version": "7.2.0",
     "maintainers": [],
     "name": "ross",
     "patches": [],
@@ -63,10 +63,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "8.0.0",
-            "sha256": "5339c9afcf77821fb6ebbcd93b8a1e651c7883e94dff250528815a08f84f1694"
         },
         {
             "name": "7.2.0",

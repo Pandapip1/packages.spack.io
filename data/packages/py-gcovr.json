@@ -4,10 +4,6 @@
     "conflicts": [],
     "dependencies": [
         {
-            "description": "A colored formatter for the python logging module",
-            "name": "py-colorlog"
-        },
-        {
             "description": "Jinja2 is a template engine written in pure Python. It provides a Django\ninspired non-XML syntax but supports inline expressions and an optional\nsandboxed environment.",
             "name": "py-jinja2"
         },
@@ -28,10 +24,6 @@
             "name": "py-setuptools"
         },
         {
-            "description": "Tomli is a Python library for parsing TOML. Tomli is fully compatible\nwith TOML v1.0.0.",
-            "name": "py-tomli"
-        },
-        {
             "description": "A built-package format for Python.",
             "name": "py-wheel"
         },
@@ -50,13 +42,17 @@
             "name": "dihydrogen"
         },
         {
+            "description": "FleCSI is a compile-time configurable framework designed to support\nmulti-physics application development. As such, FleCSI attempts to\nprovide a very general set of infrastructure design patterns that can be\nspecialized and extended to suit the needs of a broad variety of solver\nand data requirements. Current support includes multi-dimensional mesh\ntopology, mesh geometry, and mesh adjacency information.",
+            "name": "flecsi"
+        },
+        {
             "description": "STochastic Engine for Pathway Simulation",
             "name": "steps"
         }
     ],
     "description": "Gcovr provides a utility for managing the use of the GNU gcov utility\nand generating summarized code coverage results. This command is\ninspired by the Python coverage.py package, which provides a similar\nutility for Python.\n",
     "homepage": "https://gcovr.com/",
-    "latest_version": "7.2",
+    "latest_version": "5.2",
     "maintainers": [],
     "name": "py-gcovr",
     "patches": [],
@@ -69,10 +65,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "7.2",
-            "sha256": "e3e95cb56ca88dbbe741cb5d69aa2be494eb2fc2a09ee4f651644a670ee5aeb3"
-        },
         {
             "name": "5.2",
             "sha256": "217195085ec94346291a87b7b1e6d9cfdeeee562b3e0f9a32b25c9530b3bce8f"

@@ -32,10 +32,6 @@
             "name": "py-numpy"
         },
         {
-            "description": "Core utilities for Python packages.",
-            "name": "py-packaging"
-        },
-        {
             "description": "The PennyLane-Lightning plugin provides a fast state-vector simulator\nwritten in C++.",
             "name": "py-pennylane-lightning"
         },
@@ -112,7 +108,7 @@
     ],
     "description": "PennyLane is a Python quantum machine learning library by Xanadu Inc.\n",
     "homepage": "https://docs.pennylane.ai/",
-    "latest_version": "0.37.0",
+    "latest_version": "0.35.1",
     "maintainers": [
         "AmintorDusko",
         "marcodelapierre",
@@ -133,14 +129,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "0.37.0",
-            "sha256": "3e5eaab9da28ac43099e5850fde0c5763bc4e37271804463fc35dab8b08e2f15"
-        },
-        {
-            "name": "0.36.0",
-            "sha256": "10ae174b8fd47de12c1174fd5236c26b50ff40e679b658b3446660e063fb64e1"
         },
         {
             "name": "0.35.1",

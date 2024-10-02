@@ -1,7 +1,48 @@
 {
-    "name": "rocm-smi",
     "aliases": [],
-    "versions": [
+    "build_system": "MakefilePackage",
+    "conflicts": [
+        {
+            "description": null,
+            "name": "arch=windows-None-None",
+            "spec": "build_system=makefile"
+        }
+    ],
+    "dependencies": [
+        {
+            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
+            "name": "gmake"
+        },
+        {
+            "description": "The Python programming language.",
+            "name": "python"
+        }
+    ],
+    "dependent_to": [
+        {
+            "description": "Likwid is a simple to install and use toolsuite of command line\napplications for performance oriented programmers. It works for Intel\nand AMD processors on the Linux operating system. This version uses the\nperf_event backend which reduces the feature set but allows user\ninstalls. See https://github.com/RRZE-\nHPC/likwid/wiki/TutorialLikwidPerf#feature-limitations for information.",
+            "name": "likwid"
+        }
+    ],
+    "description": "This tool exposes functionality for clock and temperature management of\nyour ROCm enabled system Note: After ROCm 3.9, this project moved to\nhttps://github.com/ROCm/rocm_smi_lib/tree/master/python_smi_tools The\nspack package is called: rocm-smi-lib\n",
+    "homepage": "https://github.com/ROCm/ROC-smi",
+    "latest_version": "4.1.0",
+    "maintainers": [
+        "renjithravindrankannath",
+        "srekolam"
+    ],
+    "name": "rocm-smi",
+    "patches": [],
+    "resources": [],
+    "variants": [
+        {
+            "default": "makefile",
+            "description": "Build systems supported by the package",
+            "name": "build_system"
+        }
+    ],
+    "versions": [],
+    "versions_deprecated": [
         {
             "name": "4.1.0",
             "sha256": "5f9f551f93f673f4b508f47a7f24bce903288ffb08fa9e4c8e0956a4a57865c2"
@@ -29,46 +70,6 @@
         {
             "name": "3.5.0",
             "sha256": "4f46e947c415a4ac12b9f6989f15a42afe32551706b4f48476fba3abf92e8e7c"
-        }
-    ],
-    "latest_version": "4.1.0",
-    "build_system": "MakefilePackage",
-    "conflicts": [
-        {
-            "name": "arch=windows-None-None",
-            "spec": "build_system=makefile",
-            "description": null
-        }
-    ],
-    "variants": [
-        {
-            "name": "build_system",
-            "default": "makefile",
-            "description": "Build systems supported by the package"
-        }
-    ],
-    "homepage": "https://github.com/ROCm/ROC-smi",
-    "maintainers": [
-        "renjithravindrankannath",
-        "srekolam"
-    ],
-    "patches": [],
-    "resources": [],
-    "description": "This tool exposes functionality for clock and temperature management of\nyour ROCm enabled system Note: After ROCm 3.9, this project moved to\nhttps://github.com/ROCm/rocm_smi_lib/tree/master/python_smi_tools The\nspack package is called: rocm-smi-lib\n",
-    "dependencies": [
-        {
-            "name": "gmake",
-            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files."
-        },
-        {
-            "name": "python",
-            "description": "The Python programming language."
-        }
-    ],
-    "dependent_to": [
-        {
-            "name": "likwid",
-            "description": "Likwid is a simple to install and use toolsuite of command line\napplications for performance oriented programmers. It works for Intel\nand AMD processors on the Linux operating system. This version uses the\nperf_event backend which reduces the feature set but allows user\ninstalls. See https://github.com/RRZE-\nHPC/likwid/wiki/TutorialLikwidPerf#feature-limitations for information."
         }
     ]
 }

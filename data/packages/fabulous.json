@@ -27,7 +27,7 @@
     "dependent_to": [
         {
             "description": "a Massively Parallel Hybrid Solver in C++",
-            "name": "composyx"
+            "name": "maphyspp"
         }
     ],
     "description": "FABuLOuS (Fast Accurate Block Linear krylOv Solver) Library implementing\nBlock-GMres with Inexact Breakdown and Deflated Restarting\n",

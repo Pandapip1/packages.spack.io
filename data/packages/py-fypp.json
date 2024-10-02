@@ -32,10 +32,6 @@
         {
             "description": "Distributed Block Compressed Sparse Row matrix library.",
             "name": "dbcsr"
-        },
-        {
-            "description": "Fortran interface to the DLA-Future library.",
-            "name": "dla-future-fortran"
         }
     ],
     "description": "Python powered Fortran preprocessor.\n",

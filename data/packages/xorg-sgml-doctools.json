@@ -33,8 +33,8 @@
         }
     ],
     "description": "This package provides a common set of SGML entities and XML/CSS style\nsheets used in building/formatting the documentation provided in other\nX.Org packages.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/doc/xorg-sgml-doctools",
-    "latest_version": "1.12.1",
+    "homepage": "https://cgit.freedesktop.org/xorg/doc/xorg-sgml-doctools",
+    "latest_version": "1.12",
     "maintainers": [
         "wdconinc"
     ],
@@ -49,10 +49,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.12.1",
-            "sha256": "8de3406f96a02bc3ab51ff47ba1612d9a11fc25d2edcaa06caa2cb2420d7bae0"
-        },
         {
             "name": "1.12",
             "sha256": "985a0329e6a6dadd6ad517f8d54f8766ab4b52bb8da7b07d02ec466bec444bdb"

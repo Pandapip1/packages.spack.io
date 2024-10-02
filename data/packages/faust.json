@@ -21,7 +21,7 @@
     "dependent_to": [],
     "description": "Faust (Functional Audio Stream) is a functional programming language\nspecifically designed for real-time signal processing and synthesis. A\ndistinctive characteristic of Faust is to be fully compiled.\n",
     "homepage": "https://faust.grame.fr/",
-    "latest_version": "2.72.14",
+    "latest_version": "2.70.3",
     "maintainers": [],
     "name": "faust",
     "patches": [],
@@ -34,10 +34,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.72.14",
-            "sha256": "f0c82b7e72b663c29c226e5a56f6c43595b7d02c3d63eca0103cd327df4f33cd"
-        },
         {
             "name": "2.70.3",
             "sha256": "644484f95167fe63014eac3db410f50c58810289fea228a2221e07d27da50eec"

@@ -35,7 +35,7 @@
         }
     ],
     "description": "Serenity fork of libint, which is difficult to reproduce from libint\nitself\n",
-    "homepage": null,
+    "homepage": "https://thclab.uni-muenster.de/serenity/libint",
     "latest_version": "2.7.0-beta.6",
     "maintainers": [],
     "name": "serenity-libint",

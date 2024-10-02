@@ -18,7 +18,7 @@
             "spec": ""
         },
         {
-            "description": "intel-gtpin: intel-gtpin only runs on linux",
+            "description": "intel-gtpin: intel-gtpin only runs on linux/cray",
             "name": "arch=darwin-None-None",
             "spec": ""
         }

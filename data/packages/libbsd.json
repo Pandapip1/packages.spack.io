@@ -69,7 +69,7 @@
     ],
     "description": "This library provides useful functions commonly found on BSD systems,\nand lacking on others like GNU systems, thus making it easier to port\nprojects with strong BSD origins, without needing to embed the same code\nover and over again on each project.\n",
     "homepage": "https://libbsd.freedesktop.org/wiki/",
-    "latest_version": "0.12.2",
+    "latest_version": "0.12.1",
     "maintainers": [],
     "name": "libbsd",
     "patches": [
@@ -101,10 +101,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.12.2",
-            "sha256": "b88cc9163d0c652aaf39a99991d974ddba1c3a9711db8f1b5838af2a14731014"
-        },
         {
             "name": "0.12.1",
             "sha256": "d7747f8ec1baa6ff5c096a9dd587c061233dec90da0f1aedd66d830f6db6996a"

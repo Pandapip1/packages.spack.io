@@ -106,7 +106,7 @@
             "name": "camp"
         },
         {
-            "description": "CHAI and RAJA extensions (includes data structures and algorithms).",
+            "description": "Algorithms for chai managed arrays.",
             "name": "care"
         },
         {
@@ -130,10 +130,6 @@
             "name": "cp2k"
         },
         {
-            "description": "Data & Vis SDK ** This package is a post-ECP port from the ECP Data &\nVis SDK **",
-            "name": "dav-sdk"
-        },
-        {
             "description": "Distributed Block Compressed Sparse Row matrix library.",
             "name": "dbcsr"
         },
@@ -152,10 +148,6 @@
         {
             "description": "Eigenvalue solvers for Petaflop-Applications (ELPA)",
             "name": "elpa"
-        },
-        {
-            "description": "ExaCA: an exascale cellular automata application for alloy\nsolidification modeling",
-            "name": "exaca"
         },
         {
             "description": "ExaGO is a package for solving large-scale power grid optimization\nproblems on parallel and distributed architectures, particularly\ntargeted for exascale machines.",
@@ -224,14 +216,6 @@
         {
             "description": "hipSPARSE is a SPARSE marshalling library, with multiple supported\nbackends",
             "name": "hipsparse"
-        },
-        {
-            "description": "hipSPARSELt is a SPARSE marshalling library, with multiple supported\nbackends. It sits between the application and a 'worker' SPARSE library,\nmarshalling inputs into the backend library and marshalling results back\nto the application. hipSPARSELt exports an interface that does not\nrequire the client to change, regardless of the chosen backend.\nCurrently, hipSPARSELt supports rocSPARSELt and cuSPARSELt v0.4 as\nbackends.",
-            "name": "hipsparselt"
-        },
-        {
-            "description": "hipSYCL is an implementation of the SYCL standard programming model over\nNVIDIA CUDA/AMD HIP",
-            "name": "hipsycl"
         },
         {
             "description": "hipTT - Fast GPU Tensor Transpose for NVIDIA and AMD GPU.",
@@ -310,10 +294,6 @@
             "name": "nalu-wind"
         },
         {
-            "description": "NAMD is a parallel molecular dynamics code designed for high-performance\nsimulation of large biomolecular systems.",
-            "name": "namd"
-        },
-        {
             "description": "Neko: A modern, portable, and scalable framework for high-fidelity\ncomputational fluid dynamics",
             "name": "neko"
         },
@@ -354,14 +334,6 @@
             "name": "py-cupy"
         },
         {
-            "description": "XLA library for Jax",
-            "name": "py-jaxlib"
-        },
-        {
-            "description": "ONNX Runtime is a performance-focused complete scoring engine for Open\nNeural Network Exchange (ONNX) models, with an open extensible\narchitecture to continually address the latest developments in AI and\nDeep Learning. ONNX Runtime stays up to date with the ONNX standard with\ncomplete implementation of all ONNX operators, and supports all ONNX\nreleases (1.2+) with both future and backwards compatibility.",
-            "name": "py-onnxruntime"
-        },
-        {
             "description": "The PennyLane-Lightning-Kokkos plugin provides a fast state-vector\nsimulator with Kokkos kernels.",
             "name": "py-pennylane-lightning-kokkos"
         },
@@ -380,10 +352,6 @@
         {
             "description": "RAJA Parallel Framework.",
             "name": "raja"
-        },
-        {
-            "description": "RAJA Performance Suite.",
-            "name": "raja-perf"
         },
         {
             "description": "Extensible, performance-portable solid mechanics with libCEED and PETSc",
@@ -424,10 +392,6 @@
         {
             "description": "OpenMP support for ROCm LLVM.",
             "name": "rocm-openmp-extras"
-        },
-        {
-            "description": "The ROCm Validation Suite (RVS) is a system administrators and cluster\nmanager's tool for detecting and troubleshooting common problems\naffecting AMD GPU(s) running in a high-performance computing\nenvironment, enabled using the ROCm software stack on a compatible\nplatform.",
-            "name": "rocm-validation-suite"
         },
         {
             "description": "Radeon Open Compute (ROCm) Runtime rocminfo tool",
@@ -532,7 +496,7 @@
     ],
     "description": "This repository includes the user mode API nterfaces and libraries\nnecessary for host applications to launch computer kernels to available\nHSA ROCm kernel agents.AMD Heterogeneous System Architecture HSA - Linux\nHSA Runtime for Boltzmann (ROCm) platforms.\n",
     "homepage": "https://github.com/ROCm/ROCR-Runtime",
-    "latest_version": "6.2.1",
+    "latest_version": "6.0.2",
     "maintainers": [
         "haampie",
         "renjithravindrankannath",
@@ -594,26 +558,6 @@
             "name": "master"
         },
         {
-            "name": "6.2.1",
-            "sha256": "dbe477b323df636f5e3221471780da156c938ec00dda4b50639aa8d7fb9248f4"
-        },
-        {
-            "name": "6.2.0",
-            "sha256": "c98090041fa56ca4a260709876e2666f85ab7464db9454b177a189e1f52e0b1a"
-        },
-        {
-            "name": "6.1.2",
-            "sha256": "6eb7a02e5f1e5e3499206b9e74c9ccdd644abaafa2609dea0993124637617866"
-        },
-        {
-            "name": "6.1.1",
-            "sha256": "72841f112f953c16619938273370eb8727ddf6c2e00312856c9fca54db583b99"
-        },
-        {
-            "name": "6.1.0",
-            "sha256": "50386ebcb7ff24449afa2a10c76a059597464f877225c582ba3e097632a43f9c"
-        },
-        {
             "name": "6.0.2",
             "sha256": "e7ff4d7ac35a2dd8aad1cb40b96511a77a9c23fe4d1607902328e53728e05c28"
         },
@@ -644,9 +588,7 @@
         {
             "name": "5.5.0",
             "sha256": "8dbc776b56f93ddaa2ca38bf3b88299b8091de7c1b3f2e481064896cf6808e6c"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "5.4.3",
             "sha256": "a600eed848d47a7578c60da7e64eb92f29bbce2ec67932b251eafd4c2974cb67"
@@ -662,6 +604,28 @@
         {
             "name": "5.3.0",
             "sha256": "b51dbedbe73390e0be748b92158839c82d7fa0e514fede60aa7696dc498facf0"
+        }
+    ],
+    "versions_deprecated": [
+        {
+            "name": "5.2.3",
+            "sha256": "978de85d3455207bb82bef2254a4624e9116b1258a8c164d7a7e21a644eff12f"
+        },
+        {
+            "name": "5.2.1",
+            "sha256": "448a7409bdc6618332a42b9503122996f26b91768140b710ba99bff8a8c03dd9"
+        },
+        {
+            "name": "5.2.0",
+            "sha256": "529e49693dd9f6459586dd0a26f14dd77dbdf8c0b45fb54830b294eba7babd27"
+        },
+        {
+            "name": "5.1.3",
+            "sha256": "479340ec34cdffbbdb1002c85a47d1fccd23e8394631a1f001ef6130be08287d"
+        },
+        {
+            "name": "5.1.0",
+            "sha256": "a5f7245059c3d28dbc037e1e6fa3f09084e29147096dd61f7ce5560291ab330f"
         }
     ]
 }

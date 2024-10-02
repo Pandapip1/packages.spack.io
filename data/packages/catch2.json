@@ -42,10 +42,6 @@
             "name": "hermes"
         },
         {
-            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
-            "name": "hermes-shm"
-        },
-        {
             "description": "LBANN: Livermore Big Artificial Neural Network Toolkit. A distributed\nmemory, HPC-optimized, model and data parallel training toolkit for deep\nneural networks.",
             "name": "lbann"
         },
@@ -84,7 +80,7 @@
     ],
     "description": "Catch2 is a multi-paradigm test framework for C++, which also supports\nObjective-C (and maybe C).\n",
     "homepage": "https://github.com/catchorg/Catch2",
-    "latest_version": "3.6.0",
+    "latest_version": "3.4.0",
     "maintainers": [
         "ax3l",
         "greenc-FNAL"
@@ -135,14 +131,6 @@
             "name": "develop"
         },
         {
-            "name": "3.6.0",
-            "sha256": "485932259a75c7c6b72d4b874242c489ea5155d17efa345eb8cc72159f49f356"
-        },
-        {
-            "name": "3.5.4",
-            "sha256": "b7754b711242c167d8f60b890695347f90a1ebc95949a045385114165d606dbb"
-        },
-        {
             "name": "3.4.0",
             "sha256": "122928b814b75717316c71af69bd2b43387643ba076a6ec16e7882bfb2dfacbb"
         },
@@ -177,6 +165,14 @@
         {
             "name": "3.0.1",
             "sha256": "8c4173c68ae7da1b5b505194a0c2d6f1b2aef4ec1e3e7463bde451f26bbaf4e7"
+        },
+        {
+            "name": "3.0.0-preview4",
+            "sha256": "2458d47d923b65ab611656cb7669d1810bcc4faa62e4c054a7405b1914cd4aee"
+        },
+        {
+            "name": "3.0.0-preview3",
+            "sha256": "06a4f903858f21c553e988f8b76c9c6915d1f95f95512d6a58c421e02a2c4975"
         },
         {
             "name": "2.13.10",
@@ -443,14 +439,5 @@
             "sha256": "245f6ee73e2fea66311afa1da59e5087ddab8b37ce64994ad88506e8af28c6ac"
         }
     ],
-    "versions_deprecated": [
-        {
-            "name": "3.0.0-preview4",
-            "sha256": "2458d47d923b65ab611656cb7669d1810bcc4faa62e4c054a7405b1914cd4aee"
-        },
-        {
-            "name": "3.0.0-preview3",
-            "sha256": "06a4f903858f21c553e988f8b76c9c6915d1f95f95512d6a58c421e02a2c4975"
-        }
-    ]
+    "versions_deprecated": []
 }

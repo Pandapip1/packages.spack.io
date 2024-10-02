@@ -53,7 +53,7 @@
         }
     ],
     "description": "libXTrap is the Xlib-based client API for the DEC-XTRAP extension. XTrap\nwas a proposed standard extension for X11R5 which facilitated the\ncapturing of server protocol and synthesizing core input events. Digital\nparticipated in the X Consortium's xtest working group which chose to\nevolve XTrap functionality into the XTEST & RECORD extensions for X11R6.\nAs X11R6 was released in 1994, XTrap has now been deprecated for over 15\nyears, and uses of it should be quite rare.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXTrap",
+    "homepage": "https://cgit.freedesktop.org/xorg/lib/libXTrap",
     "latest_version": "1.0.1",
     "maintainers": [],
     "name": "libxtrap",

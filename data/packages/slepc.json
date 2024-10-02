@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -471,7 +431,7 @@
     ],
     "description": "Scalable Library for Eigenvalue Problem Computations.\n",
     "homepage": "https://slepc.upv.es",
-    "latest_version": "3.22.0",
+    "latest_version": "3.21.0",
     "maintainers": [
         "balay",
         "joseeroman"
@@ -548,18 +508,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "3.22.0",
-            "sha256": "45eb4d085875b50108c91fd9168ed17bc9158cc3b1e530ac843b26d9981c3db0"
-        },
-        {
-            "name": "3.21.2",
-            "sha256": "306fa649750509b3957b9f9311bff5dc1d20be5c5d494dd6472584c439b931f6"
-        },
-        {
-            "name": "3.21.1",
-            "sha256": "beb33f0a15c3ce81744b15ad09ddf84dae70dbf3475c5ef032b8549ab87d6d8a"
         },
         {
             "name": "3.21.0",

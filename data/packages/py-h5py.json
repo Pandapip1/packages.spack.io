@@ -62,6 +62,10 @@
             "name": "berkeleygw"
         },
         {
+            "description": "ECP-CANDLE Benchmarks",
+            "name": "candle-benchmarks"
+        },
+        {
             "description": "This is a an implementation of the CosmoFlow 3D convolutional neural\nnetwork for benchmarking. It is written in TensorFlow with the Keras API\nand uses Horovod for distributed training.",
             "name": "cosmoflow-benchmark"
         },
@@ -102,14 +106,6 @@
             "name": "py-bmtk"
         },
         {
-            "description": "CellProfiler cell image analysis software. CellProfiler is a free open-\nsource software designed to enable biologists without training in\ncomputer vision or programming to quantitatively measure phenotypes from\nthousands of images automatically.",
-            "name": "py-cellprofiler"
-        },
-        {
-            "description": "Core classes and components used by CellProfiler.",
-            "name": "py-cellprofiler-core"
-        },
-        {
             "description": "A set of python tools for reading, writing and viewing Cinema databases",
             "name": "py-cinemasci"
         },
@@ -136,10 +132,6 @@
         {
             "description": "Earth-2 Model Intercomparison Project (MIP). A python framework that\nenables climate researchers and scientists to explore and experiment\nwith AI models for weather and climate.",
             "name": "py-earth2mip"
-        },
-        {
-            "description": "Framework for studying fluid dynamics.",
-            "name": "py-fluiddyn"
         },
         {
             "description": "A toolbox for accurate single-trial estimates in fMRI time-series data.",
@@ -306,12 +298,12 @@
             "name": "py-tensorflow"
         },
         {
-            "description": "TensorFlow Estimator is a high-level API that encapsulates model\ntraining, evaluation, prediction, and exporting.",
-            "name": "py-tensorflow-estimator"
-        },
-        {
             "description": "TomoPy is an open-source Python package for tomographic data processing\nand image reconstruction.",
             "name": "py-tomopy"
+        },
+        {
+            "description": "Graph Neural Network Library for PyTorch.",
+            "name": "py-torch-geometric"
         },
         {
             "description": "TorchGeo: datasets, samplers, transforms, and pre-trained models for\ngeospatial data.",
@@ -328,10 +320,6 @@
         {
             "description": "wradlib is designed to assist you in the most important steps of\nprocessing weather radar data. These may include: reading common data\nformats, georeferencing, converting reflectivity to rainfall intensity,\nidentifying and correcting typical error sources (such as clutter or\nattenuation) and visualising the data.",
             "name": "py-wradlib"
-        },
-        {
-            "description": "Python library to read and process pulsar data in several different\nformats",
-            "name": "py-your"
         },
         {
             "description": "Volumetric Data Analysis yt is a python package for analyzing and\nvisualizing volumetric, multi-resolution data from astrophysical\nsimulations, radio telescopes, and a burgeoning interdisciplinary\ncommunity.",

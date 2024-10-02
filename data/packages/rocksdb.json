@@ -15,16 +15,8 @@
     ],
     "dependencies": [
         {
-            "description": "The GNU Project's Bourne Again SHell.",
-            "name": "bash"
-        },
-        {
             "description": "bzip2 is a freely available, patent free high-quality data compressor.\nIt typically compresses files to within 10% to 15% of the best available\ntechniques (the PPM family of statistical compressors), whilst being\naround twice as fast at compression and six times faster at\ndecompression.",
             "name": "bzip2"
-        },
-        {
-            "description": "The GNU Core Utilities are the basic file, shell and text manipulation\nutilities of the GNU operating system. These are the core utilities\nwhich are expected to exist on every operating system.",
-            "name": "coreutils"
         },
         {
             "description": "The gflags package contains a C++ library that implements commandline\nflags processing. It includes built-in support for standard types such\nas string and the ability to define flags in the source file in which\nthey are used. Online documentation available at:\nhttps://gflags.github.io/gflags/",
@@ -39,20 +31,12 @@
             "name": "lz4"
         },
         {
-            "description": "Perl 5 is a highly capable, feature-rich programming language with over\n27 years of development.",
-            "name": "perl"
-        },
-        {
             "description": "A fast compressor/decompressor: https://code.google.com/p/snappy",
             "name": "snappy"
         },
         {
             "description": "Widely used C++ template library for task parallelism. Intel Threading\nBuilding Blocks (Intel TBB) lets you easily write parallel C++ programs\nthat take full advantage of multicore performance, that are portable and\ncomposable, and that have future-proof scalability.",
             "name": "tbb"
-        },
-        {
-            "description": "GNU which - is a utility that is used to find which executable (or alias\nor shell function) is executed when entered on the shell prompt.",
-            "name": "which"
         },
         {
             "description": "zlib replacement with optimizations for next generation systems.",
@@ -75,7 +59,7 @@
     ],
     "description": "RocksDB: A Persistent Key-Value Store for Flash and RAM Storage\n",
     "homepage": "https://github.com/facebook/rocksdb",
-    "latest_version": "9.4.0",
+    "latest_version": "8.6.7",
     "maintainers": [],
     "name": "rocksdb",
     "patches": [
@@ -161,14 +145,6 @@
             "branch": "master",
             "git": "https://github.com/facebook/rocksdb.git",
             "name": "master"
-        },
-        {
-            "name": "9.4.0",
-            "sha256": "1f829976aa24b8ba432e156f52c9e0f0bd89c46dc0cc5a9a628ea70571c1551c"
-        },
-        {
-            "name": "9.2.1",
-            "sha256": "bb20fd9a07624e0dc1849a8e65833e5421960184f9c469d508b58ed8f40a780f"
         },
         {
             "name": "8.6.7",

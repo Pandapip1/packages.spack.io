@@ -30,6 +30,10 @@
     ],
     "dependent_to": [
         {
+            "description": "MIOpenTensile provides host-callable interfaces to Tensile library.\nMIOpenTensile supports one programming model: HIP",
+            "name": "miopen-tensile"
+        },
+        {
             "description": "Python wrapper for the C-Blosc2 library.",
             "name": "py-blosc2"
         },

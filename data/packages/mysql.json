@@ -126,10 +126,6 @@
             "name": "ophidia-server"
         },
         {
-            "description": "MySQL driver for the Perl5 Database Interface (DBI)",
-            "name": "perl-dbd-mysql"
-        },
-        {
             "description": "Python interface to MySQL",
             "name": "py-mysqlclient"
         },

@@ -102,7 +102,7 @@
     "dependent_to": [],
     "description": "Vim is a highly configurable text editor built to enable efficient text\nediting. It is an improved version of the vi editor distributed with\nmost UNIX systems. Vim is often called a \"programmer's editor,\" and so\nuseful for programming that many consider it an entire IDE. It's not\njust for programmers, though. Vim is perfect for all kinds of text\nediting, from composing email to editing configuration files.\n",
     "homepage": "https://www.vim.org",
-    "latest_version": "9.1.0437",
+    "latest_version": "9.0.0045",
     "maintainers": [
         "sethrj"
     ],
@@ -162,10 +162,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "9.1.0437",
-            "sha256": "7024fbf8d0e8eec2eae21d279d487b60c58dc4ba3d42146388dc3743506d1fe6"
-        },
         {
             "name": "9.0.0045",
             "sha256": "594a31e96e3eda07a358db305de939ca749693b4684de9e027bfa70311b1994d"

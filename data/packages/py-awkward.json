@@ -76,15 +76,11 @@
         {
             "description": "ROOT I/O in pure Python and NumPy. Uproot is a reader and a writer of\nthe ROOT file format using only Python and Numpy. Unlike the standard\nC++ ROOT implementation, Uproot is only an I/O library, primarily\nintended to stream data into machine learning libraries in Python.\nUnlike PyROOT and root_numpy, Uproot does not depend on C++ ROOT.\nInstead, it uses Numpy to cast blocks of data from the ROOT file as\nNumpy arrays.",
             "name": "py-uproot"
-        },
-        {
-            "description": "Vector classes and utilities",
-            "name": "py-vector"
         }
     ],
     "description": "Manipulate JSON-like data with NumPy-like idioms.\n",
     "homepage": "https://awkward-array.org",
-    "latest_version": "2.6.6",
+    "latest_version": "2.1.1",
     "maintainers": [
         "vvolkl"
     ],
@@ -121,10 +117,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "2.6.6",
-            "sha256": "6eeb426ca41b51fe3c36fbe767b90259979b08c14e3562497a71195a447c8b3c"
         },
         {
             "name": "2.1.1",

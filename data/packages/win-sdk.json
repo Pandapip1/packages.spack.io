@@ -44,6 +44,11 @@
         },
         {
             "description": null,
+            "name": "arch=cray-None-None",
+            "spec": ""
+        },
+        {
+            "description": null,
             "name": "arch=darwin-None-None",
             "spec": ""
         },

@@ -18,16 +18,12 @@
             "name": "camp"
         },
         {
-            "description": "CHAI and RAJA extensions (includes data structures and algorithms).",
+            "description": "Algorithms for chai managed arrays.",
             "name": "care"
         },
         {
             "description": "Copy-hiding array interface for data migration between memory spaces",
             "name": "chai"
-        },
-        {
-            "description": "Conduit is an open source project from Lawrence Livermore National\nLaboratory that provides an intuitive model for describing hierarchical\nscientific data in C++, C, Fortran, and Python. It is used for data\ncoupling between packages in-core, serialization, and I/O tasks.",
-            "name": "conduit"
         },
         {
             "description": "Kripke is a simple, scalable, 3D Sn deterministic particle transport\nproxy/mini app.",
@@ -40,10 +36,6 @@
         {
             "description": "RAJA Parallel Framework.",
             "name": "raja"
-        },
-        {
-            "description": "RAJA Performance Suite.",
-            "name": "raja-perf"
         },
         {
             "description": "An application-focused API for memory management on NUMA & GPU\narchitectures",

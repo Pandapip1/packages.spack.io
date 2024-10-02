@@ -52,7 +52,7 @@
     ],
     "dependent_to": [],
     "description": "Xprint sample applications.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xphelloworld",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xphelloworld",
     "latest_version": "1.0.1",
     "maintainers": [],
     "name": "xphelloworld",

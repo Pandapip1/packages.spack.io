@@ -20,7 +20,7 @@
     ],
     "description": "Name or rename a sub\n",
     "homepage": "https://metacpan.org/pod/Sub::Name",
-    "latest_version": "0.27",
+    "latest_version": "0.26",
     "maintainers": [],
     "name": "perl-sub-name",
     "patches": [],
@@ -33,10 +33,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.27",
-            "sha256": "ecf36fba1c47ca93e1daa394968ed39c4186867459d9cd173c421e2b972043e8"
-        },
         {
             "name": "0.26",
             "sha256": "2d2f2d697d516c89547e7c4307f1e79441641cae2c7395e7319b306d390df105"

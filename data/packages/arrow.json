@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -371,11 +331,6 @@
             "description": null,
             "name": "%gcc@6:",
             "spec": "+cuda ^cuda@:9~allow-unsupported-compilers arch=None-None-ppc64le:"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14",
-            "spec": "@:15.0.1"
         },
         {
             "description": null,
@@ -493,7 +448,7 @@
     ],
     "description": "A cross-language development platform for in-memory data. This package\ncontains the C++ bindings.\n",
     "homepage": "https://arrow.apache.org",
-    "latest_version": "16.1.0",
+    "latest_version": "14.0.2",
     "maintainers": [],
     "name": "arrow",
     "patches": [],
@@ -611,14 +566,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "16.1.0",
-            "sha256": "9762d9ecc13d09de2a03f9c625a74db0d645cb012de1e9a10dfed0b4ddc09524"
-        },
-        {
-            "name": "15.0.2",
-            "sha256": "4735b349845bff1fe95ed11abbfed204eb092cabc37523aa13a80cb830fe5b5e"
-        },
         {
             "name": "14.0.2",
             "sha256": "07cdb4da6795487c800526b2865c150ab7d80b8512a31793e6a7147c8ccd270f"

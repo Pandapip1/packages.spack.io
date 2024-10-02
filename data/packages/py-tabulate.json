@@ -34,10 +34,6 @@
             "name": "nf-core-tools"
         },
         {
-            "description": "Advanced Profiling and Analytics for AMD Hardware",
-            "name": "omniperf"
-        },
-        {
             "description": "PODIO, or plain-old-data I/O, is a C++ library to support the creation\nand handling of data models in particle physics.",
             "name": "podio"
         },
@@ -48,10 +44,6 @@
         {
             "description": "AlpacaFarm is a simulator that enables research and development on\nlearning from feedback at a fraction of the usual cost, promoting\naccessible research on instruction following and alignment.",
             "name": "py-alpaca-farm"
-        },
-        {
-            "description": "Anvi\u2019o is a comprehensive platform that brings together many aspects of\ntoday\u2019s cutting-edge computational strategies of data-enabled\nmicrobiology, including genomics, metagenomics, metatranscriptomics,\npangenomics, metapangenomics, phylogenomics, and microbial population\ngenetics in an integrated and easy-to-use fashion through extensive\ninteractive visualization capabilities.",
-            "name": "py-anvio"
         },
         {
             "description": "A command line interface for Databricks.",
@@ -68,10 +60,6 @@
         {
             "description": "FireWorks stores, executes, and manages calculation workflows.",
             "name": "py-fireworks"
-        },
-        {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
         },
         {
             "description": "A Command-Line Interface framework.",
@@ -131,8 +119,8 @@
         }
     ],
     "description": "Pretty-print tabular data\n",
-    "homepage": "https://github.com/astanin/python-tabulate",
-    "latest_version": "0.9.0",
+    "homepage": "https://bitbucket.org/astanin/python-tabulate",
+    "latest_version": "0.8.9",
     "maintainers": [],
     "name": "py-tabulate",
     "patches": [],
@@ -145,14 +133,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.9.0",
-            "sha256": "0095b12bf5966de529c0feb1fa08671671b3368eec77d7ef7ab114be2c068b3c"
-        },
-        {
-            "name": "0.8.10",
-            "sha256": "6c57f3f3dd7ac2782770155f3adb2db0b1a269637e42f27599925e64b114f519"
-        },
         {
             "name": "0.8.9",
             "sha256": "eb1d13f25760052e8931f2ef80aaf6045a6cceb47514db8beab24cded16f13a7"

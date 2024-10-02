@@ -54,20 +54,12 @@
             "name": "py-awkward"
         },
         {
-            "description": "Python utilities to interact with Darshan log records of HPC\napplications.",
-            "name": "py-darshan"
-        },
-        {
             "description": "etils (eclectic utils) is an open-source collection of utils for python.",
             "name": "py-etils"
         },
         {
             "description": "Galaxy Generic Utilities",
             "name": "py-galaxy-util"
-        },
-        {
-            "description": "Globus SDK for Python",
-            "name": "py-globus-sdk"
         },
         {
             "description": "A framework for elegantly configuring complex applications.",
@@ -112,10 +104,6 @@
         {
             "description": "scikit-build project with CMake for compiling libmagic",
             "name": "py-pylibmagic"
-        },
-        {
-            "description": "Representational Similarity Analysis (RSA) in Python.",
-            "name": "py-rsatoolbox"
         },
         {
             "description": "scikit-build-core is a doubly improved build system generator for\nCPython C/C++/Fortran/Cython extensions. It features several\nimprovements over the classic scikit-build build system generator.",

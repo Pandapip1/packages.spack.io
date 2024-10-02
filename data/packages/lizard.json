@@ -22,7 +22,7 @@
     ],
     "description": "Lizard (formerly LZ5) is an efficient compressor with very fast\ndecompression. It achieves compression ratio that is comparable to\nzip/zlib and zstd/brotli (at low and medium compression levels) at\ndecompression speed of 1000 MB/s and faster.\n",
     "homepage": "https://github.com/inikep/lizard",
-    "latest_version": "2.0",
+    "latest_version": "1.0",
     "maintainers": [],
     "name": "lizard",
     "patches": [
@@ -48,10 +48,6 @@
         {
             "branch": "lizard",
             "name": "develop"
-        },
-        {
-            "name": "2.0",
-            "sha256": "85456b7274c9f0e477ff8e3f06dbc2f8ee8619d737a73c730c8a1adacb45f6da"
         },
         {
             "name": "1.0",

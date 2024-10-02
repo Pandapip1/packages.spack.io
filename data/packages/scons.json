@@ -68,7 +68,7 @@
     ],
     "description": "SCons is a software construction tool\n",
     "homepage": "https://scons.org",
-    "latest_version": "4.7.0",
+    "latest_version": "4.5.2",
     "maintainers": [],
     "name": "scons",
     "patches": [
@@ -100,10 +100,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "4.7.0",
-            "sha256": "d8b617f6610a73e46509de70dcf82f76861b79762ff602d546f4e80918ec81f3"
-        },
         {
             "name": "4.5.2",
             "sha256": "813360b2bce476bc9cc12a0f3a22d46ce520796b352557202cb07d3e402f5458"

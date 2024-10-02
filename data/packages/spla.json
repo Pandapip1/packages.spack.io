@@ -11,16 +11,6 @@
             "description": "spla: Version 1.5.0 to 1.5.4 is not compatible with GCC 13 and later.",
             "name": "%gcc@13.0:",
             "spec": "@1.5.0:1.5.4"
-        },
-        {
-            "description": null,
-            "name": "^rocblas@6.0.0:",
-            "spec": "@:1.5.5+rocm"
-        },
-        {
-            "description": null,
-            "name": "^hip@6.0.0:",
-            "spec": "@:1.6.0+rocm"
         }
     ],
     "dependencies": [
@@ -85,7 +75,7 @@
     ],
     "description": "Specialized Parallel Linear Algebra, providing distributed GEMM\nfunctionality for specific matrix distributions with optional GPU\nacceleration.\n",
     "homepage": "https://github.com/eth-cscs/spla",
-    "latest_version": "1.6.1",
+    "latest_version": "1.5.5",
     "maintainers": [
         "AdhocMan",
         "haampie"
@@ -158,14 +148,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "1.6.1",
-            "sha256": "62b51e6ce05c41cfc1c6f6600410f9549a209c50f0331e1db41047f94493e02f"
-        },
-        {
-            "name": "1.6.0",
-            "sha256": "917c24e2a768499967eba47b2cc2475df9fabee327b7821d24970b6a08055c09"
         },
         {
             "name": "1.5.5",

@@ -64,7 +64,7 @@
             "name": "rdptools"
         },
         {
-            "description": "seqkit: a cross-platform and ultrafast toolkit for FASTA/Q file\nmanipulation",
+            "description": "A cross-platform and ultrafast toolkit for FASTA/Q file manipulation in\nGolang.",
             "name": "seqkit"
         },
         {

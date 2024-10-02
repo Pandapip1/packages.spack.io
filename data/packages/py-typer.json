@@ -42,10 +42,6 @@
             "name": "py-earth2mip"
         },
         {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
-        },
-        {
             "description": "pathlib.Path subclasses for local and cloud bucket storage",
             "name": "py-pathy"
         }

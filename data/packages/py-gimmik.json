@@ -40,7 +40,7 @@
     ],
     "description": "Generator of Matrix Multiplication Kernels - GiMMiK - is a tool for\ngeneration of high performance matrix multiplication kernel code. for\nvarious accelerator platforms.\n",
     "homepage": "https://github.com/PyFR/GiMMiK",
-    "latest_version": "3.2.1",
+    "latest_version": "3.0",
     "maintainers": [
         "MichaelLaufer"
     ],
@@ -55,10 +55,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "3.2.1",
-            "sha256": "048644bd71497eb07e144f2c22fdee49ba23e1cde5fb954c3c30c4e3ea23687a"
-        },
         {
             "name": "3.0",
             "sha256": "45c2da7acff3201b7796ba731e4be7f3b4f39469ff1f1bc0ddf4f19c4a6af010"

@@ -56,7 +56,7 @@
     ],
     "description": "Leptonica is an open source library containing software that is broadly\nuseful for image processing and image analysis applications.\n",
     "homepage": "http://www.leptonica.org/",
-    "latest_version": "1.84.1",
+    "latest_version": "1.83.1",
     "maintainers": [],
     "name": "leptonica",
     "patches": [],
@@ -84,10 +84,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.84.1",
-            "sha256": "ecd7a868403b3963c4e33623595d77f2c87667e2cfdd9b370f87729192061bef"
-        },
         {
             "name": "1.83.1",
             "sha256": "4289d0a4224b614010072253531c0455a33a4d7c7a0017fe7825ed382290c0da"

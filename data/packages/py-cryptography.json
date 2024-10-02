@@ -168,7 +168,7 @@
     ],
     "description": "cryptography is a package which provides cryptographic recipes and\nprimitives to Python developers\n",
     "homepage": "https://github.com/pyca/cryptography",
-    "latest_version": "42.0.8",
+    "latest_version": "41.0.3",
     "maintainers": [],
     "name": "py-cryptography",
     "patches": [],
@@ -186,14 +186,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "42.0.8",
-            "sha256": "8d09d05439ce7baa8e9e95b07ec5b6c886f548deb7e0f69ef25f64b3bce842f2"
-        },
-        {
-            "name": "41.0.7",
-            "sha256": "13f93ce9bea8016c253b34afc6bd6a75993e5c40672ed5405a9c832f0d4a00bc"
-        },
         {
             "name": "41.0.3",
             "sha256": "6d192741113ef5e30d89dcb5b956ef4e1578f304708701b8b73d38e3e1461f34"

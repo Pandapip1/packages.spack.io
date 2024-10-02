@@ -5,8 +5,29 @@
             "name": "glu"
         }
     ],
-    "build_system": "BundlePackage",
-    "conflicts": [],
+    "build_system": "Package",
+    "conflicts": [
+        {
+            "description": null,
+            "name": "%clang",
+            "spec": ""
+        },
+        {
+            "description": null,
+            "name": "%gcc",
+            "spec": ""
+        },
+        {
+            "description": null,
+            "name": "arch=cray-None-None",
+            "spec": ""
+        },
+        {
+            "description": null,
+            "name": "arch=linux-None-None",
+            "spec": ""
+        }
+    ],
     "dependencies": [],
     "dependent_to": [],
     "description": "Shim package for Apple implementation of OpenGL Utility Libray (GLU)\n",
@@ -20,7 +41,7 @@
     "resources": [],
     "variants": [
         {
-            "default": "bundle",
+            "default": "generic",
             "description": "Build systems supported by the package",
             "name": "build_system"
         }

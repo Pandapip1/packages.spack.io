@@ -79,21 +79,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -249,11 +234,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -280,32 +260,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -403,7 +363,7 @@
             "spec": "+raja"
         },
         {
-            "description": "babelstream: RAJA requires architecture to be specfied by acc_target=[CPU,NVIDIA]",
+            "description": "babelstream: RAJA requires architecture to be specfied by target=[CPU,NVIDIA]",
             "name": "offload=none",
             "spec": "+raja"
         },
@@ -445,7 +405,7 @@
             "name": "hsa-rocr-dev"
         },
         {
-            "description": "Intel oneAPI Compilers. Includes: icx, icpx, ifx, and ifort. Releases\nbefore 2024.0 include icc/icpc LICENSE INFORMATION: By downloading and\nusing this software, you agree to the terms and conditions of the\nsoftware license agreements at https://intel.ly/393CijO.",
+            "description": "Intel oneAPI Compilers. Includes: icc, icpc, ifort, icx, icpx, and ifx.\nLICENSE INFORMATION: By downloading and using this software, you agree\nto the terms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.",
             "name": "intel-oneapi-compilers"
         },
         {
@@ -503,11 +463,6 @@
             "default": false,
             "description": "Enable OpenACC support",
             "name": "acc"
-        },
-        {
-            "default": "none",
-            "description": "Enable CPU Target for ACC",
-            "name": "acc_target"
         },
         {
             "default": "none",
@@ -633,6 +588,11 @@
             "default": false,
             "description": "Enable SYCL support",
             "name": "sycl2020"
+        },
+        {
+            "default": "none",
+            "description": "Enable CPU Target for ACC",
+            "name": "target"
         },
         {
             "default": false,

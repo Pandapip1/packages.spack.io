@@ -22,7 +22,7 @@
     ],
     "dependent_to": [],
     "description": "Audacity is a cross-platform multitrack audio editor. It allows you to\nrecord sounds directly or to import files in various formats. It\nfeatures a few simple effects, all of the editing features you should\nneed, and unlimited undo. The GUI was built with wxWidgets and the audio\nI/O supports PulseAudio, OSS and ALSA under Linux.\n",
-    "homepage": "https://audacity.sourceforge.net",
+    "homepage": "http://audacity.sourceforge.net",
     "latest_version": "2.4.2",
     "maintainers": [],
     "name": "audacity",

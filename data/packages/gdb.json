@@ -94,7 +94,7 @@
     ],
     "description": "GDB, the GNU Project debugger, allows you to see what is going on\n'inside' another program while it executes -- or what another program\nwas doing at the moment it crashed.\n",
     "homepage": "https://www.gnu.org/software/gdb",
-    "latest_version": "14.2",
+    "latest_version": "14.1",
     "maintainers": [
         "robertu94"
     ],
@@ -200,10 +200,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "14.2",
-            "sha256": "2de5174762e959a5e529e20c20d88a04735469d8fffd98f61664e70b341dc47c"
-        },
         {
             "name": "14.1",
             "sha256": "683e63182fb72bd5d8db32ab388143796370a8e3e71c26bc264effb487db7927"

@@ -53,7 +53,7 @@
     "dependent_to": [],
     "description": "man-db is an implementation of the standard Unix documentation system\naccessed using the man command. It uses a Berkeley DB database in place\nof the traditional flat-text whatis databases.\n",
     "homepage": "https://www.nongnu.org/man-db/",
-    "latest_version": "2.12.1",
+    "latest_version": "2.11.2",
     "maintainers": [],
     "name": "man-db",
     "patches": [
@@ -76,14 +76,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.12.1",
-            "sha256": "ddee249daeb78cf92bab794ccd069cc8b575992265ea20e239e887156e880265"
-        },
-        {
-            "name": "2.12.0",
-            "sha256": "415a6284a22764ad22ff0f66710d853be7790dd451cd71436e3d25c74d996a95"
-        },
         {
             "name": "2.11.2",
             "sha256": "cffa1ee4e974be78646c46508e6dd2f37e7c589aaab2938cc1064f058fef9f8d"

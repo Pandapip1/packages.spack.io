@@ -29,7 +29,7 @@
         }
     ],
     "description": "Ploticus can produce various types of plots and graphs.\n",
-    "homepage": "https://ploticus.sourceforge.net/doc/welcome.html",
+    "homepage": "http://ploticus.sourceforge.net/doc/welcome.html",
     "latest_version": "2.42",
     "maintainers": [
         "Christoph-TU"

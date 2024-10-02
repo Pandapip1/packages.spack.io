@@ -40,7 +40,7 @@
     ],
     "dependent_to": [],
     "description": "xpr takes as input a window dump file produced by xwd and formats it for\noutput on various types of printers.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xpr",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xpr",
     "latest_version": "1.1.0",
     "maintainers": [],
     "name": "xpr",

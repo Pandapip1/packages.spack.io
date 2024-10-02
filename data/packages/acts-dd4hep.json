@@ -30,6 +30,7 @@
     "homepage": "https://github.com/acts-project/acts-dd4hep",
     "latest_version": "1.0.1",
     "maintainers": [
+        "HadrienG2",
         "wdconinc"
     ],
     "name": "acts-dd4hep",

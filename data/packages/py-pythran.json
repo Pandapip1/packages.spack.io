@@ -11,11 +11,6 @@
             "description": null,
             "name": "^python@3.11:",
             "spec": "@:0.12.1"
-        },
-        {
-            "description": null,
-            "name": "^python@3.12:",
-            "spec": "@:0.15"
         }
     ],
     "dependencies": [
@@ -78,14 +73,6 @@
     ],
     "dependent_to": [
         {
-            "description": "Efficient and easy Fast Fourier Transform (FFT) for Python.",
-            "name": "py-fluidfft"
-        },
-        {
-            "description": "Framework for studying fluid dynamics with simulations.",
-            "name": "py-fluidsim"
-        },
-        {
             "description": "Image processing algorithms for SciPy, including IO, morphology,\nfiltering, warping, color manipulation, object detection, etc.",
             "name": "py-scikit-image"
         },
@@ -96,7 +83,7 @@
     ],
     "description": "Ahead of Time compiler for numeric kernels.\n",
     "homepage": "https://github.com/serge-sans-paille/pythran",
-    "latest_version": "0.16.1",
+    "latest_version": "0.15.0",
     "maintainers": [
         "rgommers"
     ],
@@ -130,14 +117,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.16.1",
-            "sha256": "861748c0f9c7d422b32724b114b3817d818ed4eab86c09781aa0a3f7ceabb7f9"
-        },
-        {
-            "name": "0.16.0",
-            "sha256": "37dcf6aa9713b352b05004e3a20d14b3de7399bb0d7fe2027bd2b9e2833fe65a"
-        },
         {
             "name": "0.15.0",
             "sha256": "f9bc61bcb96df2cd4b578abc5a62dfb3fbb0b0ef02c264513dfb615c5f87871c"

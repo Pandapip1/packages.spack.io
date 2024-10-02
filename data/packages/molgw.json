@@ -48,8 +48,8 @@
     ],
     "dependent_to": [],
     "description": "MOLGW is a quantum chemistry code that implements the many-body\nperturbation theory (MBPT) to describe the excited electronic states in\nfinite systems (atoms, molecules, clusters). MOLGW implements the GW\napproximation for the self-energy (ionization and affinity) and the\nBethe-Salpeter equation for the optical excitations. MOLGW also applies\nthe real-time time-dependent density-functional theory (RT-TDDFT). MOLGW\nemploys standard Gaussian basis set.\n",
-    "homepage": "https://github.com/molgw/molgw",
-    "latest_version": "3.3",
+    "homepage": "https://github.com/bruneval/molgw",
+    "latest_version": "3.2",
     "maintainers": [
         "bruneval"
     ],
@@ -74,10 +74,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "3.3",
-            "sha256": "ff1c8eb736049e52608d4554a2d435ee9d15e47c4a9934d41712962748929e81"
-        },
         {
             "name": "3.2",
             "sha256": "a3f9a99db52d95ce03bc3636b5999e6d92b503ec2f4afca33d030480c3e10242"

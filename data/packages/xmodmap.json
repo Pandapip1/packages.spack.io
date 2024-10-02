@@ -36,7 +36,7 @@
     ],
     "dependent_to": [],
     "description": "The xmodmap program is used to edit and display the keyboard modifier\nmap and keymap table that are used by client applications to convert\nevent keycodes into keysyms. It is usually run from the user's session\nstartup script to configure the keyboard according to personal tastes.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xmodmap",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xmodmap",
     "latest_version": "1.0.11",
     "maintainers": [],
     "name": "xmodmap",

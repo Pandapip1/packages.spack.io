@@ -48,7 +48,7 @@
     ],
     "description": "Your One Get Remaining Time Library.\n",
     "homepage": "https://github.com/LLNL/libyogrt",
-    "latest_version": "1.35",
+    "latest_version": "1.33",
     "maintainers": [],
     "name": "libyogrt",
     "patches": [],
@@ -71,10 +71,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.35",
-            "sha256": "a03b3d24da49af626351aaca9ab3eaff102ed41d5171f1bcb2ff26a561bd0cd6"
-        },
         {
             "name": "1.33",
             "sha256": "797d20c49cdc4f6beae8660b4f41ba7ac13f7e93a0344b47f0bdc64f780d1398"

@@ -8,6 +8,10 @@
             "name": "py-pip"
         },
         {
+            "description": "Invoke py.test as distutils command with dependency resolution.",
+            "name": "py-pytest-runner"
+        },
+        {
             "description": "A Python utility that aids in the process of downloading, building,\nupgrading, installing, and uninstalling Python packages.",
             "name": "py-setuptools"
         },
@@ -60,5 +64,10 @@
             "sha256": "69b3aa435f2424ac6a1bfb6ff702da6eb73b33ca0db38fb26989c74159258e47"
         }
     ],
-    "versions_deprecated": []
+    "versions_deprecated": [
+        {
+            "name": "2.0.5",
+            "sha256": "148fbe634fb9e9465dbde2ab337138f63650ed8abbac42bb3f565e3fe92e9b2f"
+        }
+    ]
 }

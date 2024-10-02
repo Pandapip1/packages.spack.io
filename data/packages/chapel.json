@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -390,12 +350,12 @@
         {
             "description": "chapel: ROCm support in spack requires Chapel 2.0.0 or later",
             "name": "+rocm",
-            "spec": "@:1"
+            "spec": "@:1.99.99"
         },
         {
             "description": "chapel: Chapel versions prior to 2.1.0 may produce SyntaxWarnings with Python >= 3.12",
             "name": "^python@3.12:",
-            "spec": "@:2.0"
+            "spec": "@:2.0.99"
         },
         {
             "description": "chapel: Only system jemalloc may be used on Darwin (MacOS) systems, see https://chapel-lang.org/docs/usingchapel/chplenv.html#chpl-host-jemalloc",
@@ -538,7 +498,7 @@
     "dependent_to": [],
     "description": "Chapel is a modern programming language that is parallel, productive,\nportable, scalable and open-source. The Chapel package comes with many\noptions in the form of variants, most of which can be left unset to\nallow Chapel's built-in scripts to determine the proper values based on\nthe environment.\n",
     "homepage": "https://chapel-lang.org/",
-    "latest_version": "2.2.0",
+    "latest_version": "2.1.0",
     "maintainers": [
         "arezaii",
         "bonachea"
@@ -589,7 +549,7 @@
         },
         {
             "default": false,
-            "description": "Enable Nvidia CUDA GPU support",
+            "description": "Build with CUDA",
             "name": "cuda"
         },
         {
@@ -699,7 +659,7 @@
         },
         {
             "default": false,
-            "description": "Enable AMD ROCm GPU support",
+            "description": "Enable ROCm support",
             "name": "rocm"
         },
         {
@@ -752,10 +712,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "2.2.0",
-            "sha256": "9b0ce16ed0b1c777647c3aa852d8d8cacea2c3d8a952548a238f07c0f357a0f9"
         },
         {
             "name": "2.1.0",

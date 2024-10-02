@@ -129,7 +129,7 @@
             "name": "imlib2"
         },
         {
-            "description": "Jim Kent command line bioinformatic utilities and libraries This\nbundles a custom version of htslib, but can be overridden with ~htslib.\nConsider adding the ^mysql+client_only dependency to avoid building all\nmysql/mariadb.",
+            "description": "Jim Kent command line bioinformatic utilities",
             "name": "kentutils"
         },
         {
@@ -281,20 +281,12 @@
             "name": "texlive"
         },
         {
-            "description": "Thunar File Manager",
-            "name": "thunar"
-        },
-        {
             "description": "A real time, nanosecond resolution, remote telemetry, hybrid frame and\nsampling profiler for games and other applications. Server applications.",
             "name": "tracy"
         },
         {
             "description": "Tulip is an information visualization framework dedicated to the\nanalysis and visualization of relational data. Tulip aims to provide the\ndeveloper with a complete library, supporting the design of interactive\ninformation visualization applications for relational data that can be\ntailored to the problems he or she is addressing.",
             "name": "tulip"
-        },
-        {
-            "description": "Tumbler is a D-Bus service for applications to request thumbnails for\nXFCE4",
-            "name": "tumbler"
         },
         {
             "description": "VAPOR is the Visualization and Analysis Platform for Ocean, Atmosphere,\nand Solar Researchers. VAPOR provides an interactive 3D visualization\nenvironment that can also produce animations and still frame images.",

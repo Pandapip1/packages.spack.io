@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -406,21 +366,6 @@
             "description": null,
             "name": "intel-oneapi-mkl",
             "spec": "@:0.3"
-        },
-        {
-            "description": null,
-            "name": "^pika@0.28:",
-            "spec": "@:0.6"
-        },
-        {
-            "description": null,
-            "name": "generator=make",
-            "spec": ""
-        },
-        {
-            "description": "dla-future: GPU-aware MPI requires +cuda or +rocm",
-            "name": "+mpi_gpu_aware",
-            "spec": "~cuda~rocm"
         }
     ],
     "dependencies": [
@@ -531,17 +476,13 @@
             "name": "cp2k"
         },
         {
-            "description": "Fortran interface to the DLA-Future library.",
-            "name": "dla-future-fortran"
-        },
-        {
             "description": "Domain specific library for electronic structure calculations",
             "name": "sirius"
         }
     ],
     "description": "DLA-Future library: Distributed Linear Algebra with Future\n",
     "homepage": "https://github.com/eth-cscs/DLA-Future",
-    "latest_version": "0.6.0",
+    "latest_version": "0.4.0",
     "maintainers": [
         "rasolca",
         "albestro",
@@ -554,8 +495,8 @@
             "level": 1,
             "owner": "builtin.dla-future",
             "reverse": false,
-            "sha256": "f40e4a734650f56c39379717a682d00d6400a7a102d90821542652824a8f64cd",
-            "url": "https://github.com/eth-cscs/DLA-Future/commit/efc9c176a7a8c512b3f37d079dec8c25ac1b7389.patch?full_index=1",
+            "sha256": "7f382c872d89f22da1ad499e85ffe9881cc7404c8465e42877a210a09382e2ea",
+            "url": "https://github.com/eth-cscs/DLA-Future/pull/1063/commits/efc9c176a7a8c512b3f37d079dec8c25ac1b7389.patch?full_index=1",
             "version": "@:0.3%gcc@13:",
             "working_dir": "."
         },
@@ -602,7 +543,7 @@
             "name": "doc"
         },
         {
-            "default": "ninja",
+            "default": "make",
             "description": "the build system generator to use",
             "name": "generator"
         },
@@ -620,16 +561,6 @@
             "default": false,
             "description": "Build miniapps.",
             "name": "miniapps"
-        },
-        {
-            "default": false,
-            "description": "Use GPU-aware MPI.",
-            "name": "mpi_gpu_aware"
-        },
-        {
-            "default": true,
-            "description": "Force GPU communication buffers to be contiguous before communicating.",
-            "name": "mpi_gpu_force_contiguous"
         },
         {
             "default": false,
@@ -651,18 +582,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "0.6.0",
-            "sha256": "85dfcee36ff28fa44da3134408c40ebd611bccff8a295982a7c78eaf982524d9"
-        },
-        {
-            "name": "0.5.0",
-            "sha256": "f964ee2a96bb58b3f0ee4563ae65fcd136e409a7c0e66beda33f926fc9515a8e"
-        },
-        {
-            "name": "0.4.1",
-            "sha256": "ba95f26475ad68da1f3a24d091dc1b925525e269e4c83c1eaf1d37d29b526666"
         },
         {
             "name": "0.4.0",

@@ -6,11 +6,6 @@
             "description": "yafyaml: yaFyaml only works with the Fujitsu compiler from 1.3.0 onwards",
             "name": "%fj",
             "spec": "@:1.2.0"
-        },
-        {
-            "description": "yafyaml: GCC 13.3+ only works with yafyaml 1.4.0 onwards",
-            "name": "%gcc@13.3:",
-            "spec": "@:1.3.0"
         }
     ],
     "dependencies": [
@@ -47,7 +42,7 @@
     ],
     "description": " yet another Fortran (implementation of) YAML There is at least one\nother open source Fortran-based YAML parser. The rationale for this one\nis simply to be compatible with the containers in gFTL. It is not\nintended to be a complete YAML parser, just the subset needed by my own\nprojects.\n",
     "homepage": "https://github.com/Goddard-Fortran-Ecosystem/yaFyaml",
-    "latest_version": "1.4.0",
+    "latest_version": "1.3.0",
     "maintainers": [
         "mathomp4",
         "tclune"
@@ -86,10 +81,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "1.4.0",
-            "sha256": "2a415087eb26d291ff40da4430d668c702d22601ed52a72d001140d97372bc7d"
         },
         {
             "name": "1.3.0",

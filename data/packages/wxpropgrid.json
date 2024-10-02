@@ -19,7 +19,7 @@
         }
     ],
     "description": "wxPropertyGrid is a property sheet control for wxWidgets. In other\nwords, it is a specialized two-column grid for editing properties such\nas strings, numbers, flagsets, string arrays, and colours.\n",
-    "homepage": "https://wxpropgrid.sourceforge.net/",
+    "homepage": "http://wxpropgrid.sourceforge.net/",
     "latest_version": "1.4.15",
     "maintainers": [],
     "name": "wxpropgrid",

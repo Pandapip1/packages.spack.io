@@ -60,7 +60,7 @@
     ],
     "dependent_to": [],
     "description": "The xlogo program simply displays the X Window System logo.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xlogo",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xlogo",
     "latest_version": "1.0.6",
     "maintainers": [],
     "name": "xlogo",

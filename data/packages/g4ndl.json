@@ -11,7 +11,7 @@
     ],
     "description": "Geant4 Neutron data files with thermal cross sections\n",
     "homepage": "https://geant4.web.cern.ch",
-    "latest_version": "4.7.1",
+    "latest_version": "4.7",
     "maintainers": [
         "drbenmorgan"
     ],
@@ -26,10 +26,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "4.7.1",
-            "sha256": "d3acae48622118d2579de24a54d533fb2416bf0da9dd288f1724df1485a46c7c"
-        },
         {
             "name": "4.7",
             "sha256": "7e7d3d2621102dc614f753ad928730a290d19660eed96304a9d24b453d670309"

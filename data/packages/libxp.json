@@ -73,7 +73,7 @@
         }
     ],
     "description": "libXp - X Print Client Library.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXp",
+    "homepage": "https://cgit.freedesktop.org/xorg/lib/libXp",
     "latest_version": "1.0.4",
     "maintainers": [
         "wdconinc"

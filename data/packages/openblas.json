@@ -31,11 +31,6 @@
         },
         {
             "description": null,
-            "name": "arch=None-None-x86_64_v4:",
-            "spec": "%intel@2021"
-        },
-        {
-            "description": null,
             "name": "%intel@16",
             "spec": "@0.2.15:0.2.19"
         },
@@ -194,17 +189,13 @@
             "name": "su2"
         },
         {
-            "description": "The Vienna Ab initio Simulation Package (VASP) is a computer program\nfor atomic scale materials modelling, e.g. electronic structure\ncalculations and quantum-mechanical molecular dynamics, from first\nprinciples.",
-            "name": "vasp"
-        },
-        {
             "description": "Xyce (rhymes with 'spice') is an open source, SPICE-compatible, high-\nperformance analog circuit simulator, Xyce supports the standard\nanalysis capabilities found in other SPICE-like codes, such as DC,\ntransient, AC, and small-signal noise analyses; it also has less common\ncapabilities, such as harmonic balance, sensitivity analysis, and\nuncertainty propagation techniques. Xyce supplies industry-standard\ncompact models and can support custom models via its Verilog-A model\ncompiler. Foundry process-development kits (PDKs) in other SPICE syntax\ncan be used via the XDM netlist translator, which is included as part of\nthe Xyce package. In addition to supporting use on all common desktop\nplatforms (Mac, Windows, Linux), Xyce can also be compiled to run in a\nlarge-scale parallel mode to provide scalable, numerically accurate\nanalog simulation of circuits containing millions of devices, or more.",
             "name": "xyce"
         }
     ],
     "description": "OpenBLAS: An optimized BLAS library\n",
     "homepage": "https://www.openblas.net",
-    "latest_version": "0.3.27",
+    "latest_version": "0.3.26",
     "maintainers": [],
     "name": "openblas",
     "patches": [
@@ -477,15 +468,6 @@
             "url": "https://github.com/OpenMathLib/OpenBLAS/commit/90231bfc4e4afc51f67c248328fbef0cecdbd2c2.patch?full_index=1",
             "version": "@0.3.24 arch=None-None-a64fx",
             "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.openblas",
-            "reverse": false,
-            "sha256": "3e165d8cba4023cb2082b241eee41287dd6cbb66078c5e3cb5d246081b361ff3",
-            "url": "https://github.com/OpenMathLib/OpenBLAS/commit/834e633d796ba94ecb892acb32b6cdcee4e3771d.patch?full_index=1",
-            "version": "@0.3.27%oneapi",
-            "working_dir": "."
         }
     ],
     "resources": [],
@@ -565,10 +547,6 @@
         {
             "branch": "develop",
             "name": "develop"
-        },
-        {
-            "name": "0.3.27",
-            "sha256": "aa2d68b1564fe2b13bc292672608e9cdeeeb6dc34995512e65c3b10f4599e897"
         },
         {
             "name": "0.3.26",

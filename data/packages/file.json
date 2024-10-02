@@ -70,7 +70,7 @@
     ],
     "description": "The file command is \"a file type guesser\", that is, a command-line tool\nthat tells you in words what kind of data a file contains\n",
     "homepage": "https://www.darwinsys.com/file/",
-    "latest_version": "5.45",
+    "latest_version": "5.44",
     "maintainers": [
         "sethrj"
     ],
@@ -90,10 +90,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "5.45",
-            "sha256": "fc97f51029bb0e2c9f4e3bffefdaf678f0e039ee872b9de5c002a6d09c784d82"
-        },
         {
             "name": "5.44",
             "sha256": "3751c7fba8dbc831cb8d7cc8aff21035459b8ce5155ef8b0880a27d028475f3b"

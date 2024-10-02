@@ -32,8 +32,8 @@
     ],
     "dependent_to": [],
     "description": "Libnids is a library that provides a functionality of one of NIDS\n(Network Intrusion Detection System) components, namely E-component.\n",
-    "homepage": "https://libnids.sourceforge.net/",
-    "latest_version": "1.26",
+    "homepage": "http://libnids.sourceforge.net/",
+    "latest_version": "1.25",
     "maintainers": [],
     "name": "libnids",
     "patches": [],
@@ -49,10 +49,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "1.26",
-            "sha256": "3f3e9f99a83cd37bc74af83d415c5e3a7505f5b190dfaf456b0849e0054f6733"
         },
         {
             "name": "1.25",

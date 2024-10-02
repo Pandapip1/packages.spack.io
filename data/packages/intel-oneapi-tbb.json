@@ -24,12 +24,17 @@
         },
         {
             "description": "intel-oneapi-tbb: This package in only available for x86_64 and Linux",
-            "name": "arch=darwin-None-None",
+            "name": "arch=cray:-None-None",
             "spec": ""
         },
         {
             "description": "intel-oneapi-tbb: This package in only available for x86_64 and Linux",
-            "name": "arch=windows-None-None",
+            "name": "arch=darwin:-None-None",
+            "spec": ""
+        },
+        {
+            "description": "intel-oneapi-tbb: This package in only available for x86_64 and Linux",
+            "name": "arch=windows:-None-None",
             "spec": ""
         }
     ],
@@ -46,7 +51,7 @@
     ],
     "description": "Intel oneAPI Threading Building Blocks (oneTBB) is a flexible\nperformance library that simplifies the work of adding parallelism to\ncomplex applications across accelerated architectures, even if you are\nnot a threading expert. LICENSE INFORMATION: By downloading and using\nthis software, you agree to the terms and conditions of the software\nlicense agreements at https://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onetbb.html",
-    "latest_version": "2021.13.1",
+    "latest_version": "2021.12.0",
     "maintainers": [
         "rscohn2"
     ],
@@ -66,16 +71,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2021.13.1",
-            "sha256": "cae21300e5e4e3bbb392b24db54246a103c1634296529617292be62e7b8505a4",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/b9aad7b8-0a4c-4f95-a100-e0e2921d5777/l_tbb_oneapi_p_2021.13.1.15_offline.sh"
-        },
-        {
-            "name": "2021.13.0",
-            "sha256": "f16586e5d8c479d05662359c95c6720445e95a21443f3979c9321d154947ca99",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/d6b5327e-f2fd-4c90-966a-d7a0e1376686/l_tbb_oneapi_p_2021.13.0.629_offline.sh"
-        },
         {
             "name": "2021.12.0",
             "sha256": "13e981cb4d9d3f72058cc136f8cdedf6ba9af225ae317f91b59e2050b0d49e43",

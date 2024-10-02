@@ -32,7 +32,7 @@
     ],
     "description": "Test for warnings and the lack of them\n",
     "homepage": "http://deps.cpantesters.org/?module=Test%3A%3ACleanNamespaces;perl=latest",
-    "latest_version": "0.033",
+    "latest_version": "0.031",
     "maintainers": [],
     "name": "perl-test-warnings",
     "patches": [],
@@ -45,10 +45,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.033",
-            "sha256": "b9c375719f2c61c5f97aa5ee6cf4c901a972347c415969379b0b51f67c48bbcb"
-        },
         {
             "name": "0.031",
             "sha256": "1e542909fef305e45563e9878ea1c3b0c7cef1b28bb7ae07eba2e1efabec477b"

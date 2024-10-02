@@ -40,7 +40,7 @@
     ],
     "dependent_to": [],
     "description": "List Xprint printers.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xplsprinters",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xplsprinters",
     "latest_version": "1.0.1",
     "maintainers": [],
     "name": "xplsprinters",
