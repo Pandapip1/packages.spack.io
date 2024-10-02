@@ -36,10 +36,6 @@
         {
             "description": "Microsoft Azure Batch Management Client Library for Python.",
             "name": "py-azure-mgmt-batch"
-        },
-        {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
         }
     ],
     "description": "Microsoft Azure Management Core Library for Python.\n",

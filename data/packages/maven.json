@@ -176,7 +176,7 @@
     ],
     "description": "Apache Maven is a software project management and comprehension tool.\n",
     "homepage": "https://maven.apache.org/index.html",
-    "latest_version": "3.9.8",
+    "latest_version": "3.8.4",
     "maintainers": [],
     "name": "maven",
     "patches": [],
@@ -189,14 +189,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "3.9.8",
-            "sha256": "067672629075b740e3d0a928e21021dd615a53287af36d4ccca44e87e081d102"
-        },
-        {
-            "name": "3.8.8",
-            "sha256": "17811e108701af5985bf5167abbd47c06e92c6c6bd1c13a1a1c095c9b4ecc32a"
-        },
         {
             "name": "3.8.4",
             "sha256": "2cdc9c519427bb20fdc25bef5a9063b790e4abd930e7b14b4e9f4863d6f9f13c"

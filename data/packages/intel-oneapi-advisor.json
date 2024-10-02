@@ -19,12 +19,17 @@
         },
         {
             "description": "intel-oneapi-advisor: This package in only available for x86_64 and Linux",
-            "name": "arch=darwin-None-None",
+            "name": "arch=cray:-None-None",
             "spec": ""
         },
         {
             "description": "intel-oneapi-advisor: This package in only available for x86_64 and Linux",
-            "name": "arch=windows-None-None",
+            "name": "arch=darwin:-None-None",
+            "spec": ""
+        },
+        {
+            "description": "intel-oneapi-advisor: This package in only available for x86_64 and Linux",
+            "name": "arch=windows:-None-None",
             "spec": ""
         }
     ],
@@ -32,7 +37,7 @@
     "dependent_to": [],
     "description": "Intel Advisor is a design and analysis tool for developing performant\ncode. The tool supports C, C++, Fortran, SYCL, OpenMP, OpenCL code, and\nPython. It helps with the following: Performant CPU Code: Design your\napplication for efficient threading, vectorization, and memory use.\nEfficient GPU Offload: Identify parts of the code that can be profitably\noffloaded. Optimize the code for compute and memory. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/advisor.html",
-    "latest_version": "2024.3.0",
+    "latest_version": "2024.1.0",
     "maintainers": [
         "rscohn2"
     ],
@@ -52,21 +57,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2024.3.0",
-            "sha256": "6d230a0d11b972c4c677e041a6077216de79037376f5776b3b291113e25335be",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/e36c14f6-6142-44ff-b498-d4ff169cc8b0/l_oneapi_advisor_p_2024.3.0.43_offline.sh"
-        },
-        {
-            "name": "2024.2.1",
-            "sha256": "2ef23dac756dc41bd7021297d3f3248968d7a0e29372e6b19b8752eb8d2e6a61",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/65f69c5c-b41f-4688-8a41-ece8f2bbbb5a/l_oneapi_advisor_p_2024.2.1.44_offline.sh"
-        },
-        {
-            "name": "2024.2.0",
-            "sha256": "8a6a8ced2456ea7c538aad01b4e6e0bd41244bcb438f76d4b87af5f63f94a733",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/a4c8046c-6abf-4f53-a33c-4a587cd80fc1/l_oneapi_advisor_p_2024.2.0.683_offline.sh"
-        },
         {
             "name": "2024.1.0",
             "sha256": "1c327777a34a7e70e5840b9555ebf44615bf0295fcf3c673576d36a9a8979090",

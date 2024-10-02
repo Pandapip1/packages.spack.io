@@ -64,10 +64,6 @@
             "name": "butterflypack"
         },
         {
-            "description": "a Massively Parallel Hybrid Solver in C++",
-            "name": "composyx"
-        },
-        {
             "description": "C++ software library providing well-documented tools to build finite\nelement codes for a broad variety of PDEs.",
             "name": "dealii"
         },
@@ -94,6 +90,10 @@
         {
             "description": "Lightweight linear algebra library based on lazy matrices",
             "name": "lazyten"
+        },
+        {
+            "description": "a Massively Parallel Hybrid Solver in C++",
+            "name": "maphyspp"
         },
         {
             "description": "Nektar++: Spectral/hp Element Framework",

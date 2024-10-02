@@ -35,7 +35,7 @@
     "dependent_to": [],
     "description": "An industrial-grade RPC framework used throughout Baidu, with 1,000,000+\ninstances(not counting clients) and thousands kinds of services, called\n\"baidu-rpc\" inside Baidu. Only C++ implementatioo on is opensourced\nright now.\n",
     "homepage": "https://github.com/apache/incubator-brpc",
-    "latest_version": "1.9.0",
+    "latest_version": "0.9.7",
     "maintainers": [],
     "name": "brpc",
     "patches": [
@@ -73,10 +73,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.9.0",
-            "sha256": "85856da0216773e1296834116f69f9e80007b7ff421db3be5c9d1890ecfaea74"
-        },
         {
             "name": "0.9.7",
             "sha256": "722cd342baf3b05189ca78ecf6c56ea6ffec22e62fc2938335e4e5bab545a49c"

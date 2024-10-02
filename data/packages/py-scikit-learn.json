@@ -1,7 +1,13 @@
 {
     "aliases": [],
     "build_system": "PythonPackage",
-    "conflicts": [],
+    "conflicts": [
+        {
+            "description": "py-scikit-learn: Only master supports ~openmp",
+            "name": "~openmp",
+            "spec": "@:999"
+        }
+    ],
     "dependencies": [
         {
             "description": "The OpenMP subproject of LLVM contains the components required to build\nan executable OpenMP program that are outside the compiler itself.",
@@ -16,16 +22,44 @@
             "name": "py-joblib"
         },
         {
-            "description": "Meson Python build backend (PEP 517).",
-            "name": "py-meson-python"
+            "description": "Matplotlib is a comprehensive library for creating static, animated, and\ninteractive visualizations in Python.",
+            "name": "py-matplotlib"
         },
         {
             "description": "Fundamental package for array computing in Python.",
             "name": "py-numpy"
         },
         {
+            "description": "pandas is a fast, powerful, flexible and easy to use open source data\nanalysis and manipulation tool, built on top of the Python programming\nlanguage.",
+            "name": "py-pandas"
+        },
+        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
+        },
+        {
+            "description": "Blazingly fast DataFrame library.",
+            "name": "py-polars"
+        },
+        {
+            "description": "Pooch manages your Python library's sample data files: it automatically\ndownloads and stores them in a local directory, with support for\nversioning and corruption checks.",
+            "name": "py-pooch"
+        },
+        {
+            "description": "PyAMG is a library of Algebraic Multigrid (AMG) solvers with a\nconvenient Python interface.",
+            "name": "py-pyamg"
+        },
+        {
+            "description": "A cross-language development platform for in-memory data. This package\ncontains the Python bindings.",
+            "name": "py-pyarrow"
+        },
+        {
+            "description": "pytest: simple powerful testing with Python.",
+            "name": "py-pytest"
+        },
+        {
+            "description": "Image processing algorithms for SciPy, including IO, morphology,\nfiltering, warping, color manipulation, object detection, etc.",
+            "name": "py-scikit-image"
         },
         {
             "description": "Fundamental algorithms for scientific computing in Python.",
@@ -58,6 +92,10 @@
             "name": "callflow"
         },
         {
+            "description": "ECP-CANDLE Benchmarks",
+            "name": "candle-benchmarks"
+        },
+        {
             "description": "CryoDRGN is a neural network based algorithm for heterogeneous cryo-EM\nreconstruction. In particular, the method models a continuous\ndistribution over 3D structures by using a neural network based\nrepresentation for the volume",
             "name": "cryodrgn"
         },
@@ -82,20 +120,12 @@
             "name": "py-antspyx"
         },
         {
-            "description": "Anvi\u2019o is a comprehensive platform that brings together many aspects of\ntoday\u2019s cutting-edge computational strategies of data-enabled\nmicrobiology, including genomics, metagenomics, metatranscriptomics,\npangenomics, metapangenomics, phylogenomics, and microbial population\ngenetics in an integrated and easy-to-use fashion through extensive\ninteractive visualization capabilities.",
-            "name": "py-anvio"
-        },
-        {
             "description": "Adaptive experimentation is the machine-learning guided process of\niteratively exploring a (possibly infinite) parameter space in order to\nidentify optimal configurations in a resource-efficient manner. Ax\ncurrently supports Bayesian optimization and bandit optimization as\nexploration strategies. Bayesian optimization in Ax is powered by\nBoTorch, a modern library for Bayesian optimization research built on\nPyTorch.",
             "name": "py-ax-platform"
         },
         {
             "description": "Pure Python implementation of bayesian global optimization with gaussian\nprocesses.",
             "name": "py-bayesian-optimization"
-        },
-        {
-            "description": "CellProfiler cell image analysis software. CellProfiler is a free open-\nsource software designed to enable biologists without training in\ncomputer vision or programming to quantitatively measure phenotypes from\nthousands of images automatically.",
-            "name": "py-cellprofiler"
         },
         {
             "description": "Coclust provides both a Python package which implements several diagonal\nand non-diagonal co-clustering algorithms, and a ready to use script to\nperform co- clustering",
@@ -322,10 +352,6 @@
             "name": "py-pynndescent"
         },
         {
-            "description": "Sequence Elements Enrichment Analysis (SEER), python implementation",
-            "name": "py-pyseer"
-        },
-        {
             "description": "Preconditoned ICA for Real Data.",
             "name": "py-python-picard"
         },
@@ -424,10 +450,9 @@
     ],
     "description": "A set of python modules for machine learning and data mining.\n",
     "homepage": "https://scikit-learn.org/",
-    "latest_version": "1.5.2",
+    "latest_version": "1.4.2",
     "maintainers": [
-        "adamjstewart",
-        "rgommers"
+        "adamjstewart"
     ],
     "name": "py-scikit-learn",
     "patches": [],
@@ -437,24 +462,17 @@
             "default": "python_pip",
             "description": "Build systems supported by the package",
             "name": "build_system"
+        },
+        {
+            "default": true,
+            "description": "Build with OpenMP support",
+            "name": "openmp"
         }
     ],
     "versions": [
         {
-            "branch": "main",
-            "name": "main"
-        },
-        {
-            "name": "1.5.2",
-            "sha256": "b4237ed7b3fdd0a4882792e68ef2545d5baa50aca3bb45aa7df468138ad8f94d"
-        },
-        {
-            "name": "1.5.1",
-            "sha256": "0ea5d40c0e3951df445721927448755d3fe1d80833b0b7308ebff5d2a45e6414"
-        },
-        {
-            "name": "1.5.0",
-            "sha256": "789e3db01c750ed6d496fa2db7d50637857b451e57bcae863bff707c1247bef7"
+            "branch": "master",
+            "name": "master"
         },
         {
             "name": "1.4.2",
@@ -553,10 +571,5 @@
             "sha256": "314abf60c073c48a1e95feaae9f3ca47a2139bd77cebb5b877c23a45c9e03012"
         }
     ],
-    "versions_deprecated": [
-        {
-            "branch": "main",
-            "name": "master"
-        }
-    ]
+    "versions_deprecated": []
 }

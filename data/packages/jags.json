@@ -37,7 +37,7 @@
         }
     ],
     "description": "JAGS is Just Another Gibbs Sampler. It is a program for analysis of\nBayesian hierarchical models using Markov Chain Monte Carlo (MCMC)\nsimulation not wholly unlike BUGS\n",
-    "homepage": "https://mcmc-jags.sourceforge.net/",
+    "homepage": "http://mcmc-jags.sourceforge.net/",
     "latest_version": "4.3.2",
     "maintainers": [],
     "name": "jags",

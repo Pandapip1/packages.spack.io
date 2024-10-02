@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -418,257 +378,257 @@
             "spec": "@:2.5+mpi"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target='gfx900:xnack-'"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target='gfx906:xnack-'"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target='gfx908:xnack-'"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx1010"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx1011"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx1012"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx1013"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx1030"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx1031"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx1032"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx1033"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx1034"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx1035"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx1036"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx1100"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx1101"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx1102"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx1103"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx701"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx801"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx802"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx803"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx900"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx902"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx904"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx908"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx909"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx90c"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx940"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx941"
         },
         {
-            "description": "dbcsr: DBCSR supports these AMD gpu targets:  gfx906, gfx910, gfx90a, gfx90a:xnack-, gfx90a:xnack+",
+            "description": "dbcsr: DBCSR only supports amdgpu_target {'gfx90a', 'gfx90a:xnack-', 'gfx910', 'gfx90a:xnack+', 'gfx906'}",
             "name": "+rocm",
             "spec": "amdgpu_target=gfx942"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=10"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=11"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=12"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=13"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=20"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=21"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=30"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=32"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=50"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=52"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=53"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=61"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=62"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=72"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=75"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=86"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=87"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=89"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
-            "spec": "cuda_arch=90a"
+            "spec": "cuda_arch=90"
         },
         {
-            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "dbcsr: dbcsr only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "cuda_arch=none"
         },
@@ -676,11 +636,6 @@
             "description": null,
             "name": "generator=make",
             "spec": ""
-        },
-        {
-            "description": "dbcsr: GPU-aware MPI requires +cuda or +rocm",
-            "name": "+g2g",
-            "spec": "~cuda~rocm"
         },
         {
             "description": "dbcsr: Examples require MPI",
@@ -764,21 +719,13 @@
             "name": "cp2k"
         },
         {
-            "description": "Intermediary interface between high-level routines for physics-related\nalgorithms and low-level routines dealing with matrix storage and\nmanipulation.",
-            "name": "matrix-switch"
-        },
-        {
-            "description": "Solution of Kohn-Sham equations using the Orbital Minimization Method\n(OMM).",
-            "name": "omm"
-        },
-        {
             "description": "Omm-bundle is a library implementing the orbital minimization method for\nsolving the Kohn-Sham equation as a generalized eigenvalue problem and a\nbundle of four separate libraries: pspBLAS, MatrixSwitch, libOMM,\ntomato.",
             "name": "omm-bundle"
         }
     ],
     "description": "Distributed Block Compressed Sparse Row matrix library.\n",
     "homepage": "https://github.com/cp2k/dbcsr",
-    "latest_version": "2.7.0",
+    "latest_version": "2.6.0",
     "maintainers": [
         "dev-zero",
         "mtaillefumier"
@@ -821,11 +768,6 @@
             "default": true,
             "description": "Build examples",
             "name": "examples"
-        },
-        {
-            "default": false,
-            "description": "GPU-aware MPI with CUDA/HIP",
-            "name": "g2g"
         },
         {
             "default": "ninja",
@@ -877,10 +819,6 @@
         {
             "branch": "develop",
             "name": "develop"
-        },
-        {
-            "name": "2.7.0",
-            "sha256": "25c367b49fb108c5230bcfb127f05fc16deff2bb467f437023dfa6045aff66f6"
         },
         {
             "name": "2.6.0",

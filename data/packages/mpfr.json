@@ -144,10 +144,6 @@
             "name": "riscv-gnu-toolchain"
         },
         {
-            "description": "This is ROCmgdb, the ROCm source-level debugger for Linux, based on GDB,\nthe GNU source-level debugger.",
-            "name": "rocm-gdb"
-        },
-        {
             "description": "SFCGAL is a C++ wrapper library around CGAL with the aim of supporting\nISO 19107:2013 and OGC Simple Features Access 1.2 for 3D operations.\nSFCGAL provides standard compliant geometry types and operations, that\ncan be accessed from its C or C++ APIs.",
             "name": "sfcgal"
         },

@@ -24,15 +24,10 @@
             "name": "opencl"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "A compiler for tensor computations on GPUs and other devices, supporting\nthe OpenCL, Level Zero, and SYCL runtime.",
-            "name": "tiny-tensor-compiler"
-        }
-    ],
+    "dependent_to": [],
     "description": "A library for computing the Discrete Fourier Transform; targeting\nGraphics Processing Units; supporting OpenCL, Level Zero, and SYCL; with\ndouble-batching.\n",
     "homepage": "https://github.com/intel/double-batched-fft-library",
-    "latest_version": "0.5.1",
+    "latest_version": "0.5.0",
     "maintainers": [
         "uphoffc"
     ],
@@ -99,10 +94,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "0.5.1",
-            "sha256": "3651b982b6b5649d2bf95a3391a0a28d6637c51c642379d9708de88ad8d45f61"
         },
         {
             "name": "0.5.0",

@@ -31,7 +31,7 @@
         }
     ],
     "description": "Compare NetCDF Files\n",
-    "homepage": "https://nccmp.sourceforge.net/",
+    "homepage": "http://nccmp.sourceforge.net/",
     "latest_version": "1.9.1.0",
     "maintainers": [
         "climbfuji",

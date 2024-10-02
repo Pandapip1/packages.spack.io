@@ -29,7 +29,7 @@
         }
     ],
     "description": "CVector -- ANSI C API for Dynamic Arrays\n",
-    "homepage": "https://cvector.sourceforge.net/",
+    "homepage": "http://cvector.sourceforge.net/",
     "latest_version": "1.0.3",
     "maintainers": [],
     "name": "cvector",

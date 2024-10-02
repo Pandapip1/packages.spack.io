@@ -40,8 +40,8 @@
     ],
     "dependent_to": [],
     "description": "xev creates a window and then asks the X server to send it X11 events\nwhenever anything happens to the window (such as it being moved,\nresized, typed in, clicked in, etc.). You can also attach it to an\nexisting window. It is useful for seeing what causes events to occur and\nto display the information that they contain; it is essentially a\ndebugging and development tool, and should not be needed in normal\nusage.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xev",
-    "latest_version": "1.2.6",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xev",
+    "latest_version": "1.2.5",
     "maintainers": [],
     "name": "xev",
     "patches": [],
@@ -54,10 +54,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.2.6",
-            "sha256": "e2e3527023017af3a9bfbef0a90f8e46ac354c506b51f0ee3834b30823e43b25"
-        },
         {
             "name": "1.2.5",
             "sha256": "a948974ede621a8402ed9ea64f1ec83992285aa4fbb9d40b52985156c61a358a"

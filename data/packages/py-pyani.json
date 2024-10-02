@@ -52,12 +52,7 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "Anvi\u2019o is a comprehensive platform that brings together many aspects of\ntoday\u2019s cutting-edge computational strategies of data-enabled\nmicrobiology, including genomics, metagenomics, metatranscriptomics,\npangenomics, metapangenomics, phylogenomics, and microbial population\ngenetics in an integrated and easy-to-use fashion through extensive\ninteractive visualization capabilities.",
-            "name": "py-anvio"
-        }
-    ],
+    "dependent_to": [],
     "description": "pyani is a Python3 module that provides support for calculating average\nnucleotide identity (ANI) and related measures for whole genome\ncomparisons, and rendering relevant graphical summary output. Where\navailable, it takes advantage of multicore systems, and can integrate\nwith SGE/OGE-type job schedulers for the sequence comparisons.\n",
     "homepage": "https://widdowquinn.github.io/pyani",
     "latest_version": "0.2.7",

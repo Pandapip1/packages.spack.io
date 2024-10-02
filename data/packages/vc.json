@@ -18,10 +18,6 @@
     ],
     "dependent_to": [
         {
-            "description": "A portable linear algebra library with multiple backends that is part of\nthe Acts ecosystem.",
-            "name": "acts-algebra-plugins"
-        },
-        {
             "description": "ROOT is a data analysis framework.",
             "name": "root"
         },
@@ -32,7 +28,7 @@
     ],
     "description": "SIMD Vector Classes for C++\n",
     "homepage": "https://github.com/VcDevel/Vc",
-    "latest_version": "1.4.5",
+    "latest_version": "1.4.4",
     "maintainers": [],
     "name": "vc",
     "patches": [],
@@ -60,10 +56,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.4.5",
-            "sha256": "eb734ef4827933fcd67d4c74aef54211b841c350a867c681c73003eb6d511a48"
-        },
         {
             "name": "1.4.4",
             "sha256": "5933108196be44c41613884cd56305df320263981fe6a49e648aebb3354d57f3"

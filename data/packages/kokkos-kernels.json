@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -455,7 +415,7 @@
     ],
     "description": "Kokkos Kernels provides math kernels, often BLAS or LAPACK for small\nmatrices, that can be used in larger Kokkos parallel routines\n",
     "homepage": "https://github.com/kokkos/kokkos-kernels",
-    "latest_version": "4.4.01",
+    "latest_version": "4.3.00",
     "maintainers": [
         "brian-kelley",
         "lucbv",
@@ -634,18 +594,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "4.4.01",
-            "sha256": "9f741449f5ace5a7d8a5a81194ff2108e5525d16f08fcd9bb6c9bb4853d7720d"
-        },
-        {
-            "name": "4.4.00",
-            "sha256": "6559871c091eb5bcff53bae5a0f04f2298971d1aa1b2c135bd5a2dae3f9376a2"
-        },
-        {
-            "name": "4.3.01",
-            "sha256": "749553a6ea715ba1e56fa0b13b42866bb9880dba7a94e343eadf40d08c68fab8"
         },
         {
             "name": "4.3.00",

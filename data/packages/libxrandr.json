@@ -96,10 +96,6 @@
             "name": "xev"
         },
         {
-            "description": "Daemon, manager, and editor to centralize the configuration management\nfor XFCE4",
-            "name": "xfce4-settings"
-        },
-        {
             "description": "xinput is a utility to configure and test XInput devices.",
             "name": "xinput"
         },
@@ -109,7 +105,7 @@
         }
     ],
     "description": "libXrandr - X Resize, Rotate and Reflection extension library.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXrandr",
+    "homepage": "https://cgit.freedesktop.org/xorg/lib/libXrandr",
     "latest_version": "1.5.4",
     "maintainers": [
         "wdconinc"

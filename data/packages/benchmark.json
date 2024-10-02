@@ -30,17 +30,13 @@
             "name": "py-torch"
         },
         {
-            "description": "RE2 is a fast, safe, thread-friendly alternative to backtracking regular\nexpression engines like those used in PCRE, Perl, and Python.",
-            "name": "re2"
-        },
-        {
             "description": "STochastic Engine for Pathway Simulation",
             "name": "steps"
         }
     ],
     "description": "A microbenchmark support library\n",
     "homepage": "https://github.com/google/benchmark",
-    "latest_version": "1.8.5",
+    "latest_version": "1.8.3",
     "maintainers": [],
     "name": "benchmark",
     "patches": [],
@@ -76,14 +72,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "1.8.5",
-            "sha256": "d26789a2b46d8808a48a4556ee58ccc7c497fcd4c0af9b90197674a81e04798a"
-        },
-        {
-            "name": "1.8.4",
-            "sha256": "3e7059b6b11fb1bbe28e33e02519398ca94c1818874ebed18e504dc6f709be45"
         },
         {
             "name": "1.8.3",

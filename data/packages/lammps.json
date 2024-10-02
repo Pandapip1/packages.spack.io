@@ -69,21 +69,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -239,11 +224,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -270,32 +250,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -396,6 +356,11 @@
             "description": null,
             "name": "+dielectric",
             "spec": "@20210728:~extra-pair"
+        },
+        {
+            "description": null,
+            "name": "+latte",
+            "spec": "@:20170921"
         },
         {
             "description": null,
@@ -538,7 +503,7 @@
             "name": "ffmpeg"
         },
         {
-            "description": "NVPL FFT (NVIDIA Performance Libraries FFT) is part of NVIDIA\nPerformance Libraries and provides Fast Fourier Transform (FFT)\ncalculations on ARM CPUs.",
+            "description": "This is an earlier version of Intel parallel software development tools\nand has now been replaced by the Intel oneAPI Toolkits. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.",
             "name": "fftw-api"
         },
         {
@@ -548,10 +513,6 @@
         {
             "description": "Google test framework for C++. Also called gtest.",
             "name": "googletest"
-        },
-        {
-            "description": "The GNU Scientific Library (GSL) is a numerical library for C and C++\nprogrammers. It is free software under the GNU General Public License.\nThe library provides a wide range of mathematical routines such as\nrandom number generators, special functions and least-squares fitting.\nThere are over 1000 functions in total with an extensive test suite.",
-            "name": "gsl"
         },
         {
             "description": "HDF5 is a data model, library, and file format for storing and managing\ndata. It supports an unlimited variety of datatypes, and is designed for\nflexible and efficient I/O and for high volume and complex data.",
@@ -604,10 +565,6 @@
         {
             "description": "Toolkit for the construction of highly optimized compilers, optimizers,\nand run-time environments.",
             "name": "llvm-amdgpu"
-        },
-        {
-            "description": "This is an earlier version of Intel parallel software development tools\nand has now been replaced by the Intel oneAPI Toolkits. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.",
-            "name": "mkl"
         },
         {
             "description": "IBM MPI implementation from Spectrum MPI.",
@@ -684,10 +641,6 @@
     ],
     "dependent_to": [
         {
-            "description": "LAMMPS Example Plugin",
-            "name": "lammps-example-plugin"
-        },
-        {
             "description": "ParSplice code implements the Parallel Trajectory Splicing algorithm",
             "name": "parsplice"
         },
@@ -698,7 +651,7 @@
     ],
     "description": "LAMMPS stands for Large-scale Atomic/Molecular Massively Parallel\nSimulator.\n",
     "homepage": "https://www.lammps.org/",
-    "latest_version": "20240829",
+    "latest_version": "20240207.1",
     "maintainers": [
         "rbberger"
     ],
@@ -711,15 +664,6 @@
             "sha256": "3dedd807f63a21c543d1036439099f05c6031fd98e7cb1ea7825822fc074106e",
             "url": "https://github.com/lammps/lammps/commit/ebb8eee941e52c98054fdf96ea78ee4d5f606f47.patch?full_index=1",
             "version": "@20220623.3:20230208+kokkos+kspace+rocm",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.lammps",
-            "reverse": false,
-            "sha256": "b8d1f08a82329e493e040de2bde9d2291af173a0fe6c7deb24750cc22823c421",
-            "url": "https://github.com/lammps/lammps/commit/49bdc3e26449634f150602a66d0dab34d09dbc0e.patch?full_index=1",
-            "version": "@20240829%cce",
             "working_dir": "."
         },
         {
@@ -905,11 +849,6 @@
         },
         {
             "default": false,
-            "description": "Build with curl support",
-            "name": "curl"
-        },
-        {
-            "default": false,
             "description": "Activate the dielectric package",
             "name": "dielectric"
         },
@@ -997,16 +936,6 @@
             "default": false,
             "description": "Build with ffmpeg support",
             "name": "ffmpeg"
-        },
-        {
-            "default": "fftw3",
-            "description": "FFT library for KSPACE package",
-            "name": "fft"
-        },
-        {
-            "default": "fftw3",
-            "description": "FFT library for Kokkos-enabled KSPACE package",
-            "name": "fft_kokkos"
         },
         {
             "default": "double",
@@ -1160,11 +1089,6 @@
         },
         {
             "default": false,
-            "description": "Activate the ml-uf3 package",
-            "name": "ml-uf3"
-        },
-        {
-            "default": false,
             "description": "Activate the mliap package",
             "name": "mliap"
         },
@@ -1294,11 +1218,6 @@
             "name": "replica"
         },
         {
-            "default": false,
-            "description": "Activate the rheo package",
-            "name": "rheo"
-        },
-        {
             "default": true,
             "description": "Activate the rigid package",
             "name": "rigid"
@@ -1342,11 +1261,6 @@
             "default": false,
             "description": "Activate the tally package",
             "name": "tally"
-        },
-        {
-            "default": false,
-            "description": "Build LAMMPS tools (msi2lmp, binary2txt, chain)",
-            "name": "tools"
         },
         {
             "default": false,
@@ -1580,12 +1494,16 @@
             "name": "develop"
         },
         {
-            "name": "20240829",
-            "sha256": "6112e0cc352c3140a4874c7f74db3c0c8e30134024164509ecf3772b305fde2e"
+            "name": "20240207.1",
+            "sha256": "3ba62c2a1ed463fceedf313a1c3ea2997994aa102379a8d35b525ea424f56776"
         },
         {
-            "name": "20230802.4",
-            "sha256": "6eed007cc24cda80b5dd43372b2ad4268b3982bb612669742c8c336b79137b5b"
+            "name": "20231121",
+            "sha256": "704d8a990874a425bcdfe0245faf13d712231ba23f014a3ebc27bc14398856f1"
+        },
+        {
+            "name": "20230802.3",
+            "sha256": "6666e28cb90d3ff01cbbda6c81bdb85cf436bbb41604a87f2ab2fa559caa8510"
         },
         {
             "name": "20220623.4",
@@ -1606,28 +1524,8 @@
     ],
     "versions_deprecated": [
         {
-            "name": "20240627",
-            "sha256": "2174a99d266279823a8c57629ee1c21ec357816aefd85f964d9f859fe9222aa5"
-        },
-        {
-            "name": "20240417",
-            "sha256": "158b288725c251fd8b30dbcf61749e0d6a042807da92af865a7d3c413efdd8ea"
-        },
-        {
-            "name": "20240207.1",
-            "sha256": "3ba62c2a1ed463fceedf313a1c3ea2997994aa102379a8d35b525ea424f56776"
-        },
-        {
             "name": "20240207",
             "sha256": "d518f32de4eb2681f2543be63926411e72072dd7d67c1670c090b5baabed98ac"
-        },
-        {
-            "name": "20231121",
-            "sha256": "704d8a990874a425bcdfe0245faf13d712231ba23f014a3ebc27bc14398856f1"
-        },
-        {
-            "name": "20230802.3",
-            "sha256": "6666e28cb90d3ff01cbbda6c81bdb85cf436bbb41604a87f2ab2fa559caa8510"
         },
         {
             "name": "20230802.2",

@@ -32,7 +32,7 @@
             "name": "fckit"
         },
         {
-            "description": "NVPL FFT (NVIDIA Performance Libraries FFT) is part of NVIDIA\nPerformance Libraries and provides Fast Fourier Transform (FFT)\ncalculations on ARM CPUs.",
+            "description": "This is an earlier version of Intel parallel software development tools\nand has now been replaced by the Intel oneAPI Toolkits. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.",
             "name": "fftw-api"
         },
         {
@@ -59,7 +59,7 @@
     "dependent_to": [],
     "description": "A library for numerical weather prediction and climate modelling.\n",
     "homepage": "https://software.ecmwf.int/wiki/display/atlas",
-    "latest_version": "0.38.1",
+    "latest_version": "0.36.0",
     "maintainers": [
         "climbfuji",
         "srherbener"
@@ -174,14 +174,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "0.38.1",
-            "sha256": "c6868deb483c1d6c241aae92f8af63f3351062c2611c9163e8a9bbf6c97a9798"
-        },
-        {
-            "name": "0.38.0",
-            "sha256": "befe3bfc045bc0783126efb72ed55db9f205eaf176e1b8a2059eaaaaacc4880a"
         },
         {
             "name": "0.36.0",

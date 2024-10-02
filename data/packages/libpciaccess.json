@@ -28,6 +28,10 @@
             "name": "gnuconfig"
         },
         {
+            "description": "libtool -- library building part of autotools.",
+            "name": "libtool"
+        },
+        {
             "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
             "name": "pkgconfig"
         },
@@ -88,10 +92,6 @@
         {
             "description": "ReMPI is a record-and-replay tool for MPI applications.",
             "name": "rempi"
-        },
-        {
-            "description": "X.Org Server is the free and open source implementation of the display\nserver for the X Window System stewarded by the X.Org Foundation.",
-            "name": "xorg-server"
         }
     ],
     "description": "Generic PCI access library.\n",

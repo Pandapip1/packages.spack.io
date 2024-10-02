@@ -27,7 +27,7 @@
     "dependent_to": [],
     "description": "MAD-X (Methodical Accelerator Design) is an application for designing\nparticle accelerators.\n",
     "homepage": "https://github.com/MethodicalAcceleratorDesign/MAD-X",
-    "latest_version": "5.09.03",
+    "latest_version": "5.09.00",
     "maintainers": [
         "wdconinc"
     ],
@@ -72,10 +72,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "5.09.03",
-            "sha256": "cd57f9451e3541a820814ad9ef72b6e01d09c6f3be56802fa2e95b1742db7797"
-        },
         {
             "name": "5.09.00",
             "sha256": "fc2823cdb90a53c1422cca93a48b003c97c1e72641d9e925cd8f59b08f795c7a"

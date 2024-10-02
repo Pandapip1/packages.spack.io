@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -385,12 +345,12 @@
         {
             "description": "umpire: Cant support both rocm and openmp device backends at once",
             "name": "+rocm",
-            "spec": "+omptarget"
+            "spec": "+openmp_target"
         },
         {
             "description": "umpire: OpenMP target requires OpenMP",
             "name": "~openmp",
-            "spec": "+omptarget"
+            "spec": "+openmp_target"
         },
         {
             "description": null,
@@ -517,7 +477,7 @@
             "name": "axom"
         },
         {
-            "description": "CHAI and RAJA extensions (includes data structures and algorithms).",
+            "description": "Algorithms for chai managed arrays.",
             "name": "care"
         },
         {
@@ -563,9 +523,8 @@
     ],
     "description": "An application-focused API for memory management on NUMA & GPU\narchitectures\n",
     "homepage": "https://github.com/LLNL/Umpire",
-    "latest_version": "2024.07.0",
+    "latest_version": "2024.02.0",
     "maintainers": [
-        "adrienbernede",
         "davidbeckingsale"
     ],
     "name": "umpire",
@@ -592,8 +551,8 @@
             "level": 1,
             "owner": "builtin.umpire",
             "reverse": false,
-            "sha256": "802f074a05e1cb1f428e13d99c5fcb1435f86bd8f36a1ea2f7b6756e6625e0a0",
-            "url": "https://github.com/LLNL/Umpire/commit/47ff0aa1f7a01a917c3b7ac618e8a9e44a10fd25.patch?full_index=1",
+            "sha256": "7ed5d2c315a3b31e339f664f6108e32d7cb4cb8e9f22e5c78a65ba02625ccc09",
+            "url": "https://github.com/LLNL/Umpire/pull/805/commits/47ff0aa1f7a01a917c3b7ac618e8a9e44a10fd25.patch?full_index=1",
             "version": "@2022.10.0",
             "working_dir": "."
         },
@@ -601,8 +560,8 @@
             "level": 1,
             "owner": "builtin.umpire",
             "reverse": false,
-            "sha256": "170dbcadb9ae36c7e211119c17a812695f11f4fe1be290b750f7af4fb4896192",
-            "url": "https://github.com/LLNL/Umpire/commit/2292d1d6078f6d9523b7ad0886ffa053644569d5.patch?full_index=1",
+            "sha256": "0f43cad7cdaec3c225ab6414ab9f81bd405a1157abf5a508e515bcb6ca53326d",
+            "url": "https://github.com/LLNL/Umpire/pull/816/commits/2292d1d6078f6d9523b7ad0886ffa053644569d5.patch?full_index=1",
             "version": "@2022.10.0",
             "working_dir": "."
         },
@@ -724,11 +683,6 @@
             "name": "examples"
         },
         {
-            "default": true,
-            "description": "Link to header-only fmt target",
-            "name": "fmt_header_only"
-        },
-        {
             "default": false,
             "description": "Build C/Fortran API",
             "name": "fortran"
@@ -760,13 +714,13 @@
         },
         {
             "default": false,
-            "description": "Build with OpenMP 4.5 support",
-            "name": "omptarget"
+            "description": "Build with OpenMP support",
+            "name": "openmp"
         },
         {
             "default": false,
-            "description": "Build with OpenMP support",
-            "name": "openmp"
+            "description": "Build with OpenMP 4.5 support",
+            "name": "openmp_target"
         },
         {
             "default": false,
@@ -808,16 +762,6 @@
         {
             "branch": "develop",
             "name": "develop"
-        },
-        {
-            "commit": "abd729f40064175e999a83d11d6b073dac4c01d2",
-            "name": "2024.07.0",
-            "tag": "v2024.07.0"
-        },
-        {
-            "commit": "3058d562fc707650e904f9321b1ee9bcebad3ae2",
-            "name": "2024.02.1",
-            "tag": "v2024.02.1"
         },
         {
             "commit": "1db3fef913a70d8882ca510a4830c77c388873e0",

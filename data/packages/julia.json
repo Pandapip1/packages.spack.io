@@ -142,7 +142,7 @@
     ],
     "description": "The Julia Language: A fresh approach to technical computing\n",
     "homepage": "https://julialang.org",
-    "latest_version": "1.10.4",
+    "latest_version": "1.10.2",
     "maintainers": [
         "giordano",
         "haampie",
@@ -272,14 +272,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "1.10.4",
-            "sha256": "c46ed8166fe860a7258d088a0add68dfdf11ad64cc4c0b1f113570862d3ef777"
-        },
-        {
-            "name": "1.10.3",
-            "sha256": "b3cd34c839d25b98a162070b4e3abd5f34564ffdad13e07073be7885e5678a18"
         },
         {
             "name": "1.10.2",

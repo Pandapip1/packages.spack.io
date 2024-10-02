@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -444,22 +404,12 @@
     "dependent_to": [],
     "description": "Kripke is a simple, scalable, 3D Sn deterministic particle transport\nproxy/mini app.\n",
     "homepage": "https://computing.llnl.gov/projects/co-design/kripke",
-    "latest_version": "1.2.7",
+    "latest_version": "1.2.4",
     "maintainers": [
         "vsrana01"
     ],
     "name": "kripke",
-    "patches": [
-        {
-            "level": 1,
-            "owner": "builtin.kripke",
-            "relative_path": "001-remove-googletest-from-cmake.patch",
-            "reverse": false,
-            "sha256": "bed43dc19a1e0a6d3a9105d0738ab95f7d73dadc3d5ccad5f4f504075b48f6b9",
-            "version": "@1.2.5:1.2.6",
-            "working_dir": "."
-        }
-    ],
+    "patches": [],
     "resources": [],
     "variants": [
         {
@@ -522,21 +472,6 @@
         {
             "branch": "develop",
             "name": "develop"
-        },
-        {
-            "commit": "ddcac43cdad999f0346eb682065ef0af1847029d",
-            "name": "1.2.7",
-            "tag": "v1.2.7"
-        },
-        {
-            "commit": "55b39f34b68c68b2d828a33a75568abd66e1019f",
-            "name": "1.2.6",
-            "tag": "v1.2.6"
-        },
-        {
-            "commit": "20e9ea975f1bf567829323a18927b69bed3f4ebd",
-            "name": "1.2.5",
-            "tag": "v1.2.5"
         },
         {
             "commit": "d85c6bc462f17a2382b11ba363059febc487f771",

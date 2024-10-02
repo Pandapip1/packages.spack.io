@@ -183,10 +183,6 @@
             "name": "must"
         },
         {
-            "description": "Interface to AT&T's GraphViz. Deprecated. See GraphViz2",
-            "name": "perl-graphviz"
-        },
-        {
             "description": "A workflow engine for cycling systems.",
             "name": "py-cylc-flow"
         },
@@ -248,8 +244,8 @@
         }
     ],
     "description": "Graph Visualization Software\n",
-    "homepage": "https://www.graphviz.org",
-    "latest_version": "12.1.0",
+    "homepage": "http://www.graphviz.org",
+    "latest_version": "8.0.5",
     "maintainers": [],
     "name": "graphviz",
     "patches": [
@@ -368,26 +364,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "12.1.0",
-            "sha256": "ad2023c23935397d4b5a34c14682f8098d2f20d2144c63d20d05be372757fdb1"
-        },
-        {
-            "name": "11.0.0",
-            "sha256": "95173d21922082b0b2649fb24c1dc4bbc1e39504a92903b88df39804778cbb9d"
-        },
-        {
-            "name": "10.0.1",
-            "sha256": "eaa60fea2b3ad904e3bf6919710c1ba3207ce31b5d7da1687dd3b734de8736f6"
-        },
-        {
-            "name": "9.0.0",
-            "sha256": "5c0a6e60761e2e0f6cbb8baca958b643a06b9bb74ed5a2e4937ee7dbb49dead3"
-        },
-        {
-            "name": "8.1.0",
-            "sha256": "ce8911695752aa2c3929147e3dee016e58aa624d81d7c18dd16f895ae79460de"
-        },
         {
             "name": "8.0.5",
             "sha256": "c1901fe52483fad55fbf893ccd59a3dcaedd53f0d50b5aebbbf3deaba93b674d"

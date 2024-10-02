@@ -44,7 +44,7 @@
     ],
     "description": "Python-GSSAPI provides both low-level and high level wrappers around the\nGSSAPI C libraries.\n",
     "homepage": "https://github.com/pythongssapi/python-gssapi",
-    "latest_version": "1.8.3",
+    "latest_version": "1.8.2",
     "maintainers": [
         "wdconinc"
     ],
@@ -59,10 +59,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.8.3",
-            "sha256": "aa3c8d0b1526f52559552bb2c9d2d6be013d76a8e5db00b39a1db5727e93b0b0"
-        },
         {
             "name": "1.8.2",
             "sha256": "b78e0a021cc91158660e4c5cc9263e07c719346c35a9c0f66725e914b235c89a"

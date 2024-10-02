@@ -38,18 +38,8 @@
             "spec": "@:2023.9"
         },
         {
-            "description": "hpctoolkit: rocm 6.0 requires hpctoolkit 2024.01.1 or later",
-            "name": "^hip@6:",
-            "spec": "@:2023"
-        },
-        {
             "description": "hpctoolkit: avoid binutils 2.35 and 2.35.1 (spews errors)",
             "name": "^binutils@2.35:2.35.1",
-            "spec": ""
-        },
-        {
-            "description": "hpctoolkit: avoid elfutils 0.191 (known critical errors in hpcstruct for CUDA binaries)",
-            "name": "^elfutils@0.191:",
             "spec": ""
         },
         {
@@ -252,7 +242,7 @@
     ],
     "dependent_to": [],
     "description": "HPCToolkit is an integrated suite of tools for measurement and analysis\nof program performance on computers ranging from multicore desktop\nsystems to the nation's largest supercomputers. By using statistical\nsampling of timers and hardware performance counters, HPCToolkit\ncollects accurate measurements of a program's work, resource\nconsumption, and inefficiency and attributes them to the full calling\ncontext in which they occur.\n",
-    "homepage": "https://hpctoolkit.org",
+    "homepage": "http://hpctoolkit.org",
     "latest_version": "2024.01.1",
     "maintainers": [
         "mwkrentel"
@@ -289,10 +279,10 @@
         {
             "level": 1,
             "owner": "builtin.hpctoolkit",
-            "relative_path": "correcting-hsa-include-path.patch",
+            "relative_path": "define-hip-platform-as-amd.patch",
             "reverse": false,
-            "sha256": "cfbd41ad911c4daff0606b14e9ca5296f920da97859526c16c511501b8cde501",
-            "version": "@2024.01 ^hip@6.0:",
+            "sha256": "7d9ee78d2e117bb5e117b983a9bcfb8a9d1b4f20f0df0d8b9260bf84036ec657",
+            "version": "^hip@6:",
             "working_dir": "."
         }
     ],
@@ -413,9 +403,7 @@
         {
             "commit": "e8a5cc87e8f5ddfd14338459a4106f8e0d162c83",
             "name": "2022.10.01"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "commit": "8ac72d9963c4ed7b7f56acb65feb02fbce353479",
             "name": "2022.05.15"
@@ -435,7 +423,9 @@
         {
             "commit": "004ea0c2aea6a261e7d5d216c24f8a703fc6c408",
             "name": "2021.05.15"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "commit": "68a051044c952f0f4dac459d9941875c700039e7",
             "name": "2021.03.01"
@@ -463,6 +453,14 @@
         {
             "commit": "6ea44ed3f93ede2d0a48937f288a2d41188a277c",
             "name": "2019.08.14"
+        },
+        {
+            "commit": "8dbf0d543171ffa9885344f32f23cc6f7f6e39bc",
+            "name": "2018.12.28"
+        },
+        {
+            "commit": "d0c43e39020e67095b1f1d8bb89b75f22b12aee9",
+            "name": "2018.11.05"
         }
     ]
 }

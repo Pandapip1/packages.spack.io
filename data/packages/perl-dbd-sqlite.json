@@ -18,10 +18,6 @@
             "name": "maker"
         },
         {
-            "description": "BioPerl is the product of a community effort to produce Perl code which\nis useful in biology. Examples include Sequence objects, Alignment\nobjects and database searching objects. These objects not only do what\nthey are advertised to do in the documentation, but they also interact -\nAlignment objects are made from the Sequence objects, Sequence objects\nhave access to Annotation and SeqFeature objects and databases, Blast\nobjects can be converted to Alignment objects, and so on. This means\nthat the objects provide a coordinated and extensible framework to do\ncomputational biology. BioPerl development focuses on Perl classes, or\ncode that is used to create objects representing biological entities.\nThere are scripts provided in the scripts/ and examples/ directories but\nscripts are not the main focus of the BioPerl developers. Of course, as\nthe objects do most of the hard work for you, all you have to do is\ncombine a number of objects together sensibly to make useful scripts.\nThe intent of the BioPerl development effort is to make reusable tools\nthat aid people in creating their own sites or job-specific\napplications. The BioPerl website at https://bioperl.org/ also attempts\nto maintain links and archives of standalone bio-related Perl tools that\nare not affiliated or related to the core BioPerl effort. Check the site\nfor useful code ideas and contribute your own if possible.",
-            "name": "perl-bioperl"
-        },
-        {
             "description": "Extensible and flexible object <-> relational mapper.",
             "name": "perl-dbix-class"
         },
@@ -32,7 +28,7 @@
     ],
     "description": "DBD::SQLite - Self-contained RDBMS in a DBI Driver\n",
     "homepage": "https://metacpan.org/pod/DBD::SQLite",
-    "latest_version": "1.74",
+    "latest_version": "1.72",
     "maintainers": [],
     "name": "perl-dbd-sqlite",
     "patches": [],
@@ -45,10 +41,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.74",
-            "sha256": "8994997d84b9feb4547795f78746c661fb72e3cb6a25dbdd789b731f5688a4dd"
-        },
         {
             "name": "1.72",
             "sha256": "5ca41e61eb52b52bd862a3088b912a75fe70910ac789b9a9983e0a449e94f551"

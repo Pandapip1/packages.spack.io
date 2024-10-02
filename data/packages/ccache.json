@@ -71,12 +71,12 @@
             "name": "ns-3-dev"
         },
         {
-            "description": "Spack is a multi-platform package manager that builds and installs\nmultiple versions and configurations of software. It works on Linux,\nmacOS, and many supercomputers. Spack is non-destructive: installing a\nnew version of a package does not break existing installations, so many\nconfigurations of the same package can coexist.",
-            "name": "spack"
+            "description": "Run Llama 2, Code Llama, and other models. Customize and create your\nown.",
+            "name": "ollama"
         },
         {
-            "description": "USEARCH is a unique sequence analysis tool with thousands of users\nworld-wide. Note: A manual download is required for USEARCH when\n@:11.0.667. Spack will search your current directory for the download\nfile. Alternatively, add this file to a mirror so that Spack can find\nit. For instructions on how to set up a mirror, see\nhttps://spack.readthedocs.io/en/latest/mirrors.html",
-            "name": "usearch"
+            "description": "Spack is a multi-platform package manager that builds and installs\nmultiple versions and configurations of software. It works on Linux,\nmacOS, and many supercomputers. Spack is non-destructive: installing a\nnew version of a package does not break existing installations, so many\nconfigurations of the same package can coexist.",
+            "name": "spack"
         },
         {
             "description": "Verilator is the fastest free Verilog HDL simulator. It compiles\nsynthesizable Verilog (not test-bench code!), plus some PSL,\nSystemVerilog and Synthesis assertions into C++ or SystemC code. It is\ndesigned for large projects where fast simulation performance is of\nprimary concern, and is especially well suited to generate executable\nmodels of CPUs for embedded software design teams. Please do not\ndownload this program if you are expecting a full featured replacement\nfor NC-Verilog, VCS or another commercial Verilog simulator or Verilog\ncompiler for a little project! (Try Icarus instead.) However, if you are\nlooking for a path to migrate synthesizable Verilog to C++ or SystemC,\nand writing just a touch of C code and Makefiles doesn't scare you off,\nthis is the free Verilog compiler for you. Verilator supports the\nsynthesis subset of Verilog, plus initial statements, proper\nblocking/non-blocking assignments, functions, tasks, multi-dimensional\narrays, and signed numbers. It also supports very simple forms of\nSystemVerilog assertions and coverage analysis. Verilator supports the\nmore important Verilog 2005 constructs, and some SystemVerilog features,\nwith additional constructs being added as users request them. Verilator\nhas been used to simulate many very large multi-million gate designs\nwith thousands of modules.",
@@ -93,7 +93,7 @@
     ],
     "description": "ccache is a compiler cache. It speeds up recompilation by caching\nprevious compilations and detecting when the same compilation is being\ndone again.\n",
     "homepage": "https://ccache.dev/",
-    "latest_version": "4.10.2",
+    "latest_version": "4.9.1",
     "maintainers": [
         "haampie"
     ],
@@ -138,10 +138,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "4.10.2",
-            "sha256": "108100960bb7e64573ea925af2ee7611701241abb36ce0aae3354528403a7d87"
-        },
         {
             "name": "4.9.1",
             "sha256": "12834ecaaaf2db069dda1d1d991f91c19e3274cc04a471af5b64195def17e90f"

@@ -50,14 +50,6 @@
             "name": "cpat"
         },
         {
-            "description": "Liftoff is a tool that accurately maps annotations in GFF or GTF between\nassemblies of the same, or closely-related species.",
-            "name": "liftoff"
-        },
-        {
-            "description": "Anvi\u2019o is a comprehensive platform that brings together many aspects of\ntoday\u2019s cutting-edge computational strategies of data-enabled\nmicrobiology, including genomics, metagenomics, metatranscriptomics,\npangenomics, metapangenomics, phylogenomics, and microbial population\ngenetics in an integrated and easy-to-use fashion through extensive\ninteractive visualization capabilities.",
-            "name": "py-anvio"
-        },
-        {
             "description": "Atropos is tool for specific, sensitive, and speedy trimming of NGS\nreads. It is a fork of the venerable Cutadapt read trimmer.",
             "name": "py-atropos"
         },
@@ -128,10 +120,6 @@
         {
             "description": "Python wrapper -- and more -- for Aaron Quinlan's BEDTools",
             "name": "py-pybedtools"
-        },
-        {
-            "description": "Sequence Elements Enrichment Analysis (SEER), python implementation",
-            "name": "py-pyseer"
         },
         {
             "description": "RSeQC package provides a number of useful modules that can\ncomprehensively evaluate high throughput sequence data especially RNA-\nseq data.",

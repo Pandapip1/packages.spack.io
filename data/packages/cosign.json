@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": " Cosign is a go package for container Signing, verification and storage\nin an OCI registry.\n",
     "homepage": "https://github.com/sigstore/cosign",
-    "latest_version": "2.2.4",
+    "latest_version": "1.3.1",
     "maintainers": [],
     "name": "cosign",
     "patches": [],
@@ -27,10 +27,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "2.2.4",
-            "sha256": "2e31e8638de1869514cb0478796d2b55b455552fbd03c3b7ba0edf27b0b5b944"
         },
         {
             "name": "1.3.1",

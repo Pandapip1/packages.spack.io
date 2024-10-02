@@ -48,7 +48,7 @@
     ],
     "dependent_to": [],
     "description": "xvidtune is a client interface to the X server video mode extension\n(XFree86-VidModeExtension).\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xvidtune",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xvidtune",
     "latest_version": "1.0.4",
     "maintainers": [],
     "name": "xvidtune",

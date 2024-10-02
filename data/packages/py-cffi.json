@@ -54,6 +54,10 @@
             "name": "flux-core"
         },
         {
+            "description": "GEOPM is an extensible power management framework targeting HPC. The\nGEOPM package provides libgeopm, libgeopmpolicy and applications\ngeopmctl and geopmpolicy, as well as tools for postprocessing. GEOPM is\ndesigned to be extended for new control algorithms and new hardware\npower management features via its plugin infrastructure. Note: GEOPM\ninterfaces with hardware using Model Specific Registers (MSRs). For\npropper usage make sure MSRs are made available directly or via the msr-\nsafe kernel module by your administrator.",
+            "name": "geopm"
+        },
+        {
             "description": "The Global Extensible Open Power Manager (GEOPM) Runtime is designed to\nenhance energy efficiency of applications through active hardware\nconfiguration.",
             "name": "geopm-runtime"
         },
@@ -126,10 +130,6 @@
             "name": "py-geopmdpy"
         },
         {
-            "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely.",
-            "name": "py-geopmpy"
-        },
-        {
             "description": "gevent is a coroutine-based Python networking library.",
             "name": "py-gevent"
         },
@@ -144,10 +144,6 @@
         {
             "description": "medaka is a tool to create consensus sequences and variant calls from\nnanopore sequencing data. This task is performed using neural networks\napplied a pileup of individual sequencing reads against a draft\nassembly. It provides state-of-the-art results outperforming sequence-\ngraph based methods and signal-based methods, whilst also being faster.",
             "name": "py-medaka"
-        },
-        {
-            "description": "Use numba-compiled kernels from within Jax",
-            "name": "py-numba4jax"
         },
         {
             "description": "pycares is a Python module which provides an interface to c-ares. c-ares\nis a C library that performs DNS requests and name resolutions\nasynchronously.",
@@ -186,10 +182,6 @@
             "name": "py-xtb"
         },
         {
-            "description": "Python bindings to the Zstandard (zstd) compression library.",
-            "name": "py-zstandard"
-        },
-        {
             "description": "Simple reimplementation of the DFT-D3 dispersion correction",
             "name": "simple-dftd3"
         },
@@ -204,20 +196,10 @@
     ],
     "description": "Foreign Function Interface for Python calling C code\n",
     "homepage": "https://cffi.readthedocs.io/en/latest/",
-    "latest_version": "1.17.1",
+    "latest_version": "1.15.1",
     "maintainers": [],
     "name": "py-cffi",
-    "patches": [
-        {
-            "level": 1,
-            "owner": "builtin.py-cffi",
-            "reverse": false,
-            "sha256": "db836e67e2973ba7d3f4185b385fda49e2398281fc10362e5e413b75fdf93bf0",
-            "url": "https://raw.githubusercontent.com/conda-forge/cffi-feedstock/refs/heads/main/recipe/0003-apple-api.patch",
-            "version": "@1.16: arch=darwin-None-None",
-            "working_dir": "."
-        }
-    ],
+    "patches": [],
     "resources": [],
     "variants": [
         {
@@ -227,14 +209,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.17.1",
-            "sha256": "1c39c6016c32bc48dd54561950ebd6836e1670f2ae46128f67cf49e789c52824"
-        },
-        {
-            "name": "1.16.0",
-            "sha256": "bcb3ef43e58665bbda2fb198698fcae6776483e0c4a631aa5647806c25e02cc0"
-        },
         {
             "name": "1.15.1",
             "sha256": "d400bfb9a37b1351253cb402671cea7e89bdecc294e8016a707f6d1d8ac934f9"

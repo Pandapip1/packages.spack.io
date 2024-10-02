@@ -6,21 +6,6 @@
             "description": null,
             "name": "%gcc@12",
             "spec": "@5.2"
-        },
-        {
-            "description": null,
-            "name": "+asan",
-            "spec": "arch=None-centos7-None"
-        },
-        {
-            "description": null,
-            "name": "+asan",
-            "spec": "arch=None-centos8-None"
-        },
-        {
-            "description": null,
-            "name": "+asan",
-            "spec": "arch=None-rhel9-None"
         }
     ],
     "dependencies": [
@@ -167,14 +152,6 @@
             "name": "pika"
         },
         {
-            "description": "XLA library for Jax",
-            "name": "py-jaxlib"
-        },
-        {
-            "description": "ONNX Runtime is a performance-focused complete scoring engine for Open\nNeural Network Exchange (ONNX) models, with an open extensible\narchitecture to continually address the latest developments in AI and\nDeep Learning. ONNX Runtime stays up to date with the ONNX standard with\ncomplete implementation of all ONNX operators, and supports all ONNX\nreleases (1.2+) with both future and backwards compatibility.",
-            "name": "py-onnxruntime"
-        },
-        {
             "description": "PyFR is an open-source Python based framework for solving advection-\ndiffusion type problems on streaming architectures using the Flux\nReconstruction approach of Huynh.",
             "name": "py-pyfr"
         },
@@ -233,7 +210,7 @@
     ],
     "description": "Radeon Open Compute BLAS library\n",
     "homepage": "https://github.com/ROCm/rocBLAS/",
-    "latest_version": "6.2.1",
+    "latest_version": "6.0.2",
     "maintainers": [
         "cgmb",
         "haampie",
@@ -242,6 +219,15 @@
     ],
     "name": "rocblas",
     "patches": [
+        {
+            "level": 1,
+            "owner": "builtin.rocblas",
+            "relative_path": "0003-Fix-rocblas-gentest.patch",
+            "reverse": false,
+            "sha256": "6a52b2899a94c6b5d0268aa783fc03e36663e0f06d61336d75d8943c7183f8db",
+            "version": "@:5.1",
+            "working_dir": "."
+        },
         {
             "level": 1,
             "owner": "builtin.rocblas",
@@ -271,6 +257,36 @@
         }
     ],
     "resources": [
+        {
+            "destination": "",
+            "name": "Tensile",
+            "placement": null,
+            "version": "@5.1.0+tensile"
+        },
+        {
+            "destination": "",
+            "name": "Tensile",
+            "placement": null,
+            "version": "@5.1.3+tensile"
+        },
+        {
+            "destination": "",
+            "name": "Tensile",
+            "placement": null,
+            "version": "@5.2.0+tensile"
+        },
+        {
+            "destination": "",
+            "name": "Tensile",
+            "placement": null,
+            "version": "@5.2.1+tensile"
+        },
+        {
+            "destination": "",
+            "name": "Tensile",
+            "placement": null,
+            "version": "@5.2.3+tensile"
+        },
         {
             "destination": "",
             "name": "Tensile",
@@ -347,36 +363,6 @@
             "destination": "",
             "name": "Tensile",
             "placement": null,
-            "version": "@6.1.0+tensile"
-        },
-        {
-            "destination": "",
-            "name": "Tensile",
-            "placement": null,
-            "version": "@6.1.1+tensile"
-        },
-        {
-            "destination": "",
-            "name": "Tensile",
-            "placement": null,
-            "version": "@6.1.2+tensile"
-        },
-        {
-            "destination": "",
-            "name": "Tensile",
-            "placement": null,
-            "version": "@6.2.0+tensile"
-        },
-        {
-            "destination": "",
-            "name": "Tensile",
-            "placement": null,
-            "version": "@6.2.1+tensile"
-        },
-        {
-            "destination": "",
-            "name": "Tensile",
-            "placement": null,
             "version": "@master+tensile"
         },
         {
@@ -391,11 +377,6 @@
             "default": "auto",
             "description": "AMD GPU architecture",
             "name": "amdgpu_target"
-        },
-        {
-            "default": false,
-            "description": "Build with address-sanitizer enabled or disabled",
-            "name": "asan"
         },
         {
             "default": "cmake",
@@ -433,26 +414,6 @@
             "name": "master"
         },
         {
-            "name": "6.2.1",
-            "sha256": "cf3bd7b47694f95f387803191615e2ff5c1106175473be7a5b2e8eb6fb99179f"
-        },
-        {
-            "name": "6.2.0",
-            "sha256": "184e9b39dcbed57c25f351b047d44c613f8a2bbab3314a20c335f024a12ad4e5"
-        },
-        {
-            "name": "6.1.2",
-            "sha256": "1e83918bd7b28ec9ee292c6fb7eb0fc5f4db2d5d831a9a3db541f14a90c20a1a"
-        },
-        {
-            "name": "6.1.1",
-            "sha256": "c920742fb8f45512c360cdb40e37d0ac767f042e52f1981264853dab5ec2c876"
-        },
-        {
-            "name": "6.1.0",
-            "sha256": "af00357909da60d82618038aa9a3cc1f9d4ce1bdfb54db20ec746b592d478edf"
-        },
-        {
             "name": "6.0.2",
             "sha256": "d1bf31063a2d349797b88c994c91d05f94e681bafb5550ad9b53529703d89dbb"
         },
@@ -483,9 +444,7 @@
         {
             "name": "5.5.0",
             "sha256": "b5260517f199e806ae18f2c4495f163884e0d7a0a7c67af0770f7428ea50f898"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "5.4.3",
             "sha256": "d82cd334b7a9b40d16ec4f4bb1fb5662382dcbfc86ee5e262413ed63d9e6a701"
@@ -501,6 +460,28 @@
         {
             "name": "5.3.0",
             "sha256": "8ea7269604cba949a6ea84b78dc92a44fa890427db88334da6358813f6512e34"
+        }
+    ],
+    "versions_deprecated": [
+        {
+            "name": "5.2.3",
+            "sha256": "36f74ce53b82331a756c42f95f3138498d6f4a66f2fd370cff9ab18281bb12d5"
+        },
+        {
+            "name": "5.2.1",
+            "sha256": "6be804ba8d9e491a85063c220cd0ddbf3d13e3b481eee31041c35a938723f4c6"
+        },
+        {
+            "name": "5.2.0",
+            "sha256": "b178b7db5f0af55b21b5f744b8825f5e002daec69b4688e50df2bca2fac155bd"
+        },
+        {
+            "name": "5.1.3",
+            "sha256": "915374431db8f0cecdc2bf318a0ad33c3a8eceedc461d7a06b92ccb02b07313c"
+        },
+        {
+            "name": "5.1.0",
+            "sha256": "efa0c424b5ada697314aa8a78c19c93ade15f1612c4bfc8c53d71d1c9719aaa3"
         }
     ]
 }

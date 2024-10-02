@@ -28,6 +28,10 @@
     ],
     "dependent_to": [
         {
+            "description": "3proxy - tiny free proxy server",
+            "name": "3proxy"
+        },
+        {
             "description": "Commands for Manipulating POSIX Access Control Lists.",
             "name": "acl"
         },
@@ -128,6 +132,10 @@
             "name": "bison"
         },
         {
+            "description": "N-dimensional arrays for C++",
+            "name": "blitz"
+        },
+        {
             "description": "BOINC is a platform for high-throughput computing on a large scale\n(thousands or millions of computers). It can be used for volunteer\ncomputing (using consumer devices) or grid computing (using\norganizational resources). It supports virtualized, parallel, and GPU-\nbased applications.",
             "name": "boinc-client"
         },
@@ -158,10 +166,6 @@
         {
             "description": "A curses front-end to GDB",
             "name": "cgdb"
-        },
-        {
-            "description": "Chapel is a modern programming language that is parallel, productive,\nportable, scalable and open-source. The Chapel package comes with many\noptions in the form of variants, most of which can be left unset to\nallow Chapel's built-in scripts to determine the proper values based on\nthe environment.",
-            "name": "chapel"
         },
         {
             "description": "Lightweight user-defined software stacks for HPC.",
@@ -380,6 +384,10 @@
             "name": "geoip-api-c"
         },
         {
+            "description": "GEOPM is an extensible power management framework targeting HPC. The\nGEOPM package provides libgeopm, libgeopmpolicy and applications\ngeopmctl and geopmpolicy, as well as tools for postprocessing. GEOPM is\ndesigned to be extended for new control algorithms and new hardware\npower management features via its plugin infrastructure. Note: GEOPM\ninterfaces with hardware using Model Specific Registers (MSRs). For\npropper usage make sure MSRs are made available directly or via the msr-\nsafe kernel module by your administrator.",
+            "name": "geopm"
+        },
+        {
             "description": "This package generates containers (Vector, Set, Map, ...) with Fortran\ninterfaces. It is essentially a brute force analog of C++ STL. This\npackage, gFTL, provides a mechanism to easily create robust containers\nand associated iterators which can be used within Fortran applications.\nThe primary methods are intended to be as close to their C++ STL analogs\nas possible. We have found that these containers are a powerful\nproductivity multiplier for certain types of software development, and\nhope that others find them to be just as useful. Currently, the\nfollowing three types of containers are provided. * Vector (list) * Set\n* Map (associated array) Contributions of additional containers are very\nmuch welcomed.",
             "name": "gftl"
         },
@@ -394,50 +402,6 @@
         {
             "description": "Git is a free and open source distributed version control system\ndesigned to handle everything from small to very large projects with\nspeed and efficiency.",
             "name": "git"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGridFTP Client Library.",
-            "name": "globus-ftp-client"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGridFTP Control Library.",
-            "name": "globus-ftp-control"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus Gass Transfer.",
-            "name": "globus-gass-transfer"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus OpenSSL Error Handling.",
-            "name": "globus-gsi-openssl-error"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus GSI Proxy Core Library.",
-            "name": "globus-gsi-proxy-core"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGSSAPI Assist library Programs.",
-            "name": "globus-gss-assist"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGSSAPI Error Library.",
-            "name": "globus-gssapi-error"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGSSAPI library.",
-            "name": "globus-gssapi-gsi"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nuniform I/O interface to stream and datagram style communications.",
-            "name": "globus-io"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus XIO Framework.",
-            "name": "globus-xio"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus XIO GSI Driver.",
-            "name": "globus-xio-gsi-driver"
         },
         {
             "description": "Gluster is a software defined distributed storage that can scale to\nseveral petabytes. It provides interfaces for object, block and file\nstorage.",
@@ -462,10 +426,6 @@
         {
             "description": "Autotools package for Gridlab-D, a new power distribution system\nsimulation and analysis tool that provides valuable information to users\nwho design and operate distribution systems, and to utilities that wish\nto take advantage of the latest energy technologies. Gridlab-D is a\nflexible simulation environment that can be integrated with a variety of\nthird-party data management and analysis tools.",
             "name": "gridlab-d"
-        },
-        {
-            "description": "Groff (GNU troff) is a typesetting system that reads plain text mixed\nwith formatting commands and produces formatted output. Output may be\nPostScript or PDF, html, or ASCII/UTF8 for display at the terminal.",
-            "name": "groff"
         },
         {
             "description": "The GNU Scientific Library (GSL) is a numerical library for C and C++\nprogrammers. It is free software under the GNU General Public License.\nThe library provides a wide range of mathematical routines such as\nrandom number generators, special functions and least-squares fitting.\nThere are over 1000 functions in total with an extensive test suite.",
@@ -616,6 +576,10 @@
             "name": "libbeagle"
         },
         {
+            "description": "libbson is a library providing useful routines related to building,\nparsing, and iterating BSON documents.",
+            "name": "libbson"
+        },
+        {
             "description": "Libcap-ng is a library that makes using posix capabilities easier",
             "name": "libcap-ng"
         },
@@ -720,7 +684,7 @@
             "name": "libmetalink"
         },
         {
-            "description": "libmnl is a minimalistic user-space library oriented to Netlink\ndevelopers. There are a lot of common tasks in parsing, validating,\nconstructing of both the Netlink header and TLVs that are repetitive and\neasy to get wrong. This library aims to provide simple helpers that\nallows you to re-use code and to avoid re-inventing the wheel.",
+            "description": "libmnl is a minimalistic user-space library oriented to Netlink\ndevelopers.There are a lot of common tasks in parsing, validating,\nconstructing of both the Netlink header and TLVs that are repetitive and\neasy to get wrong.This library aims to provide simple helpers that\nallows you to re-use code and to avoid re-inventing the wheel.",
             "name": "libmnl"
         },
         {
@@ -920,6 +884,10 @@
             "name": "mokutil"
         },
         {
+            "description": "libmongoc is a client library written in C for MongoDB.",
+            "name": "mongo-c-driver"
+        },
+        {
             "description": "\" Motif - Graphical user interface (GUI) specification and the widget\ntoolkit",
             "name": "motif"
         },
@@ -1018,6 +986,10 @@
         {
             "description": "A few really fast tools to convert, filter and update OpenStreetMap data\nfiles",
             "name": "osmctools"
+        },
+        {
+            "description": "The Open Trace Format 2 is a highly scalable, memory efficient event\ntrace data format plus support library.",
+            "name": "otf2"
         },
         {
             "description": "p11-kit aims to solve problems with coordinating the use of PKCS #11 by\ndifferent components or libraries living in the same process, by\nproviding a way to load and enumerate PKCS #11 modules, as well as a\nstandard configuration setup for installing PKCS #11 modules in such a\nway that they're discoverable.",
@@ -1282,10 +1254,6 @@
         {
             "description": "Virtuoso is a high-performance and scalable Multi-Model RDBMS, Data\nIntegration Middleware, Linked Data Deployment, and HTTP Application\nServer Platform",
             "name": "virtuoso"
-        },
-        {
-            "description": "The VOMS native service and APIs.",
-            "name": "voms"
         },
         {
             "description": "VSEARCH is a versatile open-source tool for metagenomics.",

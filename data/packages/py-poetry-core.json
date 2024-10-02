@@ -82,10 +82,6 @@
             "name": "py-dunamai"
         },
         {
-            "description": "Read and write EDF/EDF+ files.",
-            "name": "py-edfio"
-        },
-        {
             "description": "This library implements expect tests (also known as \"golden\" tests).",
             "name": "py-expecttest"
         },

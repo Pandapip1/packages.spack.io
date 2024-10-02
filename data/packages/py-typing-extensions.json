@@ -150,10 +150,6 @@
             "name": "py-confection"
         },
         {
-            "description": "Creation and manipulation of parameter configuration spaces for\nautomated algorithm configuration and hyperparameter tuning.",
-            "name": "py-configspace"
-        },
-        {
             "description": "Additional utilities for click.",
             "name": "py-consolekit"
         },
@@ -164,10 +160,6 @@
         {
             "description": "Common workflow language reference implementation",
             "name": "py-cwltool"
-        },
-        {
-            "description": "Dash is the most downloaded, trusted Python framework for building ML &\ndata science web apps.",
-            "name": "py-dash"
         },
         {
             "description": "data distribution geared toward scientific datasets. DataLad makes data\nmanagement and data distribution more accessible. To do that, it stands\non the shoulders of Git and Git-annex to deliver a decentralized system\nfor data exchange. This includes automated ingestion of data from online\nportals and exposing it in readily usable form as Git(-annex)\nrepositories, so-called datasets. The actual data storage and permission\nmanagement, however, remains with the original data providers.",
@@ -234,10 +226,6 @@
             "name": "py-gitpython"
         },
         {
-            "description": "Globus SDK for Python",
-            "name": "py-globus-sdk"
-        },
-        {
             "description": "Python library for easily interacting with trained machine learning\nmodels",
             "name": "py-gradio-client"
         },
@@ -248,10 +236,6 @@
         {
             "description": "A pure-Python, bring-your-own-I/O implementation of HTTP/1.1",
             "name": "py-h11"
-        },
-        {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
         },
         {
             "description": "Fancy PyPI READMEs with Hatch.",
@@ -284,6 +268,10 @@
         {
             "description": "IPython provides a rich toolkit to help you make the most out of using\nPython interactively.",
             "name": "py-ipython"
+        },
+        {
+            "description": "JAX is Autograd and XLA, brought together for high-performance machine\nlearning research. With its updated version of Autograd, JAX can\nautomatically differentiate native Python and NumPy functions. It can\ndifferentiate through loops, branches, recursion, and closures, and it\ncan take derivatives of derivatives of derivatives. It supports reverse-\nmode differentiation (a.k.a. backpropagation) via grad as well as\nforward-mode differentiation, and the two can be composed arbitrarily to\nany order.",
+            "name": "py-jax"
         },
         {
             "description": "An extension to python's argparse which simplifies parsing of\nconfiguration options from command line arguments, json configuration\nfiles (yaml or jsonnet supersets), environment variables and hard-coded\ndefaults.",
@@ -344,10 +332,6 @@
         {
             "description": "A Sphinx and Docutils extension to parse MyST, a rich and extensible\nflavour of Markdown for authoring technical and scientific\ndocumentation.",
             "name": "py-myst-parser"
-        },
-        {
-            "description": "nanobind is a small binding library that exposes C++ types in Python and\nvice versa. It is reminiscent of Boost.Python and pybind11 and uses\nnear-identical syntax. In contrast to these existing tools, nanobind is\nmore efficient: bindings compile in a shorter amount of time, produce\nsmaller binaries, and have better runtime performance.",
-            "name": "py-nanobind"
         },
         {
             "description": "Reusable tools for working with next-generation sequencing (NGS) data.",
@@ -414,10 +398,6 @@
             "name": "py-pydantic"
         },
         {
-            "description": "Core functionality for Pydantic validation and serialization",
-            "name": "py-pydantic-core"
-        },
-        {
             "description": "Pydantic Models for the GA4GH Task Execution Service",
             "name": "py-pydantic-tes"
         },
@@ -438,16 +418,8 @@
             "name": "py-pylint"
         },
         {
-            "description": "This project provides pylint formatters for a nice integration with\nGitLab CI.",
-            "name": "py-pylint-gitlab"
-        },
-        {
             "description": "Python library for reading and writing NRRD files into and from numpy\narrays",
             "name": "py-pynrrd"
-        },
-        {
-            "description": "A pure-python PDF library capable of splitting, merging, cropping, and\ntransforming PDF files",
-            "name": "py-pypdf"
         },
         {
             "description": "PyPDF2 is a free and open source pure-python PDF library capable of\nsplitting, merging, cropping, and transforming the pages of PDF files.\nIt can also add custom data, viewing options, and passwords to PDF\nfiles. PyPDF2 can retrieve text and metadata from PDFs as well.",
@@ -664,7 +636,7 @@
     ],
     "description": "The typing_extensions module contains both backports of these changes as\nwell as experimental types that will eventually be added to the typing\nmodule, such as Protocol (see PEP 544 for details about protocols and\nstatic duck typing).\n",
     "homepage": "https://github.com/python/typing_extensions",
-    "latest_version": "4.12.2",
+    "latest_version": "4.8.0",
     "maintainers": [],
     "name": "py-typing-extensions",
     "patches": [],
@@ -677,10 +649,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "4.12.2",
-            "sha256": "1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"
-        },
         {
             "name": "4.8.0",
             "sha256": "df8e4339e9cb77357558cbdbceca33c303714cf861d1eef15e1070055ae8b7ef"

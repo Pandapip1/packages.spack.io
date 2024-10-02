@@ -36,7 +36,7 @@
     "dependent_to": [],
     "description": "A general-purpose programming language and toolchain for maintaining\nrobust, optimal, and reusable software.\n",
     "homepage": "https://ziglang.org/",
-    "latest_version": "0.13.0",
+    "latest_version": "0.12.0",
     "maintainers": [
         "alalazo"
     ],
@@ -67,11 +67,6 @@
     ],
     "versions": [
         {
-            "commit": "cf90dfd3098bef5b3c22d5ab026173b3c357f2dd",
-            "name": "0.13.0",
-            "tag": "0.13.0"
-        },
-        {
             "commit": "a685ab1499d6560c523f0dbce2890dc140671e43",
             "name": "0.12.0",
             "tag": "0.12.0"
@@ -87,5 +82,11 @@
             "tag": "0.10.1"
         }
     ],
-    "versions_deprecated": []
+    "versions_deprecated": [
+        {
+            "commit": "6d44a6222d6eba600deb7f16c124bfa30628fb60",
+            "name": "0.9.1",
+            "tag": "0.9.1"
+        }
+    ]
 }

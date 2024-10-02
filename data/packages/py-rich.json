@@ -74,14 +74,6 @@
             "name": "py-flax"
         },
         {
-            "description": "Framework for studying fluid dynamics with simulations.",
-            "name": "py-fluidsim"
-        },
-        {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
-        },
-        {
             "description": "Multi-backend Keras. Keras 3 is a new multi-backend implementation of\nthe Keras API, with support for TensorFlow, JAX, and PyTorch.",
             "name": "py-keras"
         },
@@ -118,10 +110,6 @@
             "name": "py-refgenconf"
         },
         {
-            "description": "rich-argparse improves the look and readability of argparse's help while\nrequiring minimal changes to the code.",
-            "name": "py-rich-argparse"
-        },
-        {
             "description": "The intention of rich-click is to provide attractive help output from\nclick, formatted with rich, with minimal customisation required.",
             "name": "py-rich-click"
         },
@@ -142,17 +130,13 @@
             "name": "py-twine"
         },
         {
-            "description": "Python library to read and process pulsar data in several different\nformats",
-            "name": "py-your"
-        },
-        {
             "description": "The SpECTRE numerical relativity code. SpECTRE is an open-source code\nfor multi-scale, multi-physics problems in astrophysics and\ngravitational physics. In the future, we hope that it can be applied to\nproblems across discipline boundaries in fluid dynamics, geoscience,\nplasma physics, nuclear physics, and engineering. It runs at petascale\nand is designed for future exascale computers. SpECTRE is being\ndeveloped in support of our collaborative Simulating eXtreme Spacetimes\n(SXS) research program into the multi-messenger astrophysics of neutron\nstar mergers, core-collapse supernovae, and gamma-ray bursts.",
             "name": "spectre"
         }
     ],
     "description": "Rich is a Python library for rich text and beautiful formatting in the\nterminal.\n",
     "homepage": "https://github.com/willmcgugan/rich",
-    "latest_version": "13.7.1",
+    "latest_version": "13.4.2",
     "maintainers": [],
     "name": "py-rich",
     "patches": [],
@@ -166,16 +150,8 @@
     ],
     "versions": [
         {
-            "name": "13.7.1",
-            "sha256": "9be308cb1fe2f1f57d67ce99e95af38a1e2bc71ad9813b0e247cf7ffbcc3a432"
-        },
-        {
             "name": "13.4.2",
             "sha256": "d653d6bccede5844304c605d5aac802c7cf9621efd700b46c7ec2b51ea914898"
-        },
-        {
-            "name": "12.6.0",
-            "sha256": "ba3a3775974105c221d31141f2c116f4fd65c5ceb0698657a11e9f295ec93fd0"
         },
         {
             "name": "12.5.1",

@@ -17,7 +17,7 @@
     "dependent_to": [],
     "description": " HAProxy is a single-threaded, event-driven, non-blocking engine\ncombining a very fast I/O layer with a priority-based scheduler.\n",
     "homepage": "https://www.haproxy.org",
-    "latest_version": "2.1.12",
+    "latest_version": "2.1.1",
     "maintainers": [],
     "name": "haproxy",
     "patches": [],
@@ -30,10 +30,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.1.12",
-            "sha256": "acebbf932f2703ee287d6e945bd845cde8c9db9a13f7cbb2a99671499c558056"
-        },
         {
             "name": "2.1.1",
             "sha256": "57e75c1a380fc6f6aa7033f71384370899443c7f4e8a4ba289b5d4350bc76d1a"

@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -389,11 +349,6 @@
         },
         {
             "description": null,
-            "name": "^spla@:1.5~openmp",
-            "spec": "@7.0.2:+openmp"
-        },
-        {
-            "description": null,
             "name": "~pugixml+tests",
             "spec": "@7.6:"
         },
@@ -466,7 +421,7 @@
             "name": "elpa"
         },
         {
-            "description": "NVPL FFT (NVIDIA Performance Libraries FFT) is part of NVIDIA\nPerformance Libraries and provides Fast Fourier Transform (FFT)\ncalculations on ARM CPUs.",
+            "description": "This is an earlier version of Intel parallel software development tools\nand has now been replaced by the Intel oneAPI Toolkits. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.",
             "name": "fftw-api"
         },
         {
@@ -622,7 +577,7 @@
     ],
     "description": "Domain specific library for electronic structure calculations\n",
     "homepage": "https://github.com/electronic-structure/SIRIUS",
-    "latest_version": "7.6.1",
+    "latest_version": "7.5.2",
     "maintainers": [
         "AdhocMan",
         "dev-zero",
@@ -792,14 +747,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "7.6.1",
-            "sha256": "16a114dc17e28697750585820e69718a96e6929f88406d266c75cf9a7cdbdaaa"
-        },
-        {
-            "name": "7.6.0",
-            "sha256": "e424206fecb35bb2082b5c87f0865a9536040e984b88b041e6f7d531f8a65b20"
         },
         {
             "name": "7.5.2",

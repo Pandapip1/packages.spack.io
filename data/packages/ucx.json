@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -460,10 +420,6 @@
             "name": "daos"
         },
         {
-            "description": "LCI: the Lightweight Communication Interface",
-            "name": "lci"
-        },
-        {
             "description": "Legion is a data-centric parallel programming system for writing\nportable high performance programs targeted at distributed heterogeneous\narchitectures. Legion presents abstractions which allow programmers to\ndescribe properties of program data (e.g. independence, locality). By\nmaking the Legion programming system aware of the structure of program\ndata, it can automate many of the tedious tasks programmers currently\nface, including correctly extracting task- and data-level parallelism\nand moving data around complex memory hierarchies. A novel mapping\ninterface provides explicit programmer controlled placement of data in\nthe memory hierarchy and assignment of tasks to processors in a way that\nis orthogonal to correctness, thereby enabling easy porting and tuning\nof Legion applications to new architectures.",
             "name": "legion"
         },
@@ -496,10 +452,6 @@
             "name": "openmpi"
         },
         {
-            "description": "Tensors and Dynamic neural networks in Python with strong GPU\nacceleration.",
-            "name": "py-torch"
-        },
-        {
             "description": "UCX-Py is the Python interface for UCX, a low-level high-performance\nnetworking library. UCX and UCX-Py supports several transport methods\nincluding InfiniBand and NVLink while still using traditional networking\nprotocols like TCP.",
             "name": "py-ucx-py"
         },
@@ -509,8 +461,8 @@
         }
     ],
     "description": "a communication library implementing high-performance messaging for\nMPI/PGAS frameworks\n",
-    "homepage": "https://www.openucx.org",
-    "latest_version": "1.17.0",
+    "homepage": "http://www.openucx.org",
+    "latest_version": "1.16.0",
     "maintainers": [
         "hppritcha"
     ],
@@ -705,10 +657,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.17.0",
-            "sha256": "34658e282f99f89ce7a991c542e9727552734ac6ad408c52f22b4c2653b04276"
-        },
         {
             "name": "1.16.0",
             "sha256": "f73770d3b583c91aba5fb07557e655ead0786e057018bfe42f0ebe8716e9d28c"

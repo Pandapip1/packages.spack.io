@@ -40,8 +40,8 @@
     ],
     "dependent_to": [],
     "description": "xwininfo prints information about windows on an X server. Various\ninformation is displayed depending on which options are selected.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xwininfo",
-    "latest_version": "1.1.6",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xwininfo",
+    "latest_version": "1.1.5",
     "maintainers": [],
     "name": "xwininfo",
     "patches": [],
@@ -54,10 +54,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.1.6",
-            "sha256": "2d52151de9d2808343c715c480e7d37f88958c8b7fcd090178b097436d987c2b"
-        },
         {
             "name": "1.1.5",
             "sha256": "aaa915909bb509320c3c775c79babaccc063fd3edc39e520a3c0352e265e9f58"

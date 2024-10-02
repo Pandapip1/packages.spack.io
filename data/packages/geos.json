@@ -94,7 +94,7 @@
     ],
     "description": "GEOS (Geometry Engine, Open Source). GEOS is a C/C++ library for\ncomputational geometry with a focus on algorithms used in geographic\ninformation systems (GIS) software. It implements the OGC Simple\nFeatures geometry model and provides all the spatial functions in that\nstandard as well as many others. GEOS is a core dependency of PostGIS,\nQGIS, GDAL, and Shapely.\n",
     "homepage": "https://libgeos.org/",
-    "latest_version": "3.13.0",
+    "latest_version": "3.12.1",
     "maintainers": [
         "adamjstewart"
     ],
@@ -140,24 +140,12 @@
     ],
     "versions": [
         {
-            "name": "3.13.0",
-            "sha256": "47ec83ff334d672b9e4426695f15da6e6368244214971fabf386ff8ef6df39e4"
-        },
-        {
-            "name": "3.12.2",
-            "sha256": "34c7770bf0090ee88488af98767d08e779f124fa33437e0aabec8abd4609fec6"
-        },
-        {
             "name": "3.12.1",
             "sha256": "d6ea7e492224b51193e8244fe3ec17c4d44d0777f3c32ca4fb171140549a0d03"
         },
         {
             "name": "3.12.0",
             "sha256": "d96db96011259178a35555a0f6d6e75a739e52a495a6b2aa5efb3d75390fbc39"
-        },
-        {
-            "name": "3.11.4",
-            "sha256": "364c88ccfc38aa50cf65c700e7b2ae4706ed103326128493dbf750c78d136d2c"
         },
         {
             "name": "3.11.3",

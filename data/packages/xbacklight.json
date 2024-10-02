@@ -36,7 +36,7 @@
     ],
     "dependent_to": [],
     "description": "Xbacklight is used to adjust the backlight brightness where supported.\nIt uses the RandR extension to find all outputs on the X server\nsupporting backlight brightness control and changes them all in the same\nway.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xbacklight",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xbacklight",
     "latest_version": "1.2.3",
     "maintainers": [],
     "name": "xbacklight",

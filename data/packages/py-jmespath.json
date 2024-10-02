@@ -54,10 +54,6 @@
             "name": "py-chalice"
         },
         {
-            "description": "Globus CLI is a standalone application that can be installed on the\nuser's machine and is used to access the Globus service. The CLI\nprovides an interface to Globus services from the shell, and is suited\nto both interactive and simple scripting use cases.",
-            "name": "py-globus-cli"
-        },
-        {
             "description": "A Command-Line Interface framework.",
             "name": "py-knack"
         }

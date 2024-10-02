@@ -120,10 +120,6 @@
             "name": "petsc"
         },
         {
-            "description": "C++ runtime system for parallellism and concurrency.",
-            "name": "pika"
-        },
-        {
             "description": "Tensors and Dynamic neural networks in Python with strong GPU\nacceleration.",
             "name": "py-torch"
         },
@@ -134,7 +130,7 @@
     ],
     "description": "An instrumentation framework for building dynamic analysis. There are\nValgrind tools that can automatically detect many memory management and\nthreading bugs, and profile your programs in detail. You can also use\nValgrind to build new tools. Valgrind is Open Source / Free Software,\nand is freely available under the GNU General Public License, version 2.\n",
     "homepage": "https://valgrind.org/",
-    "latest_version": "3.23.0",
+    "latest_version": "3.20.0",
     "maintainers": [],
     "name": "valgrind",
     "patches": [
@@ -185,18 +181,6 @@
         {
             "branch": "master",
             "name": "develop"
-        },
-        {
-            "name": "3.23.0",
-            "sha256": "c5c34a3380457b9b75606df890102e7df2c702b9420c2ebef9540f8b5d56264d"
-        },
-        {
-            "name": "3.22.0",
-            "sha256": "c811db5add2c5f729944caf47c4e7a65dcaabb9461e472b578765dd7bf6d2d4c"
-        },
-        {
-            "name": "3.21.0",
-            "sha256": "10ce1618bb3e33fad16eb79552b0a3e1211762448a0d7fce11c8a6243b9ac971"
         },
         {
             "name": "3.20.0",

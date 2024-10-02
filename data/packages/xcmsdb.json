@@ -32,7 +32,7 @@
     ],
     "dependent_to": [],
     "description": "xcmsdb is used to load, query, or remove Device Color Characterization\ndata stored in properties on the root window of the screen as specified\nin section 7, Device Color Characterization, of the X11 Inter-Client\nCommunication Conventions Manual (ICCCM).\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xcmsdb",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xcmsdb",
     "latest_version": "1.0.6",
     "maintainers": [],
     "name": "xcmsdb",

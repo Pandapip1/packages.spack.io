@@ -106,7 +106,7 @@
     ],
     "description": "Parallel Linear Algebra Software for Multicore Architectures, PLASMA is\na software package for solving problems in dense linear algebra using\nmulticore processors and Xeon Phi coprocessors. PLASMA provides\nimplementations of state-of-the-art algorithms using cutting-edge task\nscheduling techniques. PLASMA currently offers a collection of routines\nfor solving linear systems of equations, least squares problems,\neigenvalue problems, and singular value problems.\n",
     "homepage": "https://github.com/icl-utk-edu/plasma/",
-    "latest_version": "24.8.7",
+    "latest_version": "23.8.2",
     "maintainers": [
         "luszczek"
     ],
@@ -177,10 +177,6 @@
         {
             "git": "https://github.com/icl-utk-edu/plasma",
             "name": "develop"
-        },
-        {
-            "name": "24.8.7",
-            "sha256": "748464deb08642d2ea7309fb667e1383d85127c2cd8f0d134180b39c17834503"
         },
         {
             "name": "23.8.2",

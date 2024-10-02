@@ -28,10 +28,6 @@
         {
             "description": "Herwig is a multi-purpose particle physics event generator.",
             "name": "herwig3"
-        },
-        {
-            "description": "WHIZARD is a program system designed for the efficient calculation of\nmulti-particle scattering cross sections and simulated event samples.",
-            "name": "whizard"
         }
     ],
     "description": "The package GoSam allows for the automated calculation of one-loop\namplitudes for multi-particle processes in renormalizable quantum field\ntheories.\n",

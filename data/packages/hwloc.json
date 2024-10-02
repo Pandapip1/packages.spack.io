@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -381,6 +341,16 @@
             "description": null,
             "name": "amdgpu_target=none",
             "spec": "+rocm"
+        },
+        {
+            "description": null,
+            "name": "+netloc",
+            "spec": "@:1"
+        },
+        {
+            "description": null,
+            "name": "+libudev",
+            "spec": "@:1.10"
         },
         {
             "description": null,
@@ -488,10 +458,6 @@
             "name": "aws-ofi-nccl"
         },
         {
-            "description": "Chapel is a modern programming language that is parallel, productive,\nportable, scalable and open-source. The Chapel package comes with many\noptions in the form of variants, most of which can be left unset to\nallow Chapel's built-in scripts to determine the proper values based on\nthe environment.",
-            "name": "chapel"
-        },
-        {
             "description": "COUNTDOWN is a tool for identifying and automatically reducing the power\nconsumption of the computing elements, during communication and\nsynchronization primitives, filtering out phases which would detriment\nthe time to solution of the application.",
             "name": "countdown"
         },
@@ -500,16 +466,16 @@
             "name": "daos"
         },
         {
-            "description": "DLB is a dynamic library designed to speed up HPC hybrid applications\n(i.e., two levels of parallelism) by improving the load balance of the\nouter level of parallelism (e.g., MPI) by dynamically redistributing the\ncomputational resources at the inner level of parallelism (e.g.,\nOpenMP). at run time.",
-            "name": "dlb"
-        },
-        {
             "description": "A next-generation resource manager (pre-alpha)",
             "name": "flux-core"
         },
         {
             "description": "FunHPC: Functional HPC Programming",
             "name": "funhpc"
+        },
+        {
+            "description": "GEOPM is an extensible power management framework targeting HPC. The\nGEOPM package provides libgeopm, libgeopmpolicy and applications\ngeopmctl and geopmpolicy, as well as tools for postprocessing. GEOPM is\ndesigned to be extended for new control algorithms and new hardware\npower management features via its plugin infrastructure. Note: GEOPM\ninterfaces with hardware using Model Specific Registers (MSRs). For\npropper usage make sure MSRs are made available directly or via the msr-\nsafe kernel module by your administrator.",
+            "name": "geopm"
         },
         {
             "description": "GHOST: a General, Hybrid and Optimized Sparse Toolkit. This library\nprovides highly optimized building blocks for implementing sparse\niterative eigenvalue and linear solvers multi- and manycore clusters and\non heterogenous CPU/GPU machines. For an iterative solver library using\nthese kernels, see the phist package.",
@@ -686,15 +652,11 @@
         {
             "description": "XGBoost is an optimized distributed gradient boosting library designed\nto be highly efficient, flexible and portable. It implements machine\nlearning algorithms under the Gradient Boosting framework. XGBoost\nprovides a parallel tree boosting (also known as GBDT, GBM) that solve\nmany data science problems in a fast and accurate way. The same code\nruns on major distributed environment (Hadoop, SGE, MPI) and can solve\nproblems beyond billions of examples.",
             "name": "xgboost"
-        },
-        {
-            "description": "Utility for monitoring process, thread, OS and HW resources, including\nGPU utilization.",
-            "name": "zerosum"
         }
     ],
     "description": "The Hardware Locality (hwloc) software project. The Portable Hardware\nLocality (hwloc) software package provides a portable abstraction\n(across OS, versions, architectures, ...) of the hierarchical topology\nof modern architectures, including NUMA memory nodes, sockets, shared\ncaches, cores and simultaneous multithreading. It also gathers various\nsystem attributes such as cache and memory information as well as the\nlocality of I/O devices such as network interfaces, InfiniBand HCAs or\nGPUs. It primarily aims at helping applications with gathering\ninformation about modern computing hardware so as to exploit it\naccordingly and efficiently.\n",
     "homepage": "https://www.open-mpi.org/projects/hwloc/",
-    "latest_version": "2.11.1",
+    "latest_version": "2.9.1",
     "maintainers": [
         "bgoglin"
     ],
@@ -792,22 +754,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "2.11.1",
-            "sha256": "9f320925cfd0daeaf3a3d724c93e127ecac63750c623654dca0298504aac4c2c"
-        },
-        {
-            "name": "2.10.0",
-            "sha256": "c7fd8a1404a9719c76aadc642864b9f77aed1dc1fc8882d6af861a9260ba240d"
-        },
-        {
-            "name": "2.9.3",
-            "sha256": "5985db3a30bbe51234c2cd26ebe4ae9b4c3352ab788b1a464c40c0483bf4de59"
-        },
-        {
-            "name": "2.9.2",
-            "sha256": "ffb554d5735e0e0a19d1fd4b2b86e771d3b58b2d97f257eedacae67ade5054b3"
         },
         {
             "name": "2.9.1",

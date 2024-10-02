@@ -6,10 +6,6 @@
         {
             "description": "Perl 5 is a highly capable, feature-rich programming language with over\n27 years of development.",
             "name": "perl"
-        },
-        {
-            "description": "JSON serialising/deserialising, done correctly and fast",
-            "name": "perl-json-xs"
         }
     ],
     "dependent_to": [
@@ -20,10 +16,6 @@
         {
             "description": "Scan contig files against traditional PubMLST typing schemes",
             "name": "mlst"
-        },
-        {
-            "description": "File parsing and writing code for Ensembl.",
-            "name": "perl-bio-ensembl-io"
         },
         {
             "description": "polymake is open source software for research in polyhedral geometry",
@@ -54,11 +46,6 @@
             "default": "perl",
             "description": "Build systems supported by the package",
             "name": "build_system"
-        },
-        {
-            "default": true,
-            "description": "Makes the preferred backend JSON::XS available to avoid defaulting to the\n        slower JSON::PP",
-            "name": "json-xs"
         }
     ],
     "versions": [

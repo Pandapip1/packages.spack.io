@@ -114,10 +114,6 @@
             "name": "py-gradio"
         },
         {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
-        },
-        {
             "description": "HTTP-based REST interface to Stan, a package for Bayesian inference.",
             "name": "py-httpstan"
         },
@@ -164,7 +160,7 @@
     ],
     "description": "Supports both client and server side of HTTP protocol. Supports both\nclient and server Web-Sockets out-of-the-box and avoids Callbacks.\nProvides Web-server with middlewares and plugable routing.\n",
     "homepage": "https://github.com/aio-libs/aiohttp",
-    "latest_version": "3.9.5",
+    "latest_version": "3.8.4",
     "maintainers": [],
     "name": "py-aiohttp",
     "patches": [],
@@ -177,18 +173,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "3.9.5",
-            "sha256": "edea7d15772ceeb29db4aff55e482d4bcfb6ae160ce144f2682de02f6d693551"
-        },
-        {
-            "name": "3.9.4",
-            "sha256": "6ff71ede6d9a5a58cfb7b6fffc83ab5d4a63138276c771ac91ceaaddf5459644"
-        },
-        {
-            "name": "3.9.0",
-            "sha256": "09f23292d29135025e19e8ff4f0a68df078fe4ee013bca0105b2e803989de92d"
-        },
         {
             "name": "3.8.4",
             "sha256": "bf2e1a9162c1e441bf805a1fd166e249d574ca04e03b34f97e2928769e91ab5c"

@@ -42,24 +42,12 @@
             "name": "aws-parallelcluster"
         },
         {
-            "description": "CellProfiler cell image analysis software. CellProfiler is a free open-\nsource software designed to enable biologists without training in\ncomputer vision or programming to quantitatively measure phenotypes from\nthousands of images automatically.",
-            "name": "py-cellprofiler"
-        },
-        {
-            "description": "Core classes and components used by CellProfiler.",
-            "name": "py-cellprofiler-core"
-        },
-        {
             "description": "Git for data scientists - manage your code and data together.",
             "name": "py-dvc"
         },
         {
             "description": "Earth-2 Model Intercomparison Project (MIP). A python framework that\nenables climate researchers and scientists to explore and experiment\nwith AI models for weather and climate.",
             "name": "py-earth2mip"
-        },
-        {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
         },
         {
             "description": "Flexible metadata store for MLOps, built for research and production\nteams that run a lot of experiments.",

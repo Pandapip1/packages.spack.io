@@ -20,7 +20,7 @@
     ],
     "dependencies": [
         {
-            "description": "NVPL FFT (NVIDIA Performance Libraries FFT) is part of NVIDIA\nPerformance Libraries and provides Fast Fourier Transform (FFT)\ncalculations on ARM CPUs.",
+            "description": "This is an earlier version of Intel parallel software development tools\nand has now been replaced by the Intel oneAPI Toolkits. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.",
             "name": "fftw-api"
         },
         {
@@ -59,26 +59,7 @@
     "latest_version": "0.4.0",
     "maintainers": [],
     "name": "libvdwxc",
-    "patches": [
-        {
-            "level": 1,
-            "owner": "builtin.libvdwxc",
-            "reverse": false,
-            "sha256": "b9ad695e54a25d7ffa92f783bb0a31d3b421225f97958972e32ba42893844b80",
-            "url": "https://gitlab.com/libvdwxc/libvdwxc/-/commit/9340f857515c4a2e56d2aa7cf3a21c41ba8559c3.diff",
-            "version": "@:0.4.0",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.libvdwxc",
-            "relative_path": "fftw-detection.patch",
-            "reverse": false,
-            "sha256": "efe99ea2f42463dd1029e185ebf8d5aba6914beb96379af10e3e3be8cb60293f",
-            "version": "@:0.4.0",
-            "working_dir": "."
-        }
-    ],
+    "patches": [],
     "resources": [],
     "variants": [
         {

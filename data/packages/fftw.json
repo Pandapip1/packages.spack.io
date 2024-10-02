@@ -77,10 +77,6 @@
             "name": "accfft"
         },
         {
-            "description": "AMR-Wind is a massively parallel, block-structured adaptive-mesh,\nincompressible flow sover for wind turbine and wind farm simulations.",
-            "name": "amr-wind"
-        },
-        {
             "description": "RFI detector and quality analysis for astronomical radio observations.",
             "name": "aoflagger"
         },
@@ -123,10 +119,6 @@
         {
             "description": "Grid solver for DAMASK",
             "name": "damask-grid"
-        },
-        {
-            "description": "DCTZ is a compressor based on FFTs",
-            "name": "dctz"
         },
         {
             "description": "An all-electron full-potential linearised augmented-plane wave (FP-LAPW)\ncode with many advanced features.",
@@ -289,10 +281,6 @@
             "name": "psrchive"
         },
         {
-            "description": "Open source software to process some types of astronomy data.",
-            "name": "psrdada"
-        },
-        {
             "description": "PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy\nfor your sound applications. PulseAudio is a sound system for POSIX\nOSes, meaning that it is a proxy for your sound applications. It allows\nyou to do advanced operations on your sound data as it passes between\nyour application and your hardware. Things like transferring the audio\nto a different machine, changing the sample format or channel count and\nmixing several sounds into one are easily achieved using a sound server.",
             "name": "pulseaudio"
         },
@@ -307,26 +295,6 @@
         {
             "description": "ESPResSo++ is an extensible, flexible, fast and parallel simulation\nsoftware for soft matter research. It is a highly versatile software\npackage for the scientific simulation and analysis of coarse-grained\natomistic or bead-spring models as they are used in soft matter research",
             "name": "py-espressopp"
-        },
-        {
-            "description": "Fluidfft plugin using fftw.",
-            "name": "py-fluidfft-fftw"
-        },
-        {
-            "description": "Fluidfft plugin using fftwmpi.",
-            "name": "py-fluidfft-fftwmpi"
-        },
-        {
-            "description": "Fluidfft MPI plugin using fftw.",
-            "name": "py-fluidfft-mpi-with-fftw"
-        },
-        {
-            "description": "Fluidfft MPI plugin using p3dfft.",
-            "name": "py-fluidfft-p3dfft"
-        },
-        {
-            "description": "Fluidfft MPI plugin using pfft.",
-            "name": "py-fluidfft-pfft"
         },
         {
             "description": "GPAW is a density-functional theory (DFT) Python code based on the\nprojector-augmented wave (PAW) method and the atomic simulation\nenvironment (ASE).",
@@ -413,10 +381,6 @@
             "name": "unblur"
         },
         {
-            "description": "The Vienna Ab initio Simulation Package (VASP) is a computer program\nfor atomic scale materials modelling, e.g. electronic structure\ncalculations and quantum-mechanical molecular dynamics, from first\nprinciples.",
-            "name": "vasp"
-        },
-        {
             "description": "VIGRA stands for \"Vision with Generic Algorithms\". It's an image\nprocessing and analysis library that puts its main emphasis on\ncustomizable algorithms and data structures",
             "name": "vigra"
         },
@@ -425,7 +389,7 @@
             "name": "vpfft"
         },
         {
-            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid GPU/OpenMP/MPI parallelization and load\nbalancing capabilities.",
+            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid OpenMP/MPI parallelization, advanced\nvectorization techniques and load balancing capabilities. For WarpX'\nPython bindings and PICMI input support, see the 'py-warpx' package.",
             "name": "warpx"
         },
         {
@@ -444,17 +408,8 @@
             "owner": "builtin.fftw",
             "relative_path": "pfft-3.3.9.patch",
             "reverse": false,
-            "sha256": "d91747bd363d81c2ecf5dcfefff58a5ce72cc867a54dd221a0043645e09d3a4d",
+            "sha256": "c710e07d856c1f821396c56bc67f3d0b25e5586c5a3edd42d05e6c1bcc3b4b2c",
             "version": "@3.3.9:+pfft_patches",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.fftw",
-            "reverse": false,
-            "sha256": "872cff9a7d346e91a108ffd3540bfcebeb8cf86c7f40f6b31fd07a80267cbf53",
-            "url": "https://github.com/FFTW/fftw3/commit/f69fef7aa546d4477a2a3fd7f13fa8b2f6c54af7.patch?full_index=1",
-            "version": "@3.3.7:",
             "working_dir": "."
         },
         {

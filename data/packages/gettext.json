@@ -4,11 +4,6 @@
     "conflicts": [
         {
             "description": null,
-            "name": "%gcc@:5",
-            "spec": "@0.22:"
-        },
-        {
-            "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
         },
@@ -178,10 +173,6 @@
             "name": "gnutls"
         },
         {
-            "description": "An open source real-time web log analyzer and interactive viewer that\nruns in a terminal in *nix systems or through your browser",
-            "name": "goaccess"
-        },
-        {
             "description": "gsettings-desktop-schemas contains a collection of GSettings schemas for\nsettings shared by various components of a desktop.",
             "name": "gsettings-desktop-schemas"
         },
@@ -230,10 +221,6 @@
             "name": "libgd"
         },
         {
-            "description": "Contains the GNOME top libraries for collecting system monitoring data",
-            "name": "libgtop"
-        },
-        {
             "description": "GNU libmicrohttpd is a small C library that is supposed to make it easy\nto run an HTTP server as part of another application.",
             "name": "libmicrohttpd"
         },
@@ -246,20 +233,8 @@
             "name": "libpsl"
         },
         {
-            "description": "Window Navigator Construction Kit",
-            "name": "libwnck"
-        },
-        {
-            "description": "Libxfce4util common non-GTK+ utilities among the Xfce applications.",
-            "name": "libxfce4util"
-        },
-        {
             "description": "libXpm - X Pixmap (XPM) image file format library.",
             "name": "libxpm"
-        },
-        {
-            "description": "Linux PAM (Pluggable Authentication Modules for Linux) project.",
-            "name": "linux-pam"
         },
         {
             "description": "man-db is an implementation of the standard Unix documentation system\naccessed using the man command. It uses a Berkeley DB database in place\nof the traditional flat-text whatis databases.",
@@ -362,10 +337,6 @@
             "name": "texinfo"
         },
         {
-            "description": "Tumbler is a D-Bus service for applications to request thumbnails for\nXFCE4",
-            "name": "tumbler"
-        },
-        {
             "description": "Executes a program periodically, showing output fullscreen.",
             "name": "watch"
         },
@@ -376,10 +347,6 @@
         {
             "description": "The Wise2 package is now a rather stately bioinformatics package that\nhas be around for a while. Its key programs are genewise, a program for\naligning proteins or protein HMMs to DNA, and dynamite a rather cranky\n\"macro language\" which automates the production of dynamic programming.",
             "name": "wise2"
-        },
-        {
-            "description": "xfconf - Configuration Storage System for XFCE4",
-            "name": "xfconf"
         },
         {
             "description": "xfd - display all the characters in a font using either the X11 core\nprotocol or libXft2.",

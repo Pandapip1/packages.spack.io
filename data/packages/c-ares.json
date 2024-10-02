@@ -44,7 +44,7 @@
     ],
     "description": "c-ares: A C library for asynchronous DNS requests\n",
     "homepage": "https://c-ares.haxx.se",
-    "latest_version": "1.28.1",
+    "latest_version": "1.27.0",
     "maintainers": [],
     "name": "c-ares",
     "patches": [],
@@ -75,10 +75,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "1.28.1",
-            "sha256": "e520d971415e48e607819c2f4b377b0aa69044ef6619160bb41bdba15ab4d545"
         },
         {
             "name": "1.27.0",

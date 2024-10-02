@@ -53,8 +53,8 @@
     ],
     "dependent_to": [],
     "description": "The NCO toolkit manipulates and analyzes data stored in netCDF-\naccessible formats\n",
-    "homepage": "https://nco.sourceforge.net/",
-    "latest_version": "5.2.4",
+    "homepage": "http://nco.sourceforge.net/",
+    "latest_version": "5.1.9",
     "maintainers": [],
     "name": "nco",
     "patches": [
@@ -82,10 +82,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "5.2.4",
-            "sha256": "44efa9151825487fa0562fa5c6d68837624059a8e2da9d15c83ceb4d498f7902"
-        },
         {
             "name": "5.1.9",
             "sha256": "9cd90345c1e3860a690b53fd6c08b721d631a646d169431927884c99841c34e9"

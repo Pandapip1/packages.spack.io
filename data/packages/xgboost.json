@@ -69,21 +69,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -239,11 +224,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -270,32 +250,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -445,7 +405,7 @@
     ],
     "description": "XGBoost is an optimized distributed gradient boosting library designed\nto be highly efficient, flexible and portable. It implements machine\nlearning algorithms under the Gradient Boosting framework. XGBoost\nprovides a parallel tree boosting (also known as GBDT, GBM) that solve\nmany data science problems in a fast and accurate way. The same code\nruns on major distributed environment (Hadoop, SGE, MPI) and can solve\nproblems beyond billions of examples.\n",
     "homepage": "https://xgboost.ai/",
-    "latest_version": "2.1.1",
+    "latest_version": "1.6.2",
     "maintainers": [
         "adamjstewart"
     ],
@@ -498,21 +458,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "commit": "9c9db1259240bffe9040ed7ca6e3fb2c1bda80e4",
-            "name": "2.1.1",
-            "tag": "v2.1.1"
-        },
-        {
-            "commit": "213ebf7796b757448dfa2cfba532074696fa1524",
-            "name": "2.1.0",
-            "tag": "v2.1.0"
-        },
-        {
-            "commit": "36eb41c960483c8b52b44082663c99e6a0de440a",
-            "name": "1.7.6",
-            "tag": "v1.7.6"
         },
         {
             "commit": "b9934246faa9a25e10a12339685dfbe56d56f70b",

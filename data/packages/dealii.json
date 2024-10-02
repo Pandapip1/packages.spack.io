@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "+cuda ^cuda@12:",
             "spec": ""
         },
@@ -239,11 +224,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -270,32 +250,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -481,6 +441,16 @@
             "description": "dealii: The interface to simplex is supported from version 9.3.0 onwards. Please explicitly disable this variant via ~simplex",
             "name": "+simplex",
             "spec": "@:9.2"
+        },
+        {
+            "description": "dealii: The interface to taskflow is supported from version 9.6.0 onwards. Please explicitly disable this variant via ~taskflow",
+            "name": "+taskflow",
+            "spec": "@:9.5"
+        },
+        {
+            "description": "dealii: The interface to vtk is supported from version 9.6.0 onwards. Please explicitly disable this variant via ~vtk",
+            "name": "+vtk",
+            "spec": "@:9.5"
         },
         {
             "description": "dealii: Symbol clash between the ADOL-C library and Trilinos SEACAS Chaco.",
@@ -844,7 +814,7 @@
             "name": "cuda_arch"
         },
         {
-            "default": "default",
+            "default": "17",
             "description": "Compile using the specified C++ standard",
             "name": "cxxstd"
         },

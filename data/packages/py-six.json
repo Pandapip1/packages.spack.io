@@ -34,6 +34,10 @@
             "name": "cosmomc"
         },
         {
+            "description": "A next-generation resource manager (pre-alpha)",
+            "name": "flux-core"
+        },
+        {
             "description": "FreeCAD is an open-source parametric 3D modeler made primarily to design\nreal-life objects of any size. Parametric modeling allows you to easily\nmodify your design by going back into your model history to change its\nparameters.",
             "name": "freecad"
         },
@@ -92,10 +96,6 @@
         {
             "description": "agate is a Python data analysis library that is optimized for humans\ninstead of machines. It is an alternative to numpy and pandas that\nsolves real-world problems with readable code.",
             "name": "py-agate"
-        },
-        {
-            "description": "Anvi\u2019o is a comprehensive platform that brings together many aspects of\ntoday\u2019s cutting-edge computational strategies of data-enabled\nmicrobiology, including genomics, metagenomics, metatranscriptomics,\npangenomics, metapangenomics, phylogenomics, and microbial population\ngenetics in an integrated and easy-to-use fashion through extensive\ninteractive visualization capabilities.",
-            "name": "py-anvio"
         },
         {
             "description": "Python tree data library - lightweight and extensible Tree data\nstructure.",
@@ -220,10 +220,6 @@
         {
             "description": "The cdo package provides an interface to the Climate Data Operators from\nPython.",
             "name": "py-cdo"
-        },
-        {
-            "description": "CellProfiler cell image analysis software. CellProfiler is a free open-\nsource software designed to enable biologists without training in\ncomputer vision or programming to quantitatively measure phenotypes from\nthousands of images automatically.",
-            "name": "py-cellprofiler"
         },
         {
             "description": "Units of measure as required by the Climate and Forecast (CF) metadata\nconventions.",
@@ -570,10 +566,6 @@
             "name": "py-javaproperties"
         },
         {
-            "description": "Java Property file parser and writer for Python",
-            "name": "py-jproperties"
-        },
-        {
             "description": "A final implementation of JSONPath for Python that aims to be standard\ncompliant, including arithmetic and binary comparison operators.",
             "name": "py-jsonpath-ng"
         },
@@ -660,6 +652,10 @@
         {
             "description": "A general purpose workflow conductor for running multi-step simulation\nstudies.",
             "name": "py-maestrowf"
+        },
+        {
+            "description": "Matplotlib is a comprehensive library for creating static, animated, and\ninteractive visualizations in Python.",
+            "name": "py-matplotlib"
         },
         {
             "description": "ML Collections is a library of Python collections designed for ML\nusecases.",
@@ -1030,10 +1026,6 @@
             "name": "py-scikit-image"
         },
         {
-            "description": "Python library with Neural Networks for Image Segmentation based on\nPyTorch.",
-            "name": "py-segmentation-models-pytorch"
-        },
-        {
             "description": "SfePy (https://sfepy.org/) is a software for solving systems of coupled\npartial differential equations (PDEs) by the finite element method in\n1D, 2D and 3D. It can be viewed both as black-box PDE solver, and as a\nPython package which can be used for building custom applications.",
             "name": "py-sfepy"
         },
@@ -1052,10 +1044,6 @@
         {
             "description": "Sphinx Documentation Generator.",
             "name": "py-sphinx"
-        },
-        {
-            "description": "Fortran domain and autodoc extensions to Sphinx",
-            "name": "py-sphinx-fortran"
         },
         {
             "description": "A Sphinx extension for BibTeX style citations.",
@@ -1116,10 +1104,6 @@
         {
             "description": "tensorflow/datasets is a library of datasets ready to use with\nTensorFlow.",
             "name": "py-tensorflow-datasets"
-        },
-        {
-            "description": "TensorFlow Estimator is a high-level API that encapsulates model\ntraining, evaluation, prediction, and exporting.",
-            "name": "py-tensorflow-estimator"
         },
         {
             "description": "TensorFlow Probability (TFP) is a Python library built on TensorFlow\nthat makes it easy to combine probabilistic models and deep learning on\nmodern hardware (TPU, GPU). It's for data scientists, statisticians, ML\nresearchers, and practitioners who want to encode domain knowledge to\nunderstand data and make predictions.",

@@ -33,7 +33,7 @@
         }
     ],
     "description": "C-library to create PostScript files on the fly.\n",
-    "homepage": "https://pslib.sourceforge.net/",
+    "homepage": "http://pslib.sourceforge.net/",
     "latest_version": "0.4.5",
     "maintainers": [],
     "name": "pslib",

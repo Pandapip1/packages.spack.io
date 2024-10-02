@@ -32,7 +32,7 @@
     ],
     "description": "A tthresh implementation for libpressio\n",
     "homepage": "https://github.com/robertu94/libpressio_tthresh",
-    "latest_version": "0.0.8",
+    "latest_version": "0.0.7",
     "maintainers": [
         "robertu94"
     ],
@@ -65,10 +65,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "0.0.8",
-            "sha256": "c6590a965b0ff3e97db1bab8ddb6e552ad4f8142623d02323dc9598da9052309"
         },
         {
             "name": "0.0.7",

@@ -42,16 +42,16 @@
     ],
     "dependent_to": [
         {
+            "description": "ECP-CANDLE Benchmarks",
+            "name": "candle-benchmarks"
+        },
+        {
             "description": "A generalist algorithm for cell and nucleus segmentation that can be\noptimized for your own data",
             "name": "cellpose"
         },
         {
             "description": "Python tools for GATE, see https://github.com/OpenGATE/Gate",
             "name": "gatetools"
-        },
-        {
-            "description": "Advanced Profiling and Analytics for AMD Hardware",
-            "name": "omniperf"
         },
         {
             "description": "ABCpy is a highly modular, scientific library for approximate Bayesian\ncomputation (ABC) written in Python. It is designed to run all included\nABC algorithms in parallel, either using multiple cores of a single\ncomputer or using an Apache Spark or MPI enabled cluster.",
@@ -72,10 +72,6 @@
         {
             "description": "Python library to optimize and evaluate electrical models.",
             "name": "py-bluepyemodel"
-        },
-        {
-            "description": "Spatial indexer for geometries and morphologies",
-            "name": "py-brain-indexer"
         },
         {
             "description": "Climate Data Store API.",
@@ -154,10 +150,6 @@
             "name": "py-ford"
         },
         {
-            "description": "Google Drive Public File/Folder Downloader.",
-            "name": "py-gdown"
-        },
-        {
             "description": "A toolbox for accurate single-trial estimates in fMRI time-series data.",
             "name": "py-glmsingle"
         },
@@ -210,10 +202,6 @@
             "name": "py-lightning"
         },
         {
-            "description": "LPIPS Similarity metric",
-            "name": "py-lpips"
-        },
-        {
             "description": "Matminer is a library for performing data mining in the field of\nmaterials science.",
             "name": "py-matminer"
         },
@@ -232,10 +220,6 @@
         {
             "description": "MoviePy is a Python module for video editing, which can be used for\nbasic operations (like cuts, concatenations, title insertions), video\ncompositing (a.k.a. non-linear editing), video processing, or to create\nadvanced effects. It can read and write the most common video formats,\nincluding GIF.",
             "name": "py-moviepy"
-        },
-        {
-            "description": "MultiQC is a tool to aggregate bioinformatics results across many\nsamples into a single report. It is written in Python and contains\nmodules for a large number of common bioinformatics tools.",
-            "name": "py-multiqc"
         },
         {
             "description": "A package to download several URL as one, as well as supporting multi-\npart URLs.",
@@ -330,10 +314,6 @@
             "name": "py-pyro-ppl"
         },
         {
-            "description": "Sequence Elements Enrichment Analysis (SEER), python implementation",
-            "name": "py-pyseer"
-        },
-        {
             "description": "PyTorch Lightning is the lightweight PyTorch wrapper for ML researchers.",
             "name": "py-pytorch-lightning"
         },
@@ -406,10 +386,6 @@
             "name": "py-torch"
         },
         {
-            "description": "High-fidelity performance metrics for generative models in PyTorch",
-            "name": "py-torch-fidelity"
-        },
-        {
             "description": "Graph Neural Network Library for PyTorch.",
             "name": "py-torch-geometric"
         },
@@ -456,7 +432,7 @@
     ],
     "description": "A Fast, Extensible Progress Meter\n",
     "homepage": "https://github.com/tqdm/tqdm",
-    "latest_version": "4.66.3",
+    "latest_version": "4.66.1",
     "maintainers": [],
     "name": "py-tqdm",
     "patches": [],
@@ -479,10 +455,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "4.66.3",
-            "sha256": "23097a41eba115ba99ecae40d06444c15d1c0c698d527a01c6c8bd1c5d0647e5"
-        },
         {
             "name": "4.66.1",
             "sha256": "d88e651f9db8d8551a62556d3cff9e3034274ca5d66e93197cf2490e2dcb69c7"

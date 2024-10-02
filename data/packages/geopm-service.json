@@ -50,10 +50,6 @@
     ],
     "dependencies": [
         {
-            "description": "Autoconf -- system configuration part of autotools",
-            "name": "autoconf"
-        },
-        {
             "description": "Automake -- make file builder part of autotools",
             "name": "automake"
         },
@@ -110,10 +106,6 @@
             "name": "py-docstring-parser"
         },
         {
-            "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely.",
-            "name": "py-geopmdpy"
-        },
-        {
             "description": "Jsonschema: An(other) implementation of JSON Schema for Python.",
             "name": "py-jsonschema"
         },
@@ -132,10 +124,6 @@
         {
             "description": "A Python utility that aids in the process of downloading, building,\nupgrading, installing, and uninstalling Python packages.",
             "name": "py-setuptools"
-        },
-        {
-            "description": "The blessed package to manage your versions by scm tags.",
-            "name": "py-setuptools-scm"
         },
         {
             "description": "Sphinx Documentation Generator.",
@@ -178,7 +166,7 @@
     ],
     "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely. Note:\nGEOPM interfaces with hardware using Model Specific Registers (MSRs).\nFor proper usage make sure MSRs are made available via the msr or msr-\nsafe kernel modules by your administrator.\n",
     "homepage": "https://geopm.github.io",
-    "latest_version": "3.1.0",
+    "latest_version": "3.0.1",
     "maintainers": [
         "bgeltz",
         "cmcantalupo"
@@ -252,10 +240,6 @@
         {
             "branch": "dev",
             "name": "develop"
-        },
-        {
-            "name": "3.1.0",
-            "sha256": "2d890cad906fd2008dc57f4e06537695d4a027e1dc1ed92feed4d81bb1a1449e"
         },
         {
             "name": "3.0.1",

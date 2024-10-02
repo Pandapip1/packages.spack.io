@@ -82,7 +82,7 @@
         }
     ],
     "description": "PLplot is a cross-platform package for creating scientific plots.\n",
-    "homepage": "https://plplot.sourceforge.net/",
+    "homepage": "http://plplot.sourceforge.net/",
     "latest_version": "5.15.0",
     "maintainers": [],
     "name": "plplot",

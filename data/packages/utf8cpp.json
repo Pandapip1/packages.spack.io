@@ -10,7 +10,7 @@
         }
     ],
     "description": "A simple, portable and lightweight generic library for handling UTF-8\nencoded strings.\n",
-    "homepage": "https://utfcpp.sourceforge.net/",
+    "homepage": "http://utfcpp.sourceforge.net/",
     "latest_version": "2.3.4",
     "maintainers": [],
     "name": "utf8cpp",

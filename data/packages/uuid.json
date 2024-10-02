@@ -34,10 +34,6 @@
     ],
     "dependent_to": [
         {
-            "description": "This package provides runtime libraries required to use parsers\ngenerated for the Cpp language by version 4 of ANTLR (ANother Tool for\nLanguage Recognition).",
-            "name": "antlr4-cpp-runtime"
-        },
-        {
             "description": "Apptainer is an open source container platform designed to be simple,\nfast, and secure. Many container platforms are available, but Apptainer\nis designed for ease-of-use on shared systems and in high performance\ncomputing (HPC) environments. Needs post-install chmod/chown steps to\nenable full functionality. See package definition or `spack-build-\nout.txt` build log for details, e.g.: tail -15 $(spack location -i\napptainer)/.spack/spack-build-out.txt",
             "name": "apptainer"
         },
@@ -52,10 +48,6 @@
         {
             "description": "Bcache is a patch for the Linux kernel to use SSDs to cache other block\ndevices.",
             "name": "bcache"
-        },
-        {
-            "description": "BLAT (BLAST-like alignment tool) is a pairwise sequence alignment\nalgorithm.",
-            "name": "blat"
         },
         {
             "description": "CDO is a collection of command line Operators to manipulate and analyse\nClimate and NWP model Data.",
@@ -74,10 +66,6 @@
             "name": "czmq"
         },
         {
-            "description": "The Distributed Asynchronous Object Storage (DAOS) is an open-source\nsoftware-defined object store designed from the ground up for massively\ndistributed Non Volatile Memory (NVM).",
-            "name": "daos"
-        },
-        {
             "description": "High-performance file management over WebDAV/HTTP.",
             "name": "davix"
         },
@@ -86,20 +74,12 @@
             "name": "dia"
         },
         {
-            "description": "Elbencho storage benchmark",
-            "name": "elbencho"
-        },
-        {
             "description": "A next-generation resource manager (pre-alpha)",
             "name": "flux-core"
         },
         {
             "description": "A scheduler for flux-core",
             "name": "flux-sched"
-        },
-        {
-            "description": "Independent project for Flux security code and APIs.",
-            "name": "flux-security"
         },
         {
             "description": "Fontconfig is a library for configuring/customizing font access",
@@ -120,10 +100,6 @@
         {
             "description": "The guacamole-server package is a set of software which forms the basis\nof the Guacamole stack. It consists of guacd, libguac, and several\nprotocol support libraries.",
             "name": "guacamole-server"
-        },
-        {
-            "description": "Jim Kent command line bioinformatic utilities and libraries This\nbundles a custom version of htslib, but can be overridden with ~htslib.\nConsider adding the ^mysql+client_only dependency to avoid building all\nmysql/mariadb.",
-            "name": "kentutils"
         },
         {
             "description": "libdap4 is is a c++ library to serve as a client for the OPeNDAP\nframework that simplifies all aspects of scientific data networking and\nprovides software which makes local data accessible to remote locations\nregardless of local storage format.",
@@ -210,14 +186,6 @@
             "name": "taskd"
         },
         {
-            "description": "Remove lines from bed file that refer to off-chromosome locations.",
-            "name": "ucsc-bedclip"
-        },
-        {
-            "description": "Convert a bedGraph file to bigWig format.",
-            "name": "ucsc-bedgraphtobigwig"
-        },
-        {
             "description": "QuantStack C++ implementation of Jupyter kernel protocol",
             "name": "xeus"
         },
@@ -236,7 +204,7 @@
     ],
     "description": "Util-linux is a suite of essential utilities for any Linux system.\n",
     "homepage": "https://github.com/util-linux/util-linux",
-    "latest_version": "2.40.2",
+    "latest_version": "2.38.1",
     "maintainers": [],
     "name": "util-linux-uuid",
     "patches": [],
@@ -249,14 +217,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.40.2",
-            "sha256": "7bec316b713a14c6be1a5721aa0e56a3b6170277329e6e1f1a56013cc91eece0"
-        },
-        {
-            "name": "2.40.1",
-            "sha256": "8e396eececae2b3b68db232c33b8810faa7c31f6df19f98f512739293d5829b7"
-        },
         {
             "name": "2.38.1",
             "sha256": "0820eb8eea90408047e3715424bc6be771417047f683950fecb4bdd2e2cbbc6e"

@@ -32,7 +32,7 @@
     ],
     "description": "lua bindings to libmpack\n",
     "homepage": "https://github.com/libmpack/libmpack-lua/",
-    "latest_version": "1.0.12",
+    "latest_version": "1.0.9",
     "maintainers": [],
     "name": "lua-mpack",
     "patches": [],
@@ -45,10 +45,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.0.12",
-            "sha256": "06b662b1f14cfaf592ecb3fab425bef20e51439509b7a1736a790ecc929ef8bf"
-        },
         {
             "name": "1.0.9",
             "sha256": "0fd07e709c3f6f201c2ffc9f77cef1b303b02c12413f0c15670a32bf6c959e9e"

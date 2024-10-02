@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -383,11 +343,6 @@
             "spec": "@:0.19"
         },
         {
-            "description": null,
-            "name": "%gcc@13:",
-            "spec": "@:0.20"
-        },
-        {
             "description": "py-horovod: Gloo cannot be compiled on MacOS",
             "name": "controllers=gloo",
             "spec": "@:0.20.0 arch=darwin-None-None"
@@ -395,7 +350,7 @@
         {
             "description": null,
             "name": "^py-torch@2.1:",
-            "spec": "@:0.24"
+            "spec": ""
         },
         {
             "description": "py-horovod: NCCL requires either CUDA or ROCm support",
@@ -517,7 +472,7 @@
             "name": "py-tensorflow"
         },
         {
-            "description": "TensorFlow Estimator is a high-level API that encapsulates model\ntraining, evaluation, prediction, and exporting.",
+            "description": "TensorFlow Estimator is a high-level TensorFlow API that greatly\nsimplifies machine learning programming.",
             "name": "py-tensorflow-estimator"
         },
         {
@@ -562,24 +517,6 @@
     ],
     "name": "py-horovod",
     "patches": [
-        {
-            "level": 1,
-            "owner": "builtin.py-horovod",
-            "reverse": false,
-            "sha256": "9ecd4e8e315764afab20f2086e24baccf8178779a3c663196b24dc55a23a6aca",
-            "url": "https://github.com/horovod/horovod/pull/3998.patch?full_index=1",
-            "version": "@0.25:0.28.1",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.py-horovod",
-            "reverse": false,
-            "sha256": "9e22e312c0cbf224b4135ba70bd4fd2e4170d8316c996643e360112abaac8f93",
-            "url": "https://github.com/horovod/horovod/pull/3957.patch?full_index=1",
-            "version": "@0.21:0.28.1",
-            "working_dir": "."
-        },
         {
             "level": 1,
             "owner": "builtin.py-horovod",

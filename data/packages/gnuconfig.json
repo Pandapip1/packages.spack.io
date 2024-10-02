@@ -305,10 +305,6 @@
             "name": "bigdft-libabinit"
         },
         {
-            "description": "BigDFT-liborbs: a library for orbital treatments in DFT.",
-            "name": "bigdft-liborbs"
-        },
-        {
             "description": "BigDFT-Psolver: a flexible real-space Poisson Solver based on\nInterpolating Scaling Functions. It constitutes a fundamental building\nblock of BigDFT code, and it can also be used separately and linked to\nother codes.",
             "name": "bigdft-psolver"
         },
@@ -359,6 +355,10 @@
         {
             "description": "Basic Local Alignment Search Tool.",
             "name": "blast-plus"
+        },
+        {
+            "description": "N-dimensional arrays for C++",
+            "name": "blitz"
         },
         {
             "description": "A filesystem benchmark tool that simulates a realistic load.",
@@ -445,10 +445,6 @@
             "name": "cdecimal"
         },
         {
-            "description": "CDI is a C and Fortran Interface to access Climate and NWP model Data.\nSupported data formats are GRIB, netCDF, SERVICE, EXTRA and IEG.",
-            "name": "cdi"
-        },
-        {
             "description": "CDO is a collection of command line Operators to manipulate and analyse\nClimate and NWP model Data.",
             "name": "cdo"
         },
@@ -473,11 +469,11 @@
             "name": "cgm"
         },
         {
-            "description": "ChaNGa (Charm N-body GrAvity solver) is a code to perform collisionless\nN-body simulations.",
+            "description": "ChaNGa (Charm N-body GrAvity solver) is a code to perform collisionless\nN-body simulations. It can perform cosmological simulations with\nperiodic boundary conditions in comoving coordinates or simulations of\nisolated stellar systems. It also can include hydrodynamics using the\nSmooth Particle Hydrodynamics (SPH) technique. It uses a Barnes-Hut tree\nto calculate gravity, with hexadecapole expansion of nodes and Ewald\nsummation for periodic forces. Timestepping is done with a leapfrog\nintegrator with individual timesteps for each particle.",
             "name": "changa"
         },
         {
-            "description": "Chapel is a modern programming language that is parallel, productive,\nportable, scalable and open-source. The Chapel package comes with many\noptions in the form of variants, most of which can be left unset to\nallow Chapel's built-in scripts to determine the proper values based on\nthe environment.",
+            "description": "Chapel is a modern programming language that is parallel, productive,\nportable, scalable and open-source.",
             "name": "chapel"
         },
         {
@@ -917,10 +913,6 @@
             "name": "exmcutils"
         },
         {
-            "description": "Helper applications for XFCE4",
-            "name": "exo"
-        },
-        {
             "description": "Pairwise sequence alignment of DNA and proteins",
             "name": "exonerate"
         },
@@ -943,10 +935,6 @@
         {
             "description": "The canonical ctags generator",
             "name": "exuberant-ctags"
-        },
-        {
-            "description": "EZTrace is a tool to automatically generate execution traces of HPC\napplications.",
-            "name": "eztrace"
         },
         {
             "description": "f90cache is a compiler cache. It acts as a caching pre-processor to\nFortran compilers, using the -E compiler switch and a hash to detect\nwhen a compilation can be satisfied from cache. This often results in a\ngreat speedup in common compilations.",
@@ -1055,10 +1043,6 @@
         {
             "description": "Flex is a tool for generating scanners.",
             "name": "flex"
-        },
-        {
-            "description": "FLINT (Fast Library for Number Theory).",
-            "name": "flint"
         },
         {
             "description": "A next-generation resource manager (pre-alpha)",
@@ -1185,10 +1169,6 @@
             "name": "gadap"
         },
         {
-            "description": "Menu library for XFCE4",
-            "name": "garcon"
-        },
-        {
             "description": "If you are like many computer users, you would frequently like to make\nchanges in various text files wherever certain patterns appear, or\nextract data from parts of certain lines while discarding the rest. To\nwrite a program to do this in a language such as C or Pascal is a time-\nconsuming inconvenience that may take many lines of code. The job is\neasy with awk, especially the GNU implementation: gawk. The awk utility\ninterprets a special-purpose programming language that makes it possible\nto handle simple data-reformatting jobs with just a few lines of code.",
             "name": "gawk"
         },
@@ -1229,12 +1209,16 @@
             "name": "gengetopt"
         },
         {
-            "description": "Library for country/city/organization to IP address or hostname mapping.\nThis package has been deprecated. Use geoip-api-c instead.",
+            "description": "Library for country/city/organization to IP address or hostname mapping.",
             "name": "geoip"
         },
         {
             "description": "The GeoIP Legacy C library enables the user to find geographical and\nnetwork information of an IP address.",
             "name": "geoip-api-c"
+        },
+        {
+            "description": "GEOPM is an extensible power management framework targeting HPC. The\nGEOPM package provides libgeopm, libgeopmpolicy and applications\ngeopmctl and geopmpolicy, as well as tools for postprocessing. GEOPM is\ndesigned to be extended for new control algorithms and new hardware\npower management features via its plugin infrastructure. Note: GEOPM\ninterfaces with hardware using Model Specific Registers (MSRs). For\npropper usage make sure MSRs are made available directly or via the msr-\nsafe kernel module by your administrator.",
+            "name": "geopm"
         },
         {
             "description": "The Global Extensible Open Power Manager (GEOPM) Runtime is designed to\nenhance energy efficiency of applications through active hardware\nconfiguration.",
@@ -1281,94 +1265,6 @@
             "name": "globalarrays"
         },
         {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus Callout Library - provides a platform independent way of dealing\nwith runtime loadable functions.",
-            "name": "globus-callout"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nCommon Library Programs.",
-            "name": "globus-common"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGridFTP Client Library.",
-            "name": "globus-ftp-client"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGridFTP Control Library.",
-            "name": "globus-ftp-control"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus Gass Copy Programs.",
-            "name": "globus-gass-copy"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus Gass Transfer.",
-            "name": "globus-gass-transfer"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus GSI Callback Library.",
-            "name": "globus-gsi-callback"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus GSI Cert Utils Library Programs.",
-            "name": "globus-gsi-cert-utils"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus GSI Credential Library.",
-            "name": "globus-gsi-credential"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus OpenSSL Error Handling.",
-            "name": "globus-gsi-openssl-error"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus GSI Proxy Core Library.",
-            "name": "globus-gsi-proxy-core"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus GSI Proxy SSL Library.",
-            "name": "globus-gsi-proxy-ssl"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus GSI System Config Library.",
-            "name": "globus-gsi-sysconfig"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGSSAPI Assist library Programs.",
-            "name": "globus-gss-assist"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGSSAPI Error Library.",
-            "name": "globus-gssapi-error"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGSSAPI library.",
-            "name": "globus-gssapi-gsi"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nuniform I/O interface to stream and datagram style communications.",
-            "name": "globus-io"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus OpenSSL Module Wrapper.",
-            "name": "globus-openssl-module"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus XIO Framework.",
-            "name": "globus-xio"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus XIO GSI Driver.",
-            "name": "globus-xio-gsi-driver"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus Pipe Driver.",
-            "name": "globus-xio-pipe-driver"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus XIO Pipe Open Driver, which allows a user to execute a program\nand treat it as a transport driver by routing data through pipes.",
-            "name": "globus-xio-popen-driver"
-        },
-        {
             "description": "The GLPK (GNU Linear Programming Kit) package is intended for solving\nlarge-scale linear programming (LP), mixed integer programming (MIP),\nand other related problems. It is a set of routines written in ANSI C\nand organized in the form of a callable library.",
             "name": "glpk"
         },
@@ -1411,10 +1307,6 @@
         {
             "description": "GnuTLS is a secure communications library implementing the SSL, TLS and\nDTLS protocols and technologies around them. It provides a simple C\nlanguage application programming interface (API) to access the secure\ncommunications protocols as well as APIs to parse and write X.509, PKCS\n#12, OpenPGP and other required structures. It is aimed to be portable\nand efficient with focus on security and interoperability.",
             "name": "gnutls"
-        },
-        {
-            "description": "An open source real-time web log analyzer and interactive viewer that\nruns in a terminal in *nix systems or through your browser",
-            "name": "goaccess"
         },
         {
             "description": "The GObject Introspection is used to describe the program APIs and\ncollect them in a uniform, machine readable format.Cairo is a 2D\ngraphics library with support for multiple output",
@@ -1579,10 +1471,6 @@
         {
             "description": "A Unified Release of the FTOOLS and XANADU Software Packages. XANADU:\nHigh-level, multi-mission tasks for X-ray astronomical spectral, timing,\nand imaging data analysis. FTOOLS: General and mission-specific tools to\nmanipulate FITS files. FITSIO: Core library responsible for reading and\nwriting FITS files. fv: General FITS file browser/editor/plotter with a\ngraphical user interface. XSTAR: Tool for calculating the physical\nconditions and emission spectra of photoionized gases",
             "name": "heasoft"
-        },
-        {
-            "description": "GPU accelerated transient detection pipeline",
-            "name": "heimdall"
         },
         {
             "description": "help2man produces simple manual pages from the '--help' and '--version'\noutput of other commands.",
@@ -1833,10 +1721,6 @@
             "name": "jags"
         },
         {
-            "description": "Library for manipulating JPEG-2000 images",
-            "name": "jasper"
-        },
-        {
             "description": "JELLYFISH is a tool for fast, memory-efficient counting of k-mers in\nDNA.",
             "name": "jellyfish"
         },
@@ -2009,10 +1893,6 @@
             "name": "libbsd"
         },
         {
-            "description": "libbson is a library providing useful routines related to building,\nparsing, and iterating BSON documents.",
-            "name": "libbson"
-        },
-        {
             "description": "The goal of this project is to provide a tiny library that would\nfacilitate the common operations with sizes in bytes.",
             "name": "libbytesize"
         },
@@ -2071,10 +1951,6 @@
         {
             "description": "libdmx - X Window System DMX (Distributed Multihead X) extension\nlibrary.",
             "name": "libdmx"
-        },
-        {
-            "description": "A userspace library for accessing the DRM, direct rendering manager, on\nLinux, BSD and other systems supporting the ioctl interface.",
-            "name": "libdrm"
         },
         {
             "description": "libeatmydata is a small LD_PRELOAD library designed to (transparently)\ndisable fsync (and friends, like open(O_SYNC)). This has two side-\neffects: making software that writes data safely to disk a lot quicker\nand making this software no longer crash safe.",
@@ -2173,10 +2049,6 @@
             "name": "libgtextutils"
         },
         {
-            "description": "Contains the GNOME top libraries for collecting system monitoring data",
-            "name": "libgtop"
-        },
-        {
             "description": "libharu - free PDF library. Haru is a free, cross platform, open-sourced\nsoftware library for generating PDF.",
             "name": "libharu"
         },
@@ -2187,10 +2059,6 @@
         {
             "description": "libHIO is a flexible, high-performance parallel IO package developed at\nLANL. libHIO supports IO to either a conventional PFS or to Cray\nDataWarp with management of Cray DataWarp space and stage-in and stage-\nout from and to the PFS.",
             "name": "libhio"
-        },
-        {
-            "description": "libhugetlbfs is a library which provides easy access to huge pages of\nmemory.",
-            "name": "libhugetlbfs"
         },
         {
             "description": "The libiberty.a library from GNU binutils. Libiberty provides demangling\nand support functions for the GNU toolchain.",
@@ -2325,7 +2193,7 @@
             "name": "libmicrohttpd"
         },
         {
-            "description": "libmnl is a minimalistic user-space library oriented to Netlink\ndevelopers. There are a lot of common tasks in parsing, validating,\nconstructing of both the Netlink header and TLVs that are repetitive and\neasy to get wrong. This library aims to provide simple helpers that\nallows you to re-use code and to avoid re-inventing the wheel.",
+            "description": "libmnl is a minimalistic user-space library oriented to Netlink\ndevelopers.There are a lot of common tasks in parsing, validating,\nconstructing of both the Netlink header and TLVs that are repetitive and\neasy to get wrong.This library aims to provide simple helpers that\nallows you to re-use code and to avoid re-inventing the wheel.",
             "name": "libmnl"
         },
         {
@@ -2593,10 +2461,6 @@
             "name": "libunwind"
         },
         {
-            "description": "liburcu is a LGPLv2.1 userspace RCU (read-copy-update) library. This\ndata synchronization library provides read-side access which scales\nlinearly with the number of cores.",
-            "name": "liburcu"
-        },
-        {
             "description": "This is the io_uring library, liburing. liburing provides helpers to\nsetup and teardown io_uring instances, and also a simplified interface\nfor applications that don't need (or want) to deal with the full kernel\nside implementation.",
             "name": "liburing"
         },
@@ -2657,10 +2521,6 @@
             "name": "libwmf"
         },
         {
-            "description": "Window Navigator Construction Kit",
-            "name": "libwnck"
-        },
-        {
             "description": "libX11 - Core X11 protocol client library.",
             "name": "libx11"
         },
@@ -2711,14 +2571,6 @@
         {
             "description": "libXext - library for common extensions to the X11 protocol.",
             "name": "libxext"
-        },
-        {
-            "description": "Widget sharing library for XFCE4",
-            "name": "libxfce4ui"
-        },
-        {
-            "description": "Libxfce4util common non-GTK+ utilities among the Xfce applications.",
-            "name": "libxfce4util"
         },
         {
             "description": "This package contains header files and documentation for the XFIXES\nextension. Library and server implementations are separate.",
@@ -2953,10 +2805,6 @@
             "name": "makedepend"
         },
         {
-            "description": "Makedepf90 is a program for automatic creation of Makefile-style\ndependency lists for Fortran source code.",
-            "name": "makedepf90"
-        },
-        {
             "description": "MALOC (Minimal Abstraction Layer for Object-oriented C) is a small,\nportable, abstract C environment library for object-oriented C\nprogramming. MALOC is used as the foundation layer for a number of\nscientific applications, including MC, SG, and APBS.",
             "name": "maloc"
         },
@@ -3103,10 +2951,6 @@
         {
             "description": "The utility to manipulate machines owner keys which managed in shim.",
             "name": "mokutil"
-        },
-        {
-            "description": "libmongoc is a client library written in C for MongoDB.",
-            "name": "mongo-c-driver"
         },
         {
             "description": "Mono is a software platform designed to allow developers to easily\ncreate cross platform applications. It is an open source implementation\nof Microsoft's .NET Framework based on the ECMA standards for C# and the\nCommon Language Runtime.",
@@ -3685,10 +3529,6 @@
             "name": "poke"
         },
         {
-            "description": "The Poly/ML implementation of Standard ML.",
-            "name": "polyml"
-        },
-        {
             "description": "The popt library parses command line options.",
             "name": "popt"
         },
@@ -3767,10 +3607,6 @@
         {
             "description": "PSRCHIVE is a library for the analysis of pulsar astronomical data.\nPSRCHIVE is an Open Source C++ development library for the analysis of\npulsar astronomical data. It implements an extensive range of algorithms\nfor use in pulsar timing, scintillation studies, polarimetric\ncalibration, single-pulse work, RFI mitigation, etc. These tools are\nutilized by a powerful suite of user-end programs that come with the\nlibrary.",
             "name": "psrchive"
-        },
-        {
-            "description": "Open source software to process some types of astronomy data.",
-            "name": "psrdada"
         },
         {
             "description": "PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy\nfor your sound applications. PulseAudio is a sound system for POSIX\nOSes, meaning that it is a proxy for your sound applications. It allows\nyou to do advanced operations on your sound data as it passes between\nyour application and your hardware. Things like transferring the audio\nto a different machine, changing the sample format or channel count and\nmixing several sounds into one are easily achieved using a sound server.",
@@ -4285,10 +4121,6 @@
             "name": "sz"
         },
         {
-            "description": "An ultra fast error bounded compressor for scientific datasets",
-            "name": "szx"
-        },
-        {
             "description": "t8code is a C/C++ library to manage parallel adaptive meshes with\nvarious element types. t8code uses a collection (a forest) of multiple\nconnected adaptive space-trees in parallel and scales to at least one\nmillion MPI ranks and over one Trillion mesh elements.",
             "name": "t8code"
         },
@@ -4385,14 +4217,6 @@
             "name": "thepeg"
         },
         {
-            "description": "Thunar File Manager",
-            "name": "thunar"
-        },
-        {
-            "description": "Thunar extension which enables automatic management of removable drives\nand media.",
-            "name": "thunar-volman"
-        },
-        {
             "description": "Text-mode interface for git",
             "name": "tig"
         },
@@ -4451,10 +4275,6 @@
         {
             "description": "Seaching for tRNA genes in genomic sequence",
             "name": "trnascan-se"
-        },
-        {
-            "description": "Tumbler is a D-Bus service for applications to request thumbnails for\nXFCE4",
-            "name": "tumbler"
         },
         {
             "description": "Turbine: The Swift/T runtime",
@@ -4583,10 +4403,6 @@
         {
             "description": "Virtuoso is a high-performance and scalable Multi-Model RDBMS, Data\nIntegration Middleware, Linked Data Deployment, and HTTP Application\nServer Platform",
             "name": "virtuoso"
-        },
-        {
-            "description": "The VOMS native service and APIs.",
-            "name": "voms"
         },
         {
             "description": "VSEARCH is a versatile open-source tool for metagenomics.",
@@ -4833,32 +4649,8 @@
             "name": "xf86vidmodeproto"
         },
         {
-            "description": "Program to find and launch installed applications for XFCE4",
-            "name": "xfce4-appfinder"
-        },
-        {
-            "description": "Panel manager for Xfce4",
-            "name": "xfce4-panel"
-        },
-        {
-            "description": "Session manager for Xfce4",
-            "name": "xfce4-session"
-        },
-        {
-            "description": "Daemon, manager, and editor to centralize the configuration management\nfor XFCE4",
-            "name": "xfce4-settings"
-        },
-        {
-            "description": "xfconf - Configuration Storage System for XFCE4",
-            "name": "xfconf"
-        },
-        {
             "description": "xfd - display all the characters in a font using either the X11 core\nprotocol or libXft2.",
             "name": "xfd"
-        },
-        {
-            "description": "Xfdesktop is a desktop manager for the Xfce Desktop Environment.",
-            "name": "xfdesktop"
         },
         {
             "description": "xfindproxy is used to locate available X11 proxy services. It utilizes\nthe Proxy Management Protocol to communicate with a proxy manager. The\nproxy manager keeps track of all available proxy services, starts new\nproxies when necessary, and makes sure that proxies are shared whenever\npossible.",
@@ -4883,10 +4675,6 @@
         {
             "description": "XFS User Tools.",
             "name": "xfsprogs"
-        },
-        {
-            "description": "xfwm4 is the window manager for Xfce",
-            "name": "xfwm4"
         },
         {
             "description": "xfwp proxies X11 protocol connections, such as through a firewall.",

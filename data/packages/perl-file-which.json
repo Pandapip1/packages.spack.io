@@ -26,6 +26,10 @@
             "name": "maker"
         },
         {
+            "description": "MIOpenTensile provides host-callable interfaces to Tensile library.\nMIOpenTensile supports one programming model: HIP",
+            "name": "miopen-tensile"
+        },
+        {
             "description": "Scan contig files against traditional PubMLST typing schemes",
             "name": "mlst"
         },

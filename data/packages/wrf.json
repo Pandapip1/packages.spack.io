@@ -1,13 +1,7 @@
 {
     "aliases": [],
     "build_system": "Package",
-    "conflicts": [
-        {
-            "description": "wrf: Intel oneapi compiler patch only added for version 4.4",
-            "name": "%oneapi",
-            "spec": "@:4.3"
-        }
-    ],
+    "conflicts": [],
     "dependencies": [
         {
             "description": "The Adaptable Input Output System version 2, developed in the Exascale\nComputing Program",
@@ -86,7 +80,7 @@
     ],
     "description": "The Weather Research and Forecasting (WRF) Model is a next-generation\nmesoscale numerical weather prediction system designed for both\natmospheric research and operational forecasting applications.\n",
     "homepage": "https://www.mmm.ucar.edu/weather-research-and-forecasting-model",
-    "latest_version": "4.5.2",
+    "latest_version": "4.5.1",
     "maintainers": [
         "MichaelLaufer",
         "ptooley"
@@ -243,7 +237,16 @@
             "relative_path": "patches/4.2/arch.Config.pl.patch",
             "reverse": false,
             "sha256": "e6f3db399606f09a582999506d63dc6c52fcb08efe83a3c2931107c8d927858d",
-            "version": "@4.2:4.5.1",
+            "version": "@4.2:",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.wrf",
+            "relative_path": "patches/4.2/arch.conf_tokens.patch",
+            "reverse": false,
+            "sha256": "f3dd50d3de8dc26d12ab5bceeaa80ec05a722834dde97107d7bb194c9f67045a",
+            "version": "@4.2:",
             "working_dir": "."
         },
         {
@@ -252,7 +255,16 @@
             "relative_path": "patches/4.2/external.io_netcdf.makefile.patch",
             "reverse": false,
             "sha256": "e07c39c644dab0cad373e4ff3809db22128b376c139416d9e774b96e1f86e7e7",
-            "version": "@4.2:4.5.1",
+            "version": "@4.2:",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.wrf",
+            "relative_path": "patches/4.2/var.gen_be.Makefile.patch",
+            "reverse": false,
+            "sha256": "68548f61600d8503bf14a1ab8b90e0e20375fe9466fa1e205b8d835174fcdbef",
+            "version": "@4.2:",
             "working_dir": "."
         },
         {
@@ -271,24 +283,6 @@
             "reverse": false,
             "sha256": "c8c820c6b765e26b76f54e3f3adf382e9755269f3196a7429736d41ad886977d",
             "version": "@4.2.2",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.wrf",
-            "relative_path": "patches/4.2/arch.conf_tokens.patch",
-            "reverse": false,
-            "sha256": "f3dd50d3de8dc26d12ab5bceeaa80ec05a722834dde97107d7bb194c9f67045a",
-            "version": "@4.2:",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.wrf",
-            "relative_path": "patches/4.2/var.gen_be.Makefile.patch",
-            "reverse": false,
-            "sha256": "68548f61600d8503bf14a1ab8b90e0e20375fe9466fa1e205b8d835174fcdbef",
-            "version": "@4.2:",
             "working_dir": "."
         },
         {
@@ -369,7 +363,7 @@
             "relative_path": "patches/4.2/hdf5_fix.patch",
             "reverse": false,
             "sha256": "1616a1fd366c8d2347187f520c3252079f35357ea20e206667b4b1b0d7550e44",
-            "version": "@4.2:4.5.1%aocc",
+            "version": "@4.2:%aocc",
             "working_dir": "."
         },
         {
@@ -414,7 +408,7 @@
             "relative_path": "patches/4.4/arch.postamble.patch",
             "reverse": false,
             "sha256": "29af725c8c38b3afe1eb3547190876dc692a52fc293cbc13c067a389900ca242",
-            "version": "@4.4:4.5.1",
+            "version": "@4.4:",
             "working_dir": "."
         },
         {
@@ -450,7 +444,7 @@
             "relative_path": "patches/4.5/adios2-remove-deprecated-functions.patch",
             "reverse": false,
             "sha256": "fd0e24ccc5b6bbfeb1d9d50abb2b6262f6b896c2bb56bb17203b4c59799c624e",
-            "version": "@=4.5.0 ^adios2@2.9:",
+            "version": "@4.5: ^adios2@2.9:",
             "working_dir": "."
         },
         {
@@ -477,7 +471,7 @@
             "relative_path": "patches/4.3/Makefile.patch",
             "reverse": false,
             "sha256": "e4971f64f4d7d8c19fa0313d43e575dd3554a2e714d9391bc095b3ad18b35e22",
-            "version": "@4.3:4.5.1",
+            "version": "@4.3:",
             "working_dir": "."
         },
         {
@@ -495,7 +489,7 @@
             "relative_path": "patches/4.3/fujitsu.patch",
             "reverse": false,
             "sha256": "2a16846dc9f560dde102f412753a0bff961b30d6c11cc1e74a9e2b2b8ab956d9",
-            "version": "@4.3:4.4%fj",
+            "version": "@4.3:%fj",
             "working_dir": "."
         },
         {
@@ -520,8 +514,8 @@
             "level": 1,
             "owner": "builtin.wrf",
             "reverse": false,
-            "sha256": "2d06d709074ded9bd6842aa83c0dfdad5a4e4e2df99e2e5d4a82579f0486117e",
-            "url": "https://github.com/wrf-model/WRF/commit/4a084e03575da65f254917ef5d8eb39074abd3fc.patch?full_index=1",
+            "sha256": "c522c4733720df9a18237c06d8ab6199fa9674d78375b644aec7017cb38af9c5",
+            "url": "https://github.com/wrf-model/WRF/pull/1888/commits/4a084e03575da65f254917ef5d8eb39074abd3fc.patch",
             "version": "@4.5:%arm",
             "working_dir": "."
         },
@@ -529,8 +523,8 @@
             "level": 1,
             "owner": "builtin.wrf",
             "reverse": false,
-            "sha256": "7c6487aefaa6cda0fff3976e78da07b09d2ba6c005d649f35a0f8f1694a0b2bb",
-            "url": "https://github.com/wrf-model/WRF/commit/6087d9192f7f91967147e50f5bc8b9e49310cf98.patch?full_index=1",
+            "sha256": "f82a18cf7334e0cbbfdf4ef3aa91ca26d4a372709f114ce0116b3fbb136ffac6",
+            "url": "https://github.com/wrf-model/WRF/pull/1888/commits/6087d9192f7f91967147e50f5bc8b9e49310cf98.patch",
             "version": "@4.5:%arm",
             "working_dir": "."
         }
@@ -579,11 +573,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "4.5.2",
-            "sha256": "408ba6aa60d9cd51d6bad2fa075a3d37000eb581b5d124162885b049c892bbdc",
-            "url": "https://github.com/wrf-model/WRF/releases/download/v4.5.2/v4.5.2.tar.gz"
-        },
         {
             "name": "4.5.1",
             "sha256": "9d557c34c105db4d41e727843ecb19199233c7cf82c5369b34a2ce8efe65e2d1",

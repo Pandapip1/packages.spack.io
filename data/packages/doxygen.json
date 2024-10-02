@@ -44,14 +44,6 @@
         {
             "description": "The Python programming language.",
             "name": "python"
-        },
-        {
-            "description": "Very fast, header only, C++ logging library",
-            "name": "spdlog"
-        },
-        {
-            "description": "SQLite is a C-language library that implements a small, fast, self-\ncontained, high-reliability, full-featured, SQL database engine.",
-            "name": "sqlite"
         }
     ],
     "dependent_to": [
@@ -66,10 +58,6 @@
         {
             "description": "Celeritas is a new Monte Carlo transport code designed for high-\nperformance (GPU-targeted) simulation of high-energy physics detectors.",
             "name": "celeritas"
-        },
-        {
-            "description": "Chapel is a modern programming language that is parallel, productive,\nportable, scalable and open-source. The Chapel package comes with many\noptions in the form of variants, most of which can be left unset to\nallow Chapel's built-in scripts to determine the proper values based on\nthe environment.",
-            "name": "chapel"
         },
         {
             "description": "Clingo: A grounder and solver for logic programs Clingo is part of the\nPotassco project for Answer Set Programming (ASP). ASP offers a simple\nand powerful modeling language to describe combinatorial problems as\nlogic programs. The clingo system then takes such a logic program and\ncomputes answer sets representing solutions to the given problem.",
@@ -112,6 +100,10 @@
             "name": "gegelati"
         },
         {
+            "description": "GEOPM is an extensible power management framework targeting HPC. The\nGEOPM package provides libgeopm, libgeopmpolicy and applications\ngeopmctl and geopmpolicy, as well as tools for postprocessing. GEOPM is\ndesigned to be extended for new control algorithms and new hardware\npower management features via its plugin infrastructure. Note: GEOPM\ninterfaces with hardware using Model Specific Registers (MSRs). For\npropper usage make sure MSRs are made available directly or via the msr-\nsafe kernel module by your administrator.",
+            "name": "geopm"
+        },
+        {
             "description": "The Global Extensible Open Power Manager (GEOPM) Runtime is designed to\nenhance energy efficiency of applications through active hardware\nconfiguration.",
             "name": "geopm-runtime"
         },
@@ -128,20 +120,12 @@
             "name": "grid"
         },
         {
-            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
-            "name": "hermes-shm"
-        },
-        {
             "description": "HOOMD-blue is a general-purpose particle simulation toolkit. It scales\nfrom a single CPU core to thousands of GPUs. You define particle initial\nconditions and interactions in a high-level python script. Then tell\nHOOMD-blue how you want to execute the job and it takes care of the\nrest. Python job scripts give you unlimited flexibility to create custom\ninitialization routines, control simulation parameters, and perform in\nsitu analysis.",
             "name": "hoomd-blue"
         },
         {
             "description": "Misc. reusable utilities used by IceBin.",
             "name": "ibmisc"
-        },
-        {
-            "description": "LCI: the Lightweight Communication Interface",
-            "name": "lci"
         },
         {
             "description": "The ABI Generic Analysis and Instrumentation Library",
@@ -288,13 +272,17 @@
             "name": "wayland"
         },
         {
+            "description": "wayland-protocols contains Wayland protocols that add functionality not\navailable in the Wayland core protocol. Such protocols either add\ncompletely new functionality, or extend the functionality of some other\nprotocol either in Wayland core, or some other protocol i n wayland-\nprotocols.",
+            "name": "wayland-protocols"
+        },
+        {
             "description": "Graphical network analyzer and capture tool",
             "name": "wireshark"
         }
     ],
     "description": "Doxygen is the de facto standard tool for generating documentation from\nannotated C++ sources, but it also supports other popular programming\nlanguages such as C, Objective-C, C#, PHP, Java, Python, IDL (Corba,\nMicrosoft, and UNO/OpenOffice flavors), Fortran, VHDL, Tcl, and to some\nextent D..\n",
     "homepage": "https://www.doxygen.org",
-    "latest_version": "1.11.0",
+    "latest_version": "1.9.8",
     "maintainers": [
         "sethrj"
     ],
@@ -335,15 +323,6 @@
             "url": "https://github.com/doxygen/doxygen/commit/5198966c8d5fec89116d025c74934ac03ea511fa.patch?full_index=1",
             "version": "@1.9.4%gcc@12:",
             "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.doxygen",
-            "reverse": false,
-            "sha256": "8b46b763b3f0a2726f765141cbfa3eb6efd746531a4d689531e42ff56fc334e2",
-            "url": "https://github.com/doxygen/doxygen/commit/83de58c5f4f685a129127c2501f4fccd9557f6c4.patch?full_index=1",
-            "version": "@1.10:1.11.0",
-            "working_dir": "."
         }
     ],
     "resources": [],
@@ -380,14 +359,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.11.0",
-            "sha256": "1fea49c69e51fec3dd2599947f6d48d9b1268bd5115b1bb08dffefc1fd5d19ee"
-        },
-        {
-            "name": "1.10.0",
-            "sha256": "795692a53136ca9bb9a6cd72656968af7858a78be7d6d011e12ab1dce6b9533c"
-        },
         {
             "name": "1.9.8",
             "sha256": "77371e8a58d22d5e03c52729844d1043e9cbf8d0005ec5112ffa4c8f509ddde8"

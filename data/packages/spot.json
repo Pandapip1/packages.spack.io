@@ -29,7 +29,7 @@
     "dependent_to": [],
     "description": "Spot is a C++11 library for omega-automata manipulation and model\nchecking.\n",
     "homepage": "https://spot.lrde.epita.fr/",
-    "latest_version": "2.12",
+    "latest_version": "2.11.5",
     "maintainers": [],
     "name": "spot",
     "patches": [],
@@ -47,14 +47,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.12",
-            "sha256": "26ba076ad57ec73d2fae5482d53e16da95c47822707647e784d8c7cec0d10455"
-        },
-        {
-            "name": "2.11.6",
-            "sha256": "a692794f89c0db3956ba5919bdd5313e372e0de34000a9022f29e1c6e91c538a"
-        },
         {
             "name": "2.11.5",
             "sha256": "3acfd5cd112d00576ac234baeb34e1c6adf8c03155d4cda973e6317ac8bd1774"

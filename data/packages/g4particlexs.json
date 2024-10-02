@@ -11,7 +11,7 @@
     ],
     "description": "Geant4 data for evaluated particle cross-sections on natural composition\nof elements\n",
     "homepage": "https://geant4.web.cern.ch",
-    "latest_version": "4.1",
+    "latest_version": "4.0",
     "maintainers": [
         "drbenmorgan"
     ],
@@ -26,10 +26,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "4.1",
-            "sha256": "07ae1e048e9ac8e7f91f6696497dd55bd50ccc822d97af1a0b9e923212a6d7d1"
-        },
         {
             "name": "4.0",
             "sha256": "9381039703c3f2b0fd36ab4999362a2c8b4ff9080c322f90b4e319281133ca95"

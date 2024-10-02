@@ -14,10 +14,6 @@
             "name": "adios"
         },
         {
-            "description": "BLT is a streamlined CMake-based foundation for Building, Linking and\nTesting large-scale high performance computing (HPC) applications.",
-            "name": "blt"
-        },
-        {
             "description": "Caliper is a program instrumentation and performance measurement\nframework. It is designed as a performance analysis toolbox in a\nlibrary, allowing one to bake performance analysis capabilities directly\ninto applications and activate them at runtime.",
             "name": "caliper"
         },
@@ -104,10 +100,6 @@
             "name": "axom"
         },
         {
-            "description": "Data & Vis SDK ** This package is a post-ECP port from the ECP Data &\nVis SDK **",
-            "name": "dav-sdk"
-        },
-        {
             "description": "High-Order Mesh Ray Tracer.",
             "name": "dray"
         },
@@ -142,7 +134,7 @@
     ],
     "description": "Conduit is an open source project from Lawrence Livermore National\nLaboratory that provides an intuitive model for describing hierarchical\nscientific data in C++, C, Fortran, and Python. It is used for data\ncoupling between packages in-core, serialization, and I/O tasks.\n",
     "homepage": "https://software.llnl.gov/conduit",
-    "latest_version": "0.9.2",
+    "latest_version": "0.9.1",
     "maintainers": [
         "cyrush"
     ],
@@ -292,10 +284,6 @@
         {
             "branch": "develop",
             "name": "master"
-        },
-        {
-            "name": "0.9.2",
-            "sha256": "45d5a4eccd0fc978d153d29c440c53c483b8f29dfcf78ddcc9aa15c59b257177"
         },
         {
             "name": "0.9.1",

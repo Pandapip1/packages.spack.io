@@ -32,7 +32,7 @@
     ],
     "dependent_to": [],
     "description": "EMBOSS is a free Open Source software analysis package specially\ndeveloped for the needs of the molecular biology (e.g. EMBnet) user\ncommunity\n",
-    "homepage": "https://emboss.sourceforge.net/",
+    "homepage": "http://emboss.sourceforge.net/",
     "latest_version": "6.6.0",
     "maintainers": [],
     "name": "emboss",

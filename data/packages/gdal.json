@@ -3,6 +3,31 @@
     "build_system": "CMakePackage",
     "conflicts": [
         {
+            "description": "gdal: GDAL requires C++11 support",
+            "name": "%clang@:3.2",
+            "spec": ""
+        },
+        {
+            "description": "gdal: GDAL requires C++11 support",
+            "name": "%gcc@:4.8.0",
+            "spec": ""
+        },
+        {
+            "description": "gdal: GDAL requires C++11 support",
+            "name": "%intel@:12",
+            "spec": ""
+        },
+        {
+            "description": "gdal: GDAL requires C++11 support",
+            "name": "%xl@:13.0",
+            "spec": ""
+        },
+        {
+            "description": "gdal: GDAL requires C++11 support",
+            "name": "%xl_r@:13.0",
+            "spec": ""
+        },
+        {
             "description": null,
             "name": "+bsb",
             "spec": ""
@@ -148,39 +173,9 @@
             "spec": "@2.1"
         },
         {
-            "description": "gdal: GDAL requires C++11 support",
-            "name": "%clang@:3.2",
-            "spec": "@2.3:"
-        },
-        {
-            "description": "gdal: GDAL requires C++11 support",
-            "name": "%gcc@:4.8.0",
-            "spec": "@2.3:"
-        },
-        {
-            "description": "gdal: GDAL requires C++11 support",
-            "name": "%msvc@:13",
-            "spec": "@2.3:"
-        },
-        {
             "description": null,
             "name": "+brunsli",
             "spec": "@3.4"
-        },
-        {
-            "description": "gdal: GDAL requires C++17 support",
-            "name": "%clang@:4",
-            "spec": "@3.9:"
-        },
-        {
-            "description": "gdal: GDAL requires C++17 support",
-            "name": "%gcc@:7",
-            "spec": "@3.9:"
-        },
-        {
-            "description": "gdal: GDAL requires C++17 support",
-            "name": "%msvc@:19.14",
-            "spec": "@3.9:"
         },
         {
             "description": null,
@@ -191,11 +186,6 @@
             "description": null,
             "name": "~png",
             "spec": "@3:3.5.0"
-        },
-        {
-            "description": null,
-            "name": "%gcc@11:",
-            "spec": "@:3.6"
         },
         {
             "description": null,
@@ -609,10 +599,6 @@
             "name": "py-pynio"
         },
         {
-            "description": "Vectorized spatial vector file format I/O using GDAL/OGR",
-            "name": "py-pyogrio"
-        },
-        {
             "description": "A set of command line utilities and Python modules that implement the\nFMASK algorithm for Landsat and Sentinel-2",
             "name": "py-python-fmask"
         },
@@ -667,7 +653,7 @@
     ],
     "description": "GDAL: Geospatial Data Abstraction Library. GDAL is a translator library\nfor raster and vector geospatial data formats that is released under an\nMIT style Open Source License by the Open Source Geospatial Foundation.\nAs a library, it presents a single raster abstract data model and single\nvector abstract data model to the calling application for all supported\nformats. It also comes with a variety of useful command line utilities\nfor data translation and processing.\n",
     "homepage": "https://www.gdal.org/",
-    "latest_version": "3.9.2",
+    "latest_version": "3.8.5",
     "maintainers": [
         "adamjstewart"
     ],
@@ -1167,18 +1153,6 @@
     ],
     "versions": [
         {
-            "name": "3.9.2",
-            "sha256": "bfbcc9f087f012c36151c20c79f8eac9529e1e5298fbded79cd5a1365f0b113a"
-        },
-        {
-            "name": "3.9.1",
-            "sha256": "aff3086fee75f5773e33a5598df98d8a4d10be411f777d3ce23584b21d8171ca"
-        },
-        {
-            "name": "3.9.0",
-            "sha256": "577f80e9d14ff7c90b6bfbc34201652b4546700c01543efb4f4c3050e0b3fda2"
-        },
-        {
             "name": "3.8.5",
             "sha256": "e8b4df2a8a7d25272f867455c0c230459545972f81f0eff2ddbf6a6f60dcb1e4"
         },
@@ -1341,9 +1315,7 @@
         {
             "name": "3.0.0",
             "sha256": "ad316fa052d94d9606e90b20a514b92b2dd64e3142dfdbd8f10981a5fcd5c43e"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "2.4.4",
             "sha256": "a383bd3cf555d6e1169666b01b5b3025b2722ed39e834f1b65090f604405dcd8"
@@ -1436,5 +1408,6 @@
             "name": "2.0.0",
             "sha256": "91704fafeea2349c5e268dc1e2d03921b3aae64b05ee01d59fdfc1a6b0ffc061"
         }
-    ]
+    ],
+    "versions_deprecated": []
 }

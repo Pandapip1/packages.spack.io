@@ -30,7 +30,7 @@
     ],
     "description": "Opus is a totally open, royalty-free, highly versatile audio codec.\n",
     "homepage": "https://opus-codec.org/",
-    "latest_version": "1.5.2",
+    "latest_version": "1.5.1",
     "maintainers": [],
     "name": "opus",
     "patches": [],
@@ -43,10 +43,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.5.2",
-            "sha256": "65c1d2f78b9f2fb20082c38cbe47c951ad5839345876e46941612ee87f9a7ce1"
-        },
         {
             "name": "1.5.1",
             "sha256": "b84610959b8d417b611aa12a22565e0a3732097c6389d19098d844543e340f85"

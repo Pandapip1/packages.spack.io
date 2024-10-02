@@ -12,12 +12,7 @@
             "name": "npm"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "TorchGeo: datasets, samplers, transforms, and pre-trained models for\ngeospatial data.",
-            "name": "py-torchgeo"
-        }
-    ],
+    "dependent_to": [],
     "description": "Prettier is an opinionated code formatter.\n",
     "homepage": "https://prettier.io/",
     "latest_version": "3.2.5",

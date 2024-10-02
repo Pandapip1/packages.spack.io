@@ -37,20 +37,12 @@
             "name": "fastjet"
         },
         {
-            "description": "An interpreter for the PostScript language and for PDF.",
-            "name": "ghostscript"
-        },
-        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
         },
         {
             "description": "The GNU config.guess and config.sub scripts versioned by timestamp.\nThis package can be used as a build dependency for autotools packages\nthat ship a tarball with outdated config.guess and config.sub files.",
             "name": "gnuconfig"
-        },
-        {
-            "description": "Additional libraries for GoSam MC generator",
-            "name": "gosam-contrib"
         },
         {
             "description": "The HepMC package is an object oriented, C++ event record for High\nEnergy Physics Monte Carlo generators and simulation.",
@@ -89,16 +81,8 @@
             "name": "pkgconfig"
         },
         {
-            "description": "The package GoSam allows for the automated calculation of one-loop\namplitudes for multi-particle processes in renormalizable quantum field\ntheories.",
-            "name": "py-gosam"
-        },
-        {
             "description": "The Pythia program is a standard tool for the generation of events in\nhigh-energy collisions, comprising a coherent set of physics models for\nthe evolution from a few-body hard process to a complex multiparticle\nfinal state.",
             "name": "pythia8"
-        },
-        {
-            "description": "Qgraf is a computer program that generates Feynman diagrams for various\ntypes of QFT models",
-            "name": "qgraf"
         },
         {
             "description": "TeX Live is an easy (we hope) way to get up and running with the TeX\ndocument production system. It provides a comprehensive TeX system with\nbinaries for most flavors of Unix, including GNU/Linux, macOS, and also\nWindows. It includes all the major TeX-related programs, macro packages,\nand fonts that are free software, including support for many languages\naround the world.",
@@ -112,7 +96,7 @@
     "dependent_to": [],
     "description": "WHIZARD is a program system designed for the efficient calculation of\nmulti-particle scattering cross sections and simulated event samples.\n",
     "homepage": "whizard.hepforge.org",
-    "latest_version": "3.1.4",
+    "latest_version": "3.1.2",
     "maintainers": [
         "vvolkl"
     ],
@@ -124,7 +108,7 @@
             "relative_path": "parallel_build_fix.patch",
             "reverse": false,
             "sha256": "3bd24a7b3ae6fa60b14dfebde7a6873dddf7242a73477aa7ce2f8ae83ac9e847",
-            "version": "@3:3.1.3",
+            "version": "@3:",
             "working_dir": "."
         },
         {
@@ -134,15 +118,6 @@
             "reverse": false,
             "sha256": "dca6166562cba11ffd4dd6f3ebe8717aad80d4b0b4ef8e73544f7954a7fce86e",
             "version": "@2.8",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.whizard",
-            "relative_path": "hepmc3.3.0.patch",
-            "reverse": false,
-            "sha256": "c3258eb53132d2ea8c024f9ab647a874384bad1b0f9cb72f492c200ced80f95d",
-            "version": "@3:3.1.4 ^hepmc3@3.3.0:",
             "working_dir": "."
         }
     ],
@@ -157,11 +132,6 @@
             "default": false,
             "description": "builds with fastjet",
             "name": "fastjet"
-        },
-        {
-            "default": false,
-            "description": "builds with gosam",
-            "name": "gosam"
         },
         {
             "default": "3",
@@ -203,10 +173,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "3.1.4",
-            "sha256": "9da9805251d786adaf4ad5a112f9c4ee61d515778af0d2623d6460c3f1f900cd"
         },
         {
             "name": "3.1.2",

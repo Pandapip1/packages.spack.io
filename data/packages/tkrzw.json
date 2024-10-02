@@ -62,7 +62,7 @@
     "dependent_to": [],
     "description": "Tkrzw is a C++ library implementing database managers with various\nalgorithms.\n",
     "homepage": "https://dbmx.net/tkrzw/",
-    "latest_version": "1.0.29",
+    "latest_version": "0.9.44",
     "maintainers": [],
     "name": "tkrzw",
     "patches": [],
@@ -83,10 +83,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "1.0.29",
-            "sha256": "abaabd6fc89a19ed8a202ac3711bc3b0763d928bc3a8eeeea73a3679f7e7f790"
         },
         {
             "name": "0.9.44",

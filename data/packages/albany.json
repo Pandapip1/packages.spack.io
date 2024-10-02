@@ -26,7 +26,7 @@
     ],
     "dependent_to": [],
     "description": "Albany is an implicit, unstructured grid, finite element code for the\nsolution and analysis of multiphysics problems. The Albany repository on\nthe GitHub site contains hundreds of regression tests and examples that\ndemonstrate the code's capabilities on a wide variety of problems\nincluding fluid mechanics, solid mechanics (elasticity and plasticity),\nice-sheet flow, quantum device modeling, and many other applications.\n",
-    "homepage": "https://gahansen.github.io/Albany",
+    "homepage": "http://gahansen.github.io/Albany",
     "latest_version": "develop",
     "maintainers": [
         "gahansen"

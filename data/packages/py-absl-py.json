@@ -42,6 +42,14 @@
             "name": "py-dm-haiku"
         },
         {
+            "description": "JAX is Autograd and XLA, brought together for high-performance machine\nlearning research. With its updated version of Autograd, JAX can\nautomatically differentiate native Python and NumPy functions. It can\ndifferentiate through loops, branches, recursion, and closures, and it\ncan take derivatives of derivatives of derivatives. It supports reverse-\nmode differentiation (a.k.a. backpropagation) via grad as well as\nforward-mode differentiation, and the two can be composed arbitrarily to\nany order.",
+            "name": "py-jax"
+        },
+        {
+            "description": "XLA library for Jax",
+            "name": "py-jaxlib"
+        },
+        {
             "description": "Multi-backend Keras. Keras 3 is a new multi-backend implementation of\nthe Keras API, with support for TensorFlow, JAX, and PyTorch.",
             "name": "py-keras"
         },
@@ -68,10 +76,6 @@
         {
             "description": "tensorflow/datasets is a library of datasets ready to use with\nTensorFlow.",
             "name": "py-tensorflow-datasets"
-        },
-        {
-            "description": "TensorFlow Estimator is a high-level API that encapsulates model\ntraining, evaluation, prediction, and exporting.",
-            "name": "py-tensorflow-estimator"
         },
         {
             "description": "Library and standards for schema and statistics. TensorFlow Metadata\nprovides standard representations for metadata that are useful when\ntraining machine learning models with TensorFlow.",

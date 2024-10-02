@@ -158,7 +158,7 @@
     ],
     "description": "Texinfo is the official documentation format of the GNU project. It was\ninvented by Richard Stallman and Bob Chassell many years ago, loosely\nbased on Brian Reid's Scribe and other formatting languages of the time.\nIt is used by many non-GNU projects as well.\n",
     "homepage": "https://www.gnu.org/software/texinfo/",
-    "latest_version": "7.1",
+    "latest_version": "7.0.3",
     "maintainers": [],
     "name": "texinfo",
     "patches": [
@@ -217,10 +217,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "7.1",
-            "sha256": "dd5710b3a53ac002644677a06145748e260592a35be182dc830ebebb79c5d5a0"
-        },
         {
             "name": "7.0.3",
             "sha256": "3cc5706fb086b895e1dc2b407aade9f95a3a233ff856273e2b659b089f117683"

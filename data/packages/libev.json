@@ -54,7 +54,7 @@
     ],
     "description": "A full-featured and high-performance event loop that is loosely modelled\nafter libevent, but without its limitations and bugs.\n",
     "homepage": "http://software.schmorp.de/pkg/libev.html",
-    "latest_version": "4.33",
+    "latest_version": "4.24",
     "maintainers": [],
     "name": "libev",
     "patches": [],
@@ -70,10 +70,6 @@
         {
             "branch": "master",
             "name": "develop"
-        },
-        {
-            "name": "4.33",
-            "sha256": "507eb7b8d1015fbec5b935f34ebed15bf346bed04a11ab82b8eee848c4205aea"
         },
         {
             "name": "4.24",

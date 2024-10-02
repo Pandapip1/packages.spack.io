@@ -69,21 +69,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -239,11 +224,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -270,32 +250,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -378,11 +338,6 @@
             "spec": "+cuda ^cuda@:9~allow-unsupported-compilers arch=None-None-ppc64le:"
         },
         {
-            "description": "gromacs-swaxs: The GROMACS support for NVSHMEM does not work with the GROMACS support for cuFFTMp (even though cuFFTMp uses NVSHMEM in its implementation)",
-            "name": "+nvshmem",
-            "spec": "+cufftmp"
-        },
-        {
             "description": null,
             "name": "+opencl",
             "spec": ""
@@ -451,7 +406,7 @@
             "name": "cuda"
         },
         {
-            "description": "NVPL FFT (NVIDIA Performance Libraries FFT) is part of NVIDIA\nPerformance Libraries and provides Fast Fourier Transform (FFT)\ncalculations on ARM CPUs.",
+            "description": "This is an earlier version of Intel parallel software development tools\nand has now been replaced by the Intel oneAPI Toolkits. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.",
             "name": "fftw-api"
         },
         {
@@ -504,9 +459,9 @@
     "homepage": "https://biophys.uni-saarland.de/swaxs.html",
     "latest_version": "2021.5-0.5",
     "maintainers": [
+        "danielahlin",
         "eirrgang",
         "junghans",
-        "mabraham",
         "w8jcik"
     ],
     "name": "gromacs-swaxs",
@@ -635,11 +590,6 @@
             "default": false,
             "description": "Disable default suffixes",
             "name": "nosuffix"
-        },
-        {
-            "default": false,
-            "description": "Enable NVSHMEM support for Nvidia GPUs",
-            "name": "nvshmem"
         },
         {
             "default": false,

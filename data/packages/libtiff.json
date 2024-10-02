@@ -188,7 +188,7 @@
             "name": "opencv"
         },
         {
-            "description": "Reading, writing, and processing images in a wide variety of file\nformats, using a format-agnostic API, aimed at VFX applications.",
+            "description": "OpenImageIO is a library for reading and writing images, and a bunch of\nrelated classes, utilities, and applications.",
             "name": "openimageio"
         },
         {
@@ -286,7 +286,7 @@
     ],
     "description": "LibTIFF - Tag Image File Format (TIFF) Library and Utilities.\n",
     "homepage": "http://www.simplesystems.org/libtiff/",
-    "latest_version": "4.6.0",
+    "latest_version": "4.5.1",
     "maintainers": [
         "adamjstewart"
     ],
@@ -370,11 +370,6 @@
             "name": "old-jpeg"
         },
         {
-            "default": false,
-            "description": "use OpenGL (required for tiffgt viewer)",
-            "name": "opengl"
-        },
-        {
             "default": true,
             "description": "support for Macintosh PackBits algorithm",
             "name": "packbits"
@@ -416,10 +411,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "4.6.0",
-            "sha256": "88b3979e6d5c7e32b50d7ec72fb15af724f6ab2cbf7e10880c360a77e4b5d99a"
-        },
         {
             "name": "4.5.1",
             "sha256": "d7f38b6788e4a8f5da7940c5ac9424f494d8a79eba53d555f4a507167dca5e2b"

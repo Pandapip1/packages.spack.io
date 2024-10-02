@@ -40,7 +40,7 @@
     ],
     "description": "LibPressio metric that runs R code\n",
     "homepage": "https://github.com/robertu94/libpressio-rmetric",
-    "latest_version": "0.0.8",
+    "latest_version": "0.0.7",
     "maintainers": [
         "robertu94"
     ],
@@ -73,10 +73,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "0.0.8",
-            "sha256": "246d98c80f1011819bdac2893035d7914b40d328aae2d50b3608a178406f95d9"
         },
         {
             "name": "0.0.7",

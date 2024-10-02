@@ -42,7 +42,7 @@
     ],
     "description": "MMseqs2 (Many-against-Many sequence searching) is a software suite to\nsearch and cluster huge protein and nucleotide sequence sets\n",
     "homepage": "https://github.com/soedinglab/MMseqs2",
-    "latest_version": "15-6f452",
+    "latest_version": "14-7e284",
     "maintainers": [],
     "name": "mmseqs2",
     "patches": [
@@ -52,7 +52,7 @@
             "reverse": false,
             "sha256": "673737ac545260e7800ca191c6eee14feef3318d9cfa5005db32bd2ab3c006fe",
             "url": "https://github.com/soedinglab/MMseqs2/commit/3e43617.patch?full_index=1",
-            "version": "@:14%gcc@13:",
+            "version": "%gcc@13:",
             "working_dir": "."
         }
     ],
@@ -90,10 +90,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "15-6f452",
-            "sha256": "7115ac5a7e2a49229466806aaa760d00204bb08c870e3c231b00e525c77531dc"
-        },
         {
             "name": "14-7e284",
             "sha256": "a15fd59b121073fdcc8b259fc703e5ce4c671d2c56eb5c027749f4bd4c28dfe1"

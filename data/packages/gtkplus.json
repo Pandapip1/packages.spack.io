@@ -104,16 +104,8 @@
             "name": "emacs"
         },
         {
-            "description": "Helper applications for XFCE4",
-            "name": "exo"
-        },
-        {
             "description": "Flexible I/O Tester. Fio spawns a number of threads or processes doing a\nparticular type of I/O action as specified by the user. fio takes a\nnumber of global parameters, each inherited by the thread unless\notherwise parameters given to them overriding that setting is given.",
             "name": "fio"
-        },
-        {
-            "description": "Menu library for XFCE4",
-            "name": "garcon"
         },
         {
             "description": "An interpreter for the PostScript language and for PDF.",
@@ -152,14 +144,6 @@
             "name": "libnotify"
         },
         {
-            "description": "Window Navigator Construction Kit",
-            "name": "libwnck"
-        },
-        {
-            "description": "Widget sharing library for XFCE4",
-            "name": "libxfce4ui"
-        },
-        {
             "description": "OpenCV (Open Source Computer Vision Library) is an open source computer\nvision and machine learning software library.",
             "name": "opencv"
         },
@@ -196,18 +180,6 @@
             "name": "sublime-text"
         },
         {
-            "description": "Thunar File Manager",
-            "name": "thunar"
-        },
-        {
-            "description": "Thunar extension which enables automatic management of removable drives\nand media.",
-            "name": "thunar-volman"
-        },
-        {
-            "description": "Tumbler is a D-Bus service for applications to request thumbnails for\nXFCE4",
-            "name": "tumbler"
-        },
-        {
             "description": "VESTA is a 3D visualization program for structural models, volumetric\ndata such as electron/nuclear densities, and crystal morphologies.",
             "name": "vesta"
         },
@@ -218,18 +190,6 @@
         {
             "description": "wxWidgets is a C++ library that lets developers create applications for\nWindows, Mac OS X, Linux and other platforms with a single code base. It\nhas popular language bindings for Python, Perl, Ruby and many other\nlanguages, and unlike other cross-platform toolkits, wxWidgets gives\napplications a truly native look and feel because it uses the platform's\nnative API rather than emulating the GUI. It's also extensive, free,\nopen-source and mature.",
             "name": "wxwidgets"
-        },
-        {
-            "description": "Panel manager for Xfce4",
-            "name": "xfce4-panel"
-        },
-        {
-            "description": "Xfdesktop is a desktop manager for the Xfce Desktop Environment.",
-            "name": "xfdesktop"
-        },
-        {
-            "description": "xfwm4 is the window manager for Xfce",
-            "name": "xfwm4"
         }
     ],
     "description": "The GTK+ package contains libraries used for creating graphical user\ninterfaces for applications.\n",

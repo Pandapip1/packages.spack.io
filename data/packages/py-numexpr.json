@@ -64,7 +64,7 @@
     ],
     "description": "Fast numerical expression evaluator for NumPy\n",
     "homepage": "https://github.com/pydata/numexpr",
-    "latest_version": "2.9.0",
+    "latest_version": "2.8.4",
     "maintainers": [],
     "name": "py-numexpr",
     "patches": [],
@@ -77,14 +77,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.9.0",
-            "sha256": "4df4163fcab20030137e8f2aa23e88e1e42e6fe702387cfd95d7675e1d84645e"
-        },
-        {
-            "name": "2.8.8",
-            "sha256": "10b377c6ec6d9c01349d00e16dd82e6a6f4439c8c2b1945e490df1436c1825f5"
-        },
         {
             "name": "2.8.4",
             "sha256": "0e21addd25db5f62d60d97e4380339d9c1fb2de72c88b070c279776ee6455d10"

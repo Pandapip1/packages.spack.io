@@ -66,18 +66,6 @@
             "name": "py-contourpy"
         },
         {
-            "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely.",
-            "name": "py-geopmdpy"
-        },
-        {
-            "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely.",
-            "name": "py-geopmpy"
-        },
-        {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
-        },
-        {
             "description": "XLA library for Jax",
             "name": "py-jaxlib"
         },
@@ -100,7 +88,7 @@
     ],
     "description": "A simple, correct PEP517 package builder.\n",
     "homepage": "https://github.com/pypa/build",
-    "latest_version": "1.2.1",
+    "latest_version": "1.0.3",
     "maintainers": [],
     "name": "py-build",
     "patches": [],
@@ -118,18 +106,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.2.1",
-            "sha256": "526263f4870c26f26c433545579475377b2b7588b6f1eac76a001e873ae3e19d"
-        },
-        {
-            "name": "1.1.1",
-            "sha256": "8eea65bb45b1aac2e734ba2cc8dad3a6d97d97901a395bd0ed3e7b46953d2a31"
-        },
-        {
-            "name": "1.1.0",
-            "sha256": "f8da3eebb19668bb338b6eb256b1896ef4e87a5398bbdda97ee29ec474569f16"
-        },
         {
             "name": "1.0.3",
             "sha256": "538aab1b64f9828977f84bc63ae570b060a8ed1be419e7870b8b4fc5e6ea553b"

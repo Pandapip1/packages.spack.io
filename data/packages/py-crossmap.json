@@ -42,7 +42,7 @@
     ],
     "dependent_to": [],
     "description": "CrossMap is a program for convenient conversion of genome coordinates\n(or annotation files) between different assemblies\n",
-    "homepage": "https://crossmap.sourceforge.net/",
+    "homepage": "http://crossmap.sourceforge.net/",
     "latest_version": "0.3.9",
     "maintainers": [],
     "name": "py-crossmap",

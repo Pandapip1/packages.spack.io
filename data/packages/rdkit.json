@@ -74,7 +74,7 @@
     ],
     "description": "RDKit is a collection of cheminformatics and machine-learning software\nwritten in C++ and Python.\n",
     "homepage": "https://www.rdkit.org",
-    "latest_version": "2024_03_3",
+    "latest_version": "2023_03_1",
     "maintainers": [
         "RMeli",
         "bvanessen"
@@ -150,10 +150,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2024_03_3",
-            "sha256": "52f79c6bf1d446cdb5c86a35de655d96bad0c52a5f4ecbe15f08eaf334e6f76a"
-        },
         {
             "name": "2023_03_1",
             "sha256": "db346afbd0ba52c843926a2a62f8a38c7b774ffab37eaf382d789a824f21996c"

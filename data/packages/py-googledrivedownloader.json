@@ -24,7 +24,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "Graph Neural Network Library for PyTorch.",
+            "name": "py-torch-geometric"
+        }
+    ],
     "description": "Minimal class to download shared files from Google Drive.\n",
     "homepage": "https://github.com/ndrplz/google-drive-downloader",
     "latest_version": "0.4",

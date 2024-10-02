@@ -126,16 +126,8 @@
             "name": "pika-algorithms"
         },
         {
-            "description": "A poorman's JIT library",
-            "name": "poorjit"
-        },
-        {
             "description": "SONATA files reader",
             "name": "py-libsonata"
-        },
-        {
-            "description": "The rocprofiler-register library is a helper library that coordinates\nthe modification of the intercept API table(s) of the HSA/HIP/ROCTx\nruntime libraries by the ROCprofiler (v2) library",
-            "name": "rocprofiler-register"
         },
         {
             "description": "rocSOLVER is a work-in-progress implementation of a subset of LAPACK\nfunctionality on the ROCm platform.",
@@ -156,7 +148,7 @@
     ],
     "description": "fmt (formerly cppformat) is an open-source formatting library. It can be\nused as a safe alternative to printf or as a fast alternative to C++\nIOStreams.\n",
     "homepage": "https://fmt.dev/",
-    "latest_version": "11.0.2",
+    "latest_version": "10.2.1",
     "maintainers": [
         "msimberg"
     ],
@@ -213,7 +205,7 @@
             "relative_path": "fmt-no-variable-initialize_10.0.0.patch",
             "reverse": false,
             "sha256": "74b75da32eebe092e2784a602406386e60fc7d9d73d59c2da1a659982fde5648",
-            "version": "@10.0.0:11.0.2%clang@12.0.1.ibm.gcc.8.3.1",
+            "version": "@10.0.0:10.2.1%clang@12.0.1.ibm.gcc.8.3.1",
             "working_dir": "."
         },
         {
@@ -222,7 +214,7 @@
             "relative_path": "fmt-no-variable-initialize_10.0.0.patch",
             "reverse": false,
             "sha256": "74b75da32eebe092e2784a602406386e60fc7d9d73d59c2da1a659982fde5648",
-            "version": "@10.0.0:11.0.2%clang@14.0.5.ibm.gcc.8.3.1",
+            "version": "@10.0.0:10.2.1%clang@14.0.5.ibm.gcc.8.3.1",
             "working_dir": "."
         }
     ],
@@ -268,18 +260,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "11.0.2",
-            "sha256": "40fc58bebcf38c759e11a7bd8fdc163507d2423ef5058bba7f26280c5b9c5465"
-        },
-        {
-            "name": "11.0.1",
-            "sha256": "62ca45531814109b5d6cef0cf2fd17db92c32a30dd23012976e768c685534814"
-        },
-        {
-            "name": "11.0.0",
-            "sha256": "583ce480ef07fad76ef86e1e2a639fc231c3daa86c4aa6bcba524ce908f30699"
         },
         {
             "name": "10.2.1",

@@ -30,10 +30,6 @@
             "name": "py-dvc"
         },
         {
-            "description": "Parser tools for Mozilla's Glean telemetry.",
-            "name": "py-glean-parser"
-        },
-        {
             "description": "Petastorm is a library enabling the use of Parquet storage from\nTensorflow, Pytorch, and other Python-based ML training frameworks.",
             "name": "py-petastorm"
         }

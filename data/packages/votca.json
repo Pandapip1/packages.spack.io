@@ -36,7 +36,7 @@
             "name": "expat"
         },
         {
-            "description": "NVPL FFT (NVIDIA Performance Libraries FFT) is part of NVIDIA\nPerformance Libraries and provides Fast Fourier Transform (FFT)\ncalculations on ARM CPUs.",
+            "description": "This is an earlier version of Intel parallel software development tools\nand has now been replaced by the Intel oneAPI Toolkits. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.",
             "name": "fftw-api"
         },
         {
@@ -95,7 +95,7 @@
     "dependent_to": [],
     "description": "VOTCA is a software package which focuses on the analysis of molecular\ndynamics data, the development of systematic coarse-graining techniques\nas well as methods used for simulating microscopic charge (and exciton)\ntransport in disordered semiconductors.\n",
     "homepage": "https://www.votca.org",
-    "latest_version": "2024.2",
+    "latest_version": "2024",
     "maintainers": [
         "junghans"
     ],
@@ -143,14 +143,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "2024.2",
-            "sha256": "aa9ea3ad54dae31d3f68685d12f3bad4910ef3034a7f51c9ddd573b3856f4bc8"
-        },
-        {
-            "name": "2024.1",
-            "sha256": "68669a7d09020f780d2633eb865c6c53e5fb38d155f80c9670ebf9d10d10bee6"
         },
         {
             "name": "2024",

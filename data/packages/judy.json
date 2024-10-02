@@ -29,7 +29,7 @@
         }
     ],
     "description": "Judy: General-purpose dynamic array, associative array and hash-trie.\n",
-    "homepage": "https://judy.sourceforge.net/",
+    "homepage": "http://judy.sourceforge.net/",
     "latest_version": "1.0.5",
     "maintainers": [],
     "name": "judy",

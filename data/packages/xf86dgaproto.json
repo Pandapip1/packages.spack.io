@@ -25,7 +25,7 @@
         }
     ],
     "description": "X.org XF86DGAProto protocol headers.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/proto/xf86dgaproto",
+    "homepage": "https://cgit.freedesktop.org/xorg/proto/xf86dgaproto",
     "latest_version": "2.1",
     "maintainers": [],
     "name": "xf86dgaproto",

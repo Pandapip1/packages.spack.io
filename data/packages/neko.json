@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -413,10 +373,6 @@
             "name": "gslib"
         },
         {
-            "description": "HDF5 is a data model, library, and file format for storing and managing\ndata. It supports an unlimited variety of datatypes, and is designed for\nflexible and efficient I/O and for high volume and complex data.",
-            "name": "hdf5"
-        },
-        {
             "description": "HIP is a C++ Runtime API and Kernel Language that allows developers to\ncreate portable applications for AMD and NVIDIA GPUs from single source\ncode.",
             "name": "hip"
         },
@@ -464,7 +420,7 @@
     "dependent_to": [],
     "description": "Neko: A modern, portable, and scalable framework for high-fidelity\ncomputational fluid dynamics\n",
     "homepage": "https://github.com/ExtremeFLOW/neko",
-    "latest_version": "0.8.0",
+    "latest_version": "0.7.2",
     "maintainers": [
         "njansson"
     ],
@@ -504,11 +460,6 @@
         },
         {
             "default": false,
-            "description": "Build with support for HDF5",
-            "name": "hdf5"
-        },
-        {
-            "default": false,
             "description": "Build with support for parmetis",
             "name": "parmetis"
         },
@@ -527,10 +478,6 @@
         {
             "branch": "develop",
             "name": "develop"
-        },
-        {
-            "name": "0.8.0",
-            "sha256": "09d0b253c8abda9f384bf8f03b17b50d774cb0a1f7b72744a8e863acac516a51"
         },
         {
             "name": "0.7.2",

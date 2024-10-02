@@ -130,10 +130,6 @@
             "name": "py-sphinx-immaterial"
         },
         {
-            "description": "A library for accelerating Transformer models on NVIDIA GPUs, including\nfp8 precision on Hopper GPUs.",
-            "name": "py-transformer-engine"
-        },
-        {
             "description": "The Xanadu Cloud Client (XCC) is a Python API and CLI for the Xanadu\nCloud.",
             "name": "py-xanadu-cloud-client"
         },

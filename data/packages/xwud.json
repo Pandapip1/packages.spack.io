@@ -36,7 +36,7 @@
     ],
     "dependent_to": [],
     "description": "xwud allows X users to display in a window an image saved in a specially\nformatted dump file, such as produced by xwd.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xwud",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xwud",
     "latest_version": "1.0.6",
     "maintainers": [],
     "name": "xwud",

@@ -60,10 +60,6 @@
             "name": "libbytesize"
         },
         {
-            "description": "GNU Octave is a high-level language, primarily intended for numerical\ncomputations. It provides a convenient command line interface for\nsolving linear and nonlinear problems numerically, and for performing\nother numerical experiments using a language that is mostly compatible\nwith Matlab. It may also be used as a batch-oriented language.",
-            "name": "octave"
-        },
-        {
             "description": "Qt is a comprehensive cross-platform C++ application framework.",
             "name": "qt"
         },
@@ -90,7 +86,7 @@
     ],
     "description": "The PCRE2 package contains Perl Compatible Regular Expression libraries.\nThese are useful for implementing regular expression pattern matching\nusing the same syntax and semantics as Perl 5.\n",
     "homepage": "https://www.pcre.org",
-    "latest_version": "10.44",
+    "latest_version": "10.43",
     "maintainers": [],
     "name": "pcre2",
     "patches": [],
@@ -113,10 +109,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "10.44",
-            "sha256": "d34f02e113cf7193a1ebf2770d3ac527088d485d4e047ed10e5d217c6ef5de96"
-        },
         {
             "name": "10.43",
             "sha256": "e2a53984ff0b07dfdb5ae4486bbb9b21cca8e7df2434096cc9bf1b728c350bcb"

@@ -64,7 +64,7 @@
     ],
     "dependent_to": [],
     "description": "xinput is a utility to configure and test XInput devices.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xinput",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xinput",
     "latest_version": "1.6.3",
     "maintainers": [],
     "name": "xinput",

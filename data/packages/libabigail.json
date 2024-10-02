@@ -57,7 +57,7 @@
     "dependent_to": [],
     "description": "The ABI Generic Analysis and Instrumentation Library\n",
     "homepage": "https://sourceware.org/libabigail",
-    "latest_version": "2.1",
+    "latest_version": "2.0",
     "maintainers": [],
     "name": "libabigail",
     "patches": [],
@@ -78,10 +78,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "2.1",
-            "sha256": "4a6297d41d15d1936256117116bd61296e6b9bee23d54a0caf8d3f5ab8ddcc4c"
         },
         {
             "name": "2.0",

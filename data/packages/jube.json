@@ -31,7 +31,7 @@
     "dependent_to": [],
     "description": "The Juelich benchmarking environment (JUBE) provides a script based\nframework to easily create benchmark sets, run those sets on different\ncomputer systems and evaluate the results.\n",
     "homepage": "https://www.fz-juelich.de/jsc/jube/",
-    "latest_version": "2.7.1",
+    "latest_version": "2.6.1",
     "maintainers": [],
     "name": "jube",
     "patches": [],
@@ -49,21 +49,6 @@
         }
     ],
     "versions": [
-        {
-            "extension": "tar.gz",
-            "name": "2.7.1",
-            "sha256": "fe8b505a8bf224d785df665af134a1e69063d34d1a7214700d8c7325fef9ecfc"
-        },
-        {
-            "extension": "tar.gz",
-            "name": "2.7.0",
-            "sha256": "31bba50c40547db6dc777d9766babb4786bb8539e988fd5de962602593304d26"
-        },
-        {
-            "extension": "tar.gz",
-            "name": "2.6.2",
-            "sha256": "44fd0dd74500cb2537af52850d5742e5bc09f0379036bad83984a69bd7396151"
-        },
         {
             "extension": "tar.gz",
             "name": "2.6.1",

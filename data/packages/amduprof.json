@@ -8,18 +8,13 @@
             "spec": ""
         }
     ],
-    "dependencies": [
-        {
-            "description": "GNU binutils, which contain the linker, assembler, objdump and others",
-            "name": "binutils"
-        }
-    ],
+    "dependencies": [],
     "dependent_to": [],
-    "description": "AMD uProf (\"MICRO-prof\") is a software profiling analysis tool for x86\napplications running on Windows, Linux and FreeBSD operating systems and\nprovides event information unique to the AMD \"Zen\"-based processors and\nAMD Instinct(tm) MI Series accelerators. AMD uProf enables the developer\nto better understand the limiters of application performance and\nevaluate improvements.\n",
+    "description": "AMD uProf (\"MICRO-prof\") is a software profiling analysis tool for x86\napplications running on Windows, Linux and FreeBSD operating systems and\nprovides event information unique to the AMD \"Zen\"-based processors and\nAMD Instinct(tm) MI Series accelerators.\n",
     "homepage": "https://developer.amd.com/amd-uprof/",
     "latest_version": "4.2.850",
     "maintainers": [
-        "amd-toolchain-support"
+        "zzzoom"
     ],
     "name": "amduprof",
     "patches": [],

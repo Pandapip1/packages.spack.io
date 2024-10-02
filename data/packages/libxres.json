@@ -42,14 +42,9 @@
             "name": "xextproto"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "Window Navigator Construction Kit",
-            "name": "libwnck"
-        }
-    ],
+    "dependent_to": [],
     "description": "libXRes - X-Resource extension client library.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXRes",
+    "homepage": "https://cgit.freedesktop.org/xorg/lib/libXRes",
     "latest_version": "1.2.2",
     "maintainers": [
         "wdconinc"

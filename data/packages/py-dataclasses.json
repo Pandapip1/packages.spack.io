@@ -36,10 +36,6 @@
             "name": "py-black"
         },
         {
-            "description": "Chex is a library of utilities for helping to write reliable JAX code.",
-            "name": "py-chex"
-        },
-        {
             "description": "Flexible metadata store for MLOps, built for research and production\nteams that run a lot of experiments.",
             "name": "py-neptune-client"
         }

@@ -28,12 +28,17 @@
         },
         {
             "description": "intel-oneapi-dal: This package in only available for x86_64 and Linux",
-            "name": "arch=darwin-None-None",
+            "name": "arch=cray:-None-None",
             "spec": ""
         },
         {
             "description": "intel-oneapi-dal: This package in only available for x86_64 and Linux",
-            "name": "arch=windows-None-None",
+            "name": "arch=darwin:-None-None",
+            "spec": ""
+        },
+        {
+            "description": "intel-oneapi-dal: This package in only available for x86_64 and Linux",
+            "name": "arch=windows:-None-None",
             "spec": ""
         }
     ],
@@ -46,7 +51,7 @@
     "dependent_to": [],
     "description": "Intel oneAPI Data Analytics Library (oneDAL) is a library that helps\nspeed up big data analysis by providing highly optimized algorithmic\nbuilding blocks for all stages of data analytics (preprocessing,\ntransformation, analysis, modeling, validation, and decision making) in\nbatch, online, and distributed processing modes of computation. The\nlibrary optimizes data ingestion along with algorithmic computation to\nincrease throughput and scalability. LICENSE INFORMATION: By downloading\nand using this software, you agree to the terms and conditions of the\nsoftware license agreements at https://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onedal.html",
-    "latest_version": "2024.7.0",
+    "latest_version": "2024.2.0",
     "maintainers": [
         "rscohn2"
     ],
@@ -66,21 +71,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2024.7.0",
-            "sha256": "aa7b072fe019ce253a111b38055f3949222d7be5231b4df2780a7ded16cd9097",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/ed2c397a-9a78-4466-9179-b39b7da07e83/l_daal_oneapi_p_2024.7.0.14_offline.sh"
-        },
-        {
-            "name": "2024.6.0",
-            "sha256": "2e5966348df4dd70b2887512dca12ecc671de831a30ca21a23a28822c4d24f9f",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/1edf7074-80f8-4b97-aad3-5023b41b7ecd/l_daal_oneapi_p_2024.6.0.418_offline.sh"
-        },
-        {
-            "name": "2024.5.0",
-            "sha256": "65d437f8841fd4872e35708f3c989bc00022fe041e750e8c35dee010bd87db9d",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/6ca2d1a8-b7c7-4a70-9c38-2b437dacae1a/l_daal_oneapi_p_2024.5.0.284_offline.sh"
-        },
         {
             "name": "2024.2.0",
             "sha256": "921dbbf200096166d58ab5b8baeb93a8c85ad8a98cc43e178ae0c2f29af02212",

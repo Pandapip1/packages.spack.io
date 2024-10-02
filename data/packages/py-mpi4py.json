@@ -46,6 +46,10 @@
             "name": "ascent"
         },
         {
+            "description": "ECP-CANDLE Benchmarks",
+            "name": "candle-benchmarks"
+        },
+        {
             "description": "Conduit is an open source project from Lawrence Livermore National\nLaboratory that provides an intuitive model for describing hierarchical\nscientific data in C++, C, Fortran, and Python. It is used for data\ncoupling between packages in-core, serialization, and I/O tasks.",
             "name": "conduit"
         },
@@ -60,10 +64,6 @@
         {
             "description": "Damaris is a middleware for I/O and in situ analytics targeting large-\nscale, MPI-based HPC simulations.",
             "name": "damaris"
-        },
-        {
-            "description": "The Earth System Modeling Framework (ESMF) is high-performance, flexible\nsoftware infrastructure for building and coupling weather, climate, and\nrelated Earth science applications. The ESMF defines an architecture for\ncomposing complex, coupled modeling systems and includes data structures\nand utilities for developing individual models. The National Unified\nOperational Prediction Capability (NUOPC) Layer defines a common model\narchitecture to support interoperable ESMF components. The NUOPC Layer\nis included with the ESMF package.",
-            "name": "esmf"
         },
         {
             "description": "ExaGO is a package for solving large-scale power grid optimization\nproblems on parallel and distributed architectures, particularly\ntargeted for exascale machines.",
@@ -130,10 +130,6 @@
             "name": "py-anuga"
         },
         {
-            "description": "Spatial indexer for geometries and morphologies",
-            "name": "py-brain-indexer"
-        },
-        {
             "description": "Chainer is a Python-based deep learning framework aiming at\nflexibility. It provides automatic differentiation APIs based on the\ndefine-by-run approach (a.k.a. dynamic computational graphs) as well as\nobject-oriented high-level APIs to build and train neural networks. It\nalso supports CUDA/cuDNN using CuPy for high performance training and\ninference.",
             "name": "py-chainer"
         },
@@ -158,22 +154,6 @@
             "name": "py-fenics-dolfinx"
         },
         {
-            "description": "Fluidfft plugin using fftwmpi.",
-            "name": "py-fluidfft-fftwmpi"
-        },
-        {
-            "description": "Fluidfft MPI plugin using fftw.",
-            "name": "py-fluidfft-mpi-with-fftw"
-        },
-        {
-            "description": "Fluidfft MPI plugin using p3dfft.",
-            "name": "py-fluidfft-p3dfft"
-        },
-        {
-            "description": "Fluidfft MPI plugin using pfft.",
-            "name": "py-fluidfft-pfft"
-        },
-        {
             "description": "Python bindings and ensemble workflow management for GROMACS. The\nGROMACS C++ API is affected by its package variants. You can specify a\nparticular GROMACS API by making the dependency variant explicit. E.g.\n``spack install gmxapi ^gromacs+mpi~double``",
             "name": "py-gmxapi"
         },
@@ -196,10 +176,6 @@
         {
             "description": "Melissa is a file-avoiding, adaptive, fault-tolerant and elastic\nframework, to run large-scale sensitivity analysis or deep-surrogate\ntraining on supercomputers. This package builds the launcher and server\nmodules.",
             "name": "py-melissa-core"
-        },
-        {
-            "description": "METIS partitioner for mesh and graphMETIS partitioner for mesh and graph",
-            "name": "py-mgmetis"
         },
         {
             "description": "Zero-copy MPI communication of JAX arrays, for turbo-charged HPC\napplications in Python.",
@@ -250,7 +226,7 @@
             "name": "py-uvw"
         },
         {
-            "description": "This package is deprecated. Please use `warpx +python`. WarpX is an\nadvanced electromagnetic Particle-In-Cell code. It supports many\nfeatures including Perfectly-Matched Layers (PML) and mesh refinement.\nIn addition, WarpX is a highly-parallel and highly-optimized code and\nfeatures hybrid OpenMP/MPI parallelization, advanced vectorization\ntechniques and load balancing capabilities. These are the Python\nbindings of WarpX with PICMI input support. See the C++ 'warpx' package\nfor the WarpX application and library.",
+            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid OpenMP/MPI parallelization, advanced\nvectorization techniques and load balancing capabilities. These are the\nPython bindings of WarpX with PICMI input support. See the C++ 'warpx'\npackage for the WarpX application and library.",
             "name": "py-warpx"
         },
         {
@@ -284,15 +260,11 @@
         {
             "description": "The Visualization Toolkit (VTK) is an open-source, freely available\nsoftware system for 3D computer graphics, image processing and\nvisualization.",
             "name": "vtk"
-        },
-        {
-            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid GPU/OpenMP/MPI parallelization and load\nbalancing capabilities.",
-            "name": "warpx"
         }
     ],
     "description": "This package provides Python bindings for the Message Passing Interface\n(MPI) standard. It is implemented on top of the MPI-1/MPI-2\nspecification and exposes an API which grounds on the standard MPI-2 C++\nbindings.\n",
     "homepage": "https://pypi.org/project/mpi4py/",
-    "latest_version": "3.1.6",
+    "latest_version": "3.1.5",
     "maintainers": [],
     "name": "py-mpi4py",
     "patches": [],
@@ -308,10 +280,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "3.1.6",
-            "sha256": "c8fa625e0f92b082ef955bfb52f19fa6691d29273d7d71135d295aa143dee6cb"
         },
         {
             "name": "3.1.5",

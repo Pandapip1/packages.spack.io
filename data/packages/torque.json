@@ -12,7 +12,9 @@
     "description": "TORQUE (Terascale Open-source Resource and QUEue Manager) is an open\nsource project based on the original PBS resource manager developed by\nNASA, LLNL, and MRJ.\n",
     "homepage": "https://github.com/abarbu/torque",
     "latest_version": "3.0.4",
-    "maintainers": [],
+    "maintainers": [
+        "sethrj"
+    ],
     "name": "torque",
     "patches": [],
     "resources": [],

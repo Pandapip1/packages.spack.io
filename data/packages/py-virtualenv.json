@@ -74,8 +74,8 @@
             "name": "bohrium"
         },
         {
-            "description": "hipSPARSELt is a SPARSE marshalling library, with multiple supported\nbackends. It sits between the application and a 'worker' SPARSE library,\nmarshalling inputs into the backend library and marshalling results back\nto the application. hipSPARSELt exports an interface that does not\nrequire the client to change, regardless of the chosen backend.\nCurrently, hipSPARSELt supports rocSPARSELt and cuSPARSELt v0.4 as\nbackends.",
-            "name": "hipsparselt"
+            "description": "MIOpenTensile provides host-callable interfaces to Tensile library.\nMIOpenTensile supports one programming model: HIP",
+            "name": "miopen-tensile"
         },
         {
             "description": "A simple, correct PEP517 package builder.",

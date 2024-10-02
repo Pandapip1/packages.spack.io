@@ -128,7 +128,7 @@
     ],
     "description": "ROCPROFILER library for AMD HSA runtime API extension support\n",
     "homepage": "https://github.com/ROCm/rocprofiler",
-    "latest_version": "6.2.1",
+    "latest_version": "6.0.2",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -186,7 +186,7 @@
             "relative_path": "0003-disable-tests.patch",
             "reverse": false,
             "sha256": "9f49746dc571a1e75c7ced419f6ca4a68313e824cc9a07251eaf83d2057c6f1a",
-            "version": "@6.0:",
+            "version": "@6.0",
             "working_dir": "."
         }
     ],
@@ -214,26 +214,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "6.2.1",
-            "sha256": "6eb36dad67e3b294f210e21987c52aec666652cffa87b8af1f8077d5b7812245"
-        },
-        {
-            "name": "6.2.0",
-            "sha256": "79b4f29d051e62639b4bf2ca288035514d32e055fc759ff4a82d377bf7ca97ea"
-        },
-        {
-            "name": "6.1.2",
-            "sha256": "e6e8771b8c933c16a99192cc215fe964a95e1718ad286520c8272150e184bc06"
-        },
-        {
-            "name": "6.1.1",
-            "sha256": "b4b01a02de5328c7383c2318a998da86a6a9372e1728fc88a21b52bc1cbe9d9d"
-        },
-        {
-            "name": "6.1.0",
-            "sha256": "14ac0a451428465133583e83d9177ed34b3d4679515018a12ee74f5e0288c956"
-        },
         {
             "name": "6.0.2",
             "sha256": "d3f24e639a5e151fa418a92ae6fe150bdf14120b8982a5baa52844ce2fba0b82"
@@ -265,9 +245,7 @@
         {
             "name": "5.5.0",
             "sha256": "d9dd38c42b4b12d4149f1cc3fca1af5bec69c72f455653a8f4fd8195b3b95703"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "5.4.3",
             "sha256": "86c3f43ee6cb9808796a21409c853cc8fd496578b9eef4de67ca77830229cac1"
@@ -283,6 +261,28 @@
         {
             "name": "5.3.0",
             "sha256": "b0905a329dc1c97a362b951f3f8ef5da9d171cabb001ed4253bd59a2742e7d39"
+        }
+    ],
+    "versions_deprecated": [
+        {
+            "name": "5.2.3",
+            "sha256": "4ed22e86633ab177eed85fed8994fcb71017c4c4774998e4d3fc36b6c0a15eac"
+        },
+        {
+            "name": "5.2.1",
+            "sha256": "c6768ec428590aadfb0e7ef6e22b8dc5ac8ed97babeb56db07f2d5d41cd122e2"
+        },
+        {
+            "name": "5.2.0",
+            "sha256": "1f4db27b56ef1863d4c9e1d96bac9117d66be45156d0637cfe4fd38cae61a23a"
+        },
+        {
+            "name": "5.1.3",
+            "sha256": "eca7be451c7bf000fd9c75683e7f5dfbed32dbb385b5ac685d2251ee8c3abc96"
+        },
+        {
+            "name": "5.1.0",
+            "sha256": "4a1c6ed887b0159392406af8796508df2794353a4c3aacc801116044fb4a10a5"
         }
     ]
 }

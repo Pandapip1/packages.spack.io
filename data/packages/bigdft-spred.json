@@ -54,10 +54,6 @@
             "name": "mpi"
         },
         {
-            "description": "pkg-config is a helper tool used when compiling applications and\nlibraries",
-            "name": "pkg-config"
-        },
-        {
             "description": "PyYAML is a YAML parser and emitter for Python.",
             "name": "py-pyyaml"
         },
@@ -78,7 +74,7 @@
     ],
     "description": "BigDFT-spred: a library for structure prediction tools, that is compiled\non top of BigDFT routines.\n",
     "homepage": "https://bigdft.org/",
-    "latest_version": "1.9.5",
+    "latest_version": "1.9.2",
     "maintainers": [],
     "name": "bigdft-spred",
     "patches": [],
@@ -114,14 +110,6 @@
         {
             "branch": "devel",
             "name": "develop"
-        },
-        {
-            "name": "1.9.5",
-            "sha256": "5fe51e92bb746569207295feebbcd154ce4f1b364a3981bace75c45e983b2741"
-        },
-        {
-            "name": "1.9.4",
-            "sha256": "fa22115e6353e553d2277bf054eb73a4710e92dfeb1ed9c5bf245337187f393d"
         },
         {
             "name": "1.9.2",

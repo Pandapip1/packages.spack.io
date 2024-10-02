@@ -49,10 +49,6 @@
             "name": "gpi-2"
         },
         {
-            "description": "LCI: the Lightweight Communication Interface",
-            "name": "lci"
-        },
-        {
             "description": "The Open Fabrics Interfaces (OFI) is a framework focused on exporting\nfabric communication services to applications.",
             "name": "libfabric"
         },
@@ -87,20 +83,10 @@
     ],
     "description": "RDMA core userspace libraries and daemons\n",
     "homepage": "https://github.com/linux-rdma/rdma-core",
-    "latest_version": "52.0",
+    "latest_version": "51.0",
     "maintainers": [],
     "name": "rdma-core",
-    "patches": [
-        {
-            "level": 1,
-            "owner": "builtin.rdma-core",
-            "relative_path": "libdrm.patch",
-            "reverse": false,
-            "sha256": "4dec4ad0e01f3bad73163c4ca691189264f2cd437a0673230407b4a31a2a9c46",
-            "version": "@34:",
-            "working_dir": "."
-        }
-    ],
+    "patches": [],
     "resources": [],
     "variants": [
         {
@@ -140,10 +126,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "52.0",
-            "sha256": "1f0ce5f2462c982b20d21156707076278807a7adf4d10e9142f3be4bec1b2b83"
-        },
         {
             "name": "51.0",
             "sha256": "0a4a55b1351356c2750f26ec9010e8c7370402a13c95799cb8b447cf0134dd61"

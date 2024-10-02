@@ -44,8 +44,49 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [],
-    "description": "CMake is an open-source, cross-platform family of tools designed to\nbuild, test and package software. Deprecated: use cmake instead.\n",
+    "dependent_to": [
+        {
+            "description": "A Python wrapper for the extremely fast Blosc compression library",
+            "name": "py-blosc"
+        },
+        {
+            "description": "Python interface to chemfiles",
+            "name": "py-chemfiles"
+        },
+        {
+            "description": "A generic correction library",
+            "name": "py-correctionlib"
+        },
+        {
+            "description": "A low-level profiler for capture I/O calls from deep learning\napplications.",
+            "name": "py-dlio-profiler-py"
+        },
+        {
+            "description": "Python bindings and ensemble workflow management for GROMACS. The\nGROMACS C++ API is affected by its package variants. You can specify a\nparticular GROMACS API by making the dependency variant explicit. E.g.\n``spack install gmxapi ^gromacs+mpi~double``",
+            "name": "py-gmxapi"
+        },
+        {
+            "description": "Interactive IPython-Friendly Minimizer based on SEAL Minuit2.",
+            "name": "py-iminuit"
+        },
+        {
+            "description": "NetKet is an open-source project, delivering cutting-edge methods for\nthe study of many-body quantum systems with artificial neural networks\nand machine learning techniques.",
+            "name": "py-netket"
+        },
+        {
+            "description": "Aer is a high performance simulator for quantum circuits that includes\nnoise models",
+            "name": "py-qiskit-aer"
+        },
+        {
+            "description": "A workflow library to easily integrate machine learning libraries with\nhigh performance computing simulations and applications",
+            "name": "py-smartsim"
+        },
+        {
+            "description": "tweedledum is a library for synthesis, compilation, and optimization of\nquantum circuits. The library is written to be scalable up to problem\nsizes in which quantum circuits outperform classical ones. Also, it is\nmeant to be used both independently and alongside established tools.",
+            "name": "py-tweedledum"
+        }
+    ],
+    "description": "CMake is an open-source, cross-platform family of tools designed to\nbuild, test and package software\n",
     "homepage": "https://cmake.org",
     "latest_version": "3.27.9",
     "maintainers": [],
@@ -84,8 +125,7 @@
             "name": "build_system"
         }
     ],
-    "versions": [],
-    "versions_deprecated": [
+    "versions": [
         {
             "name": "3.27.9",
             "sha256": "d8a40eef1268c91e5b520b28fd5fe0591d750e48e44276dbfd493a14ee595c41"
@@ -102,5 +142,6 @@
             "name": "3.18.0",
             "sha256": "52b98c5ee70b5fa30a8623e96482227e065292f78794eb085fdf0fecb204b79b"
         }
-    ]
+    ],
+    "versions_deprecated": []
 }

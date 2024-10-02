@@ -94,7 +94,7 @@
     "dependent_to": [],
     "description": "Lightweight user-defined software stacks for HPC.\n",
     "homepage": "https://hpc.github.io/charliecloud",
-    "latest_version": "0.38",
+    "latest_version": "0.37",
     "maintainers": [
         "j-ogas",
         "reidpr"
@@ -123,10 +123,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "0.38",
-            "sha256": "1a3766d57ff4db9c65fd5c561bbaac52476c9a19fa10c1554190912a03429b7a"
         },
         {
             "name": "0.37",

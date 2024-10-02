@@ -41,7 +41,7 @@
         }
     ],
     "description": "Cscope is a developer's tool for browsing source code.\n",
-    "homepage": "https://cscope.sourceforge.net/",
+    "homepage": "http://cscope.sourceforge.net/",
     "latest_version": "15.9",
     "maintainers": [],
     "name": "cscope",

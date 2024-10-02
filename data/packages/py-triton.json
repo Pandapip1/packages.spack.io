@@ -1,13 +1,7 @@
 {
     "aliases": [],
     "build_system": "PythonPackage",
-    "conflicts": [
-        {
-            "description": null,
-            "name": "^openssl@3.3.0",
-            "spec": ""
-        }
-    ],
+    "conflicts": [],
     "dependencies": [
         {
             "description": "A cross-platform, open-source build system. CMake is a family of tools\ndesigned to build, test and package software.",
@@ -63,10 +57,6 @@
         }
     ],
     "versions": [
-        {
-            "branch": "main",
-            "name": "main"
-        },
         {
             "name": "2.1.0",
             "sha256": "4338ca0e80a059aec2671f02bfc9320119b051f378449cf5f56a1273597a3d99"

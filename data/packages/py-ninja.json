@@ -38,15 +38,39 @@
     ],
     "dependent_to": [
         {
+            "description": "A Python wrapper for the extremely fast Blosc compression library",
+            "name": "py-blosc"
+        },
+        {
+            "description": "Python wrapper for the C-Blosc2 library.",
+            "name": "py-blosc2"
+        },
+        {
+            "description": "Python interface to chemfiles",
+            "name": "py-chemfiles"
+        },
+        {
+            "description": "DeepSpeed library. DeepSpeed enables world's most powerful language\nmodels like MT-530B and BLOOM. It is an easy-to-use deep learning\noptimization software suite that powers unprecedented scale and speed\nfor both training and inference.",
+            "name": "py-deepspeed"
+        },
+        {
+            "description": "A low-level profiler for capture I/O calls from deep learning\napplications.",
+            "name": "py-dlio-profiler-py"
+        },
+        {
             "description": "This package provides the official implementation of FlashAttention.",
             "name": "py-flash-attn"
         },
         {
-            "description": "AI Toolkit for Healthcare Imaging",
-            "name": "py-monai"
+            "description": "Line-by-line profiler.",
+            "name": "py-line-profiler"
+        },
+        {
+            "description": "tweedledum is a library for synthesis, compilation, and optimization of\nquantum circuits. The library is written to be scalable up to problem\nsizes in which quantum circuits outperform classical ones. Also, it is\nmeant to be used both independently and alongside established tools.",
+            "name": "py-tweedledum"
         }
     ],
-    "description": "Ninja is a small build system with a focus on speed. Deprecated: use\nninja instead.\n",
+    "description": "Ninja is a small build system with a focus on speed.\n",
     "homepage": "https://ninja-build.org",
     "latest_version": "1.10.2",
     "maintainers": [],
@@ -60,11 +84,11 @@
             "name": "build_system"
         }
     ],
-    "versions": [],
-    "versions_deprecated": [
+    "versions": [
         {
             "name": "1.10.2",
             "sha256": "bb5e54b9a7343b3a8fc6532ae2c169af387a45b0d4dd5b72c2803e21658c5791"
         }
-    ]
+    ],
+    "versions_deprecated": []
 }

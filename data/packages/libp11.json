@@ -46,7 +46,7 @@
     ],
     "description": "The PKCS#11 API is an abstract API to perform operations on\ncryptographic objects such as private keys, without requiring access to\nthe objects themselves. That is, it provides a logical separation of the\nkeys from the operations. The PKCS #11 API is mainly used to access\nobjects in smart cards and Hardware or Software Security Modules (HSMs).\nThat is because in these modules the cryptographic keys are isolated in\nhardware or software and are not made available to the applications\nusing them.\n",
     "homepage": "https://github.com/OpenSC/libp11/wiki",
-    "latest_version": "0.4.12",
+    "latest_version": "0.4.11",
     "maintainers": [],
     "name": "libp11",
     "patches": [],
@@ -59,10 +59,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.4.12",
-            "sha256": "c1a233ecb09ab48595ba36a504c47f82cf53a59aa8db789c02ca72d50e85ca87"
-        },
         {
             "name": "0.4.11",
             "sha256": "56d6149879bda379613d89adfd3486ce5a3c20af6c1e3f9e83d15d900ab9e4bc"

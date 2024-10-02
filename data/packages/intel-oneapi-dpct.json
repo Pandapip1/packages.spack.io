@@ -19,12 +19,17 @@
         },
         {
             "description": "intel-oneapi-dpct: This package in only available for x86_64 and Linux",
-            "name": "arch=darwin-None-None",
+            "name": "arch=cray:-None-None",
             "spec": ""
         },
         {
             "description": "intel-oneapi-dpct: This package in only available for x86_64 and Linux",
-            "name": "arch=windows-None-None",
+            "name": "arch=darwin:-None-None",
+            "spec": ""
+        },
+        {
+            "description": "intel-oneapi-dpct: This package in only available for x86_64 and Linux",
+            "name": "arch=windows:-None-None",
             "spec": ""
         }
     ],
@@ -32,7 +37,7 @@
     "dependent_to": [],
     "description": "The Intel DPC++ Compatibility Tool assists in migrating your existing\nCUDA code to SYCL code. The tool ports both CUDA language kernels and\nlibrary API calls. Typically, 90%-95% of CUDA code automatically\nmigrates to SYCL code. LICENSE INFORMATION: By downloading and using\nthis software, you agree to the terms and conditions of the software\nlicense agreements at https://intel.ly/393CijO.\n",
     "homepage": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-compatibility-tool.html#gs.2p8km6",
-    "latest_version": "2024.2.1",
+    "latest_version": "2024.1.0",
     "maintainers": [
         "rscohn2"
     ],
@@ -52,16 +57,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2024.2.1",
-            "sha256": "87af24e0151bcde66c568f73156532a055569b349a7dbd34178344245a43ca1f",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/e3b7b68d-65dd-4d03-9119-ce3ad448657e/l_dpcpp-ct_p_2024.2.1.64_offline.sh"
-        },
-        {
-            "name": "2024.2.0",
-            "sha256": "43a6c5fa646291ea4f8ee94e2e711ee42bbd6aff7901bda1694e1ea99e6852e2",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/6b83dabd-75cf-4371-b4cd-91160175d5ff/l_dpcpp-ct_p_2024.2.0.424_offline.sh"
-        },
         {
             "name": "2024.1.0",
             "sha256": "f4855ef768b9067476f0e216140c65777e301c9b32be45d9e644d54b6dc21e1b",

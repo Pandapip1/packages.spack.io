@@ -48,7 +48,7 @@
     ],
     "description": "kallisto is a program for quantifying abundances of transcripts from\nRNA-Seq data.\n",
     "homepage": "https://pachterlab.github.io/kallisto",
-    "latest_version": "0.50.1",
+    "latest_version": "0.48.0",
     "maintainers": [],
     "name": "kallisto",
     "patches": [
@@ -76,17 +76,12 @@
             "relative_path": "htslib_configure.patch",
             "reverse": false,
             "sha256": "c401afb2bbcc7800e45ab488da83b6e0df112a995ef40227f1cbb5dbe538ca64",
-            "version": "@0.44.0:0.48.0 ^autoconf@2.70:",
+            "version": "@0.44.0: ^autoconf@2.70:",
             "working_dir": "."
         }
     ],
     "resources": [],
     "variants": [
-        {
-            "default": false,
-            "description": "Build with htslib support",
-            "name": "bam"
-        },
         {
             "default": "cmake",
             "description": "Build systems supported by the package",
@@ -114,10 +109,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.50.1",
-            "sha256": "030752bab3b0e33cd3f23f6d8feddd74194e5513532ffbf23519e84db2a86d34"
-        },
         {
             "name": "0.48.0",
             "sha256": "1797ac4d1f0771e3f1f25dd7972bded735fcb43f853cf52184d3d9353a6269b0"

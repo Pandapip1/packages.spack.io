@@ -56,10 +56,6 @@
         {
             "description": "An accurate and integrative structural-variant caller for next\ngeneration sequencing",
             "name": "py-metasv"
-        },
-        {
-            "description": "Sequence Elements Enrichment Analysis (SEER), python implementation",
-            "name": "py-pyseer"
         }
     ],
     "description": "Python wrapper -- and more -- for Aaron Quinlan's BEDTools\n",

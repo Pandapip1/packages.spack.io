@@ -48,8 +48,8 @@
     ],
     "dependent_to": [],
     "description": "xload displays a periodically updating histogram of the system load\naverage.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xload",
-    "latest_version": "1.2.0",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xload",
+    "latest_version": "1.1.4",
     "maintainers": [],
     "name": "xload",
     "patches": [],
@@ -62,10 +62,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.2.0",
-            "sha256": "0d3b84d22d2d85e9c3c152e48871e490dfcaad420f8836333f1323c5a690d55f"
-        },
         {
             "name": "1.1.4",
             "sha256": "4e3d240ab63e02f2ddac8182519d94bea82bda4887e3e364dd8832a04ca8436a"

@@ -7,10 +7,6 @@
         {
             "description": "The package GoSam allows for the automated calculation of one-loop\namplitudes for multi-particle processes in renormalizable quantum field\ntheories.",
             "name": "py-gosam"
-        },
-        {
-            "description": "WHIZARD is a program system designed for the efficient calculation of\nmulti-particle scattering cross sections and simulated event samples.",
-            "name": "whizard"
         }
     ],
     "description": "Qgraf is a computer program that generates Feynman diagrams for various\ntypes of QFT models\n",

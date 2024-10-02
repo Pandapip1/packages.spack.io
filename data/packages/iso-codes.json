@@ -45,7 +45,7 @@
     "dependent_to": [],
     "description": "ISO-codes provides lists of various ISO standards\n",
     "homepage": "https://salsa.debian.org/iso-codes-team/iso-codes",
-    "latest_version": "4.16.0",
+    "latest_version": "4.15.0",
     "maintainers": [],
     "name": "iso-codes",
     "patches": [],
@@ -58,10 +58,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "4.16.0",
-            "sha256": "d37ff1b2b76e63926e8043b42e0ff806bb4e41e2a57d93c9d4ec99c06b409530"
-        },
         {
             "name": "4.15.0",
             "sha256": "3d50750bf1d62d83b6085f5815ceb8392df34266a15f16bcf8d4cf7eb15d245c"

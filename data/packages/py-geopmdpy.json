@@ -4,10 +4,6 @@
     "conflicts": [],
     "dependencies": [
         {
-            "description": "A simple, correct PEP517 package builder.",
-            "name": "py-build"
-        },
-        {
             "description": "Foreign Function Interface for Python calling C code",
             "name": "py-cffi"
         },
@@ -36,10 +32,6 @@
             "name": "py-setuptools"
         },
         {
-            "description": "The blessed package to manage your versions by scm tags.",
-            "name": "py-setuptools-scm"
-        },
-        {
             "description": "A built-package format for Python.",
             "name": "py-wheel"
         },
@@ -56,15 +48,11 @@
         {
             "description": "The Global Extensible Open Power Manager (GEOPM) Runtime is designed to\nenhance energy efficiency of applications through active hardware\nconfiguration.",
             "name": "geopm-runtime"
-        },
-        {
-            "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely. Note:\nGEOPM interfaces with hardware using Model Specific Registers (MSRs).\nFor proper usage make sure MSRs are made available via the msr or msr-\nsafe kernel modules by your administrator.",
-            "name": "geopm-service"
         }
     ],
     "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely.\n",
     "homepage": "https://geopm.github.io",
-    "latest_version": "3.1.0",
+    "latest_version": "3.0.1",
     "maintainers": [
         "bgeltz",
         "cmcantalupo"
@@ -83,10 +71,6 @@
         {
             "branch": "dev",
             "name": "develop"
-        },
-        {
-            "name": "3.1.0",
-            "sha256": "2d890cad906fd2008dc57f4e06537695d4a027e1dc1ed92feed4d81bb1a1449e"
         },
         {
             "name": "3.0.1",

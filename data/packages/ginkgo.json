@@ -69,21 +69,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -239,11 +224,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -270,32 +250,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -379,7 +339,7 @@
         },
         {
             "description": "ginkgo: CCCL 2.3 bug causes build failure.",
-            "name": "^cuda@12.4",
+            "name": "^cuda@12.4.0",
             "spec": "+cuda"
         },
         {
@@ -566,10 +526,10 @@
     ],
     "description": "High-performance linear algebra library for manycore systems, with a\nfocus on sparse solution of linear systems.\n",
     "homepage": "https://ginkgo-project.github.io/",
-    "latest_version": "1.8.0",
+    "latest_version": "1.7.0",
     "maintainers": [
-        "MarcelKoch",
-        "hartwiganzt"
+        "hartwiganzt",
+        "tcojean"
     ],
     "name": "ginkgo",
     "patches": [
@@ -607,15 +567,6 @@
             "reverse": false,
             "sha256": "ba0956e54b91edfc92e9fa961ec0d5159a3920aeb6d1686b2092357b1e5f3423",
             "version": "@1.5.0+rocm",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.ginkgo",
-            "reverse": false,
-            "sha256": "27d6ae6c87bec15464d20a963c336e89eac92625d07e3f9548e33cd7b952a496",
-            "url": "https://github.com/ginkgo-project/ginkgo/pull/1668.patch?full_index=1",
-            "version": "@1.8.0+rocm",
             "working_dir": "."
         }
     ],
@@ -710,10 +661,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "commit": "586b1754058d7a32d4bd1b650f9603484c2a8927",
-            "name": "1.8.0"
         },
         {
             "commit": "49242ff89af1e695d7794f6d50ed9933024b66fe",

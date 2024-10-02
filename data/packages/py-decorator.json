@@ -34,10 +34,6 @@
             "name": "py-gssapi"
         },
         {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
-        },
-        {
             "description": "HTTP Request and Response Service",
             "name": "py-httpbin"
         },

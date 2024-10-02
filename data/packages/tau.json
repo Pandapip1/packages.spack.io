@@ -199,15 +199,6 @@
             "sha256": "b97d599bd8c8b8f764127b0576c31ddf77f1852eb7b7a4053b2a20180b57bcb1",
             "version": "@2.29.0",
             "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.tau",
-            "relative_path": "tau-rocm-disable-llvm-plugin.patch",
-            "reverse": false,
-            "sha256": "fa49bc9aa36ad0ef2939dea0f361289449d9e688c9ac2afca59f6b9fcb6be681",
-            "version": "@2.33.2+rocm",
-            "working_dir": "."
         }
     ],
     "resources": [],

@@ -30,15 +30,11 @@
         {
             "description": "GIMP is a cross-platform image editor available for GNU/Linux, macOS,\nWindows and more operating systems. It is free software, you can change\nits source code and distribute your changes. Whether you are a graphic\ndesigner, photographer, illustrator, or scientist, GIMP provides you\nwith sophisticated tools to get your job done. You can further enhance\nyour productivity with GIMP thanks to many customization options and 3rd\nparty plugins.",
             "name": "gimp"
-        },
-        {
-            "description": "Thunar File Manager",
-            "name": "thunar"
         }
     ],
     "description": "A library to parse an EXIF file and read the data from those tags\n",
-    "homepage": "https://libexif.github.io/",
-    "latest_version": "0.6.24",
+    "homepage": "https://sourceforge.net/projects/libexif",
+    "latest_version": "0.6.21",
     "maintainers": [
         "TheQueasle"
     ],
@@ -53,10 +49,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.6.24",
-            "sha256": "d47564c433b733d83b6704c70477e0a4067811d184ec565258ac563d8223f6ae"
-        },
         {
             "name": "0.6.21",
             "sha256": "16cdaeb62eb3e6dfab2435f7d7bccd2f37438d21c5218ec4e58efa9157d4d41a"

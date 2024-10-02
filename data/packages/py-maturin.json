@@ -4,10 +4,6 @@
     "conflicts": [],
     "dependencies": [
         {
-            "description": "bzip2 is a freely available, patent free high-quality data compressor.\nIt typically compresses files to within 10% to 15% of the best available\ntechniques (the PPM family of statistical compressors), whilst being\naround twice as fast at compression and six times faster at\ndecompression.",
-            "name": "bzip2"
-        },
-        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
@@ -42,14 +38,6 @@
     ],
     "dependent_to": [
         {
-            "description": "Mozilla's Glean Telemetry SDK",
-            "name": "py-glean-sdk"
-        },
-        {
-            "description": "Fast iterable JSON parser.",
-            "name": "py-jiter"
-        },
-        {
             "description": "Low level implementations for computer vision in Rust.",
             "name": "py-kornia-rs"
         },
@@ -62,10 +50,6 @@
             "name": "py-polars"
         },
         {
-            "description": "Core functionality for Pydantic validation and serialization",
-            "name": "py-pydantic-core"
-        },
-        {
             "description": "Python binding for Rust's library for reading excel and odf file -\ncalamine.",
             "name": "py-python-calamine"
         },
@@ -76,10 +60,6 @@
         {
             "description": "An extremely fast Python linter, written in Rust.",
             "name": "py-ruff"
-        },
-        {
-            "description": "Fast and Safe Tensor serialization.",
-            "name": "py-safetensors"
         },
         {
             "description": "Fast and Customizable Tokenizers.",
@@ -100,10 +80,8 @@
     ],
     "description": "Build and publish crates with pyo3, rust-cpython and cffi bindings as\nwell as rust binaries as python packages.\n",
     "homepage": "https://github.com/pyo3/maturin",
-    "latest_version": "1.6.0",
-    "maintainers": [
-        "teaguesterling"
-    ],
+    "latest_version": "1.5.1",
+    "maintainers": [],
     "name": "py-maturin",
     "patches": [],
     "resources": [],
@@ -115,10 +93,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.6.0",
-            "sha256": "b955025c24c8babc808db49e0ff90db8b4b1320dcc16b14eb26132841737230d"
-        },
         {
             "name": "1.5.1",
             "sha256": "3dd834ece80edb866af18cbd4635e0ecac40139c726428d5f1849ae154b26dca"

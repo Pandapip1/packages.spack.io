@@ -52,7 +52,7 @@
     ],
     "description": "PyQt6 is a comprehensive set of Python bindings for Qt v6.\n",
     "homepage": "https://www.riverbankcomputing.com/software/pyqt/",
-    "latest_version": "6.7.0",
+    "latest_version": "6.5.2",
     "maintainers": [],
     "name": "py-pyqt6",
     "patches": [],
@@ -65,14 +65,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "6.7.0",
-            "sha256": "3d31b2c59dc378ee26e16586d9469842483588142fc377280aad22aaf2fa6235"
-        },
-        {
-            "name": "6.6.1",
-            "sha256": "9f158aa29d205142c56f0f35d07784b8df0be28378d20a97bcda8bd64ffd0379"
-        },
         {
             "name": "6.5.2",
             "sha256": "1487ee7350f9ffb66d60ab4176519252c2b371762cbe8f8340fd951f63801280"

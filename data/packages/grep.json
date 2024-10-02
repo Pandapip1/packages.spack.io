@@ -30,10 +30,6 @@
         {
             "description": "Crosstool-NG is a versatile (cross) toolchain generator. It supports\nmany architectures and components and has a simple yet powerful\nmenuconfig-style interface.",
             "name": "crosstool-ng"
-        },
-        {
-            "description": "The golang compiler and build environment",
-            "name": "go"
         }
     ],
     "description": "Grep searches one or more input files for lines containing a match to a\nspecified pattern\n",

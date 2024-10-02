@@ -17,7 +17,7 @@
     "dependent_to": [],
     "description": "This modules offers parsing of ini files from the C level.\n",
     "homepage": "http://ndevilla.free.fr/iniparser/",
-    "latest_version": "4.2",
+    "latest_version": "4.1",
     "maintainers": [],
     "name": "iniparser",
     "patches": [],
@@ -30,10 +30,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "4.2",
-            "sha256": "dbcbaf3aedb4f88a9fc0df4b315737ddd10e6c37918e3d89f0ecc475333bde4d"
-        },
         {
             "name": "4.1",
             "sha256": "960daa800dd31d70ba1bacf3ea2d22e8ddfc2906534bf328319495966443f3ae"

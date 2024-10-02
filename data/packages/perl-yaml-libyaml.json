@@ -20,7 +20,7 @@
     ],
     "description": "Perl YAML Serialization using XS and libyaml\n",
     "homepage": "https://metacpan.org/pod/YAML::LibYAML",
-    "latest_version": "0.89",
+    "latest_version": "0.84",
     "maintainers": [],
     "name": "perl-yaml-libyaml",
     "patches": [],
@@ -33,10 +33,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.89",
-            "sha256": "155ab83675345c50add03311acf9dd915955707f909a2abd8b17d7792859b2ec"
-        },
         {
             "name": "0.84",
             "sha256": "225bcb39be2d5e3d02df7888d5f99fd8712f048ba539b09232ca1481e70bfd05"

@@ -76,7 +76,7 @@
     ],
     "description": "Library for building powerful interactive command lines in Python\n",
     "homepage": "https://github.com/prompt-toolkit/python-prompt-toolkit",
-    "latest_version": "3.0.43",
+    "latest_version": "3.0.38",
     "maintainers": [],
     "name": "py-prompt-toolkit",
     "patches": [],
@@ -89,10 +89,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "3.0.43",
-            "sha256": "3527b7af26106cbc65a040bcc84839a3566ec1b051bb0bfe953631e704b0ff7d"
-        },
         {
             "name": "3.0.38",
             "sha256": "23ac5d50538a9a38c8bde05fecb47d0b403ecd0662857a86f886f798563d5b9b"

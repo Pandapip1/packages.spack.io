@@ -4,10 +4,6 @@
     "conflicts": [],
     "dependencies": [
         {
-            "description": "Fast, correct Python JSON library supporting dataclasses, datetimes, and\nnumpy.",
-            "name": "py-orjson"
-        },
-        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
@@ -39,7 +35,7 @@
     "dependent_to": [],
     "description": "Client library to connect to the LangSmith LLM Tracing and Evaluation\nPlatform.\n",
     "homepage": "https://pypi.org/project/langsmith/",
-    "latest_version": "0.1.81",
+    "latest_version": "0.0.11",
     "maintainers": [],
     "name": "py-langsmith",
     "patches": [],
@@ -52,14 +48,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.1.81",
-            "sha256": "585ef3a2251380bd2843a664c9a28da4a7d28432e3ee8bcebf291ffb8e1f0af0"
-        },
-        {
-            "name": "0.1.1",
-            "sha256": "09df0c2ca9085105f97a4e4f281b083e312c99d162f3fe2b2d5eefd5c3692e60"
-        },
         {
             "name": "0.0.11",
             "sha256": "7c1be28257d6c7279c85f81e6d8359d1006af3b1238fc198d13ca75c8fe421c8"

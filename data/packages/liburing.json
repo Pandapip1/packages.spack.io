@@ -3,12 +3,12 @@
     "build_system": "AutotoolsPackage",
     "conflicts": [
         {
-            "description": "liburing: Only supported on linux",
+            "description": "liburing: Only supported on 'linux' and 'cray'",
             "name": "arch=darwin-None-None",
             "spec": ""
         },
         {
-            "description": "liburing: Only supported on linux",
+            "description": "liburing: Only supported on 'linux' and 'cray'",
             "name": "arch=windows-None-None",
             "spec": ""
         },

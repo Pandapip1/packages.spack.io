@@ -16,7 +16,7 @@
     ],
     "description": "Math::BigInt - arbitrary size integer math package\n",
     "homepage": "https://metacpan.org/pod/Math::BigInt",
-    "latest_version": "2.003002",
+    "latest_version": "1.999838",
     "maintainers": [],
     "name": "perl-math-bigint",
     "patches": [],
@@ -29,10 +29,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.003002",
-            "sha256": "5ac1fd255cca29d7cf5cb9283e6bb8177cdb07c5bb97502a58084b1c6eace35c"
-        },
         {
             "name": "1.999838",
             "sha256": "d3c2fb37d412ac8d126452caad5764f02193147261b59c56e652167c41d1e9d5"

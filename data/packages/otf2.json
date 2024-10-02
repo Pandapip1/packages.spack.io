@@ -30,12 +30,8 @@
             "name": "libtool"
         },
         {
-            "description": "The Python programming language.",
-            "name": "python"
-        },
-        {
-            "description": "A Spack managed Python virtual environment",
-            "name": "python-venv"
+            "description": "GNU M4 is an implementation of the traditional Unix macro processor.",
+            "name": "m4"
         }
     ],
     "dependent_to": [

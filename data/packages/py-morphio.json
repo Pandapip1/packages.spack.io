@@ -50,10 +50,6 @@
     ],
     "dependent_to": [
         {
-            "description": "Spatial indexer for geometries and morphologies",
-            "name": "py-brain-indexer"
-        },
-        {
             "description": "Python morphology manipulation toolkit",
             "name": "py-morph-tool"
         },

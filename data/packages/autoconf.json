@@ -28,6 +28,10 @@
     ],
     "dependent_to": [
         {
+            "description": "3proxy - tiny free proxy server",
+            "name": "3proxy"
+        },
+        {
             "description": "ABySS is a de novo, parallel, paired-end sequence assembler that is\ndesigned for short reads. The single-processor version is useful for\nassembling genomes up to 100 Mbases in size.",
             "name": "abyss"
         },
@@ -160,10 +164,6 @@
             "name": "bigdft-libabinit"
         },
         {
-            "description": "BigDFT-liborbs: a library for orbital treatments in DFT.",
-            "name": "bigdft-liborbs"
-        },
-        {
             "description": "BigDFT-Psolver: a flexible real-space Poisson Solver based on\nInterpolating Scaling Functions. It constitutes a fundamental building\nblock of BigDFT code, and it can also be used separately and linked to\nother codes.",
             "name": "bigdft-psolver"
         },
@@ -178,6 +178,10 @@
         {
             "description": "The BIRD project aims to develop a dynamic IP routing daemon with full\nsupport of all modern routing protocols, easy to use configuration\ninterface and powerful route filtering language, primarily targeted on\n(but not limited to) Linux and other UNIX-like systems and distributed\nunder the GNU General Public License.",
             "name": "bird"
+        },
+        {
+            "description": "N-dimensional arrays for C++",
+            "name": "blitz"
         },
         {
             "description": "a communications framework and network abstraction layer",
@@ -444,6 +448,10 @@
             "name": "flex"
         },
         {
+            "description": "FLINT (Fast Library for Number Theory).",
+            "name": "flint"
+        },
+        {
             "description": "A next-generation resource manager (pre-alpha)",
             "name": "flux-core"
         },
@@ -520,12 +528,8 @@
             "name": "geoip-api-c"
         },
         {
-            "description": "The Global Extensible Open Power Manager (GEOPM) Runtime is designed to\nenhance energy efficiency of applications through active hardware\nconfiguration.",
-            "name": "geopm-runtime"
-        },
-        {
-            "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely. Note:\nGEOPM interfaces with hardware using Model Specific Registers (MSRs).\nFor proper usage make sure MSRs are made available via the msr or msr-\nsafe kernel modules by your administrator.",
-            "name": "geopm-service"
+            "description": "GEOPM is an extensible power management framework targeting HPC. The\nGEOPM package provides libgeopm, libgeopmpolicy and applications\ngeopmctl and geopmpolicy, as well as tools for postprocessing. GEOPM is\ndesigned to be extended for new control algorithms and new hardware\npower management features via its plugin infrastructure. Note: GEOPM\ninterfaces with hardware using Model Specific Registers (MSRs). For\npropper usage make sure MSRs are made available directly or via the msr-\nsafe kernel module by your administrator.",
+            "name": "geopm"
         },
         {
             "description": "The GIFLIB project maintains the giflib service library, which has been\npulling images out of GIFs since 1989.",
@@ -538,50 +542,6 @@
         {
             "description": "The GNU C Library provides many of the low-level components used\ndirectly by programs written in the C or C++ languages.",
             "name": "glibc"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGridFTP Client Library.",
-            "name": "globus-ftp-client"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGridFTP Control Library.",
-            "name": "globus-ftp-control"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus Gass Transfer.",
-            "name": "globus-gass-transfer"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus OpenSSL Error Handling.",
-            "name": "globus-gsi-openssl-error"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus GSI Proxy Core Library.",
-            "name": "globus-gsi-proxy-core"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGSSAPI Assist library Programs.",
-            "name": "globus-gss-assist"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGSSAPI Error Library.",
-            "name": "globus-gssapi-error"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGSSAPI library.",
-            "name": "globus-gssapi-gsi"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nuniform I/O interface to stream and datagram style communications.",
-            "name": "globus-io"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus XIO Framework.",
-            "name": "globus-xio"
-        },
-        {
-            "description": "The Grid Community Toolkit (GCT) is an open source software toolkit used\nfor building grid systems and applications. It is a fork of the Globus\nToolkit originally created by the Globus Alliance. It is supported by\nthe Grid Community Forum (GridCF) that provides community-based support\nfor core software packages in grid computing. This package contains the\nGlobus XIO GSI Driver.",
-            "name": "globus-xio-gsi-driver"
         },
         {
             "description": "Gluster is a software defined distributed storage that can scale to\nseveral petabytes. It provides interfaces for object, block and file\nstorage.",
@@ -642,10 +602,6 @@
         {
             "description": "Log-based VOL - an HDF5 VOL Plugin that stores HDF5 datasets in a log-\nbased storage layout.",
             "name": "hdf5-vol-log"
-        },
-        {
-            "description": "GPU accelerated transient detection pipeline",
-            "name": "heimdall"
         },
         {
             "description": "Herwig is a multi-purpose particle physics event generator.",
@@ -710,10 +666,6 @@
         {
             "description": "Icarus Verilog is a Verilog simulation and synthesis tool.",
             "name": "icarus"
-        },
-        {
-            "description": "ICU is a mature, widely used set of C/C++ and Java libraries providing\nUnicode and Globalization support for software applications. ICU4C is\nthe C/C++ interface.",
-            "name": "icu4c"
         },
         {
             "description": "IDBA is a practical iterative De Bruijn Graph De Novo Assembler for\nsequence assembly in bioinfomatics.",
@@ -888,10 +840,6 @@
             "name": "libhbaapi"
         },
         {
-            "description": "libhugetlbfs is a library which provides easy access to huge pages of\nmemory.",
-            "name": "libhugetlbfs"
-        },
-        {
             "description": "Library to communicate with iOS devices natively.",
             "name": "libimobiledevice"
         },
@@ -948,7 +896,7 @@
             "name": "libmetalink"
         },
         {
-            "description": "libmnl is a minimalistic user-space library oriented to Netlink\ndevelopers. There are a lot of common tasks in parsing, validating,\nconstructing of both the Netlink header and TLVs that are repetitive and\neasy to get wrong. This library aims to provide simple helpers that\nallows you to re-use code and to avoid re-inventing the wheel.",
+            "description": "libmnl is a minimalistic user-space library oriented to Netlink\ndevelopers.There are a lot of common tasks in parsing, validating,\nconstructing of both the Netlink header and TLVs that are repetitive and\neasy to get wrong.This library aims to provide simple helpers that\nallows you to re-use code and to avoid re-inventing the wheel.",
             "name": "libmnl"
         },
         {
@@ -1074,10 +1022,6 @@
         {
             "description": "A portable and efficient C programming interface (API) to determine the\ncall-chain of a program.",
             "name": "libunwind"
-        },
-        {
-            "description": "liburcu is a LGPLv2.1 userspace RCU (read-copy-update) library. This\ndata synchronization library provides read-side access which scales\nlinearly with the number of cores.",
-            "name": "liburcu"
         },
         {
             "description": "Library for USB device access.",
@@ -1292,10 +1236,6 @@
             "name": "octopus"
         },
         {
-            "description": "The Open-iSCSI project is a high-performance, transport independent,\nmulti-platform implementation of RFC3720 iSCSI.",
-            "name": "open-iscsi"
-        },
-        {
             "description": "An open source Message Passing Interface implementation. The Open MPI\nProject is an open source Message Passing Interface implementation that\nis developed and maintained by a consortium of academic, research, and\nindustry partners. Open MPI is therefore able to combine the expertise,\ntechnologies, and resources from all across the High Performance\nComputing community in order to build the best MPI library available.\nOpen MPI offers advantages for system and software vendors, application\ndevelopers and computer science researchers.",
             "name": "openmpi"
         },
@@ -1418,10 +1358,6 @@
         {
             "description": "PSRCHIVE is a library for the analysis of pulsar astronomical data.\nPSRCHIVE is an Open Source C++ development library for the analysis of\npulsar astronomical data. It implements an extensive range of algorithms\nfor use in pulsar timing, scintillation studies, polarimetric\ncalibration, single-pulse work, RFI mitigation, etc. These tools are\nutilized by a powerful suite of user-end programs that come with the\nlibrary.",
             "name": "psrchive"
-        },
-        {
-            "description": "Open source software to process some types of astronomy data.",
-            "name": "psrdada"
         },
         {
             "description": "Charm4py (Charm++ for Python) is a distributed computing and parallel\nprogramming framework for Python, for the productive development of\nfast, parallel and scalable applications. It is built on top of Charm++,\na C++ adaptive runtime system that has seen extensive use in the\nscientific and high-performance computing (HPC) communities across many\ndisciplines, and has been used to develop applications that run on a\nwide range of devices: from small multi-core devices up to the largest\nsupercomputers.",
@@ -1600,10 +1536,6 @@
             "name": "sysbench"
         },
         {
-            "description": "An ultra fast error bounded compressor for scientific datasets",
-            "name": "szx"
-        },
-        {
             "description": "TECkit is a low-level toolkit intended to be used by applications for\nconversions between text encodings. For example, it can be used when\nimporting legacy text into a Unicode-based application. The primary\ncomponent of TECkit is a library: the TECkit engine. The engine relies\non mapping tables in a specific, documented binary format. The TECkit\ncompiler creates these tables from plain-text, human-readable\ndescriptions.",
             "name": "teckit"
         },
@@ -1706,10 +1638,6 @@
         {
             "description": "Virtuoso is a high-performance and scalable Multi-Model RDBMS, Data\nIntegration Middleware, Linked Data Deployment, and HTTP Application\nServer Platform",
             "name": "virtuoso"
-        },
-        {
-            "description": "The VOMS native service and APIs.",
-            "name": "voms"
         },
         {
             "description": "VSEARCH is a versatile open-source tool for metagenomics.",

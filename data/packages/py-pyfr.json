@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -376,6 +336,11 @@
             "description": null,
             "name": "amdgpu_target=none",
             "spec": "+rocm"
+        },
+        {
+            "description": "py-pyfr: OpenMP 5.1+ supported compiler required!",
+            "name": "%gcc@:11",
+            "spec": "@1.15.0:+libxsmm"
         }
     ],
     "dependencies": [
@@ -436,8 +401,8 @@
             "name": "py-pytools"
         },
         {
-            "description": "R-Tree spatial index for Python GIS.",
-            "name": "py-rtree"
+            "description": "Fundamental algorithms for scientific computing in Python.",
+            "name": "py-scipy"
         },
         {
             "description": "A Python utility that aids in the process of downloading, building,\nupgrading, installing, and uninstalling Python packages.",
@@ -466,8 +431,8 @@
     ],
     "dependent_to": [],
     "description": "PyFR is an open-source Python based framework for solving advection-\ndiffusion type problems on streaming architectures using the Flux\nReconstruction approach of Huynh.\n",
-    "homepage": "https://www.pyfr.org/",
-    "latest_version": "2.0.3",
+    "homepage": "http://www.pyfr.org/",
+    "latest_version": "1.15.0",
     "maintainers": [
         "MichaelLaufer"
     ],
@@ -506,7 +471,7 @@
             "name": "libxsmm"
         },
         {
-            "default": false,
+            "default": true,
             "description": "Metis for mesh partitioning",
             "name": "metis"
         },
@@ -517,6 +482,11 @@
         },
         {
             "default": true,
+            "description": "Scipy acceleration for point sampling",
+            "name": "scipy"
+        },
+        {
+            "default": false,
             "description": "Scotch for mesh partitioning",
             "name": "scotch"
         }
@@ -529,14 +499,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "2.0.3",
-            "sha256": "1fd2ca377596ab541d929d2c7b2d27e376e21b5dd6c4c0e7653bbb53864dee61"
-        },
-        {
-            "name": "2.0.2",
-            "sha256": "2c6bf460ffec446a933451792c09d3cd85d6703f14636d99810d61823b8d92c7"
         },
         {
             "name": "1.15.0",

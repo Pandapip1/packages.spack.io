@@ -40,12 +40,7 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "N-D labeled arrays and datasets in Python",
-            "name": "py-xarray"
-        }
-    ],
+    "dependent_to": [],
     "description": "cftime support for matplotlib axis.\n",
     "homepage": "https://github.com/scitools/nc-time-axis",
     "latest_version": "1.1.0",

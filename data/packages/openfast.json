@@ -64,10 +64,6 @@
             "name": "amr-wind"
         },
         {
-            "description": "Multi-application driver for Exawind project.",
-            "name": "exawind"
-        },
-        {
             "description": "Nalu-Wind: Wind energy focused variant of Nalu.",
             "name": "nalu-wind"
         }

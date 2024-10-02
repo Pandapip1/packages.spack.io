@@ -18,10 +18,6 @@
     ],
     "dependent_to": [
         {
-            "description": "Utilities for coding/decoding GRIB2 messages. This library contains\nFortran 90 decoder/encoder routines for GRIB edition 2, as well as\nindexing/searching utility routines. This is part of the NCEPLIBS\nproject.",
-            "name": "g2"
-        },
-        {
             "description": "This is a collection of NCEP GRIB related utilities. This is related to\nNOAA's NCEPLIBS project.",
             "name": "grib-util"
         },

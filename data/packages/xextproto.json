@@ -28,10 +28,6 @@
     ],
     "dependent_to": [
         {
-            "description": "X Fixes Extension. The extension makes changes to many areas of the\nprotocol to resolve issues raised by application interaction with core\nprotocol mechanisms that cannot be adequately worked around on the\nclient side of the wire.",
-            "name": "fixesproto"
-        },
-        {
             "description": "AppleWM is a simple library designed to interface with the Apple-WM\nextension. This extension allows X window managers to better interact\nwith the Mac OS X Aqua user interface when running X11 in a rootless\nmode.",
             "name": "libapplewm"
         },
@@ -145,7 +141,7 @@
         }
     ],
     "description": "X Protocol Extensions.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/proto/xextproto",
+    "homepage": "https://cgit.freedesktop.org/xorg/proto/xextproto",
     "latest_version": "7.3.0",
     "maintainers": [],
     "name": "xextproto",

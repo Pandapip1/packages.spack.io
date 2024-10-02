@@ -51,10 +51,6 @@
             "name": "bigdft-core"
         },
         {
-            "description": "BigDFT-liborbs: a library for orbital treatments in DFT.",
-            "name": "bigdft-liborbs"
-        },
-        {
             "description": "BigDFT-Psolver: a flexible real-space Poisson Solver based on\nInterpolating Scaling Functions. It constitutes a fundamental building\nblock of BigDFT code, and it can also be used separately and linked to\nother codes.",
             "name": "bigdft-psolver"
         },
@@ -163,10 +159,6 @@
             "name": "linsys-v"
         },
         {
-            "description": "Intermediary interface between high-level routines for physics-related\nalgorithms and low-level routines dealing with matrix storage and\nmanipulation.",
-            "name": "matrix-switch"
-        },
-        {
             "description": "MOLGW is a quantum chemistry code that implements the many-body\nperturbation theory (MBPT) to describe the excited electronic states in\nfinite systems (atoms, molecules, clusters). MOLGW implements the GW\napproximation for the self-energy (ionization and affinity) and the\nBethe-Salpeter equation for the optical excitations. MOLGW also applies\nthe real-time time-dependent density-functional theory (RT-TDDFT). MOLGW\nemploys standard Gaussian basis set.",
             "name": "molgw"
         },
@@ -185,10 +177,6 @@
         {
             "description": "A real-space finite-difference (time-dependent) density-functional\ntheory code.",
             "name": "octopus"
-        },
-        {
-            "description": "Solution of Kohn-Sham equations using the Orbital Minimization Method\n(OMM).",
-            "name": "omm"
         },
         {
             "description": "Omm-bundle is a library implementing the orbital minimization method for\nsolving the Kohn-Sham equation as a generalized eigenvalue problem and a\nbundle of four separate libraries: pspBLAS, MatrixSwitch, libOMM,\ntomato.",

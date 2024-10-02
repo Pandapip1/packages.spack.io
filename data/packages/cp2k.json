@@ -84,21 +84,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -254,11 +239,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -285,32 +265,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -393,99 +353,99 @@
             "spec": "+cuda ^cuda@:9~allow-unsupported-compilers arch=None-None-ppc64le:"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=10"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=11"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=12"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=13"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=20"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=21"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=30"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=32"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=50"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=52"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=53"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=61"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=62"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=72"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=75"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=86"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=87"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
             "spec": "+cuda cuda_arch=89"
         },
         {
-            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80', '90')",
+            "description": "cp2k: cp2k only supports cuda_arch ('35', '37', '60', '70', '80')",
             "name": "+cuda",
-            "spec": "+cuda cuda_arch=90a"
+            "spec": "+cuda cuda_arch=90"
         },
         {
             "description": null,
@@ -653,11 +613,6 @@
             "spec": "@8:"
         },
         {
-            "description": "cp2k: PLUMED support is broken in cp2k@:2024.1 with CMake",
-            "name": "+plumed",
-            "spec": "@:2024.1 build_system=cmake"
-        },
-        {
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=makefile"
@@ -666,6 +621,11 @@
             "description": null,
             "name": "+cuda",
             "spec": "cuda_arch=none"
+        },
+        {
+            "description": "cp2k: libxsmm is not available on arm",
+            "name": "arch=None-None-aarch64:",
+            "spec": "smm=libxsmm"
         }
     ],
     "dependencies": [
@@ -710,10 +670,6 @@
             "name": "dla-future"
         },
         {
-            "description": "Fortran interface to the DLA-Future library.",
-            "name": "dla-future-fortran"
-        },
-        {
             "description": "Eigenvalue solvers for Petaflop-Applications (ELPA)",
             "name": "elpa"
         },
@@ -722,7 +678,7 @@
             "name": "fftw"
         },
         {
-            "description": "NVPL FFT (NVIDIA Performance Libraries FFT) is part of NVIDIA\nPerformance Libraries and provides Fast Fourier Transform (FFT)\ncalculations on ARM CPUs.",
+            "description": "This is an earlier version of Intel parallel software development tools\nand has now been replaced by the Intel oneAPI Toolkits. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.",
             "name": "fftw-api"
         },
         {
@@ -842,7 +798,7 @@
     ],
     "description": "CP2K is a quantum chemistry and solid state physics software package\nthat can perform atomistic simulations of solid state, liquid,\nmolecular, periodic, material, crystal, and biological systems\n",
     "homepage": "https://www.cp2k.org",
-    "latest_version": "2024.3",
+    "latest_version": "2024.1",
     "maintainers": [
         "dev-zero",
         "mtaillefumier"
@@ -919,15 +875,6 @@
             "reverse": false,
             "sha256": "10f79dfe3fec2a915f6c58e7e769412c8e75bf24fe04ed1b40c912aa1b6ec08f",
             "version": "@2024.1 build_system=cmake",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.cp2k",
-            "relative_path": "d4-dispersion-bugfix-2024.3.patch",
-            "reverse": false,
-            "sha256": "cf8e9cfc078a048e64fb0001a8a241533e0cfd77d6a287a052d81d6d3e4a63c9",
-            "version": "@2024.3",
             "working_dir": "."
         }
     ],
@@ -1089,14 +1036,6 @@
             "branch": "master",
             "name": "master",
             "submodules": "True"
-        },
-        {
-            "name": "2024.3",
-            "sha256": "a6eeee773b6b1fb417def576e4049a89a08a0ed5feffcd7f0b33c7d7b48f19ba"
-        },
-        {
-            "name": "2024.2",
-            "sha256": "cc3e56c971dee9e89b705a1103765aba57bf41ad39a11c89d3de04c8b8cdf473"
         },
         {
             "name": "2024.1",

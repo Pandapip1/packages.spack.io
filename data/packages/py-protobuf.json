@@ -4,8 +4,8 @@
     "conflicts": [
         {
             "description": null,
-            "name": "%gcc@14:",
-            "spec": "@:4.24.3"
+            "name": "+cpp",
+            "spec": "^python@3.11:"
         }
     ],
     "dependencies": [
@@ -39,10 +39,6 @@
         }
     ],
     "dependent_to": [
-        {
-            "description": "Chapel is a modern programming language that is parallel, productive,\nportable, scalable and open-source. The Chapel package comes with many\noptions in the form of variants, most of which can be left unset to\nallow Chapel's built-in scripts to determine the proper values based on\nthe environment.",
-            "name": "chapel"
-        },
         {
             "description": "LBANN: Livermore Big Artificial Neural Network Toolkit. A distributed\nmemory, HPC-optimized, model and data parallel training toolkit for deep\nneural networks.",
             "name": "lbann"
@@ -100,20 +96,12 @@
             "name": "py-grpc-google-iam-v1"
         },
         {
-            "description": "HTTP/2-based RPC framework.",
-            "name": "py-grpcio"
-        },
-        {
             "description": "Status proto mapping for gRPC.",
             "name": "py-grpcio-status"
         },
         {
             "description": "Protobuf code generator for gRPC",
             "name": "py-grpcio-tools"
-        },
-        {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
         },
         {
             "description": "Multi-backend Keras. Keras 3 is a new multi-backend implementation of\nthe Keras API, with support for TensorFlow, JAX, and PyTorch.",
@@ -218,7 +206,7 @@
     ],
     "description": "Protocol buffers are Google's language-neutral, platform-neutral,\nextensible mechanism for serializing structured data - think XML, but\nsmaller, faster, and simpler. You define how you want your data to be\nstructured once, then you can use special generated source code to\neasily write and read your structured data to and from a variety of data\nstreams and using a variety of languages.\n",
     "homepage": "https://developers.google.com/protocol-buffers/",
-    "latest_version": "5.28.2",
+    "latest_version": "4.24.3",
     "maintainers": [],
     "name": "py-protobuf",
     "patches": [],
@@ -228,25 +216,14 @@
             "default": "python_pip",
             "description": "Build systems supported by the package",
             "name": "build_system"
+        },
+        {
+            "default": false,
+            "description": "Enable the cpp implementation",
+            "name": "cpp"
         }
     ],
     "versions": [
-        {
-            "name": "5.28.2",
-            "sha256": "59379674ff119717404f7454647913787034f03fe7049cbef1d74a97bb4593f0"
-        },
-        {
-            "name": "5.27.5",
-            "sha256": "7fa81bc550201144a32f4478659da06e0b2ebe4d5303aacce9a202a1c3d5178d"
-        },
-        {
-            "name": "5.26.1",
-            "sha256": "8ca2a1d97c290ec7b16e4e5dff2e5ae150cc1582f55b5ab300d45cb0dfa90e51"
-        },
-        {
-            "name": "4.25.3",
-            "sha256": "25b5d0b42fd000320bd7830b349e3b696435f3b329810427a6bcce6a5492cc5c"
-        },
         {
             "name": "4.24.3",
             "sha256": "12e9ad2ec079b833176d2921be2cb24281fa591f0b119b208b788adc48c2561d"

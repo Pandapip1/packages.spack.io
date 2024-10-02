@@ -46,14 +46,6 @@
             "name": "py-formulaic"
         },
         {
-            "description": "A specification for pythonic filesystems.",
-            "name": "py-fsspec"
-        },
-        {
-            "description": "Google Drive Public File/Folder Downloader.",
-            "name": "py-gdown"
-        },
-        {
             "description": "Units and constants in the HEP system of units.",
             "name": "py-hepunits"
         },
@@ -70,28 +62,12 @@
             "name": "py-jsonschema"
         },
         {
-            "description": "Check for broken links in web sites.",
-            "name": "py-linkchecker"
-        },
-        {
-            "description": "MNE python project for MEG and EEG data analysis.",
-            "name": "py-mne"
-        },
-        {
-            "description": "MNE-BIDS: Organizing MEG, EEG, and iEEG data according to the BIDS\nspecification and facilitating their analysis with MNE-Python.",
-            "name": "py-mne-bids"
-        },
-        {
             "description": "Access a multitude of neuroimaging data formats",
             "name": "py-nibabel"
         },
         {
             "description": "Statistical learning for neuroimaging in Python.",
             "name": "py-nilearn"
-        },
-        {
-            "description": "Use numba-compiled kernels from within Jax",
-            "name": "py-numba4jax"
         },
         {
             "description": "Particle provides a pythonic interface to the Particle Data Group (PDG)\nparticle data tables and particle identification codes, with extended\nparticle information and extra goodies.",
@@ -130,17 +106,13 @@
             "name": "py-uhi"
         },
         {
-            "description": "Vector classes and utilities",
-            "name": "py-vector"
-        },
-        {
             "description": "virtualenv is a tool to create isolated Python environments.",
             "name": "py-virtualenv"
         }
     ],
     "description": "Hatch plugin for versioning with your preferred VCS\n",
     "homepage": "https://github.com/ofek/hatch-vcs",
-    "latest_version": "0.4.0",
+    "latest_version": "0.3.0",
     "maintainers": [],
     "name": "py-hatch-vcs",
     "patches": [],
@@ -153,10 +125,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.4.0",
-            "sha256": "093810748fe01db0d451fabcf2c1ac2688caefd232d4ede967090b1c1b07d9f7"
-        },
         {
             "name": "0.3.0",
             "sha256": "cec5107cfce482c67f8bc96f18bbc320c9aa0d068180e14ad317bbee5a153fee"

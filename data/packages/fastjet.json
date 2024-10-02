@@ -106,11 +106,6 @@
             "name": "build_system"
         },
         {
-            "default": "11",
-            "description": "Use the specified C++ standard when building",
-            "name": "cxxstd"
-        },
-        {
             "default": "all",
             "description": "List of plugins to enable, or 'cxx' or 'all'",
             "name": "plugins"

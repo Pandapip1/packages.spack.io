@@ -27,7 +27,7 @@
         }
     ],
     "description": "QJson is a Qt-based library that maps JSON data to QVariant objects and\nvice versa.\n",
-    "homepage": "https://qjson.sourceforge.net/",
+    "homepage": "http://qjson.sourceforge.net/",
     "latest_version": "0.9.0",
     "maintainers": [],
     "name": "qjson",

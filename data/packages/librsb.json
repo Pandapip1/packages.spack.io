@@ -43,7 +43,7 @@
     ],
     "dependent_to": [],
     "description": "librsb : A shared memory parallel sparse matrix computations library for\nthe Recursive Sparse Blocks format\n",
-    "homepage": "https://librsb.sourceforge.net/",
+    "homepage": "http://librsb.sourceforge.net/",
     "latest_version": "1.3.0.2",
     "maintainers": [],
     "name": "librsb",

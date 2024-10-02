@@ -3,11 +3,6 @@
     "build_system": "AutotoolsPackage",
     "conflicts": [
         {
-            "description": "mrbayes: MPI and readline support are exclusive",
-            "name": "+readline",
-            "spec": "+mpi"
-        },
-        {
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
@@ -37,7 +32,7 @@
     ],
     "dependent_to": [],
     "description": "MrBayes is a program for Bayesian inference and model choice across a\nwide range of phylogenetic and evolutionary models. MrBayes uses Markov\nchain Monte Carlo (MCMC) methods to estimate the posterior distribution\nof model parameters.\n",
-    "homepage": "https://mrbayes.sourceforge.net",
+    "homepage": "http://mrbayes.sourceforge.net",
     "latest_version": "3.2.7a",
     "maintainers": [],
     "name": "mrbayes",

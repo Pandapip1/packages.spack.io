@@ -28,7 +28,7 @@
     ],
     "description": "IPC::Run allows you to run and interact with child processes using\nfiles, pipes, and pseudo-ttys. Both system()-style and scripted usages\nare supported and may be mixed. Likewise, functional and OO API styles\nare both supported and may be mixed.\n",
     "homepage": "https://metacpan.org/pod/IPC::Run",
-    "latest_version": "20231003.0",
+    "latest_version": "20220807.0",
     "maintainers": [],
     "name": "perl-ipc-run",
     "patches": [],
@@ -41,10 +41,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "20231003.0",
-            "sha256": "eb25bbdf5913d291797ef1bfe998f15130b455d3ed02aacde6856f0b25e4fe57"
-        },
         {
             "name": "20220807.0",
             "sha256": "277d781dbbc98af18e979c7ef36f222513d7361742c52507c3348b265f6f5e69"

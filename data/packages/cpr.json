@@ -28,7 +28,9 @@
     "description": "C++ Requests: Curl for People, a spiritual port of Python Requests.\n",
     "homepage": "https://docs.libcpr.org/",
     "latest_version": "1.10.4",
-    "maintainers": [],
+    "maintainers": [
+        "sethrj"
+    ],
     "name": "cpr",
     "patches": [],
     "resources": [],

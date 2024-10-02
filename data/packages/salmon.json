@@ -92,7 +92,7 @@
     ],
     "description": "Salmon is a tool for quantifying the expression of transcripts using\nRNA-seq data.\n",
     "homepage": "https://combine-lab.github.io/salmon/",
-    "latest_version": "1.10.3",
+    "latest_version": "1.10.2",
     "maintainers": [
         "snehring"
     ],
@@ -120,49 +120,43 @@
     "resources": [
         {
             "destination": "",
-            "name": "pufferfish",
-            "placement": "external",
-            "version": "@1.10.3"
-        },
-        {
-            "destination": "",
-            "name": "pufferfish",
+            "name": "rapmap",
             "placement": "external",
             "version": "@1.10.2"
         },
         {
             "destination": "",
-            "name": "pufferfish",
+            "name": "rapmap",
             "placement": "external",
             "version": "@1.9.0"
         },
         {
             "destination": "",
-            "name": "pufferfish",
+            "name": "rapmap",
             "placement": "external",
             "version": "@1.4.0"
         },
         {
             "destination": "",
-            "name": "RapMap",
+            "name": "rapmap",
             "placement": "external",
             "version": "@0.14.1"
         },
         {
             "destination": "",
-            "name": "RapMap",
+            "name": "rapmap",
             "placement": "external",
             "version": "@0.12.0"
         },
         {
             "destination": "",
-            "name": "RapMap",
+            "name": "rapmap",
             "placement": "external",
             "version": "@0.9.1"
         },
         {
             "destination": "",
-            "name": "RapMap",
+            "name": "rapmap",
             "placement": "external",
             "version": "@0.8.2"
         }
@@ -190,10 +184,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.10.3",
-            "sha256": "a053fba63598efc4ade3684aa2c8e8e2294186927d4fcdf1041c36edc2aa0871"
-        },
         {
             "name": "1.10.2",
             "sha256": "976989182160fef3afb4429ee8b85d8dd39ed6ca212bb14d6a65cde0e985fb98"

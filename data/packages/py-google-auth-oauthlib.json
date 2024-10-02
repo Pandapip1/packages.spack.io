@@ -38,10 +38,6 @@
             "name": "py-gcsfs"
         },
         {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
-        },
-        {
             "description": "TensorBoard is a suite of web applications for inspecting and\nunderstanding your TensorFlow runs and graphs.",
             "name": "py-tensorboard"
         }

@@ -35,7 +35,7 @@
         }
     ],
     "description": "PNGwriter is a very easy to use open source graphics library that uses\nPNG as its output format. The interface has been designed to be as\nsimple and intuitive as possible. It supports plotting and reading\npixels in the RGB (red, green, blue), HSV (hue, saturation,\nvalue/brightness) and CMYK (cyan, magenta, yellow, black) colour spaces,\nbasic shapes, scaling, bilinear interpolation, full TrueType antialiased\nand rotated text support, bezier curves, opening existing PNG images and\nmore.\n",
-    "homepage": "https://pngwriter.sourceforge.net/",
+    "homepage": "http://pngwriter.sourceforge.net/",
     "latest_version": "0.7.0",
     "maintainers": [
         "ax3l"

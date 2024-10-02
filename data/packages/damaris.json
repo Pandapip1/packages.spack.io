@@ -59,7 +59,7 @@
     "dependent_to": [],
     "description": "Damaris is a middleware for I/O and in situ analytics targeting large-\nscale, MPI-based HPC simulations.\n",
     "homepage": "https://project.inria.fr/damaris/",
-    "latest_version": "1.11.0",
+    "latest_version": "1.10.0",
     "maintainers": [
         "jcbowden"
     ],
@@ -132,11 +132,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "commit": "1aee2a8971584712d81323d77f9805448fe54947",
-            "name": "1.11.0",
-            "tag": "v1.11.0"
         },
         {
             "commit": "4e6b2641be1f7ded379312a8e7f4644ebe009ec9",

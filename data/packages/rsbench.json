@@ -17,7 +17,7 @@
     "dependent_to": [],
     "description": "A mini-app to represent the multipole resonance representation lookup\ncross section algorithm.\n",
     "homepage": "https://github.com/ANL-CESAR/RSBench",
-    "latest_version": "13",
+    "latest_version": "12",
     "maintainers": [],
     "name": "rsbench",
     "patches": [],
@@ -30,10 +30,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "13",
-            "sha256": "4ddba1fe2f657103e5e50199b7dd2eab62069ddf17350489c18238908dd73b61"
-        },
         {
             "name": "12",
             "sha256": "2e437dbdaf7bf12bb9ade429d46a9e74fd519fc4686777a452770790d0546499"

@@ -23,7 +23,7 @@
     "dependent_to": [],
     "description": "bigint/bigrat/bignum - transparent big number support\n",
     "homepage": "https://github.com/pjacklam/p5-bignum",
-    "latest_version": "0.67",
+    "latest_version": "0.66",
     "maintainers": [],
     "name": "perl-bignum",
     "patches": [],
@@ -36,10 +36,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.67",
-            "sha256": "1c9a824ab323e3e58d9808011c10ad27589dba1202806278215012ca7f522875"
-        },
         {
             "name": "0.66",
             "sha256": "26d48fb4b63a4b738ab84b577f9de7cdec164fe5f8a7089010a1ec17e127ed97"

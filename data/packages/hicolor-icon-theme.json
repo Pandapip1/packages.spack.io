@@ -26,10 +26,6 @@
         {
             "description": "KiCad is an open source software suite for Electronic Design Automation\n(EDA). The programs handle Schematic Capture, and PCB Layout with Gerber\noutput.",
             "name": "kicad"
-        },
-        {
-            "description": "Session manager for Xfce4",
-            "name": "xfce4-session"
         }
     ],
     "description": "icon-theme contains the standard also references the default icon theme\ncalled hicolor.\n",

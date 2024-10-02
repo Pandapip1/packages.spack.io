@@ -56,10 +56,6 @@
             "name": "glib"
         },
         {
-            "description": "The Linux kernel provides services to start and stop programs, handles\nthe file system and other common \"low-level\" tasks that most programs\nshare, and schedules access to avoid conflicts when programs try to\naccess the same resource or device simultaneously. The kernel has a\nmodular design such that modules can be integrated as software\ncomponents. In this package, Linux has been configured to build out-of-\ntree kernel modules.",
-            "name": "linux-external-modules"
-        },
-        {
             "description": "The NFS Utilities package contains the userspace server and client tools\nnecessary to use the kernel's NFS abilities. NFS is a protocol that\nallows sharing file systems over the network.",
             "name": "nfs-utils"
         },
@@ -70,10 +66,6 @@
         {
             "description": "The Open-iSCSI project is a high-performance, transport independent,\nmulti-platform implementation of RFC3720 iSCSI.",
             "name": "open-iscsi"
-        },
-        {
-            "description": "A minimal password manager following the UNIX philosphy.",
-            "name": "pass"
         },
         {
             "description": "Allows non-root users to mount squashfs files without the overhead of\nsquashfuse.",
@@ -102,7 +94,7 @@
     ],
     "description": "Util-linux is a suite of essential utilities for any Linux system.\n",
     "homepage": "https://github.com/util-linux/util-linux",
-    "latest_version": "2.40.2",
+    "latest_version": "2.40",
     "maintainers": [],
     "name": "util-linux",
     "patches": [],
@@ -120,10 +112,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.40.2",
-            "sha256": "7bec316b713a14c6be1a5721aa0e56a3b6170277329e6e1f1a56013cc91eece0"
-        },
         {
             "name": "2.40",
             "sha256": "2a51d08cb71fd8e491e0cf633032c928f9a2848417f8441cb8cf7ef9971de916"

@@ -69,7 +69,7 @@
     ],
     "description": "pinentry is a small collection of dialog programs that allow GnuPG to\nread passphrases and PIN numbers in a secure manner. There are versions\nfor the common GTK and Qt toolkits as well as for the text terminal\n(Curses).\n",
     "homepage": "https://gnupg.org/related_software/pinentry/index.html",
-    "latest_version": "1.3.1",
+    "latest_version": "1.3.0",
     "maintainers": [
         "alalazo"
     ],
@@ -89,10 +89,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.3.1",
-            "sha256": "bc72ee27c7239007ab1896c3c2fae53b076e2c9bd2483dc2769a16902bce8c04"
-        },
         {
             "name": "1.3.0",
             "sha256": "9b3cd5226e7597f2fded399a3bc659923351536559e9db0826981bca316494de"

@@ -51,7 +51,7 @@
     ],
     "description": "A parallel Fortran logger (based on the design of the Python logger)\n",
     "homepage": "https://github.com/Goddard-Fortran-Ecosystem/pFlogger",
-    "latest_version": "1.15.0",
+    "latest_version": "1.14.0",
     "maintainers": [
         "mathomp4",
         "tclune"
@@ -94,10 +94,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "1.15.0",
-            "sha256": "454f05731a3ba50c7ae3ef9463b642c53248ae84ccb3b93455ef2ae2b6858235"
         },
         {
             "name": "1.14.0",

@@ -54,10 +54,6 @@
             "name": "py-formulaic"
         },
         {
-            "description": "This project provides pylint formatters for a nice integration with\nGitLab CI.",
-            "name": "py-pylint-gitlab"
-        },
-        {
             "description": "This package patches certifi at runtime to also include certificates\nfrom the windows certificate store.",
             "name": "py-python-certifi-win32"
         },

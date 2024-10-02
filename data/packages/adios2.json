@@ -79,21 +79,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -249,11 +234,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -280,32 +260,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -565,10 +525,6 @@
             "name": "casacore"
         },
         {
-            "description": "Data & Vis SDK ** This package is a post-ECP port from the ECP Data &\nVis SDK **",
-            "name": "dav-sdk"
-        },
-        {
             "description": "ECP Data & Vis SDK",
             "name": "ecp-data-vis-sdk"
         },
@@ -583,10 +539,6 @@
         {
             "description": "FTK is a library that simplifies, scales, and delivers feature tracking\nalgorithms for scientific data.",
             "name": "ftk"
-        },
-        {
-            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
-            "name": "hermes-shm"
         },
         {
             "description": "LAMMPS stands for Large-scale Atomic/Molecular Massively Parallel\nSimulator.",
@@ -635,7 +587,7 @@
     ],
     "description": "The Adaptable Input Output System version 2, developed in the Exascale\nComputing Program\n",
     "homepage": "https://csmd.ornl.gov/software/adios2",
-    "latest_version": "2.10.1",
+    "latest_version": "2.10.0",
     "maintainers": [
         "ax3l",
         "vicentebolea",
@@ -682,15 +634,6 @@
         {
             "level": 1,
             "owner": "builtin.adios2",
-            "relative_path": "2.7-fix-missing-cstdint-include.patch",
-            "reverse": false,
-            "sha256": "9e67deb9d64a1a20b131fcf6d168e23ace4c13a59f83e1a5bee213d82b8a9aa5",
-            "version": "@2.7",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.adios2",
             "reverse": false,
             "sha256": "8221073d1b2f8944395a88a5d60a15c7370646b62f5fc6309867bbb6a8c2096c",
             "url": "https://github.com/ornladios/adios2/pull/2710.patch?full_index=1",
@@ -713,15 +656,6 @@
             "reverse": false,
             "sha256": "48766ac509fd1fb3cb5273d77d23c5e737f6ec37aa8d94418bd49d2cd05f65ff",
             "version": "@2.9",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.adios2",
-            "relative_path": "2.10-enable-rocm6.patch",
-            "reverse": false,
-            "sha256": "4247a85196435ccda9c1db3370b5df7f46dfa47e6a8ccf165f68f8119f04435e",
-            "version": "@2.9.1:",
             "working_dir": "."
         }
     ],
@@ -887,10 +821,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "2.10.1",
-            "sha256": "ce776f3a451994f4979c6bd6d946917a749290a37b7433c0254759b02695ad85"
         },
         {
             "name": "2.10.0",

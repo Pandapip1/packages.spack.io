@@ -1,16 +1,10 @@
 {
     "aliases": [],
     "build_system": "CMakePackage",
-    "conflicts": [
-        {
-            "description": null,
-            "name": "%gcc@:8",
-            "spec": "@develop"
-        }
-    ],
+    "conflicts": [],
     "dependencies": [
         {
-            "description": "The bacio library performs binary I/O for the NCEP models, processing\nunformatted byte-addressable data records, and transforming the little\nendian files and big endian files.",
+            "description": "The bacio ibrary performs binary I/O for the NCEP models, processing\nunformatted byte-addressable data records, and transforming the little\nendian files and big endian files.",
             "name": "bacio"
         },
         {
@@ -18,44 +12,12 @@
             "name": "cmake"
         },
         {
-            "description": "The Community Radiative Transfer Model (CRTM) package. The CRTM is\ncomposed of four important modules for gaseous transmittance, surface\nemission and reflection, cloud and aerosol absorption and scattering,\nand a solver for a radiative transfer.",
-            "name": "crtm"
-        },
-        {
             "description": "The Earth System Modeling Framework (ESMF) is high-performance, flexible\nsoftware infrastructure for building and coupling weather, climate, and\nrelated Earth science applications. The ESMF defines an architecture for\ncomposing complex, coupled modeling systems and includes data structures\nand utilities for developing individual models. The National Unified\nOperational Prediction Capability (NUOPC) Layer defines a common model\narchitecture to support interoperable ESMF components. The NUOPC Layer\nis included with the ESMF package.",
             "name": "esmf"
         },
         {
-            "description": "GFDL's Flexible Modeling System (FMS) is a software environment that\nsupports the efficient development, construction, execution, and\nscientific interpretation of atmospheric, oceanic, and climate system\nmodels.",
-            "name": "fms"
-        },
-        {
-            "description": "Utilities for coding/decoding GRIB2 messages. This library contains\nFortran 90 decoder/encoder routines for GRIB edition 2, as well as\nindexing/searching utility routines. This is part of the NCEPLIBS\nproject.",
-            "name": "g2"
-        },
-        {
-            "description": "Utilities for GRIB2 templates. This is part of NOAA's NCEPLIBS project.",
-            "name": "g2tmpl"
-        },
-        {
-            "description": "Provides common gFTL containers of Fortran intrinsic types that are\nencountered frequently.",
-            "name": "gftl-shared"
-        },
-        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
-        },
-        {
-            "description": "HDF5 is a data model, library, and file format for storing and managing\ndata. It supports an unlimited variety of datatypes, and is designed for\nflexible and efficient I/O and for high volume and complex data.",
-            "name": "hdf5"
-        },
-        {
-            "description": "The NCEP general interpolation library (iplib) contains Fortran 90\nsubprograms to be used for interpolating between nearly all grids used\nat NCEP. This is part of the NCEPLIBS project.",
-            "name": "ip"
-        },
-        {
-            "description": "MAPL is a foundation layer of the GEOS architecture, whose original\npurpose is to supplement the Earth System Modeling Framework (ESMF).\nMAPL fills in missing capabilities of ESMF, provides higher-level\ninterfaces for common boiler-plate logic, and enforces various\ncomponentization conventions across ESMF gridded components within GEOS.",
-            "name": "mapl"
         },
         {
             "description": "IBM MPI implementation from Spectrum MPI.",
@@ -78,16 +40,8 @@
             "name": "ninja"
         },
         {
-            "description": "The Parallel IO libraries (PIO) are high-level parallel I/O C and\nFortran libraries for applications that need to do netCDF I/O from large\nnumbers of processors on a HPC system.",
-            "name": "parallelio"
-        },
-        {
             "description": "The Python programming language.",
             "name": "python"
-        },
-        {
-            "description": "Scotch is a software package for graph and mesh/hypergraph partitioning,\ngraph clustering, and sparse matrix ordering.",
-            "name": "scotch"
         },
         {
             "description": "The spectral transform library splib contains FORTRAN subprograms to be\nused for a variety of spectral transform functions. This is part of the\nNCEPLIBS project.",
@@ -107,7 +61,7 @@
     "homepage": "https://ufs-weather-model.readthedocs.io/en/latest/",
     "latest_version": "2.0.0",
     "maintainers": [
-        "AlexanderRichert-NOAA"
+        "t-brown"
     ],
     "name": "ufs-weather-model",
     "patches": [],
@@ -119,9 +73,9 @@
             "name": "32bit"
         },
         {
-            "default": "ATM",
-            "description": "UFS application",
-            "name": "app"
+            "default": false,
+            "description": "Enable AVX2 instructions",
+            "name": "avx2"
         },
         {
             "default": "cmake",
@@ -135,33 +89,13 @@
         },
         {
             "default": true,
-            "description": "Enable the Common Community Physics Package (CCPP)",
+            "description": "Enable the Common Community Physics Package (CCPP))",
             "name": "ccpp"
-        },
-        {
-            "default": false,
-            "description": "Enable CCPP_32BIT (single precision arithmetic in slow physics)",
-            "name": "ccpp_32bit"
         },
         {
             "default": "FV3_GFS_v15p2,FV3_RRFS_v1alpha",
             "description": "CCPP suites to compile",
             "name": "ccpp_suites"
-        },
-        {
-            "default": false,
-            "description": "Enable atmosphere-ocean flux calculation in mediator",
-            "name": "cmeps_aoflux"
-        },
-        {
-            "default": false,
-            "description": "Enable DEBUG mode",
-            "name": "debug"
-        },
-        {
-            "default": true,
-            "description": "Enable linkmpi option when DEBUG mode is on",
-            "name": "debug_linkmpi"
         },
         {
             "default": "make",
@@ -170,33 +104,13 @@
         },
         {
             "default": false,
-            "description": "Enable inline post",
+            "description": "Compile post processing inline",
             "name": "inline_post"
         },
         {
             "default": false,
             "description": "CMake interprocedural optimization",
             "name": "ipo"
-        },
-        {
-            "default": false,
-            "description": "Enable JEDI as top level driver",
-            "name": "jedi_driver"
-        },
-        {
-            "default": false,
-            "description": "Build MOM6 solo executable",
-            "name": "mom6solo"
-        },
-        {
-            "default": false,
-            "description": "Enable moving nest code",
-            "name": "moving_nest"
-        },
-        {
-            "default": true,
-            "description": "Enable MPI",
-            "name": "mpi"
         },
         {
             "default": false,
@@ -210,25 +124,21 @@
         },
         {
             "default": true,
-            "description": "Enable parallel NetCDF",
+            "description": "Enable parallel I/O in netCDF",
             "name": "parallel_netcdf"
-        },
-        {
-            "default": false,
-            "description": "Enable PDLIB (WW3)",
-            "name": "pdlib"
         },
         {
             "default": false,
             "description": "Enable quad precision for certain grid metric terms in dycore",
             "name": "quad_precision"
+        },
+        {
+            "default": false,
+            "description": "Enable multi-target SIMD instruction sets",
+            "name": "simdmultiarch"
         }
     ],
     "versions": [
-        {
-            "branch": "develop",
-            "name": "develop"
-        },
         {
             "commit": "e3cb92f1cd8941c019ee5ef7da5c9aef67d55cf8",
             "name": "2.0.0",

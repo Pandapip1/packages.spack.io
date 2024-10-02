@@ -24,12 +24,17 @@
         },
         {
             "description": "intel-oneapi-ipp: This package in only available for x86_64 and Linux",
-            "name": "arch=darwin-None-None",
+            "name": "arch=cray:-None-None",
             "spec": ""
         },
         {
             "description": "intel-oneapi-ipp: This package in only available for x86_64 and Linux",
-            "name": "arch=windows-None-None",
+            "name": "arch=darwin:-None-None",
+            "spec": ""
+        },
+        {
+            "description": "intel-oneapi-ipp: This package in only available for x86_64 and Linux",
+            "name": "arch=windows:-None-None",
             "spec": ""
         }
     ],
@@ -42,7 +47,7 @@
     "dependent_to": [],
     "description": "Intel Integrated Performance Primitives (Intel IPP) is an extensive\nlibrary of ready-to-use, domain-specific functions that are highly\noptimized for diverse Intel architectures. These functions take\nadvantage of Single Instruction, Multiple Data (SIMD) instructions and\nimprove the performance of computation-intensive applications, including\nsignal processing, data compression, video processing, and cryptography.\nThe intel-oneapi-ippcp package contains support for cryptography and\neverything else can be found in the intel-oneapi-ipp package. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/ipp.html",
-    "latest_version": "2021.12.1",
+    "latest_version": "2021.11.0",
     "maintainers": [
         "rscohn2"
     ],
@@ -62,16 +67,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2021.12.1",
-            "sha256": "2d53745148d33f44895f4a9f9ba123c689efedbc739ab13630f25b4a1ce53165",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/7e07b203-af56-4b52-b69d-97680826a8df/l_ipp_oneapi_p_2021.12.1.16_offline.sh"
-        },
-        {
-            "name": "2021.12.0",
-            "sha256": "84e4dfba142c3c629424012ad5e8e5f78d2a05983bf03cdc7e3ec6b530142d0e",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/ecc315bf-9e5a-4a23-b0ca-f58aea109e39/l_ipp_oneapi_p_2021.12.0.559_offline.sh"
-        },
         {
             "name": "2021.11.0",
             "sha256": "42bfaf593184e3293c10e06ccc9e9781427d86a8a88e3d09f6921ffd7de24ee6",

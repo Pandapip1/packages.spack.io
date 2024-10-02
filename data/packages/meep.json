@@ -89,7 +89,7 @@
     "dependent_to": [],
     "description": "Meep (or MEEP) is a free finite-difference time-domain (FDTD) simulation\nsoftware package developed at MIT to model electromagnetic systems.\n",
     "homepage": "http://ab-initio.mit.edu/wiki/index.php/Meep",
-    "latest_version": "1.29.0",
+    "latest_version": "1.28.0",
     "maintainers": [],
     "name": "meep",
     "patches": [],
@@ -170,10 +170,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "1.29.0",
-            "sha256": "f63bdf6a8fbae8aad87d4f683da3a466d687848a53bbebe1d6935fb268aeeffa"
         },
         {
             "name": "1.28.0",

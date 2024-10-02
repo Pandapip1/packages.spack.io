@@ -12,20 +12,12 @@
             "name": "openssl"
         },
         {
-            "description": "Testing coverage checker for python",
-            "name": "py-coverage"
-        },
-        {
             "description": "The Cython compiler for writing C extensions for the Python language.",
             "name": "py-cython"
         },
         {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
-        },
-        {
-            "description": "Protocol buffers are Google's language-neutral, platform-neutral,\nextensible mechanism for serializing structured data - think XML, but\nsmaller, faster, and simpler. You define how you want your data to be\nstructured once, then you can use special generated source code to\neasily write and read your structured data to and from a variety of data\nstreams and using a variety of languages.",
-            "name": "py-protobuf"
         },
         {
             "description": "A Python utility that aids in the process of downloading, building,\nupgrading, installing, and uninstalling Python packages.",
@@ -86,10 +78,6 @@
             "name": "py-medaka"
         },
         {
-            "description": "Python bindings for Apache Spark",
-            "name": "py-pyspark"
-        },
-        {
             "description": "Ray provides a simple, universal API for building distributed\napplications.",
             "name": "py-ray"
         },
@@ -104,20 +92,10 @@
     ],
     "description": "HTTP/2-based RPC framework.\n",
     "homepage": "https://grpc.io/",
-    "latest_version": "1.64.0",
+    "latest_version": "1.60.1",
     "maintainers": [],
     "name": "py-grpcio",
-    "patches": [
-        {
-            "level": 1,
-            "owner": "builtin.py-grpcio",
-            "relative_path": "30522.diff",
-            "reverse": false,
-            "sha256": "6be44fb3ea37f61f49092ae2a8e7bb0d821cb0569b4ee76732fcc32c050089c3",
-            "version": "@1.48",
-            "working_dir": "."
-        }
-    ],
+    "patches": [],
     "resources": [],
     "variants": [
         {
@@ -128,28 +106,16 @@
     ],
     "versions": [
         {
-            "name": "1.64.0",
-            "sha256": "257baf07f53a571c215eebe9679c3058a313fd1d1f7c4eede5a8660108c52d9c"
-        },
-        {
-            "name": "1.63.0",
-            "sha256": "f3023e14805c61bc439fb40ca545ac3d5740ce66120a678a3c6c2c55b70343d1"
-        },
-        {
-            "name": "1.62.2",
-            "sha256": "c77618071d96b7a8be2c10701a98537823b9c65ba256c0b9067e0594cdbd954d"
-        },
-        {
             "name": "1.60.1",
             "sha256": "dd1d3a8d1d2e50ad9b59e10aa7f07c7d1be2b367f3f2d33c5fade96ed5460962"
         },
         {
-            "name": "1.56.2",
-            "sha256": "0ff789ae7d8ddd76d2ac02e7d13bfef6fc4928ac01e1dcaa182be51b6bcc0aaa"
+            "name": "1.52.0",
+            "sha256": "a5d4a83d29fc39af429c10b9b326c174fec49b73398e4a966a1f2a4f30aa4fdb"
         },
         {
-            "name": "1.48.2",
-            "sha256": "90e5da224c6b9b23658adf6f36de6f435ef7dbcc9c5c12330314d70d6f8de1f7"
+            "name": "1.48.1",
+            "sha256": "660217eccd2943bf23ea9a36e2a292024305aec04bf747fbcff1f5032b83610e"
         },
         {
             "name": "1.43.0",
@@ -226,20 +192,11 @@
         {
             "name": "1.25.0",
             "sha256": "c948c034d8997526011960db54f512756fb0b4be1b81140a15b4ef094c6594a4"
-        }
-    ],
-    "versions_deprecated": [
-        {
-            "name": "1.52.0",
-            "sha256": "a5d4a83d29fc39af429c10b9b326c174fec49b73398e4a966a1f2a4f30aa4fdb"
-        },
-        {
-            "name": "1.48.1",
-            "sha256": "660217eccd2943bf23ea9a36e2a292024305aec04bf747fbcff1f5032b83610e"
         },
         {
             "name": "1.16.0",
-            "sha256": "0cc5f2d3ee21c642d8982f197c83053fd3a8cbcd6a60240d8c87c6c256b10d57"
+            "sha256": "d99db0b39b490d2469a8ef74197d5f211fa740fc9581dccecbb76c56d080fce1"
         }
-    ]
+    ],
+    "versions_deprecated": []
 }

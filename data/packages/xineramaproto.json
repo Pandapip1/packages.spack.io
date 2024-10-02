@@ -45,7 +45,7 @@
         }
     ],
     "description": "X Xinerama Extension. This is an X extension that allows multiple\nphysical screens controlled by a single X server to appear as a single\nscreen.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/proto/xineramaproto",
+    "homepage": "https://cgit.freedesktop.org/xorg/proto/xineramaproto",
     "latest_version": "1.2.1",
     "maintainers": [],
     "name": "xineramaproto",

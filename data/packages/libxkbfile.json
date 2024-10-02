@@ -77,8 +77,8 @@
         }
     ],
     "description": "XKB file handling routines.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libxkbfile",
-    "latest_version": "1.1.3",
+    "homepage": "https://cgit.freedesktop.org/xorg/lib/libxkbfile",
+    "latest_version": "1.1.2",
     "maintainers": [
         "wdconinc"
     ],
@@ -93,10 +93,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.1.3",
-            "sha256": "c4c2687729d1f920f165ebb96557a1ead2ef655809ab5eaa66a1ad36dc31050d"
-        },
         {
             "name": "1.1.2",
             "sha256": "d1a7e659bc7ae1aa1fc1ecced261c734df5ad5d86af1ef7a946be0e2d841e51d"

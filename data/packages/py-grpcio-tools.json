@@ -55,7 +55,7 @@
     "dependent_to": [],
     "description": "Protobuf code generator for gRPC\n",
     "homepage": "https://grpc.io/",
-    "latest_version": "1.62.2",
+    "latest_version": "1.48.1",
     "maintainers": [],
     "name": "py-grpcio-tools",
     "patches": [],
@@ -68,18 +68,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.62.2",
-            "sha256": "5fd5e1582b678e6b941ee5f5809340be5e0724691df5299aae8226640f94e18f"
-        },
-        {
-            "name": "1.56.2",
-            "sha256": "82af2f4040084141a732f0ef1ecf3f14fdf629923d74d850415e4d09a077e77a"
-        },
-        {
-            "name": "1.48.2",
-            "sha256": "8902a035708555cddbd61b5467cea127484362decc52de03f061a1a520fe90cd"
-        },
         {
             "name": "1.48.1",
             "sha256": "1178f2ea531f80cc2027ec64728df6ffc8e98cf1df61652a496eafd612127183"

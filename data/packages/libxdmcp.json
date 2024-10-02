@@ -49,8 +49,8 @@
         }
     ],
     "description": "libXdmcp - X Display Manager Control Protocol library.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXdmcp",
-    "latest_version": "1.1.5",
+    "homepage": "https://cgit.freedesktop.org/xorg/lib/libXdmcp",
+    "latest_version": "1.1.4",
     "maintainers": [
         "wdconinc"
     ],
@@ -65,10 +65,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.1.5",
-            "sha256": "31a7abc4f129dcf6f27ae912c3eedcb94d25ad2e8f317f69df6eda0bc4e4f2f3"
-        },
         {
             "name": "1.1.4",
             "sha256": "55041a8ff8992ab02777478c4b19c249c0f8399f05a752cb4a1a868a9a0ccb9a"

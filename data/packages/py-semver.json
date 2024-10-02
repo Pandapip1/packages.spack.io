@@ -30,10 +30,6 @@
     ],
     "dependent_to": [
         {
-            "description": "Mozilla's Glean Telemetry SDK",
-            "name": "py-glean-sdk"
-        },
-        {
             "description": "Project to generate recipes for conda packages.",
             "name": "py-grayskull"
         },

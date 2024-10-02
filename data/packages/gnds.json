@@ -24,7 +24,9 @@
     "description": "The GNDS package is an implementation of the OECD specifications for the\nGeneralized Nuclear Database Structure used in the AMPX cross section\nprocessing code.\n",
     "homepage": "https://code.ornl.gov/RNSD/gnds",
     "latest_version": "0.0.1",
-    "maintainers": [],
+    "maintainers": [
+        "sethrj"
+    ],
     "name": "gnds",
     "patches": [],
     "resources": [],

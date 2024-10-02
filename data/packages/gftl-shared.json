@@ -44,17 +44,13 @@
             "name": "pflogger"
         },
         {
-            "description": "The Unified Forecast System (UFS) Weather Model (WM) is a prognostic\nmodel that can be used for short- and medium-range research and\noperational forecasts, as exemplified by its use in the operational\nGlobal Forecast System (GFS) of the National Oceanic and Atmospheric\nAdministration (NOAA).",
-            "name": "ufs-weather-model"
-        },
-        {
             "description": "yet another Fortran (implementation of) YAML There is at least one\nother open source Fortran-based YAML parser. The rationale for this one\nis simply to be compatible with the containers in gFTL. It is not\nintended to be a complete YAML parser, just the subset needed by my own\nprojects.",
             "name": "yafyaml"
         }
     ],
     "description": " Provides common gFTL containers of Fortran intrinsic types that are\nencountered frequently.\n",
     "homepage": "https://github.com/Goddard-Fortran-Ecosystem/gFTL-shared",
-    "latest_version": "1.9.0",
+    "latest_version": "1.8.0",
     "maintainers": [
         "mathomp4",
         "tclune"
@@ -88,10 +84,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "1.9.0",
-            "sha256": "a3291ce61b512fe88628cc074b02363c2ba3081e7b453371089121988482dd6f"
         },
         {
             "name": "1.8.0",

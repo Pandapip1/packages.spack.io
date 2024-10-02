@@ -15,7 +15,7 @@
     "dependent_to": [],
     "description": "mruby is the lightweight implementation of the Ruby language complying\nto (part of) the ISO standard. Its syntax is Ruby 2.x compatible.\n",
     "homepage": "https://mruby.org/",
-    "latest_version": "3.3.0",
+    "latest_version": "3.2.0",
     "maintainers": [
         "mdorier"
     ],
@@ -38,10 +38,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "3.3.0",
-            "sha256": "53088367e3d7657eb722ddfacb938f74aed1f8538b3717fe0b6eb8f58402af65"
         },
         {
             "name": "3.2.0",

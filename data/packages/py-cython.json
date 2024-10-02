@@ -134,10 +134,6 @@
             "name": "py-apache-beam"
         },
         {
-            "description": "Autoregressive Conditional Heteroskedasticity (ARCH) and other tools for\nfinancial econometrics, written in Python (with Cython and/or Numba used\nto improve performance)",
-            "name": "py-arch"
-        },
-        {
             "description": "Python ARM Radar Toolkit. A growing collection of weather radar\nalgorithms and utilities build on top of the Scientific Python stack and\ndistributed under the 3-Clause BSD license. Py-ART is used by the\nAtmospheric Radiation Measurement (ARM) Climate Research Facility for\nworking with data from a number of precipitation and cloud radars, but\nhas been designed so that it can be used by others in the radar and\natmospheric communities to examine, processes, and analyse data from\nmany types of weather radars.",
             "name": "py-arm-pyart"
         },
@@ -302,30 +298,6 @@
             "name": "py-fisher"
         },
         {
-            "description": "Fluidfft plugin dependencies",
-            "name": "py-fluidfft-builder"
-        },
-        {
-            "description": "Fluidfft plugin using fftw.",
-            "name": "py-fluidfft-fftw"
-        },
-        {
-            "description": "Fluidfft plugin using fftwmpi.",
-            "name": "py-fluidfft-fftwmpi"
-        },
-        {
-            "description": "Fluidfft MPI plugin using fftw.",
-            "name": "py-fluidfft-mpi-with-fftw"
-        },
-        {
-            "description": "Fluidfft MPI plugin using p3dfft.",
-            "name": "py-fluidfft-p3dfft"
-        },
-        {
-            "description": "Fluidfft MPI plugin using pfft.",
-            "name": "py-fluidfft-pfft"
-        },
-        {
             "description": "Gensim is a Python library for topic modelling, document indexing and\nsimilarity retrieval with large corpora. Target audience is the natural\nlanguage processing (NLP) and information retrieval (IR) community.",
             "name": "py-gensim"
         },
@@ -402,10 +374,6 @@
             "name": "py-lws"
         },
         {
-            "description": "lxml is the most feature-rich and easy-to-use library for processing XML\nand HTML in the Python language.",
-            "name": "py-lxml"
-        },
-        {
             "description": "MACS2 Model-based Analysis of ChIP-Seq",
             "name": "py-macs2"
         },
@@ -424,10 +392,6 @@
         {
             "description": "A memory profiler for Python applications.",
             "name": "py-memray"
-        },
-        {
-            "description": "METIS partitioner for mesh and graphMETIS partitioner for mesh and graph",
-            "name": "py-mgmetis"
         },
         {
             "description": "Mikado is a lightweight Python3 pipeline whose purpose is to facilitate\nthe identification of expressed loci from RNA-Seq data * and to select\nthe best models in each locus.",
@@ -572,10 +536,6 @@
         {
             "description": "PyNucleus is a finite element code that specifically targets nonlocal\noperators.",
             "name": "py-pynucleus"
-        },
-        {
-            "description": "Vectorized spatial vector file format I/O using GDAL/OGR",
-            "name": "py-pyogrio"
         },
         {
             "description": "Pyomo is a Python-based open-source software package that supports a\ndiverse set of optimization capabilities for formulating and analyzing\noptimization models.",
@@ -746,10 +706,6 @@
             "name": "py-ucx-py"
         },
         {
-            "description": "uvloop is a fast, drop-in replacement of the built-in asyncio event",
-            "name": "py-uvloop"
-        },
-        {
             "description": "VCF-kit is a command-line based collection of utilities for performing\nanalysis on Variant Call Format (VCF) files.",
             "name": "py-vcf-kit"
         },
@@ -796,7 +752,7 @@
     ],
     "description": "The Cython compiler for writing C extensions for the Python language.\n",
     "homepage": "https://github.com/cython/cython",
-    "latest_version": "3.0.10",
+    "latest_version": "3.0.8",
     "maintainers": [],
     "name": "py-cython",
     "patches": [
@@ -828,10 +784,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "3.0.10",
-            "sha256": "dcc96739331fb854dcf503f94607576cfe8488066c61ca50dfd55836f132de99"
-        },
         {
             "name": "3.0.8",
             "sha256": "8333423d8fd5765e7cceea3a9985dd1e0a5dfeb2734629e1a2ed2d6233d39de6"

@@ -48,7 +48,7 @@
     ],
     "description": " PyERFA is the Python wrapper for the ERFA library (Essential Routines\nfor Fundamental Astronomy), a C library containing key algorithms for\nastronomy, which is based on the SOFA library published by the\nInternational Astronomical Union (IAU). All C routines are wrapped as\nNumpy universal functions, so that they can be called with scalar or\narray inputs.\n",
     "homepage": "https://github.com/liberfa/pyerfa",
-    "latest_version": "2.0.1.1",
+    "latest_version": "2.0.0.1",
     "maintainers": [
         "meyersbs"
     ],
@@ -63,10 +63,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.0.1.1",
-            "sha256": "dbac74ef8d3d3b0f22ef0ad3bbbdb30b2a9e10570b1fa5a98be34c7be36c9a6b"
-        },
         {
             "name": "2.0.0.1",
             "sha256": "2fd4637ffe2c1e6ede7482c13f583ba7c73119d78bef90175448ce506a0ede30"

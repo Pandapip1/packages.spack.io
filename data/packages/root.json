@@ -18,14 +18,14 @@
             "spec": "+root7"
         },
         {
-            "description": "root: root+webgui requires HTTP",
-            "name": "~http",
-            "spec": "+webgui"
-        },
-        {
             "description": "root: This version of root requires at least C++14",
             "name": "cxxstd=11",
             "spec": "@6.25.02:"
+        },
+        {
+            "description": "root: root+webgui requires HTTP",
+            "name": "~http",
+            "spec": "@6.29.00:+webgui"
         },
         {
             "description": "root: This version of root requires at least C++17",
@@ -184,10 +184,6 @@
             "name": "glew"
         },
         {
-            "description": "The GNU C Library provides many of the low-level components used\ndirectly by programs written in the C or C++ languages.",
-            "name": "glibc"
-        },
-        {
             "description": "This package provides the Mesa OpenGL Utility library.",
             "name": "glu"
         },
@@ -214,10 +210,6 @@
         {
             "description": "MozJPEG is a patched version of libjpeg-turbo which improves JPEG\ncompression efficiency achieving higher visual quality and smaller file\nsizes at the same time",
             "name": "jpeg"
-        },
-        {
-            "description": "Placeholder for external OpenGL libraries from hardware vendors",
-            "name": "libglx"
         },
         {
             "description": "libICE - Inter-Client Exchange Library.",
@@ -254,10 +246,6 @@
         {
             "description": "LZ4 is lossless compression algorithm, providing compression speed at\n400 MB/s per core, scalable with multi-cores CPU. It also features an\nextremely fast decoder, with speed in multiple GB/s per core, typically\nreaching RAM speed limits on multi-core systems.",
             "name": "lz4"
-        },
-        {
-            "description": "Musl is a libc, an implementation of the standard library functionality\ndescribed in the ISO C and POSIX standards, plus common extensions,\nintended for use on Linux-based systems. Whereas the kernel (Linux)\ngoverns access to hardware, memory, filesystems, and the privileges for\naccessing these resources, the C library is responsible for providing\nthe actual C function interfaces userspace applications see, and for\nconstructing higher-level buffered stdio, memory allocation management,\nthread creation and synchronization operations, and so on using the\nlower-level interfaces the kernel provides, as well as for implementing\npure library routines of the C language like strstr, snprintf, strtol,\nexp, sqrt, etc. Musl is a new general-purpose implementation of the C\nlibrary. It is lightweight, fast, simple, free, and aims to be correct\nin the sense of standards-conformance and safety.",
-            "name": "musl"
         },
         {
             "description": "MySQL is an open source relational database management system.",
@@ -398,10 +386,6 @@
             "name": "acts"
         },
         {
-            "description": "A portable linear algebra library with multiple backends that is part of\nthe Acts ecosystem.",
-            "name": "acts-algebra-plugins"
-        },
-        {
             "description": "Beam Delivery Simulation (BDSIM) is a C++ program that utilises the\nGeant4 toolkit to simulate both the transport of particles in an\naccelerator and their interaction with the accelerator material",
             "name": "bdsim"
         },
@@ -424,6 +408,10 @@
         {
             "description": "CRMC (Cosmic Ray Monte Carlo package). CRMC is a package providing a\ncommon interface to access the output from event generators used to\nmodel the secondary particle production in hadronic collisons.",
             "name": "crmc"
+        },
+        {
+            "description": "CutLang is a domain specific language that aims to provide a clear,\nhuman readable way to define analyses in high energy particle physics\n(HEP) along with an interpretation framework of that language.",
+            "name": "cutlang"
         },
         {
             "description": "DD4hep is a software framework for providing a complete solution for\nfull detector description (geometry, materials, visualization, readout,\nalignment, calibration, etc.) for the full experiment life cycle\n(detector concept development, detector optimization, construction,\noperation). It offers a consistent description through a single source\nof detector information for simulation, reconstruction, analysis, etc.\nIt distributed under the LGPLv3 License.",
@@ -544,8 +532,9 @@
     ],
     "description": "ROOT is a data analysis framework.\n",
     "homepage": "https://root.cern.ch",
-    "latest_version": "6.32.04",
+    "latest_version": "6.30.06",
     "maintainers": [
+        "HadrienG2",
         "drbenmorgan",
         "gartung",
         "greenc-FNAL",
@@ -595,15 +584,6 @@
             "level": 1,
             "owner": "builtin.root",
             "reverse": false,
-            "sha256": "5d91d78bcecd4fdbce9c829554a563234a9cb99eaf91dbc14fb85c3de33bac34",
-            "url": "https://github.com/root-project/root/pull/8289.patch?full_index=1",
-            "version": "@6.22:6.22.8",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.root",
-            "reverse": false,
             "sha256": "3115be912bd948979c9c2a3d89ffe6437fe17bd3b81396958c6cb6f51f64ae62",
             "url": "https://github.com/root-project/root/pull/11111.patch?full_index=1",
             "version": "@6.26:6.26.6",
@@ -634,33 +614,6 @@
             "reverse": false,
             "sha256": "134a57c97fa01e392525c2805b525510d3b0e9e9c94814d38ad7e240d741570e",
             "version": "@6.26.00:6.26.10,6.28.00:6.28.8,6.30.00+webgui",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.root",
-            "reverse": false,
-            "sha256": "8da36032082e65ae246c03558a4c3fd67b157d1d0c6d20adac9de263279d1db6",
-            "url": "https://github.com/root-project/root/commit/2f00d6df258906c1f6fe848135a88b836db3077f.patch?full_index=1",
-            "version": "@6.28:6.28.12",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.root",
-            "reverse": false,
-            "sha256": "4647898ef28cb1adbaacdeedb04b417d69ccbaf02fc2b3aab20e07c0b2a96a0f",
-            "url": "https://github.com/root-project/root/commit/14838b35600b08278e69bc3d8d8669773bc11399.patch?full_index=1",
-            "version": "@6.30:6.30.4",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.root",
-            "reverse": false,
-            "sha256": "9de4aa66f791dc3a1b9521995552b2d28b57be88a96a2e9e369977e32da26eb0",
-            "url": "https://github.com/root-project/root/pull/15988.patch?full_index=1",
-            "version": "@6.32.0:6.32.2",
             "working_dir": "."
         }
     ],
@@ -972,22 +925,6 @@
             "name": "master"
         },
         {
-            "name": "6.32.04",
-            "sha256": "132f126aae7d30efbccd7dcd991b7ada1890ae57980ef300c16421f9d4d07ea8"
-        },
-        {
-            "name": "6.32.02",
-            "sha256": "3d0f76bf05857e1807ccfb2c9e014f525bcb625f94a2370b455f4b164961602d"
-        },
-        {
-            "name": "6.32.00",
-            "sha256": "12f203681a59041c474ce9523761e6f0e8861b3bee78df5f799a8db55189e5d2"
-        },
-        {
-            "name": "6.30.08",
-            "sha256": "8bb8594867b9ded20a65e59f2cb6da965aa30851b8960f8cbf76293aec046b69"
-        },
-        {
             "name": "6.30.06",
             "sha256": "300db7ed1b678ed2fb9635ca675921a1945c7c2103da840033b493091f55700c"
         },
@@ -1002,10 +939,6 @@
         {
             "name": "6.30.00",
             "sha256": "0592c066954cfed42312957c9cb251654456064fe2d8dabdcb8826f1c0099d71"
-        },
-        {
-            "name": "6.28.12",
-            "sha256": "fcd325267d238e9c6008f56a3a7e7c87fd864b1e633b0ffcf1f82b7e7ad3d249"
         },
         {
             "name": "6.28.10",
@@ -1062,10 +995,6 @@
         {
             "name": "6.24.06",
             "sha256": "907f69f4baca1e4f30eeb4979598ca7599b6aa803ca046e80e25b6bbaa0ef522"
-        },
-        {
-            "name": "6.24.04",
-            "sha256": "4a416f3d7aa25dba46d05b641505eb074c5f07b3ec1d21911451046adaea3ee7"
         },
         {
             "name": "6.24.02",

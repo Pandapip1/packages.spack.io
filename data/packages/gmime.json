@@ -33,7 +33,7 @@
         }
     ],
     "description": "GMime is a C/C++ library which may be used for the creation and parsing\nof messages using the Multipurpose Internet Mail Extension (MIME).\n",
-    "homepage": "https://spruce.sourceforge.net/gmime/",
+    "homepage": "http://spruce.sourceforge.net/gmime/",
     "latest_version": "2.6.23",
     "maintainers": [],
     "name": "gmime",

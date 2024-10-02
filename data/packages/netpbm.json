@@ -69,7 +69,7 @@
         }
     ],
     "description": "Netpbm - graphics tools and converters. A whole bunch of utilities for\nprimitive manipulation of graphic images. Wide array of converters from\none graphics format to another. E.g. from g3 fax format to jpeg. Many\nbasic graphics editing tools such as magnifying and cropping.\n",
-    "homepage": "https://netpbm.sourceforge.net",
+    "homepage": "http://netpbm.sourceforge.net",
     "latest_version": "10.73.43",
     "maintainers": [
         "cessenat"

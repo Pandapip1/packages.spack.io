@@ -76,7 +76,7 @@
     ],
     "description": "Flax: A neural network library for JAX designed for flexibility.\n",
     "homepage": "https://github.com/google/flax",
-    "latest_version": "0.8.5",
+    "latest_version": "0.8.1",
     "maintainers": [],
     "name": "py-flax",
     "patches": [],
@@ -89,10 +89,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.8.5",
-            "sha256": "4a9cb7950ece54b0addaa73d77eba24e46138dbe783d01987be79d20ccb2b09b"
-        },
         {
             "name": "0.8.1",
             "sha256": "ce3d99e9b4c0d2e4d9fc28bc56cced8ba953adfd695aabd24f096b4c8a7e2f92"

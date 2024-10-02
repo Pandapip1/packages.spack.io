@@ -21,7 +21,7 @@
         }
     ],
     "description": "An open source sparse linear equation solver.\n",
-    "homepage": "https://sparse.sourceforge.net/",
+    "homepage": "http://sparse.sourceforge.net/",
     "latest_version": "1.4b",
     "maintainers": [
         "wortiz"

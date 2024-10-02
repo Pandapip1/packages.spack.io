@@ -19,7 +19,7 @@
     "dependent_to": [],
     "description": "Header-only C++ library for JSON Schema validation, with support for\nmany popular parsers.\n",
     "homepage": "https://github.com/tristanpenman/valijson",
-    "latest_version": "1.0.2",
+    "latest_version": "1.0",
     "maintainers": [],
     "name": "valijson",
     "patches": [],
@@ -50,10 +50,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "1.0.2",
-            "sha256": "35d86e54fc727f1265226434dc996e33000a570f833537a25c8b702b0b824431"
         },
         {
             "name": "1.0",

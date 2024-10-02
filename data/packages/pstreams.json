@@ -10,7 +10,7 @@
         }
     ],
     "description": "C++ wrapper for the POSIX.2 functions popen(3) and pclose(3)\n",
-    "homepage": "https://pstreams.sourceforge.net/",
+    "homepage": "http://pstreams.sourceforge.net/",
     "latest_version": "1.0.3",
     "maintainers": [],
     "name": "pstreams",

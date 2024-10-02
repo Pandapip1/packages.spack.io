@@ -24,7 +24,7 @@
     ],
     "description": "toml11 is a C++11 (or later) header-only toml parser/encoder depending\nonly on C++ standard library.\n",
     "homepage": "https://github.com/ToruNiina/toml11",
-    "latest_version": "4.0.2",
+    "latest_version": "3.8.1",
     "maintainers": [
         "ToruNiina",
         "ashermancinelli"
@@ -60,18 +60,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "4.0.2",
-            "sha256": "d1bec1970d562d328065f2667b23f9745a271bf3900ca78e92b71a324b126070"
-        },
-        {
-            "name": "4.0.1",
-            "sha256": "96965cb00ca7757c611c169cd5a6fb15736eab1cd1c1a88aaa62ad9851d926aa"
-        },
-        {
-            "name": "4.0.0",
-            "sha256": "f3dc3095f22e38745a5d448ac629f69b7ee76d2b3e6d653e4ce021deb7f7266e"
-        },
         {
             "name": "3.8.1",
             "sha256": "6a3d20080ecca5ea42102c078d3415bef80920f6c4ea2258e87572876af77849"

@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -374,21 +334,6 @@
         },
         {
             "description": null,
-            "name": "+omptarget+rocm",
-            "spec": ""
-        },
-        {
-            "description": null,
-            "name": "+omptarget+sycl",
-            "spec": ""
-        },
-        {
-            "description": null,
-            "name": "+rocm+sycl",
-            "spec": ""
-        },
-        {
-            "description": null,
             "name": "^blt@:0.3.6",
             "spec": "+rocm"
         },
@@ -396,11 +341,6 @@
             "description": null,
             "name": "amdgpu_target=none",
             "spec": "+rocm"
-        },
-        {
-            "description": "camp: Support for SYCL was introduced in RAJA after 2024.02 release, please use a newer release.",
-            "name": "+sycl",
-            "spec": "@:2024.2.99"
         }
     ],
     "dependencies": [
@@ -443,7 +383,7 @@
     ],
     "dependent_to": [
         {
-            "description": "CHAI and RAJA extensions (includes data structures and algorithms).",
+            "description": "Algorithms for chai managed arrays.",
             "name": "care"
         },
         {
@@ -469,9 +409,8 @@
     ],
     "description": " Compiler agnostic metaprogramming library providing concepts, type\noperations and tuples for C++ and cuda\n",
     "homepage": "https://github.com/LLNL/camp",
-    "latest_version": "2024.07.0",
+    "latest_version": "2024.02.0",
     "maintainers": [
-        "adrienbernede",
         "trws"
     ],
     "name": "camp",
@@ -483,15 +422,6 @@
             "reverse": false,
             "sha256": "cb9e25b67a6f08351c2a52fbada825267c22919913cd66c9e5898cb01a21b311",
             "version": "@:2022.10",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.camp",
-            "relative_path": "camp-rocm6.patch",
-            "reverse": false,
-            "sha256": "f85457155f22a4695ca254c6bdf54695e7c884398c3768e866b32bd319207b7b",
-            "version": "@0.2.3+rocm ^hip@6:",
             "working_dir": "."
         }
     ],
@@ -534,11 +464,6 @@
         },
         {
             "default": false,
-            "description": "Build with OpenMP Target support",
-            "name": "omptarget"
-        },
-        {
-            "default": false,
             "description": "Build with OpenMP support",
             "name": "openmp"
         },
@@ -546,11 +471,6 @@
             "default": false,
             "description": "Enable ROCm support",
             "name": "rocm"
-        },
-        {
-            "default": false,
-            "description": "Build with Sycl support",
-            "name": "sycl"
         },
         {
             "default": false,
@@ -562,16 +482,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "commit": "0f07de4240c42e0b38a8d872a20440cb4b33d9f5",
-            "name": "2024.07.0",
-            "tag": "v2024.07.0"
-        },
-        {
-            "commit": "79c320fa09db987923b56884afdc9f82f4b70fc4",
-            "name": "2024.02.1",
-            "tag": "v2024.02.1"
         },
         {
             "commit": "03c80a6c6ab4f97e76a52639563daec71435a277",

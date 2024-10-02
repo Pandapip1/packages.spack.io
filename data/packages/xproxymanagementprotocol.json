@@ -41,7 +41,7 @@
         }
     ],
     "description": "The Proxy Management Protocol is an ICE based protocol that provides a\nway for application servers to easily locate proxy services available to\nthem.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/proto/pmproto",
+    "homepage": "https://cgit.freedesktop.org/xorg/proto/pmproto",
     "latest_version": "1.0.3",
     "maintainers": [],
     "name": "xproxymanagementprotocol",

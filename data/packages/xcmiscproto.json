@@ -33,7 +33,7 @@
         }
     ],
     "description": "XC-MISC Extension. This extension defines a protocol that provides Xlib\ntwo ways to query the server for available resource IDs.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/proto/xcmiscproto",
+    "homepage": "https://cgit.freedesktop.org/xorg/proto/xcmiscproto",
     "latest_version": "1.2.2",
     "maintainers": [],
     "name": "xcmiscproto",

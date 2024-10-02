@@ -69,21 +69,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -239,11 +224,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -270,32 +250,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -378,11 +338,6 @@
             "spec": "+cuda ^cuda@:9~allow-unsupported-compilers arch=None-None-ppc64le:"
         },
         {
-            "description": "gromacs: The GROMACS support for NVSHMEM does not work with the GROMACS support for cuFFTMp (even though cuFFTMp uses NVSHMEM in its implementation)",
-            "name": "+nvshmem",
-            "spec": "+cufftmp"
-        },
-        {
             "description": "gromacs: mdrun-only build option was removed for GROMACS 2021.",
             "name": "+mdrun_only",
             "spec": "@2021:"
@@ -436,7 +391,7 @@
             "name": "cuda"
         },
         {
-            "description": "NVPL FFT (NVIDIA Performance Libraries FFT) is part of NVIDIA\nPerformance Libraries and provides Fast Fourier Transform (FFT)\ncalculations on ARM CPUs.",
+            "description": "This is an earlier version of Intel parallel software development tools\nand has now been replaced by the Intel oneAPI Toolkits. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.",
             "name": "fftw-api"
         },
         {
@@ -504,11 +459,11 @@
     ],
     "description": "GROMACS is a molecular dynamics package primarily designed for\nsimulations of proteins, lipids and nucleic acids. It was originally\ndeveloped in the Biophysical Chemistry department of University of\nGroningen, and is now maintained by contributors in universities and\nresearch centers across the world. GROMACS is one of the fastest and\nmost popular software packages available and can run on CPUs as well as\nGPUs. It is free, open source released under the GNU Lesser General\nPublic License. Before the version 4.6, GROMACS was released under the\nGNU General Public License.\n",
     "homepage": "https://www.gromacs.org",
-    "latest_version": "2024.3",
+    "latest_version": "2024.1",
     "maintainers": [
+        "danielahlin",
         "eirrgang",
-        "junghans",
-        "mabraham"
+        "junghans"
     ],
     "name": "gromacs",
     "patches": [
@@ -639,11 +594,6 @@
         },
         {
             "default": false,
-            "description": "Enable NVSHMEM support for Nvidia GPUs",
-            "name": "nvshmem"
-        },
-        {
-            "default": false,
             "description": "Enable OpenCL support",
             "name": "opencl"
         },
@@ -689,24 +639,12 @@
             "name": "main"
         },
         {
-            "name": "2024.3",
-            "sha256": "bbda056ee59390be7d58d84c13a9ec0d4e3635617adf2eb747034922cba1f029"
-        },
-        {
-            "name": "2024.2",
-            "sha256": "802a7e335f2e895770f57b159e4ec368ebb0ff2ce6daccf706c6e8025c36852b"
-        },
-        {
             "name": "2024.1",
             "sha256": "937d8f12a36fffbf2af7add71adbb5aa5c5537892d46c9a76afbecab1aa0aac7"
         },
         {
             "name": "2024",
             "sha256": "04d226d52066a8bc3a42e00d6213de737b4ec292e26703065924ff01956801e2"
-        },
-        {
-            "name": "2023.5",
-            "sha256": "9cc491d3601a5fe0ec0de727e4432c34877f596fe8a463d4cf0f0f53fb34d08b"
         },
         {
             "name": "2023.4",

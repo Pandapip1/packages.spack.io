@@ -100,10 +100,6 @@
             "name": "xdotool"
         },
         {
-            "description": "xfwm4 is the window manager for Xfce",
-            "name": "xfwm4"
-        },
-        {
             "description": "xinput is a utility to configure and test XInput devices.",
             "name": "xinput"
         },
@@ -113,7 +109,7 @@
         }
     ],
     "description": "libXinerama - API for Xinerama extension to X11 Protocol.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXinerama",
+    "homepage": "https://cgit.freedesktop.org/xorg/lib/libXinerama",
     "latest_version": "1.1.5",
     "maintainers": [
         "wdconinc"

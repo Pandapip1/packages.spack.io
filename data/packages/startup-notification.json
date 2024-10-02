@@ -26,10 +26,6 @@
             "name": "libxcb"
         },
         {
-            "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
-            "name": "pkgconfig"
-        },
-        {
             "description": "The XCB util modules provides a number of libraries which sit on top of\nlibxcb, the core X protocol library, and some of the extension\nlibraries. These experimental libraries provide convenience functions\nand interfaces which make the raw X protocol more usable. Some of the\nlibraries also provide client-side code which is not strictly part of\nthe X protocol but which have traditionally been provided by Xlib.",
             "name": "xcb-util"
         }
@@ -38,26 +34,6 @@
         {
             "description": "i3, improved tiling wm. i3 is a tiling window manager, completely\nwritten from scratch. The target platforms are GNU/Linux and BSD\noperating systems, our code is Free and Open Source Software (FOSS)\nunder the BSD license. i3 is primarily targeted at advanced users and\ndevelopers.",
             "name": "i3"
-        },
-        {
-            "description": "Window Navigator Construction Kit",
-            "name": "libwnck"
-        },
-        {
-            "description": "Widget sharing library for XFCE4",
-            "name": "libxfce4ui"
-        },
-        {
-            "description": "Thunar File Manager",
-            "name": "thunar"
-        },
-        {
-            "description": "Panel manager for Xfce4",
-            "name": "xfce4-panel"
-        },
-        {
-            "description": "xfwm4 is the window manager for Xfce",
-            "name": "xfwm4"
         }
     ],
     "description": "startup-notification contains a reference implementation of the\nfreedesktop startup notification protocol.\n",

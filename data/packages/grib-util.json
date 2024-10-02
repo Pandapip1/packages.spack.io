@@ -4,7 +4,7 @@
     "conflicts": [],
     "dependencies": [
         {
-            "description": "The bacio library performs binary I/O for the NCEP models, processing\nunformatted byte-addressable data records, and transforming the little\nendian files and big endian files.",
+            "description": "The bacio ibrary performs binary I/O for the NCEP models, processing\nunformatted byte-addressable data records, and transforming the little\nendian files and big endian files.",
             "name": "bacio"
         },
         {
@@ -59,7 +59,7 @@
     "dependent_to": [],
     "description": "This is a collection of NCEP GRIB related utilities. This is related to\nNOAA's NCEPLIBS project.\n",
     "homepage": "https://github.com/NOAA-EMC/NCEPLIBS-grib_util",
-    "latest_version": "1.5.0",
+    "latest_version": "1.4.0",
     "maintainers": [
         "AlexanderRichert-NOAA",
         "Hang-Lei-NOAA",
@@ -104,11 +104,6 @@
         {
             "branch": "develop",
             "name": "develop"
-        },
-        {
-            "commit": "b84e877a62efe6695546a4b7a02e7adb6e1ece25",
-            "name": "1.5.0",
-            "tag": "v1.5.0"
         },
         {
             "commit": "eeacc9ec93dfe6379f576191883c84a4a1202cc8",

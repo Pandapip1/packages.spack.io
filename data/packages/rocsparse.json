@@ -1,23 +1,7 @@
 {
     "aliases": [],
     "build_system": "CMakePackage",
-    "conflicts": [
-        {
-            "description": null,
-            "name": "+asan",
-            "spec": "arch=None-centos7-None"
-        },
-        {
-            "description": null,
-            "name": "+asan",
-            "spec": "arch=None-centos8-None"
-        },
-        {
-            "description": null,
-            "name": "+asan",
-            "spec": "arch=None-rhel9-None"
-        }
-    ],
+    "conflicts": [],
     "dependencies": [
         {
             "description": "A cross-platform, open-source build system. CMake is a family of tools\ndesigned to build, test and package software.",
@@ -78,10 +62,6 @@
             "name": "petsc"
         },
         {
-            "description": "ONNX Runtime is a performance-focused complete scoring engine for Open\nNeural Network Exchange (ONNX) models, with an open extensible\narchitecture to continually address the latest developments in AI and\nDeep Learning. ONNX Runtime stays up to date with the ONNX standard with\ncomplete implementation of all ONNX operators, and supports all ONNX\nreleases (1.2+) with both future and backwards compatibility.",
-            "name": "py-onnxruntime"
-        },
-        {
             "description": "ReSolve is a library of GPU-resident sparse linear solvers. It contains\niterative and direct solvers designed to run on NVIDIA and AMD GPUs, as\nwell as CPU devices.",
             "name": "resolve"
         },
@@ -100,7 +80,7 @@
     ],
     "description": "rocSPARSE exposes a common interface that provides Basic Linear Algebra\nSubroutines for sparse computation implemented on top of AMD's Radeon\nOpen eCosystem Platform ROCm runtime and toolchains. rocSPARSE is\ncreated using the HIP programming language and optimized for AMD's\nlatest discrete GPUs.\n",
     "homepage": "https://github.com/ROCm/rocSPARSE",
-    "latest_version": "6.2.1",
+    "latest_version": "6.0.2",
     "maintainers": [
         "cgmb",
         "renjithravindrankannath",
@@ -124,6 +104,24 @@
             "reverse": false,
             "sha256": "e613f663dd6ba7ce6525a8c104cfd20d175c863c87ca732df9623e0ca91ff802",
             "version": "@:5.3+test",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.rocsparse",
+            "relative_path": "0003-fix-navi-1x-rocm-4.5.patch",
+            "reverse": false,
+            "sha256": "0665af35c3ad2221927e72eec737c05e2ca3b3cb51911965b26aa2d4fc6f38cc",
+            "version": "@:5.1",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.rocsparse",
+            "relative_path": "0003-fix-navi-1x-rocm-5.2.patch",
+            "reverse": false,
+            "sha256": "ca7226ef2773a713c3f1e2923d9bf24f700ce48fe7789f51af25effa71823f8a",
+            "version": "@5.2",
             "working_dir": "."
         }
     ],
@@ -280,11 +278,6 @@
             "name": "amdgpu_target"
         },
         {
-            "default": false,
-            "description": "Build with address-sanitizer enabled or disabled",
-            "name": "asan"
-        },
-        {
             "default": "cmake",
             "description": "Build systems supported by the package",
             "name": "build_system"
@@ -311,26 +304,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "6.2.1",
-            "sha256": "4691d689db0a03fc950dbc9d88471752f6d17f5382a4bd2f7e23dfb43fc7074c"
-        },
-        {
-            "name": "6.2.0",
-            "sha256": "d07357d180423cedbabc849983a2d4d79b0e9f4c9b5e07d4993043e646fe6df9"
-        },
-        {
-            "name": "6.1.2",
-            "sha256": "e8989c28085275e7c044b19fd2bc86d8493ce6a1b8545126f787722c535fe6eb"
-        },
-        {
-            "name": "6.1.1",
-            "sha256": "9ac2bf84962cfdf24e4fa68e6f1d91ffdad5d5a5287ecdaddf331e6073ba57b3"
-        },
-        {
-            "name": "6.1.0",
-            "sha256": "d69d9b0079159abb2d7514f8f45a41bb2cbcaf8b52e600e794aca3facf274b5e"
-        },
         {
             "name": "6.0.2",
             "sha256": "00292eb7efe5719a65960bdbe391ba8e0ce610487eea11397aad6a14b11e12cd"
@@ -362,9 +335,7 @@
         {
             "name": "5.5.0",
             "sha256": "cbee79b637691bc710c1c83fbaa91db7498d38d4df873be23e28ed5617acde72"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "5.4.3",
             "sha256": "9fb633f235eb0567cc54fae6bdc779f16bf0bb4e6f5bdddb40312c6d11ca8478"
@@ -380,6 +351,28 @@
         {
             "name": "5.3.0",
             "sha256": "521ca0e7b52f26edbff8507eb1479dc26019f456756d884d7b8b192c3ea518e8"
+        }
+    ],
+    "versions_deprecated": [
+        {
+            "name": "5.2.3",
+            "sha256": "6da3f3303a8ada94c4dbff4b42ee33a2e2883a908ee21c41cb2aa7180382026a"
+        },
+        {
+            "name": "5.2.1",
+            "sha256": "01f3535442740221edad2cde0a20b2499c807f6733d5016b33c47f34a5a55c49"
+        },
+        {
+            "name": "5.2.0",
+            "sha256": "7ed929af16d2502135024a6463997d9a95f03899b8a33aa95db7029575c89572"
+        },
+        {
+            "name": "5.1.3",
+            "sha256": "ef9641045b36c9aacc87e4fe7717b41b1e29d97e21432678dce7aca633a8edc2"
+        },
+        {
+            "name": "5.1.0",
+            "sha256": "a2f0f8cb02b95993480bd7264fc65e8b11464a90b86f2dcd0dd82a2e6d4bd704"
         }
     ]
 }

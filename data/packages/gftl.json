@@ -50,7 +50,7 @@
     ],
     "description": "This package generates containers (Vector, Set, Map, ...) with Fortran\ninterfaces. It is essentially a brute force analog of C++ STL. This\npackage, gFTL, provides a mechanism to easily create robust containers\nand associated iterators which can be used within Fortran applications.\nThe primary methods are intended to be as close to their C++ STL analogs\nas possible. We have found that these containers are a powerful\nproductivity multiplier for certain types of software development, and\nhope that others find them to be just as useful. Currently, the\nfollowing three types of containers are provided. * Vector (list) * Set\n* Map (associated array) Contributions of additional containers are very\nmuch welcomed.\n",
     "homepage": "https://github.com/Goddard-Fortran-Ecosystem/gFTL",
-    "latest_version": "1.14.0",
+    "latest_version": "1.13.0",
     "maintainers": [
         "mathomp4",
         "tclune"
@@ -88,10 +88,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "1.14.0",
-            "sha256": "bf8e3ba3f708ea327c7eb1a5bd1afdce41358c6df1a323aba0f73575c25d5fc8"
         },
         {
             "name": "1.13.0",

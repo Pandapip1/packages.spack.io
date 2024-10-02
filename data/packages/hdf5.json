@@ -193,10 +193,6 @@
             "name": "channelflow"
         },
         {
-            "description": "Chapel is a modern programming language that is parallel, productive,\nportable, scalable and open-source. The Chapel package comes with many\noptions in the form of variants, most of which can be left unset to\nallow Chapel's built-in scripts to determine the proper values based on\nthe environment.",
-            "name": "chapel"
-        },
-        {
             "description": "The Chombo package provides a set of tools for implementing finite\ndifference and finite-volume methods for the solution of partial\ndifferential equations on block-structured adaptively refined logically\nrectangular (i.e. Cartesian) grids.",
             "name": "chombo"
         },
@@ -239,10 +235,6 @@
         {
             "description": "Darshan (runtime) is a scalable HPC I/O characterization tool designed\nto capture an accurate picture of application I/O behavior, including\nproperties such as patterns of access within files, with minimum\noverhead. DarshanRuntime package should be installed on systems where\nyou intend to instrument MPI applications.",
             "name": "darshan-runtime"
-        },
-        {
-            "description": "Data & Vis SDK ** This package is a post-ECP port from the ECP Data &\nVis SDK **",
-            "name": "dav-sdk"
         },
         {
             "description": "C++ software library providing well-documented tools to build finite\nelement codes for a broad variety of PDEs.",
@@ -319,10 +311,6 @@
         {
             "description": "A free and open-source IDL/PV-WAVE compiler. GNU Data Language (GDL) is\na free/libre/open source incremental compiler compatible with IDL and to\nsome extent with PV-WAVE.",
             "name": "gdl"
-        },
-        {
-            "description": "Geant4 is a toolkit for the simulation of the passage of particles\nthrough matter. Its areas of application include high energy, nuclear\nand accelerator physics, as well as studies in medical and space\nscience.",
-            "name": "geant4"
         },
         {
             "description": "GeoModel is a user-friendly C++ Toolkit and Suite for HEP Detector\nDescription with minimal dependencies.",
@@ -417,10 +405,6 @@
             "name": "hermes"
         },
         {
-            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
-            "name": "hermes-shm"
-        },
-        {
             "description": "HighFive - Header only C++ HDF5 interface",
             "name": "highfive"
         },
@@ -477,10 +461,6 @@
             "name": "libpressio"
         },
         {
-            "description": "A set of libraries for LibPressio to easily load datasets",
-            "name": "libpressio-dataset"
-        },
-        {
             "description": "libROM: library for computing large-scale reduced order models",
             "name": "librom"
         },
@@ -535,10 +515,6 @@
         {
             "description": "NCL is an interpreted language designed specifically for scientific data\nanalysis and visualization. Supports NetCDF 3/4, GRIB 1/2, HDF 4/5, HDF-\nEOD 2/5, shapefile, ASCII, binary. Numerous analysis functions are\nbuilt-in.",
             "name": "ncl"
-        },
-        {
-            "description": "Neko: A modern, portable, and scalable framework for high-fidelity\ncomputational fluid dynamics",
-            "name": "neko"
         },
         {
             "description": "Nektar++: Spectral/hp Element Framework",
@@ -805,10 +781,6 @@
             "name": "trilinos"
         },
         {
-            "description": "Physics-based modeling and simulation of manufacturing processes.\nTruchas includes coupled physics models for incompressible multi-\nmaterial flow with interface tracking, heat transfer, phase change, view\nfactor thermal radiation, species advection-diffusion, elastic/plastic\nmechanics with contact, and electromagnetics. It employs finite volume,\nfinite element, and mimetic finite difference discretizations on 3-D\nunstructured meshes composed of mixed cell types.",
-            "name": "truchas"
-        },
-        {
             "description": "Turbine: The Swift/T runtime",
             "name": "turbine"
         },
@@ -819,14 +791,6 @@
         {
             "description": "The UFS Utilities package contains programs set up the model grid and\ncreate coldstart initial conditions. This is related to NOAA's NCEPLIBS\nproject.",
             "name": "ufs-utils"
-        },
-        {
-            "description": "The Unified Forecast System (UFS) Weather Model (WM) is a prognostic\nmodel that can be used for short- and medium-range research and\noperational forecasts, as exemplified by its use in the operational\nGlobal Forecast System (GFS) of the National Oceanic and Atmospheric\nAdministration (NOAA).",
-            "name": "ufs-weather-model"
-        },
-        {
-            "description": "The Vienna Ab initio Simulation Package (VASP) is a computer program\nfor atomic scale materials modelling, e.g. electronic structure\ncalculations and quantum-mechanical molecular dynamics, from first\nprinciples.",
-            "name": "vasp"
         },
         {
             "description": "VBZ Compression uses variable byte integer encoding to compress\nnanopore signal data and is built using the following libraries:\nhttps://github.com/lemire/streamvbyte https://github.com/facebook/zstd\nThe performance of VBZ is achieved by taking advantage of the properties\nof the raw signal and therefore is most effective when applied to the\nsignal dataset. Other datasets you may have in your Fast5 files will not\nbe able to take advantage of the default VBZ settings for compression.\nVBZ will be used as the default compression scheme in a future release\nof MinKNOW.",

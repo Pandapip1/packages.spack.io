@@ -1,12 +1,32 @@
 {
-    "name": "intel-ipp",
     "aliases": [
         {
-            "name": "ipp",
-            "alias_for": "intel-ipp"
+            "alias_for": "intel-ipp",
+            "name": "ipp"
         }
     ],
-    "versions": [
+    "build_system": "IntelPackage",
+    "conflicts": [],
+    "dependencies": [],
+    "dependent_to": [],
+    "description": "Intel Integrated Performance Primitives. This package has been replaced\nby intel-oneapi-ipp. LICENSE INFORMATION: By downloading and using this\nsoftware, you agree to the terms and conditions of the software license\nagreements at https://intel.ly/393CijO.\n",
+    "homepage": "https://software.intel.com/en-us/intel-ipp",
+    "latest_version": "2020.2.254",
+    "maintainers": [
+        "rscohn2"
+    ],
+    "name": "intel-ipp",
+    "patches": [],
+    "resources": [],
+    "variants": [
+        {
+            "default": "generic",
+            "description": "Build systems supported by the package",
+            "name": "build_system"
+        }
+    ],
+    "versions": [],
+    "versions_deprecated": [
         {
             "name": "2020.2.254",
             "sha256": "18266ad1eec9b5b17e76da24f1aa9a9147300e5bd345e6bdad58d7187392fa77",
@@ -97,24 +117,5 @@
             "sha256": "8ce7bf17f4a0bbf8c441063de26be7f6e0f6179789e23f24eaa8b712632b3cdd",
             "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/tec/9067/l_ipp_9.0.3.210.tgz"
         }
-    ],
-    "latest_version": "2020.2.254",
-    "build_system": "IntelPackage",
-    "conflicts": [],
-    "variants": [
-        {
-            "name": "build_system",
-            "default": "generic",
-            "description": "Build systems supported by the package"
-        }
-    ],
-    "homepage": "https://software.intel.com/en-us/intel-ipp",
-    "maintainers": [
-        "rscohn2"
-    ],
-    "patches": [],
-    "resources": [],
-    "description": "Intel Integrated Performance Primitives. This package has been replaced\nby intel-oneapi-ipp. LICENSE INFORMATION: By downloading and using this\nsoftware, you agree to the terms and conditions of the software license\nagreements at https://intel.ly/393CijO.\n",
-    "dependencies": [],
-    "dependent_to": []
+    ]
 }

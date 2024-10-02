@@ -135,7 +135,7 @@
     ],
     "description": "The Emacs programmable text editor.\n",
     "homepage": "https://www.gnu.org/software/emacs",
-    "latest_version": "29.4",
+    "latest_version": "29.3",
     "maintainers": [
         "alecbcs"
     ],
@@ -152,11 +152,6 @@
             "default": "autotools",
             "description": "Build systems supported by the package",
             "name": "build_system"
-        },
-        {
-            "default": false,
-            "description": "Enable GUI build on Mac",
-            "name": "gui"
         },
         {
             "default": false,
@@ -188,10 +183,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "29.4",
-            "sha256": "1adb1b9a2c6cdb316609b3e86b0ba1ceb523f8de540cfdda2aec95b6a5343abf"
         },
         {
             "name": "29.3",

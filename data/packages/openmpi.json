@@ -1,15 +1,11 @@
 {
     "aliases": [
         {
-            "alias_for": "openmpi@1.3:1.7.2",
+            "alias_for": "openmpi@1.6.5",
             "name": "mpi"
         },
         {
-            "alias_for": "openmpi@1.7.3:1.7.4",
-            "name": "mpi"
-        },
-        {
-            "alias_for": "openmpi@1.7.5:1.10.7",
+            "alias_for": "openmpi@1.7.5:",
             "name": "mpi"
         },
         {
@@ -17,7 +13,7 @@
             "name": "mpi"
         },
         {
-            "alias_for": "openmpi@:1.2",
+            "alias_for": "openmpi",
             "name": "mpi"
         }
     ],
@@ -87,21 +83,6 @@
             "description": null,
             "name": "%gcc@:5",
             "spec": "+cuda ^cuda@11.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -260,11 +241,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -291,32 +267,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -397,6 +353,11 @@
             "description": null,
             "name": "%gcc@6:",
             "spec": "+cuda ^cuda@:9~allow-unsupported-compilers arch=None-None-ppc64le:"
+        },
+        {
+            "description": "openmpi: +pmi is required for openmpi to work with Slurm.",
+            "name": "~pmi schedulers=slurm",
+            "spec": "@1.5.4"
         },
         {
             "description": "openmpi: The loadleveler scheduler is not supported with openmpi(>=3).",
@@ -690,15 +651,11 @@
         {
             "description": "Tandem is a scientific software for SEAS modelling and for solving\nPoisson and linear elasticity problems. It implements the Symmetric\nInterior Penalty Galerkin (SIPG) method using unstructured simplicial\nmeshes (triangle meshes in 2D, tetrahedral meshes in 3D).",
             "name": "tandem"
-        },
-        {
-            "description": "The Vienna Ab initio Simulation Package (VASP) is a computer program\nfor atomic scale materials modelling, e.g. electronic structure\ncalculations and quantum-mechanical molecular dynamics, from first\nprinciples.",
-            "name": "vasp"
         }
     ],
     "description": "An open source Message Passing Interface implementation. The Open MPI\nProject is an open source Message Passing Interface implementation that\nis developed and maintained by a consortium of academic, research, and\nindustry partners. Open MPI is therefore able to combine the expertise,\ntechnologies, and resources from all across the High Performance\nComputing community in order to build the best MPI library available.\nOpen MPI offers advantages for system and software vendors, application\ndevelopers and computer science researchers.\n",
     "homepage": "https://www.open-mpi.org",
-    "latest_version": "5.0.5",
+    "latest_version": "5.0.3",
     "maintainers": [
         "hppritcha",
         "naughtont3"
@@ -848,30 +805,12 @@
             "sha256": "0a26bbab2cf81496747f1d40c82f4884e40c92808724b4e8e8e04565cdf11c3c",
             "version": "@5.0.0:5.0.1",
             "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.openmpi",
-            "relative_path": "pmix_getline_pmix_version.patch",
-            "reverse": false,
-            "sha256": "1a8ff33f8db0a65607bd6a1e1aa6926e19ae6394d974ce9a61cd2177f162bb6a",
-            "version": "@5.0.0:5.0.3",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.openmpi",
-            "relative_path": "pmix_getline_pmix_version-prte.patch",
-            "reverse": false,
-            "sha256": "a0572843b15e755b49d352bdf1ea7dfbd1cb8018dc1db783bb36e24f9d2becf6",
-            "version": "@5.0.3",
-            "working_dir": "."
         }
     ],
     "resources": [],
     "variants": [
         {
-            "default": true,
+            "default": false,
             "description": "Enable built-in atomics",
             "name": "atomics"
         },
@@ -899,11 +838,6 @@
             "default": false,
             "description": "Enable deprecated C++ exception support",
             "name": "cxx_exceptions"
-        },
-        {
-            "default": false,
-            "description": "Make debug build",
-            "name": "debug"
         },
         {
             "default": "none",
@@ -966,7 +900,7 @@
             "name": "pmi"
         },
         {
-            "default": true,
+            "default": false,
             "description": "Enable ROMIO support",
             "name": "romio"
         },
@@ -1020,14 +954,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "5.0.5",
-            "sha256": "6588d57c0a4bd299a24103f4e196051b29e8b55fbda49e11d5b3d32030a32776"
-        },
-        {
-            "name": "5.0.4",
-            "sha256": "64526852cdd88b2d30e022087c16ab3e03806c451b10cd691d5c1ac887d8ef9d"
         },
         {
             "name": "5.0.3",

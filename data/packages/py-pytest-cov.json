@@ -34,10 +34,6 @@
     ],
     "dependent_to": [
         {
-            "description": "An experiment-independent HEP event data processing framework",
-            "name": "gaudi"
-        },
-        {
             "description": "N2p2 (The neural network potential package) provides ready-to-use\nsoftware for high-dimensional neural network potentials in computational\nphysics and chemistry.",
             "name": "n2p2"
         },
@@ -76,6 +72,10 @@
         {
             "description": "Meta-package containing dependencies for testing.",
             "name": "py-pytest-astropy"
+        },
+        {
+            "description": "Manipulation and analysis of geometric objects in the Cartesian plane.",
+            "name": "py-shapely"
         },
         {
             "description": "TorchGeo: datasets, samplers, transforms, and pre-trained models for\ngeospatial data.",

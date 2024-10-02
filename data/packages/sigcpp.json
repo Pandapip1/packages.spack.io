@@ -19,7 +19,7 @@
     "dependent_to": [],
     "description": "libsigc++ : The Typesafe Callback Framework for C++\n",
     "homepage": "https://libsigcplusplus.github.io/libsigcplusplus/",
-    "latest_version": "3.6.0",
+    "latest_version": "3.2.0",
     "maintainers": [],
     "name": "sigcpp",
     "patches": [],
@@ -52,10 +52,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "3.6.0",
-            "sha256": "bbe81e4f6d8acb41a9795525a38c0782751dbc4af3d78a9339f4a282e8a16c38"
-        },
         {
             "name": "3.2.0",
             "sha256": "f9c36331b5d5ac7a1651477288f47eec51394c03ade8bb1a05d1c46eac5f77e7"

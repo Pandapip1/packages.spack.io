@@ -62,7 +62,7 @@
     ],
     "description": "A library that provides Argobots bindings to the Mercury RPC\nimplementation.\n",
     "homepage": "https://github.com/mochi-hpc/mochi-margo",
-    "latest_version": "0.17.0",
+    "latest_version": "0.15.0",
     "maintainers": [
         "carns",
         "fbudin69500",
@@ -92,14 +92,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "0.17.0",
-            "sha256": "5c456cdc2e3156f902e5068468ee6d061eb252dcfdfcb2b570726e9cf84fc2e8"
-        },
-        {
-            "name": "0.16.0",
-            "sha256": "5fb7ea3633b5bcc735e605dba27187ea893958bf86b8928184028735a338c61b"
         },
         {
             "name": "0.15.0",

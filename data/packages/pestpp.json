@@ -23,7 +23,7 @@
     "dependent_to": [],
     "description": "PEST++ is a software suite aimed at supporting complex numerical models\nin the decision-support context. Much focus has been devoted to\nsupporting environmental models (groundwater, surface water, etc) but\nthese tools are readily applicable to any computer model.\n",
     "homepage": "https://pesthomepage.org",
-    "latest_version": "5.2.9",
+    "latest_version": "5.2.3",
     "maintainers": [],
     "name": "pestpp",
     "patches": [],
@@ -56,10 +56,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "5.2.9",
-            "sha256": "401db5eec509c6771cd509a43c1710ac76b1ebe533f4cbaa1df26375aa167e60"
-        },
         {
             "name": "5.2.3",
             "sha256": "6b86a7db863a034e730480046a4b7b4a8dc7cc798658a5404a961be379c05dc3"

@@ -28,10 +28,6 @@
             "name": "py-colorama"
         },
         {
-            "description": "Core utilities for Python packages.",
-            "name": "py-packaging"
-        },
-        {
             "description": "The PyPA recommended tool for installing Python packages.",
             "name": "py-pip"
         },
@@ -66,42 +62,6 @@
     ],
     "dependent_to": [
         {
-            "description": "Python library for calculating contours of 2D quadrilateral grids.",
-            "name": "py-contourpy"
-        },
-        {
-            "description": "Efficient and easy Fast Fourier Transform (FFT) for Python.",
-            "name": "py-fluidfft"
-        },
-        {
-            "description": "Fluidfft plugin using fftw.",
-            "name": "py-fluidfft-fftw"
-        },
-        {
-            "description": "Fluidfft plugin using fftwmpi.",
-            "name": "py-fluidfft-fftwmpi"
-        },
-        {
-            "description": "Fluidfft MPI plugin using fftw.",
-            "name": "py-fluidfft-mpi-with-fftw"
-        },
-        {
-            "description": "Fluidfft MPI plugin using p3dfft.",
-            "name": "py-fluidfft-p3dfft"
-        },
-        {
-            "description": "Fluidfft MPI plugin using pfft.",
-            "name": "py-fluidfft-pfft"
-        },
-        {
-            "description": "Framework for studying fluid dynamics with simulations.",
-            "name": "py-fluidsim"
-        },
-        {
-            "description": "Matplotlib is a comprehensive library for creating static, animated, and\ninteractive visualizations in Python.",
-            "name": "py-matplotlib"
-        },
-        {
             "description": "Fundamental package for array computing in Python.",
             "name": "py-numpy"
         },
@@ -114,10 +74,6 @@
             "name": "py-scikit-image"
         },
         {
-            "description": "A set of python modules for machine learning and data mining.",
-            "name": "py-scikit-learn"
-        },
-        {
             "description": "Fundamental algorithms for scientific computing in Python.",
             "name": "py-scipy"
         },
@@ -128,7 +84,7 @@
     ],
     "description": "Meson Python build backend (PEP 517).\n",
     "homepage": "https://github.com/mesonbuild/meson-python",
-    "latest_version": "0.16.0",
+    "latest_version": "0.15.0",
     "maintainers": [
         "adamjstewart",
         "eli-schwartz",
@@ -145,10 +101,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.16.0",
-            "sha256": "9068c17e36c89d6c7ff709fffb2a8a9925e8cd0b02629728e5ceaf2ec505cb5f"
-        },
         {
             "name": "0.15.0",
             "sha256": "fddb73eecd49e89c1c41c87937cd89c2d0b65a1c63ba28238681d4bd9484d26f"
@@ -180,12 +132,11 @@
         {
             "name": "0.8.0",
             "sha256": "b5c8a2727e6f6feaffc1db513244c9bdb5d0f689b45e24f4529b649b7710daf7"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "0.7.0",
             "sha256": "9fcfa350f44ca80dd4f5f9c3d251725434acf9a07d9618f382e6cc4629dcbe84"
         }
-    ]
+    ],
+    "versions_deprecated": []
 }

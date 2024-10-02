@@ -36,10 +36,6 @@
             "name": "flux-sched"
         },
         {
-            "description": "HIP is a C++ Runtime API and Kernel Language that allows developers to\ncreate portable applications for AMD and NVIDIA GPUs from single source\ncode.",
-            "name": "hip"
-        },
-        {
             "description": "The LDC project aims to provide a portable D programming language\ncompiler with modern optimization and code generation capabilities. LDC\nis fully Open Source; the parts of the code not taken/adapted from other\nprojects are BSD-licensed (see the LICENSE file for details). Consult\nthe D wiki for further information: https://wiki.dlang.org/LDC",
             "name": "ldc"
         },
@@ -82,7 +78,7 @@
     ],
     "description": "An autotools compatible port of the NetBSD editline library\n",
     "homepage": "https://thrysoee.dk/editline/",
-    "latest_version": "3.1-20240808",
+    "latest_version": "3.1-20230828",
     "maintainers": [],
     "name": "libedit",
     "patches": [],
@@ -95,14 +91,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "3.1-20240808",
-            "sha256": "5f0573349d77c4a48967191cdd6634dd7aa5f6398c6a57fe037cc02696d6099f"
-        },
-        {
-            "name": "3.1-20240517",
-            "sha256": "3a489097bb4115495f3bd85ae782852b7097c556d9500088d74b6fa38dbd12ff"
-        },
         {
             "name": "3.1-20230828",
             "sha256": "4ee8182b6e569290e7d1f44f0f78dac8716b35f656b76528f699c69c98814dad"

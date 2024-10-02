@@ -16,6 +16,10 @@
     ],
     "dependent_to": [
         {
+            "description": "The Process Management Interface (PMI) has been used for quite some time\nas a means of exchanging wireup information needed for interprocess\ncommunication. However, meeting the significant orchestration challenges\npresented by exascale systems requires that the process-to-system\ninterface evolve to permit a tighter integration between the different\ncomponents of the parallel application and existing and future SMS\nsolutions. PMI Exascale (PMIx) addresses these needs by providing an\nextended version of the PMI definitions specifically designed to support\nexascale and beyond environments by: (a) adding flexibility to the\nfunctionality expressed in the existing APIs, (b) augmenting the\ninterfaces with new APIs that provide extended capabilities, (c) forging\na collaboration between subsystem providers including resource manager,\nfabric, file system, and programming library developers, (d)\nestablishing a standards-like body for maintaining the definitions, and\n(e) providing a reference implementation of the PMIx standard that\ndemonstrates the desired level of scalability while maintaining strict\nseparation between it and the standard itself.",
+            "name": "pmix"
+        },
+        {
             "description": "nbsphinx is a Sphinx extension that provides a source parser for *.ipynb\nfiles.",
             "name": "py-nbsphinx"
         },
@@ -74,10 +78,6 @@
         {
             "description": "C++ Header Files for Stan. The C++ header files of the Stan project are\nprovided by this package, but it contains no R code, vignettes, or\nfunction documentation. There is a shared object containing part of the\nCVODES library, but it is not accessible from R. StanHeaders is only\nuseful for developers who want to utilize the LinkingTo directive of\ntheir package's DESCRIPTION file to build on the Stan library without\nincurring unnecessary dependencies. The Stan project develops a\nprobabilistic programming language that implements full or approximate\nBayesian statistical inference via Markov Chain Monte Carlo or\nvariational methods and implements (optionally penalized) maximum\nlikelihood estimation via optimization. The Stan library includes an\nadvanced automatic differentiation scheme, templated statistical and\nlinear algebra functions that can handle the automatically\ndifferentiable scalar types (and doubles, ints, etc.), and a parser for\nthe Stan language. The 'rstan' package provides user-facing R functions\nto parse, compile, test, estimate, and analyze Stan models.",
             "name": "r-stanheaders"
-        },
-        {
-            "description": "The RPM package manager https://github.com/rpm-software-\nmanagement/rpm/blob/master/INSTALL Note that debugedit is an additional\ntool that *should* compile with adding libdw and elfutils, but the\nlibrary (as of 4.16.1.2) is being removed from rpm and will be put\nsomewhere else.",
-            "name": "rpm"
         },
         {
             "description": "RStudio is an integrated development environment (IDE) for R.",

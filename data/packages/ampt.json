@@ -16,7 +16,7 @@
     ],
     "dependent_to": [],
     "description": "A Multi-Phase Transport (AMPT) model is a Monte Carlo transport model\nfor nuclear collisions at relativistic energies.\n",
-    "homepage": "https://myweb.ecu.edu/linz/ampt/",
+    "homepage": "http://myweb.ecu.edu/linz/ampt/",
     "latest_version": "2.26-t9b_atlas",
     "maintainers": [
         "vvolkl"
