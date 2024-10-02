@@ -164,8 +164,7 @@ def main():
 
         variants = []
         if pkg.variants:
-            for name in pkg.variant_names():
-                variant = [vdef for _, vdef in pkg.variant_definitions(name)]
+            for name, variant in pkg.variants.items():
                 if name not in package_variants:
                     package_variants[name] = []
                 package_variants[name].append(
