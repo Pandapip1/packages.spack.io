@@ -133,20 +133,12 @@
             "name": "enchant"
         },
         {
-            "description": "Helper applications for XFCE4",
-            "name": "exo"
-        },
-        {
             "description": "Pairwise sequence alignment of DNA and proteins",
             "name": "exonerate"
         },
         {
             "description": "This is an exonerate fork with added gff3 support. Original website with\nuser guides: http://www.ebi.ac.uk/~guy/exonerate/",
             "name": "exonerate-gff3"
-        },
-        {
-            "description": "Menu library for XFCE4",
-            "name": "garcon"
         },
         {
             "description": "GConf is a system for storing application preferences. Note that this\nsoftware is now deprecated in favor of moving to GSettings and dconf\nwith the GNOME 3 transition.",
@@ -163,10 +155,6 @@
         {
             "description": "gexiv2 is a GObject wrapper around the Exiv2 photo metadata library. It\nallows for GNOME applications to easily inspect and update EXIF, IPTC,\nand XMP metadata in photo and video files of various formats.",
             "name": "gexiv2"
-        },
-        {
-            "description": "Multi-protocol data management library.",
-            "name": "gfal2"
         },
         {
             "description": "GIMP is a cross-platform image editor available for GNU/Linux, macOS,\nWindows and more operating systems. It is free software, you can change\nits source code and distribute your changes. Whether you are a graphic\ndesigner, photographer, illustrator, or scientist, GIMP provides you\nwith sophisticated tools to get your job done. You can further enhance\nyour productivity with GIMP thanks to many customization options and 3rd\nparty plugins.",
@@ -237,14 +225,6 @@
             "name": "libexif"
         },
         {
-            "description": "Contains the GNOME top libraries for collecting system monitoring data",
-            "name": "libgtop"
-        },
-        {
-            "description": "Provides GObject bindings for libudev.",
-            "name": "libgudev"
-        },
-        {
             "description": "Libical - an implementation of iCalendar protocols and data formats.",
             "name": "libical"
         },
@@ -287,18 +267,6 @@
         {
             "description": "libvips is a demand-driven, horizontally threaded image processing\nlibrary. Compared to similar libraries, libvips runs quickly and uses\nlittle memory.",
             "name": "libvips"
-        },
-        {
-            "description": "Window Navigator Construction Kit",
-            "name": "libwnck"
-        },
-        {
-            "description": "Widget sharing library for XFCE4",
-            "name": "libxfce4ui"
-        },
-        {
-            "description": "Libxfce4util common non-GTK+ utilities among the Xfce applications.",
-            "name": "libxfce4util"
         },
         {
             "description": "The GNU Midnight Commander is a visual file manager.",
@@ -357,10 +325,6 @@
             "name": "slurm"
         },
         {
-            "description": "Client side implementation of the SRMv2 specification.",
-            "name": "srm-ifce"
-        },
-        {
             "description": "SSHFS allows you to mount a remote filesystem using SFTP.",
             "name": "sshfs"
         },
@@ -369,20 +333,8 @@
             "name": "sublime-text"
         },
         {
-            "description": "Thunar File Manager",
-            "name": "thunar"
-        },
-        {
-            "description": "Thunar extension which enables automatic management of removable drives\nand media.",
-            "name": "thunar-volman"
-        },
-        {
             "description": "timedatex is a D-Bus service that implements the\norg.freedesktop.timedate1 interface. It can be used to read and set the\nsystem clock, the real-time clock (RTC), the system timezone, get a list\nof valid timezones, and enable or disable an NTP client installed on the\nsystem. It is a replacement for the systemd-timedated service.",
             "name": "timedatex"
-        },
-        {
-            "description": "Tumbler is a D-Bus service for applications to request thumbnails for\nXFCE4",
-            "name": "tumbler"
         },
         {
             "description": "The UFO data processing framework is a C library suited to build general\npurpose streams data processing on heterogeneous architectures such as\nCPUs, GPUs or clusters. This package contains the run-time system and\ndevelopment files.",
@@ -399,34 +351,6 @@
         {
             "description": "The Wise2 package is now a rather stately bioinformatics package that\nhas be around for a while. Its key programs are genewise, a program for\naligning proteins or protein HMMs to DNA, and dynamite a rather cranky\n\"macro language\" which automates the production of dynamic programming.",
             "name": "wise2"
-        },
-        {
-            "description": "Program to find and launch installed applications for XFCE4",
-            "name": "xfce4-appfinder"
-        },
-        {
-            "description": "Panel manager for Xfce4",
-            "name": "xfce4-panel"
-        },
-        {
-            "description": "Session manager for Xfce4",
-            "name": "xfce4-session"
-        },
-        {
-            "description": "Daemon, manager, and editor to centralize the configuration management\nfor XFCE4",
-            "name": "xfce4-settings"
-        },
-        {
-            "description": "xfconf - Configuration Storage System for XFCE4",
-            "name": "xfconf"
-        },
-        {
-            "description": "Xfdesktop is a desktop manager for the Xfce Desktop Environment.",
-            "name": "xfdesktop"
-        },
-        {
-            "description": "xfwm4 is the window manager for Xfce",
-            "name": "xfwm4"
         }
     ],
     "description": "GLib provides the core application building blocks for libraries and\napplications written in C. The GLib package contains a low-level\nlibraries useful for providing data structure handling for C,\nportability wrappers and interfaces for such runtime functionality as an\nevent loop, threads, dynamic loading and an object system.\n",

@@ -205,8 +205,8 @@
         }
     ],
     "description": "Xaw is the X Athena Widget Set. Xaw is a widget set based on the X\nToolkit Intrinsics (Xt) Library.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXaw",
-    "latest_version": "1.0.16",
+    "homepage": "https://cgit.freedesktop.org/xorg/lib/libXaw",
+    "latest_version": "1.0.15",
     "maintainers": [
         "wdconinc"
     ],
@@ -221,10 +221,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.0.16",
-            "sha256": "012f90adf8739f2f023d63a5fee1528949cf2aba92ef7ac1abcfc2ae9cf28798"
-        },
         {
             "name": "1.0.15",
             "sha256": "ca8a613884c922985202075b3cc8ee8821bfa83a5eb066189ae3cca131e63972"

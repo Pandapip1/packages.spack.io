@@ -32,14 +32,6 @@
             "name": "dia"
         },
         {
-            "description": "Helper applications for XFCE4",
-            "name": "exo"
-        },
-        {
-            "description": "Menu library for XFCE4",
-            "name": "garcon"
-        },
-        {
             "description": "GConf is a system for storing application preferences. Note that this\nsoftware is now deprecated in favor of moving to GSettings and dconf\nwith the GNOME 3 transition.",
             "name": "gconf"
         },
@@ -56,60 +48,8 @@
             "name": "libmypaint"
         },
         {
-            "description": "Window Navigator Construction Kit",
-            "name": "libwnck"
-        },
-        {
-            "description": "Widget sharing library for XFCE4",
-            "name": "libxfce4ui"
-        },
-        {
-            "description": "Libxfce4util common non-GTK+ utilities among the Xfce applications.",
-            "name": "libxfce4util"
-        },
-        {
             "description": "Database of common MIME types.",
             "name": "shared-mime-info"
-        },
-        {
-            "description": "Thunar File Manager",
-            "name": "thunar"
-        },
-        {
-            "description": "Thunar extension which enables automatic management of removable drives\nand media.",
-            "name": "thunar-volman"
-        },
-        {
-            "description": "Tumbler is a D-Bus service for applications to request thumbnails for\nXFCE4",
-            "name": "tumbler"
-        },
-        {
-            "description": "Program to find and launch installed applications for XFCE4",
-            "name": "xfce4-appfinder"
-        },
-        {
-            "description": "Panel manager for Xfce4",
-            "name": "xfce4-panel"
-        },
-        {
-            "description": "Session manager for Xfce4",
-            "name": "xfce4-session"
-        },
-        {
-            "description": "Daemon, manager, and editor to centralize the configuration management\nfor XFCE4",
-            "name": "xfce4-settings"
-        },
-        {
-            "description": "xfconf - Configuration Storage System for XFCE4",
-            "name": "xfconf"
-        },
-        {
-            "description": "Xfdesktop is a desktop manager for the Xfce Desktop Environment.",
-            "name": "xfdesktop"
-        },
-        {
-            "description": "xfwm4 is the window manager for Xfce",
-            "name": "xfwm4"
         },
         {
             "description": "This project provides a consistent, well-structured, frequently\nreleased, open source database of keyboard configuration data. The\nproject is targeted to XKB-based systems.",

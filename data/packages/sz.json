@@ -127,11 +127,6 @@
         },
         {
             "default": false,
-            "description": "build examples",
-            "name": "examples"
-        },
-        {
-            "default": false,
             "description": "Enable fortran compilation",
             "name": "fortran"
         },
@@ -154,11 +149,6 @@
             "default": false,
             "description": "build the netcdf reader",
             "name": "netcdf"
-        },
-        {
-            "default": false,
-            "description": "build the multithreaded version using openmp",
-            "name": "openmp"
         },
         {
             "default": false,

@@ -26,7 +26,7 @@
     ],
     "dependent_to": [],
     "description": "Python source code checking tool.\n",
-    "homepage": "https://pychecker.sourceforge.net/",
+    "homepage": "http://pychecker.sourceforge.net/",
     "latest_version": "0.8.19",
     "maintainers": [],
     "name": "py-pychecker",

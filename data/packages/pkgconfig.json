@@ -94,10 +94,6 @@
             "name": "axel"
         },
         {
-            "description": "Babeltrace is a trace viewer and converter reading and writing the\nCommon Trace Format (CTF). Its main use is to pretty-print CTF traces\ninto a human-readable text output ordered by time.",
-            "name": "babeltrace"
-        },
-        {
             "description": "Bcache is a patch for the Linux kernel to use SSDs to cache other block\ndevices.",
             "name": "bcache"
         },
@@ -182,10 +178,6 @@
             "name": "compositeproto"
         },
         {
-            "description": "a Massively Parallel Hybrid Solver in C++",
-            "name": "composyx"
-        },
-        {
             "description": "An OCI container runtime monitor",
             "name": "conmon"
         },
@@ -262,10 +254,6 @@
             "name": "dbus-glib"
         },
         {
-            "description": "DCTZ is a compressor based on FFTs",
-            "name": "dctz"
-        },
-        {
             "description": "Debugedit is a set of libraries and programs for creating and editing\ndebuginfo. It allows you to get build-ids and rewrite DWARF source\npaths. Debugedit was originally part of the rpm project, and now exists\nas its own separate project and is maintained by RedHat.",
             "name": "debugedit"
         },
@@ -286,10 +274,6 @@
             "name": "dla-future"
         },
         {
-            "description": "Fortran interface to the DLA-Future library.",
-            "name": "dla-future-fortran"
-        },
-        {
             "description": "Distributed Multihead X (DMX) Extension. This extension defines a\nprotocol for clients to access a front-end proxy X server that controls\nmultiple back-end X servers making up a large display.",
             "name": "dmxproto"
         },
@@ -308,10 +292,6 @@
         {
             "description": "Device Tree Compiler (dtc) toolchain for working with device tree source\nand binary files and also libfdt, a utility library for reading and\nmanipulating the binary format.",
             "name": "dtc"
-        },
-        {
-            "description": "Tiny collection of programs used for ECDSA.",
-            "name": "ecdsautils"
         },
         {
             "description": "ecFlow is a work flow package that enables users to run a large number\nof programs (with dependencies on each other and on time) in a\ncontrolled environment. It provides tolerance for hardware and software\nfailures, combined with good restart capabilities.",
@@ -354,16 +334,8 @@
             "name": "fenics-dolfinx"
         },
         {
-            "description": "FFmpeg is a complete, cross-platform solution to record, convert and\nstream audio and video.",
-            "name": "ffmpeg"
-        },
-        {
             "description": "Fortran interface to the GNU Scientific Library",
             "name": "fgsl"
-        },
-        {
-            "description": "Flexible I/O Tester. Fio spawns a number of threads or processes doing a\nparticular type of I/O action as specified by the user. fio takes a\nnumber of global parameters, each inherited by the thread unless\notherwise parameters given to them overriding that setting is given.",
-            "name": "fio"
         },
         {
             "description": "The integrity check is only one of many requirements needed for\nvalidation of a software cryptographic module.",
@@ -372,6 +344,10 @@
         {
             "description": "X Fixes Extension. The extension makes changes to many areas of the\nprotocol to resolve issues raised by application interaction with core\nprotocol mechanisms that cannot be adequately worked around on the\nclient side of the wire.",
             "name": "fixesproto"
+        },
+        {
+            "description": "Flecsale is an ALE code based on FleCSI",
+            "name": "flecsale"
         },
         {
             "description": "FleCSPH is a multi-physics compact application that exercises FleCSI\nparallel data structures for tree-based particle methods. In particular,\nFleCSPH implements a smoothed-particle hydrodynamics (SPH) solver for\nthe solution of Lagrangian problems in astrophysics and cosmology.\nFleCSPH includes support for gravitational forces using the fast\nmultipole method (FMM).",
@@ -498,10 +474,6 @@
             "name": "glibmm"
         },
         {
-            "description": "Gloo is a collective communications library.",
-            "name": "gloo"
-        },
-        {
             "description": "OpenGL Extension to the X Window System. This extension defines a\nprotocol for the client to send 3D rendering commands to the X server.",
             "name": "glproto"
         },
@@ -596,10 +568,6 @@
         {
             "description": "HDF5 is a data model, library, and file format for storing and managing\ndata. It supports an unlimited variety of datatypes, and is designed for\nflexible and efficient I/O and for high volume and complex data.",
             "name": "hdf5"
-        },
-        {
-            "description": "Hermes Shared Memory contains a variety of data structures and\nsynchronization primitives which are compatible with shared memory.",
-            "name": "hermes-shm"
         },
         {
             "description": "HiCOPS is a software framework for accelerating database peptide search\nworkflows on supercomputers. HiCOPS provided algorithm-independent\nparallelizations and optimizations can be extended into new HPC database\nsearch algorithms or scalably accelerate the existing ones.",
@@ -798,10 +766,6 @@
             "name": "libgit2"
         },
         {
-            "description": "Contains the GNOME top libraries for collecting system monitoring data",
-            "name": "libgtop"
-        },
-        {
             "description": "libHIO is a flexible, high-performance parallel IO package developed at\nLANL. libHIO supports IO to either a conventional PFS or to Cray\nDataWarp with management of Cray DataWarp space and stage-in and stage-\nout from and to the PFS.",
             "name": "libhio"
         },
@@ -836,18 +800,6 @@
         {
             "description": "libnetfilter_conntrack is a userspace library providing a programming\ninterface (API) to the in-kernel connection tracking state table.",
             "name": "libnetfilter-conntrack"
-        },
-        {
-            "description": "Libnetfilter-cthelper library for user space helpers / ALGs",
-            "name": "libnetfilter-cthelper"
-        },
-        {
-            "description": "Conntrack timeout policy library.",
-            "name": "libnetfilter-cttimeout"
-        },
-        {
-            "description": "Libnetfilter-queue libnetfilter queue library.",
-            "name": "libnetfilter-queue"
         },
         {
             "description": "A library for low-level interaction with nftables Netlink's API over\nlibmnl.",
@@ -962,10 +914,6 @@
             "name": "libwmf"
         },
         {
-            "description": "Window Navigator Construction Kit",
-            "name": "libwnck"
-        },
-        {
             "description": "libX11 - Core X11 protocol client library.",
             "name": "libx11"
         },
@@ -1008,10 +956,6 @@
         {
             "description": "libXext - library for common extensions to the X11 protocol.",
             "name": "libxext"
-        },
-        {
-            "description": "Libxfce4util common non-GTK+ utilities among the Xfce applications.",
-            "name": "libxfce4util"
         },
         {
             "description": "This package contains header files and documentation for the XFIXES\nextension. Library and server implementations are separate.",
@@ -1142,10 +1086,6 @@
             "name": "libzmq"
         },
         {
-            "description": "The Linux perf tool.",
-            "name": "linux-perf"
-        },
-        {
             "description": "The listres program generates a list of X resources for a widget in an X\nclient written using a toolkit based on libXt.",
             "name": "listres"
         },
@@ -1190,6 +1130,10 @@
             "name": "man-db"
         },
         {
+            "description": "a Massively Parallel Hybrid Solver in C++",
+            "name": "maphyspp"
+        },
+        {
             "description": "A library that provides Argobots bindings to the Mercury RPC\nimplementation. This name will be deprecated soon; please use the mochi-\nmargo package instead.",
             "name": "margo"
         },
@@ -1220,6 +1164,10 @@
         {
             "description": "This package provides some demo applications for testing Mesa.",
             "name": "mesa-demos"
+        },
+        {
+            "description": "Mesa is an open-source implementation of the OpenGL specification - a\nsystem for rendering interactive 3D graphics.",
+            "name": "mesa18"
         },
         {
             "description": "MGARD error bounded lossy compressor forked from\nhttps://github.com/CODARcode/MGARD with patches to support Spack",
@@ -1300,10 +1248,6 @@
         {
             "description": "MySQL is an open source relational database management system.",
             "name": "mysql"
-        },
-        {
-            "description": "Tiny little text editor",
-            "name": "nano"
         },
         {
             "description": "nauty and Traces are programs for computing automorphism groups of\ngraphsq and digraphs",
@@ -1526,10 +1470,6 @@
             "name": "prrte"
         },
         {
-            "description": "PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy\nfor your sound applications. PulseAudio is a sound system for POSIX\nOSes, meaning that it is a proxy for your sound applications. It allows\nyou to do advanced operations on your sound data as it passes between\nyour application and your hardware. Things like transferring the audio\nto a different machine, changing the sample format or channel count and\nmixing several sounds into one are easily achieved using a sound server.",
-            "name": "pulseaudio"
-        },
-        {
             "description": "The Astropy Project is a community effort to develop a single core\npackage for Astronomy in Python and foster interoperability between\nPython astronomy packages.",
             "name": "py-astropy"
         },
@@ -1632,10 +1572,6 @@
         {
             "description": "Qt is a comprehensive cross-platform C++ application framework.",
             "name": "qt"
-        },
-        {
-            "description": "The Qt5compat module contains unsupported Qt 5 APIs for use in Qt 6\nprojects.",
-            "name": "qt-5compat"
         },
         {
             "description": "Qt Base (Core, Gui, Widgets, Network, ...)",
@@ -1838,10 +1774,6 @@
             "name": "starpu"
         },
         {
-            "description": "startup-notification contains a reference implementation of the\nfreedesktop startup notification protocol.",
-            "name": "startup-notification"
-        },
-        {
             "description": "STochastic Engine for Pathway Simulation",
             "name": "steps"
         },
@@ -1906,10 +1838,6 @@
             "name": "transset"
         },
         {
-            "description": "Tumbler is a D-Bus service for applications to request thumbnails for\nXFCE4",
-            "name": "tumbler"
-        },
-        {
             "description": "twm is a window manager for the X Window System. It provides titlebars,\nshaped windows, several forms of icon management, user-defined macro\nfunctions, click-to-type and pointer-driven keyboard focus, and user-\nspecified key and pointer button bindings.",
             "name": "twm"
         },
@@ -1954,11 +1882,7 @@
             "name": "viewres"
         },
         {
-            "description": "The VOMS native service and APIs.",
-            "name": "voms"
-        },
-        {
-            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid GPU/OpenMP/MPI parallelization and load\nbalancing capabilities.",
+            "description": "WarpX is an advanced electromagnetic Particle-In-Cell code. It supports\nmany features including Perfectly-Matched Layers (PML) and mesh\nrefinement. In addition, WarpX is a highly-parallel and highly-optimized\ncode and features hybrid OpenMP/MPI parallelization, advanced\nvectorization techniques and load balancing capabilities. For WarpX'\nPython bindings and PICMI input support, see the 'py-warpx' package.",
             "name": "warpx"
         },
         {
@@ -2360,10 +2284,6 @@
         {
             "description": "XTrap sample clients.",
             "name": "xtrap"
-        },
-        {
-            "description": "This is a revamped version of X Test Suite (XTS) which removes some of\nthe ugliness of building and running the tests.",
-            "name": "xts"
         },
         {
             "description": "xvidtune is a client interface to the X server video mode extension\n(XFree86-VidModeExtension).",

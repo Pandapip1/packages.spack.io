@@ -19,7 +19,7 @@
     "dependent_to": [],
     "description": "A C++ header-only HTTP/HTTPS server and client library.\n",
     "homepage": "https://github.com/yhirose/cpp-httplib/",
-    "latest_version": "0.15.3",
+    "latest_version": "0.12.5",
     "maintainers": [],
     "name": "cpp-httplib",
     "patches": [],
@@ -47,10 +47,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.15.3",
-            "sha256": "2121bbf38871bb2aafb5f7f2b9b94705366170909f434428352187cb0216124e"
-        },
         {
             "name": "0.12.5",
             "sha256": "b488f3fa9c6bf35608c3d9a5b69be52e016bbf2fbfe67e5ee684eadb2655493e"

@@ -8,11 +8,6 @@
     "build_system": "Package",
     "conflicts": [
         {
-            "description": null,
-            "name": "+classic-names+generic-names",
-            "spec": ""
-        },
-        {
             "description": "intel-oneapi-mpi: This package in only available for x86_64 and Linux",
             "name": "arch=None-None-aarch64:",
             "spec": ""
@@ -29,12 +24,17 @@
         },
         {
             "description": "intel-oneapi-mpi: This package in only available for x86_64 and Linux",
-            "name": "arch=darwin-None-None",
+            "name": "arch=cray:-None-None",
             "spec": ""
         },
         {
             "description": "intel-oneapi-mpi: This package in only available for x86_64 and Linux",
-            "name": "arch=windows-None-None",
+            "name": "arch=darwin:-None-None",
+            "spec": ""
+        },
+        {
+            "description": "intel-oneapi-mpi: This package in only available for x86_64 and Linux",
+            "name": "arch=windows:-None-None",
             "spec": ""
         }
     ],
@@ -56,7 +56,7 @@
     ],
     "description": "Intel MPI Library is a multifabric message-passing library that\nimplements the open-source MPICH specification. Use the library to\ncreate, maintain, and test advanced, complex applications that perform\nbetter on high-performance computing (HPC) clusters based on Intel\nprocessors. LICENSE INFORMATION: By downloading and using this software,\nyou agree to the terms and conditions of the software license agreements\nat https://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/mpi-library.html",
-    "latest_version": "2021.13.1",
+    "latest_version": "2021.12.1",
     "maintainers": [
         "rscohn2"
     ],
@@ -70,11 +70,6 @@
             "name": "build_system"
         },
         {
-            "default": false,
-            "description": "Use classic compiler names, e.g mpiicc instead of mpiicx",
-            "name": "classic-names"
-        },
-        {
             "default": true,
             "description": "Toggles environment modifications",
             "name": "envmods"
@@ -86,7 +81,7 @@
         },
         {
             "default": false,
-            "description": "Use generic names, e.g mpicc instead of mpiicx",
+            "description": "Use generic names, e.g mpicc instead of mpiicc",
             "name": "generic-names"
         },
         {
@@ -96,16 +91,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2021.13.1",
-            "sha256": "be61c4792d25bd4a1b5f7b808c06a9f4676f1b247d7605ac6d3c6cffdb8f19b7",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/364c798c-4cad-4c01-82b5-e1edd1b476af/l_mpi_oneapi_p_2021.13.1.769_offline.sh"
-        },
-        {
-            "name": "2021.13.0",
-            "sha256": "5e23cf495c919e17032577e3059438f632297ee63f2cdb906a2547298823cc64",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/9f84e1e8-11b2-4bd1-8512-3e3343585956/l_mpi_oneapi_p_2021.13.0.719_offline.sh"
-        },
         {
             "name": "2021.12.1",
             "sha256": "6a4cd82ff1c64eac2a7ac3784ea2dc3a0e32740fb7e7bc6a1aa48740d5011b2f",

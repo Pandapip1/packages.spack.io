@@ -63,10 +63,8 @@
     ],
     "description": "SPAdes - St. Petersburg genome assembler - is intended for both standard\nisolates and single-cell MDA bacteria assemblies.\n",
     "homepage": "https://cab.spbu.ru/software/spades/",
-    "latest_version": "4.0.0",
-    "maintainers": [
-        "snehring"
-    ],
+    "latest_version": "3.15.5",
+    "maintainers": [],
     "name": "spades",
     "patches": [],
     "resources": [],
@@ -90,23 +88,9 @@
             "default": false,
             "description": "CMake interprocedural optimization",
             "name": "ipo"
-        },
-        {
-            "default": true,
-            "description": "Build with ncbi sra file support",
-            "name": "sra"
-        },
-        {
-            "default": true,
-            "description": "Build additional tools",
-            "name": "tools"
         }
     ],
     "versions": [
-        {
-            "name": "4.0.0",
-            "sha256": "07c02eb1d9d90f611ac73bdd30ddc242ed51b00c8a3757189e8a8137ad8cfb8b"
-        },
         {
             "name": "3.15.5",
             "sha256": "155c3640d571f2e7b19a05031d1fd0d19bd82df785d38870fb93bd241b12bbfa"

@@ -60,7 +60,7 @@
     ],
     "description": "Numcodecs is a Python package providing buffer compression and\ntransformation codecs for use in data storage and communication\napplications.\n",
     "homepage": "https://github.com/zarr-developers/numcodecs",
-    "latest_version": "0.13.0",
+    "latest_version": "0.11.0",
     "maintainers": [],
     "name": "py-numcodecs",
     "patches": [
@@ -89,20 +89,8 @@
     ],
     "versions": [
         {
-            "branch": "main",
-            "name": "main"
-        },
-        {
-            "name": "0.13.0",
-            "sha256": "ba4fac7036ea5a078c7afe1d4dffeb9685080d42f19c9c16b12dad866703aa2e"
-        },
-        {
-            "name": "0.12.1",
-            "sha256": "05d91a433733e7eef268d7e80ec226a0232da244289614a8f3826901aec1098e"
-        },
-        {
-            "name": "0.12.0",
-            "sha256": "6388e5f4e94d18a7165fbd1c9d3637673b74157cff8bc644005f9e2a4c717d6e"
+            "branch": "master",
+            "name": "master"
         },
         {
             "name": "0.11.0",
@@ -117,10 +105,5 @@
             "sha256": "ef4843d5db4d074e607e9b85156835c10d006afc10e175bda62ff5412fca6e4d"
         }
     ],
-    "versions_deprecated": [
-        {
-            "branch": "main",
-            "name": "master"
-        }
-    ]
+    "versions_deprecated": []
 }

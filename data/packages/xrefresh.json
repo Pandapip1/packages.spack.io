@@ -36,8 +36,8 @@
     ],
     "dependent_to": [],
     "description": "xrefresh - refresh all or part of an X screen.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xrefresh",
-    "latest_version": "1.1.0",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xrefresh",
+    "latest_version": "1.0.7",
     "maintainers": [],
     "name": "xrefresh",
     "patches": [],
@@ -50,10 +50,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.1.0",
-            "sha256": "cbf0d3ed80f03188841a96ceb20e615b40a006e3928be2e179d9d5a0ded639b2"
-        },
         {
             "name": "1.0.7",
             "sha256": "f2817920f119bd9146ed3cde223b8a4ab17cb72da4ece7bddde35e18b31aa337"

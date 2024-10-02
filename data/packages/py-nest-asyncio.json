@@ -30,10 +30,6 @@
     ],
     "dependent_to": [
         {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
-        },
-        {
             "description": "IPython Kernel for Jupyter",
             "name": "py-ipykernel"
         },
@@ -64,7 +60,7 @@
     ],
     "description": "Patch asyncio to allow nested event loops.\n",
     "homepage": "https://github.com/erdewit/nest_asyncio",
-    "latest_version": "1.6.0",
+    "latest_version": "1.5.6",
     "maintainers": [],
     "name": "py-nest-asyncio",
     "patches": [],
@@ -77,18 +73,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.6.0",
-            "sha256": "6f172d5449aca15afd6c646851f4e31e02c598d553a667e38cafa997cfec55fe"
-        },
-        {
-            "name": "1.5.9",
-            "sha256": "d1e1144e9c6e3e6392e0fcf5211cb1c8374b5648a98f1ebe48e5336006b41907"
-        },
-        {
-            "name": "1.5.8",
-            "sha256": "25aa2ca0d2a5b5531956b9e273b45cf664cae2b145101d73b86b199978d48fdb"
-        },
         {
             "name": "1.5.6",
             "sha256": "d267cc1ff794403f7df692964d1d2a3fa9418ffea2a3f6859a439ff482fef290"

@@ -26,7 +26,7 @@
     ],
     "description": "nPth is a library to provide the GNU Pth API and thus a non-preemptive\nthreads implementation.\n",
     "homepage": "https://gnupg.org/software/npth/index.html",
-    "latest_version": "1.7",
+    "latest_version": "1.6",
     "maintainers": [],
     "name": "npth",
     "patches": [],
@@ -39,10 +39,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.7",
-            "sha256": "8589f56937b75ce33b28d312fccbf302b3b71ec3f3945fde6aaa74027914ad05"
-        },
         {
             "name": "1.6",
             "sha256": "1393abd9adcf0762d34798dc34fdcf4d0d22a8410721e76f1e3afcd1daa4e2d1"

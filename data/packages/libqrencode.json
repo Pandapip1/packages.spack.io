@@ -46,10 +46,6 @@
         {
             "description": "KeePassXC - Cross-Platform Password Manager, modern, secure, and open-\nsource.",
             "name": "keepassxc"
-        },
-        {
-            "description": "A minimal password manager following the UNIX philosphy.",
-            "name": "pass"
         }
     ],
     "description": "libqrencode - a fast and compact QR Code encoding library.\n",

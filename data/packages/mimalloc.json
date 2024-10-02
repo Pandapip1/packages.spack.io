@@ -1,13 +1,7 @@
 {
     "aliases": [],
     "build_system": "CMakePackage",
-    "conflicts": [
-        {
-            "description": null,
-            "name": "^cmake@:3.17",
-            "spec": "@2.1.7:"
-        }
-    ],
+    "conflicts": [],
     "dependencies": [
         {
             "description": "A cross-platform, open-source build system. CMake is a family of tools\ndesigned to build, test and package software.",
@@ -42,7 +36,7 @@
     ],
     "description": "mimalloc is a compact general purpose allocator with excellent\nperformance.\n",
     "homepage": "https://microsoft.github.io/mimalloc",
-    "latest_version": "2.1.7",
+    "latest_version": "2.1.2",
     "maintainers": [
         "msimberg"
     ],
@@ -155,10 +149,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "2.1.7",
-            "sha256": "0eed39319f139afde8515010ff59baf24de9e47ea316a315398e8027d198202d"
         },
         {
             "name": "2.1.2",

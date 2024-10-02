@@ -64,7 +64,7 @@
     ],
     "description": "Common Python utilities and GitHub Actions in Lightning Ecosystem\n",
     "homepage": "https://github.com/Lightning-AI/utilities",
-    "latest_version": "0.11.2",
+    "latest_version": "0.8.0",
     "maintainers": [
         "adamjstewart"
     ],
@@ -79,10 +79,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.11.2",
-            "sha256": "adf4cf9c5d912fe505db4729e51d1369c6927f3a8ac55a9dff895ce5c0da08d9"
-        },
         {
             "name": "0.8.0",
             "sha256": "8e5d95c7c57f026cdfed7c154303e88c93a7a5e868c9944cb02cf71f1db29720"

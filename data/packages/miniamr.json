@@ -26,7 +26,7 @@
     ],
     "description": "Proxy Application. 3D stencil calculation with Adaptive Mesh Refinement\n(AMR)\n",
     "homepage": "https://mantevo.org",
-    "latest_version": "1.7.0",
+    "latest_version": "1.6.6",
     "maintainers": [],
     "name": "miniamr",
     "patches": [],
@@ -42,10 +42,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "1.7.0",
-            "sha256": "f11aee04bc59f46c6894a07d365c9c3006c58739ac6abd2d9663843c01a8b62b"
         },
         {
             "name": "1.6.6",

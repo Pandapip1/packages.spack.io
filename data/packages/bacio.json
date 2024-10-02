@@ -46,13 +46,14 @@
             "name": "w3emc"
         }
     ],
-    "description": "The bacio library performs binary I/O for the NCEP models, processing\nunformatted byte-addressable data records, and transforming the little\nendian files and big endian files.\n",
+    "description": "The bacio ibrary performs binary I/O for the NCEP models, processing\nunformatted byte-addressable data records, and transforming the little\nendian files and big endian files.\n",
     "homepage": "https://noaa-emc.github.io/NCEPLIBS-bacio",
     "latest_version": "2.6.0",
     "maintainers": [
         "AlexanderRichert-NOAA",
         "Hang-Lei-NOAA",
-        "edwardhartnett"
+        "edwardhartnett",
+        "t-brown"
     ],
     "name": "bacio",
     "patches": [],

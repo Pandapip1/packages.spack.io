@@ -112,7 +112,7 @@
         },
         {
             "name": "local",
-            "url": "file:///home/runner/work/packages.spack.io/packages.spack.io/visit-Silo.tgz"
+            "url": "file:///home/gavin/spackdev/packages.spack.io/visit-Silo.tgz"
         }
     ],
     "versions_deprecated": []

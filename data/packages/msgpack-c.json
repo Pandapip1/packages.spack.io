@@ -4,10 +4,6 @@
     "conflicts": [],
     "dependencies": [
         {
-            "description": "Boost provides free peer-reviewed portable C++ source libraries,\nemphasizing libraries that work well with the C++ Standard Library.\nBoost libraries are intended to be widely useful, and usable across a\nbroad spectrum of applications. The Boost license encourages both\ncommercial and non-commercial use.",
-            "name": "boost"
-        },
-        {
             "description": "A cross-platform, open-source build system. CMake is a family of tools\ndesigned to build, test and package software.",
             "name": "cmake"
         },
@@ -30,10 +26,6 @@
             "name": "hipblaslt"
         },
         {
-            "description": "hipSPARSELt is a SPARSE marshalling library, with multiple supported\nbackends. It sits between the application and a 'worker' SPARSE library,\nmarshalling inputs into the backend library and marshalling results back\nto the application. hipSPARSELt exports an interface that does not\nrequire the client to change, regardless of the chosen backend.\nCurrently, hipSPARSELt supports rocSPARSELt and cuSPARSELt v0.4 as\nbackends.",
-            "name": "hipsparselt"
-        },
-        {
             "description": "The macromolecular transmission format (MMTF) is a binary encoding of\nbiological structures. This repository holds the C++-03 compatible API,\nencoding and decoding libraries.",
             "name": "libmmtf-cpp"
         },
@@ -48,6 +40,10 @@
         {
             "description": "AMD's graph optimization engine.",
             "name": "migraphx"
+        },
+        {
+            "description": "MIOpenTensile provides host-callable interfaces to Tensile library.\nMIOpenTensile supports one programming model: HIP",
+            "name": "miopen-tensile"
         },
         {
             "description": "Neovim: Vim-fork focused on extensibility and usability",
@@ -103,12 +99,11 @@
         {
             "name": "3.0.1",
             "sha256": "1b834ab0b5b41da1dbfb96dd4a673f6de7e79dbd7f212f45a553ff9cc54abf3b"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "1.4.1",
             "sha256": "74324d696f9abb75d8a7cd5e77add5062592b7eac386c8102de78a6cc5309886"
         }
-    ]
+    ],
+    "versions_deprecated": []
 }

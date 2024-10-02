@@ -15,7 +15,7 @@
     ],
     "description": "ROC-tracer API. Installs the API header files of the roctracer-dev\npackage, mainly to avoid circular dependencies in the ROCm ecosystem.\nFor the ROC-tracer library, please check out roctracer-dev.\n",
     "homepage": "https://github.com/ROCm/roctracer",
-    "latest_version": "6.2.1",
+    "latest_version": "6.0.2",
     "maintainers": [
         "renjithravindrankannath",
         "srekolam"
@@ -31,26 +31,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "6.2.1",
-            "sha256": "9e69c90b9dc650e0d8642ec675082c9566e576285a725c3a5d07a37cebb18810"
-        },
-        {
-            "name": "6.2.0",
-            "sha256": "2fc39f47161f41cc041cd5ee4b1bb0e9832508650e832434056423fec3739735"
-        },
-        {
-            "name": "6.1.2",
-            "sha256": "073e67e728d5eda16d7944f3abd96348b3f278e9f36cab3ac22773ebaad0d2d6"
-        },
-        {
-            "name": "6.1.1",
-            "sha256": "9cb77fd700a0d615056f0db1e9500b73bd0352214f33bdac520e25b9125a926a"
-        },
-        {
-            "name": "6.1.0",
-            "sha256": "3f8e296c4d04123a7177d815ca166e978b085ad7c816ac298e6bb47a299fa187"
-        },
         {
             "name": "6.0.2",
             "sha256": "1e0105b32fdd9c010aab304bb2ca1a5a38ba323cea610afe1135657edda8f26e"
@@ -82,9 +62,7 @@
         {
             "name": "5.5.0",
             "sha256": "fe9ad95628fa96639db6fc33f78d334c814c7161b4a754598f5a4a7852625777"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "5.4.3",
             "sha256": "6b5111be5efd4d7fd6935ca99b06fab19b43d97a58d26fc1fe6e783c4de9a926"
@@ -100,6 +78,28 @@
         {
             "name": "5.3.0",
             "sha256": "36f1da60863a113bb9fe2957949c661f00a702e249bb0523cda1fb755c053808"
+        }
+    ],
+    "versions_deprecated": [
+        {
+            "name": "5.2.3",
+            "sha256": "93f4bb7529db732060bc12055aa10dc346a459a1086cddd5d86c7b509301be4f"
+        },
+        {
+            "name": "5.2.1",
+            "sha256": "e200b5342bdf840960ced6919d4bf42c8f30f8013513f25a2190ee8767667e59"
+        },
+        {
+            "name": "5.2.0",
+            "sha256": "9747356ce61c57d22c2e0a6c90b66a055e435d235ba3459dc3e3f62aabae6a03"
+        },
+        {
+            "name": "5.1.3",
+            "sha256": "45f19875c15eb609b993788b47fd9c773b4216074749d7744f3a671be17ef33c"
+        },
+        {
+            "name": "5.1.0",
+            "sha256": "58b535f5d6772258190e4adcc23f37c916f775057a91b960e1f2ee1f40ed5aac"
         }
     ]
 }

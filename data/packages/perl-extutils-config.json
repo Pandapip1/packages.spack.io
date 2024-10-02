@@ -20,7 +20,7 @@
     ],
     "description": "ExtUtils::Config - A wrapper for perl's configuration\n",
     "homepage": "https://metacpan.org/pod/ExtUtils::Config",
-    "latest_version": "0.009",
+    "latest_version": "0.008",
     "maintainers": [],
     "name": "perl-extutils-config",
     "patches": [],
@@ -33,10 +33,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.009",
-            "sha256": "4ef84e73aad50a3be332885d2a3b12f3cab1b1e0bad24e88297a123b4f39f3ce"
-        },
         {
             "name": "0.008",
             "sha256": "ae5104f634650dce8a79b7ed13fb59d67a39c213a6776cfdaa3ee749e62f1a8c"

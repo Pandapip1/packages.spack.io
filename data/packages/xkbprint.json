@@ -40,7 +40,7 @@
     ],
     "dependent_to": [],
     "description": "xkbprint generates a printable or encapsulated PostScript description of\nan XKB keyboard description.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xkbprint",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xkbprint",
     "latest_version": "1.0.6",
     "maintainers": [],
     "name": "xkbprint",

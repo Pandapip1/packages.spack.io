@@ -24,7 +24,7 @@
     ],
     "description": "A low-Level Interface to zlib compression library.\n",
     "homepage": "https://metacpan.org/pod/Compress::Raw::Zlib",
-    "latest_version": "2.212",
+    "latest_version": "2.206",
     "maintainers": [],
     "name": "perl-compress-raw-zlib",
     "patches": [],
@@ -37,10 +37,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.212",
-            "sha256": "6d9de0c11921fd520dfd99a3f6b0ca9f1fd9850274f8bec10bbaa4f6803cc049"
-        },
         {
             "name": "2.206",
             "sha256": "46785a6a383a1c843895b7f9f25d5d759e7c305159f9d1e04a3604eb74c77374"

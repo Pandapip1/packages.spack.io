@@ -4,23 +4,8 @@
     "conflicts": [
         {
             "description": null,
-            "name": "+extdata2g",
-            "spec": "@:2.40.3%intel@2021.7:"
-        },
-        {
-            "description": null,
-            "name": "+pflogger",
-            "spec": "@:2.40.3%intel@2021.7:"
-        },
-        {
-            "description": null,
             "name": "mpich@4",
             "spec": "@:2.41"
-        },
-        {
-            "description": null,
-            "name": "%gcc@13:",
-            "spec": "@:2.44"
         },
         {
             "description": null,
@@ -106,23 +91,14 @@
             "name": "python"
         },
         {
-            "description": "Automated units conversion",
-            "name": "udunits"
-        },
-        {
             "description": "yet another Fortran (implementation of) YAML There is at least one\nother open source Fortran-based YAML parser. The rationale for this one\nis simply to be compatible with the containers in gFTL. It is not\nintended to be a complete YAML parser, just the subset needed by my own\nprojects.",
             "name": "yafyaml"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "The Unified Forecast System (UFS) Weather Model (WM) is a prognostic\nmodel that can be used for short- and medium-range research and\noperational forecasts, as exemplified by its use in the operational\nGlobal Forecast System (GFS) of the National Oceanic and Atmospheric\nAdministration (NOAA).",
-            "name": "ufs-weather-model"
-        }
-    ],
+    "dependent_to": [],
     "description": " MAPL is a foundation layer of the GEOS architecture, whose original\npurpose is to supplement the Earth System Modeling Framework (ESMF).\nMAPL fills in missing capabilities of ESMF, provides higher-level\ninterfaces for common boiler-plate logic, and enforces various\ncomponentization conventions across ESMF gridded components within GEOS.\n",
     "homepage": "https://github.com/GEOS-ESM/MAPL",
-    "latest_version": "2.48.0",
+    "latest_version": "2.43.0",
     "maintainers": [
         "AlexanderRichert-NOAA",
         "Hang-Lei-NOAA",
@@ -166,37 +142,13 @@
             "destination": "",
             "name": "esma_cmake",
             "placement": null,
-            "version": "@2.48:"
+            "version": "@2.42.0:"
         },
         {
             "destination": "",
             "name": "esma_cmake",
             "placement": null,
-            "version": "@2.47"
-        },
-        {
-            "destination": "",
-            "name": "esma_cmake",
-            "placement": null,
-            "version": "@2.45:2.46"
-        },
-        {
-            "destination": "",
-            "name": "esma_cmake",
-            "placement": null,
-            "version": "@2.44"
-        },
-        {
-            "destination": "",
-            "name": "esma_cmake",
-            "placement": null,
-            "version": "@2.42.0:2.43"
-        },
-        {
-            "destination": "",
-            "name": "esma_cmake",
-            "placement": null,
-            "version": "@2.40.0:2.41"
+            "version": "@2.40.0:"
         },
         {
             "destination": "",
@@ -295,46 +247,6 @@
             "name": "main"
         },
         {
-            "name": "2.48.0",
-            "sha256": "60a0fc4fd82b1a05050666ae478da7d79d86305aff1643a57bc09cb5347323b7"
-        },
-        {
-            "name": "2.47.2",
-            "sha256": "d4ca384bf249b755454cd486a26bae76944a7cae3a706b9a7c9298825077cac0"
-        },
-        {
-            "name": "2.47.1",
-            "sha256": "ca3e94c0caa78a91591fe63603d1836196f5294d4baad7cf1d83b229b3a85916"
-        },
-        {
-            "name": "2.47.0",
-            "sha256": "66c862d2ab8bcd6969e9728091dbca54f1f420e97e41424c4ba93ef606088459"
-        },
-        {
-            "name": "2.46.3",
-            "sha256": "333e1382ab744302d28b6f39e7f5504c7919d77d2443d70af952f60cbd8f27e7"
-        },
-        {
-            "name": "2.46.2",
-            "sha256": "6d397ad73042355967de8ef5b521d6135c004f96e93ae7b215f9ee325e75c6f0"
-        },
-        {
-            "name": "2.46.1",
-            "sha256": "f3090281de6293b484259d58f852c45b98759de8291d36a4950e6d348ece6573"
-        },
-        {
-            "name": "2.46.0",
-            "sha256": "726d9588b724bd43e5085d1a2f8d806d548f185ed6b22a1b13c0ed06212d7be2"
-        },
-        {
-            "name": "2.43.2",
-            "sha256": "966130931153a9a3974ad6ae011d1df194e057cb82301c8703ef69669b9f27ba"
-        },
-        {
-            "name": "2.43.1",
-            "sha256": "62b7a8c438c960e47b83d9835cb37c7ce25f617d648f2affe9961b4a6e638abc"
-        },
-        {
             "name": "2.43.0",
             "sha256": "1be99d64ca46001ac94f7db3607c345e144976dc34fe184e734e212bf3955d01"
         },
@@ -369,10 +281,6 @@
         {
             "name": "2.41.0",
             "sha256": "1142f9395e161174e3ec1654fba8bda1d0bd93edc7438b1927d8f5d7b42a0a86"
-        },
-        {
-            "name": "2.40.5",
-            "sha256": "85b4a4ac0d843398452808b88d7a5c29435aa37b69b91a1f4bee664e9f367b7d"
         },
         {
             "name": "2.40.4",

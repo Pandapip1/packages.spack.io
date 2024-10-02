@@ -3,11 +3,6 @@
     "build_system": "Package",
     "conflicts": [
         {
-            "description": "intel-oneapi-compilers: Codeplay NVIDIA plugin requires newer release",
-            "name": "@:2022.2.1",
-            "spec": "+nvidia"
-        },
-        {
             "description": "intel-oneapi-compilers: This package in only available for x86_64 and Linux",
             "name": "arch=None-None-aarch64:",
             "spec": ""
@@ -24,12 +19,17 @@
         },
         {
             "description": "intel-oneapi-compilers: This package in only available for x86_64 and Linux",
-            "name": "arch=darwin-None-None",
+            "name": "arch=cray:-None-None",
             "spec": ""
         },
         {
             "description": "intel-oneapi-compilers: This package in only available for x86_64 and Linux",
-            "name": "arch=windows-None-None",
+            "name": "arch=darwin:-None-None",
+            "spec": ""
+        },
+        {
+            "description": "intel-oneapi-compilers: This package in only available for x86_64 and Linux",
+            "name": "arch=windows:-None-None",
             "spec": ""
         }
     ],
@@ -53,39 +53,15 @@
             "name": "py-devito"
         }
     ],
-    "description": "Intel oneAPI Compilers. Includes: icx, icpx, ifx, and ifort. Releases\nbefore 2024.0 include icc/icpc LICENSE INFORMATION: By downloading and\nusing this software, you agree to the terms and conditions of the\nsoftware license agreements at https://intel.ly/393CijO.\n",
+    "description": "Intel oneAPI Compilers. Includes: icc, icpc, ifort, icx, icpx, and ifx.\nLICENSE INFORMATION: By downloading and using this software, you agree\nto the terms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi.html",
-    "latest_version": "2024.2.1",
+    "latest_version": "2024.1.0",
     "maintainers": [
         "rscohn2"
     ],
     "name": "intel-oneapi-compilers",
     "patches": [],
     "resources": [
-        {
-            "destination": "",
-            "name": "fortran-installer",
-            "placement": "fortran-installer",
-            "version": "@2024.2.1"
-        },
-        {
-            "destination": "",
-            "name": "nvidia-plugin-installer",
-            "placement": "nvidia-plugin-installer",
-            "version": "@2024.2.1"
-        },
-        {
-            "destination": "",
-            "name": "fortran-installer",
-            "placement": "fortran-installer",
-            "version": "@2024.2.0"
-        },
-        {
-            "destination": "",
-            "name": "nvidia-plugin-installer",
-            "placement": "nvidia-plugin-installer",
-            "version": "@2024.2.0"
-        },
         {
             "destination": "",
             "name": "fortran-installer",
@@ -211,24 +187,9 @@
             "default": true,
             "description": "Toggles environment modifications",
             "name": "envmods"
-        },
-        {
-            "default": false,
-            "description": "Install NVIDIA plugin for OneAPI",
-            "name": "nvidia"
         }
     ],
     "versions": [
-        {
-            "name": "2024.2.1",
-            "sha256": "af0243f80640afa94c7f9c8151da91d7ab17f448f542fa76d785230dec712048",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/74587994-3c83-48fd-b963-b707521a63f4/l_dpcpp-cpp-compiler_p_2024.2.1.79_offline.sh"
-        },
-        {
-            "name": "2024.2.0",
-            "sha256": "9463aa979314d2acc51472d414ffcee032e9869ca85ac6ff4c71d39500e5173d",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/6780ac84-6256-4b59-a647-330eb65f32b6/l_dpcpp-cpp-compiler_p_2024.2.0.495_offline.sh"
-        },
         {
             "name": "2024.1.0",
             "sha256": "534ecc6e4b690c9011d7765cbe178f520aa8f49c0eb4ea80ea1415e48e5d7cf7",

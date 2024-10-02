@@ -3,11 +3,6 @@
     "build_system": "MesonPackage",
     "conflicts": [
         {
-            "description": "gobject-introspection: giscannermodule.c in <=v1.60 uses syntax incompatible with Python >=3.11",
-            "name": "^python@3.11:",
-            "spec": "@:1.60"
-        },
-        {
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
@@ -82,14 +77,6 @@
             "name": "babl"
         },
         {
-            "description": "Helper applications for XFCE4",
-            "name": "exo"
-        },
-        {
-            "description": "Menu library for XFCE4",
-            "name": "garcon"
-        },
-        {
             "description": "The Gdk Pixbuf is a toolkit for image loading and pixel buffer\nmanipulation. It is used by GTK+ 2 and GTK+ 3 to load and manipulate\nimages. In the past it was distributed as part of GTK+ 2 but it was\nsplit off into a separate package in preparation for the change to GTK+\n3.",
             "name": "gdk-pixbuf"
         },
@@ -138,18 +125,6 @@
             "name": "libsecret"
         },
         {
-            "description": "Window Navigator Construction Kit",
-            "name": "libwnck"
-        },
-        {
-            "description": "Widget sharing library for XFCE4",
-            "name": "libxfce4ui"
-        },
-        {
-            "description": "Libxfce4util common non-GTK+ utilities among the Xfce applications.",
-            "name": "libxfce4util"
-        },
-        {
             "description": "Pango is a library for laying out and rendering of text, with an\nemphasis on internationalization. It can be used anywhere that text\nlayout is needed, though most of the work on Pango so far has been done\nin the context of the GTK+ widget toolkit.",
             "name": "pango"
         },
@@ -160,18 +135,6 @@
         {
             "description": "bindings for the GLib, and GObject, to be used in Python.",
             "name": "py-pygobject"
-        },
-        {
-            "description": "Thunar File Manager",
-            "name": "thunar"
-        },
-        {
-            "description": "Panel manager for Xfce4",
-            "name": "xfce4-panel"
-        },
-        {
-            "description": "Daemon, manager, and editor to centralize the configuration management\nfor XFCE4",
-            "name": "xfce4-settings"
         }
     ],
     "description": "The GObject Introspection is used to describe the program APIs and\ncollect them in a uniform, machine readable format.Cairo is a 2D\ngraphics library with support for multiple output\n",
@@ -188,16 +151,7 @@
             "relative_path": "sbang.patch",
             "reverse": false,
             "sha256": "6f90bb267efa043ed70b900b4b8e2faf9e8133afae311893b01060356ea81bba",
-            "version": "@:1.56",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.gobject-introspection",
-            "relative_path": "sbang-1.60.2.patch",
-            "reverse": false,
-            "sha256": "b9e5e182f209d6f59e175ecf9f5d831a4fb4935bb6c004a563737251007b28e5",
-            "version": "@1.58:1.60",
+            "version": "@:1.60",
             "working_dir": "."
         },
         {
@@ -249,10 +203,6 @@
         {
             "name": "1.72.0",
             "sha256": "02fe8e590861d88f83060dd39cda5ccaa60b2da1d21d0f95499301b186beaabc"
-        },
-        {
-            "name": "1.60.2",
-            "sha256": "ffdfe2368fb2e34a547898b01aac0520d52d8627fdeb1c306559bcb503ab5e9c"
         },
         {
             "name": "1.56.1",

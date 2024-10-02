@@ -59,7 +59,7 @@
     "dependent_to": [],
     "description": "Particle provides a pythonic interface to the Particle Data Group (PDG)\nparticle data tables and particle identification codes, with extended\nparticle information and extra goodies.\n",
     "homepage": "https://github.com/scikit-hep/particle",
-    "latest_version": "0.24.0",
+    "latest_version": "0.23.0",
     "maintainers": [
         "vvolkl"
     ],
@@ -77,14 +77,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "0.24.0",
-            "sha256": "8ab4b5dd4547ba2dae8354955a435210892a575dff46f323cac6cf40600b976a"
-        },
-        {
-            "name": "0.23.1",
-            "sha256": "eee28b0e846bfea4dfd70e9ec5ffe3244613db08b6b6a9b773f55a4310752fab"
         },
         {
             "name": "0.23.0",

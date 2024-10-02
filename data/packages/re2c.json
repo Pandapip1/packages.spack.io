@@ -36,15 +36,11 @@
         {
             "description": "PHP is a popular general-purpose scripting language that is especially\nsuited to web development. Fast, flexible and pragmatic, PHP powers\neverything from your blog to the most popular websites in the world.",
             "name": "php"
-        },
-        {
-            "description": "A compiler for tensor computations on GPUs and other devices, supporting\nthe OpenCL, Level Zero, and SYCL runtime.",
-            "name": "tiny-tensor-compiler"
         }
     ],
     "description": "re2c: a free and open-source lexer generator for C and C++\n",
     "homepage": "https://re2c.org/index.html",
-    "latest_version": "3.0",
+    "latest_version": "2.2",
     "maintainers": [],
     "name": "re2c",
     "patches": [],
@@ -57,10 +53,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "3.0",
-            "sha256": "b3babbbb1461e13fe22c630a40c43885efcfbbbb585830c6f4c0d791cf82ba0b"
-        },
         {
             "name": "2.2",
             "sha256": "0fc45e4130a8a555d68e230d1795de0216dfe99096b61b28e67c86dfd7d86bda"

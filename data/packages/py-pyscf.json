@@ -70,7 +70,7 @@
     "dependent_to": [],
     "description": "PySCF is a collection of electronic structure programs powered by\nPython.\n",
     "homepage": "https://pyscf.org",
-    "latest_version": "2.6.2",
+    "latest_version": "2.5.0",
     "maintainers": [
         "naromero77"
     ],
@@ -85,18 +85,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.6.2",
-            "sha256": "744c89a8e4d38c4b5562f75fa68f9d079faeb23602d255fba0eb6d1bac97bca2"
-        },
-        {
-            "name": "2.6.1",
-            "sha256": "faeaeeb0c07fec5018937655511709a9c2445e3d7c421c0fa1ae5d889e4ab455"
-        },
-        {
-            "name": "2.6.0",
-            "sha256": "08ff920fedd4b257273d235fb4492535147c1e3154de5ab02b5446de93e200d8"
-        },
         {
             "name": "2.5.0",
             "sha256": "9596603c914fb3fba853607e96366fa541012faffd59a4ea052f0122dcea5343"

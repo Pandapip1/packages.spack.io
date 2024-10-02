@@ -28,7 +28,7 @@
     ],
     "description": "Libatl provides a library for the creation and manipulation of lists of\nname/value pairs using an efficient binary representation.\n",
     "homepage": "https://github.com/GTkorvo/atl",
-    "latest_version": "2.2.1",
+    "latest_version": "2.2",
     "maintainers": [],
     "name": "gtkorvo-atl",
     "patches": [],
@@ -58,11 +58,7 @@
     "versions": [
         {
             "branch": "master",
-            "name": "master"
-        },
-        {
-            "name": "2.2.1",
-            "sha256": "7ff2dca93702ed56e3bbfd8eb52da3bb5f0e7bef5006f3ca29aaa468cab89037"
+            "name": "develop"
         },
         {
             "name": "2.2",
@@ -73,10 +69,5 @@
             "sha256": "379b493ba867b76d76eabfe5bfeec85239606e821509c31e8eb93c2dc238e4a8"
         }
     ],
-    "versions_deprecated": [
-        {
-            "branch": "master",
-            "name": "develop"
-        }
-    ]
+    "versions_deprecated": []
 }

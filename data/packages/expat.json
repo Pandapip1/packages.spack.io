@@ -68,10 +68,6 @@
             "name": "fluxbox"
         },
         {
-            "description": "FreeXL is an open source library to extract valid data from within an\nExcel (.xls) spreadsheet.",
-            "name": "freexl"
-        },
-        {
             "description": "The Frontier distributed database caching system distributes data from\ndata sources to many client systems around the world. The name comes\nfrom \"N Tier\" where N is any number and tiers are layers of locations of\ndistribution.",
             "name": "frontier-client"
         },
@@ -138,6 +134,10 @@
         {
             "description": "Mesa is an open-source implementation of the OpenGL specification - a\nsystem for rendering interactive 3D graphics.",
             "name": "mesa"
+        },
+        {
+            "description": "Mesa is an open-source implementation of the OpenGL specification - a\nsystem for rendering interactive 3D graphics.",
+            "name": "mesa18"
         },
         {
             "description": "MIRA is a multi-pass DNA sequence data assembler/mapper for whole genome\nand EST/RNASeq projects.",
@@ -208,10 +208,6 @@
             "name": "vapor"
         },
         {
-            "description": "The VOMS native service and APIs.",
-            "name": "voms"
-        },
-        {
             "description": "VOTCA is a software package which focuses on the analysis of molecular\ndynamics data, the development of systematic coarse-graining techniques\nas well as methods used for simulating microscopic charge (and exciton)\ntransport in disordered semiconductors.",
             "name": "votca"
         },
@@ -234,7 +230,7 @@
     ],
     "description": "Expat is an XML parser library written in C.\n",
     "homepage": "https://libexpat.github.io/",
-    "latest_version": "2.6.3",
+    "latest_version": "2.6.2",
     "maintainers": [],
     "name": "expat",
     "patches": [],
@@ -273,15 +269,11 @@
     ],
     "versions": [
         {
-            "name": "2.6.3",
-            "sha256": "b8baef92f328eebcf731f4d18103951c61fa8c8ec21d5ff4202fb6f2198aeb2d"
+            "name": "2.6.2",
+            "sha256": "9c7c1b5dcbc3c237c500a8fb1493e14d9582146dd9b42aa8d3ffb856a3b927e0"
         }
     ],
     "versions_deprecated": [
-        {
-            "name": "2.6.2",
-            "sha256": "9c7c1b5dcbc3c237c500a8fb1493e14d9582146dd9b42aa8d3ffb856a3b927e0"
-        },
         {
             "name": "2.6.1",
             "sha256": "4677d957c0c6cb2a3321101944574c24113b637c7ab1cf0659a27c5babc201fd"

@@ -28,7 +28,7 @@
     ],
     "dependent_to": [],
     "description": "Microbiome analysis utilities\n",
-    "homepage": "https://microbiomeutil.sourceforge.net/",
+    "homepage": "http://microbiomeutil.sourceforge.net/",
     "latest_version": "20110519",
     "maintainers": [],
     "name": "microbiomeutil",

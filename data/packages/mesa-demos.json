@@ -6,6 +6,26 @@
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
+        },
+        {
+            "description": null,
+            "name": "^osmesa",
+            "spec": "gl=glx"
+        },
+        {
+            "description": null,
+            "name": "^glx",
+            "spec": "gl=osmesa"
+        },
+        {
+            "description": null,
+            "name": "^glx",
+            "spec": "gl=other"
+        },
+        {
+            "description": null,
+            "name": "^osmesa",
+            "spec": "gl=other"
         }
     ],
     "dependencies": [
@@ -30,6 +50,10 @@
             "name": "glu"
         },
         {
+            "description": "Shim package for the GLX library.",
+            "name": "glx"
+        },
+        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
         },
@@ -52,6 +76,10 @@
         {
             "description": "GNU M4 is an implementation of the traditional Unix macro processor.",
             "name": "m4"
+        },
+        {
+            "description": "Shim package for the OSMesa OpenGL library.",
+            "name": "osmesa"
         },
         {
             "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
@@ -81,6 +109,11 @@
             "default": "autotools",
             "description": "Build systems supported by the package",
             "name": "build_system"
+        },
+        {
+            "default": "glx",
+            "description": "The OpenGL provider to use",
+            "name": "gl"
         }
     ],
     "versions": [

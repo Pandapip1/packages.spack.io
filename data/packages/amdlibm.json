@@ -76,15 +76,6 @@
             "sha256": "da496991b4ed52940d471a3bd6e8d99bf25f547f1ab303a6aa3255ae704bec63",
             "version": "@2.2",
             "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.amdlibm",
-            "relative_path": "libm-ose-SconsSpack.patch",
-            "reverse": false,
-            "sha256": "5660ac30c56237853450e31261c1bdf604115b72dfda69312774fcffed2ce501",
-            "version": "@3.1:4.2",
-            "working_dir": "."
         }
     ],
     "resources": [],

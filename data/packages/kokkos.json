@@ -69,21 +69,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -239,11 +224,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -270,32 +250,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -411,11 +371,6 @@
             "description": null,
             "name": "+openmptarget",
             "spec": "@:3.5"
-        },
-        {
-            "description": null,
-            "name": "cmake@3.28",
-            "spec": "@:4.2.1+cuda"
         },
         {
             "description": "kokkos: gfx900:xnack- is not supported; Kokkos supports the following AMD GPU targets: gfx900, gfx906, gfx908, gfx90a, gfx940, gfx942, gfx1030, gfx1100",
@@ -645,10 +600,6 @@
         {
             "description": "NUMA support for Linux",
             "name": "numactl"
-        },
-        {
-            "description": "Thrust is a parallel algorithm library. This library has been ported to\nHIP/ROCm platform, which uses the rocPRIM library. The HIP ported\nlibrary works on HIP/ROCm platforms",
-            "name": "rocthrust"
         }
     ],
     "dependent_to": [
@@ -711,10 +662,6 @@
         {
             "description": "Kokkos Kernels provides math kernels, often BLAS or LAPACK for small\nmatrices, that can be used in larger Kokkos parallel routines",
             "name": "kokkos-kernels"
-        },
-        {
-            "description": "Kokkos Profiling and Debugging Tools",
-            "name": "kokkos-tools"
         },
         {
             "description": "LAMMPS stands for Large-scale Atomic/Molecular Massively Parallel\nSimulator.",
@@ -787,7 +734,7 @@
     ],
     "description": "Kokkos implements a programming model in C++ for writing performance\nportable applications targeting all major HPC platforms.\n",
     "homepage": "https://github.com/kokkos/kokkos",
-    "latest_version": "4.4.01",
+    "latest_version": "4.3.00",
     "maintainers": [
         "cedricchevalier19",
         "lucbv",
@@ -1019,18 +966,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "4.4.01",
-            "sha256": "3f7096d17eaaa4004c7497ac082bf1ae3ff47b5104149e54af021a89414c3682"
-        },
-        {
-            "name": "4.4.00",
-            "sha256": "c638980cb62c34969b8c85b73e68327a2cb64f763dd33e5241f5fd437170205a"
-        },
-        {
-            "name": "4.3.01",
-            "sha256": "5998b7c732664d6b5e219ccc445cd3077f0e3968b4be480c29cd194b4f45ec70"
         },
         {
             "name": "4.3.00",

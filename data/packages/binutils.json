@@ -84,20 +84,12 @@
             "name": "abi-dumper"
         },
         {
-            "description": "AMD uProf (\"MICRO-prof\") is a software profiling analysis tool for x86\napplications running on Windows, Linux and FreeBSD operating systems and\nprovides event information unique to the AMD \"Zen\"-based processors and\nAMD Instinct(tm) MI Series accelerators. AMD uProf enables the developer\nto better understand the limiters of application performance and\nevaluate improvements.",
-            "name": "amduprof"
-        },
-        {
             "description": "Autonomic Performance Environment for eXascale (APEX).",
             "name": "apex"
         },
         {
             "description": "CBTF Krell project contains collector and runtime contributions to the\nCBTF project. These contributions include many performance data\ncollectors and support libraries as well as some example tools that\ndrive the data collection at HPC levels of scale.",
             "name": "cbtf-krell"
-        },
-        {
-            "description": "Chapel is a modern programming language that is parallel, productive,\nportable, scalable and open-source. The Chapel package comes with many\noptions in the form of variants, most of which can be left unset to\nallow Chapel's built-in scripts to determine the proper values based on\nthe environment.",
-            "name": "chapel"
         },
         {
             "description": "Crosstool-NG is a versatile (cross) toolchain generator. It supports\nmany architectures and components and has a simple yet powerful\nmenuconfig-style interface.",
@@ -152,14 +144,6 @@
             "name": "libxsmm"
         },
         {
-            "description": "The Linux kernel provides services to start and stop programs, handles\nthe file system and other common \"low-level\" tasks that most programs\nshare, and schedules access to avoid conflicts when programs try to\naccess the same resource or device simultaneously. The kernel has a\nmodular design such that modules can be integrated as software\ncomponents. In this package, Linux has been configured to build out-of-\ntree kernel modules.",
-            "name": "linux-external-modules"
-        },
-        {
-            "description": "The Linux perf tool.",
-            "name": "linux-perf"
-        },
-        {
             "description": "The LLVM Project is a collection of modular and reusable compiler and\ntoolchain technologies. Despite its name, LLVM has little to do with\ntraditional virtual machines, though it does provide helpful libraries\nthat can be used to build them. The name \"LLVM\" itself is not an\nacronym; it is the full name of the project.",
             "name": "llvm"
         },
@@ -170,6 +154,10 @@
         {
             "description": "MALT is a memory profile tool to track mallocs in a C/C++ application\nand report allocation information (lifetime, sizes...) in a friendly web\ngraphical interface by annotating the source code and proving charts.",
             "name": "malt"
+        },
+        {
+            "description": "Mesa is an open-source implementation of the OpenGL specification - a\nsystem for rendering interactive 3D graphics.",
+            "name": "mesa18"
         },
         {
             "description": "nvptx-tools: A collection of tools for use with nvptx-none GCC\ntoolchains. These tools are necessary when building a version of GCC\nthat enables offloading of OpenMP/OpenACC code to NVIDIA GPUs.",
@@ -234,7 +222,7 @@
     ],
     "description": "GNU binutils, which contain the linker, assembler, objdump and others\n",
     "homepage": "https://www.gnu.org/software/binutils/",
-    "latest_version": "2.43.1",
+    "latest_version": "2.42",
     "maintainers": [
         "alalazo"
     ],
@@ -351,14 +339,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.43.1",
-            "sha256": "becaac5d295e037587b63a42fad57fe3d9d7b83f478eb24b67f9eec5d0f1872f"
-        },
-        {
-            "name": "2.43",
-            "sha256": "fed3c3077f0df7a4a1aa47b080b8c53277593ccbb4e5e78b73ffb4e3f265e750"
-        },
         {
             "name": "2.42",
             "sha256": "aa54850ebda5064c72cd4ec2d9b056c294252991486350d9a97ab2a6dfdfaf12"

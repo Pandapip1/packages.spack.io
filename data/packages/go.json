@@ -9,20 +9,12 @@
     "conflicts": [],
     "dependencies": [
         {
-            "description": "The GNU Project's Bourne Again SHell.",
-            "name": "bash"
+            "description": "Git is a free and open source distributed version control system\ndesigned to handle everything from small to very large projects with\nspeed and efficiency.",
+            "name": "git"
         },
         {
             "description": "Old C-bootstrapped go to bootstrap real go",
             "name": "go-or-gccgo-bootstrap"
-        },
-        {
-            "description": "Grep searches one or more input files for lines containing a match to a\nspecified pattern",
-            "name": "grep"
-        },
-        {
-            "description": "GNU implementation of the famous stream editor.",
-            "name": "sed"
         }
     ],
     "dependent_to": [
@@ -87,10 +79,6 @@
             "name": "go-md2man"
         },
         {
-            "description": "Encrypted overlay filesystem written in Go",
-            "name": "gocryptfs"
-        },
-        {
             "description": "GoShimmer is a prototype node for exploring the implementation of IOTA\n2.0",
             "name": "goshimmer"
         },
@@ -105,10 +93,6 @@
         {
             "description": "The world's fastest framework for building websites.",
             "name": "hugo"
-        },
-        {
-            "description": "Jump integrates with your shell and learns about your navigational\nhabits by keeping track of the directories you visit. It gives you the\nmost visited directory for the shortest search term you type.",
-            "name": "jump"
         },
         {
             "description": "Kubectl is a command-line interface for Kubernetes clusters.",
@@ -171,10 +155,6 @@
             "name": "scc"
         },
         {
-            "description": "seqkit: a cross-platform and ultrafast toolkit for FASTA/Q file\nmanipulation",
-            "name": "seqkit"
-        },
-        {
             "description": "Singularity is a container technology focused on building portable\nencapsulated environments to support \"Mobility of Compute\" For older\nversions of Singularity (pre 3.0) you should use singularity-legacy,\nwhich has a different install base (Autotools). Needs post-install\nchmod/chown steps to enable full functionality. See package definition\nor `spack-build-out.txt` build log for details, e.g. tail -15 $(spack\nlocation -i singularity)/.spack/spack-build-out.txt",
             "name": "singularity"
         },
@@ -207,17 +187,13 @@
             "name": "xdelta"
         },
         {
-            "description": "yq is a portable command-line YAML, JSON, XML, CSV, TOML and properties\nprocessor. This is different from the py-yq package that is a wrapper\naround jq.",
-            "name": "yq"
-        },
-        {
             "description": "Real-time monitoring of IT components and services, such as networks,\nservers, VMs, applications and the cloud.",
             "name": "zabbix"
         }
     ],
     "description": "The golang compiler and build environment\n",
     "homepage": "https://go.dev",
-    "latest_version": "1.23.1",
+    "latest_version": "1.22.2",
     "maintainers": [
         "alecbcs"
     ],
@@ -232,20 +208,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.23.1",
-            "sha256": "6ee44e298379d146a5e5aa6b1c5b5d5f5d0a3365eabdd70741e6e21340ec3b0d"
-        },
-        {
-            "name": "1.22.6",
-            "sha256": "9e48d99d519882579917d8189c17e98c373ce25abaebb98772e2927088992a51"
-        },
-        {
-            "name": "1.22.4",
-            "sha256": "fed720678e728a7ca30ba8d1ded1caafe27d16028fab0232b8ba8e22008fb784"
-        }
-    ],
-    "versions_deprecated": [
         {
             "name": "1.22.2",
             "sha256": "374ea82b289ec738e968267cac59c7d5ff180f9492250254784b2044e90df5a9"
@@ -265,6 +227,44 @@
         {
             "name": "1.21.5",
             "sha256": "285cbbdf4b6e6e62ed58f370f3f6d8c30825d6e56c5853c66d3c23bcdb09db19"
+        }
+    ],
+    "versions_deprecated": [
+        {
+            "name": "1.21.3",
+            "sha256": "186f2b6f8c8b704e696821b09ab2041a5c1ee13dcbc3156a13adcf75931ee488"
+        },
+        {
+            "name": "1.20.6",
+            "sha256": "62ee5bc6fb55b8bae8f705e0cb8df86d6453626b4ecf93279e2867092e0b7f70"
+        },
+        {
+            "name": "1.20.4",
+            "sha256": "9f34ace128764b7a3a4b238b805856cc1b2184304df9e5690825b0710f4202d6"
+        },
+        {
+            "name": "1.20.3",
+            "sha256": "e447b498cde50215c4f7619e5124b0fc4e25fb5d16ea47271c47f278e7aa763a"
+        },
+        {
+            "name": "1.20.2",
+            "sha256": "4d0e2850d197b4ddad3bdb0196300179d095bb3aefd4dfbc3b36702c3728f8ab"
+        },
+        {
+            "name": "1.19.11",
+            "sha256": "e25c9ab72d811142b7f41ff6da5165fec2d1be5feec3ef2c66bc0bdecb431489"
+        },
+        {
+            "name": "1.19.9",
+            "sha256": "131190a4697a70c5b1d232df5d3f55a3f9ec0e78e40516196ffb3f09ae6a5744"
+        },
+        {
+            "name": "1.19.8",
+            "sha256": "1d7a67929dccafeaf8a29e55985bc2b789e0499cb1a17100039f084e3238da2f"
+        },
+        {
+            "name": "1.19.7",
+            "sha256": "775bdf285ceaba940da8a2fe20122500efd7a0b65dbcee85247854a8d7402633"
         }
     ]
 }

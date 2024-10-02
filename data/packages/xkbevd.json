@@ -40,7 +40,7 @@
     ],
     "dependent_to": [],
     "description": "XKB event daemon demo.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xkbevd",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xkbevd",
     "latest_version": "1.1.5",
     "maintainers": [],
     "name": "xkbevd",

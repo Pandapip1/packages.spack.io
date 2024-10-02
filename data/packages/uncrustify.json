@@ -40,7 +40,7 @@
     ],
     "dependent_to": [],
     "description": "Source Code Beautifier for C, C++, C#, ObjectiveC, Java, and others.\n",
-    "homepage": "https://uncrustify.sourceforge.net/",
+    "homepage": "http://uncrustify.sourceforge.net/",
     "latest_version": "0.74",
     "maintainers": [
         "gmaurel"

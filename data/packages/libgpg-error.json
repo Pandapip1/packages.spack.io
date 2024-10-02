@@ -78,7 +78,7 @@
     ],
     "description": "Common error values for all GnuPG components.\n",
     "homepage": "https://www.gnupg.org/related_software/libgpg-error/index.en.html",
-    "latest_version": "1.50",
+    "latest_version": "1.49",
     "maintainers": [
         "alalazo"
     ],
@@ -92,15 +92,6 @@
             "sha256": "b185b1ebaea7f8ae74d58c828eb9008cff7c21431b6041aa0de072cb797c77a8",
             "version": "@1.36 ^gawk@5:",
             "working_dir": "."
-        },
-        {
-            "level": 0,
-            "owner": "builtin.libgpg-error",
-            "reverse": false,
-            "sha256": "0b2a0ffab81b2b0b40d6ab59016c92fcebbe80710a3e0adba570f73f7a931d16",
-            "url": "https://raw.githubusercontent.com/ryandesign/macports-ports/290e77cca6ce054768ddefee2b51222d72780ac9/devel/libgpg-error/files/patch-src-spawn-posix.c.diff",
-            "version": "@1.50",
-            "working_dir": "."
         }
     ],
     "resources": [],
@@ -112,10 +103,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.50",
-            "sha256": "69405349e0a633e444a28c5b35ce8f14484684518a508dc48a089992fe93e20a"
-        },
         {
             "name": "1.49",
             "sha256": "8b79d54639dbf4abc08b5406fb2f37e669a2dec091dd024fb87dd367131c63a9"

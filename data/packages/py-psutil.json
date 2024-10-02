@@ -34,16 +34,16 @@
             "name": "cvise"
         },
         {
+            "description": "GEOPM is an extensible power management framework targeting HPC. The\nGEOPM package provides libgeopm, libgeopmpolicy and applications\ngeopmctl and geopmpolicy, as well as tools for postprocessing. GEOPM is\ndesigned to be extended for new control algorithms and new hardware\npower management features via its plugin infrastructure. Note: GEOPM\ninterfaces with hardware using Model Specific Registers (MSRs). For\npropper usage make sure MSRs are made available directly or via the msr-\nsafe kernel module by your administrator.",
+            "name": "geopm"
+        },
+        {
             "description": "The Global Extensible Open Power Manager (GEOPM) Runtime is designed to\nenhance energy efficiency of applications through active hardware\nconfiguration.",
             "name": "geopm-runtime"
         },
         {
             "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely. Note:\nGEOPM interfaces with hardware using Model Specific Registers (MSRs).\nFor proper usage make sure MSRs are made available via the msr or msr-\nsafe kernel modules by your administrator.",
             "name": "geopm-service"
-        },
-        {
-            "description": "HybPiper was designed for targeted sequence capture, in which DNA\nsequencing libraries are enriched for gene regions of interest,\nespecially for phylogenetics. HybPiper is a suite of Python scripts that\nwrap and connect bioinformatics tools in order to extract target\nsequences from high-throughput DNA sequencing reads",
-            "name": "hybpiper"
         },
         {
             "description": "MongoDB is a source-available cross-platform document-oriented database\nprogram. Classified as a NoSQL database program, MongoDB uses JSON-like\ndocuments with optional schemas.",
@@ -58,16 +58,8 @@
             "name": "py-adb-enhanced"
         },
         {
-            "description": "Anvi\u2019o is a comprehensive platform that brings together many aspects of\ntoday\u2019s cutting-edge computational strategies of data-enabled\nmicrobiology, including genomics, metagenomics, metatranscriptomics,\npangenomics, metapangenomics, phylogenomics, and microbial population\ngenetics in an integrated and easy-to-use fashion through extensive\ninteractive visualization capabilities.",
-            "name": "py-anvio"
-        },
-        {
             "description": "Biobb_structure_checking provides a series of functions to check the\nquality of a 3D structure intended to facilitate the setup of a\nmolecular dynamics simulation of protein or nucleic acids systems",
             "name": "py-biobb-structure-checking"
-        },
-        {
-            "description": "Core classes and components used by CellProfiler.",
-            "name": "py-cellprofiler-core"
         },
         {
             "description": "Circus is a program that will let you run and watch multiple processes\nand sockets.",
@@ -114,20 +106,12 @@
             "name": "py-flufl-lock"
         },
         {
-            "description": "Framework for studying fluid dynamics.",
-            "name": "py-fluiddyn"
-        },
-        {
             "description": "Simple Client for Earth Engine Uploads with Selenium Support.",
             "name": "py-geeup"
         },
         {
             "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely.",
             "name": "py-geopmdpy"
-        },
-        {
-            "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely.",
-            "name": "py-geopmpy"
         },
         {
             "description": "Turn (almost) any command line program into a full GUI application with\none line",

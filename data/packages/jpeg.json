@@ -223,20 +223,12 @@
             "name": "py-pillow-simd"
         },
         {
-            "description": "pyhdf is a python wrapper around the NCSA HDF version 4 library. The SD\n(Scientific Dataset), VS (Vdata) and V (Vgroup) APIs are currently\nimplemented. NetCDF files can also be read and modified.",
-            "name": "py-pyhdf"
-        },
-        {
             "description": "PyNIO (\"pie-nee-oh\") is a Python module that allows read and/or write\naccess to a variety of scientific data formats popular in climate and\nweather",
             "name": "py-pynio"
         },
         {
             "description": "Image and video datasets and models for torch deep learning.",
             "name": "py-torchvision"
-        },
-        {
-            "description": "QPDF is a command-line tool and C++ library that performs content-\npreserving transformations on PDF files.",
-            "name": "qpdf"
         },
         {
             "description": "Qt is a comprehensive cross-platform C++ application framework.",

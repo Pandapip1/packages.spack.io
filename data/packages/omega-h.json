@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -386,11 +346,6 @@
             "description": "omega-h: Thrust is broken in CUDA = 11.2.* see https://github.com/sandialabs/omega_h/issues/366",
             "name": "^cuda@11.2",
             "spec": "@scorec.10.1.0:"
-        },
-        {
-            "description": "omega-h: see https://github.com/SCOREC/omega_h/issues/66",
-            "name": "^cuda@:11.3",
-            "spec": "@scorec.10.8.5:"
         }
     ],
     "dependencies": [
@@ -597,11 +552,6 @@
         {
             "name": "9.13.13",
             "sha256": "753702edf4bda9ae57ea21f09ca071e341604a468d8c86468c9aebba049f581c"
-        },
-        {
-            "commit": "62026fc305356abb5e02a9fce3fead9cf5077fbe",
-            "git": "https://github.com/SCOREC/omega_h.git",
-            "name": "scorec.10.8.5"
         },
         {
             "commit": "0e5de8618c3370f702e08c1b1af476dbbc118892",

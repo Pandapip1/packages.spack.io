@@ -111,7 +111,7 @@
     ],
     "description": "Widely used C++ template library for task parallelism. Intel Threading\nBuilding Blocks (Intel TBB) lets you easily write parallel C++ programs\nthat take full advantage of multicore performance, that are portable and\ncomposable, and that have future-proof scalability.\n",
     "homepage": "https://www.threadingbuildingblocks.org/",
-    "latest_version": "2021.12.0",
+    "latest_version": "2021.9.0",
     "maintainers": [
         "rscohn2"
     ],
@@ -141,7 +141,7 @@
             "relative_path": "gcc_13-2021-v2.patch",
             "reverse": false,
             "sha256": "91755c663fb80416cb3ab36871eea430e9b64c1d197e453ca0983bc3742cd065",
-            "version": "@2021.1:2021.9",
+            "version": "@2021.1:",
             "working_dir": "."
         },
         {
@@ -295,18 +295,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "2021.12.0",
-            "sha256": "c7bb7aa69c254d91b8f0041a71c5bcc3936acb64408a1719aec0b2b7639dd84f"
-        },
-        {
-            "name": "2021.11.0",
-            "sha256": "782ce0cab62df9ea125cdea253a50534862b563f1d85d4cda7ad4e77550ac363"
-        },
-        {
-            "name": "2021.10.0",
-            "sha256": "487023a955e5a3cc6d3a0d5f89179f9b6c0ae7222613a7185b0227ba0c83700b"
         },
         {
             "name": "2021.9.0",

@@ -48,7 +48,7 @@
     ],
     "dependent_to": [],
     "description": "Simple X server performance benchmarker.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/x11perf",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/x11perf",
     "latest_version": "1.6.1",
     "maintainers": [],
     "name": "x11perf",

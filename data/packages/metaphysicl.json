@@ -38,7 +38,7 @@
     ],
     "description": "Metaprogramming and operator-overloaded classes for numerical\nsimulations.\n",
     "homepage": "https://github.com/roystgnr/MetaPhysicL",
-    "latest_version": "0.6.0",
+    "latest_version": "0.5.0",
     "maintainers": [],
     "name": "metaphysicl",
     "patches": [],
@@ -51,10 +51,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.6.0",
-            "sha256": "a1b8469de17ad9960b4c99a9dbe2db46b7da50f97c811467efce470585d3f7f2"
-        },
         {
             "name": "0.5.0",
             "sha256": "dbba0590970a128ae2ae7064b621f78f95ca2303b70a12b079a51702573840a6"

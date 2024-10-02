@@ -1,13 +1,7 @@
 {
     "aliases": [],
     "build_system": "CMakePackage",
-    "conflicts": [
-        {
-            "description": null,
-            "name": "~shared",
-            "spec": "+python"
-        }
-    ],
+    "conflicts": [],
     "dependencies": [
         {
             "description": "A cross-platform, open-source build system. CMake is a family of tools\ndesigned to build, test and package software.",
@@ -46,10 +40,7 @@
     "description": "TiXI is a fast and simple XML interface library and could be used from\napplications written in C, C++, Fortran, JAVA and Python.\n",
     "homepage": "https://github.com/DLR-SC/tixi",
     "latest_version": "3.3.0",
-    "maintainers": [
-        "joergbrech",
-        "melven"
-    ],
+    "maintainers": [],
     "name": "tixi",
     "patches": [],
     "resources": [],
@@ -78,11 +69,6 @@
             "default": false,
             "description": "CMake interprocedural optimization",
             "name": "ipo"
-        },
-        {
-            "default": true,
-            "description": "Add python bindings to PYTHONPATH",
-            "name": "python"
         },
         {
             "default": true,

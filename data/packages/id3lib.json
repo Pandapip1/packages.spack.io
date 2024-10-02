@@ -24,7 +24,7 @@
     ],
     "dependent_to": [],
     "description": "Library for manipulating ID3v1 and ID3v2 tags\n",
-    "homepage": "https://id3lib.sourceforge.net/",
+    "homepage": "http://id3lib.sourceforge.net/",
     "latest_version": "3.8.3",
     "maintainers": [],
     "name": "id3lib",

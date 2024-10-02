@@ -50,6 +50,10 @@
     ],
     "dependent_to": [
         {
+            "description": "ECP-CANDLE Benchmarks",
+            "name": "candle-benchmarks"
+        },
+        {
             "description": "Lightweight user-defined software stacks for HPC.",
             "name": "charliecloud"
         },
@@ -92,10 +96,6 @@
         {
             "description": "This package includes tools to use with AMPL and amplpy.",
             "name": "py-ampltools"
-        },
-        {
-            "description": "Anvi\u2019o is a comprehensive platform that brings together many aspects of\ntoday\u2019s cutting-edge computational strategies of data-enabled\nmicrobiology, including genomics, metagenomics, metatranscriptomics,\npangenomics, metapangenomics, phylogenomics, and microbial population\ngenetics in an integrated and easy-to-use fashion through extensive\ninteractive visualization capabilities.",
-            "name": "py-anvio"
         },
         {
             "description": "Apache Beam is a unified programming model for Batch and Streaming.",
@@ -192,10 +192,6 @@
         {
             "description": "Climate Data Store API.",
             "name": "py-cdsapi"
-        },
-        {
-            "description": "CellProfiler cell image analysis software. CellProfiler is a free open-\nsource software designed to enable biologists without training in\ncomputer vision or programming to quantitatively measure phenotypes from\nthousands of images automatically.",
-            "name": "py-cellprofiler"
         },
         {
             "description": "Command line program to validate and convert CITATION.cff files.",
@@ -314,10 +310,6 @@
             "name": "py-gcsfs"
         },
         {
-            "description": "Google Drive Public File/Folder Downloader.",
-            "name": "py-gdown"
-        },
-        {
             "description": "Google Earth Engine Batch Asset Manager.",
             "name": "py-gee-asset-manager"
         },
@@ -376,10 +368,6 @@
         {
             "description": "GRequests allows you to use Requests with Gevent to make asynchronous\nHTTP Requests easily. Note: You should probably use requests-threads or\nrequests-futures instead.",
             "name": "py-grequests"
-        },
-        {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
         },
         {
             "description": "API and command line interface for HDFS",
@@ -462,10 +450,6 @@
             "name": "py-lightning-cloud"
         },
         {
-            "description": "Check for broken links in web sites.",
-            "name": "py-linkchecker"
-        },
-        {
             "description": "Matminer is a library for performing data mining in the field of\nmaterials science.",
             "name": "py-matminer"
         },
@@ -484,10 +468,6 @@
         {
             "description": "Repository of scripts and libraries for using the MG-RAST API and MG-\nRAST data.",
             "name": "py-mg-rast-tools"
-        },
-        {
-            "description": "Miscellaneous useful bits for Python 3.",
-            "name": "py-misk"
         },
         {
             "description": "MLflow: A Platform for ML Development and Productionization.",
@@ -578,10 +558,6 @@
             "name": "py-pacifica-uploader"
         },
         {
-            "description": "Up-to-date remote data access for pandas. Works for multiple versions of\npandas",
-            "name": "py-pandas-datareader"
-        },
-        {
             "description": "A high level app and dashboarding solution for Python.",
             "name": "py-panel"
         },
@@ -620,10 +596,6 @@
         {
             "description": "Pooch manages your Python library's sample data files: it automatically\ndownloads and stores them in a local directory, with support for\nversioning and corruption checks.",
             "name": "py-pooch"
-        },
-        {
-            "description": "Documentation generator for C++",
-            "name": "py-poxy"
         },
         {
             "description": "ProjectQ is an open-source software framework for quantum computing\nstarted at ETH Zurich. It allows users to implement their quantum\nprograms in Python using a powerful and intuitive syntax. ProjectQ can\nthen translate these programs to any type of back-end, be it a simulator\nrun on a classical computer of an actual quantum chip.",
@@ -944,7 +916,7 @@
     ],
     "description": "Python HTTP for Humans.\n",
     "homepage": "https://requests.readthedocs.io",
-    "latest_version": "2.32.3",
+    "latest_version": "2.31.0",
     "maintainers": [],
     "name": "py-requests",
     "patches": [],
@@ -962,14 +934,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.32.3",
-            "sha256": "55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760"
-        },
-        {
-            "name": "2.32.2",
-            "sha256": "dd951ff5ecf3e3b3aa26b40703ba77495dab41da839ae72ef3c8e5d8e2433289"
-        },
         {
             "name": "2.31.0",
             "sha256": "942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"

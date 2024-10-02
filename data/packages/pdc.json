@@ -37,7 +37,7 @@
     "dependent_to": [],
     "description": "Proactive Data Containers (PDC) software provides an object-centric API\nand a runtime system with a set of data object management services.\nThese services allow placing data in the memory and storage hierarchy,\nperforming data movement asynchronously, and providing scalable metadata\noperations to find data objects.\n",
     "homepage": "https://pdc.readthedocs.io/en/latest/",
-    "latest_version": "0.5",
+    "latest_version": "0.4",
     "maintainers": [
         "houjun",
         "jeanbez",
@@ -76,10 +76,6 @@
         {
             "branch": "stable",
             "name": "stable"
-        },
-        {
-            "name": "0.5",
-            "sha256": "d8ee6ad31670882dec8a9a131cd491a7134953acf3d18abf288605f3cc517636"
         },
         {
             "name": "0.4",

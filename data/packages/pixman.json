@@ -57,7 +57,7 @@
         }
     ],
     "description": "The Pixman package contains a library that provides low-level pixel\nmanipulation features such as image compositing and trapezoid\nrasterization.\n",
-    "homepage": "https://www.pixman.org",
+    "homepage": "http://www.pixman.org",
     "latest_version": "0.42.2",
     "maintainers": [],
     "name": "pixman",
@@ -87,11 +87,6 @@
             "default": "autotools",
             "description": "Build systems supported by the package",
             "name": "build_system"
-        },
-        {
-            "default": true,
-            "description": "Build shared library",
-            "name": "shared"
         }
     ],
     "versions": [

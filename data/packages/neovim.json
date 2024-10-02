@@ -97,16 +97,12 @@
         {
             "description": "A terminfo parsing library",
             "name": "unibilium"
-        },
-        {
-            "description": "A clean C library for processing UTF-8 Unicode data: normalization,\ncase-folding, graphemes, and more",
-            "name": "utf8proc"
         }
     ],
     "dependent_to": [],
     "description": "Neovim: Vim-fork focused on extensibility and usability\n",
     "homepage": "https://neovim.io",
-    "latest_version": "0.10.0",
+    "latest_version": "0.9.4",
     "maintainers": [
         "albestro",
         "trws"
@@ -150,14 +146,6 @@
             "commit": "d772f697a281ce9c58bf933997b87c7f27428a60",
             "name": "stable",
             "tag": "stable"
-        },
-        {
-            "name": "0.10.0",
-            "sha256": "372ea2584b0ea2a5a765844d95206bda9e4a57eaa1a2412a9a0726bab750f828"
-        },
-        {
-            "name": "0.9.5",
-            "sha256": "fe74369fc30a32ec7a086b1013acd0eacd674e7570eb1acc520a66180c9e9719"
         },
         {
             "name": "0.9.4",

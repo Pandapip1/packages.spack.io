@@ -8,12 +8,12 @@
             "name": "libpng"
         },
         {
-            "description": "MySQL is an open source relational database management system.",
-            "name": "mysql-client"
+            "description": "Portable uuid C library",
+            "name": "libuuid"
         },
         {
-            "description": "Util-linux is a suite of essential utilities for any Linux system.",
-            "name": "uuid"
+            "description": "MySQL is an open source relational database management system.",
+            "name": "mysql-client"
         }
     ],
     "dependent_to": [

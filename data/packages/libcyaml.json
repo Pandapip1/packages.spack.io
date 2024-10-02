@@ -21,7 +21,7 @@
     "dependent_to": [],
     "description": "LibCYAML is a C library for reading and writing structured YAML\ndocuments. It is written in ISO C11 and licensed under the ISC licence.\n",
     "homepage": "https://github.com/tlsa/libcyaml",
-    "latest_version": "1.4.1",
+    "latest_version": "1.4.0",
     "maintainers": [],
     "name": "libcyaml",
     "patches": [],
@@ -34,10 +34,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.4.1",
-            "sha256": "8dbd216e1fce90f9f7cca341e5178710adc76ee360a7793ef867edb28f3e4130"
-        },
         {
             "name": "1.4.0",
             "sha256": "e803fef0e254aa1f302c622c2d25cff989e04e9b2bebb7d22abd91386373122f"

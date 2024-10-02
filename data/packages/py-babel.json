@@ -68,7 +68,7 @@
     ],
     "description": "Babel is an integrated collection of utilities that assist in\ninternationalizing and localizing Python applications, with an emphasis\non web-based applications.\n",
     "homepage": "https://babel.pocoo.org/en/latest/",
-    "latest_version": "2.15.0",
+    "latest_version": "2.12.1",
     "maintainers": [],
     "name": "py-babel",
     "patches": [],
@@ -81,10 +81,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.15.0",
-            "sha256": "8daf0e265d05768bc6c7a314cf1321e9a123afc328cc635c18622a2f30a04413"
-        },
         {
             "name": "2.12.1",
             "sha256": "cc2d99999cd01d44420ae725a21c9e3711b3aadc7976d6147f622d8581963455"

@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -386,11 +346,6 @@
             "description": null,
             "name": "^kokkos@4:",
             "spec": "@:0.9"
-        },
-        {
-            "description": null,
-            "name": "intel-oneapi-mkl@:2021.2",
-            "spec": "^intel-oneapi-mkl"
         }
     ],
     "dependencies": [
@@ -463,7 +418,7 @@
     ],
     "description": "Nonlinear CG methods for wave-function optimization in DFT.\n",
     "homepage": "https://github.com/simonpintarelli/nlcglib",
-    "latest_version": "1.1.0",
+    "latest_version": "1.0b",
     "maintainers": [
         "simonpintarelli"
     ],
@@ -503,11 +458,6 @@
         },
         {
             "default": false,
-            "description": "Enable GPU direct. Required to support distributed wave-functions.",
-            "name": "gpu_direct"
-        },
-        {
-            "default": false,
             "description": "CMake interprocedural optimization",
             "name": "ipo"
         },
@@ -538,8 +488,8 @@
             "name": "develop"
         },
         {
-            "name": "1.1.0",
-            "sha256": "9e7c2eea84a5ce191bd9af08f6c890717f7b6e88be7bd15cfe774eb0e0dabd8a"
+            "branch": "master",
+            "name": "master"
         },
         {
             "name": "1.0b",

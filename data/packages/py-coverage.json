@@ -58,10 +58,6 @@
             "name": "py-fury"
         },
         {
-            "description": "HTTP/2-based RPC framework.",
-            "name": "py-grpcio"
-        },
-        {
             "description": "Multi-class imbalance is a common problem occurring in real-world\nsupervised classifications tasks. While there has already been some\nresearch on the specialized methods aiming to tackle that challenging\nproblem, most of them still lack coherent Python implementation that is\nsimple, intuitive and easy to use. multi-imbalance is a python package\ntackling the problem of multi-class imbalanced datasets in machine\nlearnin",
             "name": "py-multi-imbalance"
         },

@@ -11,6 +11,26 @@
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
+        },
+        {
+            "description": null,
+            "name": "^osmesa",
+            "spec": "gl=glx"
+        },
+        {
+            "description": null,
+            "name": "^glx",
+            "spec": "gl=osmesa"
+        },
+        {
+            "description": null,
+            "name": "^glx",
+            "spec": "gl=other"
+        },
+        {
+            "description": null,
+            "name": "^osmesa",
+            "spec": "gl=other"
         }
     ],
     "dependencies": [
@@ -19,12 +39,20 @@
             "name": "gl"
         },
         {
+            "description": "Shim package for the GLX library.",
+            "name": "glx"
+        },
+        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
         },
         {
             "description": "The GNU config.guess and config.sub scripts versioned by timestamp.\nThis package can be used as a build dependency for autotools packages\nthat ship a tarball with outdated config.guess and config.sub files.",
             "name": "gnuconfig"
+        },
+        {
+            "description": "Shim package for the OSMesa OpenGL library.",
+            "name": "osmesa"
         }
     ],
     "dependent_to": [
@@ -67,6 +95,11 @@
             "default": "autotools",
             "description": "Build systems supported by the package",
             "name": "build_system"
+        },
+        {
+            "default": "glx",
+            "description": "The OpenGL provider to use",
+            "name": "gl"
         }
     ],
     "versions": [

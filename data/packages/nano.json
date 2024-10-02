@@ -20,16 +20,12 @@
         {
             "description": "The ncurses (new curses) library is a free software emulation of curses\nin System V Release 4.0, and more. It uses terminfo format, supports\npads and color and multiple highlights and forms characters and\nfunction-key mapping, and has all the other SYSV-curses enhancements\nover BSD curses.",
             "name": "ncurses"
-        },
-        {
-            "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
-            "name": "pkgconfig"
         }
     ],
     "dependent_to": [],
     "description": "Tiny little text editor\n",
     "homepage": "https://www.nano-editor.org",
-    "latest_version": "8.0",
+    "latest_version": "7.2",
     "maintainers": [],
     "name": "nano",
     "patches": [],
@@ -42,10 +38,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "8.0",
-            "sha256": "c17f43fc0e37336b33ee50a209c701d5beb808adc2d9f089ca831b40539c9ac4"
-        },
         {
             "name": "7.2",
             "sha256": "86f3442768bd2873cec693f83cdf80b4b444ad3cc14760b74361474fc87a4526"

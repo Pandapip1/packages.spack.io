@@ -30,10 +30,6 @@
             "name": "py-asdf"
         },
         {
-            "description": "IERS Earth rotation and leap second table Note: This package is not\nmeant for standalone purposes but is needed by AstroPy.",
-            "name": "py-astropy-iers-data"
-        },
-        {
             "description": "Beautiful Soup is a Python library for pulling data out of HTML and XML\nfiles. It works with your favorite parser to provide idiomatic ways of\nnavigating, searching, and modifying the parse tree.",
             "name": "py-beautifulsoup4"
         },
@@ -64,10 +60,6 @@
         {
             "description": "The extension-helpers package includes convenience helpers to assist\nwith building Python packages with compiled C/Cython extensions. It is\ndeveloped by the Astropy project but is intended to be general and\nusable by any Python package.",
             "name": "py-extension-helpers"
-        },
-        {
-            "description": "A specification for pythonic filesystems.",
-            "name": "py-fsspec"
         },
         {
             "description": "The h5py package provides both a high- and low-level interface to the\nHDF5 library from Python.",
@@ -144,10 +136,6 @@
         {
             "description": "PyYAML is a YAML parser and emitter for Python.",
             "name": "py-pyyaml"
-        },
-        {
-            "description": "S3FS builds on aiobotocore to provide a convenient Python filesystem\ninterface for S3.",
-            "name": "py-s3fs"
         },
         {
             "description": "Image processing algorithms for SciPy, including IO, morphology,\nfiltering, warping, color manipulation, object detection, etc.",
@@ -240,17 +228,13 @@
             "name": "py-wcsaxes"
         },
         {
-            "description": "Python library to read and process pulsar data in several different\nformats",
-            "name": "py-your"
-        },
-        {
             "description": "Volumetric Data Analysis yt is a python package for analyzing and\nvisualizing volumetric, multi-resolution data from astrophysical\nsimulations, radio telescopes, and a burgeoning interdisciplinary\ncommunity.",
             "name": "py-yt"
         }
     ],
     "description": "The Astropy Project is a community effort to develop a single core\npackage for Astronomy in Python and foster interoperability between\nPython astronomy packages.\n",
     "homepage": "https://astropy.org/",
-    "latest_version": "6.1.0",
+    "latest_version": "5.1",
     "maintainers": [],
     "name": "py-astropy",
     "patches": [],
@@ -268,10 +252,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "6.1.0",
-            "sha256": "6c3b915f10b1576190730ddce45f6245f9927dda3de6e3f692db45779708950f"
-        },
         {
             "name": "5.1",
             "sha256": "1db1b2c7eddfc773ca66fa33bd07b25d5b9c3b5eee2b934e0ca277fa5b1b7b7e"

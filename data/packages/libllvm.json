@@ -9,11 +9,11 @@
             "name": "libllvm"
         },
         {
-            "alias_for": "llvm-amdgpu@5.7:6.1",
+            "alias_for": "llvm-amdgpu@5.7:",
             "name": "libllvm"
         },
         {
-            "alias_for": "llvm-amdgpu@6.2:",
+            "alias_for": "llvm-amdgpu@5:5.2",
             "name": "libllvm"
         }
     ],
@@ -21,17 +21,7 @@
     "conflicts": [
         {
             "description": null,
-            "name": "^ninja@1.12:",
-            "spec": "@:6.0"
-        },
-        {
-            "description": null,
             "name": "^cmake@3.19.0",
-            "spec": ""
-        },
-        {
-            "description": null,
-            "name": "arch=darwin-None-None",
             "spec": ""
         },
         {
@@ -78,11 +68,15 @@
         {
             "description": "Mesa is an open-source implementation of the OpenGL specification - a\nsystem for rendering interactive 3D graphics.",
             "name": "mesa"
+        },
+        {
+            "description": "Mesa is an open-source implementation of the OpenGL specification - a\nsystem for rendering interactive 3D graphics.",
+            "name": "mesa18"
         }
     ],
     "description": "Toolkit for the construction of highly optimized compilers, optimizers,\nand run-time environments.\n",
     "homepage": "https://github.com/ROCm/llvm-project",
-    "latest_version": "6.2.1",
+    "latest_version": "6.0.2",
     "maintainers": [
         "haampie",
         "renjithravindrankannath",
@@ -141,7 +135,7 @@
             "reverse": false,
             "sha256": "b4774ca19b030890d7b276d12c446400ccf8bc3aa724c7f2e9a73531a7400d69",
             "url": "https://github.com/ROCm/llvm-project/commit/444d1d12bbc0269fed5451fb1a9110a049679ca5.patch?full_index=1",
-            "version": "@6.0:",
+            "version": "@6.0",
             "working_dir": "."
         }
     ],
@@ -222,37 +216,37 @@
             "destination": "",
             "name": "rocm-device-libs",
             "placement": "rocm-device-libs",
+            "version": "@5.2.3+rocm-device-libs"
+        },
+        {
+            "destination": "",
+            "name": "rocm-device-libs",
+            "placement": "rocm-device-libs",
+            "version": "@5.2.1+rocm-device-libs"
+        },
+        {
+            "destination": "",
+            "name": "rocm-device-libs",
+            "placement": "rocm-device-libs",
+            "version": "@5.2.0+rocm-device-libs"
+        },
+        {
+            "destination": "",
+            "name": "rocm-device-libs",
+            "placement": "rocm-device-libs",
+            "version": "@5.1.3+rocm-device-libs"
+        },
+        {
+            "destination": "",
+            "name": "rocm-device-libs",
+            "placement": "rocm-device-libs",
+            "version": "@5.1.0+rocm-device-libs"
+        },
+        {
+            "destination": "",
+            "name": "rocm-device-libs",
+            "placement": "rocm-device-libs",
             "version": "@master+rocm-device-libs"
-        },
-        {
-            "destination": "",
-            "name": "hsa-runtime",
-            "placement": "hsa-runtime",
-            "version": "@6.2.1"
-        },
-        {
-            "destination": "",
-            "name": "hsa-runtime",
-            "placement": "hsa-runtime",
-            "version": "@6.2.0"
-        },
-        {
-            "destination": "",
-            "name": "hsa-runtime",
-            "placement": "hsa-runtime",
-            "version": "@6.1.2"
-        },
-        {
-            "destination": "",
-            "name": "hsa-runtime",
-            "placement": "hsa-runtime",
-            "version": "@6.1.1"
-        },
-        {
-            "destination": "",
-            "name": "hsa-runtime",
-            "placement": "hsa-runtime",
-            "version": "@6.1.0"
         },
         {
             "destination": "",
@@ -382,26 +376,6 @@
             "name": "master"
         },
         {
-            "name": "6.2.1",
-            "sha256": "4840f109d8f267c28597e936c869c358de56b8ad6c3ed4881387cf531846e5a7"
-        },
-        {
-            "name": "6.2.0",
-            "sha256": "12ce17dc920ec6dac0c5484159b3eec00276e4a5b301ab1250488db3b2852200"
-        },
-        {
-            "name": "6.1.2",
-            "sha256": "300e9d6a137dcd91b18d5809a316fddb615e0e7f982dc7ef1bb56876dff6e097"
-        },
-        {
-            "name": "6.1.1",
-            "sha256": "f1a67efb49f76a9b262e9735d3f75ad21e3bd6a05338c9b15c01e6c625c4460d"
-        },
-        {
-            "name": "6.1.0",
-            "sha256": "6bd9912441de6caf6b26d1323e1c899ecd14ff2431874a2f5883d3bc5212db34"
-        },
-        {
             "name": "6.0.2",
             "sha256": "7d35acc84de1adee65406f92a369a30364703f84279241c444cd93a48c7eeb76"
         },
@@ -432,9 +406,7 @@
         {
             "name": "5.5.0",
             "sha256": "5dc6c99f612b69ff73145bee17524e3712990100e16445b71634106acf7927cf"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "5.4.3",
             "sha256": "a844d3cc01613f6284a75d44db67c495ac1e9b600eacbb1eb13d2649f5d5404d"
@@ -450,6 +422,28 @@
         {
             "name": "5.3.0",
             "sha256": "4e3fcddb5b8ea8dcaa4417e0e31a9c2bbdc9e7d4ac3401635a636df32905c93e"
+        }
+    ],
+    "versions_deprecated": [
+        {
+            "name": "5.2.3",
+            "sha256": "1b852711aec3137b568fb65f93606d37fdcd62e06f5da3766f2ffcd4e0c646df"
+        },
+        {
+            "name": "5.2.1",
+            "sha256": "3644e927d943d61e22672422591c47a62ff83e3d87ced68439822156d8f79abf"
+        },
+        {
+            "name": "5.2.0",
+            "sha256": "0f892174111b78a02d1a00f8f46d9f80b9abb95513a7af38ecf2a5a0882fe87f"
+        },
+        {
+            "name": "5.1.3",
+            "sha256": "d236a2064363c0278f7ba1bb2ff1545ee4c52278c50640e8bb2b9cfef8a2f128"
+        },
+        {
+            "name": "5.1.0",
+            "sha256": "db5d45c4a7842a908527c1b7b8d4a40c688225a41d23cfa382eab23edfffdd10"
         }
     ]
 }

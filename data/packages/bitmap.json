@@ -52,7 +52,7 @@
     ],
     "dependent_to": [],
     "description": "bitmap, bmtoa, atobm - X bitmap (XBM) editor and converter utilities.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/bitmap",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/bitmap",
     "latest_version": "1.1.1",
     "maintainers": [],
     "name": "bitmap",

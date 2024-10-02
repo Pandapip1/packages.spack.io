@@ -69,21 +69,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -239,11 +224,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -270,32 +250,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -399,23 +359,13 @@
         },
         {
             "description": null,
-            "name": "%gcc@:11",
-            "spec": "@2.17:"
-        },
-        {
-            "description": null,
             "name": "~rocm",
-            "spec": "@2.7.4-rocm-enhanced,2.11.0-rocm-enhanced,2.14-rocm-enhanced,2.16.1-rocm-enhanced"
+            "spec": "@2.7.4-rocm-enhanced,2.11.0-rocm-enhanced"
         },
         {
             "description": null,
             "name": "%gcc@:9.3.0",
             "spec": "@2.9:"
-        },
-        {
-            "description": null,
-            "name": "%gcc@13:",
-            "spec": "@:2.14"
         },
         {
             "description": null,
@@ -430,7 +380,32 @@
         {
             "description": null,
             "name": "+rocm",
-            "spec": "@:2.7.4-a,2.7.4.0:2.11.0-a,2.11.0.0:2.14-a,2.14-z:2.16.1-a,2.16.1-z:"
+            "spec": "@:2.7.4-a,2.7.4.0:2.11.0-a,2.11.0.0:"
+        },
+        {
+            "description": null,
+            "name": "^py-protobuf~cpp",
+            "spec": ""
+        },
+        {
+            "description": "py-tensorflow: iOS support only available on macOS",
+            "name": "+ios",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": "py-tensorflow: Currently jemalloc is only support on Linux platform",
+            "name": "+jemalloc",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": "py-tensorflow: Currently NCCL is only supported on Linux platform",
+            "name": "+nccl",
+            "spec": "arch=cray-None-None"
+        },
+        {
+            "description": "py-tensorflow: Currently TensorRT is only supported on Linux platform",
+            "name": "+tensorrt",
+            "spec": "arch=cray-None-None"
         },
         {
             "description": "py-tensorflow: There is no GPU support for macOS",
@@ -533,24 +508,12 @@
             "name": "hip"
         },
         {
-            "description": "hipBLAS is a BLAS marshalling library, with multiple supported backends",
-            "name": "hipblas"
-        },
-        {
             "description": "Radeon Open Compute Parallel Primitives Library",
             "name": "hipcub"
         },
         {
             "description": "hipFFT is an FFT marshalling library. Currently, hipFFT supports either\nrocFFT or cuFFT as backends.hipFFT exports an interface that does not\nrequire the client to change, regardless of the chosen backend. It sits\nbetween the application and the backend FFT library, marshalling inputs\ninto the backend and results back to the application.",
             "name": "hipfft"
-        },
-        {
-            "description": "The hipRAND project provides an interface for generating pseudo-random\nand quasi-random numbers with either cuRAND or rocRAND backends.",
-            "name": "hiprand"
-        },
-        {
-            "description": "hipSOLVER is a LAPACK marshalling library, with multiple supported\nbackends. It sits between the application and a 'worker' LAPACK library,\nmarshalling inputs into the backend library and marshalling results back\nto the application. hipSOLVER exports an interface that does not require\nthe client to change, regardless of the chosen backend. Currently,\nhipSOLVER supports rocSOLVER and cuSOLVER as backends.",
-            "name": "hipsolver"
         },
         {
             "description": "hipSPARSE is a SPARSE marshalling library, with multiple supported\nbackends",
@@ -705,10 +668,6 @@
             "name": "rocfft"
         },
         {
-            "description": "rocm-core is a utility which can be used to get ROCm release version. It\nalso provides the Lmod modules files for the ROCm release.\ngetROCmVersion function provides the ROCm version.",
-            "name": "rocm-core"
-        },
-        {
             "description": "Radeon Open Compute (ROCm) Runtime rocminfo tool",
             "name": "rocminfo"
         },
@@ -723,10 +682,6 @@
         {
             "description": "rocSOLVER is a work-in-progress implementation of a subset of LAPACK\nfunctionality on the ROCm platform.",
             "name": "rocsolver"
-        },
-        {
-            "description": "ROC-tracer library: Runtimes Generic Callback/Activity APIs. The goal of\nthe implementation is to provide a generic independent from specific\nruntime profiler to trace API and asyncronous activity.",
-            "name": "roctracer-dev"
         },
         {
             "description": "SWIG is an interface compiler that connects programs written in C and\nC++ with scripting languages such as Perl, Python, Ruby, and Tcl. It\nworks by taking the declarations found in C/C++ header files and using\nthem to generate the wrapper code that scripting languages need to\naccess the underlying C/C++ code. In addition, SWIG provides a variety\nof customization features that let you tailor the wrapping process to\nsuit your application.",
@@ -779,7 +734,7 @@
             "name": "py-smote-variants"
         },
         {
-            "description": "TensorFlow Estimator is a high-level API that encapsulates model\ntraining, evaluation, prediction, and exporting.",
+            "description": "TensorFlow Estimator is a high-level TensorFlow API that greatly\nsimplifies machine learning programming.",
             "name": "py-tensorflow-estimator"
         },
         {
@@ -797,7 +752,7 @@
     ],
     "description": "TensorFlow is an open source machine learning framework for everyone.\n",
     "homepage": "https://www.tensorflow.org",
-    "latest_version": "2.17.0",
+    "latest_version": "2.16.1",
     "maintainers": [
         "adamjstewart",
         "aweits"
@@ -856,42 +811,6 @@
             "reverse": false,
             "sha256": "e538be3300f73ce6ee2b8dc93cbd2e5d6b8bacc1de8670948a97bbc36a36b450",
             "version": "@2.16.1: arch=None-None-aarch64:",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.py-tensorflow",
-            "reverse": true,
-            "sha256": "43f1519dfc618b4fb568f760d559c063234248fa12c47a35c1cf3b7114756424",
-            "url": "https://github.com/ROCm/tensorflow-upstream/commit/fd6b0a4356c66f5f30cedbc62b24f18d9e32806f.patch?full_index=1",
-            "version": "@2.16.1-rocm-enhanced+rocm",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.py-tensorflow",
-            "reverse": false,
-            "sha256": "82554a84d19d99180a6bec274c6106dd217361e809b446e2e4bc4b6b979bdf7a",
-            "url": "https://github.com/ROCm/tensorflow-upstream/commit/c467913bf4411ce2681391f37a9adf6031d23c2c.patch?full_index=1",
-            "version": "@2.16.1-rocm-enhanced+rocm",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.py-tensorflow",
-            "reverse": false,
-            "sha256": "75a61a79ce3aae51fda920f677f4dc045374b20e25628626eb37ca19c3a3b4c4",
-            "url": "https://github.com/ROCm/tensorflow-upstream/commit/8b7fcccb2914078737689347540cb79ace579bbb.patch?full_index=1",
-            "version": "@2.16.1-rocm-enhanced+rocm",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.py-tensorflow",
-            "reverse": false,
-            "sha256": "a4c0fd62a0af3ba113c8933fa531dd17fa6667e507202a144715cd87fbdaf476",
-            "url": "https://github.com/ROCm/tensorflow-upstream/commit/f4f4e8698b90755b0b5ea2d9da1933b0b988b111.patch?full_index=1",
-            "version": "@2.16.1-rocm-enhanced:+rocm",
             "working_dir": "."
         }
     ],
@@ -1020,19 +939,6 @@
     ],
     "versions": [
         {
-            "name": "2.17.0",
-            "sha256": "9cc4d5773b8ee910079baaecb4086d0c28939f024dd74b33fc5e64779b6533dc"
-        },
-        {
-            "name": "2.16.2",
-            "sha256": "023849bf253080cb1e4f09386f5eb900492da2288274086ed6cfecd6d99da9eb"
-        },
-        {
-            "name": "2.16.1-rocm-enhanced",
-            "sha256": "e1b63b1b5d5b014194ed33113c7fa7f26ecb8d36333282b8c550e795e0eb31c6",
-            "url": "https://github.com/ROCm/tensorflow-upstream/archive/refs/tags/v2.16.1-rocm-enhanced.tar.gz"
-        },
-        {
             "name": "2.16.1",
             "sha256": "c729e56efc945c6df08efe5c9f5b8b89329c7c91b8f40ad2bb3e13900bd4876d"
         },
@@ -1051,11 +957,6 @@
         {
             "name": "2.14.0",
             "sha256": "ce357fd0728f0d1b0831d1653f475591662ec5bca736a94ff789e6b1944df19f"
-        },
-        {
-            "branch": "r2.14-rocm-enhanced-nohipblaslt-build",
-            "git": "https://github.com/ROCm/tensorflow-upstream.git",
-            "name": "2.14-rocm-enhanced"
         },
         {
             "name": "2.13.1",

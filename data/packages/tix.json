@@ -51,6 +51,15 @@
             "level": 0,
             "owner": "builtin.tix",
             "reverse": false,
+            "sha256": "8a2720368c7757896814684147029d8318b9aa3b0914b3f37dd5e8a8603a61d3",
+            "url": "https://raw.githubusercontent.com/macports/macports-ports/v2.7.0-archive/x11/tix/files/implicit.patch",
+            "version": "",
+            "working_dir": "."
+        },
+        {
+            "level": 0,
+            "owner": "builtin.tix",
+            "reverse": false,
             "sha256": "99b33cc307f71bcf9cc6f5a44b588f22956884ce3f1e4c716ad64c79cf9c5f41",
             "url": "https://raw.githubusercontent.com/macports/macports-ports/v2.7.0-archive/x11/tix/files/patch-generic-tixGrSort.c.diff",
             "version": "",
@@ -72,15 +81,6 @@
             "sha256": "1e28d8eee1aaa956a00571cf495a4775e72a993958dff1cabfbc5f102e327a6f",
             "url": "https://raw.githubusercontent.com/macports/macports-ports/v2.7.0-archive/x11/tix/files/patch-tk_x11.diff",
             "version": "",
-            "working_dir": "."
-        },
-        {
-            "level": 0,
-            "owner": "builtin.tix",
-            "reverse": false,
-            "sha256": "8a2720368c7757896814684147029d8318b9aa3b0914b3f37dd5e8a8603a61d3",
-            "url": "https://raw.githubusercontent.com/macports/macports-ports/v2.7.0-archive/x11/tix/files/implicit.patch",
-            "version": "arch=darwin-None-None",
             "working_dir": "."
         },
         {

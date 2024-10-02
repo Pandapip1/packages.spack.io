@@ -41,7 +41,7 @@
         {
             "level": 1,
             "owner": "builtin.libsigsegv",
-            "relative_path": "new_config_guess.patch",
+            "relative_path": "patch.new_config_guess",
             "reverse": false,
             "sha256": "b9f66ed8839e657ab2fa9fa22a7419c88dfab950b5e9dc42338a7eac32d9750c",
             "version": "@2.10",

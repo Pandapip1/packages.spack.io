@@ -40,7 +40,7 @@
     ],
     "description": "Quality optimized version of SZ3 is the next generation of the SZ\ncompressor framework\n",
     "homepage": "https://github.com/robertu94/QoZ",
-    "latest_version": "2023.11.07",
+    "latest_version": "2023.03.09",
     "maintainers": [
         "disheng222"
     ],
@@ -70,10 +70,6 @@
         }
     ],
     "versions": [
-        {
-            "commit": "611369be4b1cc7a12eaae02600baf8d232d4caa5",
-            "name": "2023.11.07"
-        },
         {
             "commit": "537f6a52a39396f9c05e16a12ab160d8dc8b9d56",
             "name": "2023.03.09"

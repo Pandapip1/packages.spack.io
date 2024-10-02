@@ -14,7 +14,12 @@
         }
     ],
     "dependencies": [],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "The OpenGL Extension Wrangler Library.",
+            "name": "glew"
+        }
+    ],
     "description": "Placeholder for external EGL(OpenGL) libraries from hardware vendors\n",
     "homepage": "https://www.khronos.org/egl",
     "latest_version": "1.5",

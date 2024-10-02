@@ -80,14 +80,6 @@
             "name": "py-antspyx"
         },
         {
-            "description": "Anvi\u2019o is a comprehensive platform that brings together many aspects of\ntoday\u2019s cutting-edge computational strategies of data-enabled\nmicrobiology, including genomics, metagenomics, metatranscriptomics,\npangenomics, metapangenomics, phylogenomics, and microbial population\ngenetics in an integrated and easy-to-use fashion through extensive\ninteractive visualization capabilities.",
-            "name": "py-anvio"
-        },
-        {
-            "description": "Autoregressive Conditional Heteroskedasticity (ARCH) and other tools for\nfinancial econometrics, written in Python (with Cython and/or Numba used\nto improve performance)",
-            "name": "py-arch"
-        },
-        {
             "description": "Elephant is a package for analysis of electrophysiology data in Python",
             "name": "py-elephant"
         },
@@ -108,10 +100,6 @@
             "name": "py-mne"
         },
         {
-            "description": "Up-to-date remote data access for pandas. Works for multiple versions of\npandas",
-            "name": "py-pandas-datareader"
-        },
-        {
             "description": "An open-source toolkit for computational pathology and machine learning.",
             "name": "py-pathml"
         },
@@ -122,10 +110,6 @@
         {
             "description": "plotnine is an implementation of a grammar of graphics in Python, it is\nbased on ggplot2. The grammar allows users to compose plots by\nexplicitly mapping data to the visual objects that make up the plot.",
             "name": "py-plotnine"
-        },
-        {
-            "description": "Sequence Elements Enrichment Analysis (SEER), python implementation",
-            "name": "py-pyseer"
         },
         {
             "description": "Scanpy is a scalable toolkit for analyzing single-cell gene expression\ndata built jointly with anndata.",

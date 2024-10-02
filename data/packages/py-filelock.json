@@ -50,14 +50,6 @@
             "name": "py-chainer"
         },
         {
-            "description": "Datasets is a lightweight library providing two main features: one-line\ndataloaders for many public datasets and efficient data pre-processing.",
-            "name": "py-datasets"
-        },
-        {
-            "description": "Google Drive Public File/Folder Downloader.",
-            "name": "py-gdown"
-        },
-        {
             "description": "This library allows anyone to work with the Hub repositories: you can\nclone them, create them and upload your models to them.",
             "name": "py-huggingface-hub"
         },

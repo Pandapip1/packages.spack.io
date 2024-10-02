@@ -98,10 +98,6 @@
             "name": "py-gsutil"
         },
         {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
-        },
-        {
             "description": "Official Python client library for kubernetes.",
             "name": "py-kubernetes"
         },

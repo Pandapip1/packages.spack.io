@@ -3,6 +3,10 @@
         {
             "alias_for": "mesa+glx",
             "name": "libglx"
+        },
+        {
+            "alias_for": "mesa+osmesa",
+            "name": "libosmesa"
         }
     ],
     "build_system": "MesonPackage",
@@ -75,10 +79,6 @@
             "name": "libxext"
         },
         {
-            "description": "Libxml2 is the XML C parser and toolkit developed for the Gnome project\n(but usable outside of the Gnome platform), it is free software\navailable under the MIT License.",
-            "name": "libxml2"
-        },
-        {
             "description": "libXt - X Toolkit Intrinsics library.",
             "name": "libxt"
         },
@@ -119,10 +119,6 @@
         {
             "description": "The ethminer is an Ethereum GPU mining worker.",
             "name": "ethminer"
-        },
-        {
-            "description": "Shim package for the OSMesa OpenGL library.",
-            "name": "osmesa"
         },
         {
             "description": "Simple and easy-to-use library for game development and multimedia\napplications",

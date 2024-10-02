@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -431,7 +391,7 @@
     ],
     "dependent_to": [
         {
-            "description": "CHAI and RAJA extensions (includes data structures and algorithms).",
+            "description": "Algorithms for chai managed arrays.",
             "name": "care"
         },
         {
@@ -445,10 +405,8 @@
     ],
     "description": " Copy-hiding array interface for data migration between memory spaces\n",
     "homepage": "https://github.com/LLNL/CHAI",
-    "latest_version": "2024.07.0",
+    "latest_version": "2024.02.0",
     "maintainers": [
-        "adayton1",
-        "adrienbernede",
         "davidbeckingsale"
     ],
     "name": "chai",
@@ -550,21 +508,6 @@
         {
             "branch": "develop",
             "name": "develop"
-        },
-        {
-            "commit": "df7741f1dbbdc5fff5f7d626151fdf1904e62b19",
-            "name": "2024.07.0",
-            "tag": "v2024.07.0"
-        },
-        {
-            "commit": "5ba0944d862513f600432c34b009824875df27e5",
-            "name": "2024.02.2",
-            "tag": "v2024.02.2"
-        },
-        {
-            "commit": "7597134729bd3a38b45b67b4dfbf7f199d8106f3",
-            "name": "2024.02.1",
-            "tag": "v2024.02.1"
         },
         {
             "commit": "31773a2f0d30f3f64c82939f60fc4da32cf33261",

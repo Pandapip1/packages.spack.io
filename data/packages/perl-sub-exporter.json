@@ -48,7 +48,7 @@
     ],
     "description": "A sophisticated exporter for custom-built routines\n",
     "homepage": "https://metacpan.org/pod/Sub::Exporter",
-    "latest_version": "0.991",
+    "latest_version": "0.989",
     "maintainers": [],
     "name": "perl-sub-exporter",
     "patches": [],
@@ -61,10 +61,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.991",
-            "sha256": "2a95695d35c5d0d5373a7e145c96b9b016113b74e94116835ac05450cae4d445"
-        },
         {
             "name": "0.989",
             "sha256": "334896e0af5e0643fc3799cbbcf01f933d4ca6324cd644c0b6660e71cdbd01c9"

@@ -34,10 +34,6 @@
     ],
     "dependent_to": [
         {
-            "description": "Easier Pythonic interface to GMSH.",
-            "name": "py-pygmsh"
-        },
-        {
             "description": "Easier Pythonic interface to VTK.",
             "name": "py-pyvista"
         },

@@ -48,10 +48,6 @@
             "name": "espanso"
         },
         {
-            "description": "A minimal password manager following the UNIX philosphy.",
-            "name": "pass"
-        },
-        {
             "description": "A cross-platform clipboard module for Python.",
             "name": "py-pyperclip"
         },

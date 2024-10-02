@@ -89,21 +89,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -259,11 +244,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -290,32 +270,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -631,6 +591,11 @@
             "description": null,
             "name": "+exodus",
             "spec": "@:13.0.1~fortran"
+        },
+        {
+            "description": null,
+            "name": "~uvm",
+            "spec": "@:13.1+cuda"
         },
         {
             "description": null,
@@ -1047,10 +1012,6 @@
             "name": "elmerfem"
         },
         {
-            "description": "Multi-application driver for Exawind project.",
-            "name": "exawind"
-        },
-        {
             "description": "FASTMath is a suite of ~15 numerical libraries frequently used together\nin various SciDAC and CSE applications. The suite includes\ndiscretization libraries for structured, AMR and unstructured grids as\nwell as solver libraries for ODE's, Time Integrators, Iterative, Non-\nLinear, and Direct Solvers.",
             "name": "fastmath"
         },
@@ -1125,12 +1086,13 @@
     ],
     "description": "The Trilinos Project is an effort to develop algorithms and enabling\ntechnologies within an object-oriented software framework for the\nsolution of large-scale, complex multi-physics engineering and\nscientific problems. A unique design feature of Trilinos is its focus on\npackages.\n",
     "homepage": "https://trilinos.org/",
-    "latest_version": "16.0.0",
+    "latest_version": "15.1.1",
     "maintainers": [
         "jwillenbring",
         "keitat",
         "kuberry",
-        "psakievich"
+        "psakievich",
+        "sethrj"
     ],
     "name": "trilinos",
     "patches": [
@@ -1263,15 +1225,6 @@
         {
             "level": 1,
             "owner": "builtin.trilinos",
-            "relative_path": "cstdint_gcc13.patch",
-            "reverse": false,
-            "sha256": "016a9793592b8f526e757d1cc8380e954892c1fda592d90b0fcd912a04017d41",
-            "version": "@13.4.0:13.4.1%gcc@13.0.0:",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.trilinos",
             "reverse": false,
             "sha256": "063a38f402439fa39fd8d57315a321e6510adcd04aec5400a88e744aaa60bc8e",
             "url": "https://github.com/trilinos/Trilinos/commit/b17f20a0b91e0b9fc5b1b0af3c8a34e2a4874f3f.patch?full_index=1",
@@ -1397,11 +1350,6 @@
             "default": "none",
             "description": "CUDA architecture",
             "name": "cuda_arch"
-        },
-        {
-            "default": false,
-            "description": "Enable relaxed constexpr functions for CUDA build",
-            "name": "cuda_constexpr"
         },
         {
             "default": false,
@@ -1590,7 +1538,7 @@
         },
         {
             "default": false,
-            "description": "Build PyTrilinos2 wrappers",
+            "description": "Build PyTrilinos wrappers",
             "name": "python"
         },
         {
@@ -1742,10 +1690,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "16.0.0",
-            "sha256": "46bfc40419ed2aa2db38c144fb8e61d4aa8170eaa654a88d833ba6b92903f309"
         },
         {
             "name": "15.1.1",

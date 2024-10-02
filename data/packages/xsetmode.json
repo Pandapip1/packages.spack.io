@@ -36,7 +36,7 @@
     ],
     "dependent_to": [],
     "description": "Set the mode for an X Input device.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xsetmode",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xsetmode",
     "latest_version": "1.0.0",
     "maintainers": [],
     "name": "xsetmode",

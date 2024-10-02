@@ -110,10 +110,6 @@
             "name": "gmic"
         },
         {
-            "description": "Gmsh is a free 3D finite element grid generator with a built-in CAD\nengine and post-processor. Its design goal is to provide a fast, light\nand user-friendly meshing tool with parametric input and advanced\nvisualization capabilities. Gmsh is built around four modules: geometry,\nmesh, solver and post-processing. The specification of any input to\nthese modules is done either interactively using the graphical user\ninterface or in ASCII text files using Gmsh's own scripting language.",
-            "name": "gmsh"
-        },
-        {
             "description": "Software version control visualization.",
             "name": "gource"
         },
@@ -174,7 +170,7 @@
             "name": "itk"
         },
         {
-            "description": "Jim Kent command line bioinformatic utilities and libraries This\nbundles a custom version of htslib, but can be overridden with ~htslib.\nConsider adding the ^mysql+client_only dependency to avoid building all\nmysql/mariadb.",
+            "description": "Jim Kent command line bioinformatic utilities",
             "name": "kentutils"
         },
         {
@@ -274,7 +270,7 @@
             "name": "opencv"
         },
         {
-            "description": "Reading, writing, and processing images in a wide variety of file\nformats, using a format-agnostic API, aimed at VFX applications.",
+            "description": "OpenImageIO is a library for reading and writing images, and a bunch of\nrelated classes, utilities, and applications.",
             "name": "openimageio"
         },
         {
@@ -284,10 +280,6 @@
         {
             "description": "OpenSceneGraph is an open source, high performance 3D graphics toolkit\nthat's used in a variety of visual simulation applications.",
             "name": "openscenegraph"
-        },
-        {
-            "description": "OpenSlide reads whole slide image files.",
-            "name": "openslide"
         },
         {
             "description": "ParaView is an open-source, multi-platform data analysis and\nvisualization application. This package includes the Catalyst in-situ\nlibrary for versions 5.7 and greater, otherwise use the catalyst\npackage.",
@@ -410,16 +402,8 @@
             "name": "texlive"
         },
         {
-            "description": "Thunar File Manager",
-            "name": "thunar"
-        },
-        {
             "description": "Tulip is an information visualization framework dedicated to the\nanalysis and visualization of relational data. Tulip aims to provide the\ndeveloper with a complete library, supporting the design of interactive\ninformation visualization applications for relational data that can be\ntailored to the problems he or she is addressing.",
             "name": "tulip"
-        },
-        {
-            "description": "Tumbler is a D-Bus service for applications to request thumbnails for\nXFCE4",
-            "name": "tumbler"
         },
         {
             "description": "Remove lines from bed file that refer to off-chromosome locations.",

@@ -169,10 +169,6 @@
             "name": "halide"
         },
         {
-            "description": "HybPiper was designed for targeted sequence capture, in which DNA\nsequencing libraries are enriched for gene regions of interest,\nespecially for phylogenetics. HybPiper is a suite of Python scripts that\nwrap and connect bioinformatics tools in order to extract target\nsequences from high-throughput DNA sequencing reads",
-            "name": "hybpiper"
-        },
-        {
             "description": "A python pipeline to identify IS (Insertion Sequence) elements in genome\nand metagenome",
             "name": "isescan"
         },
@@ -249,14 +245,6 @@
             "name": "py-anuga"
         },
         {
-            "description": "Anvi\u2019o is a comprehensive platform that brings together many aspects of\ntoday\u2019s cutting-edge computational strategies of data-enabled\nmicrobiology, including genomics, metagenomics, metatranscriptomics,\npangenomics, metapangenomics, phylogenomics, and microbial population\ngenetics in an integrated and easy-to-use fashion through extensive\ninteractive visualization capabilities.",
-            "name": "py-anvio"
-        },
-        {
-            "description": "Autoregressive Conditional Heteroskedasticity (ARCH) and other tools for\nfinancial econometrics, written in Python (with Cython and/or Numba used\nto improve performance)",
-            "name": "py-arch"
-        },
-        {
             "description": "Python ARM Radar Toolkit. A growing collection of weather radar\nalgorithms and utilities build on top of the Scientific Python stack and\ndistributed under the 3-Clause BSD license. Py-ART is used by the\nAtmospheric Radiation Measurement (ARM) Climate Research Facility for\nworking with data from a number of precipitation and cloud radars, but\nhas been designed so that it can be used by others in the radar and\natmospheric communities to examine, processes, and analyse data from\nmany types of weather radars.",
             "name": "py-arm-pyart"
         },
@@ -283,10 +271,6 @@
         {
             "description": "Pure Python implementation of bayesian global optimization with gaussian\nprocesses.",
             "name": "py-bayesian-optimization"
-        },
-        {
-            "description": "BigDFT: the python interface of BigDFT for electronic structure\ncalculation based on Daubechies wavelets.",
-            "name": "py-bigdft"
         },
         {
             "description": "The BIOM file format (canonically pronounced biome) is designed to be a\ngeneral-use format for representing biological sample by observation\ncontingency tables.",
@@ -321,18 +305,6 @@
             "name": "py-cartopy"
         },
         {
-            "description": "CellProfiler cell image analysis software. CellProfiler is a free open-\nsource software designed to enable biologists without training in\ncomputer vision or programming to quantitatively measure phenotypes from\nthousands of images automatically.",
-            "name": "py-cellprofiler"
-        },
-        {
-            "description": "Core classes and components used by CellProfiler.",
-            "name": "py-cellprofiler-core"
-        },
-        {
-            "description": "An open source image processing library.",
-            "name": "py-centrosome"
-        },
-        {
             "description": "Assess the quality of microbial genomes recovered from isolates, single\ncells, and metagenomes",
             "name": "py-checkm-genome"
         },
@@ -355,10 +327,6 @@
         {
             "description": "Coclust provides both a Python package which implements several diagonal\nand non-diagonal co-clustering algorithms, and a ready to use script to\nperform co- clustering",
             "name": "py-coclust"
-        },
-        {
-            "description": "Creation and manipulation of parameter configuration spaces for\nautomated algorithm configuration and hyperparameter tuning.",
-            "name": "py-configspace"
         },
         {
             "description": "A clean and simple data loading library for Continual Learning",
@@ -453,10 +421,6 @@
             "name": "py-ecos"
         },
         {
-            "description": "I/O support for EEGLAB files in Python.",
-            "name": "py-eeglabio"
-        },
-        {
             "description": "Elephant is a package for analysis of electrophysiology data in Python",
             "name": "py-elephant"
         },
@@ -485,14 +449,6 @@
             "name": "py-fitter"
         },
         {
-            "description": "Framework for studying fluid dynamics.",
-            "name": "py-fluiddyn"
-        },
-        {
-            "description": "Framework for studying fluid dynamics with simulations.",
-            "name": "py-fluidsim"
-        },
-        {
             "description": "Formulaic is a high-performance implementation of Wilkinson formulas for\nPython.",
             "name": "py-formulaic"
         },
@@ -511,10 +467,6 @@
         {
             "description": "This is a Python wrapper for the fortran library used in the R package\nglmnet.",
             "name": "py-glmnet"
-        },
-        {
-            "description": "This is a python version of the popular glmnet library (beta release).\nGlmnet fits the entire lasso or elastic-net regularization path for\nlinear regression, logistic and multinomial regression models, poisson\nregression and the cox model.",
-            "name": "py-glmnet-python"
         },
         {
             "description": "A toolbox for accurate single-trial estimates in fMRI time-series data.",
@@ -555,10 +507,6 @@
         {
             "description": "OpenAI Gym is a toolkit for developing and comparing reinforcement\nlearning algorithms. This is the gym open-source library, which gives\nyou access to a standardized set of environments.",
             "name": "py-gym"
-        },
-        {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
         },
         {
             "description": "Hclust2 is a handy tool for plotting heat-maps with several useful\noptions to produce high quality figures that can be used in publication.",
@@ -689,10 +637,6 @@
             "name": "py-loompy"
         },
         {
-            "description": "LPIPS Similarity metric",
-            "name": "py-lpips"
-        },
-        {
             "description": "Fast spectrogram phase recovery using Local Weighted Sums",
             "name": "py-lws"
         },
@@ -755,10 +699,6 @@
         {
             "description": "MNE python project for MEG and EEG data analysis.",
             "name": "py-mne"
-        },
-        {
-            "description": "MNE-BIDS: Organizing MEG, EEG, and iEEG data according to the BIDS\nspecification and facilitating their analysis with MNE-Python.",
-            "name": "py-mne-bids"
         },
         {
             "description": "The py-motmetrics library provides a Python implementation of metrics\nfor benchmarking multiple object trackers (MOT).",
@@ -973,6 +913,10 @@
             "name": "py-pydv"
         },
         {
+            "description": "PyFR is an open-source Python based framework for solving advection-\ndiffusion type problems on streaming architectures using the Flux\nReconstruction approach of Huynh.",
+            "name": "py-pyfr"
+        },
+        {
             "description": "pyGPs is a Python library for Gaussian Process (GP) Regression and\nClassification.",
             "name": "py-pygps"
         },
@@ -1019,10 +963,6 @@
         {
             "description": "PySCF is a collection of electronic structure programs powered by\nPython.",
             "name": "py-pyscf"
-        },
-        {
-            "description": "Sequence Elements Enrichment Analysis (SEER), python implementation",
-            "name": "py-pyseer"
         },
         {
             "description": "Cortical neuroimaging visualization in Python.",
@@ -1257,10 +1197,6 @@
             "name": "py-torch-cluster"
         },
         {
-            "description": "High-fidelity performance metrics for generative models in PyTorch",
-            "name": "py-torch-fidelity"
-        },
-        {
             "description": "Graph Neural Network Library for PyTorch.",
             "name": "py-torch-geometric"
         },
@@ -1337,10 +1273,6 @@
             "name": "py-yahmm"
         },
         {
-            "description": "Python library to read and process pulsar data in several different\nformats",
-            "name": "py-your"
-        },
-        {
             "description": "Volumetric Data Analysis yt is a python package for analyzing and\nvisualizing volumetric, multi-resolution data from astrophysical\nsimulations, radio telescopes, and a burgeoning interdisciplinary\ncommunity.",
             "name": "py-yt"
         },
@@ -1411,7 +1343,7 @@
     ],
     "description": "Fundamental algorithms for scientific computing in Python.\n",
     "homepage": "https://www.scipy.org/",
-    "latest_version": "1.14.1",
+    "latest_version": "1.13.0",
     "maintainers": [
         "adamjstewart",
         "rgommers"
@@ -1449,18 +1381,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "1.14.1",
-            "sha256": "5a275584e726026a5699459aa72f828a610821006228e841b94275c4a7c08417"
-        },
-        {
-            "name": "1.14.0",
-            "sha256": "b5923f48cb840380f9854339176ef21763118a7300a88203ccd0bdd26e58527b"
-        },
-        {
-            "name": "1.13.1",
-            "sha256": "095a87a0312b08dfd6a6155cbbd310a8c51800fc931b8c0b84003014b874ed3c"
         },
         {
             "name": "1.13.0",

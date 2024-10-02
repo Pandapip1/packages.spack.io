@@ -56,8 +56,8 @@
     ],
     "dependent_to": [],
     "description": "Yambo is a FORTRAN/C code for Many-Body calculations in solid state and\nmolecular physics. Yambo relies on the Kohn-Sham wavefunctions generated\nby two DFT public codes: abinit, and PWscf. The code was originally\ndeveloped in the Condensed Matter Theoretical Group of the Physics\nDepartment at the University of Rome \"Tor Vergata\" by Andrea Marini.\nPrevious to its release under the GPL license, yambo was known as SELF.\n",
-    "homepage": "https://www.yambo-code.org/index.php",
-    "latest_version": "5.2.1",
+    "homepage": "http://www.yambo-code.org/index.php",
+    "latest_version": "5.1.1",
     "maintainers": [],
     "name": "yambo",
     "patches": [],
@@ -95,10 +95,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "5.2.1",
-            "sha256": "0ac362854313927d75bbf87be98ff58447f3805f79724c38dc79df07f03a7046"
-        },
         {
             "name": "5.1.1",
             "sha256": "c85036ca60507e627c47b6c6aee8241830349e88110e1ce9132ef03ab2c4e9f6"

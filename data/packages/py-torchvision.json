@@ -149,10 +149,6 @@
             "name": "py-lightly"
         },
         {
-            "description": "LPIPS Similarity metric",
-            "name": "py-lpips"
-        },
-        {
             "description": "MXfold2: RNA secondary structure prediction using deep learning with\nthermodynamic integration",
             "name": "py-mxfold2"
         },
@@ -173,10 +169,6 @@
             "name": "py-timm"
         },
         {
-            "description": "High-fidelity performance metrics for generative models in PyTorch",
-            "name": "py-torch-fidelity"
-        },
-        {
             "description": "A collection of open source benchmarks used to evaluate PyTorch\nperformance.",
             "name": "py-torchbenchmark"
         },
@@ -189,10 +181,6 @@
             "name": "py-torchmeta"
         },
         {
-            "description": "A library for accelerating Transformer models on NVIDIA GPUs, including\nfp8 precision on Hopper GPUs.",
-            "name": "py-transformer-engine"
-        },
-        {
             "description": "Ultralytics YOLOv8, developed by Ultralytics, is a cutting-edge, state-\nof-the-art (SOTA) model that builds upon the success of previous YOLO\nversions and introduces new features and improvements to further boost\nperformance and flexibility. YOLOv8 is designed to be fast, accurate,\nand easy to use, making it an excellent choice for a wide range of\nobject detection, image segmentation and image classification tasks.",
             "name": "py-ultralytics"
         },
@@ -203,7 +191,7 @@
     ],
     "description": "Image and video datasets and models for torch deep learning.\n",
     "homepage": "https://github.com/pytorch/vision",
-    "latest_version": "0.19.1",
+    "latest_version": "0.18.0",
     "maintainers": [
         "adamjstewart"
     ],
@@ -228,7 +216,7 @@
         },
         {
             "default": false,
-            "description": "Enable support for native encoding/decoding of NVJPEG formats in torchvision.io",
+            "description": "Enable support for native encoding/decoding of JPEG formats in torchvision.io",
             "name": "nvjpeg"
         },
         {
@@ -246,18 +234,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "0.19.1",
-            "sha256": "083e75c467285595ec3eb3c7aa8493c19e53d7eb42f13046fb56a07c8897e5a8"
-        },
-        {
-            "name": "0.19.0",
-            "sha256": "4c499d0a412b5a21d55ac3c0a37e80ecd7e1f002f2a7b6b3b38a2de2544acbb6"
-        },
-        {
-            "name": "0.18.1",
-            "sha256": "347d472a9ceecc44e0bee1eda140d63cfaffc74a54ec07d4b98da7698ce75516"
         },
         {
             "name": "0.18.0",

@@ -3,9 +3,9 @@
     "build_system": "CMakePackage",
     "conflicts": [
         {
-            "description": "visit: GUI cannot be activated with OSMesa front-end",
+            "description": null,
             "name": "+gui",
-            "spec": "^[virtuals=gl] osmesa"
+            "spec": "+osmesa"
         },
         {
             "description": null,
@@ -25,10 +25,6 @@
         {
             "description": "Conduit is an open source project from Lawrence Livermore National\nLaboratory that provides an intuitive model for describing hierarchical\nscientific data in C++, C, Fortran, and Python. It is used for data\ncoupling between packages in-core, serialization, and I/O tasks.",
             "name": "conduit"
-        },
-        {
-            "description": "External WGl and Windows OpenGL emulation representation in Spack",
-            "name": "gl"
         },
         {
             "description": "This package provides the Mesa OpenGL Utility library.",
@@ -107,10 +103,6 @@
         {
             "description": "Damaris is a middleware for I/O and in situ analytics targeting large-\nscale, MPI-based HPC simulations.",
             "name": "damaris"
-        },
-        {
-            "description": "Data & Vis SDK ** This package is a post-ECP port from the ECP Data &\nVis SDK **",
-            "name": "dav-sdk"
         },
         {
             "description": "ECP Data & Vis SDK",
@@ -309,6 +301,11 @@
             "default": true,
             "description": "Enable NetCDF file format",
             "name": "netcdf"
+        },
+        {
+            "default": false,
+            "description": "Use OSMesa for off-screen CPU rendering",
+            "name": "osmesa"
         },
         {
             "default": true,

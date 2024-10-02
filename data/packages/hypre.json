@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -438,11 +398,6 @@
             "spec": "build_system=autotools"
         },
         {
-            "description": "hypre: cuBLAS requires CUDA to be enabled",
-            "name": "+cublas",
-            "spec": "~cuda"
-        },
-        {
             "description": null,
             "name": "+unified-memory",
             "spec": "~cuda~rocm"
@@ -451,11 +406,6 @@
             "description": null,
             "name": "+gptune",
             "spec": "~mpi"
-        },
-        {
-            "description": "hypre: rocBLAS requires ROCm to be enabled",
-            "name": "+rocblas",
-            "spec": "~rocm"
         }
     ],
     "dependencies": [
@@ -695,24 +645,6 @@
             "sha256": "6e3336b1d62155f6350dfe42b0f9ea25d4fa0af60c7e540959139deb93a26059",
             "version": "@2.15.0:2.20.0",
             "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.hypre",
-            "relative_path": "hypre-precision-fix.patch",
-            "reverse": false,
-            "sha256": "9f0e26c5c5c813b6bfc57749db43b461bbf5396ba1a84db350c9c9bd990d5c1d",
-            "version": "precision=single",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.hypre",
-            "relative_path": "hypre-precision-fix.patch",
-            "reverse": false,
-            "sha256": "9f0e26c5c5c813b6bfc57749db43b461bbf5396ba1a84db350c9c9bd990d5c1d",
-            "version": "precision=longdouble",
-            "working_dir": "."
         }
     ],
     "resources": [],
@@ -736,11 +668,6 @@
             "default": false,
             "description": "Use complex values",
             "name": "complex"
-        },
-        {
-            "default": false,
-            "description": "Enable cuBLAS",
-            "name": "cublas"
         },
         {
             "default": false,
@@ -801,16 +728,6 @@
             "default": false,
             "description": "Enable OpenMP support",
             "name": "openmp"
-        },
-        {
-            "default": "double",
-            "description": "Floating point precision",
-            "name": "precision"
-        },
-        {
-            "default": false,
-            "description": "Enable rocBLAS",
-            "name": "rocblas"
         },
         {
             "default": false,

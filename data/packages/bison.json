@@ -25,10 +25,6 @@
     ],
     "dependencies": [
         {
-            "description": "GNU Diffutils is a package of several programs related to finding\ndifferences between files.",
-            "name": "diffutils"
-        },
-        {
             "description": "GNU internationalization (i18n) and localization (l10n) library.",
             "name": "gettext"
         },
@@ -117,6 +113,10 @@
         {
             "description": "Cscope is a developer's tool for browsing source code.",
             "name": "cscope"
+        },
+        {
+            "description": "CutLang is a domain specific language that aims to provide a clear,\nhuman readable way to define analyses in high energy particle physics\n(HEP) along with an interpretation framework of that language.",
+            "name": "cutlang"
         },
         {
             "description": "High-abstracted network simulator for message-passing programs.",
@@ -247,24 +247,8 @@
             "name": "libxkbcommon"
         },
         {
-            "description": "The Linux kernel provides services to start and stop programs, handles\nthe file system and other common \"low-level\" tasks that most programs\nshare, and schedules access to avoid conflicts when programs try to\naccess the same resource or device simultaneously. The kernel has a\nmodular design such that modules can be integrated as software\ncomponents. In this package, Linux has been configured to build out-of-\ntree kernel modules.",
-            "name": "linux-external-modules"
-        },
-        {
-            "description": "Linux PAM (Pluggable Authentication Modules for Linux) project.",
-            "name": "linux-pam"
-        },
-        {
-            "description": "The Linux perf tool.",
-            "name": "linux-perf"
-        },
-        {
             "description": "The lm-sensors package provides user-space support for the hardware\nmonitoring drivers in Linux.",
             "name": "lm-sensors"
-        },
-        {
-            "description": "Makedepf90 is a program for automatic creation of Makefile-style\ndependency lists for Fortran source code.",
-            "name": "makedepf90"
         },
         {
             "description": "MariaDB Server is one of the most popular database servers in the world.\nMariaDB turns data into structured information in a wide array of\napplications, ranging from banking to websites. It is an enhanced, drop-\nin replacement for MySQL. MariaDB is used because it is fast, scalable\nand robust, with a rich ecosystem of storage engines, plugins and many\nother tools make it very versatile for a wide variety of use cases.",
@@ -273,6 +257,10 @@
         {
             "description": "Mesa is an open-source implementation of the OpenGL specification - a\nsystem for rendering interactive 3D graphics.",
             "name": "mesa"
+        },
+        {
+            "description": "Mesa is an open-source implementation of the OpenGL specification - a\nsystem for rendering interactive 3D graphics.",
+            "name": "mesa18"
         },
         {
             "description": "Bundles multiple MINC-related packages",
@@ -429,10 +417,6 @@
         {
             "description": "Software framework for scalable cross-language services development.\nThrift combines a software stack with a code generation engine to build\nservices that work efficiently and seamlessly between C++, Java, Python,\nPHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa, JavaScript, Node.js,\nSmalltalk, OCaml and Delphi and other languages.",
             "name": "thrift"
-        },
-        {
-            "description": "A compiler for tensor computations on GPUs and other devices, supporting\nthe OpenCL, Level Zero, and SYCL runtime.",
-            "name": "tiny-tensor-compiler"
         },
         {
             "description": "Tnftp is an FTP client. It is the default FTP client included with many\nBSD operating systems and Darwin",

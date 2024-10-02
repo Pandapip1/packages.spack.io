@@ -46,10 +46,6 @@
             "name": "babl"
         },
         {
-            "description": "CoinHSL is a collection of linear algebra libraries (KB22, MA27, MA28,\nMA54, MA57, MA64, MA77, MA86, MA97, MC19, MC34, MC64, MC68, MC69, MC78,\nMC80, OF01, ZB01, ZB11) bundled for use with IPOPT and other\napplications that use these HSL routines. Note: CoinHSL is licensed\nsoftware. You will need to request a license from Research Councils UK\nand download a .tar.gz archive of CoinHSL yourself. Spack will search\nyour current directory for the download file. Alternatively, add this\nfile to a mirror so that Spack can find it. For instructions on how to\nset up a mirror, see https://spack.readthedocs.io/en/latest/mirrors.html",
-            "name": "coinhsl"
-        },
-        {
             "description": "Generally Applicable Atomic-Charge Dependent London Dispersion\nCorrection",
             "name": "dftd4"
         },
@@ -126,10 +122,6 @@
             "name": "libfuse"
         },
         {
-            "description": "Provides GObject bindings for libudev.",
-            "name": "libgudev"
-        },
-        {
             "description": "inih (INI Not Invented Here) is a simple .INI file parser written in C.",
             "name": "libinih"
         },
@@ -158,14 +150,6 @@
             "name": "libslirp"
         },
         {
-            "description": "Window Navigator Construction Kit",
-            "name": "libwnck"
-        },
-        {
-            "description": "Implementation of the VESA CVT standard timing modelines generator.",
-            "name": "libxcvt"
-        },
-        {
             "description": "xkbcommon is a library to handle keyboard descriptions, including\nloading them from disk, parsing them and handling their state. It's\nmainly meant for client toolkits, window systems, and other system\napplications.",
             "name": "libxkbcommon"
         },
@@ -178,20 +162,12 @@
             "name": "mesa"
         },
         {
-            "description": "OpenSlide reads whole slide image files.",
-            "name": "openslide"
-        },
-        {
             "description": "Pango is a library for laying out and rendering of text, with an\nemphasis on internationalization. It can be used anywhere that text\nlayout is needed, though most of the work on Pango so far has been done\nin the context of the GTK+ widget toolkit.",
             "name": "pango"
         },
         {
             "description": "The pbbam software package provides components to create, query, & edit\nPacBio BAM files and associated indices. These components include a core\nC++ library, bindings for additional languages, and command-line\nutilities.",
             "name": "pbbam"
-        },
-        {
-            "description": "Python library for calculating contours of 2D quadrilateral grids.",
-            "name": "py-contourpy"
         },
         {
             "description": "Meson Python build backend (PEP 517).",
@@ -258,17 +234,13 @@
             "name": "wayland-protocols"
         },
         {
-            "description": "X Window System unified protocol definitions replacing standalone protos",
-            "name": "xorgproto"
-        },
-        {
             "description": "Semiempirical extended tight binding program package",
             "name": "xtb"
         }
     ],
     "description": "Meson is a portable open source build system meant to be both extremely\nfast, and as user friendly as possible.\n",
     "homepage": "https://mesonbuild.com/",
-    "latest_version": "1.5.1",
+    "latest_version": "1.3.2",
     "maintainers": [
         "eli-schwartz",
         "michaelkuhn"
@@ -349,14 +321,6 @@
     ],
     "versions": [
         {
-            "name": "1.5.1",
-            "sha256": "55f6acd5bf72c14d4aa5a781993633f84a1d117bdf2c2057735902ced9b81390"
-        },
-        {
-            "name": "1.4.2",
-            "sha256": "11d1336fe35e1ade57510a846a31d7dc2e3b6ac1e2491c2831bce5a2a192ba0d"
-        },
-        {
             "name": "1.3.2",
             "sha256": "683082fb3c5cddf203b21d29bdf4c227e2f7964da5324a15e1a5f7db94322b4b"
         },
@@ -364,16 +328,6 @@
             "name": "1.2.2",
             "sha256": "1caa0ef6082e311bdca9836e7907f548b8c3f041a42ed41f0ff916b83ac7dddd"
         },
-        {
-            "name": "1.1.1",
-            "sha256": "1c3b9e1a3a36b51adb5de498d582fd5cbf6763fadbcf151de9f2a762e02bd2e6"
-        },
-        {
-            "name": "1.0.2",
-            "sha256": "1f1239c3091668643f7d2086663d6afd8cc87fbab84fe7462bc18b9ba6d65de8"
-        }
-    ],
-    "versions_deprecated": [
         {
             "name": "1.2.1",
             "sha256": "e1f3b32b636cc86496261bd89e63f00f206754697c7069788b62beed5e042713"
@@ -383,8 +337,16 @@
             "sha256": "603489f0aaa6305f806c6cc4a4455a965f22290fc74f65871f589b002110c790"
         },
         {
+            "name": "1.1.1",
+            "sha256": "1c3b9e1a3a36b51adb5de498d582fd5cbf6763fadbcf151de9f2a762e02bd2e6"
+        },
+        {
             "name": "1.1.0",
             "sha256": "f29a3e14062043d75e82d16f1e41856e6b1ed7a7c016e10c7b13afa7ee6364cc"
+        },
+        {
+            "name": "1.0.2",
+            "sha256": "1f1239c3091668643f7d2086663d6afd8cc87fbab84fe7462bc18b9ba6d65de8"
         },
         {
             "name": "1.0.1",
@@ -542,5 +504,6 @@
             "name": "0.41.1",
             "sha256": "a48901f02ffeb9ff5cf5361d71b1fca202f9cd72998043ad011fc5de0294cf8b"
         }
-    ]
+    ],
+    "versions_deprecated": []
 }

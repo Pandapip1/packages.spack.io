@@ -54,7 +54,7 @@
     ],
     "description": "Universal Ctags generates an index (or tag) file of language objects\nfound in source files for many popular programming languages. This index\nmakes it easy for text editors and other tools to locate the indexed\nitems.\n",
     "homepage": "https://ctags.io/",
-    "latest_version": "6.1.20240505.0",
+    "latest_version": "5.9.20210912.0",
     "maintainers": [],
     "name": "universal-ctags",
     "patches": [],
@@ -70,10 +70,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "6.1.20240505.0",
-            "sha256": "d9329d9d28c8280fcf8626594813958d9f90160ad6c7f10b0341a577d5b53527"
         },
         {
             "name": "5.9.20210912.0",

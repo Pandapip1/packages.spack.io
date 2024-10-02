@@ -16,27 +16,9 @@
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
-        },
-        {
-            "description": null,
-            "name": "arch=darwin-None-None",
-            "spec": "build_system=msbuild"
-        },
-        {
-            "description": null,
-            "name": "arch=linux-None-None",
-            "spec": "build_system=msbuild"
         }
     ],
     "dependencies": [
-        {
-            "description": "Autoconf -- system configuration part of autotools",
-            "name": "autoconf"
-        },
-        {
-            "description": "Automake -- make file builder part of autotools",
-            "name": "automake"
-        },
         {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
@@ -44,10 +26,6 @@
         {
             "description": "The GNU config.guess and config.sub scripts versioned by timestamp.\nThis package can be used as a build dependency for autotools packages\nthat ship a tarball with outdated config.guess and config.sub files.",
             "name": "gnuconfig"
-        },
-        {
-            "description": "libtool -- library building part of autotools.",
-            "name": "libtool"
         },
         {
             "description": "The Python programming language.",
@@ -112,10 +90,6 @@
             "name": "r-stringi"
         },
         {
-            "description": "RE2 is a fast, safe, thread-friendly alternative to backtracking regular\nexpression engines like those used in PCRE, Perl, and Python.",
-            "name": "re2"
-        },
-        {
             "description": "RStudio is an integrated development environment (IDE) for R.",
             "name": "rstudio"
         },
@@ -138,7 +112,7 @@
     ],
     "description": "ICU is a mature, widely used set of C/C++ and Java libraries providing\nUnicode and Globalization support for software applications. ICU4C is\nthe C/C++ interface.\n",
     "homepage": "http://site.icu-project.org/",
-    "latest_version": "74.2",
+    "latest_version": "67.1",
     "maintainers": [],
     "name": "icu4c",
     "patches": [
@@ -166,10 +140,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "74.2",
-            "sha256": "68db082212a96d6f53e35d60f47d38b962e9f9d207a74cfac78029ae8ff5e08c"
-        },
         {
             "name": "67.1",
             "sha256": "94a80cd6f251a53bd2a997f6f1b5ac6653fe791dfab66e1eb0227740fb86d5dc"

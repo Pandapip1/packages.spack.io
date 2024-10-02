@@ -40,7 +40,7 @@
     ],
     "dependent_to": [],
     "description": "The xstdcmap utility can be used to selectively define standard colormap\nproperties. It is intended to be run from a user's X startup script to\ncreate standard colormap definitions in order to facilitate sharing of\nscarce colormap resources among clients using PseudoColor visuals.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xstdcmap",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xstdcmap",
     "latest_version": "1.0.5",
     "maintainers": [],
     "name": "xstdcmap",

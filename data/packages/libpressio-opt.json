@@ -36,7 +36,7 @@
     ],
     "description": "Metacompressor which preforms optimization of compressor settings for\nLibPressio\n",
     "homepage": "https://github.com/robertu94/libpressio_opt",
-    "latest_version": "0.15.4",
+    "latest_version": "0.15.0",
     "maintainers": [
         "robertu94"
     ],
@@ -69,10 +69,6 @@
         {
             "branch": "develop",
             "name": "develop"
-        },
-        {
-            "name": "0.15.4",
-            "sha256": "43ff4a13300eb0812066b193f0883295156c85a5980f225e739f95f029c77f92"
         },
         {
             "name": "0.15.0",

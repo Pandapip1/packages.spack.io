@@ -46,24 +46,8 @@
             "name": "libxslt"
         },
         {
-            "description": "The PyPA recommended tool for installing Python packages.",
-            "name": "py-pip"
-        },
-        {
-            "description": "A Python utility that aids in the process of downloading, building,\nupgrading, installing, and uninstalling Python packages.",
-            "name": "py-setuptools"
-        },
-        {
-            "description": "A built-package format for Python.",
-            "name": "py-wheel"
-        },
-        {
             "description": "The Python programming language.",
             "name": "python"
-        },
-        {
-            "description": "A Spack managed Python virtual environment",
-            "name": "python-venv"
         }
     ],
     "dependent_to": [
@@ -72,28 +56,20 @@
             "name": "flux-core"
         },
         {
-            "description": "Library to parse raw trace event formats.",
-            "name": "libtraceevent"
-        },
-        {
-            "description": "The Linux perf tool.",
-            "name": "linux-perf"
-        },
-        {
             "description": "Tesseract Open Source OCR Engine.",
             "name": "tesseract"
         }
     ],
     "description": "A presentable text document format for writing articles, UNIX man pages\nand other small to medium sized documents.\n",
     "homepage": "https://asciidoc-py.org/",
-    "latest_version": "10.2.0",
+    "latest_version": "9.1.0",
     "maintainers": [],
     "name": "asciidoc",
     "patches": [],
     "resources": [],
     "variants": [
         {
-            "default": "python_pip",
+            "default": "autotools",
             "description": "Build systems supported by the package",
             "name": "build_system"
         }
@@ -102,10 +78,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "10.2.0",
-            "sha256": "684ea53c1f5b71d6d1ac6086bbc96906b1f709ecc7ab536615b0f0c9e1baa3cc"
         },
         {
             "name": "9.1.0",

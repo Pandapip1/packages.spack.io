@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -588,10 +548,9 @@
     ],
     "description": "C++ runtime system for parallel and distributed applications.\n",
     "homepage": "https://hpx.stellar-group.org/",
-    "latest_version": "1.10.0",
+    "latest_version": "1.9.1",
     "maintainers": [
         "albestro",
-        "diehlpk",
         "hkaiser",
         "msimberg",
         "teonnik"
@@ -690,7 +649,7 @@
             "name": "malloc"
         },
         {
-            "default": "auto",
+            "default": "64",
             "description": "Max number of OS-threads for HPX applications",
             "name": "max_cpu_count"
         },
@@ -719,10 +678,6 @@
             "commit": "103a7b8e3719a0db948d1abde29de0ff91e070be",
             "name": "stable",
             "tag": "stable"
-        },
-        {
-            "name": "1.10.0",
-            "sha256": "5720ed7d2460fa0b57bd8cb74fa4f70593fe8675463897678160340526ec3c19"
         },
         {
             "name": "1.9.1",

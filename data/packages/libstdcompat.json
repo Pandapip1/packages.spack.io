@@ -53,10 +53,6 @@
     ],
     "dependent_to": [
         {
-            "description": "DCTZ is a compressor based on FFTs",
-            "name": "dctz"
-        },
-        {
             "description": "a collection of facilities for MPI that create for higher level\nfacilities for programming in C++",
             "name": "libdistributed"
         },
@@ -67,7 +63,7 @@
     ],
     "description": "A compatibility header for C++14, 17, and 20 for C++11\n",
     "homepage": "https://github.com/robertu94/std_compat",
-    "latest_version": "0.0.21",
+    "latest_version": "0.0.17",
     "maintainers": [
         "robertu94"
     ],
@@ -115,18 +111,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "0.0.21",
-            "sha256": "67cfd57080a74752b4c239e031cc44734286589a89bb1cd51a8bd7039f87a3f3"
-        },
-        {
-            "name": "0.0.20",
-            "sha256": "9fdc632eb135f57132953b512d8f9101e8eb4e6a88e6c3b838aaa9c51a2dbfd6"
-        },
-        {
-            "name": "0.0.19",
-            "sha256": "584ee52b1f82671e5d8fde786c46aa7e98d30104674c6f4b75dbae8d83b13f21"
         },
         {
             "name": "0.0.17",

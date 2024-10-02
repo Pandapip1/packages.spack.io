@@ -72,7 +72,7 @@
     ],
     "description": "The PennyLane-Lightning plugin provides a fast state-vector simulator\nwritten in C++.\n",
     "homepage": "https://docs.pennylane.ai/projects/lightning",
-    "latest_version": "0.37.0",
+    "latest_version": "0.35.1",
     "maintainers": [
         "AmintorDusko",
         "mlxd",
@@ -147,14 +147,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "0.37.0",
-            "sha256": "3f70e3e3b7e4d0f6a679919c0c83e451e129666b021bb529dd02eb915d0666a0"
-        },
-        {
-            "name": "0.36.0",
-            "sha256": "c5fb24bdaf2ebdeaf614bfb3a8bcc07ee83c2c7251a3893399bb0c189d2d1d01"
         },
         {
             "name": "0.35.1",

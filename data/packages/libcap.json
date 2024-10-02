@@ -20,20 +20,12 @@
             "name": "bfs"
         },
         {
-            "description": "BIND 9 has evolved to be a very flexible, full-featured DNS system.",
-            "name": "bind9"
-        },
-        {
             "description": "Unprivileged sandboxing tool",
             "name": "bubblewrap"
         },
         {
             "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely. Note:\nGEOPM interfaces with hardware using Model Specific Registers (MSRs).\nFor proper usage make sure MSRs are made available via the msr or msr-\nsafe kernel modules by your administrator.",
             "name": "geopm-service"
-        },
-        {
-            "description": "The Linux perf tool.",
-            "name": "linux-perf"
         },
         {
             "description": "mpiFileUtils is a suite of MPI-based tools to manage large datasets,\nwhich may vary from large directory trees to large files. High-\nperformance computing users often generate large datasets with parallel\napplications that run with many processes (millions in some cases).\nHowever those users are then stuck with single-process tools like cp and\nrm to manage their datasets. This suite provides MPI-based tools to\nhandle typical jobs like copy, remove, and compare for such datasets,\nproviding speedups of up to 20-30x.",
@@ -70,7 +62,7 @@
     ],
     "description": "Libcap implements the user-space interfaces to the POSIX 1003.1e\ncapabilities available in Linux kernels. These capabilities are a\npartitioning of the all powerful root privilege into a set of distinct\nprivileges.\n",
     "homepage": "https://sites.google.com/site/fullycapable/",
-    "latest_version": "2.69",
+    "latest_version": "2.68",
     "maintainers": [],
     "name": "libcap",
     "patches": [
@@ -93,10 +85,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.69",
-            "sha256": "3a99ec26452e328e0ea408efd67096ef914f4ee4788fa8e8e21f214e2bd670b9"
-        },
         {
             "name": "2.68",
             "sha256": "046e55716e0643b565efcd1dab1d26c5625709fcd0b5c271290c7ea1524cf906"

@@ -57,7 +57,7 @@
     "dependent_to": [],
     "description": "FreeFEM is a popular 2D and 3D partial differential equations (PDE)\nsolver. It allows you to easily implement your own physics modules using\nthe provided FreeFEM language. FreeFEM offers a large list of finite\nelements, like the Lagrange, Taylor-Hood, etc., usable in the continuous\nand discontinuous Galerkin method framework.\n",
     "homepage": "https://freefem.org",
-    "latest_version": "4.14",
+    "latest_version": "4.10",
     "maintainers": [
         "corentin-dev"
     ],
@@ -101,22 +101,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "4.14",
-            "sha256": "931cbfe9ef6f6530756c300c5ae47bfdaca21c560a5407cb33325a376a3b6af8"
-        },
-        {
-            "name": "4.13",
-            "sha256": "aefd4ff02333209f7433abef2e74acb621b6946063ff27e81cf2da43120b6ae4"
-        },
-        {
-            "name": "4.12",
-            "sha256": "291c5f46761711d6303914f9c4f165fd85a7b7b69141f7473e0b6484ce6ab0f5"
-        },
-        {
-            "name": "4.11",
-            "sha256": "d0c6921791e5f94646d8dde4d9ed3c11b979e47e7bbb3c0a66467b04dd56983a"
-        },
         {
             "name": "4.10",
             "sha256": "957994c8f24cc2a671b8c116ae530796c3a431d4157ee71a3d6aab7122e7570d"

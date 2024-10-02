@@ -24,15 +24,11 @@
         {
             "description": "A low-level profiler for capture I/O calls from deep learning\napplications.",
             "name": "py-dlio-profiler-py"
-        },
-        {
-            "description": "A low-level profiler for capture I/O calls from deep learning\napplications.",
-            "name": "py-pydftracer"
         }
     ],
     "description": "A simple C++ logger\n",
     "homepage": "https://github.com/hariharan-devarajan/cpp-logger",
-    "latest_version": "0.0.4",
+    "latest_version": "0.0.3",
     "maintainers": [
         "hariharan-devarajan"
     ],
@@ -69,11 +65,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "commit": "2231deee4b74fb1ddae3dae0618baaead4fecf75",
-            "name": "0.0.4",
-            "tag": "v0.0.4"
         },
         {
             "commit": "398e6fa1eb4442cba94d46ecacfa47a426474387",

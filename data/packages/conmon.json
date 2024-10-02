@@ -54,7 +54,7 @@
     ],
     "description": "An OCI container runtime monitor\n",
     "homepage": "https://github.com/containers/conmon",
-    "latest_version": "2.1.12",
+    "latest_version": "2.1.7",
     "maintainers": [
         "bernhardkaindl"
     ],
@@ -69,10 +69,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.1.12",
-            "sha256": "842f0b5614281f7e35eec2a4e35f9f7b9834819aa58ecdad8d0ff6a84f6796a6"
-        },
         {
             "name": "2.1.7",
             "sha256": "7d0f9a2f7cb8a76c51990128ac837aaf0cc89950b6ef9972e94417aa9cf901fe"

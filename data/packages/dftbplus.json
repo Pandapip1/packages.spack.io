@@ -92,7 +92,7 @@
     "dependent_to": [],
     "description": "DFTB+ is an implementation of the Density Functional based Tight Binding\n(DFTB) method, containing many extensions to the original method.\n",
     "homepage": "https://www.dftbplus.org",
-    "latest_version": "24.1",
+    "latest_version": "23.1",
     "maintainers": [
         "HaoZeke",
         "aradi",
@@ -212,10 +212,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "24.1",
-            "sha256": "3bc405d1ab834b6b145ca671fb44565ec50a6f576e9e18e7a1ae2c613a311321"
         },
         {
             "name": "23.1",

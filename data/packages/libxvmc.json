@@ -48,8 +48,8 @@
     ],
     "dependent_to": [],
     "description": "X.org libXvMC library.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXvMC",
-    "latest_version": "1.0.14",
+    "homepage": "https://cgit.freedesktop.org/xorg/lib/libXvMC",
+    "latest_version": "1.0.13",
     "maintainers": [
         "wdconinc"
     ],
@@ -64,10 +64,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.0.14",
-            "sha256": "3ad5d2b991219e2bf9b2f85d40b12c16f1afec038715e462f6058af73a9b5ef8"
-        },
         {
             "name": "1.0.13",
             "sha256": "e630b4373af8c67a7c8f07ebe626a1269a613d262d1f737b57231a06f7c34b4e"

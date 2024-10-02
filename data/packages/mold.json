@@ -4,10 +4,6 @@
     "conflicts": [],
     "dependencies": [
         {
-            "description": "BLAKE3 is a cryptographic hash function",
-            "name": "blake3"
-        },
-        {
             "description": "A cross-platform, open-source build system. CMake is a family of tools\ndesigned to build, test and package software.",
             "name": "cmake"
         },
@@ -34,23 +30,14 @@
         {
             "description": "zlib replacement with optimizations for next generation systems.",
             "name": "zlib-api"
-        },
-        {
-            "description": "Zstandard, or zstd as short version, is a fast lossless compression\nalgorithm, targeting real-time compression scenarios at zlib-level and\nbetter compression ratios.",
-            "name": "zstd"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C,\nFortran, Ada, and Go, as well as libraries for these languages.",
-            "name": "gcc"
-        }
-    ],
+    "dependent_to": [],
     "description": "mold: A Modern Linker\n",
     "homepage": "https://github.com/rui314/mold",
-    "latest_version": "2.34.0",
+    "latest_version": "2.31.0",
     "maintainers": [
-        "msimberg"
+        "jabcross"
     ],
     "name": "mold",
     "patches": [],
@@ -78,22 +65,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.34.0",
-            "sha256": "6067f41f624c32cb0f4e959ae7fabee5dd71dd06771e2c069c2b3a6a8eca3c8c"
-        },
-        {
-            "name": "2.33.0",
-            "sha256": "37b3aacbd9b6accf581b92ba1a98ca418672ae330b78fe56ae542c2dcb10a155"
-        },
-        {
-            "name": "2.32.1",
-            "sha256": "f3c9a527d884c635834fe7d79b3de959b00783bf9446280ea274d996f0335825"
-        },
-        {
-            "name": "2.32.0",
-            "sha256": "4b7e4146ea0f52be9adae8b417399f3676a041e65b55e3f25f088120d30a320b"
-        },
         {
             "name": "2.31.0",
             "sha256": "3dc3af83a5d22a4b29971bfad17261851d426961c665480e2ca294e5c74aa1e5"

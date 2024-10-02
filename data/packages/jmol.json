@@ -10,7 +10,7 @@
     ],
     "dependent_to": [],
     "description": "Jmol: an open-source Java viewer for chemical structures in 3D with\nfeatures for chemicals, crystals, materials and biomolecules.\n",
-    "homepage": "https://jmol.sourceforge.net/",
+    "homepage": "http://jmol.sourceforge.net/",
     "latest_version": "14.31.0",
     "maintainers": [],
     "name": "jmol",

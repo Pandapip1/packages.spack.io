@@ -99,6 +99,36 @@
             "destination": "",
             "name": "opencl-on-vdi",
             "placement": "opencl-on-vdi",
+            "version": "@5.2.3"
+        },
+        {
+            "destination": "",
+            "name": "opencl-on-vdi",
+            "placement": "opencl-on-vdi",
+            "version": "@5.2.1"
+        },
+        {
+            "destination": "",
+            "name": "opencl-on-vdi",
+            "placement": "opencl-on-vdi",
+            "version": "@5.2.0"
+        },
+        {
+            "destination": "",
+            "name": "opencl-on-vdi",
+            "placement": "opencl-on-vdi",
+            "version": "@5.1.3"
+        },
+        {
+            "destination": "",
+            "name": "opencl-on-vdi",
+            "placement": "opencl-on-vdi",
+            "version": "@5.1.0"
+        },
+        {
+            "destination": "",
+            "name": "opencl-on-vdi",
+            "placement": "opencl-on-vdi",
             "version": "@master"
         }
     ],
@@ -144,9 +174,7 @@
         {
             "name": "5.5.0",
             "sha256": "efbae9a1ef2ab3de5ca44091e9bb78522e76759c43524c1349114f9596cc61d1"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "5.4.3",
             "sha256": "71d9668619ab57ec8a4564d11860438c5aad5bd161a3e58fbc49555fbd59182d"
@@ -162,7 +190,9 @@
         {
             "name": "5.3.0",
             "sha256": "2bf14116b5e2270928265f5d417b3d0f0f2e13cbc8ec5eb8c80d4d4a58ff7e94"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "5.2.3",
             "sha256": "0493c414d4db1af8e1eb30a651d9512044644244488ebb13478c2138a7612998"

@@ -69,21 +69,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -239,11 +224,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -270,32 +250,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -378,17 +338,7 @@
             "spec": "+cuda ^cuda@:9~allow-unsupported-compilers arch=None-None-ppc64le:"
         },
         {
-            "description": "tandem: A value for cuda_arch must be specified. Add cuda_arch=XX",
-            "name": "cuda_arch=none",
-            "spec": "+cuda"
-        },
-        {
             "description": null,
-            "name": "amdgpu_target=none",
-            "spec": "+rocm"
-        },
-        {
-            "description": "tandem: A value for amdgpu_arch must be specified. Add amdgpu_arch=XX",
             "name": "amdgpu_target=none",
             "spec": "+rocm"
         }
@@ -471,14 +421,6 @@
             "name": "petsc"
         },
         {
-            "description": "Fundamental package for array computing in Python.",
-            "name": "py-numpy"
-        },
-        {
-            "description": "The Python programming language.",
-            "name": "python"
-        },
-        {
             "description": "zlib replacement with optimizations for next generation systems.",
             "name": "zlib-api"
         }
@@ -559,11 +501,6 @@
             "default": "2",
             "description": "Polynomial degree",
             "name": "polynomial_degree"
-        },
-        {
-            "default": false,
-            "description": "installs python and numpy",
-            "name": "python"
         },
         {
             "default": false,

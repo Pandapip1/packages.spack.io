@@ -20,10 +20,6 @@
     ],
     "dependent_to": [
         {
-            "description": "The Linux perf tool.",
-            "name": "linux-perf"
-        },
-        {
             "description": "A library for text mode user interfaces.",
             "name": "newt"
         }

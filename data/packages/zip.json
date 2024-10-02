@@ -143,24 +143,6 @@
             "sha256": "fa8312c722a1cf774af588d5534745f2231130da0f40a44bba5b394eb13a5c64",
             "version": "",
             "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.zip",
-            "relative_path": "11-typo-it-is-ambiguities-not-amgibuities.patch",
-            "reverse": false,
-            "sha256": "b930b691dd0e254afc20690014f81d1749d7ddc302ae770b06ca9acf13212c68",
-            "version": "",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.zip",
-            "relative_path": "12-gcc14-no-implicit-declarations-fix.patch",
-            "reverse": false,
-            "sha256": "195095ab7b33167dd8b9495f96ce4ff79d654ec2506b19e80e909ae835c64219",
-            "version": "%gcc@14:",
-            "working_dir": "."
         }
     ],
     "resources": [],

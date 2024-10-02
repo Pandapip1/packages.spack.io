@@ -84,20 +84,10 @@
     ],
     "description": "Subsystem focused quantum chemistry code Serenity\n",
     "homepage": "https://www.uni-muenster.de/Chemie.oc/neugebauer/softwareAKN.html",
-    "latest_version": "1.6.1",
+    "latest_version": "1.4.0",
     "maintainers": [],
     "name": "serenity",
-    "patches": [
-        {
-            "level": 1,
-            "owner": "builtin.serenity",
-            "reverse": false,
-            "sha256": "45cce5e4d47b681891e78725b2cf5031d306337a5c7b8e62cd4891beb4a7b8b6",
-            "url": "https://github.com/qcserenity/serenity/commit/af9f76d013e240d971337a467a03640cb9aabfb7.patch?full_index=1",
-            "version": "@1.6.1:",
-            "working_dir": "."
-        }
-    ],
+    "patches": [],
     "resources": [],
     "variants": [
         {
@@ -132,16 +122,6 @@
         },
         {
             "default": false,
-            "description": "Download and use Laplace-Minimax",
-            "name": "laplace_minimax"
-        },
-        {
-            "default": true,
-            "description": "Prefer XCFun instead of LibXC",
-            "name": "prefer_xcfun"
-        },
-        {
-            "default": false,
             "description": "Build Python bindings",
             "name": "python"
         }
@@ -150,10 +130,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "1.6.1",
-            "sha256": "cc04b13c2e8a010d07389b2fed98981deacf085778d5375b3b6e89b967c3a5e6"
         },
         {
             "name": "1.4.0",

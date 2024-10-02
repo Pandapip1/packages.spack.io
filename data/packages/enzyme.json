@@ -23,7 +23,7 @@
     "dependent_to": [],
     "description": " The Enzyme project is a tool for performing reverse-mode automatic\ndifferentiation (AD) of statically-analyzable LLVM IR. This allows\ndevelopers to use Enzyme to automatically create gradients of their\nsource code without much additional work.\n",
     "homepage": "https://enzyme.mit.edu",
-    "latest_version": "0.0.135",
+    "latest_version": "0.0.100",
     "maintainers": [
         "tgymnich",
         "vchuravy",
@@ -58,10 +58,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "0.0.135",
-            "sha256": "49c798534faec7ba524a3ed053dd4352d690a44d3cad5a14915c9398dc9b175b"
         },
         {
             "name": "0.0.100",

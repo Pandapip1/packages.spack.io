@@ -36,12 +36,7 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "Anvi\u2019o is a comprehensive platform that brings together many aspects of\ntoday\u2019s cutting-edge computational strategies of data-enabled\nmicrobiology, including genomics, metagenomics, metatranscriptomics,\npangenomics, metapangenomics, phylogenomics, and microbial population\ngenetics in an integrated and easy-to-use fashion through extensive\ninteractive visualization capabilities.",
-            "name": "py-anvio"
-        }
-    ],
+    "dependent_to": [],
     "description": "A library and collection of scripts to work with Illumina paired-end\ndata (for CASAVA 1.8+).\n",
     "homepage": "https://github.com/meren/illumina-utils",
     "latest_version": "2.3",

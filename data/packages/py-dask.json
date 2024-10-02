@@ -156,7 +156,7 @@
     ],
     "description": "Dask is a flexible parallel computing library for analytics.\n",
     "homepage": "https://github.com/dask/dask/",
-    "latest_version": "2024.7.1",
+    "latest_version": "2023.4.1",
     "maintainers": [
         "skosukhin"
     ],
@@ -201,10 +201,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2024.7.1",
-            "sha256": "dbaef2d50efee841a9d981a218cfeb50392fc9a95e0403b6d680450e4f50d531"
-        },
         {
             "name": "2023.4.1",
             "sha256": "9dc72ebb509f58f3fe518c12dd5a488c67123fdd66ccb0b968b34fd11e512153"

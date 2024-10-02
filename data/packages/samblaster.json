@@ -17,7 +17,7 @@
     "dependent_to": [],
     "description": "A tool to mark duplicates and extract discordant and split reads from\nsam files.\n",
     "homepage": "https://github.com/GregoryFaust/samblaster",
-    "latest_version": "0.1.26",
+    "latest_version": "0.1.24",
     "maintainers": [],
     "name": "samblaster",
     "patches": [],
@@ -30,10 +30,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.1.26",
-            "sha256": "6b42a53d64a3ed340852028546693a24c860f236fd70e90c2b24fde9dcc4fd63"
-        },
         {
             "name": "0.1.24",
             "sha256": "72c42e0a346166ba00152417c82179bd5139636fea859babb06ca855af93d11f"

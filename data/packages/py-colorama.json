@@ -46,10 +46,6 @@
             "name": "httpie"
         },
         {
-            "description": "Tool to manage (m)ultiple git r(epo)sitories",
-            "name": "mepo"
-        },
-        {
             "description": "pipx is a tool to install and run Python applications in isolated\nenvironments",
             "name": "pipx"
         },
@@ -140,10 +136,6 @@
         {
             "description": "MIM Installs OpenMMLab packages",
             "name": "py-openmim"
-        },
-        {
-            "description": "Documentation generator for C++",
-            "name": "py-poxy"
         },
         {
             "description": "Prettifies Python exception output to make it legible.",

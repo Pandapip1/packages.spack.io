@@ -18,10 +18,6 @@
     ],
     "dependent_to": [
         {
-            "description": "The Linux perf tool.",
-            "name": "linux-perf"
-        },
-        {
             "description": "A real time, nanosecond resolution, remote telemetry, hybrid frame and\nsampling profiler for games and other applications. Server applications.",
             "name": "tracy"
         },

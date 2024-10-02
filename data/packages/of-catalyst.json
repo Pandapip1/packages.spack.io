@@ -8,10 +8,6 @@
             "name": "cmake"
         },
         {
-            "description": "External WGl and Windows OpenGL emulation representation in Spack",
-            "name": "gl"
-        },
-        {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
         },

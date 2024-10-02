@@ -40,10 +40,9 @@
     ],
     "description": "Python 3 bindings for the AWS Common Runtime.\n",
     "homepage": "https://docs.aws.amazon.com/sdkref/latest/guide/common-runtime.html",
-    "latest_version": "0.20.9",
+    "latest_version": "0.16.16",
     "maintainers": [
-        "climbfuji",
-        "teaguesterling"
+        "climbfuji"
     ],
     "name": "py-awscrt",
     "patches": [],
@@ -56,18 +55,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.20.9",
-            "sha256": "243785ac9ee64945e0479c2384325545f29597575743ce84c371556d1014e63e"
-        },
-        {
-            "name": "0.19.19",
-            "sha256": "1c1511535dee146a6c26a382ed3ead56259a105b3b7d7d823553ae567d038dfe"
-        },
-        {
-            "name": "0.19.18",
-            "sha256": "350b6efd8ebee082ea3f3e52c59a3c3ec594cdaf01db8b4853dceb9fec90c89d"
-        },
         {
             "name": "0.16.16",
             "sha256": "13075df2c1d7942fe22327b6483274517ee0f6ae765c4e6b6ae9ef5b4c43a827"

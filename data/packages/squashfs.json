@@ -78,7 +78,7 @@
         }
     ],
     "description": "Squashfs - read only compressed filesystem\n",
-    "homepage": "https://squashfs.sourceforge.net",
+    "homepage": "http://squashfs.sourceforge.net",
     "latest_version": "4.6.1",
     "maintainers": [],
     "name": "squashfs",

@@ -183,7 +183,7 @@
     "dependent_to": [],
     "description": "Pyomo is a Python-based open-source software package that supports a\ndiverse set of optimization capabilities for formulating and analyzing\noptimization models.\n",
     "homepage": "https://www.pyomo.org/",
-    "latest_version": "6.7.2",
+    "latest_version": "6.7.1",
     "maintainers": [
         "mrmundt"
     ],
@@ -218,10 +218,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "6.7.2",
-            "sha256": "53bef766854f7607ca1fcfe3f218594ab382f137a275cee3d925d2b2f96876bf"
-        },
         {
             "name": "6.7.1",
             "sha256": "735b66c45937f1caa43f073d8218a4918b6de658914a699397d38d5b8c219a40"

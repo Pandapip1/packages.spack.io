@@ -62,7 +62,7 @@
     ],
     "description": "Darshan (runtime) is a scalable HPC I/O characterization tool designed\nto capture an accurate picture of application I/O behavior, including\nproperties such as patterns of access within files, with minimum\noverhead. DarshanRuntime package should be installed on systems where\nyou intend to instrument MPI applications.\n",
     "homepage": "https://www.mcs.anl.gov/research/projects/darshan/",
-    "latest_version": "3.4.5",
+    "latest_version": "3.4.4",
     "maintainers": [
         "carns",
         "shanedsnyder"
@@ -116,10 +116,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "3.4.5",
-            "sha256": "1c017ac635fab5ee0e87a6b52c5c7273962813569495cb1dd3b7cfa6e19f6ed0"
         },
         {
             "name": "3.4.4",

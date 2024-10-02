@@ -101,7 +101,7 @@
     ],
     "description": "StarPU runtime system StarPU is a runtime support for scheduling\napplications written as task graphs on heterogeneous multi-core\narchitectures. Tasks may define several implementations, for different\narchitectures (e.g one implementation for CPUs, and one implementation\nfor CUDA). StarPU takes care of scheduling and executing those tasks as\nefficiently as possible over the entire machine. It also provides a\nhigh-level data management library which enforces memory coherency over\nthe differents processing units of the machine, and over a cluster when\nusing distributed computing. Various data structures are supported\nmainline (vectors, dense matrices, CSR/BCSR/COO sparse matrices, ...),\nbut application-specific data structures can also be supported.\n",
     "homepage": "https://starpu.gitlabpages.inria.fr/",
-    "latest_version": "1.4.7",
+    "latest_version": "1.4.5",
     "maintainers": [
         "nfurmento",
         "sthibaul"
@@ -199,14 +199,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "1.4.7",
-            "sha256": "1eb3df551089153fe6e0b172ad95118434b4a81ea9eaa5a2c38725d0db53b13e"
-        },
-        {
-            "name": "1.4.6",
-            "sha256": "579f38e150ab78c9ab299649d8649a043dbf49786e54acbf3dad90c160672cc7"
         },
         {
             "name": "1.4.5",

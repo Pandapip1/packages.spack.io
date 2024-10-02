@@ -68,18 +68,12 @@
             "name": "python-venv"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "TorchGeo: datasets, samplers, transforms, and pre-trained models for\ngeospatial data.",
-            "name": "py-torchgeo"
-        }
-    ],
+    "dependent_to": [],
     "description": "This package provides a unified command line interface to Amazon Web\nServices.\n",
     "homepage": "https://docs.aws.amazon.com/cli",
-    "latest_version": "2.15.53",
+    "latest_version": "2.13.22",
     "maintainers": [
-        "climbfuji",
-        "teaguesterling"
+        "climbfuji"
     ],
     "name": "awscli-v2",
     "patches": [],
@@ -97,10 +91,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.15.53",
-            "sha256": "a4f5fd4e09b8f2fb3d2049d0610c7b0993f9aafaf427f299439f05643b25eb4b"
-        },
         {
             "name": "2.13.22",
             "sha256": "dd731a2ba5973f3219f24c8b332a223a29d959493c8a8e93746d65877d02afc1"

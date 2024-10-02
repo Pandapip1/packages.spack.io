@@ -69,11 +69,6 @@
             "default": false,
             "description": "Enable MPI support",
             "name": "mpi"
-        },
-        {
-            "default": true,
-            "description": "Enable tests and examples",
-            "name": "tests"
         }
     ],
     "versions": [

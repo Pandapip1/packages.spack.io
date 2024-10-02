@@ -47,7 +47,7 @@
     ],
     "description": "A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64\nNEON intrinsics.\n",
     "homepage": "https://github.com/DLTcollab/sse2neon",
-    "latest_version": "1.7.0",
+    "latest_version": "1.6.0",
     "maintainers": [],
     "name": "sse2neon",
     "patches": [],
@@ -63,10 +63,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "1.7.0",
-            "sha256": "cee6d54922dbc9d4fa57749e3e4b46161b7f435a22e592db9da008051806812a"
         },
         {
             "name": "1.6.0",

@@ -20,7 +20,7 @@
     ],
     "description": " HSA extension AMD AQL profile library. Provides AQL packets helper\nmethods for perfcounters (PMC) and SQ threadtraces (SQTT).\n",
     "homepage": null,
-    "latest_version": "6.2.1",
+    "latest_version": "6.0.2",
     "maintainers": [
         "afzpatel",
         "renjithravindrankannath",
@@ -37,31 +37,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "6.2.1",
-            "sha256": "a196698d39c567aef39734b4a47e0daa1596c86945868b4b0cffc6fcb0904dea",
-            "url": "https://repo.radeon.com/rocm/apt/6.2.1/pool/main/h/hsa-amd-aqlprofile/hsa-amd-aqlprofile_1.0.0.60201.60201-112~20.04_amd64.deb"
-        },
-        {
-            "name": "6.2.0",
-            "sha256": "75f4417477abb80f6a453f836d1ac44c8a3d24447b21cfa4b29787a73725ef4e",
-            "url": "https://repo.radeon.com/rocm/apt/6.2/pool/main/h/hsa-amd-aqlprofile/hsa-amd-aqlprofile_1.0.0.60200.60200-66~20.04_amd64.deb"
-        },
-        {
-            "name": "6.1.2",
-            "sha256": "93faa8a0d702bc1623d2346e07a9a1c9134d99c0d3f9de62903e7394e0eedf47",
-            "url": "https://repo.radeon.com/rocm/apt/6.1.2/pool/main/h/hsa-amd-aqlprofile/hsa-amd-aqlprofile_1.0.0.60102.60102-119~20.04_amd64.deb"
-        },
-        {
-            "name": "6.1.1",
-            "sha256": "faa5dae914fc63f0c8d0c2be28b7ec502db487004bdff0fe88dd15432efc5401",
-            "url": "https://repo.radeon.com/rocm/apt/6.1.1/pool/main/h/hsa-amd-aqlprofile/hsa-amd-aqlprofile_1.0.0.60101.60101-90~20.04_amd64.deb"
-        },
-        {
-            "name": "6.1.0",
-            "sha256": "0ef862503245f12721384443f8347528f3d5c2c7762289c770521f3235ba36c9",
-            "url": "https://repo.radeon.com/rocm/apt/6.1/pool/main/h/hsa-amd-aqlprofile/hsa-amd-aqlprofile_1.0.0.60100.60100-82~20.04_amd64.deb"
-        },
         {
             "name": "6.0.2",
             "sha256": "57efc4e8380d941fc9e3ba8353bc724913cd5b5be2c53fed016e92da63e31b2f",

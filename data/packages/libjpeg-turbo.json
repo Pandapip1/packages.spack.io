@@ -49,20 +49,12 @@
     ],
     "dependent_to": [
         {
-            "description": "Gmsh is a free 3D finite element grid generator with a built-in CAD\nengine and post-processor. Its design goal is to provide a fast, light\nand user-friendly meshing tool with parametric input and advanced\nvisualization capabilities. Gmsh is built around four modules: geometry,\nmesh, solver and post-processing. The specification of any input to\nthese modules is done either interactively using the graphical user\ninterface or in ASCII text files using Gmsh's own scripting language.",
-            "name": "gmsh"
-        },
-        {
             "description": "Library that does image file loading and saving as well as rendering,\nmanipulation, arbitrary polygon support",
             "name": "imlib2"
         },
         {
             "description": "MIVisionX toolkit is a set of comprehensive computer vision and machine\nintelligence libraries, utilities, and applications bundled into a\nsingle toolkit.",
             "name": "mivisionx"
-        },
-        {
-            "description": "The AMD rocAL is designed to efficiently decode and process images and\nvideos from a variety of storage formats and modify them through a\nprocessing graph programmable by the user.",
-            "name": "rocal"
         },
         {
             "description": "Radeon Performance Primitives (RPP) library is a comprehensive high-\nperformance computer vision library for AMD (CPU and GPU) with HIP and\nOPENCL back-ends",
@@ -75,7 +67,7 @@
     ],
     "description": "libjpeg-turbo is a fork of the original IJG libjpeg which uses SIMD to\naccelerate baseline JPEG compression and decompression. libjpeg is a\nlibrary that implements JPEG image encoding, decoding and transcoding.\n",
     "homepage": "https://libjpeg-turbo.org/",
-    "latest_version": "3.0.3",
+    "latest_version": "3.0.0",
     "maintainers": [
         "AlexanderRichert-NOAA"
     ],
@@ -147,18 +139,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "3.0.3",
-            "sha256": "a649205a90e39a548863a3614a9576a3fb4465f8e8e66d54999f127957c25b21"
-        },
-        {
-            "name": "3.0.2",
-            "sha256": "29f2197345aafe1dcaadc8b055e4cbec9f35aad2a318d61ea081f835af2eebe9"
-        },
-        {
-            "name": "3.0.1",
-            "sha256": "5b9bbca2b2a87c6632c821799438d358e27004ab528abf798533c15d50b39f82"
-        },
         {
             "name": "3.0.0",
             "sha256": "171dae5d73560bc94006a7c0c3281bd9bfde6a34f7e41e66f930a1a9162bd7df"

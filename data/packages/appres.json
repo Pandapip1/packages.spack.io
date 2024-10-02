@@ -40,7 +40,7 @@
     ],
     "dependent_to": [],
     "description": "The appres program prints the resources seen by an application (or\nsubhierarchy of an application) with the specified class and instance\nnames. It can be used to determine which resources a particular program\nwill load.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/appres",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/appres",
     "latest_version": "1.0.6",
     "maintainers": [],
     "name": "appres",

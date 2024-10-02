@@ -24,10 +24,6 @@
             "name": "apex"
         },
         {
-            "description": "Chapel is a modern programming language that is parallel, productive,\nportable, scalable and open-source. The Chapel package comes with many\noptions in the form of variants, most of which can be left unset to\nallow Chapel's built-in scripts to determine the proper values based on\nthe environment.",
-            "name": "chapel"
-        },
-        {
             "description": "DISCOVAR de novo is a large (and small) de novo genome assembler. It\nquickly generates highly accurate and complete assemblies using the same\nsingle library data as used by DISCOVAR. It currently doesn't support\nvariant calling, for that, please use DISCOVAR instead.",
             "name": "discovardenovo"
         },

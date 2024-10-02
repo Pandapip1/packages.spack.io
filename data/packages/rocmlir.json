@@ -84,10 +84,8 @@
     ],
     "description": "This is the repository for a MLIR-based convolution and GEMM kernel\ngenerator targetting AMD hardware. This generator is mainly used from\nMIOpen and MIGraphX, but it can be used on a standalone basis.\n",
     "homepage": "https://github.com/ROCm/rocMLIR",
-    "latest_version": "6.2.1",
+    "latest_version": "6.0.2",
     "maintainers": [
-        "afzpatel",
-        "renjithravindrankannath",
         "srekolam"
     ],
     "name": "rocmlir",
@@ -116,26 +114,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "6.2.1",
-            "sha256": "eff594c6b6b97ac21bf268da49fcd016584cfe28c8ff64b0a20b8a9144dca683"
-        },
-        {
-            "name": "6.2.0",
-            "sha256": "889e021edab19657947716e0056176ca0298602a21c4b77e7e7b00467fdaa175"
-        },
-        {
-            "name": "6.1.2",
-            "sha256": "9bde02b898896301a30e7007e384b9de9cf8feac04f44c91a3b625e74788fda6"
-        },
-        {
-            "name": "6.1.1",
-            "sha256": "0847fd2325fb287538442cf09daf7fa76e7926a40eafd27049e0b5320371c1b5"
-        },
-        {
-            "name": "6.1.0",
-            "sha256": "dd800783f1ce66ce7c560d5193d053ddf3797abae5ec9375c9842243f5a8ca0b"
-        },
         {
             "name": "6.0.2",
             "sha256": "6ed039e8045169bb64c10fb063c2e1753b8d52d6d56c60e001c929082be1f20b"

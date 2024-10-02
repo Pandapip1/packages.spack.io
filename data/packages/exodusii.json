@@ -40,6 +40,10 @@
     ],
     "dependent_to": [
         {
+            "description": "Flecsale is an ALE code based on FleCSI",
+            "name": "flecsale"
+        },
+        {
             "description": "Jali is a parallel, unstructured mesh infrastructure library designed\nfor use by multi-physics simulations.",
             "name": "jali"
         },

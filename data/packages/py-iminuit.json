@@ -4,8 +4,8 @@
     "conflicts": [],
     "dependencies": [
         {
-            "description": "A cross-platform, open-source build system. CMake is a family of tools\ndesigned to build, test and package software.",
-            "name": "cmake"
+            "description": "CMake is an open-source, cross-platform family of tools designed to\nbuild, test and package software",
+            "name": "py-cmake"
         },
         {
             "description": "Fundamental package for array computing in Python.",

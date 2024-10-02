@@ -1,25 +1,15 @@
 {
     "aliases": [],
-    "build_system": "AutotoolsPackage",
-    "conflicts": [
-        {
-            "description": null,
-            "name": "arch=windows-None-None",
-            "spec": "build_system=autotools"
-        }
-    ],
+    "build_system": "Package",
+    "conflicts": [],
     "dependencies": [
         {
-            "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
-            "name": "gmake"
+            "description": "Autoconf -- system configuration part of autotools",
+            "name": "autoconf"
         },
         {
             "description": "GMP is a free library for arbitrary precision arithmetic, operating on\nsigned integers, rational numbers, and floating-point numbers.",
             "name": "gmp"
-        },
-        {
-            "description": "The GNU config.guess and config.sub scripts versioned by timestamp.\nThis package can be used as a build dependency for autotools packages\nthat ship a tarball with outdated config.guess and config.sub files.",
-            "name": "gnuconfig"
         },
         {
             "description": "The MPFR library is a C library for multiple-precision floating-point\ncomputations with correct rounding.",
@@ -33,31 +23,23 @@
         }
     ],
     "description": "FLINT (Fast Library for Number Theory).\n",
-    "homepage": "https://flintlib.org",
-    "latest_version": "3.1.2",
+    "homepage": "https://www.flintlib.org",
+    "latest_version": "2.5.2",
     "maintainers": [],
     "name": "flint",
     "patches": [],
     "resources": [],
     "variants": [
         {
-            "default": "autotools",
+            "default": "generic",
             "description": "Build systems supported by the package",
             "name": "build_system"
         }
     ],
     "versions": [
         {
-            "branch": "main",
-            "name": "main"
-        },
-        {
-            "name": "3.1.2",
-            "sha256": "fdb3a431a37464834acff3bdc145f4fe8d0f951dd5327c4c6f93f4cbac5c2700"
-        },
-        {
-            "name": "3.0.1",
-            "sha256": "7b311a00503a863881eb8177dbeb84322f29399f3d7d72f3b1a4c9ba1d5794b4"
+            "branch": "trunk",
+            "name": "develop"
         },
         {
             "name": "2.5.2",

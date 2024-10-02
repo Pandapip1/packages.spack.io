@@ -62,10 +62,6 @@
             "name": "cbtf-krell"
         },
         {
-            "description": "Chapel is a modern programming language that is parallel, productive,\nportable, scalable and open-source. The Chapel package comes with many\noptions in the form of variants, most of which can be left unset to\nallow Chapel's built-in scripts to determine the proper values based on\nthe environment.",
-            "name": "chapel"
-        },
-        {
             "description": "CORAL is an abstraction layer with an SQL-free API to access data stored\nusing relational database technologies. It is used directly by\nexperiment-specific applications and internally by COOL.",
             "name": "coral"
         },
@@ -108,10 +104,6 @@
         {
             "description": "The ZMQ networking/concurrency library and core API",
             "name": "libzmq"
-        },
-        {
-            "description": "The Linux perf tool.",
-            "name": "linux-perf"
         },
         {
             "description": "MALT is a memory profile tool to track mallocs in a C/C++ application\nand report allocation information (lifetime, sizes...) in a friendly web\ngraphical interface by annotating the source code and proving charts.",

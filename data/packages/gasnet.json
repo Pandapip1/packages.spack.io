@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -391,11 +351,6 @@
             "description": "gasnet: GASNet version 2021.9.0 or newer required for ROCm support",
             "name": "+rocm",
             "spec": "@:2021.8"
-        },
-        {
-            "description": null,
-            "name": "^hip@6:",
-            "spec": "@:2024.4+rocm"
         }
     ],
     "dependencies": [
@@ -420,10 +375,6 @@
             "name": "hsa-rocr-dev"
         },
         {
-            "description": "The Open Fabrics Interfaces (OFI) is a framework focused on exporting\nfabric communication services to applications.",
-            "name": "libfabric"
-        },
-        {
             "description": "Toolkit for the construction of highly optimized compilers, optimizers,\nand run-time environments.",
             "name": "llvm-amdgpu"
         },
@@ -438,10 +389,6 @@
     ],
     "dependent_to": [
         {
-            "description": "Chapel is a modern programming language that is parallel, productive,\nportable, scalable and open-source. The Chapel package comes with many\noptions in the form of variants, most of which can be left unset to\nallow Chapel's built-in scripts to determine the proper values based on\nthe environment.",
-            "name": "chapel"
-        },
-        {
             "description": "A portable profiling and tracing toolkit for performance analysis of\nparallel programs written in Fortran, C, C++, UPC, Java, Python.",
             "name": "tau"
         },
@@ -452,7 +399,7 @@
     ],
     "description": "GASNet is a language-independent, networking middleware layer that\nprovides network-independent, high-performance communication primitives\nincluding Remote Memory Access (RMA) and Active Messages (AM). It has\nbeen used to implement parallel programming models and libraries such as\nUPC, UPC++, Co-Array Fortran, Legion, Chapel, and many others. The\ninterface is primarily intended as a compilation target and for use by\nruntime library writers (as opposed to end users), and the primary goals\nare high performance, interface portability, and expressiveness.\n***NOTICE***: The GASNet library built by this Spack package is ONLY\nintended for unit-testing purposes, and is generally UNSUITABLE FOR\nPRODUCTION USE. The RECOMMENDED way to build GASNet is as an embedded\nlibrary as configured by the higher-level client runtime package (UPC++,\nLegion, etc), including system-specific configuration.\n",
     "homepage": "https://gasnet.lbl.gov",
-    "latest_version": "2024.5.0",
+    "latest_version": "2023.9.0",
     "maintainers": [
         "PHHargrove",
         "bonachea"
@@ -473,12 +420,12 @@
         },
         {
             "default": "smp",
-            "description": "The hardware-dependent network backends to enable.\n(smp) = SMP conduit for single-node operation\n(ibv) = Native InfiniBand verbs conduit\n(ofi) = OFI conduit over libfabric, for HPE Cray Slingshot and Intel Omni-Path\n(udp) = Portable UDP conduit, for Ethernet networks\n(mpi) = Low-performance/portable MPI conduit\n(ucx) = EXPERIMENTAL UCX conduit for Mellanox IB/RoCE ConnectX-5+\nFor detailed recommendations, consult https://gasnet.lbl.gov",
+            "description": "The hardware-dependent network backends to enable.\n(smp) = SMP conduit for single-node operation ;\n(ibv) = Native InfiniBand verbs conduit ;\n(ofi) = OFI conduit over libfabric, for HPE Cray Slingshot and Intel Omni-Path ;\n(udp) = Portable UDP conduit, for Ethernet networks ;\n(mpi) = Low-performance/portable MPI conduit ;\n(ucx) = EXPERIMENTAL UCX conduit for Mellanox IB/RoCE ConnectX-5+ ;\nFor detailed recommendations, consult https://gasnet.lbl.gov",
             "name": "conduits"
         },
         {
             "default": false,
-            "description": "Build with CUDA",
+            "description": "Enables support for the CUDA memory kind in some conduits.\nNOTE: Requires CUDA Driver library be present on the build system",
             "name": "cuda"
         },
         {
@@ -498,7 +445,7 @@
         },
         {
             "default": false,
-            "description": "Enable ROCm support",
+            "description": "Enables support for the ROCm/HIP memory kind in some conduits",
             "name": "rocm"
         }
     ],
@@ -516,10 +463,6 @@
             "name": "master"
         },
         {
-            "name": "2024.5.0",
-            "sha256": "f945e80f71d340664766b66290496d230e021df5e5cd88f404d101258446daa9"
-        },
-        {
             "name": "2023.9.0",
             "sha256": "2d9f15a794e10683579ce494cd458b0dd97e2d3327c4d17e1fea79bd95576ce6"
         },
@@ -534,13 +477,13 @@
         {
             "name": "2022.9.0",
             "sha256": "6873ff4ad8ebee49da4378f2d78095a6ccc31333d6ae4cd739b9f772af11f936"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "2022.3.0",
             "sha256": "91b59aa84c0680c807e00d3d1d8fa7c33c1aed50b86d1616f93e499620a9ba09"
-        },
+        }
+    ],
+    "versions_deprecated": [
         {
             "name": "2021.9.0",
             "sha256": "1b6ff6cdad5ecf76b92032ef9507e8a0876c9fc3ee0ab008de847c1fad0359ee"

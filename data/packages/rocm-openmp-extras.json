@@ -66,16 +66,8 @@
             "name": "hip-examples"
         },
         {
-            "description": "hipBLAS is a BLAS marshalling library, with multiple supported backends",
-            "name": "hipblas"
-        },
-        {
             "description": "hipBLASLt is a library that provides general matrix-matrix operations\nwith a flexible API and extends functionalities beyond a traditional\nBLAS library",
             "name": "hipblaslt"
-        },
-        {
-            "description": "hipSPARSELt is a SPARSE marshalling library, with multiple supported\nbackends. It sits between the application and a 'worker' SPARSE library,\nmarshalling inputs into the backend library and marshalling results back\nto the application. hipSPARSELt exports an interface that does not\nrequire the client to change, regardless of the chosen backend.\nCurrently, hipSPARSELt supports rocSPARSELt and cuSPARSELt v0.4 as\nbackends.",
-            "name": "hipsparselt"
         },
         {
             "description": "LAMMPS stands for Large-scale Atomic/Molecular Massively Parallel\nSimulator.",
@@ -108,7 +100,7 @@
     ],
     "description": "OpenMP support for ROCm LLVM.\n",
     "homepage": "https://github.com/ROCm/aomp",
-    "latest_version": "6.2.1",
+    "latest_version": "6.0.2",
     "maintainers": [
         "estewart08",
         "renjithravindrankannath",
@@ -124,33 +116,6 @@
             "sha256": "d8f1c2ae5601ab8603a348e1290c5997c743b837e512f5a3234b10cee146a462",
             "version": "@5.7:6.0",
             "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.rocm-openmp-extras",
-            "relative_path": "0001-Linking-hsakmt-libdrm-and-numactl-libraries-6.1.patch",
-            "reverse": false,
-            "sha256": "9b9ddd09d0adbfae561aec2a9408f0b27657d1dc3f88d5b61b68faaf646d34a7",
-            "version": "@6.1",
-            "working_dir": "rocm-openmp-extras/llvm-project/openmp/libomptarget"
-        },
-        {
-            "level": 1,
-            "owner": "builtin.rocm-openmp-extras",
-            "relative_path": "0001-Avoid-duplicate-registration-on-cuda-env.patch",
-            "reverse": false,
-            "sha256": "f6f006e0d93816ec0e81dea7ffc27ee5d7506f2ae89981545534d3dec1a56a6c",
-            "version": "@6.1",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.rocm-openmp-extras",
-            "relative_path": "0001-Avoid-duplicate-registration-on-cuda-env-6.2.patch",
-            "reverse": false,
-            "sha256": "6f77cb208930531cd80b4bc5dde4b747d3461f45b4dcc6fbe424a4a46bf42442",
-            "version": "@6.2",
-            "working_dir": "."
         }
     ],
     "resources": [
@@ -158,6 +123,126 @@
             "destination": "rocm-openmp-extras",
             "name": "rocm-device-libs",
             "placement": "rocm-device-libs",
+            "version": "@5.1.0"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "flang",
+            "placement": "flang",
+            "version": "@5.1.0"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "aomp-extras",
+            "placement": "aomp-extras",
+            "version": "@5.1.0"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "llvm-project",
+            "placement": "llvm-project",
+            "version": "@5.1.0"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "rocm-device-libs",
+            "placement": "rocm-device-libs",
+            "version": "@5.1.3"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "flang",
+            "placement": "flang",
+            "version": "@5.1.3"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "aomp-extras",
+            "placement": "aomp-extras",
+            "version": "@5.1.3"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "llvm-project",
+            "placement": "llvm-project",
+            "version": "@5.1.3"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "rocm-device-libs",
+            "placement": "rocm-device-libs",
+            "version": "@5.2.0"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "flang",
+            "placement": "flang",
+            "version": "@5.2.0"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "aomp-extras",
+            "placement": "aomp-extras",
+            "version": "@5.2.0"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "llvm-project",
+            "placement": "llvm-project",
+            "version": "@5.2.0"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "rocm-device-libs",
+            "placement": "rocm-device-libs",
+            "version": "@5.2.1"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "flang",
+            "placement": "flang",
+            "version": "@5.2.1"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "aomp-extras",
+            "placement": "aomp-extras",
+            "version": "@5.2.1"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "llvm-project",
+            "placement": "llvm-project",
+            "version": "@5.2.1"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "rocm-device-libs",
+            "placement": "rocm-device-libs",
+            "version": "@5.2.3"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "flang",
+            "placement": "flang",
+            "version": "@5.2.3"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "aomp-extras",
+            "placement": "aomp-extras",
+            "version": "@5.2.3"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "llvm-project",
+            "placement": "llvm-project",
+            "version": "@5.2.3"
+        },
+        {
+            "destination": "rocm-openmp-extras",
+            "name": "rocm-device-libs",
+            "placement": "rocm-device-libs",
             "version": "@5.3.0"
         },
         {
@@ -441,96 +526,6 @@
             "name": "llvm-project",
             "placement": "llvm-project",
             "version": "@6.0.2"
-        },
-        {
-            "destination": "rocm-openmp-extras",
-            "name": "flang",
-            "placement": "flang",
-            "version": "@6.1.0"
-        },
-        {
-            "destination": "rocm-openmp-extras",
-            "name": "aomp-extras",
-            "placement": "aomp-extras",
-            "version": "@6.1.0"
-        },
-        {
-            "destination": "rocm-openmp-extras",
-            "name": "llvm-project",
-            "placement": "llvm-project",
-            "version": "@6.1.0"
-        },
-        {
-            "destination": "rocm-openmp-extras",
-            "name": "flang",
-            "placement": "flang",
-            "version": "@6.1.1"
-        },
-        {
-            "destination": "rocm-openmp-extras",
-            "name": "aomp-extras",
-            "placement": "aomp-extras",
-            "version": "@6.1.1"
-        },
-        {
-            "destination": "rocm-openmp-extras",
-            "name": "llvm-project",
-            "placement": "llvm-project",
-            "version": "@6.1.1"
-        },
-        {
-            "destination": "rocm-openmp-extras",
-            "name": "flang",
-            "placement": "flang",
-            "version": "@6.1.2"
-        },
-        {
-            "destination": "rocm-openmp-extras",
-            "name": "aomp-extras",
-            "placement": "aomp-extras",
-            "version": "@6.1.2"
-        },
-        {
-            "destination": "rocm-openmp-extras",
-            "name": "llvm-project",
-            "placement": "llvm-project",
-            "version": "@6.1.2"
-        },
-        {
-            "destination": "rocm-openmp-extras",
-            "name": "flang",
-            "placement": "flang",
-            "version": "@6.2.0"
-        },
-        {
-            "destination": "rocm-openmp-extras",
-            "name": "aomp-extras",
-            "placement": "aomp-extras",
-            "version": "@6.2.0"
-        },
-        {
-            "destination": "rocm-openmp-extras",
-            "name": "llvm-project",
-            "placement": "llvm-project",
-            "version": "@6.2.0"
-        },
-        {
-            "destination": "rocm-openmp-extras",
-            "name": "flang",
-            "placement": "flang",
-            "version": "@6.2.1"
-        },
-        {
-            "destination": "rocm-openmp-extras",
-            "name": "aomp-extras",
-            "placement": "aomp-extras",
-            "version": "@6.2.1"
-        },
-        {
-            "destination": "rocm-openmp-extras",
-            "name": "llvm-project",
-            "placement": "llvm-project",
-            "version": "@6.2.1"
         }
     ],
     "variants": [
@@ -546,26 +541,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "6.2.1",
-            "sha256": "ac82e8da0c210ee14b911c833ae09a029a41541689930759737c135db52464a3"
-        },
-        {
-            "name": "6.2.0",
-            "sha256": "5f54d7c7c798bcf1cd47d3a7f17ceaf79991bf166cc5e47e5372a68e7cf7d520"
-        },
-        {
-            "name": "6.1.2",
-            "sha256": "3de1c7a31a88c3f05a6a66ba6854ac8fdad1ce44462e561cb1e6ad59629029ce"
-        },
-        {
-            "name": "6.1.1",
-            "sha256": "62a5036a2299ed2e3053ee00b7ea1800469cd545fea486fa17266a8b3acfaf5d"
-        },
-        {
-            "name": "6.1.0",
-            "sha256": "832b7c48149a730619b577a2863b8d1bf1b2551eda5b815e1865a044929ab9fa"
-        },
         {
             "name": "6.0.2",
             "sha256": "d6e13a15d5d25990d4bacbac8fabe2eb07973829f2e69abbc628e0736f95caf9"
@@ -597,9 +572,7 @@
         {
             "name": "5.5.0",
             "sha256": "23cc7d1c82e35c74f48285a0a1c27e7b3cae1767568bb7b9367ea21f53dd6598"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "5.4.3",
             "sha256": "7f90634fb621169b21bcbd920c2e299acc88ba0eeb1a33fd40ae26e13201b652"
@@ -615,6 +588,28 @@
         {
             "name": "5.3.0",
             "sha256": "371ed037b95b83fac64fb2ff2fc17313fe7d3befc8671f0a08f0e2072393fa5b"
+        }
+    ],
+    "versions_deprecated": [
+        {
+            "name": "5.2.3",
+            "sha256": "4ba1792095427588c484feed01f2f48e66aaad26bc000cbc74a15032551699e7"
+        },
+        {
+            "name": "5.2.1",
+            "sha256": "c0aa6997e889d6ce0e37cfa6a2e91c5c0b54cda1673abdcabcf34da1ba78ba72"
+        },
+        {
+            "name": "5.2.0",
+            "sha256": "20e21312816272222d1f427ea72a99a9a67077078552f5e2638a40860d161d25"
+        },
+        {
+            "name": "5.1.3",
+            "sha256": "8bab3d621343f419b29043ac0cb56e062f114991dc3ec1e33e786f771deecc8f"
+        },
+        {
+            "name": "5.1.0",
+            "sha256": "e69fe0c933cb30daafe49d9f1df71fe16f387e0287bba921995feeefdf9ac262"
         }
     ]
 }

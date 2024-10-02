@@ -44,7 +44,7 @@
     ],
     "description": "The gridDataFormats package provides classes to unify reading and\nwriting n-dimensional datasets. One can read grid data from files, make\nthem available as a Grid object, and write out the data again.\n",
     "homepage": "http://www.mdanalysis.org/GridDataFormats",
-    "latest_version": "1.0.2",
+    "latest_version": "1.0.1",
     "maintainers": [
         "RMeli"
     ],
@@ -59,10 +59,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.0.2",
-            "sha256": "b93cf7f36fce33dbc428026f26dba560d5c7ba2387caca495bad920f90094502"
-        },
         {
             "name": "1.0.1",
             "sha256": "ad2c9ab7d672a6d8c426de7d083eee4f3e2b0bd59391675d30683c768ab83cc4"

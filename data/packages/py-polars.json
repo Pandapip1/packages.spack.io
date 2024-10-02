@@ -28,7 +28,12 @@
             "name": "rust"
         }
     ],
-    "dependent_to": [],
+    "dependent_to": [
+        {
+            "description": "A set of python modules for machine learning and data mining.",
+            "name": "py-scikit-learn"
+        }
+    ],
     "description": "Blazingly fast DataFrame library.\n",
     "homepage": "https://www.pola.rs/",
     "latest_version": "0.20.5",

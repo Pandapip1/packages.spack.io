@@ -42,11 +42,15 @@
         {
             "description": "NJet is a library for multi-parton one-loop matrix elements in massless\nQCD.",
             "name": "njet"
+        },
+        {
+            "description": "The Vienna Ab initio Simulation Package (VASP) is a computer program\nfor atomic scale materials modelling, e.g. electronic structure\ncalculations and quantum-mechanical molecular dynamics, from first\nprinciples.",
+            "name": "vasp"
         }
     ],
     "description": "C++/Fortran-90 double-double and quad-double package. With modifications\nfor easier integration with NJet. see http://crd-\nlegacy.lbl.gov/~dhbailey/mpdist/ for authors page\n",
     "homepage": "https://bitbucket.org/njet/qd-library/src/master/",
-    "latest_version": "2.3.24",
+    "latest_version": "2.3.13",
     "maintainers": [],
     "name": "qd",
     "patches": [],
@@ -60,16 +64,8 @@
     ],
     "versions": [
         {
-            "name": "2.3.24",
-            "sha256": "a47b6c73f86e6421e86a883568dd08e299b20e36c11a99bdfbe50e01bde60e38"
-        },
-        {
-            "name": "2.3.23",
-            "sha256": "b3eaf41ce413ec08f348ee73e606bd3ff9203e411c377c3c0467f89acf69ee26"
-        },
-        {
-            "name": "2.3.13",
-            "sha256": "b3eaf41ce413ec08f348ee73e606bd3ff9203e411c377c3c0467f89acf69ee26"
+            "commit": "a57dde96b3255b80f7f39cd80217c213bf78d949",
+            "name": "2.3.13"
         }
     ],
     "versions_deprecated": []

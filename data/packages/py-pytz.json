@@ -106,6 +106,10 @@
             "name": "py-hypothesis"
         },
         {
+            "description": "Matplotlib is a comprehensive library for creating static, animated, and\ninteractive visualizations in Python.",
+            "name": "py-matplotlib"
+        },
+        {
             "description": "Reader and Writer for Philips' MFF file format.",
             "name": "py-mffpy"
         },

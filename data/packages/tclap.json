@@ -25,7 +25,7 @@
         }
     ],
     "description": "Templatized C++ Command Line Parser\n",
-    "homepage": "https://tclap.sourceforge.net",
+    "homepage": "http://tclap.sourceforge.net",
     "latest_version": "1.2.5",
     "maintainers": [],
     "name": "tclap",

@@ -116,15 +116,11 @@
         {
             "description": "TeX Live is an easy (we hope) way to get up and running with the TeX\ndocument production system. It provides a comprehensive TeX system with\nbinaries for most flavors of Unix, including GNU/Linux, macOS, and also\nWindows. It includes all the major TeX-related programs, macro packages,\nand fonts that are free software, including support for many languages\naround the world.",
             "name": "texlive"
-        },
-        {
-            "description": "WHIZARD is a program system designed for the efficient calculation of\nmulti-particle scattering cross sections and simulated event samples.",
-            "name": "whizard"
         }
     ],
     "description": "An interpreter for the PostScript language and for PDF.\n",
     "homepage": "https://ghostscript.com/",
-    "latest_version": "10.03.1",
+    "latest_version": "10.0.0",
     "maintainers": [],
     "name": "ghostscript",
     "patches": [
@@ -156,28 +152,11 @@
         },
         {
             "default": false,
-            "description": "Enable dynamically loaded drivers",
-            "name": "dynamic"
-        },
-        {
-            "default": false,
             "description": "Use the Tesseract library for OCR",
             "name": "tesseract"
         }
     ],
     "versions": [
-        {
-            "name": "10.03.1",
-            "sha256": "31cd01682ad23a801cc3bbc222a55f07c4ea3e068bdfb447792d54db21a2e8ad"
-        },
-        {
-            "name": "10.02.1",
-            "sha256": "e429e4f5b01615a4f0f93a4128e8a1a4d932dff983b1774174c79c0630717ad9"
-        },
-        {
-            "name": "10.01.2",
-            "sha256": "a4cd61a07fec161bee35da0211a5e5cde8ff8a0aaf942fc0176715e499d21661"
-        },
         {
             "name": "10.0.0",
             "sha256": "a57764d70caf85e2fc0b0f59b83b92e25775631714dcdb97cc6e0cea414bb5a3"

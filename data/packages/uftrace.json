@@ -26,10 +26,6 @@
             "name": "gnuconfig"
         },
         {
-            "description": "Library to parse raw trace event formats.",
-            "name": "libtraceevent"
-        },
-        {
             "description": "A portable and efficient C programming interface (API) to determine the\ncall-chain of a program.",
             "name": "libunwind"
         },
@@ -61,7 +57,7 @@
     "dependent_to": [],
     "description": "Dynamic function graph tracer for Linux which demangles C, C++ and Rust\ncalls\n",
     "homepage": "https://uftrace.github.io/slide/",
-    "latest_version": "0.16",
+    "latest_version": "0.11",
     "maintainers": [
         "bernhardkaindl"
     ],
@@ -96,8 +92,12 @@
             "name": "master"
         },
         {
-            "name": "0.16",
-            "sha256": "dd0549f610d186b6f25fa2334a5e82b6ddc232ec6ca088dbb41b3fe66961d6bb"
+            "name": "0.11",
+            "sha256": "101dbb13cb3320ee76525ec26426f2aa1de4e3ee5af74f79cb403ae4d2c6c871"
+        },
+        {
+            "name": "0.10",
+            "sha256": "b8b56d540ea95c3eafe56440d6a998e0a140d53ca2584916b6ca82702795bbd9"
         }
     ],
     "versions_deprecated": []

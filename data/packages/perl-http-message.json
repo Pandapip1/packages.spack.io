@@ -116,7 +116,7 @@
     ],
     "description": "HTTP style message (base class)\n",
     "homepage": "https://metacpan.org/pod/HTTP::Message",
-    "latest_version": "6.45",
+    "latest_version": "6.44",
     "maintainers": [],
     "name": "perl-http-message",
     "patches": [],
@@ -129,10 +129,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "6.45",
-            "sha256": "01cb8406612a3f738842d1e97313ae4d874870d1b8d6d66331f16000943d4cbe"
-        },
         {
             "name": "6.44",
             "sha256": "398b647bf45aa972f432ec0111f6617742ba32fc773c6612d21f64ab4eacbca1"

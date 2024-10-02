@@ -20,7 +20,7 @@
     ],
     "dependent_to": [],
     "description": "lmbench is a suite of simple, portable, ANSI/C microbenchmarks for\nUNIX/POSIX. In general, it measures two key features: latency and\nbandwidth. lmbench is intended to give system developers insight into\nbasic costs of key operations.\n",
-    "homepage": "https://lmbench.sourceforge.net/",
+    "homepage": "http://lmbench.sourceforge.net/",
     "latest_version": "master",
     "maintainers": [],
     "name": "lmbench",

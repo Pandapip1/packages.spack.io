@@ -19,7 +19,7 @@
             "name": "cmake"
         },
         {
-            "description": "NVPL FFT (NVIDIA Performance Libraries FFT) is part of NVIDIA\nPerformance Libraries and provides Fast Fourier Transform (FFT)\ncalculations on ARM CPUs.",
+            "description": "This is an earlier version of Intel parallel software development tools\nand has now been replaced by the Intel oneAPI Toolkits. LICENSE\nINFORMATION: By downloading and using this software, you agree to the\nterms and conditions of the software license agreements at\nhttps://intel.ly/393CijO.",
             "name": "fftw-api"
         },
         {
@@ -51,7 +51,7 @@
     ],
     "description": "SIMD Library for Evaluating Elementary Functions, vectorized libm and\nDFT.\n",
     "homepage": "https://sleef.org",
-    "latest_version": "3.6.1",
+    "latest_version": "3.6",
     "maintainers": [
         "blapie"
     ],
@@ -86,16 +86,8 @@
             "name": "master"
         },
         {
-            "commit": "6ee14bcae5fe92c2ff8b000d5a01102dab08d774",
-            "name": "3.6.1"
-        },
-        {
-            "commit": "60e76d2bce17d278b439d9da17177c8f957a9e9b",
-            "name": "3.6.0_2024-03-20"
-        },
-        {
             "commit": "a99491afee2bae0b11e9ffbf3211349f43a5fd10",
-            "name": "3.6.0"
+            "name": "3.6"
         },
         {
             "commit": "e0a003ee838b75d11763aa9c3ef17bf71a725bff",
@@ -123,10 +115,10 @@
         },
         {
             "commit": "6ff7a135a1e31979d1e1844a2e7171dfbd34f54f",
-            "name": "3.2.0_2018-05-09"
+            "name": "3.2_2018-05-09"
         },
         {
-            "name": "3.2.0",
+            "name": "3.2",
             "sha256": "3130c5966e204e6d6a3ace81e543d12b5b21f60897f1c185bfa587c1bd77bee2"
         }
     ]

@@ -20,14 +20,6 @@
             "name": "py-h5py"
         },
         {
-            "description": "Hatch plugin for versioning with your preferred VCS",
-            "name": "py-hatch-vcs"
-        },
-        {
-            "description": "Modern, extensible Python build backend.",
-            "name": "py-hatchling"
-        },
-        {
             "description": "Python library for reading and writing image data. Imageio is a Python\nlibrary that provides an easy interface to read and write a wide range\nof image data, including animated images, video, volumetric data, and\nscientific formats. It is cross-platform, runs on Python 2.7 and 3.4+,\nand is easy to install.",
             "name": "py-imageio"
         },
@@ -194,10 +186,6 @@
     ],
     "dependent_to": [
         {
-            "description": "MNE-BIDS: Organizing MEG, EEG, and iEEG data according to the BIDS\nspecification and facilitating their analysis with MNE-Python.",
-            "name": "py-mne-bids"
-        },
-        {
             "description": "A Python Toolbox for Multimodal Neural Data Representation Analysis.",
             "name": "py-neurora"
         },
@@ -207,8 +195,8 @@
         }
     ],
     "description": "MNE python project for MEG and EEG data analysis.\n",
-    "homepage": "https://mne.tools/",
-    "latest_version": "1.7.1",
+    "homepage": "http://mne.tools/",
+    "latest_version": "1.6.1",
     "maintainers": [
         "ChristopherChristofi"
     ],
@@ -233,10 +221,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.7.1",
-            "sha256": "a87bbc998b792532d2c87add8b0f7bbf28a4d8cf5db1bdfb6d6e260791754498"
-        },
         {
             "name": "1.6.1",
             "sha256": "e4f5683d01cef675eddad788bdb6b44cc015dff0fb1ddfca3c4105edfb757ef8"

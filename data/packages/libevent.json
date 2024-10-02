@@ -28,10 +28,6 @@
             "name": "addrwatch"
         },
         {
-            "description": "Chapel is a modern programming language that is parallel, productive,\nportable, scalable and open-source. The Chapel package comes with many\noptions in the form of variants, most of which can be left unset to\nallow Chapel's built-in scripts to determine the proper values based on\nthe environment.",
-            "name": "chapel"
-        },
-        {
             "description": "Folly (acronymed loosely after Facebook Open Source Library) is a\nlibrary of C++11 components designed with practicality and efficiency in\nmind. Folly contains a variety of core library components used\nextensively at Facebook. In particular, it's often a dependency of\nFacebook's other open source C++ efforts and place where those projects\ncan share code.",
             "name": "folly"
         },

@@ -23,7 +23,7 @@
     "dependent_to": [],
     "description": "CDT is a C++ library for generating constraint or conforming Delaunay\ntriangulations.\n",
     "homepage": "https://artem-ogre.github.io/CDT",
-    "latest_version": "1.4.1",
+    "latest_version": "1.4.0",
     "maintainers": [
         "jcortial-safran"
     ],
@@ -73,10 +73,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.4.1",
-            "sha256": "86df99eb5f02a73eeb8c6ea45765eed0d7f206e8d4d9f6479f77e3c590ae5bb3"
-        },
         {
             "name": "1.4.0",
             "sha256": "cb5a95a39b417f5a4d170c7ebe97232d0ed36ea64069339b14964dd52dea95ab"

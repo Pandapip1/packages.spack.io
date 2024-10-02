@@ -49,7 +49,7 @@
         }
     ],
     "description": "SoX, the Swiss Army knife of sound processing programs.\n",
-    "homepage": "https://sox.sourceforge.net/Main/HomePage",
+    "homepage": "http://sox.sourceforge.net/Main/HomePage",
     "latest_version": "14.4.2",
     "maintainers": [],
     "name": "sox",

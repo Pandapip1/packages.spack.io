@@ -65,10 +65,6 @@
         {
             "description": "Specialized Parallel Linear Algebra, providing distributed GEMM\nfunctionality for specific matrix distributions with optional GPU\nacceleration.",
             "name": "spla"
-        },
-        {
-            "description": "The Vienna Ab initio Simulation Package (VASP) is a computer program\nfor atomic scale materials modelling, e.g. electronic structure\ncalculations and quantum-mechanical molecular dynamics, from first\nprinciples.",
-            "name": "vasp"
         }
     ],
     "description": "AMD Optimized BLIS. BLIS is a portable software framework for\ninstantiating high-performance BLAS-like dense linear algebra libraries.\nThe framework was designed to isolate essential kernels of computation\nthat, when optimized, immediately enable optimized implementations of\nmost of its commonly used and computationally intensive operations.\nLICENSING INFORMATION: By downloading, installing and using this\nsoftware, you agree to the terms and conditions of the AMD AOCL-BLIS\nlicense agreement. You may obtain a copy of this license agreement from\nhttps://www.amd.com/en/developer/aocl/dense/eula/blas-4-2-eula.html\nhttps://www.amd.com/en/developer/aocl/dense/eula/blas-eula.html\n",
@@ -104,7 +100,7 @@
         },
         {
             "default": false,
-            "description": "Force 64-bit Fortran native integers",
+            "description": "ILP64 support",
             "name": "ilp64"
         },
         {

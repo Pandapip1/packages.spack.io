@@ -36,7 +36,7 @@
     ],
     "dependent_to": [],
     "description": " \"libnova is a general purpose, double precision, Celestial Mechanics,\nAstrometry and Astrodynamics library.\n",
-    "homepage": "https://libnova.sourceforge.net",
+    "homepage": "http://libnova.sourceforge.net",
     "latest_version": "0.15.0",
     "maintainers": [],
     "name": "libnova",

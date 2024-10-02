@@ -38,7 +38,7 @@
     ],
     "description": "Seaching for tRNA genes in genomic sequence\n",
     "homepage": "http://lowelab.ucsc.edu/tRNAscan-SE/",
-    "latest_version": "2.0.12",
+    "latest_version": "2.0.11",
     "maintainers": [],
     "name": "trnascan-se",
     "patches": [],
@@ -51,10 +51,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.0.12",
-            "sha256": "96fa4af507cd918c1c623763d9260bd6ed055d091662b44314426f6bbf447251"
-        },
         {
             "name": "2.0.11",
             "sha256": "29b74edd0f84ad88139035e119b66397c54a37428e0b61c66a1b3d4733adcd1e"

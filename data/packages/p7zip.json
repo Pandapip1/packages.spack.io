@@ -29,7 +29,7 @@
         }
     ],
     "description": "A Unix port of the 7z file archiver\n",
-    "homepage": "https://p7zip.sourceforge.net",
+    "homepage": "http://p7zip.sourceforge.net",
     "latest_version": "17.05",
     "maintainers": [
         "vmiheer"

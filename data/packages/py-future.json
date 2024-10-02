@@ -30,6 +30,10 @@
             "name": "aws-parallelcluster"
         },
         {
+            "description": "GEOPM is an extensible power management framework targeting HPC. The\nGEOPM package provides libgeopm, libgeopmpolicy and applications\ngeopmctl and geopmpolicy, as well as tools for postprocessing. GEOPM is\ndesigned to be extended for new control algorithms and new hardware\npower management features via its plugin infrastructure. Note: GEOPM\ninterfaces with hardware using Model Specific Registers (MSRs). For\npropper usage make sure MSRs are made available directly or via the msr-\nsafe kernel module by your administrator.",
+            "name": "geopm"
+        },
+        {
             "description": "MIVisionX toolkit is a set of comprehensive computer vision and machine\nintelligence libraries, utilities, and applications bundled into a\nsingle toolkit.",
             "name": "mivisionx"
         },
@@ -118,6 +122,10 @@
             "name": "py-matminer"
         },
         {
+            "description": "MultiQC is a tool to aggregate bioinformatics results across many\nsamples into a single report. It is written in Python and contains\nmodules for a large number of common bioinformatics tools.",
+            "name": "py-multiqc"
+        },
+        {
             "description": "Flexible metadata store for MLOps, built for research and production\nteams that run a lot of experiments.",
             "name": "py-neptune-client"
         },
@@ -182,10 +190,6 @@
             "name": "py-refgenconf"
         },
         {
-            "description": "Fortran domain and autodoc extensions to Sphinx",
-            "name": "py-sphinx-fortran"
-        },
-        {
             "description": "tensorflow/datasets is a library of datasets ready to use with\nTensorFlow.",
             "name": "py-tensorflow-datasets"
         },
@@ -232,7 +236,7 @@
     ],
     "description": "Clean single-source support for Python 3 and 2\n",
     "homepage": "https://python-future.org/",
-    "latest_version": "1.0.0",
+    "latest_version": "0.18.3",
     "maintainers": [],
     "name": "py-future",
     "patches": [],
@@ -245,10 +249,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.0.0",
-            "sha256": "bd2968309307861edae1458a4f8a4f3598c03be43b97521076aebf5d94c07b05"
-        },
         {
             "name": "0.18.3",
             "sha256": "34a17436ed1e96697a86f9de3d15a3b0be01d8bc8de9c1dffd59fb8234ed5307"

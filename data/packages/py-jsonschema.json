@@ -176,10 +176,6 @@
             "name": "py-geopmdpy"
         },
         {
-            "description": "Parser tools for Mozilla's Glean telemetry.",
-            "name": "py-glean-parser"
-        },
-        {
             "description": "Validation schema and code for HEPdata submissions.",
             "name": "py-hepdata-validator"
         },

@@ -168,10 +168,6 @@
             "name": "octave"
         },
         {
-            "description": "OpenFOAM is a GPL-opensource C++ CFD-toolbox. The openfoam.org release\nis managed by the OpenFOAM Foundation Ltd as a licensee of the OPENFOAM\ntrademark. This offering is not approved or endorsed by OpenCFD Ltd,\nproducer and distributor of the OpenFOAM software via www.openfoam.com,\nand owner of the OPENFOAM trademark.",
-            "name": "openfoam-org"
-        },
-        {
             "description": "The Open IPMI project aims to develop an open code base to allow access\nto platform information using Intelligent Platform Management Interface\n(IPMI).",
             "name": "openipmi"
         },

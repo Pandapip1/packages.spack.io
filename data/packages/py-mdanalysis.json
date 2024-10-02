@@ -126,6 +126,10 @@
     ],
     "dependent_to": [
         {
+            "description": "ECP-CANDLE Benchmarks",
+            "name": "candle-benchmarks"
+        },
+        {
             "description": "Test suite for MDAnalysis",
             "name": "py-mdanalysistests"
         }

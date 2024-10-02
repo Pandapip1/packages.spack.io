@@ -78,7 +78,7 @@
     ],
     "dependent_to": [],
     "description": "The 3D Toolkit provides algorithms and methods to process 3D point\nclouds. It includes automatic high-accurate registration (6D\nsimultaneous localization and mapping, 6D SLAM) and other tools, e.g., a\nfast 3D viewer, plane extraction software, etc. Several file formats for\nthe point clouds are natively supported, new formats can be implemented\neasily.\n",
-    "homepage": "https://slam6d.sourceforge.net/",
+    "homepage": "http://slam6d.sourceforge.net/",
     "latest_version": "1.2",
     "maintainers": [],
     "name": "3dtk",

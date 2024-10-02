@@ -6,11 +6,6 @@
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=makefile"
-        },
-        {
-            "description": null,
-            "name": "zlib-ng",
-            "spec": ""
         }
     ],
     "dependencies": [
@@ -51,7 +46,7 @@
     ],
     "description": "STAR is an ultrafast universal RNA-seq aligner.\n",
     "homepage": "https://github.com/alexdobin/STAR",
-    "latest_version": "2.7.11b",
+    "latest_version": "2.7.11a",
     "maintainers": [],
     "name": "star",
     "patches": [],
@@ -64,10 +59,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.7.11b",
-            "sha256": "3f65305e4112bd154c7e22b333dcdaafc681f4a895048fa30fa7ae56cac408e7"
-        },
         {
             "name": "2.7.11a",
             "sha256": "542457b1a4fee73f27a581b1776e9f73ad2b4d7e790388b6dc71147bd039f99a"

@@ -24,11 +24,6 @@
     "build_system": "Package",
     "conflicts": [
         {
-            "description": null,
-            "name": "mpi_family=none",
-            "spec": "+cluster"
-        },
-        {
             "description": "intel-oneapi-mkl: This package in only available for x86_64 and Linux",
             "name": "arch=None-None-aarch64:",
             "spec": ""
@@ -45,12 +40,17 @@
         },
         {
             "description": "intel-oneapi-mkl: This package in only available for x86_64 and Linux",
-            "name": "arch=darwin-None-None",
+            "name": "arch=cray:-None-None",
             "spec": ""
         },
         {
             "description": "intel-oneapi-mkl: This package in only available for x86_64 and Linux",
-            "name": "arch=windows-None-None",
+            "name": "arch=darwin:-None-None",
+            "spec": ""
+        },
+        {
+            "description": "intel-oneapi-mkl: This package in only available for x86_64 and Linux",
+            "name": "arch=windows:-None-None",
             "spec": ""
         }
     ],
@@ -136,7 +136,7 @@
     ],
     "description": "Intel oneAPI Math Kernel Library (Intel oneMKL; formerly Intel Math\nKernel Library or Intel MKL), is a library of optimized math routines\nfor science, engineering, and financial applications. Core math\nfunctions include BLAS, LAPACK, ScaLAPACK, sparse solvers, fast Fourier\ntransforms, and vector math. LICENSE INFORMATION: By downloading and\nusing this software, you agree to the terms and conditions of the\nsoftware license agreements at https://intel.ly/393CijO.\n",
     "homepage": "https://software.intel.com/content/www/us/en/develop/tools/oneapi/components/onemkl.html",
-    "latest_version": "2024.2.2",
+    "latest_version": "2024.1.0",
     "maintainers": [
         "rscohn2"
     ],
@@ -161,11 +161,6 @@
         },
         {
             "default": false,
-            "description": "Compatibility with GNU Fortran",
-            "name": "gfortran"
-        },
-        {
-            "default": false,
             "description": "Build with ILP64 support",
             "name": "ilp64"
         },
@@ -186,21 +181,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2024.2.2",
-            "sha256": "6b64ab95567bee53d6cf7e78f9f7b15695902fb9da0d20c29e638ad001b6b348",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/89a381f6-f85d-4dda-ae62-30d51470f53c/l_onemkl_p_2024.2.2.17_offline.sh"
-        },
-        {
-            "name": "2024.2.1",
-            "sha256": "adfb1391f87a0a638772ac3146db92126a4accf4da1fe8707a000b27dd2448ef",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/6e00e368-b61d-4f87-a409-9b510c022a37/l_onemkl_p_2024.2.1.105_offline.sh"
-        },
-        {
-            "name": "2024.2.0",
-            "sha256": "f1f46f5352c197a9840e08fc191a879dad79ebf742fe782e386ba8006f262f7a",
-            "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/cdff21a5-6ac7-4b41-a7ec-351b5f9ce8fd/l_onemkl_p_2024.2.0.664_offline.sh"
-        },
         {
             "name": "2024.1.0",
             "sha256": "b121bc70d3493ef1fbd05f077b1cd27ac4eb2fd1099f44e9f4b8a1366995fb92",

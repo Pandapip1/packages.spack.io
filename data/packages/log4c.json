@@ -24,7 +24,7 @@
     ],
     "dependent_to": [],
     "description": "Library for writing log messages from C programs\n",
-    "homepage": "https://log4c.sourceforge.net/",
+    "homepage": "http://log4c.sourceforge.net/",
     "latest_version": "1.2.4",
     "maintainers": [],
     "name": "log4c",

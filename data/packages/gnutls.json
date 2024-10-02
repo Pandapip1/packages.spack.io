@@ -103,10 +103,6 @@
             "name": "openldap"
         },
         {
-            "description": "QPDF is a command-line tool and C++ library that performs content-\npreserving transformations on PDF files.",
-            "name": "qpdf"
-        },
-        {
             "description": "rtmpdump is a toolkit for RTMP streams.",
             "name": "rtmpdump"
         },

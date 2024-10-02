@@ -106,10 +106,6 @@
             "name": "perl-xml-parser"
         },
         {
-            "description": "pkgconf is a program which helps to configure compiler and linker flags\nfor development frameworks. It is similar to pkg-config from\nfreedesktop.org, providing additional functionality while also\nmaintaining compatibility.",
-            "name": "pkgconfig"
-        },
-        {
             "description": "SpeexDSP is a patent-free, Open Source/Free Software DSP library.",
             "name": "speexdsp"
         },

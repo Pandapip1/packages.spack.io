@@ -4,13 +4,8 @@
     "conflicts": [
         {
             "description": null,
-            "name": "^osmesa",
+            "name": "+osmesa",
             "spec": "+qt"
-        },
-        {
-            "description": null,
-            "name": "@9.0 arch=windows-None-None",
-            "spec": ""
         },
         {
             "description": null,
@@ -67,6 +62,10 @@
         {
             "description": "The OpenGL Extension Wrangler Library.",
             "name": "glew"
+        },
+        {
+            "description": "Shim package for the GLX library.",
+            "name": "glx"
         },
         {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
@@ -131,6 +130,10 @@
         {
             "description": "JSON for Modern C++",
             "name": "nlohmann-json"
+        },
+        {
+            "description": "Shim package for the OSMesa OpenGL library.",
+            "name": "osmesa"
         },
         {
             "description": "PROJ is a generic coordinate transformation software, that transforms\ngeospatial coordinates from one coordinate reference system (CRS) to\nanother. This includes cartographic projections as well as geodetic\ntransformations.",
@@ -293,11 +296,10 @@
     ],
     "description": "The Visualization Toolkit (VTK) is an open-source, freely available\nsoftware system for 3D computer graphics, image processing and\nvisualization.\n",
     "homepage": "https://www.vtk.org",
-    "latest_version": "9.3.1",
+    "latest_version": "9.2.6",
     "maintainers": [
         "chuckatkins",
-        "danlipsa",
-        "johnwparent"
+        "danlipsa"
     ],
     "name": "vtk",
     "patches": [
@@ -376,6 +378,15 @@
         {
             "level": 1,
             "owner": "builtin.vtk",
+            "relative_path": "internal_findHDF5.patch",
+            "reverse": false,
+            "sha256": "760fd6d098d1d545b200bb297cbf0df5d010d8f62b7bead9011d0b0eeebad252",
+            "version": "@:8 arch=cray-None-None",
+            "working_dir": "."
+        },
+        {
+            "level": 1,
+            "owner": "builtin.vtk",
             "relative_path": "vtk-adios2-module-no-kit.patch",
             "reverse": false,
             "sha256": "87656ca858fabf3260de60b4f87ce59082f38d9b11e7c31f9d5836da5b245485",
@@ -439,19 +450,19 @@
         {
             "level": 1,
             "owner": "builtin.vtk",
-            "relative_path": "vtk_findproj_config.patch",
+            "relative_path": "vtk_alias_hdf5.patch",
             "reverse": false,
-            "sha256": "2d38712f1fcce33a2d43bbf1a68c30f13359dcf3cd2f25ae9dcec779606e09e8",
-            "version": "@9:",
+            "sha256": "ff9dce424f07b49084dec13ea971f55b2b235cab10a357968bad33ce29f039f8",
+            "version": "@9: arch=windows-None-None",
             "working_dir": "."
         },
         {
             "level": 1,
             "owner": "builtin.vtk",
-            "relative_path": "vtk_alias_hdf5.patch",
+            "relative_path": "vtk_findproj_config.patch",
             "reverse": false,
-            "sha256": "ff9dce424f07b49084dec13ea971f55b2b235cab10a357968bad33ce29f039f8",
-            "version": "@9:",
+            "sha256": "2d38712f1fcce33a2d43bbf1a68c30f13359dcf3cd2f25ae9dcec779606e09e8",
+            "version": "arch=windows-None-None",
             "working_dir": "."
         },
         {
@@ -479,15 +490,6 @@
             "sha256": "c446a90459b108082db5b28d9aeda99d030e636325e01929beba062cafb16b76",
             "url": "https://gitlab.kitware.com/vtk/vtk/-/commit/5a1c96e12e9b4a660d326be3bed115a2ceadb573.diff",
             "version": "@9.1",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.vtk",
-            "reverse": false,
-            "sha256": "dab51ffd0d62b00c089c1245e6b105f740106b53893305c87193d4ba03a948e0",
-            "url": "https://gitlab.kitware.com/vtk/vtk/-/merge_requests/9996.diff",
-            "version": "@9.1:9.2%gcc@13:",
             "working_dir": "."
         }
     ],
@@ -535,6 +537,11 @@
         },
         {
             "default": false,
+            "description": "Enable OSMesa support",
+            "name": "osmesa"
+        },
+        {
+            "default": false,
             "description": "Enable Python support",
             "name": "python"
         },
@@ -550,10 +557,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "9.3.1",
-            "sha256": "8354ec084ea0d2dc3d23dbe4243823c4bfc270382d0ce8d658939fd50061cab8"
-        },
         {
             "name": "9.2.6",
             "sha256": "06fc8d49c4e56f498c40fcb38a563ed8d4ec31358d0101e8988f0bb4d539dd12"

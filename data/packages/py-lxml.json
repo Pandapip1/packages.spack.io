@@ -20,10 +20,6 @@
             "name": "py-cssselect"
         },
         {
-            "description": "The Cython compiler for writing C extensions for the Python language.",
-            "name": "py-cython"
-        },
-        {
             "description": "HTML parser based on the WHATWG HTML specification.",
             "name": "py-html5lib"
         },
@@ -64,10 +60,6 @@
         {
             "description": "Citations and bibliography formatter.",
             "name": "py-citeproc-py"
-        },
-        {
-            "description": "Python utilities to interact with Darshan log records of HPC\napplications.",
-            "name": "py-darshan"
         },
         {
             "description": "a lightweight Javascript-aware, headless web scraping library for Python",
@@ -122,14 +114,6 @@
             "name": "py-openmc"
         },
         {
-            "description": "Up-to-date remote data access for pandas. Works for multiple versions of\npandas",
-            "name": "py-pandas-datareader"
-        },
-        {
-            "description": "Documentation generator for C++",
-            "name": "py-poxy"
-        },
-        {
             "description": "A Python library for W3C Provenance Data Model (PROV). A library for W3C\nProvenance Data Model supporting PROV-JSON, PROV-XML and PROV-O (RDF)",
             "name": "py-prov"
         },
@@ -176,7 +160,7 @@
     ],
     "description": "lxml is the most feature-rich and easy-to-use library for processing XML\nand HTML in the Python language.\n",
     "homepage": "https://lxml.de/",
-    "latest_version": "5.2.2",
+    "latest_version": "4.9.2",
     "maintainers": [],
     "name": "py-lxml",
     "patches": [],
@@ -204,10 +188,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "5.2.2",
-            "sha256": "bb2dc4898180bea79863d5487e5f9c7c34297414bad54bcd0f0852aee9cfdb87"
-        },
         {
             "name": "4.9.2",
             "sha256": "2455cfaeb7ac70338b3257f41e21f0724f4b5b0c0e7702da67ee6c3640835b67"

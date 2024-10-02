@@ -65,14 +65,6 @@
             "name": "octa"
         },
         {
-            "description": "Anvi\u2019o is a comprehensive platform that brings together many aspects of\ntoday\u2019s cutting-edge computational strategies of data-enabled\nmicrobiology, including genomics, metagenomics, metatranscriptomics,\npangenomics, metapangenomics, phylogenomics, and microbial population\ngenetics in an integrated and easy-to-use fashion through extensive\ninteractive visualization capabilities.",
-            "name": "py-anvio"
-        },
-        {
-            "description": "Autoregressive Conditional Heteroskedasticity (ARCH) and other tools for\nfinancial econometrics, written in Python (with Cython and/or Numba used\nto improve performance)",
-            "name": "py-arch"
-        },
-        {
             "description": "Built based on the Apache Arrow columnar memory format, cuDF is a GPU\nDataFrame library for loading, joining, aggregating, filtering, and\notherwise manipulating data.",
             "name": "py-cudf"
         },
@@ -123,10 +115,6 @@
         {
             "description": "Reusable tools for working with next-generation sequencing (NGS) data.",
             "name": "py-ngs-tools"
-        },
-        {
-            "description": "Use numba-compiled kernels from within Jax",
-            "name": "py-numba4jax"
         },
         {
             "description": "This package creates a quaternion type in python, and further enables\nnumpy to create and manipulate arrays of quaternions. The usual\nalgebraic operations (addition and multiplication) are available, along\nwith numerous properties like norm and various types of distance\nmeasures between two quaternions. There are also additional functions\nlike \"squad\" and \"slerp\" interpolation, and conversions to and from\naxis-angle, matrix, and Euler-angle representations of rotations. The\ncore of the code is written in C for speed.",
@@ -189,6 +177,10 @@
             "name": "py-thewalrus"
         },
         {
+            "description": "Graph Neural Network Library for PyTorch.",
+            "name": "py-torch-geometric"
+        },
+        {
             "description": "UCSF pyem is a collection of Python modules and command-line utilities\nfor electron microscopy of biological samples.",
             "name": "py-ucsf-pyem"
         },
@@ -203,10 +195,6 @@
         {
             "description": "Metrics for verifying forecasts.",
             "name": "py-xskillscore"
-        },
-        {
-            "description": "Python library to read and process pulsar data in several different\nformats",
-            "name": "py-your"
         }
     ],
     "description": "NumPy aware dynamic Python compiler using LLVM\n",

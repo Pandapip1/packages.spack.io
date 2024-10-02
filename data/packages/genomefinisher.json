@@ -10,7 +10,7 @@
     ],
     "dependent_to": [],
     "description": "GFinisher is an application tools for refinement and finalization of\nprokaryotic genomes assemblies using the bias of GC Skew to identify\nassembly errors and organizes the contigs/scaffolds with genomes\nreferences.\n",
-    "homepage": "https://gfinisher.sourceforge.net",
+    "homepage": "http://gfinisher.sourceforge.net",
     "latest_version": "1.4",
     "maintainers": [],
     "name": "genomefinisher",

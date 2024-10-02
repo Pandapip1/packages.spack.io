@@ -97,7 +97,7 @@
         }
     ],
     "description": "The libXau package contains a library implementing the X11 Authorization\nProtocol. This is useful for restricting client access to the display.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXau/",
+    "homepage": "https://cgit.freedesktop.org/xorg/lib/libXau/",
     "latest_version": "1.0.11",
     "maintainers": [
         "wdconinc"

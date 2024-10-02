@@ -9,6 +9,11 @@
         },
         {
             "description": null,
+            "name": "arch=cray-None-None",
+            "spec": "build_system=nmake"
+        },
+        {
+            "description": null,
             "name": "arch=darwin-None-None",
             "spec": "build_system=nmake"
         },
@@ -300,7 +305,7 @@
         },
         {
             "description": "Mesa is an open-source implementation of the OpenGL specification - a\nsystem for rendering interactive 3D graphics.",
-            "name": "mesa"
+            "name": "mesa18"
         },
         {
             "description": "Additional Unix utilities. This is a growing collection of the Unix\ntools that nobody thought to write long ago, when Unix was young.",

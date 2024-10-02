@@ -36,10 +36,6 @@
             "name": "py-tensorflow"
         },
         {
-            "description": "RocksDB: A Persistent Key-Value Store for Flash and RAM Storage",
-            "name": "rocksdb"
-        },
-        {
             "description": "SLOCCount is a set of tools for counting physical Source Lines of Code\n(SLOC) in a large number of languages of a potentially large set of\nprograms.",
             "name": "sloccount"
         },
@@ -50,7 +46,7 @@
     ],
     "description": "The GNU Core Utilities are the basic file, shell and text manipulation\nutilities of the GNU operating system. These are the core utilities\nwhich are expected to exist on every operating system.\n",
     "homepage": "https://www.gnu.org/software/coreutils/",
-    "latest_version": "9.5",
+    "latest_version": "9.4",
     "maintainers": [],
     "name": "coreutils",
     "patches": [
@@ -87,10 +83,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "9.5",
-            "sha256": "cd328edeac92f6a665de9f323c93b712af1858bc2e0d88f3f7100469470a1b8a"
-        },
         {
             "name": "9.4",
             "sha256": "ea613a4cf44612326e917201bbbcdfbd301de21ffc3b59b6e5c07e040b275e52"

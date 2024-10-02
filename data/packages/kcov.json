@@ -35,7 +35,7 @@
     "dependent_to": [],
     "description": "Code coverage tool for compiled programs, Python and Bash which uses\ndebugging information to collect and report data without special\ncompilation options\n",
     "homepage": "https://simonkagstrom.github.io/kcov/index.html",
-    "latest_version": "42",
+    "latest_version": "38",
     "maintainers": [],
     "name": "kcov",
     "patches": [],
@@ -64,15 +64,9 @@
     ],
     "versions": [
         {
-            "name": "42",
-            "sha256": "2c47d75397af248bc387f60cdd79180763e1f88f3dd71c94bb52478f8e74a1f8"
+            "name": "38",
+            "sha256": "b37af60d81a9b1e3b140f9473bdcb7975af12040feb24cc666f9bb2bb0be68b4"
         }
     ],
-    "versions_deprecated": [
-        {
-            "name": "38",
-            "sha256": "b37af60d81a9b1e3b140f9473bdcb7975af12040feb24cc666f9bb2bb0be68b4",
-            "url": "https://github.com/SimonKagstrom/kcov/archive/38.tar.gz"
-        }
-    ]
+    "versions_deprecated": []
 }

@@ -22,10 +22,6 @@
             "name": "perl-class-method-modifiers"
         },
         {
-            "description": "HTTP::Tiny: A small, simple, correct HTTP/1.1 client perl module",
-            "name": "perl-http-tiny"
-        },
-        {
             "description": "Moo - Minimalist Object Orientation (with Moose compatibility)",
             "name": "perl-moo"
         }

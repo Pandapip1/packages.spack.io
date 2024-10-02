@@ -75,18 +75,6 @@
         {
             "alias_for": "gcc@9: languages=go",
             "name": "golang"
-        },
-        {
-            "alias_for": "gcc",
-            "name": "c"
-        },
-        {
-            "alias_for": "gcc",
-            "name": "cxx"
-        },
-        {
-            "alias_for": "gcc",
-            "name": "fortran"
         }
     ],
     "build_system": "AutotoolsPackage",
@@ -315,10 +303,6 @@
             "name": "m4"
         },
         {
-            "description": "mold: A Modern Linker",
-            "name": "mold"
-        },
-        {
             "description": "Gnu Mpc is a C library for the arithmetic of complex numbers with\narbitrarily high precision and correct rounding of the result.",
             "name": "mpc"
         },
@@ -381,13 +365,17 @@
             "name": "mppp"
         },
         {
+            "description": "Run Llama 2, Code Llama, and other models. Customize and create your\nown.",
+            "name": "ollama"
+        },
+        {
             "description": "Yade is an free software for particle based simulations.",
             "name": "yade"
         }
     ],
     "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C,\nFortran, Ada, and Go, as well as libraries for these languages.\n",
     "homepage": "https://gcc.gnu.org",
-    "latest_version": "14.2.0",
+    "latest_version": "13.2.0",
     "maintainers": [
         "alalazo",
         "michaelkuhn"
@@ -661,11 +649,6 @@
         },
         {
             "default": false,
-            "description": "Use mold as the linker by default",
-            "name": "mold"
-        },
-        {
-            "default": false,
             "description": "Target nvptx offloading to NVIDIA GPUs",
             "name": "nvptx"
         },
@@ -691,28 +674,12 @@
             "name": "master"
         },
         {
-            "name": "14.2.0",
-            "sha256": "a7b39bc69cbf9e25826c5a60ab26477001f7c08d85cec04bc0e29cabed6f3cc9"
-        },
-        {
-            "name": "14.1.0",
-            "sha256": "e283c654987afe3de9d8080bc0bd79534b5ca0d681a73a11ff2b5d3767426840"
-        },
-        {
-            "name": "13.3.0",
-            "sha256": "0845e9621c9543a13f484e94584a49ffc0129970e9914624235fc1d061a0c083"
-        },
-        {
             "name": "13.2.0",
             "sha256": "e275e76442a6067341a27f04c5c6b83d8613144004c0413528863dc6b5c743da"
         },
         {
             "name": "13.1.0",
             "sha256": "61d684f0aa5e76ac6585ad8898a2427aade8979ed5e7f85492286c4dfc13ee86"
-        },
-        {
-            "name": "12.4.0",
-            "sha256": "704f652604ccbccb14bdabf3478c9511c89788b12cb3bbffded37341916a9175"
         },
         {
             "name": "12.3.0",
@@ -725,10 +692,6 @@
         {
             "name": "12.1.0",
             "sha256": "62fd634889f31c02b64af2c468f064b47ad1ca78411c45abe6ac4b5f8dd19c7b"
-        },
-        {
-            "name": "11.5.0",
-            "sha256": "a6e21868ead545cf87f0c01f84276e4b5281d672098591c1c896241f09363478"
         },
         {
             "name": "11.4.0",

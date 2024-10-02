@@ -42,10 +42,6 @@
             "name": "py-galaxy-tool-util"
         },
         {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
-        },
-        {
             "description": "A library for property based testing.",
             "name": "py-hypothesis"
         },

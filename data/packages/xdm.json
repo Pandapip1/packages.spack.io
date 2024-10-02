@@ -68,8 +68,8 @@
     ],
     "dependent_to": [],
     "description": "X Display Manager / XDMCP server.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xdm",
-    "latest_version": "1.1.16",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xdm",
+    "latest_version": "1.1.14",
     "maintainers": [],
     "name": "xdm",
     "patches": [],
@@ -82,10 +82,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.1.16",
-            "sha256": "931013642b7fab893f374eb1aa6f9ad043c88b654802fc51f841cea76aff44e0"
-        },
         {
             "name": "1.1.14",
             "sha256": "bcc543c3c120094d58d9cc9837958d4303693c2116ba342ba3dd9440137b4026"

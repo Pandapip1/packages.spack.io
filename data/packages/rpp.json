@@ -6,21 +6,6 @@
             "description": null,
             "name": "+hip+opencl",
             "spec": ""
-        },
-        {
-            "description": null,
-            "name": "+asan",
-            "spec": "arch=None-centos7-None"
-        },
-        {
-            "description": null,
-            "name": "+asan",
-            "spec": "arch=None-centos8-None"
-        },
-        {
-            "description": null,
-            "name": "+asan",
-            "spec": "arch=None-rhel9-None"
         }
     ],
     "dependencies": [
@@ -81,15 +66,11 @@
         {
             "description": "MIVisionX toolkit is a set of comprehensive computer vision and machine\nintelligence libraries, utilities, and applications bundled into a\nsingle toolkit.",
             "name": "mivisionx"
-        },
-        {
-            "description": "The AMD rocAL is designed to efficiently decode and process images and\nvideos from a variety of storage formats and modify them through a\nprocessing graph programmable by the user.",
-            "name": "rocal"
         }
     ],
     "description": "Radeon Performance Primitives (RPP) library is a comprehensive high-\nperformance computer vision library for AMD (CPU and GPU) with HIP and\nOPENCL back-ends\n",
     "homepage": "https://github.com/GPUOpen-ProfessionalCompute-Libraries/rpp",
-    "latest_version": "6.2.1",
+    "latest_version": "6.0.2",
     "maintainers": [
         "afzpatel",
         "srekolam"
@@ -129,16 +110,7 @@
             "relative_path": "0003-changes-to-rpp-unit-tests.patch",
             "reverse": false,
             "sha256": "87b62ae1fd1e6553742353738a40a5f5571249b888b233f70d07d7eadc74f705",
-            "version": "@5.7:6.0+add_tests",
-            "working_dir": "."
-        },
-        {
-            "level": 1,
-            "owner": "builtin.rpp",
-            "relative_path": "0003-changes-to-rpp-unit-tests-6.1.patch",
-            "reverse": false,
-            "sha256": "4aa712d27d606cd98222f37f98439756ddd2a89a52490103b1918714a7f4e201",
-            "version": "@6.1+add_tests",
+            "version": "+add_tests",
             "working_dir": "."
         }
     ],
@@ -148,11 +120,6 @@
             "default": false,
             "description": "add utilities folder which contains rpp unit tests",
             "name": "add_tests"
-        },
-        {
-            "default": false,
-            "description": "Build with address-sanitizer enabled or disabled",
-            "name": "asan"
         },
         {
             "default": "cmake",
@@ -191,26 +158,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "6.2.1",
-            "sha256": "5ae9d0c6733ba0e00be1cda13003e98acebd3f86de59e6f1969e297d673f124e"
-        },
-        {
-            "name": "6.2.0",
-            "sha256": "69fbebf50b734e055258ea3c5b0399a51babab8f66074166d2b0fc4f1904c09c"
-        },
-        {
-            "name": "6.1.2",
-            "sha256": "3a529bdd17b448a9e05a6aac1b5e173a077f4a4a1fd2ed759bcea331acd2829f"
-        },
-        {
-            "name": "6.1.1",
-            "sha256": "9ca385c6f208a0bbf2be60ad15697d35371992d49ed30077b69e22090cef657c"
-        },
-        {
-            "name": "6.1.0",
-            "sha256": "026c5ac7a92e14e35b9e7630a2ebfff3f4b3544b988eb9aa8af9991d4beea242"
-        },
         {
             "name": "6.0.2",
             "sha256": "2686eb4099233db4444fcd2f77af9b00d38d829f05de2403bed37b1b28f2653c"

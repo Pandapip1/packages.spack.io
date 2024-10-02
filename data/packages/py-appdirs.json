@@ -50,10 +50,6 @@
             "name": "py-geocube"
         },
         {
-            "description": "Parser tools for Mozilla's Glean telemetry.",
-            "name": "py-glean-parser"
-        },
-        {
             "description": "HTTP-based REST interface to Stan, a package for Bayesian inference.",
             "name": "py-httpstan"
         },

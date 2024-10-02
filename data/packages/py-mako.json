@@ -38,6 +38,10 @@
             "name": "mesa"
         },
         {
+            "description": "Mesa is an open-source implementation of the OpenGL specification - a\nsystem for rendering interactive 3D graphics.",
+            "name": "mesa18"
+        },
+        {
             "description": "Alembic is a database migrations tool.",
             "name": "py-alembic"
         },

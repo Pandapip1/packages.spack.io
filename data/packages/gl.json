@@ -9,6 +9,11 @@
     "conflicts": [
         {
             "description": null,
+            "name": "arch=cray-None-None",
+            "spec": ""
+        },
+        {
+            "description": null,
             "name": "arch=darwin-None-None",
             "spec": ""
         },
@@ -142,10 +147,6 @@
             "name": "octave"
         },
         {
-            "description": "Of-catalyst is a library for OpenFOAM that provides a runtime-selectable\nfunction object for embedding ParaView Catalyst in-situ visualization\ninto arbitrary OpenFOAM simulations. Supports in-situ conversion of the\nfollowing types: 1) finite volume meshes and fields, single or multi-\nregion; 2) finite area meshes and fields, single region; 3) lagrangian\n(clouds), single or multiple clouds. This offering is part of the\ncommunity repository supported by OpenCFD Ltd, producer and distributor\nof the OpenFOAM software via www.openfoam.com, and owner of the OPENFOAM\ntrademark. OpenCFD Ltd has been developing and releasing OpenFOAM since\nits debut in 2004.",
-            "name": "of-catalyst"
-        },
-        {
             "description": "Open CASCADE Technology is a software development kit (SDK) intended for\ndevelopment of applications dealing with 3D CAD data, freely available\nin open source. It includes a set of C++ class libraries providing\nservices for 3D surface and solid modeling, visualization, data exchange\nand rapid application development.",
             "name": "opencascade"
         },
@@ -182,10 +183,6 @@
             "name": "py-pymol"
         },
         {
-            "description": "PyOpenGL is the most common cross platform Python binding to OpenGL and\nrelated APIs.",
-            "name": "py-pyopengl"
-        },
-        {
             "description": "Qt is a comprehensive cross-platform C++ application framework.",
             "name": "qt"
         },
@@ -210,16 +207,8 @@
             "name": "root"
         },
         {
-            "description": "Adapter for Trilinos Seacas Ioss and Paraview Catalyst",
-            "name": "trilinos-catalyst-ioss-adapter"
-        },
-        {
             "description": "VAPOR is the Visualization and Analysis Platform for Ocean, Atmosphere,\nand Solar Researchers. VAPOR provides an interactive 3D visualization\nenvironment that can also produce animations and still frame images.",
             "name": "vapor"
-        },
-        {
-            "description": "VisIt is an Open Source, interactive, scalable, visualization, animation\nand analysis tool.",
-            "name": "visit"
         },
         {
             "description": "VMD provides user-editable materials which can be applied to molecular\ngeometry. These material properties control the details of how VMD\nshades the molecular geometry, and how transparent or opaque the\ndisplayed molecular geometry is. With this feature, one can easily\ncreate nice looking transparent surfaces which allow inner structural\ndetails to be seen within a large molecular structure. The material\ncontrols can be particularly helpful when rendering molecular scenes\nusing external ray tracers, each of which typically differ slightly.",
@@ -232,10 +221,6 @@
         {
             "description": "xdriinfo - query configuration information of X11 DRI drivers.",
             "name": "xdriinfo"
-        },
-        {
-            "description": "X.Org Server is the free and open source implementation of the display\nserver for the X Window System stewarded by the X.Org Foundation.",
-            "name": "xorg-server"
         }
     ],
     "description": "External WGl and Windows OpenGL emulation representation in Spack\n",
@@ -250,11 +235,6 @@
             "default": "generic",
             "description": "Build systems supported by the package",
             "name": "build_system"
-        },
-        {
-            "default": "x64",
-            "description": "Toolchain arch",
-            "name": "plat"
         }
     ],
     "versions": [

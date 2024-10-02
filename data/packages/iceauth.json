@@ -34,15 +34,10 @@
             "name": "xproto"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "Session manager for Xfce4",
-            "name": "xfce4-session"
-        }
-    ],
+    "dependent_to": [],
     "description": "The iceauth program is used to edit and display the authorization\ninformation used in connecting with ICE. It operates very much like the\nxauth program for X11 connection authentication records.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/iceauth",
-    "latest_version": "1.0.10",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/iceauth",
+    "latest_version": "1.0.9",
     "maintainers": [],
     "name": "iceauth",
     "patches": [],
@@ -55,10 +50,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.0.10",
-            "sha256": "f17f373c6e7bfef9cfa4c688f165dfebec7642ad7c6304c5bb3c9bc2bfcde747"
-        },
         {
             "name": "1.0.9",
             "sha256": "5ca274cf210453e7d7cf5c827a2fbc92149df83824f99a27cde17e1f20324dc6"

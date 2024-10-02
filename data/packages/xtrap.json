@@ -36,7 +36,7 @@
     ],
     "dependent_to": [],
     "description": "XTrap sample clients.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/app/xtrap",
+    "homepage": "https://cgit.freedesktop.org/xorg/app/xtrap",
     "latest_version": "1.0.3",
     "maintainers": [],
     "name": "xtrap",

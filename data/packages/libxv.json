@@ -57,7 +57,7 @@
         }
     ],
     "description": "libXv - library for the X Video (Xv) extension to the X Window System.\n",
-    "homepage": "https://gitlab.freedesktop.org/xorg/lib/libXv",
+    "homepage": "https://cgit.freedesktop.org/xorg/lib/libXv",
     "latest_version": "1.0.12",
     "maintainers": [
         "wdconinc"

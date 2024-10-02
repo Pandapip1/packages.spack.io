@@ -38,7 +38,7 @@
     "dependent_to": [],
     "description": "nginx [engine x] is an HTTP and reverse proxy server, a mail proxy\nserver, and a generic TCP/UDP proxy server, originally written by Igor\nSysoev.\n",
     "homepage": "https://nginx.org/en/",
-    "latest_version": "1.26.0",
+    "latest_version": "1.24.0",
     "maintainers": [],
     "name": "nginx",
     "patches": [],
@@ -51,10 +51,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.26.0",
-            "sha256": "d2e6c8439d6c6db5015d8eaab2470ab52aef85a7bf363182879977e084370497"
-        },
         {
             "name": "1.24.0",
             "sha256": "77a2541637b92a621e3ee76776c8b7b40cf6d707e69ba53a940283e30ff2f55d"

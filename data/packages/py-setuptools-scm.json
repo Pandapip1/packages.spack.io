@@ -58,14 +58,6 @@
             "name": "cryodrgn"
         },
         {
-            "description": "The Global Extensible Open Power Manager (GEOPM) Runtime is designed to\nenhance energy efficiency of applications through active hardware\nconfiguration.",
-            "name": "geopm-runtime"
-        },
-        {
-            "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely. Note:\nGEOPM interfaces with hardware using Model Specific Registers (MSRs).\nFor proper usage make sure MSRs are made available via the msr or msr-\nsafe kernel modules by your administrator.",
-            "name": "geopm-service"
-        },
-        {
             "description": "HiCOPS is a software framework for accelerating database peptide search\nworkflows on supercomputers. HiCOPS provided algorithm-independent\nparallelizations and optimizations can be extended into new HPC database\nsearch algorithms or scalably accelerate the existing ones.",
             "name": "hicops"
         },
@@ -88,10 +80,6 @@
         {
             "description": "apipkg: namespace control and lazy-import mechanism",
             "name": "py-apipkg"
-        },
-        {
-            "description": "Autoregressive Conditional Heteroskedasticity (ARCH) and other tools for\nfinancial econometrics, written in Python (with Cython and/or Numba used\nto improve performance)",
-            "name": "py-arch"
         },
         {
             "description": "Bash tab completion for argparse.",
@@ -128,10 +116,6 @@
         {
             "description": "The Astropy Project is a community effort to develop a single core\npackage for Astronomy in Python and foster interoperability between\nPython astronomy packages.",
             "name": "py-astropy"
-        },
-        {
-            "description": "IERS Earth rotation and leap second table Note: This package is not\nmeant for standalone purposes but is needed by AstroPy.",
-            "name": "py-astropy-iers-data"
         },
         {
             "description": "Annotate AST trees with source code positions.",
@@ -194,20 +178,12 @@
             "name": "py-botorch"
         },
         {
-            "description": "Spatial indexer for geometries and morphologies",
-            "name": "py-brain-indexer"
-        },
-        {
             "description": "Generate complex HTML+JS pages with Python.",
             "name": "py-branca"
         },
         {
             "description": "Cartopy - a cartographic python library with matplotlib support.",
             "name": "py-cartopy"
-        },
-        {
-            "description": "CellProfiler cell image analysis software. CellProfiler is a free open-\nsource software designed to enable biologists without training in\ncomputer vision or programming to quantitatively measure phenotypes from\nthousands of images automatically.",
-            "name": "py-cellprofiler"
         },
         {
             "description": "A convenience wrapper for using CF attributes on xarray objects.",
@@ -226,7 +202,7 @@
             "name": "py-cherrypy"
         },
         {
-            "description": "CMake is an open-source, cross-platform family of tools designed to\nbuild, test and package software. Deprecated: use cmake instead.",
+            "description": "CMake is an open-source, cross-platform family of tools designed to\nbuild, test and package software",
             "name": "py-cmake"
         },
         {
@@ -346,20 +322,8 @@
             "name": "py-fracridge"
         },
         {
-            "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely.",
-            "name": "py-geopmdpy"
-        },
-        {
-            "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely.",
-            "name": "py-geopmpy"
-        },
-        {
             "description": "An asynchronous GitLab API library.",
             "name": "py-gidgetlab"
-        },
-        {
-            "description": "Parser tools for Mozilla's Glean telemetry.",
-            "name": "py-glean-parser"
         },
         {
             "description": "GPyTorch is a Gaussian process library implemented using PyTorch.\nGPyTorch is designed for creating scalable, flexible, and modular\nGaussian process models with ease.",
@@ -426,10 +390,6 @@
             "name": "py-jaraco-functools"
         },
         {
-            "description": "Java Property file parser and writer for Python",
-            "name": "py-jproperties"
-        },
-        {
             "description": "Python library for serializing any arbitrary object graph into JSON.",
             "name": "py-jsonpickle"
         },
@@ -462,16 +422,8 @@
             "name": "py-libsonata"
         },
         {
-            "description": "A deep learning package for self-supervised learning.",
-            "name": "py-lightly"
-        },
-        {
             "description": "A linear operator implementation, primarily designed for finite-\ndimensional positive definite operators (i.e. kernel matrices).",
             "name": "py-linear-operator"
-        },
-        {
-            "description": "Check for broken links in web sites.",
-            "name": "py-linkchecker"
         },
         {
             "description": "lz4 (compression library) bindings for Python",
@@ -570,10 +522,6 @@
             "name": "py-pacifica-uploader"
         },
         {
-            "description": "Up-to-date remote data access for pandas. Works for multiple versions of\npandas",
-            "name": "py-pandas-datareader"
-        },
-        {
             "description": "Particle provides a pythonic interface to the Particle Data Group (PDG)\nparticle data tables and particle identification codes, with extended\nparticle information and extra goodies.",
             "name": "py-particle"
         },
@@ -636,10 +584,6 @@
         {
             "description": "PyERFA is the Python wrapper for the ERFA library (Essential Routines\nfor Fundamental Astronomy), a C library containing key algorithms for\nastronomy, which is based on the SOFA library published by the\nInternational Astronomical Union (IAU). All C routines are wrapped as\nNumpy universal functions, so that they can be called with scalar or\narray inputs.",
             "name": "py-pyerfa"
-        },
-        {
-            "description": "pyfaidx: efficient pythonic random access to fasta subsequences",
-            "name": "py-pyfaidx"
         },
         {
             "description": "Typed interactions with the GitHub API v3",
@@ -754,10 +698,6 @@
             "name": "py-quantities"
         },
         {
-            "description": "Create masks of geospatial regions for arbitrary grids",
-            "name": "py-regionmask"
-        },
-        {
             "description": "The reproject package is a Python package to reproject astronomical\nimages using various techniques via a uniform interface. By\nreprojection, we mean the re-gridding of images from one world\ncoordinate system to another (for example changing the pixel resolution,\norientation, coordinate system). Currently, we have implemented\nreprojection of celestial images by interpolation (like SWARP), as well\nas by finding the exact overlap between pixels on the celestial sphere\n(like Montage). It can also reproject to/from HEALPIX projections by\nrelying on the astropy-healpix package.",
             "name": "py-reproject"
         },
@@ -812,10 +752,6 @@
         {
             "description": "Backport of functools.singledispatchmethod to Python 2.7-3.7.",
             "name": "py-singledispatchmethod"
-        },
-        {
-            "description": "A Python bindings generator for C/C++ libraries.",
-            "name": "py-sip"
         },
         {
             "description": "snoop is a powerful set of Python debugging tools. It's primarily meant\nto be a more featureful and refined version of PySnooper. It also\nincludes its own version of icecream and some other nifty stuff.",

@@ -46,7 +46,7 @@
         }
     ],
     "description": "TclXML is an API for parsing XML documents using the Tcl scripting\nlanguage. It is also a package including a DOM implementation (TclDOM)\nand XSL Transformations (TclXSLT). These allow Tcl scripts to read,\nmanipulate and write XML documents.\n",
-    "homepage": "https://tclxml.sourceforge.net/tclxml.html",
+    "homepage": "http://tclxml.sourceforge.net/tclxml.html",
     "latest_version": "3.2",
     "maintainers": [],
     "name": "tcl-tclxml",

@@ -72,10 +72,6 @@
             "name": "pajeng"
         },
         {
-            "description": "PyOpenGL is the most common cross platform Python binding to OpenGL and\nrelated APIs.",
-            "name": "py-pyopengl"
-        },
-        {
             "description": "Rodinia: Accelerating Compute-Intensive Applications with Accelerators",
             "name": "rodinia"
         },
@@ -85,7 +81,7 @@
         }
     ],
     "description": "FreeGLUT is a free-software/open-source alternative to the OpenGL\nUtility Toolkit (GLUT) library\n",
-    "homepage": "https://freeglut.sourceforge.net/",
+    "homepage": "http://freeglut.sourceforge.net/",
     "latest_version": "3.2.2",
     "maintainers": [],
     "name": "freeglut",

@@ -6,11 +6,6 @@
             "description": null,
             "name": "arch=windows-None-None",
             "spec": "build_system=autotools"
-        },
-        {
-            "description": null,
-            "name": "openssl@3.0",
-            "spec": "ssl=openssl"
         }
     ],
     "dependencies": [
@@ -69,10 +64,6 @@
     ],
     "dependent_to": [
         {
-            "description": "Install casacore measures tables, and a tool to maintain them.",
-            "name": "casacore-measures"
-        },
-        {
             "description": "Crosstool-NG is a versatile (cross) toolchain generator. It supports\nmany architectures and components and has a simple yet powerful\nmenuconfig-style interface.",
             "name": "crosstool-ng"
         },
@@ -115,7 +106,7 @@
     ],
     "description": "GNU Wget is a free software package for retrieving files using HTTP,\nHTTPS and FTP, the most widely-used Internet protocols. It is a non-\ninteractive commandline tool, so it may easily be called from scripts,\ncron jobs, terminals without X-Windows support, etc.\n",
     "homepage": "https://www.gnu.org/software/wget/",
-    "latest_version": "1.24.5",
+    "latest_version": "1.21.3",
     "maintainers": [],
     "name": "wget",
     "patches": [
@@ -163,14 +154,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.24.5",
-            "sha256": "fa2dc35bab5184ecbc46a9ef83def2aaaa3f4c9f3c97d4bd19dcb07d4da637de"
-        },
-        {
-            "name": "1.21.4",
-            "sha256": "81542f5cefb8faacc39bbbc6c82ded80e3e4a88505ae72ea51df27525bcde04c"
-        },
         {
             "name": "1.21.3",
             "sha256": "5726bb8bc5ca0f6dc7110f6416e4bb7019e2d2ff5bf93d1ca2ffcc6656f220e5"

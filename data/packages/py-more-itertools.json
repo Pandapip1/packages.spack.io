@@ -46,10 +46,6 @@
             "name": "py-cmyt"
         },
         {
-            "description": "Creation and manipulation of parameter configuration spaces for\nautomated algorithm configuration and hyperparameter tuning.",
-            "name": "py-configspace"
-        },
-        {
             "description": "Utility functions for Python class constructs",
             "name": "py-jaraco-classes"
         },

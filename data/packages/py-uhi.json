@@ -64,7 +64,7 @@
     ],
     "description": "Unified Histogram Interface: tools to help library authors work with\nhistograms\n",
     "homepage": "https://github.com/Scikit-HEP/uhi",
-    "latest_version": "0.4.0",
+    "latest_version": "0.3.3",
     "maintainers": [],
     "name": "py-uhi",
     "patches": [],
@@ -77,10 +77,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.4.0",
-            "sha256": "0dcb6b19775087d38a31ee388cb2c70f2ecfe04c4ffe2ca63223410cae5beefa"
-        },
         {
             "name": "0.3.3",
             "sha256": "800caf3a5f1273b08bcc3bb4b49228fe003942e23423812b0110546aad9a24be"

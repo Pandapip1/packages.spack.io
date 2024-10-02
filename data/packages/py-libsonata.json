@@ -62,10 +62,6 @@
     ],
     "dependent_to": [
         {
-            "description": "Spatial indexer for geometries and morphologies",
-            "name": "py-brain-indexer"
-        },
-        {
             "description": "Python library for reading, writing, and manipulating large-scale\nvasculature datasets",
             "name": "py-vascpy"
         }

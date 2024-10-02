@@ -31,7 +31,7 @@
     "dependent_to": [
         {
             "description": "a Massively Parallel Hybrid Solver in C++",
-            "name": "composyx"
+            "name": "maphyspp"
         }
     ],
     "description": "Parallel algebraic domain decomposition for linear algebra software\npackage.\n",

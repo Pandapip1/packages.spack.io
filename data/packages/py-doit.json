@@ -39,7 +39,7 @@
         }
     ],
     "description": "doit - Automation Tool.\n",
-    "homepage": "https://pydoit.org/",
+    "homepage": "http://pydoit.org/",
     "latest_version": "0.36.0",
     "maintainers": [],
     "name": "py-doit",

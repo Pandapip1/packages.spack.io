@@ -9,6 +9,11 @@
     "conflicts": [
         {
             "description": null,
+            "name": "arch=cray-None-None",
+            "spec": ""
+        },
+        {
+            "description": null,
             "name": "arch=darwin-None-None",
             "spec": ""
         },
@@ -37,11 +42,6 @@
             "default": "generic",
             "description": "Build systems supported by the package",
             "name": "build_system"
-        },
-        {
-            "default": "x64",
-            "description": "Toolchain arch",
-            "name": "plat"
         }
     ],
     "versions": [

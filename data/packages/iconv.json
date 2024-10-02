@@ -37,6 +37,10 @@
             "name": "bash"
         },
         {
+            "description": "BIND 9 has evolved to be a very flexible, full-featured DNS system.",
+            "name": "bind9"
+        },
+        {
             "description": "DCMTK is a collection of libraries and applications implementing large\nparts of the DICOM standard.",
             "name": "dcmtk"
         },
@@ -59,10 +63,6 @@
         {
             "description": "FFmpeg is a complete, cross-platform solution to record, convert and\nstream audio and video.",
             "name": "ffmpeg"
-        },
-        {
-            "description": "FreeXL is an open source library to extract valid data from within an\nExcel (.xls) spreadsheet.",
-            "name": "freexl"
         },
         {
             "description": "FSL is a comprehensive library of analysis tools for FMRI, MRI and DTI\nbrain imaging data.",

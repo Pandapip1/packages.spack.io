@@ -36,18 +36,13 @@
         {
             "description": "A generic abstraction for the compression of dense tensors",
             "name": "libpressio"
-        },
-        {
-            "description": "High Fidelity Proxy Models for Compression",
-            "name": "libpressio-predict"
         }
     ],
     "description": "SZ3 is the next generation of the SZ compressor framework\n",
     "homepage": "https://github.com/szcompressor/SZ3",
-    "latest_version": "3.2.0",
+    "latest_version": "3.1.7",
     "maintainers": [
-        "disheng222",
-        "robertu94"
+        "disheng222"
     ],
     "name": "sz3",
     "patches": [],
@@ -87,14 +82,6 @@
     "versions": [
         {
             "name": "master"
-        },
-        {
-            "commit": "b3dab4018425803a55d8073dc55dade7fa46b7b4",
-            "name": "3.2.0"
-        },
-        {
-            "commit": "e308ebf8528c233286874b920c72c0a6c0218fb2",
-            "name": "3.1.8"
         },
         {
             "commit": "c49fd17f2d908835c41000c1286c510046c0480e",

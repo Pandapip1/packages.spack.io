@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -430,7 +390,7 @@
     ],
     "dependent_to": [],
     "description": "xSDK Examples show usage of libraries in the xSDK package.\n",
-    "homepage": "https://xsdk.info",
+    "homepage": "http://xsdk.info",
     "latest_version": "0.4.0",
     "maintainers": [
         "balay",
@@ -484,11 +444,20 @@
             "name": "rocm"
         }
     ],
-    "versions": [],
-    "versions_deprecated": [
+    "versions": [
+        {
+            "branch": "master",
+            "name": "develop"
+        },
         {
             "name": "0.4.0",
             "sha256": "de54e02e0222420976a2f4cf0a6230e4bb625b443c66500fa1441032db206df9"
+        }
+    ],
+    "versions_deprecated": [
+        {
+            "name": "0.3.0",
+            "sha256": "e7444a403c0a69eeeb34a4068be4d6f4e5b54cbfd275629019b9236a538a739e"
         }
     ]
 }

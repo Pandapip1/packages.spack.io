@@ -99,10 +99,6 @@
             "name": "py-sfepy"
         },
         {
-            "description": "SIESTA performs electronic structure calculations and ab initio\nmolecular dynamics simulations of molecules and solids.",
-            "name": "siesta"
-        },
-        {
             "description": "The Trilinos Project is an effort to develop algorithms and enabling\ntechnologies within an object-oriented software framework for the\nsolution of large-scale, complex multi-physics engineering and\nscientific problems. A unique design feature of Trilinos is its focus on\npackages.",
             "name": "trilinos"
         },
@@ -112,8 +108,8 @@
         }
     ],
     "description": "MUMPS: a MUltifrontal Massively Parallel sparse direct Solver\n",
-    "homepage": "https://mumps-solver.org/index.php",
-    "latest_version": "5.7.2",
+    "homepage": "https://graal.ens-lyon.fr/MUMPS/index.php",
+    "latest_version": "5.6.2",
     "maintainers": [
         "jcortial-safran"
     ],
@@ -239,10 +235,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "5.7.2",
-            "sha256": "1362d377ce7422fc886c55212b4a4d2c381918b5ca4478f682a22d0627a8fbf8"
-        },
         {
             "name": "5.6.2",
             "sha256": "13a2c1aff2bd1aa92fe84b7b35d88f43434019963ca09ef7e8c90821a8f1d59a"

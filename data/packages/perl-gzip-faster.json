@@ -8,12 +8,7 @@
             "name": "perl"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "The Ensembl Core Perl API and SQL schema",
-            "name": "perl-bio-ensembl"
-        }
-    ],
+    "dependent_to": [],
     "description": "Simple and fast gzip and gunzip\n",
     "homepage": "https://metacpan.org/pod/Gzip::Faster",
     "latest_version": "0.21",

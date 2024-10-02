@@ -36,15 +36,11 @@
         {
             "description": "A low-level profiler for capture I/O calls from deep learning\napplications.",
             "name": "py-dlio-profiler-py"
-        },
-        {
-            "description": "A low-level profiler for capture I/O calls from deep learning\napplications.",
-            "name": "py-pydftracer"
         }
     ],
     "description": "Interceptor library for I/O calls using Gotcha\n",
     "homepage": "https://github.com/hariharan-devarajan/brahma",
-    "latest_version": "0.0.5",
+    "latest_version": "0.0.3",
     "maintainers": [
         "hariharan-devarajan"
     ],
@@ -80,22 +76,12 @@
     ],
     "versions": [
         {
-            "branch": "develop",
+            "branch": "dev",
             "name": "develop"
         },
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "commit": "219198c653cc4add845a644872e7b963a8de0fe2",
-            "name": "0.0.5",
-            "tag": "v0.0.5"
-        },
-        {
-            "commit": "8f41cc885dd8e31a1f134cbbcbaaab7e5d84331e",
-            "name": "0.0.4",
-            "tag": "v0.0.4"
         },
         {
             "commit": "fd201c653e8fa00d4ba6197a56a513f740e3014e",

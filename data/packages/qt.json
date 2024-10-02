@@ -51,11 +51,6 @@
             "description": null,
             "name": "%apple-clang@13:",
             "spec": "@:5.13"
-        },
-        {
-            "description": null,
-            "name": "%oneapi",
-            "spec": "@:5.15.13"
         }
     ],
     "dependencies": [
@@ -390,7 +385,7 @@
             "name": "opencv"
         },
         {
-            "description": "Reading, writing, and processing images in a wide variety of file\nformats, using a format-agnostic API, aimed at VFX applications.",
+            "description": "OpenImageIO is a library for reading and writing images, and a bunch of\nrelated classes, utilities, and applications.",
             "name": "openimageio"
         },
         {
@@ -556,8 +551,10 @@
     ],
     "description": "Qt is a comprehensive cross-platform C++ application framework.\n",
     "homepage": "https://qt.io",
-    "latest_version": "5.15.15",
-    "maintainers": [],
+    "latest_version": "5.15.12",
+    "maintainers": [
+        "sethrj"
+    ],
     "name": "qt",
     "patches": [
         {
@@ -838,15 +835,6 @@
             "url": "https://src.fedoraproject.org/rpms/qt5-qtwebengine/raw/32062243e895612823b47c2ae9eeb873a98a3542/f/qtwebengine-gcc11.patch",
             "version": "@5.15.2:%gcc@11:+webkit",
             "working_dir": "qtwebengine"
-        },
-        {
-            "level": 1,
-            "owner": "builtin.qt",
-            "relative_path": "qt51514-oneapi.patch",
-            "reverse": false,
-            "sha256": "cb7dbc8652fdac0e2d20fcd1733764ad77bb1151a525614020859957bf0284f7",
-            "version": "@5.15.14:%oneapi",
-            "working_dir": "."
         }
     ],
     "resources": [],
@@ -933,18 +921,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "5.15.15",
-            "sha256": "b423c30fe3ace7402e5301afbb464febfb3da33d6282a37a665be1e51502335e"
-        },
-        {
-            "name": "5.15.14",
-            "sha256": "fdd3a4f197d2c800ee0085c721f4bef60951cbda9e9c46e525d1412f74264ed7"
-        },
-        {
-            "name": "5.15.13",
-            "sha256": "9550ec8fc758d3d8d9090e261329700ddcd712e2dda97e5fcfeabfac22bea2ca"
-        },
         {
             "name": "5.15.12",
             "sha256": "93f2c0889ee2e9cdf30c170d353c3f829de5f29ba21c119167dee5995e48ccce"

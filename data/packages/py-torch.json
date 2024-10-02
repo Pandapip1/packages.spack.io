@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -670,14 +630,6 @@
             "name": "sleef"
         },
         {
-            "description": "UCC is a collective communication operations API and library that is\nflexible, complete, and feature-rich for current and emerging\nprogramming models and runtimes.",
-            "name": "ucc"
-        },
-        {
-            "description": "a communication library implementing high-performance messaging for\nMPI/PGAS frameworks",
-            "name": "ucx"
-        },
-        {
             "description": "An instrumentation framework for building dynamic analysis. There are\nValgrind tools that can automatically detect many memory management and\nthreading bugs, and profile your programs in detail. You can also use\nValgrind to build new tools. Valgrind is Open Source / Free Software,\nand is freely available under the GNU General Public License, version 2.",
             "name": "valgrind"
         }
@@ -828,20 +780,12 @@
             "name": "py-linear-operator"
         },
         {
-            "description": "LPIPS Similarity metric",
-            "name": "py-lpips"
-        },
-        {
             "description": "Melissa is a file-avoiding, adaptive, fault-tolerant and elastic\nframework, to run large-scale sensitivity analysis or deep-surrogate\ntraining on supercomputers. This package builds the launcher and server\nmodules.",
             "name": "py-melissa-core"
         },
         {
             "description": "The MinkowskiEngine is an auto-differentiation library for sparse\ntensors.",
             "name": "py-minkowskiengine"
-        },
-        {
-            "description": "AI Toolkit for Healthcare Imaging",
-            "name": "py-monai"
         },
         {
             "description": "MXfold2: RNA secondary structure prediction using deep learning with\nthermodynamic integration",
@@ -902,10 +846,6 @@
         {
             "description": "PyTorch Extension Library of Optimized Graph Cluster Algorithms.",
             "name": "py-torch-cluster"
-        },
-        {
-            "description": "High-fidelity performance metrics for generative models in PyTorch",
-            "name": "py-torch-fidelity"
         },
         {
             "description": "Graph Neural Network Library for PyTorch.",
@@ -972,10 +912,6 @@
             "name": "py-torchvision"
         },
         {
-            "description": "A library for accelerating Transformer models on NVIDIA GPUs, including\nfp8 precision on Hopper GPUs.",
-            "name": "py-transformer-engine"
-        },
-        {
             "description": "Ultralytics YOLOv8, developed by Ultralytics, is a cutting-edge, state-\nof-the-art (SOTA) model that builds upon the success of previous YOLO\nversions and introduces new features and improvements to further boost\nperformance and flexibility. YOLOv8 is designed to be fast, accurate,\nand easy to use, making it an excellent choice for a wide range of\nobject detection, image segmentation and image classification tasks.",
             "name": "py-ultralytics"
         },
@@ -1002,7 +938,7 @@
     ],
     "description": "Tensors and Dynamic neural networks in Python with strong GPU\nacceleration.\n",
     "homepage": "https://pytorch.org/",
-    "latest_version": "2.4.1",
+    "latest_version": "2.3.0",
     "maintainers": [
         "adamjstewart"
     ],
@@ -1440,11 +1376,6 @@
             "name": "test"
         },
         {
-            "default": false,
-            "description": "Use UCC",
-            "name": "ucc"
-        },
-        {
             "default": true,
             "description": "Use Valgrind",
             "name": "valgrind"
@@ -1459,21 +1390,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "commit": "ee1b6804381c57161c477caa380a840a84167676",
-            "name": "2.4.1",
-            "tag": "v2.4.1"
-        },
-        {
-            "commit": "d990dada86a8ad94882b5c23e859b88c0c255bda",
-            "name": "2.4.0",
-            "tag": "v2.4.0"
-        },
-        {
-            "commit": "63d5e9221bedd1546b7d364b5ce4171547db12a9",
-            "name": "2.3.1",
-            "tag": "v2.3.1"
         },
         {
             "commit": "97ff6cfd9c86c5c09d7ce775ab64ec5c99230f5d",

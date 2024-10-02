@@ -11,7 +11,7 @@
     "dependent_to": [],
     "description": "Rclone is a command line program to sync files and directories to and\nfrom various cloud storage providers\n",
     "homepage": "https://rclone.org",
-    "latest_version": "1.65.2",
+    "latest_version": "1.65.1",
     "maintainers": [
         "alecbcs"
     ],
@@ -26,10 +26,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.65.2",
-            "sha256": "1305c913ac3684d02ce2bade0a23a2115c1ec03c9447d1562bb6cd9fa2573412"
-        },
         {
             "name": "1.65.1",
             "sha256": "904b906cc465dd679a00487497e3891d33fca6b6e25c184400bccfb248344f39"

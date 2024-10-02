@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -501,26 +461,6 @@
             "description": null,
             "name": "^mpich@4:",
             "spec": "@:4.3+mpi"
-        },
-        {
-            "description": null,
-            "name": "cxxstd=11",
-            "spec": "^ginkgo"
-        },
-        {
-            "description": null,
-            "name": "cxxstd=11",
-            "spec": "^raja@2022.03.0:"
-        },
-        {
-            "description": null,
-            "name": "cxxstd=11",
-            "spec": "^sundials@6.4.0:"
-        },
-        {
-            "description": null,
-            "name": "cxxstd=11",
-            "spec": "^umpire@2022.03.0:"
         },
         {
             "description": null,
@@ -803,7 +743,7 @@
     ],
     "description": "Free, lightweight, scalable C++ library for finite element methods.\n",
     "homepage": "http://www.mfem.org",
-    "latest_version": "4.7.0",
+    "latest_version": "4.6.0",
     "maintainers": [
         "acfisher",
         "markcmiller86",
@@ -923,10 +863,10 @@
         {
             "level": 1,
             "owner": "builtin.mfem",
-            "relative_path": "mfem-4.7.patch",
+            "relative_path": "mfem-hip.patch",
             "reverse": false,
-            "sha256": "71ce9ee35a08db17ad37484eca2e8f49e090ccf4a066d3d8c0e9b0af8eadfd73",
-            "version": "@4.7.0",
+            "sha256": "99e1ef8cd78a49c88ac9103a33e01717b0389d9b5a5312986c122f279cbf5d9e",
+            "version": "+rocm ^hip@6.0:",
             "working_dir": "."
         }
     ],
@@ -961,11 +901,6 @@
             "default": "none",
             "description": "CUDA architecture",
             "name": "cuda_arch"
-        },
-        {
-            "default": "auto",
-            "description": "C++ language standard",
-            "name": "cxxstd"
         },
         {
             "default": false,
@@ -1068,11 +1003,6 @@
             "name": "petsc"
         },
         {
-            "default": "double",
-            "description": "Floating point precision",
-            "name": "precision"
-        },
-        {
             "default": false,
             "description": "Enable functionality based on PUMI",
             "name": "pumi"
@@ -1150,12 +1080,6 @@
         },
         {
             "extension": "tar.gz",
-            "name": "4.7.0",
-            "sha256": "5e889493f5f79848f7b2d16afaae307c59880ac2a7ff2315551c60ca54717751",
-            "url": "https://bit.ly/mfem-4-7"
-        },
-        {
-            "extension": "tar.gz",
             "name": "4.6.0",
             "sha256": "5fa9465b5bec56bfb777a4d2826fba48d85fbace4aed8b64a2fd4059bf075b15",
             "url": "https://bit.ly/mfem-4-6"
@@ -1195,6 +1119,10 @@
             "name": "4.1.0",
             "sha256": "4c83fdcf083f8e2f5b37200a755db843cdb858811e25a8486ad36b2cbec0e11d",
             "url": "https://bit.ly/mfem-4-1"
+        },
+        {
+            "commit": "c55c80d17b82d80de04b849dd526e17044f8c99a",
+            "name": "4.0.1-xsdk"
         },
         {
             "extension": "tar.gz",

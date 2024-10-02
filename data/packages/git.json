@@ -67,6 +67,10 @@
             "name": "openssl"
         },
         {
+            "description": "The PCRE package contains Perl Compatible Regular Expression libraries.\nThese are useful for implementing regular expression pattern matching\nusing the same syntax and semantics as Perl 5.",
+            "name": "pcre"
+        },
+        {
             "description": "The PCRE2 package contains Perl Compatible Regular Expression libraries.\nThese are useful for implementing regular expression pattern matching\nusing the same syntax and semantics as Perl 5.",
             "name": "pcre2"
         },
@@ -153,6 +157,14 @@
             "name": "git-lfs"
         },
         {
+            "description": "The golang compiler and build environment",
+            "name": "go"
+        },
+        {
+            "description": "Old C-bootstrapped go to bootstrap real go",
+            "name": "go-bootstrap"
+        },
+        {
             "description": "HELICS is a general-purpose, modular, highly-scalable co-simulation\nframework that runs cross-platform (Linux, Windows, and Mac OS X) and\nsupports both event driven and time series simulation.",
             "name": "helics"
         },
@@ -181,10 +193,6 @@
             "name": "mosesdecoder"
         },
         {
-            "description": "nb is a command line and local web note\u2011taking, bookmarking, archiving,\nand knowledge base application.",
-            "name": "nb"
-        },
-        {
             "description": "nekRS is an open-source Navier Stokes solver based on the spectral\nelement method targeting classical processors and hardware accelerators\nlike GPUs",
             "name": "nekrs"
         },
@@ -209,10 +217,6 @@
             "name": "openvdb"
         },
         {
-            "description": "A minimal password manager following the UNIX philosphy.",
-            "name": "pass"
-        },
-        {
             "description": "C++ runtime system for parallellism and concurrency.",
             "name": "pika"
         },
@@ -225,7 +229,7 @@
             "name": "py-carputils"
         },
         {
-            "description": "CMake is an open-source, cross-platform family of tools designed to\nbuild, test and package software. Deprecated: use cmake instead.",
+            "description": "CMake is an open-source, cross-platform family of tools designed to\nbuild, test and package software",
             "name": "py-cmake"
         },
         {
@@ -334,8 +338,8 @@
         }
     ],
     "description": "Git is a free and open source distributed version control system\ndesigned to handle everything from small to very large projects with\nspeed and efficiency.\n",
-    "homepage": "https://git-scm.com",
-    "latest_version": "2.45.2",
+    "homepage": "http://git-scm.com",
+    "latest_version": "2.42.0",
     "maintainers": [
         "jennfshr"
     ],
@@ -346,67 +350,7 @@
             "destination": "",
             "name": "git-manpages",
             "placement": "git-manpages",
-            "version": "@2.45.2+man"
-        },
-        {
-            "destination": "",
-            "name": "git-manpages",
-            "placement": "git-manpages",
-            "version": "@2.45.1+man"
-        },
-        {
-            "destination": "",
-            "name": "git-manpages",
-            "placement": "git-manpages",
-            "version": "@2.44.2+man"
-        },
-        {
-            "destination": "",
-            "name": "git-manpages",
-            "placement": "git-manpages",
-            "version": "@2.44.1+man"
-        },
-        {
-            "destination": "",
-            "name": "git-manpages",
-            "placement": "git-manpages",
-            "version": "@2.43.5+man"
-        },
-        {
-            "destination": "",
-            "name": "git-manpages",
-            "placement": "git-manpages",
-            "version": "@2.43.4+man"
-        },
-        {
-            "destination": "",
-            "name": "git-manpages",
-            "placement": "git-manpages",
-            "version": "@2.42.3+man"
-        },
-        {
-            "destination": "",
-            "name": "git-manpages",
-            "placement": "git-manpages",
-            "version": "@2.42.2+man"
-        },
-        {
-            "destination": "",
-            "name": "git-manpages",
-            "placement": "git-manpages",
             "version": "@2.42.0+man"
-        },
-        {
-            "destination": "",
-            "name": "git-manpages",
-            "placement": "git-manpages",
-            "version": "@2.41.2+man"
-        },
-        {
-            "destination": "",
-            "name": "git-manpages",
-            "placement": "git-manpages",
-            "version": "@2.41.1+man"
         },
         {
             "destination": "",
@@ -418,37 +362,187 @@
             "destination": "",
             "name": "git-manpages",
             "placement": "git-manpages",
-            "version": "@2.40.3+man"
-        },
-        {
-            "destination": "",
-            "name": "git-manpages",
-            "placement": "git-manpages",
-            "version": "@2.40.2+man"
-        },
-        {
-            "destination": "",
-            "name": "git-manpages",
-            "placement": "git-manpages",
             "version": "@2.40.1+man"
         },
         {
             "destination": "",
             "name": "git-manpages",
             "placement": "git-manpages",
-            "version": "@2.39.5+man"
-        },
-        {
-            "destination": "",
-            "name": "git-manpages",
-            "placement": "git-manpages",
-            "version": "@2.39.4+man"
+            "version": "@2.40.0+man"
         },
         {
             "destination": "",
             "name": "git-manpages",
             "placement": "git-manpages",
             "version": "@2.39.3+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.39.2+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.39.1+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.38.5+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.38.3+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.38.1+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.37.7+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.37.5+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.37.4+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.36.6+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.36.3+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.35.8+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.35.6+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.35.5+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.34.8+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.34.6+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.34.5+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.33.8+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.33.6+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.33.5+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.32.7+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.32.5+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.32.4+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.31.8+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.31.6+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.31.5+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.30.9+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.30.7+man"
+        },
+        {
+            "destination": "",
+            "name": "git-manpages",
+            "placement": "git-manpages",
+            "version": "@2.30.6+man"
         }
     ],
     "variants": [
@@ -490,78 +584,138 @@
     ],
     "versions": [
         {
-            "name": "2.45.2",
-            "sha256": "98b26090ed667099a3691b93698d1e213e1ded73d36a2fde7e9125fce28ba234"
-        },
-        {
-            "name": "2.44.2",
-            "sha256": "f0655e81c5ecfeef7440aa4fcffa1c1a77eaccf764d6fe29579e9a06eac2cd04"
-        },
-        {
-            "name": "2.43.5",
-            "sha256": "324c3b85d668e6afe571b3502035848e4b349dead35188e2b8ab1b96c0cd45ff"
-        },
-        {
-            "name": "2.42.3",
-            "sha256": "f42a8e8f6c0add4516f9e4607554c8ad698161b7d721b82073fe315a59621961"
-        },
-        {
-            "name": "2.41.2",
-            "sha256": "481aa0a15aa37802880a6245b96c1570d7337c44700d5d888344cd6d43d85306"
-        },
-        {
-            "name": "2.40.3",
-            "sha256": "b3dc96b20edcdbe6bea7736ea55bb80babf683d126cc7f353ed4e3bc304cd7da"
-        },
-        {
-            "name": "2.39.5",
-            "sha256": "ca0ec03fb2696f552f37135a56a0242fa062bd350cb243dc4a15c86f1cafbc99"
-        }
-    ],
-    "versions_deprecated": [
-        {
-            "name": "2.45.1",
-            "sha256": "10acb581993061e616be9c5674469335922025a666318e0748cb8306079fef24"
-        },
-        {
-            "name": "2.44.1",
-            "sha256": "118214bb8d7ba971a62741416e757562b8f5451cefc087a407e91857897c92cc"
-        },
-        {
-            "name": "2.43.4",
-            "sha256": "bfd717dc31922f718232a25a929d199e26146df5e876fdf0ff90a7cc95fa06e2"
-        },
-        {
-            "name": "2.42.2",
-            "sha256": "3b24b712fa6e9a3da5b7d3e68b1854466905aadb93a43088a38816bcc3b9d043"
-        },
-        {
             "name": "2.42.0",
             "sha256": "34aedd54210d7216a55d642bbb4cfb22695b7610719a106bf0ddef4c82a8beed"
-        },
-        {
-            "name": "2.41.1",
-            "sha256": "06d2a681aa7f1bdb6e7f7101631407e7412faa534e1fa0eb6fdcb9975d867d31"
         },
         {
             "name": "2.41.0",
             "sha256": "c4a6a3dd1827895a80cbd824e14d94811796ae54037549e0da93f7b84cb45b9f"
         },
         {
-            "name": "2.40.2",
-            "sha256": "1dcdfbb4eeb3ef2c2d9154f888d4a6f0cf19f19acad76f0d32e725e7bc147753"
-        },
-        {
             "name": "2.40.1",
             "sha256": "55511f10f3b1cdf5db4e0e3dea61819dfb67661b0507a5a2b061c70e4f87e14c"
         },
         {
-            "name": "2.39.4",
-            "sha256": "b895ed2b5d98fd3dcfde5807f16d5fb17c4f83044e7d08e597ae13de222f0d26"
-        },
-        {
             "name": "2.39.3",
             "sha256": "2f9aa93c548941cc5aff641cedc24add15b912ad8c9b36ff5a41b1a9dcad783e"
+        },
+        {
+            "name": "2.38.5",
+            "sha256": "09392caf6ff296341022595a175d8b075bc98b6a82f6227d3bd21e36a2a812c3"
+        },
+        {
+            "name": "2.37.7",
+            "sha256": "2108fa57b74add4300b8960e9404e0ed3e5f0efda7470450c67c67e8ab7616d5"
+        },
+        {
+            "name": "2.36.6",
+            "sha256": "a8c09f46d5d16a8d8f19e8089aeb408d95d8097af03de297061e83a2c74890dd"
+        },
+        {
+            "name": "2.35.8",
+            "sha256": "3a675e0128a7153e1492bbe14d08195d44b5916e6b8879addf94b1f4add77dca"
+        },
+        {
+            "name": "2.34.8",
+            "sha256": "10a6c233471d7d4439cd4004961a3f4ff7e6de308645a1074ec3522b8ea52c83"
+        },
+        {
+            "name": "2.33.8",
+            "sha256": "eafd10da9fdf86be0a79beb67c3537eead114f91836c685d5b9c969c961516ae"
+        },
+        {
+            "name": "2.32.7",
+            "sha256": "f09904d13a9bfca5fcb228c3caba1d4c17426dec0000bf67672af257b8a73db4"
+        },
+        {
+            "name": "2.31.8",
+            "sha256": "d2443e368b1394858a1040bd74dacfba46bce2cf3410ef3bc5089a703fc91e9a"
+        },
+        {
+            "name": "2.30.9",
+            "sha256": "b14b5f4ce1fe23ed78839664c7ba888fb5cedba3dd98d9f5a499a36fa3a4a2d8"
+        }
+    ],
+    "versions_deprecated": [
+        {
+            "name": "2.40.0",
+            "sha256": "ab37c343c0ad097282fd311ab9ca521ab3da836e5c4ed2093994f1b7f8575b09"
+        },
+        {
+            "name": "2.39.2",
+            "sha256": "fb6807d1eb4094bb2349ab97d203fe1e6c3eb28af73ea391decfbd3a03c02e85"
+        },
+        {
+            "name": "2.39.1",
+            "sha256": "ae8d3427e4ccd677abc931f16183c0ec953e3bfcd866493601351e04a2b97398"
+        },
+        {
+            "name": "2.38.3",
+            "sha256": "ba8f1c56763cfde0433657b045629a4c55047c243eb3091d39dea6f281c8d8e1"
+        },
+        {
+            "name": "2.38.1",
+            "sha256": "620ed3df572a34e782a2be4c7d958d443469b2665eac4ae33f27da554d88b270"
+        },
+        {
+            "name": "2.37.5",
+            "sha256": "5c11f90652afee6c77ef7ddfc672facd4bc6f2596d9627df2f1780664b058b9a"
+        },
+        {
+            "name": "2.37.4",
+            "sha256": "a638c9bf9e45e8d48592076266adaa9b7aa272a99ee2aee2e166a649a9ba8a03"
+        },
+        {
+            "name": "2.36.3",
+            "sha256": "0c831b88b0534f08051d1287505dfe45c367108ee043de6f1c0502711a7aa3a6"
+        },
+        {
+            "name": "2.35.6",
+            "sha256": "6bd51e0487028543ba40fe3d5b33bd124526a7f7109824aa7f022e79edf93bd1"
+        },
+        {
+            "name": "2.35.5",
+            "sha256": "2cca63fe7bebb5b4bf8efea7b46b12bb89c16ff9711b6b6d845928501d00d0a3"
+        },
+        {
+            "name": "2.34.6",
+            "sha256": "01c0ae4161a07ffeb89cfb8bda564eb2dcb83b45b678cf2930cdbdd8e81784d0"
+        },
+        {
+            "name": "2.34.5",
+            "sha256": "26831c5e48a8c2bf6a4fede1b38e1e51ffd6dad85952cf69ac520ebd81a5ae82"
+        },
+        {
+            "name": "2.33.6",
+            "sha256": "76f6a64a198bec38e83044f97fb5a2dfa8404091df5a905404615d2a4c5ebfb7"
+        },
+        {
+            "name": "2.33.5",
+            "sha256": "d061ed97f890befaef18b4aad80a37b40db90bcf24113c42765fee157a69c7de"
+        },
+        {
+            "name": "2.32.5",
+            "sha256": "9982e17209cf4a385ce4a6167863cdd29f68e425d4249aac186434dc3536fe5f"
+        },
+        {
+            "name": "2.32.4",
+            "sha256": "4c791b8e1d96948c9772efc21373ab9b3187af42cdebc3bcbb1a06d794d4e494"
+        },
+        {
+            "name": "2.31.6",
+            "sha256": "73971208dccdd6d87639abe50ee3405421ec4ba05dec9f8aa90b4e7f1985e15c"
+        },
+        {
+            "name": "2.31.5",
+            "sha256": "2d4197660322937cc44cab5742deef727ba519ef7405455e33100912e3b019f2"
+        },
+        {
+            "name": "2.30.7",
+            "sha256": "c98bf38a296f23ad5619a097df928044b31859df8f89b3ae5a8ea109d3ebd88e"
+        },
+        {
+            "name": "2.30.6",
+            "sha256": "a6130b38843a5c80e80fb4f7ac4864d361cbf103d262b64e267264e49440d24a"
         }
     ]
 }

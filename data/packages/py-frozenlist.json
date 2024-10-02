@@ -34,10 +34,6 @@
             "name": "py-aiosignal"
         },
         {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
-        },
-        {
             "description": "Ray provides a simple, universal API for building distributed\napplications.",
             "name": "py-ray"
         }

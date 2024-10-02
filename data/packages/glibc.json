@@ -71,12 +71,7 @@
             "name": "texinfo"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "ROOT is a data analysis framework.",
-            "name": "root"
-        }
-    ],
+    "dependent_to": [],
     "description": "The GNU C Library provides many of the low-level components used\ndirectly by programs written in the C or C++ languages.\n",
     "homepage": "https://www.gnu.org/software/libc/",
     "latest_version": "2.39",

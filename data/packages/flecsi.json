@@ -64,21 +64,6 @@
         },
         {
             "description": null,
-            "name": "%clang@:6",
-            "spec": "+cuda ^cuda@12.2:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@:7.2",
-            "spec": "+cuda ^cuda@12.4:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "arch=None-None-ppc64le",
-            "spec": "+cuda ^cuda@12.5:~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%intel@:12.0",
             "spec": "+cuda ^cuda@5.5:~allow-unsupported-compilers"
         },
@@ -234,11 +219,6 @@
         },
         {
             "description": null,
-            "name": "%intel@2021:",
-            "spec": "+cuda ^cuda@:11.4.0~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
             "name": "%clang@13:",
             "spec": "+cuda ^cuda@:11.5~allow-unsupported-compilers"
         },
@@ -265,32 +245,12 @@
         {
             "description": null,
             "name": "%clang@16:",
-            "spec": "+cuda ^cuda@:12.1~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@17:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
         },
         {
             "description": null,
             "name": "%gcc@13:",
             "spec": "+cuda ^cuda@:12.3~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@18:",
-            "spec": "+cuda ^cuda@:12.5~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%clang@19:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
-        },
-        {
-            "description": null,
-            "name": "%gcc@14:",
-            "spec": "+cuda ^cuda@:12.6~allow-unsupported-compilers"
         },
         {
             "description": null,
@@ -378,14 +338,89 @@
             "spec": "+rocm"
         },
         {
+            "description": null,
+            "name": "^caliper@2.6",
+            "spec": "@2.0: caliper_detail=high"
+        },
+        {
+            "description": null,
+            "name": "^caliper@2.7",
+            "spec": "@2.0: caliper_detail=high"
+        },
+        {
+            "description": null,
+            "name": "^caliper@2.6",
+            "spec": "@2.0: caliper_detail=low"
+        },
+        {
+            "description": null,
+            "name": "^caliper@2.7",
+            "spec": "@2.0: caliper_detail=low"
+        },
+        {
+            "description": null,
+            "name": "^caliper@2.6",
+            "spec": "@2.0: caliper_detail=medium"
+        },
+        {
+            "description": null,
+            "name": "^caliper@2.7",
+            "spec": "@2.0: caliper_detail=medium"
+        },
+        {
+            "description": null,
+            "name": "backend=charmpp",
+            "spec": "@2.0:"
+        },
+        {
+            "description": null,
+            "name": "backend=serial",
+            "spec": "@2.0:"
+        },
+        {
             "description": "flecsi: HPX backend doesn't support HDF5",
             "name": "+hdf5",
+            "spec": "@2: backend=hpx"
+        },
+        {
+            "description": null,
+            "name": "+cuda",
+            "spec": "@:1.4"
+        },
+        {
+            "description": null,
+            "name": "+kokkos",
+            "spec": "@:1.4"
+        },
+        {
+            "description": null,
+            "name": "+openmp",
+            "spec": "@:1.4"
+        },
+        {
+            "description": null,
+            "name": "+rocm",
+            "spec": "@:1.4"
+        },
+        {
+            "description": null,
+            "name": "backend=legion",
+            "spec": "@:1.4"
+        },
+        {
+            "description": null,
+            "name": "+tutorial",
             "spec": "backend=hpx"
         },
         {
             "description": null,
             "name": "^legion conduit=none",
             "spec": "backend=legion"
+        },
+        {
+            "description": null,
+            "name": "+unit_tests",
+            "spec": "~flog"
         }
     ],
     "dependencies": [
@@ -396,6 +431,10 @@
         {
             "description": "Caliper is a program instrumentation and performance measurement\nframework. It is designed as a performance analysis toolbox in a\nlibrary, allowing one to bake performance analysis capabilities directly\ninto applications and activate them at runtime.",
             "name": "caliper"
+        },
+        {
+            "description": "Cinch is a set of utilities and configuration options designed to make\ncmake builds easy to use and manage.",
+            "name": "cinch"
         },
         {
             "description": "A cross-platform, open-source build system. CMake is a family of tools\ndesigned to build, test and package software.",
@@ -412,6 +451,10 @@
         {
             "description": "GNU Make is a tool which controls the generation of executables and\nother non-source files of a program from the program's source files.",
             "name": "gmake"
+        },
+        {
+            "description": "Google test framework for C++. Also called gtest.",
+            "name": "googletest"
         },
         {
             "description": "Graph Visualization Software",
@@ -442,6 +485,10 @@
             "name": "legion"
         },
         {
+            "description": "The LLVM Project is a collection of modular and reusable compiler and\ntoolchain technologies. Despite its name, LLVM has little to do with\ntraditional virtual machines, though it does provide helpful libraries\nthat can be used to build them. The name \"LLVM\" itself is not an\nacronym; it is the full name of the project.",
+            "name": "llvm"
+        },
+        {
             "description": "Toolkit for the construction of highly optimized compilers, optimizers,\nand run-time environments.",
             "name": "llvm-amdgpu"
         },
@@ -470,6 +517,14 @@
             "name": "parmetis"
         },
         {
+            "description": "pFUnit is a unit testing framework enabling JUnit-like testing of serial\nand MPI-parallel software written in Fortran.",
+            "name": "pfunit"
+        },
+        {
+            "description": "Gcovr provides a utility for managing the use of the GNU gcov utility\nand generating summarized code coverage results. This command is\ninspired by the Python coverage.py package, which provides a similar\nutility for Python.",
+            "name": "py-gcovr"
+        },
+        {
             "description": "A docutils-compatibility bridge to CommonMark. This allows you to write\nCommonMark inside of Docutils & Sphinx projects. Documentation is\navailable on Read the Docs: http://recommonmark.readthedocs.org",
             "name": "py-recommonmark"
         },
@@ -480,9 +535,17 @@
         {
             "description": "ReadTheDocs.org theme for Sphinx.",
             "name": "py-sphinx-rtd-theme"
+        },
+        {
+            "description": "The Python programming language.",
+            "name": "python"
         }
     ],
     "dependent_to": [
+        {
+            "description": "Flecsale is an ALE code based on FleCSI",
+            "name": "flecsale"
+        },
         {
             "description": "FleCSPH is a multi-physics compact application that exercises FleCSI\nparallel data structures for tree-based particle methods. In particular,\nFleCSPH implements a smoothed-particle hydrodynamics (SPH) solver for\nthe solution of Lagrangian problems in astrophysics and cosmology.\nFleCSPH includes support for gravitational forces using the fast\nmultipole method (FMM).",
             "name": "flecsph"
@@ -494,9 +557,9 @@
     ],
     "description": "FleCSI is a compile-time configurable framework designed to support\nmulti-physics application development. As such, FleCSI attempts to\nprovide a very general set of infrastructure design patterns that can be\nspecialized and extended to suit the needs of a broad variety of solver\nand data requirements. Current support includes multi-dimensional mesh\ntopology, mesh geometry, and mesh adjacency information.\n",
     "homepage": "http://flecsi.org/",
-    "latest_version": "2.3.0",
+    "latest_version": "2.2.1",
     "maintainers": [
-        "opensdh",
+        "ktsai7",
         "rbberger"
     ],
     "name": "flecsi",
@@ -530,6 +593,11 @@
         },
         {
             "default": false,
+            "description": "Enable coverage build",
+            "name": "coverage"
+        },
+        {
+            "default": false,
             "description": "Build with CUDA",
             "name": "cuda"
         },
@@ -540,8 +608,33 @@
         },
         {
             "default": false,
+            "description": "Build Backend with Debug Mode",
+            "name": "debug_backend"
+        },
+        {
+            "default": false,
+            "description": "Disable FindPackageMetis",
+            "name": "disable_metis"
+        },
+        {
+            "default": false,
             "description": "Enable documentation",
             "name": "doc"
+        },
+        {
+            "default": false,
+            "description": "Enable doxygen",
+            "name": "doxygen"
+        },
+        {
+            "default": false,
+            "description": "Enable External Cinch",
+            "name": "external_cinch"
+        },
+        {
+            "default": false,
+            "description": "Build FleCSI Static Analyzer",
+            "name": "flecstan"
         },
         {
             "default": false,
@@ -587,14 +680,19 @@
             "default": true,
             "description": "Build shared libraries",
             "name": "shared"
+        },
+        {
+            "default": false,
+            "description": "Build FleCSI Tutorials",
+            "name": "tutorial"
+        },
+        {
+            "default": false,
+            "description": "Build with Unit Tests Enabled",
+            "name": "unit_tests"
         }
     ],
     "versions": [
-        {
-            "commit": "90bc8267fceb02060e54646f73b45d4252aef491",
-            "name": "2.3.0",
-            "tag": "v2.3.0"
-        },
         {
             "commit": "84b5b232aebab40610f57387778db80f6c8c84c5",
             "name": "2.2.1",
@@ -620,6 +718,11 @@
         {
             "branch": "develop",
             "name": "develop"
+        },
+        {
+            "commit": "ab974c3164056e6c406917c8ca771ffd43c5a031",
+            "name": "1.4.1",
+            "tag": "v1.4.1"
         }
     ]
 }

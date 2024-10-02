@@ -22,10 +22,6 @@
             "name": "dihydrogen"
         },
         {
-            "description": "toolkit containing machine learning algorithms and tools for creating\ncomplex software in C++ to solve real world problems",
-            "name": "dlib"
-        },
-        {
             "description": "gnina (pronounced NEE-na) is a molecular docking program with integrated\nsupport for scoring and optimizing ligands using convolutional neural\nnetworks.",
             "name": "gnina"
         },
@@ -80,7 +76,7 @@
     ],
     "description": "NVIDIA cuDNN is a GPU-accelerated library of primitives for deep neural\nnetworks\n",
     "homepage": "https://developer.nvidia.com/cudnn",
-    "latest_version": "9.2.0.82-12",
+    "latest_version": "8.9.7.29-12",
     "maintainers": [
         "adamjstewart",
         "bvanessen"
@@ -96,14 +92,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "9.2.0.82-12",
-            "sha256": "1362b4d437e37e92c9814c3b4065db5106c2e03268e22275a5869e968cee7aa8"
-        },
-        {
-            "name": "9.2.0.82-11",
-            "sha256": "99dcb3fa2bf7eed7f35b0f8e58e7d1f04d9a52e01e382efc1de16fed230d3b26"
-        },
         {
             "name": "8.9.7.29-12",
             "sha256": "475333625c7e42a7af3ca0b2f7506a106e30c93b1aa0081cd9c13efb6e21e3bb"

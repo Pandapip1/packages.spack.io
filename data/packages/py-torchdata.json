@@ -68,7 +68,7 @@
     ],
     "description": "Composable data loading modules for PyTorch.\n",
     "homepage": "https://github.com/pytorch/data",
-    "latest_version": "0.8.0",
+    "latest_version": "0.7.1",
     "maintainers": [
         "adamjstewart"
     ],
@@ -86,10 +86,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "0.8.0",
-            "sha256": "d5d27b264e79d7d00ad4998f14d097b770332d979672dceb6d038caf204f1208"
         },
         {
             "name": "0.7.1",

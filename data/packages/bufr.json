@@ -1,13 +1,7 @@
 {
     "aliases": [],
     "build_system": "CMakePackage",
-    "conflicts": [
-        {
-            "description": "bufr: Requires oneapi 2024.2 or later",
-            "name": "%oneapi@:2024.1",
-            "spec": ""
-        }
-    ],
+    "conflicts": [],
     "dependencies": [
         {
             "description": "A cross-platform, open-source build system. CMake is a family of tools\ndesigned to build, test and package software.",
@@ -48,10 +42,6 @@
     ],
     "dependent_to": [
         {
-            "description": "The NOAA bufr-query Library can be used to read NCEP and WMO formated\nBUFR files using a simple interface that does not require the user to\nknow the details of the BUFR format. Detailed documentation for the BUFR\nLibrary can be found at https://bufr-\nquery.readthedocs.io/en/latest/index.html",
-            "name": "bufr-query"
-        },
-        {
             "description": "Statistical tool that matches up grids with either gridded analyses or\npoint observations and applies configurable methods to compute\nstatistics and diagnostics",
             "name": "met"
         },
@@ -62,7 +52,7 @@
     ],
     "description": "The NOAA bufr library contains subroutines, functions and other\nutilities that can be used to read (decode) and write (encode) data in\nBUFR, which is a WMO standard format for the exchange of meteorological\ndata. This is part of the NCEPLIBS project. The library also includes a\nPython interface.\n",
     "homepage": "https://noaa-emc.github.io/NCEPLIBS-bufr",
-    "latest_version": "12.1.0",
+    "latest_version": "12.0.1",
     "maintainers": [
         "AlexanderRichert-NOAA",
         "Hang-Lei-NOAA",
@@ -123,33 +113,19 @@
         },
         {
             "default": false,
-            "description": "Enable Python interface",
+            "description": "Enable Python interface?",
             "name": "python"
         },
         {
             "default": true,
             "description": "Build shared libraries",
             "name": "shared"
-        },
-        {
-            "default": "none",
-            "description": "Path to test files",
-            "name": "test_files"
-        },
-        {
-            "default": true,
-            "description": "Build utilities",
-            "name": "utils"
         }
     ],
     "versions": [
         {
             "branch": "develop",
             "name": "develop"
-        },
-        {
-            "name": "12.1.0",
-            "sha256": "b5eae61b50d4132b2933b6e6dfc607e5392727cdc4f46ec7a94a19109d91dcf3"
         },
         {
             "name": "12.0.1",

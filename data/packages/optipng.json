@@ -20,7 +20,7 @@
     ],
     "dependent_to": [],
     "description": " OptiPNG is a PNG optimizer that recompresses image files to a smaller\nsize, without losing any information. This program also converts\nexternal formats (BMP, GIF, PNM and TIFF) to optimized PNG, and performs\nPNG integrity checks and corrections.\n",
-    "homepage": "https://optipng.sourceforge.net/",
+    "homepage": "http://optipng.sourceforge.net/",
     "latest_version": "0.7.7",
     "maintainers": [],
     "name": "optipng",

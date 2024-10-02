@@ -70,10 +70,6 @@
             "name": "py-gradio-client"
         },
         {
-            "description": "Python library with Neural Networks for Image Segmentation based on\nPyTorch.",
-            "name": "py-segmentation-models-pytorch"
-        },
-        {
             "description": "(Unofficial) PyTorch Image Models.",
             "name": "py-timm"
         },
@@ -88,7 +84,7 @@
     ],
     "description": "This library allows anyone to work with the Hub repositories: you can\nclone them, create them and upload your models to them.\n",
     "homepage": "https://github.com/huggingface/huggingface_hub",
-    "latest_version": "0.24.6",
+    "latest_version": "0.19.4",
     "maintainers": [],
     "name": "py-huggingface-hub",
     "patches": [],
@@ -106,14 +102,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.24.6",
-            "sha256": "cc2579e761d070713eaa9c323e3debe39d5b464ae3a7261c39a9195b27bb8000"
-        },
-        {
-            "name": "0.23.4",
-            "sha256": "35d99016433900e44ae7efe1c209164a5a81dbbcd53a52f99c281dcd7ce22431"
-        },
         {
             "name": "0.19.4",
             "sha256": "176a4fc355a851c17550e7619488f383189727eab209534d7cef2114dae77b22"

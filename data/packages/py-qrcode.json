@@ -36,7 +36,9 @@
     "description": "Generate QR codes\n",
     "homepage": "https://github.com/lincolnloop/python-qrcode",
     "latest_version": "7.3.1",
-    "maintainers": [],
+    "maintainers": [
+        "sethrj"
+    ],
     "name": "py-qrcode",
     "patches": [],
     "resources": [],

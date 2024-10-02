@@ -25,7 +25,7 @@
     "dependent_to": [],
     "description": " OpenResty is a full-fledged web application server by bundling the\nstandard nginx core, lots of 3rd-party nginx modules, as well as most of\ntheir external dependencies.\n",
     "homepage": "https://github.com/openresty",
-    "latest_version": "1.25.3.1",
+    "latest_version": "1.15.8.2",
     "maintainers": [],
     "name": "openresty",
     "patches": [],
@@ -38,10 +38,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.25.3.1",
-            "sha256": "32ec1a253a5a13250355a075fe65b7d63ec45c560bbe213350f0992a57cd79df"
-        },
         {
             "name": "1.15.8.2",
             "sha256": "bf92af41d3ad22880047a8b283fc213d59c7c1b83f8dae82e50d14b64d73ac38"

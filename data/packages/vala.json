@@ -42,14 +42,6 @@
         {
             "description": "gexiv2 is a GObject wrapper around the Exiv2 photo metadata library. It\nallows for GNOME applications to easily inspect and update EXIF, IPTC,\nand XMP metadata in photo and video files of various formats.",
             "name": "gexiv2"
-        },
-        {
-            "description": "Widget sharing library for XFCE4",
-            "name": "libxfce4ui"
-        },
-        {
-            "description": "Libxfce4util common non-GTK+ utilities among the Xfce applications.",
-            "name": "libxfce4util"
         }
     ],
     "description": "Vala is a programming language that aims to bring modern programming\nlanguage features to GNOME developers without imposing any additional\nruntime requirements and without using a different ABI compared to\napplications and libraries written in C.\n",

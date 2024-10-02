@@ -134,6 +134,10 @@
             "name": "dxt-explorer"
         },
         {
+            "description": "GEOPM is an extensible power management framework targeting HPC. The\nGEOPM package provides libgeopm, libgeopmpolicy and applications\ngeopmctl and geopmpolicy, as well as tools for postprocessing. GEOPM is\ndesigned to be extended for new control algorithms and new hardware\npower management features via its plugin infrastructure. Note: GEOPM\ninterfaces with hardware using Model Specific Registers (MSRs). For\npropper usage make sure MSRs are made available directly or via the msr-\nsafe kernel module by your administrator.",
+            "name": "geopm"
+        },
+        {
             "description": "The Global Extensible Open Power Manager (GEOPM) Runtime is designed to\nenhance energy efficiency of applications through active hardware\nconfiguration.",
             "name": "geopm-runtime"
         },
@@ -144,10 +148,6 @@
         {
             "description": "HiCOPS is a software framework for accelerating database peptide search\nworkflows on supercomputers. HiCOPS provided algorithm-independent\nparallelizations and optimizations can be extended into new HPC database\nsearch algorithms or scalably accelerate the existing ones.",
             "name": "hicops"
-        },
-        {
-            "description": "HybPiper was designed for targeted sequence capture, in which DNA\nsequencing libraries are enriched for gene regions of interest,\nespecially for phylogenetics. HybPiper is a suite of Python scripts that\nwrap and connect bioinformatics tools in order to extract target\nsequences from high-throughput DNA sequencing reads",
-            "name": "hybpiper"
         },
         {
             "description": "ldsc is a command line tool for estimating heritability and genetic\ncorrelation from GWAS summary statistics. ldsc also computes LD scores",
@@ -164,10 +164,6 @@
         {
             "description": "PyTorch implementation for the climate segmentation benchmark, based on\nthe Exascale Deep Learning for Climate Analytics",
             "name": "mlperf-deepcam"
-        },
-        {
-            "description": "Advanced Profiling and Analytics for AMD Hardware",
-            "name": "omniperf"
         },
         {
             "description": "OpenTURNS is a scientific C++ and Python library featuring an internal\ndata model and algorithms dedicated to the treatment of uncertainties.\nThe main goal of this library is to provide all functionalities needed\nto treat uncertainties in studies with industrial applications. Targeted\nusers are all engineers who want to introduce the probabilistic\ndimension in their so far deterministic studies.",
@@ -234,16 +230,8 @@
             "name": "py-antspyx"
         },
         {
-            "description": "Anvi\u2019o is a comprehensive platform that brings together many aspects of\ntoday\u2019s cutting-edge computational strategies of data-enabled\nmicrobiology, including genomics, metagenomics, metatranscriptomics,\npangenomics, metapangenomics, phylogenomics, and microbial population\ngenetics in an integrated and easy-to-use fashion through extensive\ninteractive visualization capabilities.",
-            "name": "py-anvio"
-        },
-        {
             "description": "ArcGIS API for Python.",
             "name": "py-arcgis"
-        },
-        {
-            "description": "Autoregressive Conditional Heteroskedasticity (ARCH) and other tools for\nfinancial econometrics, written in Python (with Cython and/or Numba used\nto improve performance)",
-            "name": "py-arch"
         },
         {
             "description": "Python ARM Radar Toolkit. A growing collection of weather radar\nalgorithms and utilities build on top of the Scientific Python stack and\ndistributed under the 3-Clause BSD license. Py-ART is used by the\nAtmospheric Radiation Measurement (ARM) Climate Research Facility for\nworking with data from a number of precipitation and cloud radars, but\nhas been designed so that it can be used by others in the radar and\natmospheric communities to examine, processes, and analyse data from\nmany types of weather radars.",
@@ -422,10 +410,6 @@
             "name": "py-geoplot"
         },
         {
-            "description": "The Global Extensible Open Power Manager (GEOPM) Service provides a user\ninterface for accessing hardware telemetry and settings securely.",
-            "name": "py-geopmpy"
-        },
-        {
             "description": "GluonCV provides implementations of state-of-the-art (SOTA) deep\nlearning algorithms in computer vision. It aims to help engineers,\nresearchers, and students quickly prototype products, validate new ideas\nand learn computer vision.",
             "name": "py-gluoncv"
         },
@@ -440,10 +424,6 @@
         {
             "description": "GraphCast: Learning skillful medium-range global weather forecasting.",
             "name": "py-graphcast"
-        },
-        {
-            "description": "Cloud-native genomic dataframes and batch computing (Python API)",
-            "name": "py-hail"
         },
         {
             "description": "Hatchet is a performance tool for analyzing hierarchical performance\ndata using a graph-indexed Pandas dataframe.",
@@ -614,10 +594,6 @@
             "name": "py-openmim"
         },
         {
-            "description": "Up-to-date remote data access for pandas. Works for multiple versions of\npandas",
-            "name": "py-pandas-datareader"
-        },
-        {
             "description": "Panedr uses the Pyedr library to read a Gromacs EDR binary energy XDR\nfile and returns its contents as a pandas dataframe",
             "name": "py-panedr"
         },
@@ -698,14 +674,6 @@
             "name": "py-pyomo"
         },
         {
-            "description": "Sequence Elements Enrichment Analysis (SEER), python implementation",
-            "name": "py-pyseer"
-        },
-        {
-            "description": "Python bindings for Apache Spark",
-            "name": "py-pyspark"
-        },
-        {
             "description": "RDT is a Python library used to transform data for data science\nlibraries and preserve the transformations in order to revert them as\nneeded.",
             "name": "py-rdt"
         },
@@ -724,6 +692,10 @@
         {
             "description": "Scanpy is a scalable toolkit for analyzing single-cell gene expression\ndata built jointly with anndata.",
             "name": "py-scanpy"
+        },
+        {
+            "description": "A set of python modules for machine learning and data mining.",
+            "name": "py-scikit-learn"
         },
         {
             "description": "The SDMetrics library provides a set of dataset-agnostic tools for\nevaluating the quality of a synthetic database by comparing it to the\nreal database that it is modeled after.",
@@ -758,12 +730,12 @@
             "name": "py-tbparse"
         },
         {
-            "description": "TensorFlow Estimator is a high-level API that encapsulates model\ntraining, evaluation, prediction, and exporting.",
-            "name": "py-tensorflow-estimator"
-        },
-        {
             "description": "Python framework for doing ancestral sequence reconstruction.",
             "name": "py-topiary-asr"
+        },
+        {
+            "description": "Graph Neural Network Library for PyTorch.",
+            "name": "py-torch-geometric"
         },
         {
             "description": "TorchGeo: datasets, samplers, transforms, and pre-trained models for\ngeospatial data.",
@@ -806,10 +778,6 @@
             "name": "py-xgboost"
         },
         {
-            "description": "Python library to read and process pulsar data in several different\nformats",
-            "name": "py-your"
-        },
-        {
             "description": "scalable pythonic model fitting for high energy physics",
             "name": "py-zfit"
         },
@@ -844,10 +812,9 @@
     ],
     "description": "pandas is a fast, powerful, flexible and easy to use open source data\nanalysis and manipulation tool, built on top of the Python programming\nlanguage.\n",
     "homepage": "https://pandas.pydata.org/",
-    "latest_version": "2.2.3",
+    "latest_version": "2.2.2",
     "maintainers": [
-        "adamjstewart",
-        "rgommers"
+        "adamjstewart"
     ],
     "name": "py-pandas",
     "patches": [],
@@ -870,10 +837,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "2.2.3",
-            "sha256": "4f18ba62b61d7e192368b84517265a99b4d7ee8912f8708660fb4a366cc82667"
-        },
         {
             "name": "2.2.2",
             "sha256": "9e79019aba43cb4fda9e4d983f8e88ca0373adbb697ae9c6c43093218de28b54"

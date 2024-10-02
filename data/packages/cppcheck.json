@@ -31,7 +31,7 @@
         }
     ],
     "description": "A tool for static C/C++ code analysis.\n",
-    "homepage": "https://cppcheck.sourceforge.net/",
+    "homepage": "http://cppcheck.sourceforge.net/",
     "latest_version": "2.9",
     "maintainers": [
         "white238"

@@ -25,7 +25,7 @@
         }
     ],
     "description": "CQRlib -- ANSI C API for Quaternion Rotations\n",
-    "homepage": "https://cqrlib.sourceforge.net/",
+    "homepage": "http://cqrlib.sourceforge.net/",
     "latest_version": "1.1.2",
     "maintainers": [],
     "name": "cqrlib",

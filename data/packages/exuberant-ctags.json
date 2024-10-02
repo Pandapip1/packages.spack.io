@@ -25,7 +25,7 @@
         }
     ],
     "description": "The canonical ctags generator\n",
-    "homepage": "https://ctags.sourceforge.net",
+    "homepage": "http://ctags.sourceforge.net",
     "latest_version": "5.8",
     "maintainers": [],
     "name": "exuberant-ctags",

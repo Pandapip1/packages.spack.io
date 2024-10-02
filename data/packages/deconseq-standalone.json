@@ -10,7 +10,7 @@
     ],
     "dependent_to": [],
     "description": "The DeconSeq tool can be used to automatically detect and efficiently\nremove sequence contaminations from genomic and metagenomic datasets.\n",
-    "homepage": "https://deconseq.sourceforge.net",
+    "homepage": "http://deconseq.sourceforge.net",
     "latest_version": "0.4.3",
     "maintainers": [],
     "name": "deconseq-standalone",

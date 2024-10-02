@@ -20,6 +20,14 @@
             "name": "py-pip"
         },
         {
+            "description": "pytest: simple powerful testing with Python.",
+            "name": "py-pytest"
+        },
+        {
+            "description": "Pytest plugin for measuring coverage.",
+            "name": "py-pytest-cov"
+        },
+        {
             "description": "A Python utility that aids in the process of downloading, building,\nupgrading, installing, and uninstalling Python packages.",
             "name": "py-setuptools"
         },
@@ -78,10 +86,6 @@
             "name": "py-rasterstats"
         },
         {
-            "description": "Create masks of geospatial regions for arbitrary grids",
-            "name": "py-regionmask"
-        },
-        {
             "description": "TorchGeo: datasets, samplers, transforms, and pre-trained models for\ngeospatial data.",
             "name": "py-torchgeo"
         },
@@ -96,7 +100,7 @@
     ],
     "description": "Manipulation and analysis of geometric objects in the Cartesian plane.\n",
     "homepage": "https://github.com/shapely/shapely",
-    "latest_version": "2.0.6",
+    "latest_version": "2.0.4",
     "maintainers": [
         "adamjstewart"
     ],
@@ -124,14 +128,6 @@
         {
             "branch": "main",
             "name": "main"
-        },
-        {
-            "name": "2.0.6",
-            "sha256": "997f6159b1484059ec239cacaa53467fd8b5564dabe186cd84ac2944663b0bf6"
-        },
-        {
-            "name": "2.0.5",
-            "sha256": "bff2366bc786bfa6cb353d6b47d0443c570c32776612e527ee47b6df63fcfe32"
         },
         {
             "name": "2.0.4",
@@ -184,12 +180,11 @@
         {
             "name": "1.7.0",
             "sha256": "e21a9fe1a416463ff11ae037766fe410526c95700b9e545372475d2361cc951e"
-        }
-    ],
-    "versions_deprecated": [
+        },
         {
             "name": "1.6.4",
             "sha256": "b10bc4199cfefcf1c0e5d932eac89369550320ca4bdf40559328d85f1ca4f655"
         }
-    ]
+    ],
+    "versions_deprecated": []
 }

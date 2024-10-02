@@ -19,7 +19,7 @@
     "dependent_to": [],
     "description": "FlatBuffers C Compiler (flatcc), a memory-efficient serialization\nlibrary, is implemented as a standalone tool instead of extending\nGoogles flatc compiler in order to have a pure portable C library\nimplementation of the schema compiler that is designed to fail\ngraciously on abusive input in long running processes. It is also\nbelieved a C version may help provide schema parsing to other language\ninterfaces that find interfacing with C easier than C++.\n",
     "homepage": "https://github.com/dvidelabs/flatcc",
-    "latest_version": "0.6.1",
+    "latest_version": "0.5.3",
     "maintainers": [],
     "name": "flatcc",
     "patches": [],
@@ -55,10 +55,6 @@
         {
             "branch": "master",
             "name": "master"
-        },
-        {
-            "name": "0.6.1",
-            "sha256": "2533c2f1061498499f15acc7e0937dcf35bc68e685d237325124ae0d6c600c2b"
         },
         {
             "name": "0.5.3",

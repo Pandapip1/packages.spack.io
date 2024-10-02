@@ -36,20 +36,10 @@
     ],
     "description": "The sip module support for PyQt5.\n",
     "homepage": "https://www.riverbankcomputing.com/software/sip/",
-    "latest_version": "12.13.0",
+    "latest_version": "12.12.1",
     "maintainers": [],
     "name": "py-pyqt5-sip",
-    "patches": [
-        {
-            "level": 1,
-            "owner": "builtin.py-pyqt5-sip",
-            "reverse": false,
-            "sha256": "82a326749b145b30eda3f0040cd7099c4c06a57a5e9626687b0a983de1ebfc3e",
-            "url": "https://src.fedoraproject.org/rpms/python-pyqt5-sip/raw/841f58ce66df4dfcf11713e7adb6bd301403d5a8/f/afc99fa84d0d.patch",
-            "version": "@12.12:%gcc@14:",
-            "working_dir": "."
-        }
-    ],
+    "patches": [],
     "resources": [],
     "variants": [
         {
@@ -59,10 +49,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "12.13.0",
-            "sha256": "7f321daf84b9c9dbca61b80e1ef37bdaffc0e93312edae2cd7da25b953971d91"
-        },
         {
             "name": "12.12.1",
             "sha256": "8fdc6e0148abd12d977a1d3828e7b79aae958e83c6cb5adae614916d888a6b10"

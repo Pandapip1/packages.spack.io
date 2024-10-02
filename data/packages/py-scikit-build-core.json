@@ -98,10 +98,6 @@
             "name": "py-awkward-cpp"
         },
         {
-            "description": "Spatial indexer for geometries and morphologies",
-            "name": "py-brain-indexer"
-        },
-        {
             "description": "Python interface to Basix, a finite element definition and tabulation\nruntime library",
             "name": "py-fenics-basix"
         },
@@ -112,7 +108,7 @@
     ],
     "description": "scikit-build-core is a doubly improved build system generator for\nCPython C/C++/Fortran/Cython extensions. It features several\nimprovements over the classic scikit-build build system generator.\n",
     "homepage": "https://github.com/scikit-build/scikit-build-core",
-    "latest_version": "0.9.5",
+    "latest_version": "0.6.1",
     "maintainers": [
         "wdconinc"
     ],
@@ -132,18 +128,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "0.9.5",
-            "sha256": "2a4cb119cc968fe87ae05582979657cc0e7be45655798446eabbe490e61ce072"
-        },
-        {
-            "name": "0.8.2",
-            "sha256": "50ec24b9568c9aa6e27233deeb2978932bc79856212b30575cbfa4049655c436"
-        },
-        {
-            "name": "0.7.1",
-            "sha256": "565f33e15f5aa4514248c508ce3ce40fb6f406f8c3983e891561757b1c9f78ab"
-        },
         {
             "name": "0.6.1",
             "sha256": "392254a4ca7235c27a4be98cc24cd708f563171961ce37cff66120ebfda20b7a"

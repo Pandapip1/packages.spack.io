@@ -26,7 +26,7 @@
     ],
     "description": "Hydra is a process management system for starting parallel jobs. Hydra\nis designed to natively work with existing launcher daemons (such as\nssh, rsh, fork), as well as natively integrate with resource management\nsystems (such as slurm, pbs, sge).\n",
     "homepage": "https://www.mpich.org",
-    "latest_version": "4.2.1",
+    "latest_version": "4.2.0",
     "maintainers": [],
     "name": "hydra",
     "patches": [],
@@ -39,10 +39,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "4.2.1",
-            "sha256": "eb0f33f702aaf1ba54a4892a67b344cd815e0c51d1767327a675824490ab4b51"
-        },
         {
             "name": "4.2.0",
             "sha256": "d7159353d9d0576effba632668a3e6defde2067530ac5db4bae0a85a23dfda5a"

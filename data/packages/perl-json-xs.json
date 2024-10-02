@@ -20,12 +20,7 @@
             "name": "perl-types-serialiser"
         }
     ],
-    "dependent_to": [
-        {
-            "description": "JSON (JavaScript Object Notation) encoder/decoder",
-            "name": "perl-json"
-        }
-    ],
+    "dependent_to": [],
     "description": "JSON serialising/deserialising, done correctly and fast\n",
     "homepage": "https://metacpan.org/pod/JSON::XS",
     "latest_version": "4.03",

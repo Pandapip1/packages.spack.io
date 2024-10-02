@@ -19,7 +19,7 @@
     "dependent_to": [],
     "description": "MaSuRCA is whole genome assembly software. It combines the efficiency of\nthe de Bruijn graph and Overlap-Layout-Consensus (OLC) approaches.\n",
     "homepage": "http://www.genome.umd.edu/masurca.html",
-    "latest_version": "4.1.1",
+    "latest_version": "4.1.0",
     "maintainers": [],
     "name": "masurca",
     "patches": [
@@ -42,10 +42,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "4.1.1",
-            "sha256": "8758f6196bf7f57e24e08bda84abddfff08feb4cea204c0eb5e1cb9fe8198573"
-        },
         {
             "name": "4.1.0",
             "sha256": "15078e24c79fe5aabe42748d64f95d15f3fbd7708e84d88fc07c4b7f2e4b0902"

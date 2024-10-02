@@ -29,10 +29,6 @@
         },
         {
             "description": "Geant4 data for evaluated particle cross-sections on natural composition\nof elements",
-            "name": "g4nudexlib"
-        },
-        {
-            "description": "Geant4 data for evaluated particle cross-sections on natural composition\nof elements",
             "name": "g4particlexs"
         },
         {
@@ -54,10 +50,6 @@
         {
             "description": "Geant4 data from evaluated cross-sections in SAID data-base",
             "name": "g4saiddata"
-        },
-        {
-            "description": "Geant4 data for evaluated particle cross-sections on natural composition\nof elements",
-            "name": "g4urrpt"
         }
     ],
     "dependent_to": [
@@ -68,7 +60,7 @@
     ],
     "description": "A bundle package to hold Geant4 data packages\n",
     "homepage": "http://geant4.cern.ch",
-    "latest_version": "11.3.0",
+    "latest_version": "11.2.0",
     "maintainers": [
         "drbenmorgan"
     ],
@@ -83,12 +75,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "11.3.0"
-        },
-        {
-            "name": "11.2.2"
-        },
         {
             "name": "11.2.0"
         },

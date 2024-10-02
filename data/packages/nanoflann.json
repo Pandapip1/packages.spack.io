@@ -24,7 +24,7 @@
     ],
     "description": "a C++ header-only library for Nearest Neighbor (NN) search wih KD-trees.\n",
     "homepage": "https://github.com/jlblancoc/nanoflann",
-    "latest_version": "1.5.5",
+    "latest_version": "1.5.4",
     "maintainers": [],
     "name": "nanoflann",
     "patches": [],
@@ -52,10 +52,6 @@
         }
     ],
     "versions": [
-        {
-            "name": "1.5.5",
-            "sha256": "fd28045eabaf0e7f12236092f80905a1750e0e6b580bb40eadd64dc4f75d641d"
-        },
         {
             "name": "1.5.4",
             "sha256": "a7f64d0bdff42614c561e52680b16de46c0edac9719f21f935c5e1f8b0654afc"
